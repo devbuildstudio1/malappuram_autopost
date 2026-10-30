@@ -1,0 +1,109 @@
+{
+  "ai_label": false,
+  "collab_username": "manjeri.360",
+  "post_windows_ist": [
+    "06:30-09:30",
+    "12:30-14:30",
+    "18:30-21:45"
+  ],
+  "bgm": false,
+  "locations": {
+    "default": ""
+  },
+  "locations_note": "TODO owner: Instagram location ids for Malappuram places (keyword -> id, Malayalam and English keywords, e.g. \"manjeri\": \"<id>\", \"മഞ്ചേരി\": \"<id>\"); \"default\" = the Malappuram district id. Empty = no location tag.",
+  "carousel": false,
+  "first_comment": false,
+  "collab_malappuram_username": "malappuram.360",
+  "location_tags": true,
+  "stories_below_quota": 25,
+  "reel_design": "v4",
+  "reel_voice": {
+    "engine": "edge",
+    "voice": "ml-IN-MidhunNeural",
+    "rate": "+8%",
+    "pitch": "+0Hz",
+    "outro_voice": "en-IN-PrabhatNeural"
+  },
+  "reel_voice_alt": {
+    "engine": "google",
+    "voice": "ml-IN-Chirp3-HD-Charon",
+    "rate": 1.08,
+    "outro_voice": "en-IN-Chirp3-HD-Charon",
+    "note": "owner rule: Google Charon reads EVERY reel, ONLY inside Google's free allowance (1 million characters a month); the code stops at 700,000 (safety margin: some usage records can be lost when posting jobs save at the same time), then Midhun (edge-tts) until the 1st; Midhun also whenever Google fails. Never paid. Needs secret GOOGLE_TTS_API_KEY",
+    "free_chars_per_month": 700000
+  },
+  "prime_time": {
+    "enabled": true,
+    "windows": [
+      [
+        "09:00",
+        "12:00"
+      ],
+      [
+        "18:00",
+        "21:30"
+      ]
+    ],
+    "max_wait_hours": 12,
+    "note": "owner rule: non-urgent reels wait for the high-view times (9-12 and 18-21:30 IST; re-check with this page's own insights); urgent news posts at once; nothing is ever dropped - a reel that has waited max_wait_hours posts at once"
+  },
+  "reel_punch": false,
+  "reel_max_seconds": 60,
+  "reel_punch_note": "every reel opens with a spoken punch line (yellow number + headline) while the big headline is on screen",
+  "reach": {
+    "note": "each switch can be turned off here without code changes",
+    "script_max_words": 105,
+    "caption_full_details": true,
+    "english_search_line": true,
+    "hashtag_pattern": true,
+    "district_tag": "#Malappuram",
+    "broad_tag": "#MalappuramNews",
+    "extra_tag": "#Kerala",
+    "search_suffix": "Malappuram news",
+    "topic_tags": {
+      "power_cut": "#PowerCut",
+      "crime": "#CrimeNews",
+      "accident": "#Accident",
+      "civic": "#CivicIssues",
+      "weather": "#Rain",
+      "jobs": "#Jobs",
+      "education": "#Education",
+      "temple": "#Temple",
+      "politics": "#Politics",
+      "poultry_agri": "#Farmers",
+      "sports_culture": "#Sports",
+      "other": "#MalayalamNews"
+    },
+    "place_tags": {
+      "മഞ്ചേരി": "#Manjeri",
+      "തിരൂരങ്ങാടി": "#Tirurangadi",
+      "ചെമ്മാട": "#Tirurangadi",
+      "തിരൂ": "#Tirur",
+      "പെരിന്തൽമണ്ണ": "#Perinthalmanna",
+      "പൊന്നാനി": "#Ponnani",
+      "നിലമ്പൂ": "#Nilambur",
+      "കോട്ടക്ക": "#Kottakkal",
+      "വളാഞ്ചേരി": "#Valanchery",
+      "താനൂ": "#Tanur",
+      "പരപ്പനങ്ങാടി": "#Parappanangadi",
+      "കൊണ്ടോട്ടി": "#Kondotty",
+      "കരിപ്പൂ": "#Karipur",
+      "വേങ്ങര": "#Vengara",
+      "എടപ്പാ": "#Edappal",
+      "കുറ്റിപ്പുറ": "#Kuttippuram",
+      "ചങ്ങരംകുള": "#Changaramkulam",
+      "മങ്കട": "#Mankada",
+      "കാളികാവ": "#Kalikavu",
+      "വഴിക്കടവ": "#Vazhikkadavu",
+      "എടക്കര": "#Edakkara",
+      "വണ്ടൂ": "#Wandoor",
+      "അരീക്കോട": "#Areekode",
+      "എടവണ്ണ": "#Edavanna",
+      "പാണ്ടിക്കാട": "#Pandikkad",
+      "കാടാമ്പുഴ": "#Kadampuzha",
+      "തിരുനാവായ": "#Thirunavaya"
+    },
+    "caption_all_facts": true,
+    "place_tags_note": "Malayalam stem -> hashtag. Stems stop before a final chillu (ർ ൽ ൾ) because it changes with suffixes; longer names first (the first match wins)."
+  }
+}

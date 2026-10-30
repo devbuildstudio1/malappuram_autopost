@@ -1,0 +1,26 @@
+[
+ {
+  "name": "മാധ്യമം മലപ്പുറം",
+  "url": "https://www.madhyamam.com/kerala/local-news/malappuram",
+  "link_regex": "href=\"((?:https://www\\.madhyamam\\.com)?/kerala/local-news/malappuram/(?:[a-z-]+/)?[a-z0-9-]+-\\d{6,})\"",
+  "limit": 40
+ },
+ {
+  "name": "ട്വന്റിഫോർ മലപ്പുറം",
+  "url": "https://www.twentyfournews.com/tag/malappuram",
+  "link_regex": "href=\"(https://www\\.twentyfournews\\.com/20\\d\\d/\\d\\d/\\d\\d/[a-z0-9-]+\\.html)\"",
+  "limit": 30
+ },
+ {
+  "name": "സമകാലിക മലയാളം മലപ്പുറം",
+  "url": "https://www.samakalikamalayalam.com/topic/malappuram",
+  "link_regex": "href=\"(https://www\\.samakalikamalayalam\\.com/news/kerala/[a-z0-9-]{15,})\"",
+  "limit": 30
+ },
+ {
+  "name": "ജനയുഗം മലപ്പുറം",
+  "url": "https://janayugomonline.com/category/district/malappuram/",
+  "link_regex": "href=\"(https://janayugomonline\\.com/(?!category/|tag/|author/|page/)[a-z0-9-]{25,}/)\"",
+  "limit": 30
+ }
+]
