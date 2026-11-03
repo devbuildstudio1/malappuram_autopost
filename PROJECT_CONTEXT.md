@@ -80,4 +80,5 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-10-30 | `0ed08f2` | Initial commit: Malappuram 360 autopost pipeline |
 <!-- recent-changes:end -->
