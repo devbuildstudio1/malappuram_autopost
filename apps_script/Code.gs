@@ -1,5 +1,5 @@
 /**
- * News360 bridge – runs in the OWNER_EMAIL_PLACEHOLDER@gmail.com Google account.
+ * News360 bridge – runs in the devbuildstudio1@gmail.com Google account.
  * The GitHub posting job talks to this web app to:
  *   - read the queue of stories from the "News360 Log" Sheet
  *   - get the Instagram tokens (kept here, refreshed automatically every week)
@@ -9,10 +9,10 @@
  * Setup (once): see README.md in the GitHub repository, section "Apps Script".
  * Script properties used: BRIDGE_KEY, IG_TOKEN_MANJERI, IG_TOKEN_MALAPPURAM, (auto) VOICE_FOLDER_ID
  */
-var SHEET_ID = 'SHEET_ID_PLACEHOLDER';          // TODO owner: ID of the new Malappuram 360 Google Sheet (from its URL)
+var SHEET_ID = '13jDHoYVRHSGxLAOCEtIgQlwPzmPkICisUiSQkBrglmI';          // TODO owner: ID of the new Malappuram 360 Google Sheet (from its URL)
 var TAB = 'News';
-var ROOT_FOLDER_ID = 'ROOT_FOLDER_ID_PLACEHOLDER'; // TODO owner: ID of the Drive folder for docs, prompt files and voices
-var OWNER_EMAIL = 'OWNER_EMAIL_PLACEHOLDER@gmail.com';   // TODO owner: Gmail account that runs this script
+var ROOT_FOLDER_ID = '1aGV7hcG9mOfek9ONh2lqLyfM4n2qgM_1'; // TODO owner: ID of the Drive folder for docs, prompt files and voices
+var OWNER_EMAIL = 'devbuildstudio1@gmail.com';   // TODO owner: Gmail account that runs this script
 var SHEET_LINK = 'https://docs.google.com/spreadsheets/d/' + SHEET_ID + '/edit';
 
 // 1-based column numbers in the News tab
@@ -24,7 +24,7 @@ var C = {
   batch: 29, prompts: 30, images: 31
 };
 var NCOLS = 31;
-var CLOUD_NAME = 'CLOUDINARY_CLOUD_PLACEHOLDER';   // TODO owner: new Cloudinary cloud name (same value as secret CLOUDINARY_CLOUD)
+var CLOUD_NAME = 'v0qacyr7';   // TODO owner: new Cloudinary cloud name (same value as secret CLOUDINARY_CLOUD)
 var UPLOAD_PRESET = 'news360';                   // TODO owner: unsigned upload preset in the new Cloudinary account (secret CLOUDINARY_PRESET)
 var MIN_IMAGES = 3;
 var EXPIRE_HOURS = 2;   // owner request 24 Oct: after 3 hours without the owner's images, automatic images are made and the story is posted
