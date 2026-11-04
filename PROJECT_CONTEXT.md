@@ -80,6 +80,7 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-04 | `ad48f61` | Require the LIVE file for any real posting and honour PAUSED |
 | 2026-11-04 | `6eb3014` | Support Meta system-user tokens (graph.facebook.com) for Instagram posting |
 | 2026-11-04 | `0cacbae` | ig probe output |
 | 2026-11-04 | `b045573` | Use @malappuram.360.official as the Malappuram Instagram handle |
