@@ -1,6 +1,6 @@
 # News360 – മലപ്പുറം 360 auto-posting
 
-Automatic Malappuram-district (Kerala) news reels in Malayalam for **മലപ്പുറം 360** (@malappuram.360) and **മഞ്ചേരി 360** (@manjeri.360),
+Automatic Malappuram-district (Kerala) news reels in Malayalam for **മലപ്പുറം 360** (@malappuram.360.official) and **മഞ്ചേരി 360** (@manjeri.360),
 also sent to the website malappuram360.workers.dev (placeholder). Everything runs on GitHub Actions; the Google Sheet (through the
 Apps Script bridge) is the working store. Owner rules, main files and recent changes: see `PROJECT_CONTEXT.md`.
 
@@ -37,7 +37,7 @@ research_free.yml (every 4 h) -> queue.json -> write_stories.yml (every 20 min) 
 
 ## First-time setup (do in this order)
 
-1. **Instagram pages**: create @malappuram.360 and @manjeri.360 as Instagram professional accounts, each linked to a Facebook Page.
+1. **Instagram pages**: create @malappuram.360.official and @manjeri.360 as Instagram professional accounts, each linked to a Facebook Page.
    Make a long-lived Instagram Graph API token for each (Meta app with `instagram_content_publish`, `instagram_basic`,
    `instagram_manage_insights`, `pages_show_list`). If the handles differ, change them in `poster/config.json` and `COLLAB_USERNAME`
    in `apps_script/Code.gs`.

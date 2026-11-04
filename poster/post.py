@@ -739,7 +739,7 @@ def collab_user():
     """the account invited as collaborator: Malappuram 360 on Manjeri 360 posts, Manjeri 360 on district-wide Malappuram 360 posts"""
     if COLLAB == "manjeri":
         return CONFIG.get("collab_username", "manjeri.360")
-    return CONFIG.get("collab_malappuram_username", "malappuram.360")
+    return CONFIG.get("collab_malappuram_username", "malappuram.360.official")
 
 
 def create_with_collab(uid, token, params, collab):

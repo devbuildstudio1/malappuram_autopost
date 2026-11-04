@@ -1,6 +1,6 @@
 # malappuram360-autopost - project context
 
-Automatic Malappuram-district (Kerala) news in Malayalam for Instagram pages **മലപ്പുറം 360** (@malappuram.360) and
+Automatic Malappuram-district (Kerala) news in Malayalam for Instagram pages **മലപ്പുറം 360** (@malappuram.360.official) and
 **മഞ്ചേരി 360** (@manjeri.360), and for the website **malappuram360.workers.dev** (placeholder; website repo: a Malayalam copy of
 news360-tn/namakkal360-web, not in this repo). Ported from news360-autopost (Namakkal 360, Tamil) on 30 Oct 2026.
 Everything runs on GitHub Actions; the Google Sheet (through the Apps Script bridge) is the working store.

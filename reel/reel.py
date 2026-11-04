@@ -19,7 +19,7 @@ ICONS = NM / "@fortawesome" / "fontawesome-free" / "svgs" / "solid"
 PAGES = {
     "manjeri": {"logo": "logo_manjeri.png", "name": "മഞ്ചേരി 360", "handle": "manjeri.360", "tagline": "നമ്മുടെ മഞ്ചേരി വാർത്തകൾ", "follow": "മഞ്ചേരി<br>പ്രാദേശിക വാർത്തകൾക്ക്",
                 "ticker": "മഞ്ചേരി 360  •  മഞ്ചേരി • പരിസര വാർത്തകൾ  •  Follow ചെയ്യൂ"},
-    "malappuram": {"logo": "logo_malappuram.png", "name": "മലപ്പുറം 360", "handle": "malappuram.360", "tagline": "നമ്മുടെ മലപ്പുറം വാർത്തകൾ", "follow": "മലപ്പുറം ജില്ലാ<br>വാർത്തകൾക്ക്",
+    "malappuram": {"logo": "logo_malappuram.png", "name": "മലപ്പുറം 360", "handle": "malappuram.360.official", "tagline": "നമ്മുടെ മലപ്പുറം വാർത്തകൾ", "follow": "മലപ്പുറം ജില്ലാ<br>വാർത്തകൾക്ക്",
                    "ticker": "മലപ്പുറം 360  •  മലപ്പുറം ജില്ലാ വാർത്തകൾ  •  Follow ചെയ്യൂ"},
 }
 PAGE = PAGES["malappuram"]
