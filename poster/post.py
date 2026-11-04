@@ -1363,10 +1363,14 @@ def run_story_page(row, page):
 
 
 def live_allowed():
-    if DRY:
+    if DRY or PREBUILD:      # test runs and prebuilding never publish
         return True
-    if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and not (ROOT / "LIVE").exists():
-        log("Not live yet (no LIVE file in the repository) - scheduled posting is switched off.")
+    if str(os.environ.get("PAUSED", "")).strip().lower() in ("1", "true", "yes"):
+        log("Posting is paused (repository variable PAUSED=true) - nothing is published.")
+        return False
+    # any real posting (scheduled, or started by the collector / by hand) needs the LIVE file: a test collection must never publish
+    if not (ROOT / "LIVE").exists():
+        log("Not live yet (no LIVE file in the repository) - posting to Instagram is switched off.")
         return False
     return True
 
