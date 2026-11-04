@@ -7,7 +7,8 @@
  *   - after posting: update the Sheet + the story's Google Doc and email the owner
  *
  * Setup (once): see README.md in the GitHub repository, section "Apps Script".
- * Script properties used: BRIDGE_KEY, IG_TOKEN_MANJERI, IG_TOKEN_MALAPPURAM, (auto) VOICE_FOLDER_ID
+ * Script properties used: BRIDGE_KEY, IG_TOKEN_MANJERI, IG_TOKEN_MALAPPURAM, (auto) VOICE_FOLDER_ID,
+ *   GH_DISPATCH_TOKEN (GitHub token, Actions read+write on the repository: lets kickGithub start the posting job)
  */
 var SHEET_ID = '13jDHoYVRHSGxLAOCEtIgQlwPzmPkICisUiSQkBrglmI';          // TODO owner: ID of the new Malappuram 360 Google Sheet (from its URL)
 var TAB = 'News';
@@ -29,6 +30,7 @@ var UPLOAD_PRESET = 'news360';                   // TODO owner: unsigned upload 
 var MIN_IMAGES = 3;
 var EXPIRE_HOURS = 2;   // owner request 24 Oct: after 3 hours without the owner's images, automatic images are made and the story is posted
 var COLLAB_USERNAME = 'manjeri.360';
+var GH_REPO = 'devbuildstudio1/malappuram_autopost';   // repository whose posting job kickGithub starts
 var PAGE_LABEL = { manjeri: 'മഞ്ചേരി 360', malappuram: 'മലപ്പുറം 360' };
 var PAGE_COL = { manjeri: C.manjeri_link, malappuram: C.malappuram_link };
 
@@ -846,6 +848,29 @@ function parseIst_(txt) {
   return new Date(Date.UTC(+m[3], mon, +m[1], +m[4], +m[5]) - 5.5 * 3600000);
 }
 
+// ------------------------------------------------------------------ reliable clock for GitHub
+/** Runs every 10 minutes (trigger made by setup). GitHub often skips its own 5-minute schedule, so this starts the posting job
+ *  as a "watchdog" run: it posts every story that is ready and restarts an overdue news collection or story writer. */
+function kickGithub() {
+  var tok = props_().getProperty('GH_DISPATCH_TOKEN');
+  if (!tok) return;
+  var res = UrlFetchApp.fetch('https://api.github.com/repos/' + GH_REPO + '/actions/workflows/post.yml/dispatches', {
+    method: 'post', muteHttpExceptions: true, contentType: 'application/json',
+    headers: { Authorization: 'Bearer ' + tok, Accept: 'application/vnd.github+json' },
+    payload: JSON.stringify({ ref: 'main', inputs: { dry_run: 'false', prebuild: 'false', watchdog: 'true' } })
+  });
+  var code = res.getResponseCode();
+  if (code === 401 || code === 403 || code === 404) {
+    var p = props_(), last = Number(p.getProperty('KICK_ERR_MAIL') || 0);
+    if (Date.now() - last > 24 * 3600 * 1000) {      // at most one e-mail a day
+      p.setProperty('KICK_ERR_MAIL', String(Date.now()));
+      GmailApp.sendEmail(OWNER_EMAIL, '[NEWS360 PROBLEM] Cannot start the GitHub posting job',
+        'GitHub answered ' + code + ': ' + res.getContentText().slice(0, 300) +
+        '\n\nThe GH_DISPATCH_TOKEN in Apps Script -> Project Settings -> Script properties is wrong or expired. Make a new GitHub token (Actions: read and write on ' + GH_REPO + ') and save it there.');
+    }
+  }
+}
+
 // ------------------------------------------------------------------ one-time setup
 /** New Sheet: creates the "News" tab with the column headers (order = C) when it is missing or empty. */
 function newsTab_() {
@@ -867,10 +892,11 @@ function setup() {
   voiceFolder_();
   ScriptApp.getProjectTriggers().forEach(function (t) {
     var h = t.getHandlerFunction();
-    if (h === 'refreshTokens' || h === 'processReplies') ScriptApp.deleteTrigger(t);
+    if (h === 'refreshTokens' || h === 'processReplies' || h === 'kickGithub') ScriptApp.deleteTrigger(t);
   });
   ScriptApp.newTrigger('refreshTokens').timeBased().everyWeeks(1).onWeekDay(ScriptApp.WeekDay.SUNDAY).atHour(3).create();
   ScriptApp.newTrigger('processReplies').timeBased().everyMinutes(5).create();
+  ScriptApp.newTrigger('kickGithub').timeBased().everyMinutes(10).create();
   GmailApp.getInboxThreads(0, 1); // makes Google ask for Gmail permission now
   Logger.log('BRIDGE_KEY is saved in Script properties (not shown here).');
   Logger.log('Voice folder: https://drive.google.com/drive/folders/' + p.getProperty('VOICE_FOLDER_ID'));
