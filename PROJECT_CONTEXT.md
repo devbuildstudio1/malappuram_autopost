@@ -80,6 +80,9 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-04 | `8ccf322` | Start the posting job every 10 min from Apps Script |
+| 2026-11-04 | `f3c4cf0` | Go live: enable automatic collecting and Instagram posting |
+| 2026-11-04 | `d4ea741` | image test output |
 | 2026-11-04 | `ad48f61` | Require the LIVE file for any real posting and honour PAUSED |
 | 2026-11-04 | `6eb3014` | Support Meta system-user tokens (graph.facebook.com) for Instagram posting |
 | 2026-11-04 | `0cacbae` | ig probe output |
