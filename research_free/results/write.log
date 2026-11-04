@@ -1,16 +1,21 @@
 writing [N]: സ്വർണം പൊട്ടിക്കൽ നാടകം; കരിപ്പൂരിൽ യുവതിക്കും സംഘത്തിനും പി
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 writing [N]: സ്വർണക്കടത്ത് തട്ടിക്കൊണ്ടുപോകൽ നാടകം പൊളിഞ്ഞു; അഞ്ചുപേർ പിട
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-writing [N]: മദ്യപിച്ച് വാഹനം ഓടിച്ച് അപകടമുണ്ടാക്കിയാൽ ലൈസൻസ് ഉടനടി റദ്ദ
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
+writing [N]: മദ്യപിച്ച് വാഹനം ഓടിച്ച് അപകടമുണ്ടാക്കിയാൽ ലൈസൻസ് ഉടനടി റദ്ദ
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
@@ -22,37 +27,38 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
+dead for this round: gemini/gemini-3.7-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+switching away from gemini/gemini-3.6-flash for 10 min
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
@@ -60,43 +66,51 @@ fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
 writing [N]: കരിപ്പൂർ വിമാനത്താവളത്തിൽ നിന്ന് യുവതിയെ 'തട്ടിക്കൊണ്ടുപോയത്
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: 19 വർഷത്തിന് ശേഷം വിധി; മലപ്പുറത്ത് 14 വയസ്സുകാരി ബസിടിച്ച് 
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-writing [N]: ജില്ലാ ശാസ്ത്രോത്സവത്തിന്റെ പാചകപ്പുര ഒരുങ്ങി
 writing [N]: കോട്ടക്കൽ ആര്യ വൈദ്യശാലയുടെ പാരമ്പര്യം മഹത്തരം -തമിഴ്നാട് മന
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok groq/openai/gpt-oss-120b (7s)
+attempt 1 groq/openai/gpt-oss-120b: 3 problems
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-writing [N]: കടത്താൻ കടുവ, പൊട്ടിക്കാൻ കിടുവ; ഇടയിൽ കയറാൻ പൊലീസ്
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+writing [N]: ജില്ലാ ശാസ്ത്രോത്സവത്തിന്റെ പാചകപ്പുര ഒരുങ്ങി
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+writing [N]: കടത്താൻ കടുവ, പൊട്ടിക്കാൻ കിടുവ; ഇടയിൽ കയറാൻ പൊലീസ്
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: ഇൻഷുറൻസ് പോളിസി റദ്ദാക്കുന്നതിൽ ബാങ്കിന് വീഴ്ച; 2,64,909 രൂപ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 writing [N]: സ്വർണം തട്ടിയെടുക്കാൻ പദ്ധതിയിട്ടത് യുവതിയും ഭർത്താവും സുഹൃത
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
@@ -107,12 +121,20 @@ fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Requ
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: കരിപ്പൂരിൽ സ്വർണം കടത്തിക്കൊണ്ട് വന്ന യുവതിയെ തട്ടിക്കൊണ്ട് 
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+writing [N]: ബസ് ഇടിച്ചു സ്കൂൾ വിദ്യാർഥിനി മരിച്ച സംഭവം: മുതിർന്നവർ കൂറുമ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: ‘സ്വർണം തട്ടാൻ ഭർത്താവിന്റെ തട്ടിക്കൊണ്ടുപോകൽ നാടകം!’ കാറിനെ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: കരിപ്പൂർ വിമാനത്താവളത്തിൽ വീണ്ടും സ്വർണക്കവർച്ചാ ശ്രമം; പിന്
@@ -122,191 +144,181 @@ fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Requ
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: കരിപ്പൂരിൽ സ്വർണംപൊട്ടിക്കലിൽ ട്വിസ്റ്റ്; ഭർത്താവിനൊപ്പം ചേർ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-writing [N]: ബസ് ഇടിച്ചു സ്കൂൾ വിദ്യാർഥിനി മരിച്ച സംഭവം: മുതിർന്നവർ കൂറുമ
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: എമർജൻസി ലാംപിൽ 102 പവനുമായി യുവതി; തട്ടിയെടുക്കാൻ സംഘം, കോഴി
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-switching away from groq/openai/gpt-oss-120b for 10 min
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [N]: കുവൈത്തിൽ നഴ്സുമാർ സഞ്ചരിച്ച ബസ് മറിഞ്ഞ് അപകടം;10 പേർക്ക് പര
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: 2007-ൽ ബസിടിച്ച് 14 വയസ്സുകാരി മരിച്ച കേസിൽ 19 വർഷത്തിന് ശേഷ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-switching away from groq/openai/gpt-oss-120b for 10 min
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-writing [N]: കുവൈത്തിൽ നഴ്സുമാർ സഞ്ചരിച്ച ബസ് മറിഞ്ഞ് അപകടം;10 പേർക്ക് പര
+writing [N]: കരിപ്പൂരിൽ സ്വർണവുമായി എത്തിയ യുവതിയെ തട്ടിക്കൊണ്ടു പോയ സംഭവ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+writing [N]: കരിപ്പൂരിലെ സ്വർണം പൊട്ടിക്കലിൽ ട്വിസ്റ്റ്; സംഭവം തട്ടിക്കൊണ
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+writing [N]: സ്വർണം തട്ടിയെടുക്കാൻ യുവതിയെ തട്ടിക്കൊണ്ടുപോയി, പിന്നാലെ ട്
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-writing [N]: കരിപ്പൂരിലെ സ്വർണം പൊട്ടിക്കലിൽ ട്വിസ്റ്റ്; സംഭവം തട്ടിക്കൊണ
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-writing [N]: കരിപ്പൂരിൽ സ്വർണവുമായി എത്തിയ യുവതിയെ തട്ടിക്കൊണ്ടു പോയ സംഭവ
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-writing [N]: സ്വർണം തട്ടിയെടുക്കാൻ യുവതിയെ തട്ടിക്കൊണ്ടുപോയി, പിന്നാലെ ട്
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: ശാസ്ത്ര കൗതുകങ്ങളുമായി   ശാസ്ത്രോത്സവത്തിന് തുടക്കം | Deepik
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-writing [R]: 5 എൻ.ഡി.പി.എസ് കോടതികളിൽ തസ്തികൾ
-writing [N]: ആദ്യ ദിനം കുതിച്ച് വേങ്ങര സബ്ജില്ല
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: ഹോസ്റ്റലിൽ കാഴ്ചപരിമിതിയുള്ള കുട്ടികളെ പീഡിപ്പിച്ചു; ലീഗുകാര
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-writing [N]: സയ്യിദ് അലി ബാഫഖീ തങ്ങളുടെ അനുസ്മരണ സംഗമവും സ്വലാത്ത് ആത്മീയ
+writing [N]: ആദ്യ ദിനം കുതിച്ച് വേങ്ങര സബ്ജില്ല
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+writing [R]: 5 എൻ.ഡി.പി.എസ് കോടതികളിൽ തസ്തികൾ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+writing [N]: *കട്ടുപ്പാറ മുതൽ ചെറുകര വരെയുള്ള റോഡിന്റെ തകർച്ച; ശക്തമായ സമ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: സയ്യിദ് അലി ബാഫഖീ തങ്ങളുടെ അനുസ്മരണ സംഗമവും സ്വലാത്ത് ആത്മീയ
 writing [N]: വേലായുധൻ നിര്യാതനായി | Madhyamam
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-writing [N]: *കട്ടുപ്പാറ മുതൽ ചെറുകര വരെയുള്ള റോഡിന്റെ തകർച്ച; ശക്തമായ സമ
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: ഇറാൻ യുദ്ധം, വിവാദ തീരുവകൾ: ഡെമോക്രാറ്റുകൾ തിരുത്തുമോ ട്രംപി
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 writing [N]: 4,700 കോടി ചെലവഴിച്ചിട്ടും ഫലമുണ്ടായില്ല! ഇലോൺ മസ്കിനെ പൂട്
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 writing [N]: വിമാനം നിലത്തു പതിക്കുന്നതിന് മുമ്പ് തന്നെ തകർന്നു ; ഫ്ലോറിഡ
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-writing [N]: ട്രംപിന്റെ ആയുധം ഇനി വീറ്റോ പവറോ? | Sirajlive.com
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: തിരുനാവായയിൽ നടക്കുന്നത് കുംഭമേളയല്ല, മാഘമഹോത്സവം -സ്വാമി ചി
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: ട്രംപിന്റെ ആയുധം ഇനി വീറ്റോ പവറോ? | Sirajlive.com
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 writing [N]: സ്വലാത്ത് ആത്മീയ സംഗമവും സയ്യിദ് അലി ബാഫഖീ തങ്ങൾ അനുസ്മരണ പ്
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+writing [N]: വിരിഞ്ഞു കുഞ്ഞിളം കൈകളിൽ ശാസ്ത്രവിസ്മയങ്ങൾ; 56 പോയന്റുമായി വ
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: താക്കീതായി സി.പി.എം. മാർച്ച്
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-writing [N]: വിരിഞ്ഞു കുഞ്ഞിളം കൈകളിൽ ശാസ്ത്രവിസ്മയങ്ങൾ; 56 പോയന്റുമായി വ
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 writing [N]: നിലമ്പൂർ–ഷൊർണൂർ പാതയിൽ അടിപ്പാത വന്നാൽ യാത്ര എളുപ്പമാകും: സ്
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 writing [N]: വരാനിരിക്കുന്നത് ഡിജിറ്റൽ സാങ്കേതികവിദ്യയുടെ കുതിപ്പിന്റെ കാ
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: ആനറക്കുളം തകർച്ച അന്വേഷിക്കണമെന്ന് ആവശ്യപ്പെട്ട് നിവേദനം
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flashgroq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 writing [N]: സൗത്ത് പല്ലാറിൽ അപൂർവ കന്യാസ്ത്രീ കൊക്ക് കൂടൊരുക്കി
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: ആര്യാടൻ മുഹമ്മദ് അനുസ്മരണ പരിപാടി നടത്തി | Madhyamam
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 writing [N]: ശാസ്ത്രച്ചെപ്പ് തുറന്ന് ഉമ്മയും മകളും; അന്ന് സംസ്ഥാനതാരം, ഇന
+writing [N]: പുഞ്ചക്കോൾ കൃഷിമേഖലയിൽ പ്രതിസന്ധി രൂക്ഷം;കെ.എൽ.ഡി.സിക്കെതിരെ
+writing [N]: ബാർ ലൈസൻസ് വിവാദം: സസ്പെൻഷനിലായ എക്സൈസ് ഡെപ്യൂട്ടി കമ്മീഷണർമ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-writing [N]: ബാർ ലൈസൻസ് വിവാദം: സസ്പെൻഷനിലായ എക്സൈസ് ഡെപ്യൂട്ടി കമ്മീഷണർമ
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: ഉന്നതവിദ്യാഭ്യാസരംഗത്ത് കാലാനുസൃതമായ മാറ്റങ്ങൾ കൊണ്ടുവരും- റ
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-writing [N]: പുഞ്ചക്കോൾ കൃഷിമേഖലയിൽ പ്രതിസന്ധി രൂക്ഷം;കെ.എൽ.ഡി.സിക്കെതിരെ
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: സഹചാരി സെന്ററിന് തറക്കല്ലിട്ടു
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: വ്യാപാരത്തിൽനിന്ന് ആത്മീയ നേതൃപദവിയിലേക്ക്
-writing [N]: വളയപ്പുറത്തെ റെയിൽവേ അടിപ്പാത താത്കാലികമായി തുറന്നു
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [N]: വളയപ്പുറത്തെ റെയിൽവേ അടിപ്പാത താത്കാലികമായി തുറന്നു
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 earlier stories still waiting for images: []
 instagram check: 1 recent posts read from both pages
-write round: 54 news waiting in the queue (written in priority order)
-candidate filter: collected=48, checked earlier=6
+write round: 48 news waiting in the queue (written in priority order)
+candidate filter: collected=48
 to write: 1 Manjeri + 47 other district candidates (max 200 + 200 stories)
 candidates waiting: 1 Manjeri, 47 Malappuram; time left 29 min
 try (N) manual=False: സ്വർണം പൊട്ടിക്കൽ നാടകം; കരിപ്പൂരിൽ യുവതിക്കും സംഘത്തിനും പി
@@ -314,59 +326,59 @@ try (N) manual=False: സ്വർണക്കടത്ത് തട്ടിക
 try (N) manual=False: മദ്യപിച്ച് വാഹനം ഓടിച്ച് അപകടമുണ്ടാക്കിയാൽ ലൈസൻസ് ഉടനടി റദ്ദ
 NOT filed (N) സ്വർണക്കടത്ത് തട്ടിക്കൊണ്ടുപോകൽ നാടകം പൊളിഞ്ഞു; അഞ: all free models failed: no free model answered: mistral mistral-small-latest 429: {"object":"error","mes
 try (N) manual=False: കരിപ്പൂർ വിമാനത്താവളത്തിൽ നിന്ന് യുവതിയെ 'തട്ടിക്കൊണ്ടുപോയത്
-NOT filed (N) മദ്യപിച്ച് വാഹനം ഓടിച്ച് അപകടമുണ്ടാക്കിയാൽ ലൈസൻസ് : all free models failed: no free model answered: mistral mistral-small-latest 429: {"object":"error","mes
-try (N) manual=False: 19 വർഷത്തിന് ശേഷം വിധി; മലപ്പുറത്ത് 14 വയസ്സുകാരി ബസിടിച്ച് 
 NOT filed (N) കരിപ്പൂർ വിമാനത്താവളത്തിൽ നിന്ന് യുവതിയെ 'തട്ടിക്ക: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: കോട്ടക്കൽ ആര്യ വൈദ്യശാലയുടെ പാരമ്പര്യം മഹത്തരം -തമിഴ്നാട് മന
+try (N) manual=False: 19 വർഷത്തിന് ശേഷം വിധി; മലപ്പുറത്ത് 14 വയസ്സുകാരി ബസിടിച്ച് 
 NOT filed (N) 19 വർഷത്തിന് ശേഷം വിധി; മലപ്പുറത്ത് 14 വയസ്സുകാരി : all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: ജില്ലാ ശാസ്ത്രോത്സവത്തിന്റെ പാചകപ്പുര ഒരുങ്ങി
-NOT filed (N) കോട്ടക്കൽ ആര്യ വൈദ്യശാലയുടെ പാരമ്പര്യം മഹത്തരം -തമ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: കടത്താൻ കടുവ, പൊട്ടിക്കാൻ കിടുവ; ഇടയിൽ കയറാൻ പൊലീസ്
+try (N) manual=False: കോട്ടക്കൽ ആര്യ വൈദ്യശാലയുടെ പാരമ്പര്യം മഹത്തരം -തമിഴ്നാട് മന
 NOT filed (N) സ്വർണം പൊട്ടിക്കൽ നാടകം; കരിപ്പൂരിൽ യുവതിക്കും സംഘ: all free models failed: no free model answered: mistral mistral-small-latest 429: {"object":"error","mes
-try (N) manual=False: ഇൻഷുറൻസ് പോളിസി റദ്ദാക്കുന്നതിൽ ബാങ്കിന് വീഴ്ച; 2,64,909 രൂപ
+try (N) manual=False: ജില്ലാ ശാസ്ത്രോത്സവത്തിന്റെ പാചകപ്പുര ഒരുങ്ങി
+NOT filed (N) മദ്യപിച്ച് വാഹനം ഓടിച്ച് അപകടമുണ്ടാക്കിയാൽ ലൈസൻസ് : all free models failed: no free model answered: mistral mistral-small-latest 429: {"object":"error","mes
+try (N) manual=False: കടത്താൻ കടുവ, പൊട്ടിക്കാൻ കിടുവ; ഇടയിൽ കയറാൻ പൊലീസ്
 NOT filed (N) കടത്താൻ കടുവ, പൊട്ടിക്കാൻ കിടുവ; ഇടയിൽ കയറാൻ പൊലീസ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+try (N) manual=False: ഇൻഷുറൻസ് പോളിസി റദ്ദാക്കുന്നതിൽ ബാങ്കിന് വീഴ്ച; 2,64,909 രൂപ
+NOT filed (N) ഇൻഷുറൻസ് പോളിസി റദ്ദാക്കുന്നതിൽ ബാങ്കിന് വീഴ്ച; 2,: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: സ്വർണം തട്ടിയെടുക്കാൻ പദ്ധതിയിട്ടത് യുവതിയും ഭർത്താവും സുഹൃത
-NOT filed (N) ജില്ലാ ശാസ്ത്രോത്സവത്തിന്റെ പാചകപ്പുര ഒരുങ്ങി: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+NOT filed (N) കോട്ടക്കൽ ആര്യ വൈദ്യശാലയുടെ പാരമ്പര്യം മഹത്തരം -തമ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: കരിപ്പൂരിൽ സ്വർണം കടത്തിക്കൊണ്ട് വന്ന യുവതിയെ തട്ടിക്കൊണ്ട് 
 NOT filed (N) കരിപ്പൂരിൽ സ്വർണം കടത്തിക്കൊണ്ട് വന്ന യുവതിയെ തട്ട: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: ‘സ്വർണം തട്ടാൻ ഭർത്താവിന്റെ തട്ടിക്കൊണ്ടുപോകൽ നാടകം!’ കാറിനെ
-NOT filed (N) ‘സ്വർണം തട്ടാൻ ഭർത്താവിന്റെ തട്ടിക്കൊണ്ടുപോകൽ നാടക: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: കരിപ്പൂർ വിമാനത്താവളത്തിൽ വീണ്ടും സ്വർണക്കവർച്ചാ ശ്രമം; പിന്
-NOT filed (N) കരിപ്പൂർ വിമാനത്താവളത്തിൽ വീണ്ടും സ്വർണക്കവർച്ചാ ശ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: കരിപ്പൂരിൽ സ്വർണംപൊട്ടിക്കലിൽ ട്വിസ്റ്റ്; ഭർത്താവിനൊപ്പം ചേർ
-NOT filed (N) കരിപ്പൂരിൽ സ്വർണംപൊട്ടിക്കലിൽ ട്വിസ്റ്റ്; ഭർത്താവി: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+NOT filed (N) ജില്ലാ ശാസ്ത്രോത്സവത്തിന്റെ പാചകപ്പുര ഒരുങ്ങി: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: ബസ് ഇടിച്ചു സ്കൂൾ വിദ്യാർഥിനി മരിച്ച സംഭവം: മുതിർന്നവർ കൂറുമ
 NOT filed (N) ബസ് ഇടിച്ചു സ്കൂൾ വിദ്യാർഥിനി മരിച്ച സംഭവം: മുതിർന: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+try (N) manual=False: കരിപ്പൂർ വിമാനത്താവളത്തിൽ വീണ്ടും സ്വർണക്കവർച്ചാ ശ്രമം; പിന്
+NOT filed (N) ‘സ്വർണം തട്ടാൻ ഭർത്താവിന്റെ തട്ടിക്കൊണ്ടുപോകൽ നാടക: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+try (N) manual=False: കരിപ്പൂരിൽ സ്വർണംപൊട്ടിക്കലിൽ ട്വിസ്റ്റ്; ഭർത്താവിനൊപ്പം ചേർ
+NOT filed (N) കരിപ്പൂർ വിമാനത്താവളത്തിൽ വീണ്ടും സ്വർണക്കവർച്ചാ ശ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: എമർജൻസി ലാംപിൽ 102 പവനുമായി യുവതി; തട്ടിയെടുക്കാൻ സംഘം, കോഴി
+NOT filed (N) കരിപ്പൂരിൽ സ്വർണംപൊട്ടിക്കലിൽ ട്വിസ്റ്റ്; ഭർത്താവി: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+try (N) manual=False: കുവൈത്തിൽ നഴ്സുമാർ സഞ്ചരിച്ച ബസ് മറിഞ്ഞ് അപകടം;10 പേർക്ക് പര
 NOT filed (N) എമർജൻസി ലാംപിൽ 102 പവനുമായി യുവതി; തട്ടിയെടുക്കാൻ : all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: 2007-ൽ ബസിടിച്ച് 14 വയസ്സുകാരി മരിച്ച കേസിൽ 19 വർഷത്തിന് ശേഷ
-NOT filed (N) ഇൻഷുറൻസ് പോളിസി റദ്ദാക്കുന്നതിൽ ബാങ്കിന് വീഴ്ച; 2,: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: കുവൈത്തിൽ നഴ്സുമാർ സഞ്ചരിച്ച ബസ് മറിഞ്ഞ് അപകടം;10 പേർക്ക് പര
-NOT filed (N) 2007-ൽ ബസിടിച്ച് 14 വയസ്സുകാരി മരിച്ച കേസിൽ 19 വർഷ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: കരിപ്പൂരിൽ സ്വർണവുമായി എത്തിയ യുവതിയെ തട്ടിക്കൊണ്ടു പോയ സംഭവ
-NOT filed (N) സ്വർണം തട്ടിയെടുക്കാൻ പദ്ധതിയിട്ടത് യുവതിയും ഭർത്ത: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: കരിപ്പൂരിലെ സ്വർണം പൊട്ടിക്കലിൽ ട്വിസ്റ്റ്; സംഭവം തട്ടിക്കൊണ
 NOT filed (N) കുവൈത്തിൽ നഴ്സുമാർ സഞ്ചരിച്ച ബസ് മറിഞ്ഞ് അപകടം;10 : all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: സ്വർണം തട്ടിയെടുക്കാൻ യുവതിയെ തട്ടിക്കൊണ്ടുപോയി, പിന്നാലെ ട്
-NOT filed (N) കരിപ്പൂരിലെ സ്വർണം പൊട്ടിക്കലിൽ ട്വിസ്റ്റ്; സംഭവം : all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: ശാസ്ത്ര കൗതുകങ്ങളുമായി   ശാസ്ത്രോത്സവത്തിന് തുടക്കം | Deepik
+try (N) manual=False: കരിപ്പൂരിൽ സ്വർണവുമായി എത്തിയ യുവതിയെ തട്ടിക്കൊണ്ടു പോയ സംഭവ
+NOT filed (N) 2007-ൽ ബസിടിച്ച് 14 വയസ്സുകാരി മരിച്ച കേസിൽ 19 വർഷ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+try (N) manual=False: കരിപ്പൂരിലെ സ്വർണം പൊട്ടിക്കലിൽ ട്വിസ്റ്റ്; സംഭവം തട്ടിക്കൊണ
 NOT filed (N) കരിപ്പൂരിൽ സ്വർണവുമായി എത്തിയ യുവതിയെ തട്ടിക്കൊണ്ട: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+try (N) manual=False: സ്വർണം തട്ടിയെടുക്കാൻ യുവതിയെ തട്ടിക്കൊണ്ടുപോയി, പിന്നാലെ ട്
+NOT filed (N) സ്വർണം തട്ടിയെടുക്കാൻ പദ്ധതിയിട്ടത് യുവതിയും ഭർത്ത: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+try (N) manual=False: ശാസ്ത്ര കൗതുകങ്ങളുമായി   ശാസ്ത്രോത്സവത്തിന് തുടക്കം | Deepik
+NOT filed (N) കരിപ്പൂരിലെ സ്വർണം പൊട്ടിക്കലിൽ ട്വിസ്റ്റ്; സംഭവം : all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (R) manual=False: 5 എൻ.ഡി.പി.എസ് കോടതികളിൽ തസ്തികൾ
 NOT filed (N) സ്വർണം തട്ടിയെടുക്കാൻ യുവതിയെ തട്ടിക്കൊണ്ടുപോയി, പ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: ആദ്യ ദിനം കുതിച്ച് വേങ്ങര സബ്ജില്ല
 NOT filed (N) ശാസ്ത്ര കൗതുകങ്ങളുമായി   ശാസ്ത്രോത്സവത്തിന് തുടക്ക: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: ഹോസ്റ്റലിൽ കാഴ്ചപരിമിതിയുള്ള കുട്ടികളെ പീഡിപ്പിച്ചു; ലീഗുകാര
-NOT filed (R) 5 എൻ.ഡി.പി.എസ് കോടതികളിൽ തസ്തികൾ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+NOT filed (N) ഹോസ്റ്റലിൽ കാഴ്ചപരിമിതിയുള്ള കുട്ടികളെ പീഡിപ്പിച്ച: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: *കട്ടുപ്പാറ മുതൽ ചെറുകര വരെയുള്ള റോഡിന്റെ തകർച്ച; ശക്തമായ സമ
 NOT filed (N) ആദ്യ ദിനം കുതിച്ച് വേങ്ങര സബ്ജില്ല: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: സയ്യിദ് അലി ബാഫഖീ തങ്ങളുടെ അനുസ്മരണ സംഗമവും സ്വലാത്ത് ആത്മീയ
-NOT filed (N) ഹോസ്റ്റലിൽ കാഴ്ചപരിമിതിയുള്ള കുട്ടികളെ പീഡിപ്പിച്ച: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+NOT filed (R) 5 എൻ.ഡി.പി.എസ് കോടതികളിൽ തസ്തികൾ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: വേലായുധൻ നിര്യാതനായി | Madhyamam
-NOT filed (N) സയ്യിദ് അലി ബാഫഖീ തങ്ങളുടെ അനുസ്മരണ സംഗമവും സ്വലാത: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: ഇറാൻ യുദ്ധം, വിവാദ തീരുവകൾ: ഡെമോക്രാറ്റുകൾ തിരുത്തുമോ ട്രംപി
-NOT filed (N) വേലായുധൻ നിര്യാതനായി | Madhyamam: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: 4,700 കോടി ചെലവഴിച്ചിട്ടും ഫലമുണ്ടായില്ല! ഇലോൺ മസ്കിനെ പൂട്
 NOT filed (N) *കട്ടുപ്പാറ മുതൽ ചെറുകര വരെയുള്ള റോഡിന്റെ തകർച്ച; : all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+try (N) manual=False: ഇറാൻ യുദ്ധം, വിവാദ തീരുവകൾ: ഡെമോക്രാറ്റുകൾ തിരുത്തുമോ ട്രംപി
+NOT filed (N) സയ്യിദ് അലി ബാഫഖീ തങ്ങളുടെ അനുസ്മരണ സംഗമവും സ്വലാത: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+try (N) manual=False: 4,700 കോടി ചെലവഴിച്ചിട്ടും ഫലമുണ്ടായില്ല! ഇലോൺ മസ്കിനെ പൂട്
+NOT filed (N) വേലായുധൻ നിര്യാതനായി | Madhyamam: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: വിമാനം നിലത്തു പതിക്കുന്നതിന് മുമ്പ് തന്നെ തകർന്നു ; ഫ്ലോറിഡ
 NOT filed (N) ഇറാൻ യുദ്ധം, വിവാദ തീരുവകൾ: ഡെമോക്രാറ്റുകൾ തിരുത്ത: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: ട്രംപിന്റെ ആയുധം ഇനി വീറ്റോ പവറോ? | Sirajlive.com
@@ -374,21 +386,21 @@ NOT filed (N) 4,700 കോടി ചെലവഴിച്ചിട്ടും �
 try (N) manual=False: സ്വലാത്ത് ആത്മീയ സംഗമവും സയ്യിദ് അലി ബാഫഖീ തങ്ങൾ അനുസ്മരണ പ്
 NOT filed (N) വിമാനം നിലത്തു പതിക്കുന്നതിന് മുമ്പ് തന്നെ തകർന്നു: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: തിരുനാവായയിൽ നടക്കുന്നത് കുംഭമേളയല്ല, മാഘമഹോത്സവം -സ്വാമി ചി
-NOT filed (N) ട്രംപിന്റെ ആയുധം ഇനി വീറ്റോ പവറോ? | Sirajlive.co: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: നിലമ്പൂർ–ഷൊർണൂർ പാതയിൽ അടിപ്പാത വന്നാൽ യാത്ര എളുപ്പമാകും: സ്
 NOT filed (N) തിരുനാവായയിൽ നടക്കുന്നത് കുംഭമേളയല്ല, മാഘമഹോത്സവം : all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+try (N) manual=False: നിലമ്പൂർ–ഷൊർണൂർ പാതയിൽ അടിപ്പാത വന്നാൽ യാത്ര എളുപ്പമാകും: സ്
+NOT filed (N) ട്രംപിന്റെ ആയുധം ഇനി വീറ്റോ പവറോ? | Sirajlive.co: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: വിരിഞ്ഞു കുഞ്ഞിളം കൈകളിൽ ശാസ്ത്രവിസ്മയങ്ങൾ; 56 പോയന്റുമായി വ
 NOT filed (N) സ്വലാത്ത് ആത്മീയ സംഗമവും സയ്യിദ് അലി ബാഫഖീ തങ്ങൾ അ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: താക്കീതായി സി.പി.എം. മാർച്ച്
-NOT filed (N) താക്കീതായി സി.പി.എം. മാർച്ച്: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: വരാനിരിക്കുന്നത് ഡിജിറ്റൽ സാങ്കേതികവിദ്യയുടെ കുതിപ്പിന്റെ കാ
 NOT filed (N) വിരിഞ്ഞു കുഞ്ഞിളം കൈകളിൽ ശാസ്ത്രവിസ്മയങ്ങൾ; 56 പോയ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+try (N) manual=False: വരാനിരിക്കുന്നത് ഡിജിറ്റൽ സാങ്കേതികവിദ്യയുടെ കുതിപ്പിന്റെ കാ
+NOT filed (N) താക്കീതായി സി.പി.എം. മാർച്ച്: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: ആനറക്കുളം തകർച്ച അന്വേഷിക്കണമെന്ന് ആവശ്യപ്പെട്ട് നിവേദനം
-NOT filed (N) നിലമ്പൂർ–ഷൊർണൂർ പാതയിൽ അടിപ്പാത വന്നാൽ യാത്ര എളുപ്: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: സൗത്ത് പല്ലാറിൽ അപൂർവ കന്യാസ്ത്രീ കൊക്ക് കൂടൊരുക്കി
-NOT filed (N) ആനറക്കുളം തകർച്ച അന്വേഷിക്കണമെന്ന് ആവശ്യപ്പെട്ട് ന: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: ആര്യാടൻ മുഹമ്മദ് അനുസ്മരണ പരിപാടി നടത്തി | Madhyamam
 NOT filed (N) വരാനിരിക്കുന്നത് ഡിജിറ്റൽ സാങ്കേതികവിദ്യയുടെ കുതിപ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+try (N) manual=False: സൗത്ത് പല്ലാറിൽ അപൂർവ കന്യാസ്ത്രീ കൊക്ക് കൂടൊരുക്കി
+NOT filed (N) നിലമ്പൂർ–ഷൊർണൂർ പാതയിൽ അടിപ്പാത വന്നാൽ യാത്ര എളുപ്: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+try (N) manual=False: ആര്യാടൻ മുഹമ്മദ് അനുസ്മരണ പരിപാടി നടത്തി | Madhyamam
+NOT filed (N) ആനറക്കുളം തകർച്ച അന്വേഷിക്കണമെന്ന് ആവശ്യപ്പെട്ട് ന: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: ബാർ ലൈസൻസ് വിവാദം: സസ്പെൻഷനിലായ എക്സൈസ് ഡെപ്യൂട്ടി കമ്മീഷണർമ
 NOT filed (N) സൗത്ത് പല്ലാറിൽ അപൂർവ കന്യാസ്ത്രീ കൊക്ക് കൂടൊരുക്ക: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: ശാസ്ത്രച്ചെപ്പ് തുറന്ന് ഉമ്മയും മകളും; അന്ന് സംസ്ഥാനതാരം, ഇന
@@ -396,14 +408,14 @@ NOT filed (N) ആര്യാടൻ മുഹമ്മദ് അനുസ്മ�
 try (N) manual=False: പുഞ്ചക്കോൾ കൃഷിമേഖലയിൽ പ്രതിസന്ധി രൂക്ഷം;കെ.എൽ.ഡി.സിക്കെതിരെ
 NOT filed (N) ശാസ്ത്രച്ചെപ്പ് തുറന്ന് ഉമ്മയും മകളും; അന്ന് സംസ്ഥ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: ഉന്നതവിദ്യാഭ്യാസരംഗത്ത് കാലാനുസൃതമായ മാറ്റങ്ങൾ കൊണ്ടുവരും- റ
-NOT filed (N) ബാർ ലൈസൻസ് വിവാദം: സസ്പെൻഷനിലായ എക്സൈസ് ഡെപ്യൂട്ടി: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: സഹചാരി സെന്ററിന് തറക്കല്ലിട്ടു
 NOT filed (N) പുഞ്ചക്കോൾ കൃഷിമേഖലയിൽ പ്രതിസന്ധി രൂക്ഷം;കെ.എൽ.ഡി.: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+try (N) manual=False: സഹചാരി സെന്ററിന് തറക്കല്ലിട്ടു
+NOT filed (N) ബാർ ലൈസൻസ് വിവാദം: സസ്പെൻഷനിലായ എക്സൈസ് ഡെപ്യൂട്ടി: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: വ്യാപാരത്തിൽനിന്ന് ആത്മീയ നേതൃപദവിയിലേക്ക്
 NOT filed (N) ഉന്നതവിദ്യാഭ്യാസരംഗത്ത് കാലാനുസൃതമായ മാറ്റങ്ങൾ കൊണ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: വളയപ്പുറത്തെ റെയിൽവേ അടിപ്പാത താത്കാലികമായി തുറന്നു
+NOT filed (N) വ്യാപാരത്തിൽനിന്ന് ആത്മീയ നേതൃപദവിയിലേക്ക്: all free models failed: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request 
 NOT filed (N) സഹചാരി സെന്ററിന് തറക്കല്ലിട്ടു: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-NOT filed (N) വ്യാപാരത്തിൽനിന്ന് ആത്മീയ നേതൃപദവിയിലേക്ക്: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 NOT filed (N) വളയപ്പുറത്തെ റെയിൽവേ അടിപ്പാത താത്കാലികമായി തുറന്ന: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 47}, done={'R': 0, 'N': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
