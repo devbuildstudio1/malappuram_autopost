@@ -113,10 +113,22 @@ def in_prime_time(now=None):
     return any(a <= hm < b for a, b in (CONFIG.get("prime_time") or {}).get("windows", []))
 
 
+def in_quiet_hours(now=None):
+    """night hours (config prime_time.quiet_hours, e.g. 22:30-06:00): no reel is posted, not even urgent news (nobody sees it)"""
+    q = (CONFIG.get("prime_time") or {}).get("quiet_hours") or []
+    if len(q) != 2:
+        return False
+    hm = (now or datetime.now(IST)).strftime("%H:%M")
+    a, b = q
+    return (a <= hm or hm < b) if a > b else (a <= hm < b)
+
+
 def prime_wait(row, now=None):
     """'' = post now. Otherwise why this reel waits (a high-view window is coming). Urgent news and reels that have already
-    waited max_wait_hours never wait, so every news still goes out."""
+    waited max_wait_hours never wait for a window, so every news still goes out - but nothing posts in the quiet hours."""
     pt = CONFIG.get("prime_time") or {}
+    if pt.get("enabled") and in_quiet_hours(now):
+        return f"quiet hours - waits for {(pt.get('windows') or [['07:00']])[0][0]} IST"
     if not pt.get("enabled") or prime_urgent(row) or is_urgent(row) or in_prime_time(now):
         return ""
     waited = age_hours(row)
@@ -996,6 +1008,33 @@ def ig_recent(page):
     return IG_RECENT[page]
 
 
+def _ig_time(ts):
+    try:
+        return datetime.strptime(ts, "%Y-%m-%dT%H:%M:%S%z").astimezone(IST)
+    except (ValueError, TypeError):
+        return None
+
+
+def pacing_wait(page, now=None):
+    """'' = this page may post now. Otherwise why it waits: the last reel went out less than gap_minutes ago, or the page already
+    posted daily_max reels today (IST). Read from Instagram itself, so reels posted by hand count too. Test runs never wait."""
+    pt = CONFIG.get("prime_time") or {}
+    if DRY or not pt.get("enabled"):
+        return ""
+    now = now or datetime.now(IST)
+    times = [t for t in (_ig_time(ts) for ts, _ in ig_recent(page)) if t]
+    cap = int(pt.get("daily_max") or 0)
+    today = [t for t in times if t.date() == now.date()]
+    if cap and len(today) >= cap:
+        return f"{len(today)} reels posted today (daily maximum {cap}) - waits for tomorrow"
+    gap = float(pt.get("gap_minutes") or 0)
+    if gap and times:
+        nxt = max(times) + timedelta(minutes=gap)
+        if now < nxt:
+            return f"last reel {max(times):%H:%M} IST - next one from {nxt:%H:%M} IST ({gap:.0f} min gap)"
+    return ""
+
+
 def ig_duplicate(row, page):
     """the story id/time of a recent Instagram post of this page that is the same news, else ''"""
     import freshness
@@ -1494,12 +1533,19 @@ def main():
                         log("Instagram 24-hour limit reached for", sorted(full), "- their stories wait (nothing is dropped)")
                     left = {p: TOTAL[p] - USED[p] for p in TOTAL if p in USED}      # posts this page may still make in the 24-hour window
                     ids, waiting = [], []
+                    paced = {}      # page -> why it may not post now (gap / daily maximum); one reel per page per run
                     for r in (pick_all(rows) if n else []):
                         pg = [p for p in pages_of(r) if not page_done(r, p) and p not in full and left.get(p, 1) > 0]
                         why = prime_wait(r)
+                        for p in pg:
+                            if not why:
+                                why = paced.setdefault(p, pacing_wait(p))
                         if pg and why:
                             waiting.append(r["story_id"]); log("  ", r["story_id"], why)
                             continue
+                        if pg and (CONFIG.get("prime_time") or {}).get("gap_minutes"):
+                            for p in pg:
+                                paced[p] = "one reel per run (the gap starts after it)"
                         if pg and len(ids) < 12:
                             ids.append(r["story_id"])
                             for p in pg:

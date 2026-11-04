@@ -250,7 +250,7 @@ class Images(unittest.TestCase):
 
 
 class PrimeTime(unittest.TestCase):
-    """owner: non-urgent reels wait for 9-12 / 18-21:30; urgent news never waits; nothing is ever dropped"""
+    """owner: non-urgent reels wait for 7-9:30 / 12:30-14:30 / 18:30-22; urgent news never waits (except in the quiet hours); nothing is ever dropped"""
     FESTIVAL = "ക്ഷേത്രോത്സവത്തിന് കൊടിയേറി"
 
     def at(self, h, m=0):
@@ -263,19 +263,41 @@ class PrimeTime(unittest.TestCase):
     def test_urgent_never_waits(self):
         for title in ("കോട്ടക്കൽ ഭാഗത്ത് നാളെ വൈദ്യുതി മുടങ്ങും", "സ്വകാര്യ ബസ് ഇടിച്ച് തൊഴിലാളി മരിച്ചു",
                       "മലപ്പുറം ജില്ലയിൽ കനത്ത മഴ മുന്നറിയിപ്പ്", "കളക്ടറുടെ അറിയിപ്പ്: പ്രത്യേക ക്യാമ്പ്"):
-            self.assertEqual("", post.prime_wait(self.row(title), self.at(14)), title)
+            self.assertEqual("", post.prime_wait(self.row(title), self.at(16)), title)
 
     def test_other_news_waits_outside_prime_time(self):
-        self.assertIn("prime time", post.prime_wait(self.row(self.FESTIVAL), self.at(14)))
-        self.assertIn("18:00", post.prime_wait(self.row(self.FESTIVAL), self.at(14)))
-        self.assertIn("09:00", post.prime_wait(self.row(self.FESTIVAL), self.at(23)))
+        self.assertIn("prime time", post.prime_wait(self.row(self.FESTIVAL), self.at(16)))
+        self.assertIn("18:30", post.prime_wait(self.row(self.FESTIVAL), self.at(16)))
+        self.assertIn("12:30", post.prime_wait(self.row(self.FESTIVAL), self.at(10)))
 
     def test_posts_inside_prime_time(self):
-        self.assertEqual("", post.prime_wait(self.row(self.FESTIVAL), self.at(10)))
+        self.assertEqual("", post.prime_wait(self.row(self.FESTIVAL), self.at(8)))
+        self.assertEqual("", post.prime_wait(self.row(self.FESTIVAL), self.at(13)))
         self.assertEqual("", post.prime_wait(self.row(self.FESTIVAL), self.at(19, 30)))
 
-    def test_never_dropped_after_long_wait(self):      # a reel that has waited 12 hours goes out whatever the hour
-        self.assertEqual("", post.prime_wait(self.row(self.FESTIVAL, filed_h_ago=13), self.at(3)))
+    def test_never_dropped_after_long_wait(self):      # a reel that has waited 12 hours goes out at the next non-quiet moment
+        self.assertEqual("", post.prime_wait(self.row(self.FESTIVAL, filed_h_ago=13), self.at(16)))
+
+    def test_nothing_posts_in_quiet_hours(self):        # owner 4 Nov: 22:30-06:00 nothing is posted, not even urgent news
+        for h, m in ((23, 0), (3, 0), (5, 59)):
+            self.assertIn("quiet hours", post.prime_wait(self.row(self.FESTIVAL, filed_h_ago=13), self.at(h, m)))
+            self.assertIn("07:00", post.prime_wait(self.row("സ്വകാര്യ ബസ് ഇടിച്ച് തൊഴിലാളി മരിച്ചു"), self.at(h, m)))
+        self.assertEqual("", post.prime_wait(self.row("സ്വകാര്യ ബസ് ഇടിച്ച് തൊഴിലാളി മരിച്ചു"), self.at(6, 0)))
+
+    def test_pacing_gap_and_daily_max(self):            # owner 4 Nov: 75 min between reels, at most 6 a day per page
+        now = self.at(19, 0)
+        old_dry, old_recent = post.DRY, dict(post.IG_RECENT)
+        post.DRY = False
+        try:
+            post.IG_RECENT["malappuram"] = [((now - datetime.timedelta(minutes=30)).strftime("%Y-%m-%dT%H:%M:%S%z"), "x")]
+            self.assertIn("19:45", post.pacing_wait("malappuram", now))
+            post.IG_RECENT["malappuram"] = [((now - datetime.timedelta(minutes=80)).strftime("%Y-%m-%dT%H:%M:%S%z"), "x")]
+            self.assertEqual("", post.pacing_wait("malappuram", now))
+            post.IG_RECENT["malappuram"] = [((now - datetime.timedelta(hours=k + 2)).strftime("%Y-%m-%dT%H:%M:%S%z"), "x") for k in range(6)]
+            self.assertIn("daily maximum", post.pacing_wait("malappuram", now))
+        finally:
+            post.DRY = old_dry
+            post.IG_RECENT.clear(); post.IG_RECENT.update(old_recent)
 
 
 class ReelOpening(unittest.TestCase):
