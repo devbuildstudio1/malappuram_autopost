@@ -157,7 +157,7 @@ function token_(page) {
 function refreshTokens() {
   ['MANJERI', 'MALAPPURAM'].forEach(function (p) {
     var key = 'IG_TOKEN_' + p, t = props_().getProperty(key);
-    if (!t) return;
+    if (!t || t.indexOf('IG') !== 0) return;   // only Instagram-login tokens (IG...) expire; Meta system-user tokens never do
     var res = UrlFetchApp.fetch('https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=' +
       encodeURIComponent(t), { muteHttpExceptions: true });
     var d = JSON.parse(res.getContentText());

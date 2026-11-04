@@ -31,8 +31,10 @@ START = time.time()
 DRY = os.environ.get("DRY_RUN", "") in ("1", "true", "yes")
 PREBUILD = os.environ.get("PREBUILD", "") in ("1", "true", "yes")   # build + upload only; the posting run then publishes at once
 CACHE = ROOT / "poster" / "prebuilt"
-IG_HOST = "https://graph.instagram.com"
+IG_HOST = "https://graph.instagram.com"        # tokens from "Instagram login" (start with IG...)
+FB_HOST = "https://graph.facebook.com"         # system-user tokens from Meta "Unified login" (start with EA...)
 IG_VER = os.environ.get("IG_API_VERSION", "")
+TOKEN_PAGE = {}    # token -> page, filled by bridge_get("token") so ig_account knows which Instagram account a token is for
 
 PAGE = "malappuram"
 ALL_ROWS = []      # every row of the queue (set in main) - used to spot the same news posted before
@@ -64,6 +66,8 @@ def bridge_get(action, **params):
     data = r.json()
     if not data.get("ok"):
         raise RuntimeError(f"bridge {action}: {data.get('error')}")
+    if action == "token" and data.get("token"):
+        TOKEN_PAGE[data["token"]] = params.get("page")
     return data
 
 
@@ -669,13 +673,18 @@ def save_cache(sid, key, media, checks):
         log("cache not saved:", e)
 
 
-def ig_url(path):
-    return f"{IG_HOST}/{IG_VER + '/' if IG_VER else ''}{path}"
+def is_fb_token(token):
+    return not str(token or "").startswith("IG")
+
+
+def ig_url(path, token=None):
+    host = FB_HOST if is_fb_token(token) else IG_HOST
+    return f"{host}/{IG_VER + '/' if IG_VER else ''}{path}"
 
 
 def ig(method, path, token, **params):
     params["access_token"] = token
-    r = requests.request(method, ig_url(path), params=params if method == "GET" else None,
+    r = requests.request(method, ig_url(path, token), params=params if method == "GET" else None,
                          data=params if method == "POST" else None, timeout=120)
     try:
         data = r.json()
@@ -700,6 +709,13 @@ def wait_ready(cid, token, minutes=10):
 
 
 def ig_account(token):
+    if is_fb_token(token):
+        # a system-user token's "me" is the system user, not the Instagram account: the account id comes from config.json
+        page = TOKEN_PAGE.get(token)
+        uid = (CONFIG.get("ig_user_ids") or {}).get(page or "")
+        if not uid:
+            raise RuntimeError(f"no Instagram account id for page {page!r} in poster/config.json ig_user_ids")
+        return uid, ig("GET", uid, token, fields="username").get("username")
     me = ig("GET", "me", token, fields="user_id,username")
     return me.get("user_id") or me.get("id"), me.get("username")
 
