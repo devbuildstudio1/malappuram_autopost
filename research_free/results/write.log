@@ -1,22 +1,17 @@
 writing [N]: കാലിക്കറ്റ് സർവകലാശാലയ്ക്ക് കീഴിൽ 28 കോളജുകളിൽ പുതിയ കോഴ്സുക
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-writing [N]: കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ: ആസൂത്രണം ചെയ്തത് യുവതിയും സുഹൃത്
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [N]: കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ: ആസൂത്രണം ചെയ്തത് യുവതിയും സുഹൃത്
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 writing [R]: നജീബ് കാന്തപുരത്തിനെതിരായ കോടതിയലക്ഷ്യ കേസ് ഹൈക്കോടതിയിലേക്ക
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -27,68 +22,63 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgkRgrauWi6wJfNFPYtuA"}
+writing [N]: പഹൽഗാം ഭീകരാക്രമണവുമായി ബന്ധപ്പെട്ട സമൂഹ മാധ്യമ കേസ്; മലപ്പു
+free models unavailable: free models not efficient (10 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgkRgtp6qjWgKLZSvzpp2"}
+writing [N]: വേങ്ങര പാലിയേറ്റീവ് കെട്ടിടനിർമാണം പൂർത്തിയാക്കാൻ ബിരിയാണി ച
+free models unavailable: free models not efficient (10 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgkRgxCzbmauv8wiyiHX9"}
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgkNeZNQUd4akn9sBxb8H"}
-writing [N]: പഹൽഗാം ഭീകരാക്രമണവുമായി ബന്ധപ്പെട്ട സമൂഹ മാധ്യമ കേസ്; മലപ്പു
-free models unavailable: free models not efficient (16 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgkNeawQS8RizVUaHbFGJ"}
-writing [N]: വേങ്ങര പാലിയേറ്റീവ് കെട്ടിടനിർമാണം പൂർത്തിയാക്കാൻ ബിരിയാണി ച
-free models unavailable: free models not efficient (16 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgkNeePmgU3QAstUYExWy"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgkNfBvLsXb4u7Fz4uePL"}
-fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgkNgYimXNH8p31nmAJtY"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgkRiqFb3p1gk6kxBgYZj"}
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+dead for this round: groq/openai/gpt-oss-120b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgkRk3BxgENxURNM3FxFm"}
 earlier stories still waiting for images: []
 instagram check: 4 recent posts read from both pages
-write round: 6 news waiting in the queue (written in priority order)
-candidate filter: collected=5, checked earlier=1
+write round: 5 news waiting in the queue (written in priority order)
+candidate filter: collected=5
 to write: 1 Manjeri + 4 other district candidates (max 200 + 200 stories)
 candidates waiting: 1 Manjeri, 4 Malappuram; time left 29 min
 try (N) manual=False: കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ: ആസൂത്രണം ചെയ്തത് യുവതിയും സുഹൃത്
 try (N) manual=False: കാലിക്കറ്റ് സർവകലാശാലയ്ക്ക് കീഴിൽ 28 കോളജുകളിൽ പുതിയ കോഴ്സുക
 try (R) manual=False: നജീബ് കാന്തപുരത്തിനെതിരായ കോടതിയലക്ഷ്യ കേസ് ഹൈക്കോടതിയിലേക്ക
-NOT filed (R) നജീബ് കാന്തപുരത്തിനെതിരായ കോടതിയലക്ഷ്യ കേസ് ഹൈക്കോ: all free models failed: no usable answer from the models
+NOT filed (N) കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ: ആസൂത്രണം ചെയ്തത് യുവതി: all free models failed: no usable answer from the models
 try (N) manual=False: പഹൽഗാം ഭീകരാക്രമണവുമായി ബന്ധപ്പെട്ട സമൂഹ മാധ്യമ കേസ്; മലപ്പു
 NOT filed (N) പഹൽഗാം ഭീകരാക്രമണവുമായി ബന്ധപ്പെട്ട സമൂഹ മാധ്യമ കേ: all free models failed: no usable answer from the models
 try (N) manual=False: വേങ്ങര പാലിയേറ്റീവ് കെട്ടിടനിർമാണം പൂർത്തിയാക്കാൻ ബിരിയാണി ച
 NOT filed (N) വേങ്ങര പാലിയേറ്റീവ് കെട്ടിടനിർമാണം പൂർത്തിയാക്കാൻ : all free models failed: no usable answer from the models
-NOT filed (N) കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ: ആസൂത്രണം ചെയ്തത് യുവതി: all free models failed: no usable answer from the models
+NOT filed (R) നജീബ് കാന്തപുരത്തിനെതിരായ കോടതിയലക്ഷ്യ കേസ് ഹൈക്കോ: all free models failed: no usable answer from the models
 NOT filed (N) കാലിക്കറ്റ് സർവകലാശാലയ്ക്ക് കീഴിൽ 28 കോളജുകളിൽ പുത: all free models failed: no usable answer from the models
 candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 4}, done={'R': 0, 'N': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
