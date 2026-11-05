@@ -7,117 +7,63 @@ groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-
 writing [N]: വറ്റ മത്സ്യം കഴിച്ച് ദേഹാസ്വാസ്ഥ്യം അനുഭവപ്പെട്ടതിനെത്തുടർന്
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-switching away from gemini/gemini-3.8-flash for 10 min
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-switching away from gemini/gemini-3.8-flash for 10 min
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-switching away from gemini/gemini-3.8-flash for 10 min
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-switching away from gemini/gemini-3.7-flash for 10 min
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-switching away from gemini/gemini-3.7-flash for 10 min
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-ok gemini/gemini-3.6-flash (18s)
-attempt 1 gemini/gemini-3.6-flash: 3 problems
-  reel_script has 71 words; need 85-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+ok gemini/gemini-3.8-flash (30s)
+attempt 1 gemini/gemini-3.8-flash: 3 problems
+  reel_script has 81 words; need 85-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
   numbers not found in the article: 05
   caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 26 ('ഒക്ടോബർ 26 മുതൽ പെരുമാതുറ, മുതലപ്പൊഴി ഭാഗത്ത് വറ്റ മത്സ്യത്ത'); 403 ('സിറിയൻ പുനർനിർമാണത്തിന് 403 മില്യൺ ഡോളറിന്റെ വമ്പൻ പാക്കേജ്;')
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.7-flash
-ok gemini/gemini-3.6-flash (22s)
-attempt 2 gemini/gemini-3.6-flash: 2 problems
-  numbers not found in the article: 05
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 403 ('സിറിയൻ പുനർനിർമാണത്തിന് 403 മില്യൺ ഡോളറിന്റെ വമ്പൻ പാക്കേജ്;')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok gemini/gemini-3.6-flash (22s)
-attempt 1 gemini/gemini-3.6-flash: 3 problems
-  reel_script has 77 words; need 85-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+ok gemini/gemini-3.8-flash (44s)
+attempt 1 gemini/gemini-3.8-flash: 3 problems
+  reel_script has 69 words; need 85-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
   numbers not found in the article: 05
   caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): കരിപ്പൂർ ('സിനിമാ സ്റ്റൈലിൽ നടന്ന ചേസിങ്ങിനൊടുവിൽ പുളിക്കലിൽവെച്ചാണ് പൊ')
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high d
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-ok gemini/gemini-3.6-flash (20s)
-attempt 1 gemini/gemini-3.6-flash: 5 problems
-  reel_script has 75 words; need 85-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 05
-  stray Malayalam sign 'ാ' after '-' in «്റെ 3-ാം ന»
-  stray Malayalam sign 'ാ' after '-' in «്റെ 3-ാം ന»
-  stray Malayalam sign 'ാ' after '-' in «്റെ 3-ാം ന»
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+ok gemini/gemini-3.6-flash (28s)
+attempt 2 gemini/gemini-3.6-flash: 1 problems
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 403 ('സിറിയൻ പുനർനിർമാണത്തിന് 403 മില്യൺ ഡോളറിന്റെ വമ്പൻ പാക്കേജ്;')
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
-switching away from gemini/gemini-3.6-flash for 10 min
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-switching away from gemini/gemini-3.6-flash for 10 min
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+ok gemini/gemini-3.6-flash (17s)
+attempt 1 gemini/gemini-3.6-flash: 4 problems
+  reel_script has 74 words; need 85-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 05
+  stray Malayalam sign 'ാ' after '-' in «ിലെ 3-ാം ന»
+  stray Malayalam sign 'ാ' after '-' in «ിലെ 3-ാം ന»
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
@@ -125,90 +71,95 @@ free models unavailable: no free model answered: mistral mistral-small-latest 42
 writing [N]: കരിപ്പൂർ സ്വർണക്കടത്തിൽ വീണ്ടും ട്വിസ്റ്റ്: യുവതിയുടെ ഭർത്താ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: സീബ്രാ ലൈനില്ല; വാഴക്കാട്ട് സ്കൂൾ വിദ്യാർഥികൾക്ക് റോഡ് മുറിച
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: കേരള ഭൂപടമൊരുക്കി വിദ്യാർഥികൾ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+ok groq/openai/gpt-oss-120b (7s)
+attempt 1 groq/openai/gpt-oss-120b: 3 problems
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+dead for this round: groq/openai/gpt-oss-120b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: കരിപ്പൂർ വിമാനത്താവളത്തിൽ വീണ്ടും സ്വർണക്കവർച്ചാ ശ്രമം; പിന്
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
 writing [N]: കോഴിക്കോട് വിമാനത്താവളത്തിൽ കവർച്ചാശ്രമം; സ്വർണവുമായി കടന്
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: മലപ്പുറം വിമാനയാത്ര സ്പോൺസറെ വ്യക്തമാക്കണം: മുഖ്യമന്ത്രിക്ക്
+ok gemini/gemini-3.6-flash (34s)
+attempt 3 gemini/gemini-3.6-flash: 1 problems
+  reel_script has 82 words; need 85-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: ഒന്നിച്ചു നിന്നാൽ മാത്രം വേദി നൽകും, തിരുനാവായ മഹാമാഘത്തിൽ സ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-writing [N]: സ്വർണം തട്ടിയെടുക്കാൻ സിനിമ സ്റ്റെൽ തട്ടിക്കൊണ്ടുപോകൽ നാടകം;
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-writing [N]: ഇടക്കാല തെരഞ്ഞെടുപ്പിൽ റിപ്പബ്ലിക്കൻ പാർട്ടിയുടെ പരാജയം; കാര
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: ലീഗ് തീരുമാനം മറികടന്ന് കാലിക്കറ്റിൽ പ്രോ വൈസ് ചാൻസിലർ; വിശ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-writing [N]: 58 മാർക്കിന്റെ മൂല്യനിർണയം നടത്താതിരുന്നത് സാങ്കേതിക പിഴവ് ക
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: സ്വർണം തട്ടിയെടുക്കാൻ സിനിമ സ്റ്റെൽ തട്ടിക്കൊണ്ടുപോകൽ നാടകം;
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: തട്ടിക്കൊണ്ടു പോവലോ അതോ ഒത്തുകളിയോ? കരിപ്പൂരിൽ സിനിമാറ്റിക് 
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-writing [N]: ഫ്ളോറ സൂപ്പർ സോൺ നാളെ നാടിന് സമർപ്പിക്കും | Deepika | The La
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-writing [N]: കടത്താൻ കടുവ, പൊട്ടിക്കാൻ കിടുവ; ഇടയിൽ കയറാൻ പൊലീസ്
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-writing [N]: കരിപ്പൂരിൽ സ്വർണം കടത്തിക്കൊണ്ട് വന്ന യുവതിയെ തട്ടിക്കൊണ്ട് 
+writing [N]: ഇടക്കാല തെരഞ്ഞെടുപ്പിൽ റിപ്പബ്ലിക്കൻ പാർട്ടിയുടെ പരാജയം; കാര
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+writing [N]: 58 മാർക്കിന്റെ മൂല്യനിർണയം നടത്താതിരുന്നത് സാങ്കേതിക പിഴവ് ക
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: കടത്താൻ കടുവ, പൊട്ടിക്കാൻ കിടുവ; ഇടയിൽ കയറാൻ പൊലീസ്
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+writing [N]: കരിപ്പൂരിൽ സ്വർണം കടത്തിക്കൊണ്ട് വന്ന യുവതിയെ തട്ടിക്കൊണ്ട് 
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: സയ്യിദ് അലി ബാഫഖി തങ്ങൾക്ക് യാത്രാമൊഴി | Sirajlive.com
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-ok gemini/gemini-3.6-flash (27s)
-attempt 2 gemini/gemini-3.6-flash: 2 problems
-  numbers not found in the article: 05
-  stray Malayalam sign 'ാ' after '3' in «ന്റെ 3ാം ന»
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
@@ -216,9 +167,9 @@ free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"er
 earlier stories still waiting for images: []
 instagram check: 2 recent posts read from both pages
 write round: 19 news waiting in the queue (written in priority order)
-candidate filter: collected=19
-to write: 0 Manjeri + 19 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 19 Malappuram; time left 29 min
+candidate filter: collected=18, checked earlier=1
+to write: 0 Manjeri + 18 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 18 Malappuram; time left 29 min
 try (N) manual=False: വറ്റ മത്സ്യം കഴിച്ച് ദേഹാസ്വാസ്ഥ്യം അനുഭവപ്പെട്ടതിനെത്തുടർന്
 try (N) manual=False: മേലാറ്റൂർ വില്ലേജ് ഓഫീസ് കെട്ടിടനിർമാണം അനിശ്ചിതത്വത്തിൽ
 try (N) manual=False: കരിപ്പൂർ തട്ടിക്കൊണ്ടുപോകലിൽ വീണ്ടും ട്വിസ്റ്റ്; ഭർത്താവിന് 
@@ -226,40 +177,38 @@ NOT filed (N) കരിപ്പൂർ തട്ടിക്കൊണ്ടു�
 try (N) manual=False: കരിപ്പൂർ സ്വർണക്കടത്തിൽ വീണ്ടും ട്വിസ്റ്റ്: യുവതിയുടെ ഭർത്താ
 NOT filed (N) കരിപ്പൂർ സ്വർണക്കടത്തിൽ വീണ്ടും ട്വിസ്റ്റ്: യുവതിയ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: സീബ്രാ ലൈനില്ല; വാഴക്കാട്ട് സ്കൂൾ വിദ്യാർഥികൾക്ക് റോഡ് മുറിച
-NOT filed (N) സീബ്രാ ലൈനില്ല; വാഴക്കാട്ട് സ്കൂൾ വിദ്യാർഥികൾക്ക് : all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+NOT filed (N) സീബ്രാ ലൈനില്ല; വാഴക്കാട്ട് സ്കൂൾ വിദ്യാർഥികൾക്ക് : all free models failed: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request 
 try (N) manual=False: കേരള ഭൂപടമൊരുക്കി വിദ്യാർഥികൾ
-NOT filed (N) വറ്റ മത്സ്യം കഴിച്ച് ദേഹാസ്വാസ്ഥ്യം അനുഭവപ്പെട്ടതി: all free models failed: no free model answered: mistral mistral-small-latest 429: {"object":"error","mes
-try (N) manual=False: കരിപ്പൂർ വിമാനത്താവളത്തിൽ വീണ്ടും സ്വർണക്കവർച്ചാ ശ്രമം; പിന്
 NOT filed (N) കേരള ഭൂപടമൊരുക്കി വിദ്യാർഥികൾ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: കോഴിക്കോട് വിമാനത്താവളത്തിൽ കവർച്ചാശ്രമം; സ്വർണവുമായി കടന്
+try (N) manual=False: കരിപ്പൂർ വിമാനത്താവളത്തിൽ വീണ്ടും സ്വർണക്കവർച്ചാ ശ്രമം; പിന്
 NOT filed (N) കരിപ്പൂർ വിമാനത്താവളത്തിൽ വീണ്ടും സ്വർണക്കവർച്ചാ ശ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+try (N) manual=False: കോഴിക്കോട് വിമാനത്താവളത്തിൽ കവർച്ചാശ്രമം; സ്വർണവുമായി കടന്
+NOT filed (N) മേലാറ്റൂർ വില്ലേജ് ഓഫീസ് കെട്ടിടനിർമാണം അനിശ്ചിതത്: all free models failed: no free model answered: mistral mistral-small-latest 429: {"object":"error","mes
 try (N) manual=False: മലപ്പുറം വിമാനയാത്ര സ്പോൺസറെ വ്യക്തമാക്കണം: മുഖ്യമന്ത്രിക്ക്
-NOT filed (N) കോഴിക്കോട് വിമാനത്താവളത്തിൽ കവർച്ചാശ്രമം; സ്വർണവ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+NOT filed (N) കോഴിക്കോട് വിമാനത്താവളത്തിൽ കവർച്ചാശ്രമം; സ്വർണവ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request 
 try (N) manual=False: സ്വർണം തട്ടിയെടുക്കാൻ സിനിമ സ്റ്റെൽ തട്ടിക്കൊണ്ടുപോകൽ നാടകം;
-NOT filed (N) മലപ്പുറം വിമാനയാത്ര സ്പോൺസറെ വ്യക്തമാക്കണം: മുഖ്യമ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+NOT filed (N) മലപ്പുറം വിമാനയാത്ര സ്പോൺസറെ വ്യക്തമാക്കണം: മുഖ്യമ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request 
 try (N) manual=False: ഒന്നിച്ചു നിന്നാൽ മാത്രം വേദി നൽകും, തിരുനാവായ മഹാമാഘത്തിൽ സ
+NOT filed (N) വറ്റ മത്സ്യം കഴിച്ച് ദേഹാസ്വാസ്ഥ്യം അനുഭവപ്പെട്ടതി: all free models failed: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request 
+try (N) manual=False: ലീഗ് തീരുമാനം മറികടന്ന് കാലിക്കറ്റിൽ പ്രോ വൈസ് ചാൻസിലർ; വിശ
 NOT filed (N) ഒന്നിച്ചു നിന്നാൽ മാത്രം വേദി നൽകും, തിരുനാവായ മഹാ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: ഇടക്കാല തെരഞ്ഞെടുപ്പിൽ റിപ്പബ്ലിക്കൻ പാർട്ടിയുടെ പരാജയം; കാര
-NOT filed (N) സ്വർണം തട്ടിയെടുക്കാൻ സിനിമ സ്റ്റെൽ തട്ടിക്കൊണ്ടുപ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: ലീഗ് തീരുമാനം മറികടന്ന് കാലിക്കറ്റിൽ പ്രോ വൈസ് ചാൻസിലർ; വിശ
-NOT filed (N) ഇടക്കാല തെരഞ്ഞെടുപ്പിൽ റിപ്പബ്ലിക്കൻ പാർട്ടിയുടെ പ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+NOT filed (N) ലീഗ് തീരുമാനം മറികടന്ന് കാലിക്കറ്റിൽ പ്രോ വൈസ് ചാ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request 
 try (N) manual=False: 58 മാർക്കിന്റെ മൂല്യനിർണയം നടത്താതിരുന്നത് സാങ്കേതിക പിഴവ് ക
-NOT filed (N) ലീഗ് തീരുമാനം മറികടന്ന് കാലിക്കറ്റിൽ പ്രോ വൈസ് ചാ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-try (N) manual=False: ഫ്ളോറ സൂപ്പർ സോൺ നാളെ നാടിന് സമർപ്പിക്കും | Deepika | The La
-NOT filed (N) 58 മാർക്കിന്റെ മൂല്യനിർണയം നടത്താതിരുന്നത് സാങ്കേത: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+NOT filed (N) സ്വർണം തട്ടിയെടുക്കാൻ സിനിമ സ്റ്റെൽ തട്ടിക്കൊണ്ടുപ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: തട്ടിക്കൊണ്ടു പോവലോ അതോ ഒത്തുകളിയോ? കരിപ്പൂരിൽ സിനിമാറ്റിക് 
-NOT filed (N) തട്ടിക്കൊണ്ടു പോവലോ അതോ ഒത്തുകളിയോ? കരിപ്പൂരിൽ സിന: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+NOT filed (N) തട്ടിക്കൊണ്ടു പോവലോ അതോ ഒത്തുകളിയോ? കരിപ്പൂരിൽ സിന: all free models failed: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request 
 try (N) manual=False: കരിപ്പൂരിൽ സ്വർണം കടത്തിക്കൊണ്ട് വന്ന യുവതിയെ തട്ടിക്കൊണ്ട് 
-NOT filed (N) ഫ്ളോറ സൂപ്പർ സോൺ നാളെ നാടിന് സമർപ്പിക്കും | Deepik: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+NOT filed (N) ഇടക്കാല തെരഞ്ഞെടുപ്പിൽ റിപ്പബ്ലിക്കൻ പാർട്ടിയുടെ പ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request 
 try (N) manual=False: കടത്താൻ കടുവ, പൊട്ടിക്കാൻ കിടുവ; ഇടയിൽ കയറാൻ പൊലീസ്
-NOT filed (N) കടത്താൻ കടുവ, പൊട്ടിക്കാൻ കിടുവ; ഇടയിൽ കയറാൻ പൊലീസ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
+NOT filed (N) 58 മാർക്കിന്റെ മൂല്യനിർണയം നടത്താതിരുന്നത് സാങ്കേത: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 try (N) manual=False: സയ്യിദ് അലി ബാഫഖി തങ്ങൾക്ക് യാത്രാമൊഴി | Sirajlive.com
+NOT filed (N) കടത്താൻ കടുവ, പൊട്ടിക്കാൻ കിടുവ; ഇടയിൽ കയറാൻ പൊലീസ: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 NOT filed (N) കരിപ്പൂരിൽ സ്വർണം കടത്തിക്കൊണ്ട് വന്ന യുവതിയെ തട്ട: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
 NOT filed (N) സയ്യിദ് അലി ബാഫഖി തങ്ങൾക്ക് യാത്രാമൊഴി | Sirajlive: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-NOT filed (N) മേലാറ്റൂർ വില്ലേജ് ഓഫീസ് കെട്ടിടനിർമാണം അനിശ്ചിതത്: all free models failed: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request 
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 19}, done={'R': 0, 'N': 0}, time left 27 min
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 18}, done={'R': 0, 'N': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
-queue: 19 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":19} 
+queue: 18 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":18} 
 stories: 0
