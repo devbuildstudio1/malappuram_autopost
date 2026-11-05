@@ -1,27 +1,32 @@
-writing [N]: കാലിക്കറ്റ് സർവകലാശാലയ്ക്ക് കീഴിൽ 28 കോളജുകളിൽ പുതിയ കോഴ്സുക
+writing [N]: സീബ്രാ ലൈനില്ല; വാഴക്കാട്ട് സ്കൂൾ വിദ്യാർഥികൾക്ക് റോഡ് മുറിച
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [N]: കാലിക്കറ്റ് സർവകലാശാലയ്ക്ക് കീഴിൽ 28 കോളജുകളിൽ പുതിയ കോഴ്സുക
 writing [N]: കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ; ആസൂത്രണം ചെയ്തത് സ്വർണം കടത്തിയ 
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-writing [N]: 'തീരം കാക്കാൻ' എസ് ഡിപിഐ തീരദേശ മുന്നേറ്റ യാത്ര മലപ്പുറം ജില
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
+dead for this round: gemini/gemini-3.7-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -37,141 +42,142 @@ dead for this round: groq/openai/gpt-oss-120b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 dead for this round: groq/openai/gpt-oss-120b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 400: {"errors":[{"message":"AiError: AiError: {\"error\":{\"message\
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (48s)
-attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  missing key: scenes
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqZHgaT6ZvH9vaTN9MT"}
-proofread skipped: free models not efficient (5 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-writing [N]: സീബ്രാ ലൈനില്ല; വാഴക്കാട്ട് സ്കൂൾ വിദ്യാർഥികൾക്ക് റോഡ് മുറിച
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqZQyt5dakFc5TNoiyD"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtS9jFSWVZEAX9Z6mRv"}
 writing [N]: കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ: ഭർത്താവിനെയും മക്കളെയും മറയാക്കി
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqZUKYA9CBYNGeD1GXt"}
-writing [N]: സ്വർണം തട്ടിയെടുക്കാൻ പദ്ധതിയിട്ടത് യുവതിയും ഭർത്താവും സുഹൃത
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqZXxp6k76nQpX4wdi2"}
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSD3SEYdFGbRvEALsG"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSG3WeKxPNx39w5Aec"}
 writing [N]: ഡിഗ്രി, പി.ജി. പരീക്ഷകൾ മലയാളത്തിലും എഴുതാൻ അനുമതി
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqZZU7PhqA559QjZXVT"}
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSGvLrgNYozZqt9JEz"}
+writing [N]: സ്വർണം തട്ടിയെടുക്കാൻ പദ്ധതിയിട്ടത് യുവതിയും ഭർത്താവും സുഹൃത
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSHfFKgaNnFFiv7L4Y"}
 writing [N]: കൊണ്ടോട്ടിയിൽ മലഞ്ചരക്ക് കടയിൽനിന്ന് 18,000 രൂപ മോഷ്ടിച്ചു; 
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqZfpMHvprMXtHw5Bd4"}
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSLo1fBaVQWiVVUXRk"}
+writing [N]: 'തീരം കാക്കാൻ' എസ് ഡിപിഐ തീരദേശ മുന്നേറ്റ യാത്ര മലപ്പുറം ജില
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSMuzCk19UFNzCX4o5"}
 writing [N]: ഒരു മാസത്തിനിടെ കരിപ്പൂർ വിമാനത്താവളത്തിൽ നടന്ന 3 സംഭവങ്ങൾ; 
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqZhw6URGBss5D6Kbkj"}
-writing [N]: ശ്രീലാലിൻ്റെ ഇൻസ്റ്റഗ്രാമിൽ സ്വർണകടത്തിനെ മഹത്വവത്കരിച്ച് പോ
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqZkAncrAv3xJs2pXgK"}
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSPHbBpRMmEWsdJpK3"}
 writing [N]: കരിപ്പൂർ സ്വർണകവർച്ച: പ്രതി ശ്രീലാലിന് അർജുൻ ആയങ്കിയുമായും ട
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqZpXE5HrqvYYMVURWz"}
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSRjfiWCjDFtYeDEcr"}
 writing [N]: ജലജീവൻ മിഷൻ കട്ട് ഓഫ് ഡേറ്റിന് ശേഷമുള്ള പദ്ധതികൾക്ക് അംഗീകാര
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqZuRQU98F4ChUoAeqy"}
-writing [N]: കരിപ്പൂർ സ്വർണക്കടത്ത് കവർച്ചാനാടകം; ദുബായിൽനിന്ന് സ്വർണവുമാ
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqZzrqJVTUwrfb7wWaP"}
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSSbGq2YC8fj4VhrYg"}
+writing [N]: ശ്രീലാലിൻ്റെ ഇൻസ്റ്റഗ്രാമിൽ സ്വർണകടത്തിനെ മഹത്വവത്കരിച്ച് പോ
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSTMAbWBvBWhWQQpzC"}
 writing [N]: യുവതികളെ കാരിയർമാരാക്കുന്നതിന് പിന്നൽ... ഭർത്താവിന് പങ്കില്ല
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgjqa3dmeZTTzikbRwSuR"}
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSVKU9r87q8kPbRxd5"}
 writing [N]: വേങ്ങര പാലിയേറ്റീവ് കെട്ടിടനിർമാണം പൂർത്തിയാക്കാൻ ബിരിയാണി ച
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgjqa98QtFaqBHYBZd3jU"}
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSWDYhbGLb3ghg2av4"}
 writing [N]: വിവാദമായ ഹെലികോപ്റ്റർ നൽകിയത് ചിപ്സൻ ഏവിയേഷൻ; മുഖ്യമന്ത്രിയു
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqaDCETFu8THe2x8dbj"}
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+writing [N]: കരിപ്പൂർ സ്വർണക്കടത്ത് കവർച്ചാനാടകം; ദുബായിൽനിന്ന് സ്വർണവുമാ
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSXNkyWVzAmediw3eh"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSXWwLpfusxHJ5H2nd"}
 writing [N]: 'ഓർമ്മയിലെ ഇന്ദിര':  ഒ ഐ സി സി മലപ്പുറം ജില്ലാ കമ്മിറ്റിയുടെ
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqaFh3pk8YmF1SNtYgS"}
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSY3gv95KzT8dmgpao"}
 writing [N]: കരിപ്പൂരിലെ സ്വർണക്കവർച്ച ആസൂത്രണം ചെയ്തത് പ്രിയങ്കയും ശ്രീല
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqaHRUsVdg99gqc2w9n"}
-writing [N]: ‘18 പവൻ സ്വർണം തട്ടിയെടുക്കാൻ തട്ടിക്കൊണ്ടുപോകൽ നാടകം, കരിപ്
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqaJhsfN5LVfyuPaHf8"}
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSYgdcDtVZaxiQjfkZ"}
 writing [N]: ചരിത്രത്തിന്റെ ഭാഗമായ 'ആദ്യ' ജയങ്ങൾ... അമേരിക്കയിൽ പ്രാതിനിധ
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqaL4joCgVpooSutYFo"}
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSZXEo6bZe8RvZegEK"}
 writing [N]: മുഖ്യമന്ത്രിയുടെ മലപ്പുറം വിമാനയാത്ര; സ്പോൺസർ ആരെന്ന് വ്യക്ത
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqaMkSKDYy427TZENxv"}
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSZyGteU8XTKbXES9P"}
+writing [N]: ‘18 പവൻ സ്വർണം തട്ടിയെടുക്കാൻ തട്ടിക്കൊണ്ടുപോകൽ നാടകം, കരിപ്
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSdYq1bUUPJEmHrmcp"}
 writing [N]: 'താനൂർ ആസ്ഥാനമായി തീരദേശ ജില്ല രൂപീകരിക്കണം'
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqaSH3XogguTCxYBrrT"}
-writing [N]: കായിക പ്രതിഭകളെ ആദരിച്ചു
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqaX8zF6KPmjbtYmAts"}
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSe55FUsw4GRTyHGtY"}
 writing [N]: ആനറക്കുളം തകർച്ച അന്വേഷിക്കണമെന്ന് ആവശ്യപ്പെട്ട് നിവേദനം
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqaYCETAKLvbVNodC1h"}
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSeS9yFkYCzm44GNVY"}
+writing [N]: കായിക പ്രതിഭകളെ ആദരിച്ചു
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtShoK7HaHzzuNGmkDF"}
 writing [N]: വിബി-ഗ്രാം-ജി കുടിശിക ഉടൻ നൽകണം: പ്രിയങ്ക ഗാന്ധി
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqacuWUQq3Udu7nqtdA"}
-writing [N]: വേതന പരിഷ്കരണം നടപ്പാക്കണം: പെൻഷനേഴ്സ് സംഘ്
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqahjEAK363MyosK7X4"}
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSifA73M6N67khiaz3"}
 writing [N]: താക്കീതായി സി.പി.എം. മാർച്ച്
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqaifXJcFQK81haG7By"}
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSj1F3mWht58L4Lqiy"}
 writing [N]: ഒന്നിച്ചു നിന്നാൽ മാത്രം വേദി നൽകും, തിരുനാവായ മഹാമാഘത്തിൽ സ
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqajuC9qy4WpT2k7tSt"}
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
-poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-free models unavailable: no free model answered: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjqayyXLtNrb6Qvuj27D"}
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
-poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-free models unavailable: no free model answered: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgjqb1Bx9ZLk35nMcG96h"}
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSjbxePGqm6LLPExeF"}
+writing [N]: വേതന പരിഷ്കരണം നടപ്പാക്കണം: പെൻഷനേഴ്സ് സംഘ്
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtSn341iaccqCY3JWbs"}
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgjtUNQ4bVq8Srn4s55cn"}
 earlier stories still waiting for images: []
-instagram check: 2 recent posts read from both pages
+instagram check: 3 recent posts read from both pages
 write round: 28 news waiting in the queue (written in priority order)
 candidate filter: collected=28
 to write: 0 Manjeri + 28 other district candidates (max 200 + 200 stories)
 candidates waiting: 0 Manjeri, 28 Malappuram; time left 29 min
 try (N) manual=False: കാലിക്കറ്റ് സർവകലാശാലയ്ക്ക് കീഴിൽ 28 കോളജുകളിൽ പുതിയ കോഴ്സുക
-try (N) manual=False: 'തീരം കാക്കാൻ' എസ് ഡിപിഐ തീരദേശ മുന്നേറ്റ യാത്ര മലപ്പുറം ജില
 try (N) manual=False: കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ; ആസൂത്രണം ചെയ്തത് സ്വർണം കടത്തിയ 
-NOT filed (N) കാലിക്കറ്റ് സർവകലാശാലയ്ക്ക് കീഴിൽ 28 കോളജുകളിൽ പുത: bad draft: 'scenes'
 try (N) manual=False: സീബ്രാ ലൈനില്ല; വാഴക്കാട്ട് സ്കൂൾ വിദ്യാർഥികൾക്ക് റോഡ് മുറിച
-NOT filed (N) സീബ്രാ ലൈനില്ല; വാഴക്കാട്ട് സ്കൂൾ വിദ്യാർഥികൾക്ക് : all free models failed: no usable answer from the models
+NOT filed (N) കാലിക്കറ്റ് സർവകലാശാലയ്ക്ക് കീഴിൽ 28 കോളജുകളിൽ പുത: all free models failed: no usable answer from the models
 try (N) manual=False: കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ: ഭർത്താവിനെയും മക്കളെയും മറയാക്കി
 NOT filed (N) കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ: ഭർത്താവിനെയും മക്കളെയു: all free models failed: no usable answer from the models
 try (N) manual=False: സ്വർണം തട്ടിയെടുക്കാൻ പദ്ധതിയിട്ടത് യുവതിയും ഭർത്താവും സുഹൃത
-NOT filed (N) സ്വർണം തട്ടിയെടുക്കാൻ പദ്ധതിയിട്ടത് യുവതിയും ഭർത്ത: all free models failed: no usable answer from the models
+NOT filed (N) കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ; ആസൂത്രണം ചെയ്തത് സ്വർണ: all free models failed: no usable answer from the models
 try (N) manual=False: ഡിഗ്രി, പി.ജി. പരീക്ഷകൾ മലയാളത്തിലും എഴുതാൻ അനുമതി
 NOT filed (N) ഡിഗ്രി, പി.ജി. പരീക്ഷകൾ മലയാളത്തിലും എഴുതാൻ അനുമതി: all free models failed: no usable answer from the models
+try (N) manual=False: 'തീരം കാക്കാൻ' എസ് ഡിപിഐ തീരദേശ മുന്നേറ്റ യാത്ര മലപ്പുറം ജില
+NOT filed (N) സ്വർണം തട്ടിയെടുക്കാൻ പദ്ധതിയിട്ടത് യുവതിയും ഭർത്ത: all free models failed: no usable answer from the models
 try (N) manual=False: കൊണ്ടോട്ടിയിൽ മലഞ്ചരക്ക് കടയിൽനിന്ന് 18,000 രൂപ മോഷ്ടിച്ചു; 
 NOT filed (N) കൊണ്ടോട്ടിയിൽ മലഞ്ചരക്ക് കടയിൽനിന്ന് 18,000 രൂപ മോ: all free models failed: no usable answer from the models
 try (N) manual=False: ഒരു മാസത്തിനിടെ കരിപ്പൂർ വിമാനത്താവളത്തിൽ നടന്ന 3 സംഭവങ്ങൾ; 
-NOT filed (N) ഒരു മാസത്തിനിടെ കരിപ്പൂർ വിമാനത്താവളത്തിൽ നടന്ന 3 : all free models failed: no usable answer from the models
-try (N) manual=False: ശ്രീലാലിൻ്റെ ഇൻസ്റ്റഗ്രാമിൽ സ്വർണകടത്തിനെ മഹത്വവത്കരിച്ച് പോ
-NOT filed (N) ശ്രീലാലിൻ്റെ ഇൻസ്റ്റഗ്രാമിൽ സ്വർണകടത്തിനെ മഹത്വവത്: all free models failed: no usable answer from the models
+NOT filed (N) 'തീരം കാക്കാൻ' എസ് ഡിപിഐ തീരദേശ മുന്നേറ്റ യാത്ര മല: all free models failed: no usable answer from the models
 try (N) manual=False: കരിപ്പൂർ സ്വർണകവർച്ച: പ്രതി ശ്രീലാലിന് അർജുൻ ആയങ്കിയുമായും ട
-NOT filed (N) കരിപ്പൂർ സ്വർണകവർച്ച: പ്രതി ശ്രീലാലിന് അർജുൻ ആയങ്ക: all free models failed: no usable answer from the models
+NOT filed (N) ഒരു മാസത്തിനിടെ കരിപ്പൂർ വിമാനത്താവളത്തിൽ നടന്ന 3 : all free models failed: no usable answer from the models
 try (N) manual=False: ജലജീവൻ മിഷൻ കട്ട് ഓഫ് ഡേറ്റിന് ശേഷമുള്ള പദ്ധതികൾക്ക് അംഗീകാര
+NOT filed (N) കരിപ്പൂർ സ്വർണകവർച്ച: പ്രതി ശ്രീലാലിന് അർജുൻ ആയങ്ക: all free models failed: no usable answer from the models
+try (N) manual=False: ശ്രീലാലിൻ്റെ ഇൻസ്റ്റഗ്രാമിൽ സ്വർണകടത്തിനെ മഹത്വവത്കരിച്ച് പോ
 NOT filed (N) ജലജീവൻ മിഷൻ കട്ട് ഓഫ് ഡേറ്റിന് ശേഷമുള്ള പദ്ധതികൾക്: all free models failed: no usable answer from the models
 try (N) manual=False: കരിപ്പൂർ സ്വർണക്കടത്ത് കവർച്ചാനാടകം; ദുബായിൽനിന്ന് സ്വർണവുമാ
-NOT filed (N) കരിപ്പൂർ സ്വർണക്കടത്ത് കവർച്ചാനാടകം; ദുബായിൽനിന്ന്: all free models failed: no usable answer from the models
+NOT filed (N) ശ്രീലാലിൻ്റെ ഇൻസ്റ്റഗ്രാമിൽ സ്വർണകടത്തിനെ മഹത്വവത്: all free models failed: no usable answer from the models
 try (N) manual=False: യുവതികളെ കാരിയർമാരാക്കുന്നതിന് പിന്നൽ... ഭർത്താവിന് പങ്കില്ല
 NOT filed (N) യുവതികളെ കാരിയർമാരാക്കുന്നതിന് പിന്നൽ... ഭർത്താവിന: all free models failed: no usable answer from the models
 try (N) manual=False: വേങ്ങര പാലിയേറ്റീവ് കെട്ടിടനിർമാണം പൂർത്തിയാക്കാൻ ബിരിയാണി ച
@@ -179,32 +185,32 @@ NOT filed (N) വേങ്ങര പാലിയേറ്റീവ് കെട�
 try (N) manual=False: വിവാദമായ ഹെലികോപ്റ്റർ നൽകിയത് ചിപ്സൻ ഏവിയേഷൻ; മുഖ്യമന്ത്രിയു
 NOT filed (N) വിവാദമായ ഹെലികോപ്റ്റർ നൽകിയത് ചിപ്സൻ ഏവിയേഷൻ; മുഖ്: all free models failed: no usable answer from the models
 try (N) manual=False: 'ഓർമ്മയിലെ ഇന്ദിര':  ഒ ഐ സി സി മലപ്പുറം ജില്ലാ കമ്മിറ്റിയുടെ
-NOT filed (N) 'ഓർമ്മയിലെ ഇന്ദിര':  ഒ ഐ സി സി മലപ്പുറം ജില്ലാ കമ്: all free models failed: no usable answer from the models
+NOT filed (N) കരിപ്പൂർ സ്വർണക്കടത്ത് കവർച്ചാനാടകം; ദുബായിൽനിന്ന്: all free models failed: no usable answer from the models
 try (N) manual=False: കരിപ്പൂരിലെ സ്വർണക്കവർച്ച ആസൂത്രണം ചെയ്തത് പ്രിയങ്കയും ശ്രീല
-NOT filed (N) കരിപ്പൂരിലെ സ്വർണക്കവർച്ച ആസൂത്രണം ചെയ്തത് പ്രിയങ്: all free models failed: no usable answer from the models
+NOT filed (N) 'ഓർമ്മയിലെ ഇന്ദിര':  ഒ ഐ സി സി മലപ്പുറം ജില്ലാ കമ്: all free models failed: no usable answer from the models
 try (N) manual=False: ‘18 പവൻ സ്വർണം തട്ടിയെടുക്കാൻ തട്ടിക്കൊണ്ടുപോകൽ നാടകം, കരിപ്
-NOT filed (N) ‘18 പവൻ സ്വർണം തട്ടിയെടുക്കാൻ തട്ടിക്കൊണ്ടുപോകൽ നാ: all free models failed: no usable answer from the models
+NOT filed (N) കരിപ്പൂരിലെ സ്വർണക്കവർച്ച ആസൂത്രണം ചെയ്തത് പ്രിയങ്: all free models failed: no usable answer from the models
 try (N) manual=False: ചരിത്രത്തിന്റെ ഭാഗമായ 'ആദ്യ' ജയങ്ങൾ... അമേരിക്കയിൽ പ്രാതിനിധ
 NOT filed (N) ചരിത്രത്തിന്റെ ഭാഗമായ 'ആദ്യ' ജയങ്ങൾ... അമേരിക്കയിൽ: all free models failed: no usable answer from the models
 try (N) manual=False: മുഖ്യമന്ത്രിയുടെ മലപ്പുറം വിമാനയാത്ര; സ്പോൺസർ ആരെന്ന് വ്യക്ത
 NOT filed (N) മുഖ്യമന്ത്രിയുടെ മലപ്പുറം വിമാനയാത്ര; സ്പോൺസർ ആരെന: all free models failed: no usable answer from the models
 try (N) manual=False: 'താനൂർ ആസ്ഥാനമായി തീരദേശ ജില്ല രൂപീകരിക്കണം'
-NOT filed (N) 'താനൂർ ആസ്ഥാനമായി തീരദേശ ജില്ല രൂപീകരിക്കണം': all free models failed: no usable answer from the models
+NOT filed (N) ‘18 പവൻ സ്വർണം തട്ടിയെടുക്കാൻ തട്ടിക്കൊണ്ടുപോകൽ നാ: all free models failed: no usable answer from the models
 try (N) manual=False: കായിക പ്രതിഭകളെ ആദരിച്ചു
-NOT filed (N) കായിക പ്രതിഭകളെ ആദരിച്ചു: all free models failed: no usable answer from the models
+NOT filed (N) 'താനൂർ ആസ്ഥാനമായി തീരദേശ ജില്ല രൂപീകരിക്കണം': all free models failed: no usable answer from the models
 try (N) manual=False: ആനറക്കുളം തകർച്ച അന്വേഷിക്കണമെന്ന് ആവശ്യപ്പെട്ട് നിവേദനം
 NOT filed (N) ആനറക്കുളം തകർച്ച അന്വേഷിക്കണമെന്ന് ആവശ്യപ്പെട്ട് ന: all free models failed: no usable answer from the models
 try (N) manual=False: വിബി-ഗ്രാം-ജി കുടിശിക ഉടൻ നൽകണം: പ്രിയങ്ക ഗാന്ധി
-NOT filed (N) വിബി-ഗ്രാം-ജി കുടിശിക ഉടൻ നൽകണം: പ്രിയങ്ക ഗാന്ധി: all free models failed: no usable answer from the models
+NOT filed (N) കായിക പ്രതിഭകളെ ആദരിച്ചു: all free models failed: no usable answer from the models
 try (N) manual=False: വേതന പരിഷ്കരണം നടപ്പാക്കണം: പെൻഷനേഴ്സ് സംഘ്
-NOT filed (N) വേതന പരിഷ്കരണം നടപ്പാക്കണം: പെൻഷനേഴ്സ് സംഘ്: all free models failed: no usable answer from the models
+NOT filed (N) വിബി-ഗ്രാം-ജി കുടിശിക ഉടൻ നൽകണം: പ്രിയങ്ക ഗാന്ധി: all free models failed: no usable answer from the models
 try (N) manual=False: താക്കീതായി സി.പി.എം. മാർച്ച്
 NOT filed (N) താക്കീതായി സി.പി.എം. മാർച്ച്: all free models failed: no usable answer from the models
 try (N) manual=False: ഒന്നിച്ചു നിന്നാൽ മാത്രം വേദി നൽകും, തിരുനാവായ മഹാമാഘത്തിൽ സ
 NOT filed (N) ഒന്നിച്ചു നിന്നാൽ മാത്രം വേദി നൽകും, തിരുനാവായ മഹാ: all free models failed: no usable answer from the models
-NOT filed (N) കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ; ആസൂത്രണം ചെയ്തത് സ്വർണ: all free models failed: no usable answer from the models
-NOT filed (N) 'തീരം കാക്കാൻ' എസ് ഡിപിഐ തീരദേശ മുന്നേറ്റ യാത്ര മല: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 28}, done={'R': 0, 'N': 0}, time left 28 min
+NOT filed (N) വേതന പരിഷ്കരണം നടപ്പാക്കണം: പെൻഷനേഴ്സ് സംഘ്: all free models failed: no usable answer from the models
+NOT filed (N) സീബ്രാ ലൈനില്ല; വാഴക്കാട്ട് സ്കൂൾ വിദ്യാർഥികൾക്ക് : all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 28}, done={'R': 0, 'N': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
 queue: 28 news waiting to be written
