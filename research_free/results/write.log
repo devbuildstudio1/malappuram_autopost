@@ -1,22 +1,24 @@
-writing [N]: കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ: ഭർത്താവിനെയും മക്കളെയും മറയാക്കി
+writing [N]: കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ: ആസൂത്രണം ചെയ്തത് യുവതിയും സുഹൃത്
+writing [N]: കാലിക്കറ്റ് സർവകലാശാലയ്ക്ക് കീഴിൽ 28 കോളജുകളിൽ പുതിയ കോഴ്സുക
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-writing [N]: സ്വർണം തട്ടിയെടുക്കാൻ പദ്ധതിയിട്ടത് യുവതിയും ഭർത്താവും സുഹൃത
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-writing [N]: കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ; ആസൂത്രണം ചെയ്തത് സ്വർണം കടത്തിയ 
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -29,75 +31,68 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 dead for this round: groq/openai/gpt-oss-120b
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
+writing [N]: സ്വർണം തട്ടിയെടുക്കാനുള്ള ഗൂഢാലോചനയ്ക്ക് പിന്നിൽ പ്രിയങ്ക, ക
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgk9vCxzw83JD2vCvp8Hc"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+writing [R]: നജീബ് കാന്തപുരത്തിനെതിരായ കോടതിയലക്ഷ്യ കേസ് ഹൈക്കോടതിയിലേക്ക
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgk9vGfjtVbvr7MtVzbtj"}
+writing [N]: പഹൽഗാം ഭീകരാക്രമണവുമായി ബന്ധപ്പെട്ട സമൂഹ മാധ്യമ കേസ്; മലപ്പു
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgk9vJEzbuLhwjqMdTBNp"}
+writing [N]: വേങ്ങര പാലിയേറ്റീവ് കെട്ടിടനിർമാണം പൂർത്തിയാക്കാൻ ബിരിയാണി ച
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgk9vKApMP3WNpWkoEu91"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgk7tgQTfS3qHgMiFBmnN"}
-writing [N]: വേങ്ങര പാലിയേറ്റീവ് കെട്ടിടനിർമാണം പൂർത്തിയാക്കാൻ ബിരിയാണി ച
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgk7tj4TX4mUzuF5oZBWP"}
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgk7tjgAh7wXhMWHNb1nv"}
-writing [N]: 'ഓർമ്മയിലെ ഇന്ദിര':  ഒ ഐ സി സി മലപ്പുറം ജില്ലാ കമ്മിറ്റിയുടെ
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgk7tnCiohbiUVouqZgG8"}
-writing [N]: വിവാദമായ ഹെലികോപ്റ്റർ നൽകിയത് ചിപ്സൻ ഏവിയേഷൻ; മുഖ്യമന്ത്രിയു
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgk7tnvNi5DZuY74ZRsDy"}
-writing [N]: ആനറക്കുളം തകർച്ച അന്വേഷിക്കണമെന്ന് ആവശ്യപ്പെട്ട് നിവേദനം
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgk7toVMuYXYhgyKFcxro"}
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgk7uTDzKqkU48w8YzA2J"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgk9wGaZht5vF5JzXVbd8"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgk9wPmuWsh49AKrNXnCZ"}
 earlier stories still waiting for images: []
 instagram check: 4 recent posts read from both pages
-write round: 7 news waiting in the queue (written in priority order)
-candidate filter: collected=7
-to write: 0 Manjeri + 7 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 7 Malappuram; time left 29 min
-try (N) manual=False: കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ; ആസൂത്രണം ചെയ്തത് സ്വർണം കടത്തിയ 
-try (N) manual=False: കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ: ഭർത്താവിനെയും മക്കളെയും മറയാക്കി
-try (N) manual=False: സ്വർണം തട്ടിയെടുക്കാൻ പദ്ധതിയിട്ടത് യുവതിയും ഭർത്താവും സുഹൃത
-NOT filed (N) കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ: ഭർത്താവിനെയും മക്കളെയു: all free models failed: no usable answer from the models
+write round: 8 news waiting in the queue (written in priority order)
+candidate filter: collected=8
+to write: 1 Manjeri + 7 other district candidates (max 200 + 200 stories)
+candidates waiting: 1 Manjeri, 7 Malappuram; time left 29 min
+try (N) manual=False: കരിപ്പൂർ വിമാനത്താവളത്തിൽ നിന്ന് യുവതിയെ 'തട്ടിക്കൊണ്ടുപോയത്
+try (N) manual=False: കാലിക്കറ്റ് സർവകലാശാലയ്ക്ക് കീഴിൽ 28 കോളജുകളിൽ പുതിയ കോഴ്സുക
+try (N) manual=False: കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ: ആസൂത്രണം ചെയ്തത് യുവതിയും സുഹൃത്
+skip (N) similar to a filed story: കരിപ്പൂർ വിമാനത്താവളത്തിൽ നിന്ന് യുവതിയെ 'തട്ടിക്ക
+try (N) manual=False: സ്വർണം തട്ടിയെടുക്കാനുള്ള ഗൂഢാലോചനയ്ക്ക് പിന്നിൽ പ്രിയങ്ക, ക
+NOT filed (N) സ്വർണം തട്ടിയെടുക്കാനുള്ള ഗൂഢാലോചനയ്ക്ക് പിന്നിൽ പ: all free models failed: no usable answer from the models
+try (N) manual=False: കരിപ്പൂർ വിമാനത്താവളത്തിൽ സ്വർണവുമായി എത്തിയ യുവതിയെ തട്ടിക്
+skip (N) similar to a filed story: കരിപ്പൂർ വിമാനത്താവളത്തിൽ സ്വർണവുമായി എത്തിയ യുവതി
+try (R) manual=False: നജീബ് കാന്തപുരത്തിനെതിരായ കോടതിയലക്ഷ്യ കേസ് ഹൈക്കോടതിയിലേക്ക
+NOT filed (R) നജീബ് കാന്തപുരത്തിനെതിരായ കോടതിയലക്ഷ്യ കേസ് ഹൈക്കോ: all free models failed: no usable answer from the models
+try (N) manual=False: പഹൽഗാം ഭീകരാക്രമണവുമായി ബന്ധപ്പെട്ട സമൂഹ മാധ്യമ കേസ്; മലപ്പു
+NOT filed (N) പഹൽഗാം ഭീകരാക്രമണവുമായി ബന്ധപ്പെട്ട സമൂഹ മാധ്യമ കേ: all free models failed: no usable answer from the models
 try (N) manual=False: വേങ്ങര പാലിയേറ്റീവ് കെട്ടിടനിർമാണം പൂർത്തിയാക്കാൻ ബിരിയാണി ച
 NOT filed (N) വേങ്ങര പാലിയേറ്റീവ് കെട്ടിടനിർമാണം പൂർത്തിയാക്കാൻ : all free models failed: no usable answer from the models
-try (N) manual=False: വിവാദമായ ഹെലികോപ്റ്റർ നൽകിയത് ചിപ്സൻ ഏവിയേഷൻ; മുഖ്യമന്ത്രിയു
-NOT filed (N) സ്വർണം തട്ടിയെടുക്കാൻ പദ്ധതിയിട്ടത് യുവതിയും ഭർത്ത: all free models failed: no usable answer from the models
-try (N) manual=False: 'ഓർമ്മയിലെ ഇന്ദിര':  ഒ ഐ സി സി മലപ്പുറം ജില്ലാ കമ്മിറ്റിയുടെ
-NOT filed (N) 'ഓർമ്മയിലെ ഇന്ദിര':  ഒ ഐ സി സി മലപ്പുറം ജില്ലാ കമ്: all free models failed: no usable answer from the models
-try (N) manual=False: ആനറക്കുളം തകർച്ച അന്വേഷിക്കണമെന്ന് ആവശ്യപ്പെട്ട് നിവേദനം
-NOT filed (N) വിവാദമായ ഹെലികോപ്റ്റർ നൽകിയത് ചിപ്സൻ ഏവിയേഷൻ; മുഖ്: all free models failed: no usable answer from the models
-NOT filed (N) ആനറക്കുളം തകർച്ച അന്വേഷിക്കണമെന്ന് ആവശ്യപ്പെട്ട് ന: all free models failed: no usable answer from the models
-NOT filed (N) കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ; ആസൂത്രണം ചെയ്തത് സ്വർണ: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 7}, done={'R': 0, 'N': 0}, time left 29 min
+NOT filed (N) കാലിക്കറ്റ് സർവകലാശാലയ്ക്ക് കീഴിൽ 28 കോളജുകളിൽ പുത: all free models failed: no usable answer from the models
+NOT filed (N) കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ: ആസൂത്രണം ചെയ്തത് യുവതി: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 7}, done={'R': 0, 'N': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
-queue: 7 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":7} 
+queue: 6 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":6} 
 stories: 0
