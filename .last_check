@@ -1,20 +1,22 @@
 imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
 imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150) 504 timeout
-imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-04:32:59 image attempt 1 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
-imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-04:35:38 automatic images queued: MP-5 4
-04:35:38 auto images: time for this run used up, the rest waits for the next run
-04:35:42 1 stories in the queue, ready to post: 1
-04:35:42   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ml', 'images', 'importance', 'location', 'malappuram_link', 'manjeri_link', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'story_id', 'verification']
-04:35:42    MP-5 review= 'Auto' images= 385 spec= 677 pages= ['manjeri'] links= '' '' '' age_h= 1.7 ready= True set_started= True
-04:35:46 publishing quota malappuram: 6/50
-04:35:50 publishing quota manjeri: 0/50
-04:35:50    MP-5 quiet hours - waits for 07:00 IST
-04:35:50 prebuilding ahead of the set start: ['MP-5']
+imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
+imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
+04:44:12 image attempt 1 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4
+imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
+imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
+04:44:38 image attempt 2 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4
+imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
+imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
+04:45:25 image attempt 3 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4
+04:46:25 image models failed for MP-6 all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABA - tried again in the next run (gives up after 3 h)
+04:46:34 1 stories in the queue, ready to post: 1
+04:46:34   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ml', 'images', 'importance', 'location', 'malappuram_link', 'manjeri_link', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'story_id', 'verification']
+04:46:34    MP-5 review= 'Auto' images= 385 spec= 677 pages= ['manjeri'] links= '' '' '' age_h= 1.9 ready= True set_started= True
+04:46:37 publishing quota malappuram: 6/50
+04:46:43 publishing quota manjeri: 0/50
+04:46:43    MP-5 quiet hours - waits for 07:00 IST
