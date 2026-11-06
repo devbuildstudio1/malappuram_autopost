@@ -2,32 +2,34 @@ imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message"
 imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150) 504 timeout
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+15:02:43 image attempt 1 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
+imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
 imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
+15:04:21 image attempt 2 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4
+imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
 imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
-14:54:46 image attempt 1 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4
-imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
-imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
-14:55:22 image attempt 2 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4
-imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
-imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
-14:56:13 image attempt 3 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4
-14:57:13 image models failed for MP-14 all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABA - tried again in the next run (gives up after 3 h)
-14:57:17 SKIP MP-7 duplicate of MP-2
-14:57:17 5 stories in the queue, ready to post: 4
-14:57:17   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ml', 'images', 'importance', 'location', 'malappuram_link', 'manjeri_link', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'story_id', 'verification']
-14:57:17    MP-6 review= 'Auto' images= 11 spec= 614 pages= ['malappuram'] links= '' '' '' age_h= 11.2 ready= True set_started= True
-14:57:17    MP-7 review= 'Auto' images= 385 spec= 646 pages= ['malappuram'] links= '' '' '' age_h= 6.2 ready= False set_started= True
-14:57:17    MP-11 review= 'Auto' images= 289 spec= 619 pages= ['malappuram'] links= '' '' '' age_h= 1.4 ready= True set_started= True
-14:57:17    MP-12 review= 'Auto' images= 481 spec= 759 pages= ['malappuram'] links= '' '' '' age_h= 1.2 ready= True set_started= True
-14:57:17    MP-13 review= 'Auto' images= 481 spec= 826 pages= ['manjeri'] links= '' '' '' age_h= 1.2 ready= True set_started= True
-14:57:21 publishing quota malappuram: 8/50
-14:57:24 publishing quota manjeri: 4/50
-14:57:27 instagram duplicate check manjeri: 2 recent posts read
-14:57:27    MP-13 last reel 13:44 IST - next one from 14:59 IST (75 min gap)
-14:57:31 instagram duplicate check malappuram: 6 recent posts read
-14:57:31    MP-6 last reel 13:49 IST - next one from 15:04 IST (75 min gap)
-14:57:31    MP-11 waits for prime time (18:30 IST)
-14:57:31    MP-12 waits for prime time (18:30 IST)
+15:06:12 image attempt 3 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4
+15:07:12 image models failed for MP-14 all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABA - tried again in the next run (gives up after 3 h)
+15:07:16 SKIP MP-7 duplicate of MP-2
+15:07:16 7 stories in the queue, ready to post: 6
+15:07:16   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ml', 'images', 'importance', 'location', 'malappuram_link', 'manjeri_link', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'story_id', 'verification']
+15:07:16    MP-6 review= 'Auto' images= 11 spec= 614 pages= ['malappuram'] links= '' '' '' age_h= 11.3 ready= True set_started= True
+15:07:16    MP-7 review= 'Auto' images= 385 spec= 646 pages= ['malappuram'] links= '' '' '' age_h= 6.3 ready= False set_started= True
+15:07:16    MP-11 review= 'Auto' images= 289 spec= 619 pages= ['malappuram'] links= '' '' '' age_h= 1.6 ready= True set_started= True
+15:07:16    MP-12 review= 'Auto' images= 481 spec= 759 pages= ['malappuram'] links= '' '' '' age_h= 1.4 ready= True set_started= True
+15:07:16    MP-13 review= 'Auto' images= 481 spec= 826 pages= ['manjeri'] links= '' '' '' age_h= 1.4 ready= True set_started= True
+15:07:16    MP-15 review= 'Auto' images= 385 spec= 662 pages= ['malappuram'] links= '' '' '' age_h= 0.1 ready= True set_started= True
+15:07:16    MP-16 review= 'Auto' images= 385 spec= 710 pages= ['malappuram'] links= '' '' '' age_h= 0.1 ready= True set_started= True
+15:07:20 publishing quota malappuram: 8/50
+15:07:22 publishing quota manjeri: 4/50
+15:07:26 instagram duplicate check manjeri: 2 recent posts read
+15:07:29 instagram duplicate check malappuram: 6 recent posts read
+15:07:29    MP-11 waits for prime time (18:30 IST)
+15:07:29    MP-12 waits for prime time (18:30 IST)
+15:07:29    MP-15 waits for prime time (18:30 IST)
+15:07:29    MP-16 waits for prime time (18:30 IST)
+15:07:29 prebuilding ahead of the set start: ['MP-15', 'MP-16']
