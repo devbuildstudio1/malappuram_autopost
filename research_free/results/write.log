@@ -1,9 +1,6 @@
-writing [N]: എംഡിഎംഎ കേസിൽ ഡോക്ടർ അറസ്റ്റിൽ; ലഹരി ഉപയോഗം പതിവാക്കിയ ആളെന്
+writing [R]: കണക്കുതീർക്കാൻ എംഎഫ്സി
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-writing [N]: 2 പുതിയ സിനിമകൾ ഇന്ന് റിലീസിനിരിക്കെ തിയേറ്റർ കത്തി നശിച്ചു;
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -14,24 +11,9 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
+writing [N]: 2 പുതിയ സിനിമകൾ ഇന്ന് റിലീസിനിരിക്കെ തിയേറ്റർ കത്തി നശിച്ചു;
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -39,42 +21,76 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 dead for this round: groq/openai/gpt-oss-120b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+writing [N]: മന്ത്രിയാകുമോ ആര്യാടൻ ഷൗക്കത്ത് ? എപി അനിൽ കുമാർ മാറിയാൽ സാധ
+free models unavailable: free models not efficient (5 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmzEBscB9Bag4hYsrLAJ"}
+writing [N]: എംഡിഎംഎ കേസിൽ ഡോക്ടർ അറസ്റ്റിൽ; സ്ഥിരം ഉപയോഗം, പിടിയിലായത് എ
+free models unavailable: free models not efficient (5 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmzEDHhMku5GmrRdy6Hu"}
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to generate JSON. Please adjust your prompt. See 'failed_gener
+writing [N]: എംഡിഎംഎ കേസിൽ ഡോക്ടർ അറസ്റ്റിൽ; ലഹരി ഉപയോഗം പതിവാക്കിയ ആളെന്
+free models unavailable: free models not efficient (6 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmzEEsShjG6QUccBkrNj"}
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+ok gemini/gemini-3.6-flash (16s)
+attempt 1 gemini/gemini-3.6-flash: 2 problems
+  reel_script has 71 words; need 83-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 60 ('കൊച്ചിയിലെ രാത്രി പരിശോധനയിൽ കുടുങ്ങിയത് 60 വാഹനങ്ങൾ; 2.75 ല'); 75 ('കൊച്ചിയിലെ രാത്രി പരിശോധനയിൽ കുടുങ്ങിയത് 60 വാഹനങ്ങൾ; 2.75 ല')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmyXH8V297vF3xGbXmGc"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmzFVJPgn5JGKtJ5p2iv"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmyXPcuBhLp9AaXvrtcK"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmzGZFnu1ZXJefgT8TDK"}
+proofread skipped: free models not efficient (4 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150) 504 timeout
+imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
+imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
+images NOT made for 'Malappuram FC to face Forca Kochi at Pay': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
+bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261106-2201","first":"MP-19"}
+posting job started at once
+write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 13 recent posts read from both pages
-write round: 6 news waiting in the queue (written in priority order)
-candidate filter: collected=5, already filed=1
-to write: 1 Manjeri + 4 other district candidates (max 200 + 200 stories)
-candidates waiting: 1 Manjeri, 4 Malappuram; time left 29 min
+write round: 9 news waiting in the queue (written in priority order)
+candidate filter: collected=8, already filed=1
+to write: 2 Manjeri + 6 other district candidates (max 200 + 200 stories)
+candidates waiting: 2 Manjeri, 6 Malappuram; time left 29 min
 try (R) manual=False: മഞ്ചേരിയിൽ എംഡിഎംഎയുമായി ആറ് പേർ പിടിയിൽ | Deepika | The Lar
 try (N) manual=False: കരിപ്പൂരിൽ സ്വർണ വേട്ട: മൂന്നുപേർ പിടിയിൽ
-try (N) manual=False: എംഡിഎംഎ കേസിൽ ഡോക്ടർ അറസ്റ്റിൽ; ലഹരി ഉപയോഗം പതിവാക്കിയ ആളെന്
-skip (R) similar to a filed story: മഞ്ചേരിയിൽ എംഡിഎംഎയുമായി ആറ് പേർ പിടിയിൽ | Deepika
 try (N) manual=False: കരിപ്പൂരിലെ സ്വർണം പൊട്ടിക്കലിൽ വൻ ട്വിസ്റ്റ്; തട്ടിക്കൊണ്ടു
-skip (N) similar to a filed story: കരിപ്പൂരിൽ സ്വർണ വേട്ട: മൂന്നുപേർ പിടിയിൽ
+skip (R) similar to a filed story: മഞ്ചേരിയിൽ എംഡിഎംഎയുമായി ആറ് പേർ പിടിയിൽ | Deepika
 try (N) manual=False: 2 പുതിയ സിനിമകൾ ഇന്ന് റിലീസിനിരിക്കെ തിയേറ്റർ കത്തി നശിച്ചു;
+skip (N) similar to a filed story: കരിപ്പൂരിൽ സ്വർണ വേട്ട: മൂന്നുപേർ പിടിയിൽ
+try (R) manual=False: കണക്കുതീർക്കാൻ എംഎഫ്സി
 skip (N) similar to a filed story: കരിപ്പൂരിലെ സ്വർണം പൊട്ടിക്കലിൽ വൻ ട്വിസ്റ്റ്; തട്
-NOT filed (N) 2 പുതിയ സിനിമകൾ ഇന്ന് റിലീസിനിരിക്കെ തിയേറ്റർ കത്ത: all free models failed: no usable answer from the models
+try (N) manual=False: മന്ത്രിയാകുമോ ആര്യാടൻ ഷൗക്കത്ത് ? എപി അനിൽ കുമാർ മാറിയാൽ സാധ
+NOT filed (N) മന്ത്രിയാകുമോ ആര്യാടൻ ഷൗക്കത്ത് ? എപി അനിൽ കുമാർ മ: all free models failed: no usable answer from the models
+try (N) manual=False: എംഡിഎംഎ കേസിൽ ഡോക്ടർ അറസ്റ്റിൽ; സ്ഥിരം ഉപയോഗം, പിടിയിലായത് എ
+NOT filed (N) എംഡിഎംഎ കേസിൽ ഡോക്ടർ അറസ്റ്റിൽ; സ്ഥിരം ഉപയോഗം, പിട: all free models failed: no usable answer from the models
+try (N) manual=False: എംഡിഎംഎ കേസിൽ ഡോക്ടർ അറസ്റ്റിൽ; ലഹരി ഉപയോഗം പതിവാക്കിയ ആളെന്
 NOT filed (N) എംഡിഎംഎ കേസിൽ ഡോക്ടർ അറസ്റ്റിൽ; ലഹരി ഉപയോഗം പതിവാക: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 4}, done={'R': 0, 'N': 0}, time left 29 min
-carousel for 0 of 0 stories, the rest reel only
-filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
-queue: 2 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":2} 
-stories: 0
+NOT filed (N) 2 പുതിയ സിനിമകൾ ഇന്ന് റിലീസിനിരിക്കെ തിയേറ്റർ കത്ത: all free models failed: no usable answer from the models
+auto images failed for 'Malappuram FC to face Forca Kochi at Pay': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email
+auto images: 0 of 1 stories ({})
+posting job started at once
+candidate loop ended: left R=0 N=0, tried={'R': 2, 'N': 6}, done={'R': 1, 'N': 0}, time left 24 min
+carousel for 0 of 1 stories, the rest reel only
+filed: 1 Manjeri + 0 Malappuram (targets 200 + 200)
+queue: 4 news waiting to be written
+write_stories.yml started
+All News sheet: {"ok":true,"added":0,"updated":5} 
+stories: 1
