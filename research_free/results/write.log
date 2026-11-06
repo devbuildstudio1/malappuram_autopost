@@ -1,9 +1,9 @@
-writing [N]: തിരിച്ചുവരവ് ലക്ഷ്യമിട്ട് മലപ്പുറം എഫ്സി- എതിരാളികൾ ഫോർസ കൊച
-writing [N]: ചോക്കാട് നഗറിൽ ആനക്കൂട്ടം
+writing [N]: സ്ത്രീയുടെ മാല പൊട്ടിച്ച കേസ്; പിടികിട്ടാപ്പുള്ളി അറസ്റ്റിൽ 
+writing [N]: ഡോക്ടർമാർക്ക് പകരമാകാൻ എ.ഐ.ക്ക് കഴിയില്ല -ഗോപിനാഥ് മുതുകാട്
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -29,73 +29,48 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 dead for this round: groq/openai/gpt-oss-120b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+dead for this round: groq/openai/gpt-oss-120b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-writing [N]: കോട്ടക്കൽ ടൗണിൽ കുത്തൊഴുക്കിൽ സ്കൂട്ടർ ഒലിച്ചുപോയി; കനത്ത മഴ
-free models unavailable: free models not efficient (9 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgm8GRnFkFmkK5R17CXiv"}
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-writing [N]: സ്ത്രീയുടെ മാല പൊട്ടിച്ച കേസ്; പിടികിട്ടാപ്പുള്ളി അറസ്റ്റിൽ 
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgm8GUrJpVHi4zhJfBA7Z"}
-writing [N]: ഡോക്ടർമാർക്ക് പകരമാകാൻ എ.ഐ.ക്ക് കഴിയില്ല -ഗോപിനാഥ് മുതുകാട്
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgm8GVXECx9D1riV9of3X"}
-ok gemini/gemini-3.6-flash (15s)
-attempt 1 gemini/gemini-3.6-flash: 1 problems
-  numbers not found in the article: 06, 20, 40
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgm8HgTLhqd3Q6fAx8dSD"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgm8b7r2qFvJYoZJZhPAR"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgm8Jjha3MLaj5Uw34dzr"}
-proofread skipped: free models not efficient (4 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150) 504 timeout
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Herd of over 20 wild elephants invades r'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261106-1104","first":"MP-10"}
-posting job started at once
-write_stories.yml started
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgm8bEZbygJWRuR8tETYH"}
 earlier stories still waiting for images: []
 instagram check: 4 recent posts read from both pages
-write round: 5 news waiting in the queue (written in priority order)
-candidate filter: collected=5
-to write: 0 Manjeri + 5 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 5 Malappuram; time left 29 min
-try (N) manual=False: കോട്ടക്കൽ ടൗണിൽ കുത്തൊഴുക്കിൽ സ്കൂട്ടർ ഒലിച്ചുപോയി; കനത്ത മഴ
-try (N) manual=False: ചോക്കാട് നഗറിൽ ആനക്കൂട്ടം
-try (N) manual=False: തിരിച്ചുവരവ് ലക്ഷ്യമിട്ട് മലപ്പുറം എഫ്സി- എതിരാളികൾ ഫോർസ കൊച
-NOT filed (N) കോട്ടക്കൽ ടൗണിൽ കുത്തൊഴുക്കിൽ സ്കൂട്ടർ ഒലിച്ചുപോയി: all free models failed: no usable answer from the models
+write round: 4 news waiting in the queue (written in priority order)
+candidate filter: checked earlier=2, collected=2
+to write: 0 Manjeri + 2 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 2 Malappuram; time left 29 min
 try (N) manual=False: സ്ത്രീയുടെ മാല പൊട്ടിച്ച കേസ്; പിടികിട്ടാപ്പുള്ളി അറസ്റ്റിൽ 
-NOT filed (N) സ്ത്രീയുടെ മാല പൊട്ടിച്ച കേസ്; പിടികിട്ടാപ്പുള്ളി : all free models failed: no usable answer from the models
 try (N) manual=False: ഡോക്ടർമാർക്ക് പകരമാകാൻ എ.ഐ.ക്ക് കഴിയില്ല -ഗോപിനാഥ് മുതുകാട്
+NOT filed (N) സ്ത്രീയുടെ മാല പൊട്ടിച്ച കേസ്; പിടികിട്ടാപ്പുള്ളി : all free models failed: no usable answer from the models
 NOT filed (N) ഡോക്ടർമാർക്ക് പകരമാകാൻ എ.ഐ.ക്ക് കഴിയില്ല -ഗോപിനാഥ്: all free models failed: no usable answer from the models
-NOT filed (N) തിരിച്ചുവരവ് ലക്ഷ്യമിട്ട് മലപ്പുറം എഫ്സി- എതിരാളിക: all free models failed: no usable answer from the models
-auto images: 1 of 1 stories ({'black-forest-labs/flux.1-dev': 4})
-posting job started at once
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 5}, done={'R': 0, 'N': 1}, time left 26 min
-carousel for 0 of 1 stories, the rest reel only
-filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)
-queue: 4 news waiting to be written
-write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":5} 
-stories: 1
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 2}, done={'R': 0, 'N': 0}, time left 29 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
+queue: 2 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":2} 
+stories: 0
