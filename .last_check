@@ -3,31 +3,32 @@ imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed ou
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match: False The photo shows an adult man pouring liquid into large vats, not school students participating in a coconut oil producti
+14:04:32 picture does not match the news, generating again: MP-14 3
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
 imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
-13:53:44 image attempt 1 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4
+14:04:51 image attempt 1 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4
 imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
 imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
-13:54:14 image attempt 2 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4
+14:05:21 image attempt 2 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4
 imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
 imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
-13:55:04 image attempt 3 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4
-13:56:04 image models failed for MP-14 all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABA - tried again in the next run (gives up after 3 h)
-13:56:08 SKIP MP-7 duplicate of MP-2
-13:56:08 5 stories in the queue, ready to post: 4
-13:56:08   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ml', 'images', 'importance', 'location', 'malappuram_link', 'manjeri_link', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'story_id', 'verification']
-13:56:08    MP-6 review= 'Auto' images= 11 spec= 614 pages= ['malappuram'] links= '' '' '' age_h= 10.2 ready= True set_started= True
-13:56:08    MP-7 review= 'Auto' images= 385 spec= 646 pages= ['malappuram'] links= '' '' '' age_h= 5.2 ready= False set_started= True
-13:56:08    MP-11 review= 'Auto' images= 289 spec= 619 pages= ['malappuram'] links= '' '' '' age_h= 0.4 ready= True set_started= True
-13:56:08    MP-12 review= 'Auto' images= 481 spec= 759 pages= ['malappuram'] links= '' '' '' age_h= 0.2 ready= True set_started= True
-13:56:08    MP-13 review= 'Auto' images= 481 spec= 826 pages= ['manjeri'] links= '' '' '' age_h= 0.2 ready= True set_started= True
-13:56:10 publishing quota malappuram: 8/50
-13:56:12 publishing quota manjeri: 4/50
-13:56:13 instagram duplicate check manjeri: 2 recent posts read
-13:56:13    MP-13 last reel 13:44 IST - next one from 14:59 IST (75 min gap)
-13:56:15 instagram duplicate check malappuram: 6 recent posts read
-13:56:15    MP-6 last reel 13:49 IST - next one from 15:04 IST (75 min gap)
-13:56:15    MP-11 last reel 13:49 IST - next one from 15:04 IST (75 min gap)
-13:56:15    MP-12 last reel 13:49 IST - next one from 15:04 IST (75 min gap)
-13:56:15 prebuilding ahead of the set start: ['MP-12', 'MP-13']
+14:06:11 image attempt 3 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4
+14:07:11 image models failed for MP-14 all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABA - tried again in the next run (gives up after 3 h)
+14:07:15 SKIP MP-7 duplicate of MP-2
+14:07:15 5 stories in the queue, ready to post: 4
+14:07:15   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ml', 'images', 'importance', 'location', 'malappuram_link', 'manjeri_link', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'story_id', 'verification']
+14:07:15    MP-6 review= 'Auto' images= 11 spec= 614 pages= ['malappuram'] links= '' '' '' age_h= 10.3 ready= True set_started= True
+14:07:15    MP-7 review= 'Auto' images= 385 spec= 646 pages= ['malappuram'] links= '' '' '' age_h= 5.3 ready= False set_started= True
+14:07:15    MP-11 review= 'Auto' images= 289 spec= 619 pages= ['malappuram'] links= '' '' '' age_h= 0.6 ready= True set_started= True
+14:07:15    MP-12 review= 'Auto' images= 481 spec= 759 pages= ['malappuram'] links= '' '' '' age_h= 0.4 ready= True set_started= True
+14:07:15    MP-13 review= 'Auto' images= 481 spec= 826 pages= ['manjeri'] links= '' '' '' age_h= 0.4 ready= True set_started= True
+14:07:19 publishing quota malappuram: 8/50
+14:07:21 publishing quota manjeri: 4/50
+14:07:23 instagram duplicate check manjeri: 2 recent posts read
+14:07:23    MP-13 last reel 13:44 IST - next one from 14:59 IST (75 min gap)
+14:07:25 instagram duplicate check malappuram: 6 recent posts read
+14:07:25    MP-6 last reel 13:49 IST - next one from 15:04 IST (75 min gap)
+14:07:25    MP-11 last reel 13:49 IST - next one from 15:04 IST (75 min gap)
+14:07:25    MP-12 last reel 13:49 IST - next one from 15:04 IST (75 min gap)
