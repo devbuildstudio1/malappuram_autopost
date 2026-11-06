@@ -1,6 +1,7 @@
 writing [N]: മുസ്ലിം ജനസംഖ്യ 3%, മിഷിഗണിലെ സഈദിന്റെ ജയം ജനാധിപത്യ സൗന്ദര്
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [N]: മലപ്പുറം പത്മ തീയറ്ററിൽ തീപിടിത്തം; സ്ക്രീൻ രണ്ട് പൂർണമായും 
 writing [N]: സ്മിത അനിലിന്റെ 'മൺ തുരുത്തിലെ പെൺ മനങ്ങൾ' പുസ്തകം പ്രകാശനം 
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
@@ -8,7 +9,9 @@ fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -19,6 +22,16 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -34,45 +47,57 @@ dead for this round: groq/openai/gpt-oss-120b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 dead for this round: groq/openai/gpt-oss-120b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-writing [N]: മലപ്പുറം പത്മ തീയറ്ററിൽ തീപിടിത്തം; സ്ക്രീൻ രണ്ട് പൂർണമായും fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-free models unavailable: free models not efficient (9 failures in a row): using Claude
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmVbQw94HPVnR4DL4Gct"}
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+ok groq/openai/gpt-oss-120b (7s)
+attempt 1 groq/openai/gpt-oss-120b: 3 problems
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmYEhNrmnDqYemxk1km8"}
 writing [N]: കോൺഗ്രസും ലീഗും ജനാധിപത്യം കശാപ്പ് ചെയ്യുന്നു- ബി.ജെ.പി.
-free models unavailable: free models not efficient (11 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmVbRvQknWJzwYopJyMD"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmYEiU6j8PHDAJevpqtD"}
 writing [N]: ഡോക്ടർമാർക്ക് പകരമാകാൻ എ.ഐ.ക്ക് കഴിയില്ല -ഗോപിനാഥ് മുതുകാട്
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmVbSTfcJbqSAd41p8sM"}
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmYEiutJAbxdaxK5vgfT"}
 writing [N]: കാട്ടാനയെ തുരത്താൻവീട്ടിക്കുന്നിലെ കാടുകൾ നീക്കിത്തുടങ്ങി
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmVbSuwvpnCfmtY9wDcf"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmVca3bc8HdmiPLEx5gm"}
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmYEjNAULPTwZSZRXLLV"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmVcgSojw7C835GcSHhg"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmYEpSGTHgxqopr5sAQx"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmYFDFhyBXmbKHsaecja"}
+proofread skipped: free models not efficient (5 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
 earlier stories still waiting for images: []
 instagram check: 10 recent posts read from both pages
 write round: 7 news waiting in the queue (written in priority order)
-candidate filter: collected=7
-to write: 0 Manjeri + 7 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 7 Malappuram; time left 29 min
-try (N) manual=False: മലപ്പുറത്ത് സിനിമാ തിയേറ്ററിൽ വൻ തീപ്പിടുത്തം; 40 ലക്ഷം രൂപയ
+candidate filter: collected=6, checked earlier=1
+to write: 0 Manjeri + 6 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 6 Malappuram; time left 29 min
 try (N) manual=False: മലപ്പുറം പത്മ തീയറ്ററിൽ തീപിടിത്തം; സ്ക്രീൻ രണ്ട് പൂർണമായും 
 try (N) manual=False: മുസ്ലിം ജനസംഖ്യ 3%, മിഷിഗണിലെ സഈദിന്റെ ജയം ജനാധിപത്യ സൗന്ദര്
-skip (N) could not open: മലപ്പുറത്ത് സിനിമാ തിയേറ്ററിൽ വൻ തീപ്പിടുത്തം; 40  [https://janmabhumi.in/2026/11/06/3681761/news/keralam/massiv] 403 Client Error: Forbidden for url: https://janmabhumi.in/2026/11/06/3681761/ne
 try (N) manual=False: സ്മിത അനിലിന്റെ 'മൺ തുരുത്തിലെ പെൺ മനങ്ങൾ' പുസ്തകം പ്രകാശനം 
-NOT filed (N) മലപ്പുറം പത്മ തീയറ്ററിൽ തീപിടിത്തം; സ്ക്രീൻ രണ്ട് : all free models failed: no usable answer from the models
+NOT filed (N) സ്മിത അനിലിന്റെ 'മൺ തുരുത്തിലെ പെൺ മനങ്ങൾ' പുസ്തകം: all free models failed: no usable answer from the models
 try (N) manual=False: കോൺഗ്രസും ലീഗും ജനാധിപത്യം കശാപ്പ് ചെയ്യുന്നു- ബി.ജെ.പി.
 NOT filed (N) കോൺഗ്രസും ലീഗും ജനാധിപത്യം കശാപ്പ് ചെയ്യുന്നു- ബി.: all free models failed: no usable answer from the models
 try (N) manual=False: ഡോക്ടർമാർക്ക് പകരമാകാൻ എ.ഐ.ക്ക് കഴിയില്ല -ഗോപിനാഥ് മുതുകാട്
@@ -80,10 +105,10 @@ NOT filed (N) ഡോക്ടർമാർക്ക് പകരമാകാൻ �
 try (N) manual=False: കാട്ടാനയെ തുരത്താൻവീട്ടിക്കുന്നിലെ കാടുകൾ നീക്കിത്തുടങ്ങി
 NOT filed (N) കാട്ടാനയെ തുരത്താൻവീട്ടിക്കുന്നിലെ കാടുകൾ നീക്കിത്: all free models failed: no usable answer from the models
 NOT filed (N) മുസ്ലിം ജനസംഖ്യ 3%, മിഷിഗണിലെ സഈദിന്റെ ജയം ജനാധിപത: all free models failed: no usable answer from the models
-NOT filed (N) സ്മിത അനിലിന്റെ 'മൺ തുരുത്തിലെ പെൺ മനങ്ങൾ' പുസ്തകം: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 7}, done={'R': 0, 'N': 0}, time left 29 min
+NOT filed (N) മലപ്പുറം പത്മ തീയറ്ററിൽ തീപിടിത്തം; സ്ക്രീൻ രണ്ട് : bad draft: 'scenes'
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 6}, done={'R': 0, 'N': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
-queue: 7 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":7} 
+queue: 6 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":6} 
 stories: 0
