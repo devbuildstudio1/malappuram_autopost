@@ -3,20 +3,21 @@ imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed ou
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
+imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
+06:22:48 image attempt 1 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4
+imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-06:12:31 image attempt 1 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
+06:24:16 image attempt 2 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
 imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
 imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
-06:12:58 image attempt 2 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4
-imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-imagegen: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQk
-06:14:50 image attempt 3 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4
-06:15:50 image models failed for MP-6 all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABA - tried again in the next run (gives up after 3 h)
-06:15:54 1 stories in the queue, ready to post: 1
-06:15:54   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ml', 'images', 'importance', 'location', 'malappuram_link', 'manjeri_link', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'story_id', 'verification']
-06:15:54    MP-5 review= 'Auto' images= 385 spec= 677 pages= ['manjeri'] links= '' '' '' age_h= 3.3 ready= True set_started= True
-06:15:56 publishing quota malappuram: 4/50
-06:15:59 publishing quota manjeri: 0/50
-06:16:02 instagram duplicate check manjeri: 0 recent posts read
+06:25:04 image attempt 3 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4
+06:26:04 image models failed for MP-6 all image models failed: all image models failed: black-forest-labs/flux.1-dev no image (CONTENT_FILTERED): {'artifacts': [{'base64': '/9j/4AAQSkZJRgABAQAAAQABA - tried again in the next run (gives up after 3 h)
+06:26:07 1 stories in the queue, ready to post: 1
+06:26:07   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ml', 'images', 'importance', 'location', 'malappuram_link', 'manjeri_link', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'story_id', 'verification']
+06:26:07    MP-5 review= 'Auto' images= 385 spec= 677 pages= ['manjeri'] links= '' '' '' age_h= 3.5 ready= True set_started= True
+06:26:11 publishing quota malappuram: 4/50
+06:26:13 publishing quota manjeri: 0/50
+06:26:15 instagram duplicate check manjeri: 0 recent posts read
