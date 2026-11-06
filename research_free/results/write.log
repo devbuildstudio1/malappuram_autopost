@@ -1,27 +1,17 @@
-writing [N]: പ്രതിഷേധ ധർണ നടത്തി
-writing [N]: അലി ബാഫഖി തങ്ങളുടെ അനുസ്മരണ സംഗമവും സ്വലാത്ത് ആത്മീയ സദസും ഇ
 writing [N]: സ്കൂൾ പരിസരത്ത്  ലഹരി ഉപയോഗം നടക്കുന്നത് അറിഞ്ഞെത്തിയ പോലീസു
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [N]: പ്രതിഷേധ ധർണ നടത്തി
+writing [N]: അലി ബാഫഖി തങ്ങളുടെ അനുസ്മരണ സംഗമവും സ്വലാത്ത് ആത്മീയ സദസും ഇ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -52,19 +42,23 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+dead for this round: groq/openai/gpt-oss-120b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 dead for this round: groq/openai/gpt-oss-120b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 dead for this round: groq/openai/gpt-oss-120b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instructfail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
@@ -73,38 +67,28 @@ fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgmcbb88RQX5VzAXnEb43"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmcfTVbpn8MwzCS4SVaj"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmcbdDt5172cdFcn6k1N"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgmcffa8G9hae3sZLJP2Z"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmcbfX3MQbySjvLWQkK6"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgmcfhPGFLMfHxX8ipJPD"}
 earlier stories still waiting for images: []
 instagram check: 10 recent posts read from both pages
-write round: 9 news waiting in the queue (written in priority order)
-candidate filter: collected=8, already filed=1
-to write: 1 Manjeri + 7 other district candidates (max 200 + 200 stories)
-candidates waiting: 1 Manjeri, 7 Malappuram; time left 29 min
-try (N) manual=False: കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ: കവർച്ചക്കായി എത്തിയത് എട്ടംഗ പൊട
-try (N) manual=False: കരിപ്പൂർ വിമാനത്താവളം വഴി സ്വർണം കടത്താൻ ശ്രമം; മൂന്നുപേർ പി
-try (N) manual=False: കരിപ്പൂർ തട്ടിക്കൊണ്ടുപോകലിൽ വീണ്ടും ട്വിസ്റ്റ്; ഭർത്താവിന് 
-skip (N) similar to a filed story: കരിപ്പൂർ സ്വർണം പൊട്ടിക്കൽ: കവർച്ചക്കായി എത്തിയത് 
+write round: 3 news waiting in the queue (written in priority order)
+candidate filter: collected=3
+to write: 0 Manjeri + 3 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 3 Malappuram; time left 29 min
 try (N) manual=False: സ്കൂൾ പരിസരത്ത്  ലഹരി ഉപയോഗം നടക്കുന്നത് അറിഞ്ഞെത്തിയ പോലീസു
-skip (N) similar to a filed story: കരിപ്പൂർ തട്ടിക്കൊണ്ടുപോകലിൽ വീണ്ടും ട്വിസ്റ്റ്; ഭ
-try (R) manual=False: മഞ്ചേരിയിൽ എംഡിഎംഎയുമായി ആറ് പേർ പിടിയിൽ | Deepika | The Lar
-skip (R) similar to a filed story: മഞ്ചേരിയിൽ എംഡിഎംഎയുമായി ആറ് പേർ പിടിയിൽ | Deepika
-try (N) manual=False: കരിപ്പൂരിൽ വീണ്ടും സ്വർണ വേട്ട: മൂന്നുപേർ പിടിയിൽ
-skip (N) similar to a filed story: കരിപ്പൂരിൽ വീണ്ടും സ്വർണ വേട്ട: മൂന്നുപേർ പിടിയിൽ
 try (N) manual=False: അലി ബാഫഖി തങ്ങളുടെ അനുസ്മരണ സംഗമവും സ്വലാത്ത് ആത്മീയ സദസും ഇ
-skip (N) similar to a filed story: കരിപ്പൂർ വിമാനത്താവളം വഴി സ്വർണം കടത്താൻ ശ്രമം; മൂ
 try (N) manual=False: പ്രതിഷേധ ധർണ നടത്തി
-NOT filed (N) പ്രതിഷേധ ധർണ നടത്തി: all free models failed: no usable answer from the models
 NOT filed (N) സ്കൂൾ പരിസരത്ത്  ലഹരി ഉപയോഗം നടക്കുന്നത് അറിഞ്ഞെത്: all free models failed: no usable answer from the models
 NOT filed (N) അലി ബാഫഖി തങ്ങളുടെ അനുസ്മരണ സംഗമവും സ്വലാത്ത് ആത്മ: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 7}, done={'R': 0, 'N': 0}, time left 29 min
+NOT filed (N) പ്രതിഷേധ ധർണ നടത്തി: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 3}, done={'R': 0, 'N': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
 queue: 3 news waiting to be written
