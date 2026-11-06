@@ -80,6 +80,7 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-06 | `0e404c6` | ig probe: read follower and post counts |
 | 2026-11-06 | `dcbb235` | Pin workflows to ubuntu-24.04 |
 | 2026-11-05 | `6e37e55` | Heartbeat |
 | 2026-11-05 | `0aafb04` | Heartbeat |
