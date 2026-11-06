@@ -9,26 +9,39 @@
   "try (N) manual=False: 2 പുതിയ സിനിമകൾ ഇന്ന് റിലീസിനിരിക്കെ തിയേറ്റർ കത്തി നശിച്ചു;",
   "try (N) manual=False: മന്ത്രിയാകുമോ ആര്യാടൻ ഷൗക്കത്ത് ? എപി അനിൽ കുമാർ മാറിയാൽ സാധ",
   "try (N) manual=False: എംഡിഎംഎ കേസിൽ ഡോക്ടർ അറസ്റ്റിൽ; സ്ഥിരം ഉപയോഗം, പിടിയിലായത് എ",
-  "NOT filed (N) മന്ത്രിയാകുമോ ആര്യാടൻ ഷൗക്കത്ത് ? എപി അനിൽ കുമാർ മ: all free models failed: no usable answer from the models",
+  "skip (N) no Malappuram place in article: മന്ത്രിയാകുമോ ആര്യാടൻ ഷൗക്കത്ത് ? എപി അനിൽ കുമാർ മ",
   "try (N) manual=False: എംഡിഎംഎ കേസിൽ ഡോക്ടർ അറസ്റ്റിൽ; ലഹരി ഉപയോഗം പതിവാക്കിയ ആളെന്",
-  "NOT filed (N) 2 പുതിയ സിനിമകൾ ഇന്ന് റിലീസിനിരിക്കെ തിയേറ്റർ കത്ത: all free models failed: no usable answer from the models",
-  "NOT filed (N) എംഡിഎംഎ കേസിൽ ഡോക്ടർ അറസ്റ്റിൽ; ലഹരി ഉപയോഗം പതിവാക: all free models failed: no usable answer from the models",
   "NOT filed (N) എംഡിഎംഎ കേസിൽ ഡോക്ടർ അറസ്റ്റിൽ; സ്ഥിരം ഉപയോഗം, പിട: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 4}, done={'R': 0, 'N': 0}, time left 29 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
-  "queue: 4 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":4}"
+  "auto images failed for 'Doctor from Morayur arrested by Vythiri ': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email",
+  "auto images: 0 of 1 stories ({'black-forest-labs/flux.1-dev': 4})",
+  "posting job started at once",
+  "NOT filed (N) 2 പുതിയ സിനിമകൾ ഇന്ന് റിലീസിനിരിക്കെ തിയേറ്റർ കത്ത: all free models failed: no usable answer from the models",
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 4}, done={'R': 0, 'N': 1}, time left 21 min",
+  "carousel for 0 of 1 stories, the rest reel only",
+  "filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)",
+  "queue: 2 news waiting to be written",
+  "write_stories.yml started",
+  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":3}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.8-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.7-flash",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "switching away from gemini/gemini-3.6-flash for 10 min",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
@@ -36,8 +49,76 @@
   "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
   "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
+  "ok gemini/gemini-3.6-flash (17s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min"
+  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
+  "switching away from mistral/mistral-small-latest for 10 min",
+  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
+  "switching away from mistral/mistral-small-latest for 10 min",
+  "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.8-flash",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "ലക്കിടി എംഡിഎംഎ കേസിൽ മലപ്പുറം മൊറയൂർ സ്വദേശിയായ ഡോക്ടർ അറസ്റ്റിൽ",
+   "english_headline": "Doctor from Morayur arrested by Vythiri police in Lakkidi MDMA case",
+   "category": "Crime & Safety",
+   "location": "Morayur, Malappuram district",
+   "importance": "High",
+   "scope": "district",
+   "post_to": "Malappuram 360 (collab: Manjeri 360)",
+   "slides_spec": {
+    "v": 3,
+    "cat": "എംഡിഎംഎ കേസ്",
+    "loc": "മൊറയൂർ, മലപ്പുറം",
+    "hl1": "എംഡിഎംഎ കേസിൽ ഡോക്ടർ അറസ്റ്റിൽ",
+    "hl2": "മൊറയൂർ സ്വദേശി പിടിയിൽ",
+    "slides": [
+     {
+      "title": "എന്ത്, ആര്?",
+      "lines": [
+       "<b>8.520 ഗ്രാം</b> എംഡിഎംഎ കേസിൽ ഡോക്ടർ അറസ്റ്റിൽ",
+       "മൊറയൂർ സ്വദേശിയായ <b>41</b> വയസ്സുകാരൻ പിടിയിൽ",
+       "കോഴിക്കോട്ടെ സ്വകാര്യ ആശുപത്രിയിലെ ഡോക്ടറാണ്"
+      ]
+     },
+     {
+      "title": "എവിടെ, എങ്ങനെ?",
+      "lines": [
+       "വൈത്തിരി പോലീസാണ് അറസ്റ്റ് ചെയ്തത്",
+       "<b>ഒക്ടോബർ 22ന്</b> ലക്കിടിയിൽ ലഹരി പിടികൂടിയിരുന്നു",
+       "ലഹരി ഡോക്ടർക്ക് നൽകാൻ എത്തിച്ചതാണെന്ന് പോലീസ്"
+      ]
+     },
+     {
+      "title": "പോലീസ്",
+      "lines": [
+       "തമിഴ്നാട് സ്വദേശികളാണ് ലക്കിടിയിൽ പിടിയിലായത്",
+       "ഡോക്ടർ സ്ഥിരമായി എംഡിഎംഎ ഉപയോഗിക്കുന്നയാൾ",
+       "ഫോൺ വിവരങ്ങളും ബാങ്ക് രേഖകളും പോലീസ് കണ്ടെടുത്തു"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "ലക്കിടിയിൽ എംഡിഎംഎ പിടികൂടിയ കേസിൽ മലപ്പുറം മൊറയൂർ സ്വദേശിയായ ഡോക്ടർ അറസ്റ്റിലായി. 41 വയസ്സുള്ള ഇയാളെ വൈത്തിരി പോലീസാണ് അറസ്റ്റ് ചെയ്തത്. കോഴിക്കോട്ടെ സ്വകാര്യ ആശുപത്രിയിലെ എമർജൻസി ട്രോമകെയർ വിഭാഗം മേധാവിയാണ് പിടിയിലായ ഡോക്ടർ. ഒക്ടോബർ 22ന് ലക്കിടിയിൽ 8.520 ഗ്രാം എംഡിഎംഎ പോലീസ് പിടികൂടിയിരുന്നു. തമിഴ്നാട് സ്വദേശികളായ പ്രതികൾ ലഹരി എത്തിച്ചത് ഡോക്ടർക്ക് നൽകാനാണെന്ന് പോലീസ് കണ്ടെത്തി. ഡോക്ടർ സ്ഥിരമായി എംഡിഎംഎ ഉപയോഗിക്കുന്ന ആളാണെന്ന് പോലീസ് അറിയിച്ചു. പ്രതികളും ഡോക്ടറും തമ്മിലുള്ള ഫോൺ സംഭാഷണങ്ങളും ബാങ്ക് ഇടപാട് രേഖകളും പോലീസ് കണ്ടെടുത്തു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🚨 ലക്കിടി എംഡിഎംഎ കേസിൽ മലപ്പുറം മൊറയൂർ സ്വദേശിയായ ഡോക്ടർ അറസ്റ്റിൽ\n\n📰 പൂർണ വിവരം:\nലക്കിടിയിൽ 8.520 ഗ്രാം എംഡിഎംഎ പിടികൂടിയ കേസിൽ മലപ്പുറം മൊറയൂർ സ്വദേശിയായ 41 വയസ്സുള്ള ഡോക്ടറെ വൈത്തിരി പോലീസ് അറസ്റ്റ് ചെയ്തു. കോഴിക്കോട്ടെ സ്വകാര്യ ആശുപത്രിയിലെ കാഷ്വാലിറ്റി സർജനും എമർജൻസി ട്രോമകെയർ വിഭാഗം മേധാവിയുമാണ് പിടിയിലായത്. ഒക്ടോബർ 22ന് ലക്കിടിയിൽ പിടിയിലായ തമിഴ്നാട് സ്വദേശികളായ പ്രതികൾ ലഹരി എത്തിച്ചത് ഈ ഡോക്ടർക്ക് നൽകാനാണെന്ന് പോലീസ് കണ്ടെത്തി. ഡോക്ടർ സ്ഥിരമായി എംഡിഎംഎ ഉപയോഗിക്കുന്ന ആളാണെന്ന് പോലീസ് അറിയിച്ചു. പ്രതികളും ഡോക്ടറും തമ്മിലുള്ള ഫോൺ സംഭാഷണങ്ങളും ബാങ്ക് ഇടപാട് രേഖകളും വൈത്തിരി പോലീസ് കണ്ടെടുത്തു.\n📍 സ്ഥലം: മൊറയൂർ, മലപ്പുറം | ലക്കിടി, വയനാട്\n👮 നടപടി: വൈത്തിരി പോലീസ് കേസെടുത്ത് അറസ്റ്റ് ചെയ്തു\nവിവരങ്ങൾ അറിയാൻ Share ചെയ്യൂ\n\nDoctor from Morayur arrested in Lakkidi MDMA case | Malappuram news\n📍 മൊറയൂർ, മലപ്പുറം | 07 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Morayur #CrimeNews #MalappuramNews",
+   "prompts": "A Kerala Police jeep parked outside Vythiri police station at dusk, red and blue indicator lights flashing softly, blue signboard of the police station visible in the background, surrounding misty green hills of Wayanad. Quiet, tense tone. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nWide view of the national highway winding through the misty forests of Lakkidi in Wayanad late in the evening, overhead street lights shining on wet tarmac, trees on both sides. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nInside a dimly lit police investigation office, official case files and printed bank statement sheets placed on a wooden table, a police officer's hands in khaki uniform pointing at documents, soft yellow overhead light. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nExterior wide view of a modern private multi-storey hospital building in Kozhikode at dusk, emergency entrance area lit with white lights, ambulances parked outside, quiet atmosphere. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.asianetnews.com/local-news/vythiri-police-arrested-doctor-in-mdma-case-articleshow-nk9cm6f",
+   "published": "2026-11-06T19:39:38+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: numbers not found in the article: 07",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 3.0,
+   "auto_images": true
+  }
+ ]
 }
