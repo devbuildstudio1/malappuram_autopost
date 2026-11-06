@@ -11,6 +11,10 @@ for page in ("manjeri", "malappuram"):
         tok = post.bridge_get("token", page=page)["token"]
         uid, name = post.ig_account(tok)
         r["account"] = name
+        try:
+            r["profile"] = post.ig("GET", uid, tok, fields="username,followers_count,follows_count,media_count")
+        except Exception as e:
+            r["profile"] = "ERR " + str(e)[:160]
         m = post.ig("GET", f"{uid}/media", tok, fields="id,caption,timestamp,media_product_type,permalink,like_count,comments_count", limit=12)
         items = m.get("data", [])
         r["media_ok"] = len(items)
