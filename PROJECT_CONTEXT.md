@@ -80,6 +80,12 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-06 | `dcbb235` | Pin workflows to ubuntu-24.04 |
+| 2026-11-05 | `6e37e55` | Heartbeat |
+| 2026-11-05 | `0aafb04` | Heartbeat |
+| 2026-11-04 | `2c0eb4e` | Heartbeat |
+| 2026-11-04 | `40c9222` | Heartbeat |
+| 2026-11-04 | `8d33e8c` | Pace reels for reach: prime-time windows, 75 min gap, 6 a day, quiet hours |
 | 2026-11-04 | `8ccf322` | Start the posting job every 10 min from Apps Script |
 | 2026-11-04 | `f3c4cf0` | Go live: enable automatic collecting and Instagram posting |
 | 2026-11-04 | `d4ea741` | image test output |
