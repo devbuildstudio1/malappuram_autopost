@@ -1,16 +1,31 @@
-00:18:27 SKIP MP-7 stale: published 05 Nov, older than yesterday
-00:18:27 SKIP MP-19 stale: published 05 Nov, older than yesterday
-00:18:27 6 stories in the queue, ready to post: 4
-00:18:27   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ml', 'images', 'importance', 'location', 'malappuram_link', 'manjeri_link', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'story_id', 'verification']
-00:18:27    MP-7 review= 'Auto' images= 385 spec= 646 pages= ['malappuram'] links= '' '' '' age_h= 15.5 ready= False set_started= True
-00:18:27    MP-15 review= 'Auto' images= 385 spec= 662 pages= ['malappuram'] links= '' '' '' age_h= 9.3 ready= True set_started= True
-00:18:27    MP-16 review= 'Auto' images= 385 spec= 710 pages= ['malappuram'] links= '' '' '' age_h= 9.2 ready= True set_started= True
-00:18:27    MP-17 review= 'Auto' images= 385 spec= 571 pages= ['malappuram'] links= '' '' '' age_h= 5.1 ready= True set_started= True
-00:18:27    MP-18 review= 'Auto' images= 385 spec= 656 pages= ['malappuram'] links= '' '' '' age_h= 5.1 ready= True set_started= True
-00:18:27    MP-19 review= 'Auto' images= 385 spec= 699 pages= ['manjeri'] links= '' '' '' age_h= 2.3 ready= False set_started= True
-00:18:30 publishing quota malappuram: 12/50
-00:18:33 publishing quota manjeri: 6/50
-00:18:33    MP-15 quiet hours - waits for 07:00 IST
-00:18:33    MP-16 quiet hours - waits for 07:00 IST
-00:18:33    MP-17 quiet hours - waits for 07:00 IST
-00:18:33    MP-18 quiet hours - waits for 07:00 IST
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150) 504 timeout
+imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+image match: False The photo is a generic/AI-generated illustration of a police jeep driving on a road, not showing the actual news event, 
+00:32:01 picture does not match the news, generating again: MP-20 1
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+00:34:03 automatic images queued: MP-20 4
+00:34:08 SKIP MP-7 stale: published 05 Nov, older than yesterday
+00:34:08 SKIP MP-19 stale: published 05 Nov, older than yesterday
+00:34:08 7 stories in the queue, ready to post: 5
+00:34:08   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ml', 'images', 'importance', 'location', 'malappuram_link', 'manjeri_link', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'story_id', 'verification']
+00:34:08    MP-7 review= 'Auto' images= 385 spec= 646 pages= ['malappuram'] links= '' '' '' age_h= 15.8 ready= False set_started= True
+00:34:08    MP-15 review= 'Auto' images= 385 spec= 662 pages= ['malappuram'] links= '' '' '' age_h= 9.5 ready= True set_started= True
+00:34:08    MP-16 review= 'Auto' images= 385 spec= 710 pages= ['malappuram'] links= '' '' '' age_h= 9.5 ready= True set_started= True
+00:34:08    MP-17 review= 'Auto' images= 385 spec= 571 pages= ['malappuram'] links= '' '' '' age_h= 5.3 ready= True set_started= True
+00:34:08    MP-18 review= 'Auto' images= 385 spec= 656 pages= ['malappuram'] links= '' '' '' age_h= 5.3 ready= True set_started= True
+00:34:08    MP-19 review= 'Auto' images= 385 spec= 699 pages= ['manjeri'] links= '' '' '' age_h= 2.6 ready= False set_started= True
+00:34:08    MP-20 review= 'Auto' images= 385 spec= 682 pages= ['malappuram'] links= '' '' '' age_h= 0.1 ready= True set_started= True
+00:34:10 publishing quota malappuram: 12/50
+00:34:13 publishing quota manjeri: 6/50
+00:34:13    MP-20 quiet hours - waits for 07:00 IST
+00:34:13    MP-15 quiet hours - waits for 07:00 IST
+00:34:13    MP-16 quiet hours - waits for 07:00 IST
+00:34:13    MP-17 quiet hours - waits for 07:00 IST
+00:34:13    MP-18 quiet hours - waits for 07:00 IST
+00:34:13 prebuilding ahead of the set start: ['MP-20']
