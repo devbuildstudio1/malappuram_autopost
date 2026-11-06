@@ -19,42 +19,113 @@
   "try (N) manual=False: ഡോക്ടർമാർക്ക് പകരമാകാൻ എ.ഐ.ക്ക് കഴിയില്ല -ഗോപിനാഥ് മുതുകാട്",
   "NOT filed (N) ഡോക്ടർമാർക്ക് പകരമാകാൻ എ.ഐ.ക്ക് കഴിയില്ല -ഗോപിനാഥ്: all free models failed: no usable answer from the models",
   "NOT filed (R) കോഴി മാലിന്യ പ്ലാൻറിനെതിരേ പരാതികൾ; പരിഹരിക്കണമെന്: all free models failed: no usable answer from the models",
-  "NOT filed (N) സ്ത്രീകളെ വലയിലാക്കി സ്വർണക്കടത്ത്; \r\nകരിപ്പൂരിൽ പ: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 6}, done={'R': 0, 'N': 0}, time left 29 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
-  "queue: 7 news waiting to be written",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux.1-dev': 4})",
+  "posting job started at once",
+  "candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 6}, done={'R': 0, 'N': 1}, time left 25 min",
+  "carousel for 0 of 1 stories, the rest reel only",
+  "filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)",
+  "queue: 6 news waiting to be written",
+  "write_stories.yml started",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":7}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
-  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
   "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
   "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
-  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min"
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "ok gemini/gemini-3.6-flash (21s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.7-flash",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "ok groq/openai/gpt-oss-120b (6s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok groq/openai/gpt-oss-120b (3s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "കരിപ്പൂരിൽ സ്വർണക്കടത്തും പൊട്ടിക്കൽ സംഘങ്ങളും പിടിയിൽ; 4 ദിവസത്തിനിടെ 9 പേർ അറസ്റ്റിൽ",
+   "english_headline": "Police crack down on gold smuggling and snatching gangs at Karipur airport; 9 arrested in 4 days",
+   "category": "Crime & Safety",
+   "location": "Karipur Airport, Malappuram district",
+   "importance": "High",
+   "scope": "district",
+   "post_to": "Malappuram 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "സ്വർണക്കടത്ത്",
+    "loc": "കരിപ്പൂർ, മലപ്പുറം",
+    "hl1": "കരിപ്പൂരിൽ സ്വർണക്കടത്തും പൊട്ടിക്കലും",
+    "hl2": "4 ദിവസത്തിനിടെ 9 പേർ പിടിയിൽ",
+    "slides": [
+     {
+      "title": "എന്താണ്",
+      "lines": [
+       "കരിപ്പൂരിൽ സ്വർണം തട്ടിയെടുക്കാൻ ശ്രമം",
+       "4 ദിവസത്തിനിടെ <b>9 പേർ</b> അറസ്റ്റിൽ",
+       "ഇതിൻറെ പിന്നിൽ <b>2 സംഘങ്ങൾ</b>"
+      ]
+     },
+     {
+      "title": "രണ്ട് കേസുകൾ",
+      "lines": [
+       "ബഹ്റൈനിൽ നിന്നുള്ള <b>817 ഗ്രാം</b> സ്വർണം",
+       "തട്ടിയെടുക്കാൻ ശ്രമിച്ച കേസിൽ <b>4 പേർ</b>",
+       "തട്ടിക്കൊണ്ടുപോകൽ നാടകം കളിച്ച <b>5 പേർ</b>"
+      ]
+     },
+     {
+      "title": "ശ്രദ്ധേയ വിവരങ്ങൾ",
+      "lines": [
+       "പ്രതികളെ <b>12 കിലോമീറ്റർ</b> പിന്തുടർന്നു",
+       "<b>1 കിലോക്ക്</b> 75,000 രൂപ വരെ പ്രതിഫലം",
+       "കസ്റ്റംസും പോലീസും പരിശോധന ശക്തമാക്കി"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "കരിപ്പൂർ വിമാനത്താവളം കേന്ദ്രീകരിച്ച് സ്വർണക്കടത്തും സ്വർണം തട്ടിയെടുക്കുന്ന പൊട്ടിക്കൽ സംഘങ്ങളെയും പോലീസ് പിടികൂടി. 4 ദിവസത്തിനിടെ രണ്ട് സംഭവങ്ങളിലായി 2 സ്ത്രീകളടക്കം 9 പേരാണ് അറസ്റ്റിലായത്. നവംബർ 2ന് ബഹ്റൈനിൽ നിന്നെത്തിയ യുവതിയുടെ 817 ഗ്രാം സ്വർണം തട്ടിയെടുക്കാൻ ശ്രമിച്ച കേസിൽ 4 പേർ പിടിയിലായി. 1.10 കോടി രൂപ വിലവരുന്ന സ്വർണമായിരുന്നു സംഘത്തിന്റെ ലക്ഷ്യം. ദുബായിൽ നിന്നെത്തിയ മറ്റൊരു യുവതി തട്ടിക്കൊണ്ടുപോകൽ നാടകം രചിച്ച് സ്വർണം കവരാൻ ശ്രമിച്ച കേസിൽ 5 പേരും അറസ്റ്റിലായി. ഈ കേസിൽ രക്ഷപ്പെടാൻ ശ്രമിച്ച സംഘത്തെ 12 കിലോമീറ്ററോളം പിന്തുടർന്നാണ് പോലീസ് പിടികൂടിയത്. 1 കിലോ സ്വർണം കടത്തുമ്പോൾ 60,000 മുതൽ 75,000 രൂപ വരെ പ്രതിഫലമായി നൽകുന്നതായി കണ്ടെത്തി. കരിപ്പൂരിൽ സ്വർണക്കടത്ത് സംഘങ്ങൾക്കെതിരെ പരിശോധന ശക്തമാക്കിയതായി പോലീസ് അറിയിച്ചു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🚨 കരിപ്പൂരിൽ സ്വർണക്കടത്തും പൊട്ടിക്കൽ സംഘങ്ങളും പിടിയിൽ: 4 ദിവസത്തിനിടെ 9 പേർ അറസ്റ്റിൽ\n\n📰 പൂർണ വിവരം:\nകരിപ്പൂർ വിമാനത്താവളം കേന്ദ്രീകരിച്ച് സ്വർണക്കടത്തും സ്വർണം തട്ടിയെടുക്കുന്ന പൊട്ടിക്കൽ സംഘങ്ങളും വീണ്ടും സജീവമാകുന്ന പശ്ചാത്തലത്തിൽ പോലീസ് പരിശോധന ശക്തമാക്കി. 4 ദിവസത്തിനിടെ 2 സംഭവങ്ങളിലായി 2 സ്ത്രീകളടക്കം 9 പേരെ പോലീസ് അറസ്റ്റ് ചെയ്തു. നവംബർ 2ന് ബഹ്റൈനിൽ നിന്നെത്തിയ ഇടുക്കി വണ്ടൻമേട് സ്വദേശിനിയുടെ കൈവശമുണ്ടായിരുന്ന 817 ഗ്രാം സ്വർണം (വില ഏകദേശം 1.10 കോടി രൂപ) തട്ടിയെടുക്കാൻ ശ്രമിച്ച കേസിൽ 4 പേരാണ് അറസ്റ്റിലായത്. ദുബായിൽ നിന്ന് 18 പവൻ സ്വർണവുമായി എത്തിയ തലശ്ശേരി സ്വദേശിനി തട്ടിക്കൊണ്ടുപോകൽ നാടകം സൃഷ്ടിച്ച് സ്വർണം കവരാൻ ശ്രമിച്ച സംഭവത്തിൽ യുവതിയടക്കം 5 പേരെ പോലീസ് പിടികൂടി. രക്ഷപ്പെടാൻ ശ്രമിച്ച ഈ സംഘത്തെ 12 കിലോമീറ്ററോളം പിന്തുടർന്നാണ് പോലീസ് കസ്റ്റഡിയിലെടുത്തത്. 1 കിലോ സ്വർണം കടത്തുമ്പോൾ 60,000 മുതൽ 75,000 രൂപ വരെയാണ് കാരിയർമാർക്ക് പ്രതിഫലമായി ലഭിക്കുന്നത്. കരിപ്പൂർ കേന്ദ്രീകരിച്ചുള്ള സ്വർണക്കടത്ത് സംഘങ്ങൾക്കെതിരെ കസ്റ്റംസും പൊലീസും നിരീക്ഷണം ശക്തമാക്കിയിട്ടുണ്ട്.\n\n📍 സ്ഥലം: കരിപ്പൂർ വിമാനത്താവള പരിസരം, മലപ്പുറം\n🗓️ തീയതി: നവംബർ 6, 2026\n👮 നടപടി: പോലീസ് കേസെടുത്ത് 9 പേരെ അറസ്റ്റ് ചെയ്തു\n\nആവശ്യമുള്ളവർക്ക് Share ചെയ്യൂ\n\nKaripur airport gold smuggling and pottikkal gang arrested | Malappuram news\n📍 കരിപ്പൂർ, മലപ്പുറം | 06 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Karipur #CrimeNews #MalappuramNews",
+   "prompts": "Police officers in khaki uniforms cuff and lead away nine suspects, two of them women, as they step out of the customs hall at Karipur Airport; the airport’s glass façade and concrete apron form the backdrop, with a row of palm trees and the runway visible beyond; the officers stand in a line, their hands on the suspects’ shoulders, while the suspects are turned away, their backs showing simple shirts and trousers; a sealed evidence bag containing glittering gold jewellery rests on a metal tray beside the officers; the scene is set in bright daylight under a clear sky; shot from a low angle with a 35 mm lens, capturing the action head‑on. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide view of Karipur International Airport’s terminal courtyard shows the sprawling tarmac, red‑tiled roofs of nearby houses, and a line of coconut palms swaying in the gentle breeze; in the foreground, a small police cordon stretches across the paved area, with several officers in khaki uniforms and a police jeep parked nearby; beyond the cordon, a group of nine suspects, their backs to the camera, stand in a loose line, some holding bags; scattered gold‑filled evidence boxes sit on a low table under a striped canopy; the light is soft late morning, casting long shadows; captured from an elevated position using a 35 mm lens to include both the airport setting and the police operation. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close‑up of a sealed evidence tray on a metal table displays a heap of gold jewellery – necklaces, bangles and a small gold bar – glinting under the overhead fluorescent light; beside the tray, a pair of police gloves rest, and a blurred police badge is visible on a hand; the background shows only the muted texture of the airport floor and a hint of a security gate, with no identifiable signage; the focus is sharp on the gold, while the surroundings are softly out of focus; shot from a slight overhead angle with a 35 mm lens to emphasize the seized gold as the story’s key object. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://keralakaumudi.com/local/malappuram/local-news--malappuram-1823205",
+   "published": "2026-11-06T04:13:45+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: numbers not found in the article: 06, 9; caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 27 ('നവംബർ രണ്ടിന് ബഹ്റൈനിൽ നിന്നെത്തിയ ഇടുക്കി വണ്ടൻമേട് സ്വദേശി'); 34 ('ദുബായിൽ നിന്ന് 18 പവൻ സ്വർണവുമായി എത്തിയ തലശ്ശേരി തിരുവങ്ങാട'); 22 ('നാലുവർഷത്തിനിടെ 22 സ്വർണം പൊട്ടിക്കൽ സംഭവങ്ങളാണ് കരിപ്പൂരിൽ')",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 2 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 7.0,
+   "images": [
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1793942568/news360/ivjaqikukeoctbg5h3ng.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1793942613/news360/essxlexjpkaotudtuauc.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1793942579/news360/fn95t4bowvox0jduqg4l.jpg"
+   ]
+  }
+ ]
 }
