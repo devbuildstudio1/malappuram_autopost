@@ -1,110 +1,170 @@
-writing [N]: കുമ്മായം നൽകാതെ സർക്കാർ;  കോൾ കർഷകർ പ്രതിസന്ധിയിൽ
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 writing [N]: കരിപ്പൂരിൽ വീണ്ടും വൻ സ്വർണവേട്ട; അബുദബിയിൽ നിന്നെത്തിയ യാത്
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: സംസ്ഥാന ഖൊ ഖൊ ചാമ്പ്യൻഷിപ്പ്:  സെമി ഫൈനൽ ഇന്ന്
+writing [N]: നവീകരിച്ച ഹെഡ് ഓഫീസും  സ്മാർട്ട് സെന്ററും നാടിന് സമർപ്പിച്ചു
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+ok gemini/gemini-3.6-flash (19s)
+attempt 1 gemini/gemini-3.6-flash: 2 problems
+  reel_script has 78 words; need 80-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-writing [N]: സംസ്ഥാന ഖൊ ഖൊ ചാമ്പ്യൻഷിപ്പ്:  സെമി ഫൈനൽ ഇന്ന്
-free models unavailable: free models not efficient (3 failures in a row): using Claude
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgpJqqMgKWdS6LXZEXoiA"}
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+dead for this round: groq/openai/gpt-oss-120b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-writing [N]: നവീകരിച്ച ഹെഡ് ഓഫീസും  സ്മാർട്ട് സെന്ററും നാടിന് സമർപ്പിച്ചു
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgpJquZSP4v9QeK6Syoqs"}
-writing [N]: 'പൂക്കി സർക്കാർ അധികാരമേറ്റ ശേഷം സത്യസന്ധതക്ക് പേരുകേട്ട ഉദ്
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgpJqvjtjnF3za6zi2Jzw"}
-writing [N]: പോലീസുകാരന്റെ മൂക്കിടിച്ച് തകർത്തു; റൗഡികൾക്ക് മലപ്പുറത്തെ വ
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgpJqwnt6eiy4woiKmRy9"}
-writing [N]: പരിഷത്ത് സംസ്ഥാന സമ്മേളനം: സംഘാടക സമിതി രൂപീകരണം നാളെ
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgpJqyy79XUVZBaeL68s2"}
-writing [N]: സി എം കുഞ്ഞിരാമൻ നായർ സ്മാരക പുരസ്കാരം മുൻമന്ത്രി കെ രാജന്
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgpJr16L69ZMxwtitiKMh"}
+ok gemini/gemini-3.6-flash (21s)
+attempt 1 gemini/gemini-3.6-flash: 4 problems
+  reel_script has 73 words; need 80-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  stray Malayalam sign 'ാ' after '-' in «ന്ന 4-ാമത്»
+  stray Malayalam sign 'ാ' after '-' in «ന്ന 4-ാമത്»
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 440 ('ദുബായിൽനിന്ന് എയർ ഇന്ത്യ എക്സ്പ്രസ് വിമാനത്തിൽ (കത 440) എത്ത'); 40 ('നള്ളളം സ്വദേശി മുഹമ്മദ് റഹീസ് (40) 331.5 ഗ്രാം തൂക്കമുള്ള മൂ'); 331 ('നള്ളളം സ്വദേശി മുഹമ്മദ് റഹീസ് (40) 331.5 ഗ്രാം തൂക്കമുള്ള മൂ'); 44 ('നാദാപുരം സ്വദേശി ഖാലിദ് (44) 330.4 ഗ്രാം തൂക്കമുള്ള മൂന്ന് മ'); 330 ('നാദാപുരം സ്വദേശി ഖാലിദ് (44) 330.4 ഗ്രാം തൂക്കമുള്ള മൂന്ന് മ'); 32 ('കടത്തിക്കൊണ്ടുവന്ന സ്വർണം സ്വീകരിക്കാനായി വിമാനത്താവളത്തിലെത')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgpJs2Ab3fQRzwBbba3mJ"}
-ok gemini/gemini-3.6-flash (18s)
-attempt 1 gemini/gemini-3.6-flash: 3 problems
-  reel_script has 71 words; need 85-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 000, 900
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): മാറഞ്ചേരി ('കൂടുതൽ പാടശേഖരമുള്ള പെരുമ്പടപ്പും മാറഞ്ചേരിയും തുക നീക്കിവച്'); പെരുമ്പടപ്പ് ('കൂടുതൽ പാടശേഖരമുള്ള പെരുമ്പടപ്പും മാറഞ്ചേരിയും തുക നീക്കിവച്'); 15000 ('15000 ഹെക്ടറാണ് പൊന്നാനി -തൃശൂർ കോൾ മേഖല.')
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgpKQArqPQUv77fRZ39cN"}
+proofread skipped: free models not efficient (3 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgpKQJXxGAYBKxigALqG1"}
+proofread skipped: free models not efficient (4 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+ok gemini/gemini-3.6-flash (22s)
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  sentence 1 (one-line story) has 13 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgpJsCFp79q1W5zCRyNN4"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgpKQXFSQQAd8QRX9pAk5"}
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok groq/openai/gpt-oss-120b (6s)
-proofread rejected (3 problems)
-  missing key: reel_script
-  missing key: caption
-  missing key: scenes
+ok groq/qwen/qwen3.8-27b (6s)
+proofread by groq/qwen/qwen3.8-27b: 1 problems
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok groq/openai/gpt-oss-120b (3s)
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+ok groq/qwen/qwen3.8-27b (2s)
 imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150) 504 timeout
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-images NOT made for 'Ponnani Kole farmers in crisis as Agricu': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
-bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261108-0327","first":"MP-51"}
+images NOT made for 'State Kho Kho Championship: Malappuram m': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
+bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261108-0334","first":"MP-52"}
 posting job started at once
+writing [N]: 'പൂക്കി സർക്കാർ അധികാരമേറ്റ ശേഷം സത്യസന്ധതക്ക് പേരുകേട്ട ഉദ്
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgpKpzmZcyzdhw64o175D"}
+bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261108-0334","first":"MP-53"}
+writing [N]: പോലീസുകാരന്റെ മൂക്കിടിച്ച് തകർത്തു; റൗഡികൾക്ക് മലപ്പുറത്തെ വ
+writing [N]: സി എം കുഞ്ഞിരാമൻ നായർ സ്മാരക പുരസ്കാരം മുൻമന്ത്രി കെ രാജന്
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: പരിഷത്ത് സംസ്ഥാന സമ്മേളനം: സംഘാടക സമിതി രൂപീകരണം നാളെ
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgpKq8mHDctKXczjuDuWJ"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgpKq8pkkTPYYeD5cnCuV"}
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgpKqAXwL8QKse1KyKGeB"}
 write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 20 recent posts read from both pages
-write round: 8 news waiting in the queue (written in priority order)
-candidate filter: collected=8
-to write: 0 Manjeri + 8 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 8 Malappuram; time left 29 min
+write round: 7 news waiting in the queue (written in priority order)
+candidate filter: collected=7
+to write: 0 Manjeri + 7 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 7 Malappuram; time left 29 min
 try (N) manual=False: കരിപ്പൂരിൽ വീണ്ടും വൻ സ്വർണവേട്ട; അബുദബിയിൽ നിന്നെത്തിയ യാത്
-try (N) manual=False: കുമ്മായം നൽകാതെ സർക്കാർ;  കോൾ കർഷകർ പ്രതിസന്ധിയിൽ
 try (N) manual=False: സംസ്ഥാന ഖൊ ഖൊ ചാമ്പ്യൻഷിപ്പ്:  സെമി ഫൈനൽ ഇന്ന്
-NOT filed (N) സംസ്ഥാന ഖൊ ഖൊ ചാമ്പ്യൻഷിപ്പ്:  സെമി ഫൈനൽ ഇന്ന്: all free models failed: no usable answer from the models
 try (N) manual=False: നവീകരിച്ച ഹെഡ് ഓഫീസും  സ്മാർട്ട് സെന്ററും നാടിന് സമർപ്പിച്ചു
-NOT filed (N) നവീകരിച്ച ഹെഡ് ഓഫീസും  സ്മാർട്ട് സെന്ററും നാടിന് സ: all free models failed: no usable answer from the models
-try (N) manual=False: 'പൂക്കി സർക്കാർ അധികാരമേറ്റ ശേഷം സത്യസന്ധതക്ക് പേരുകേട്ട ഉദ്
-NOT filed (N) 'പൂക്കി സർക്കാർ അധികാരമേറ്റ ശേഷം സത്യസന്ധതക്ക് പേര: all free models failed: no usable answer from the models
-try (N) manual=False: പോലീസുകാരന്റെ മൂക്കിടിച്ച് തകർത്തു; റൗഡികൾക്ക് മലപ്പുറത്തെ വ
-NOT filed (N) പോലീസുകാരന്റെ മൂക്കിടിച്ച് തകർത്തു; റൗഡികൾക്ക് മലപ: all free models failed: no usable answer from the models
-try (N) manual=False: പരിഷത്ത് സംസ്ഥാന സമ്മേളനം: സംഘാടക സമിതി രൂപീകരണം നാളെ
-NOT filed (N) പരിഷത്ത് സംസ്ഥാന സമ്മേളനം: സംഘാടക സമിതി രൂപീകരണം ന: all free models failed: no usable answer from the models
-try (N) manual=False: സി എം കുഞ്ഞിരാമൻ നായർ സ്മാരക പുരസ്കാരം മുൻമന്ത്രി കെ രാജന്
-NOT filed (N) സി എം കുഞ്ഞിരാമൻ നായർ സ്മാരക പുരസ്കാരം മുൻമന്ത്രി : all free models failed: no usable answer from the models
-NOT filed (N) കരിപ്പൂരിൽ വീണ്ടും വൻ സ്വർണവേട്ട; അബുദബിയിൽ നിന്നെ: all free models failed: no usable answer from the models
-auto images failed for 'Ponnani Kole farmers in crisis as Agricu': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email
+auto images failed for 'State Kho Kho Championship: Malappuram m': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email
 auto images: 0 of 1 stories ({})
 posting job started at once
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 8}, done={'R': 0, 'N': 1}, time left 24 min
-carousel for 0 of 1 stories, the rest reel only
-filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)
-queue: 7 news waiting to be written
+try (N) manual=False: 'പൂക്കി സർക്കാർ അധികാരമേറ്റ ശേഷം സത്യസന്ധതക്ക് പേരുകേട്ട ഉദ്
+NOT filed (N) കരിപ്പൂരിൽ വീണ്ടും വൻ സ്വർണവേട്ട; അബുദബിയിൽ നിന്നെ: duplicate after write
+auto images: 0 of 1 stories ({})
+try (N) manual=False: പോലീസുകാരന്റെ മൂക്കിടിച്ച് തകർത്തു; റൗഡികൾക്ക് മലപ്പുറത്തെ വ
+try (N) manual=False: പരിഷത്ത് സംസ്ഥാന സമ്മേളനം: സംഘാടക സമിതി രൂപീകരണം നാളെ
+NOT filed (N) 'പൂക്കി സർക്കാർ അധികാരമേറ്റ ശേഷം സത്യസന്ധതക്ക് പേര: all free models failed: no usable answer from the models
+try (N) manual=False: സി എം കുഞ്ഞിരാമൻ നായർ സ്മാരക പുരസ്കാരം മുൻമന്ത്രി കെ രാജന്
+NOT filed (N) സി എം കുഞ്ഞിരാമൻ നായർ സ്മാരക പുരസ്കാരം മുൻമന്ത്രി : all free models failed: no usable answer from the models
+NOT filed (N) പോലീസുകാരന്റെ മൂക്കിടിച്ച് തകർത്തു; റൗഡികൾക്ക് മലപ: all free models failed: no usable answer from the models
+NOT filed (N) പരിഷത്ത് സംസ്ഥാന സമ്മേളനം: സംഘാടക സമിതി രൂപീകരണം ന: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 7}, done={'R': 0, 'N': 2}, time left 23 min
+carousel for 0 of 2 stories, the rest reel only
+filed: 0 Manjeri + 2 Malappuram (targets 200 + 200)
+queue: 5 news waiting to be written
 write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":8} 
-stories: 1
+All News sheet: {"ok":true,"added":0,"updated":7} 
+stories: 2
