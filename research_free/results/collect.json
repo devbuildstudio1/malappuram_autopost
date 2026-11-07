@@ -9,7 +9,7 @@
   "try (N) manual=False: വാഹന നമ്പർ കുറിച്ചെടുത്തതിൽ പ്രകോപനം; എ.എസ്.ഐയെ മർദിച്ച കേസി",
   "try (N) manual=False: മലപ്പുറത്തും ഷിഗെല്ല; നാല് വയസുകാരി ഉൾപ്പെടെ രണ്ടുപേർക്ക് രോ",
   "try (N) manual=False: അങ്കണവാടിയിലെ വാട്ടർ ടാങ്കിൽ ഹാർപ്പിക് കലർത്തിയ സംഭവം | Deep",
-  "NOT filed (N) മലപ്പുറത്തും ഷിഗെല്ല; നാല് വയസുകാരി ഉൾപ്പെടെ രണ്ടു: all free models failed: no usable answer from the models",
+  "NOT filed (N) വാഹന നമ്പർ കുറിച്ചെടുത്തതിൽ പ്രകോപനം; എ.എസ്.ഐയെ മർ: all free models failed: no usable answer from the models",
   "try (N) manual=False: പോലീസുകാരന്റെ മൂക്കിടിച്ച് തകർത്തു; റൗഡികൾക്ക് മലപ്പുറത്തെ വ",
   "NOT filed (N) പോലീസുകാരന്റെ മൂക്കിടിച്ച് തകർത്തു; റൗഡികൾക്ക് മലപ: all free models failed: no usable answer from the models",
   "try (N) manual=False: കോട്ടക്കൽ എരഞ്ഞിക്കൽ കണാരൻ അന്തരിച്ചു",
@@ -21,42 +21,116 @@
   "try (N) manual=False: സംസ്ഥാനത്ത് വീണ്ടും ഷിഗെല്ല ഭീതി. മലപ്പുറം നിലമ്പൂരിൽ നാലുവയ",
   "NOT filed (N) സംസ്ഥാനത്ത് വീണ്ടും ഷിഗെല്ല ഭീതി. മലപ്പുറം നിലമ്പൂ: all free models failed: no usable answer from the models",
   "NOT filed (N) അങ്കണവാടിയിലെ വാട്ടർ ടാങ്കിൽ ഹാർപ്പിക് കലർത്തിയ സം: all free models failed: no usable answer from the models",
-  "NOT filed (N) വാഹന നമ്പർ കുറിച്ചെടുത്തതിൽ പ്രകോപനം; എ.എസ്.ഐയെ മർ: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 8}, done={'R': 0, 'N': 0}, time left 29 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
-  "queue: 8 news waiting to be written",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux.1-dev': 4})",
+  "posting job started at once",
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 8}, done={'R': 0, 'N': 1}, time left 25 min",
+  "carousel for 0 of 1 stories, the rest reel only",
+  "filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)",
+  "queue: 7 news waiting to be written",
+  "write_stories.yml started",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":8}"
  ],
  "llm": [
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.8-flash",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "ok gemini/gemini-3.6-flash (21s)",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "dead for this round: groq/openai/gpt-oss-120b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "dead for this round: groq/openai/gpt-oss-120b",
   "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
   "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
-  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
   "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
   "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
+  "ok gemini/gemini-3.6-flash (24s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
+  "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.8-flash",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min"
+  "switching away from mistral/mistral-small-latest for 10 min",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "നിലമ്പൂരിൽ 3 പേർക്ക് ഷിഗെല്ല സ്ഥിരീകരിച്ചു; 23 പേർക്ക് രോഗലക്ഷണം",
+   "english_headline": "Shigella confirmed in 3 people in Nilambur, Malappuram; 23 others under treatment",
+   "category": "Health",
+   "location": "Nilambur, Malappuram district",
+   "importance": "High",
+   "scope": "district",
+   "post_to": "Malappuram 360 (collab: Manjeri 360)",
+   "slides_spec": {
+    "v": 3,
+    "cat": "ആരോഗ്യം",
+    "loc": "നിലമ്പൂർ, മലപ്പുറം",
+    "hl1": "നിലമ്പൂരിൽ 3 പേർക്ക് ഷിഗെല്ല",
+    "hl2": "23 പേർക്ക് രോഗലക്ഷണം",
+    "slides": [
+     {
+      "title": "രോഗബാധ എവിടെ?",
+      "lines": [
+       "നിലമ്പൂരിൽ <b>3</b> പേർക്ക് ഷിഗെല്ല സ്ഥിരീകരിച്ചു",
+       "അമരമ്പലത്ത് <b>4</b> വയസ്സുകാരിക്ക് രോഗം",
+       "പാലുണ്ടയിൽ <b>2</b> പേർക്ക് രോഗബാധ"
+      ]
+     },
+     {
+      "title": "ലക്ഷണങ്ങൾ",
+      "lines": [
+       "<b>23</b> പേർ ലക്ഷണങ്ങളോടെ ചികിത്സയിൽ",
+       "വയറിളക്കവും വയറുവേദനയും പ്രധാനം",
+       "പരിശോധനാഫലം വന്ന ശേഷമേ സ്ഥിരീകരണം"
+      ]
+     },
+     {
+      "title": "ശ്രദ്ധിക്കുക",
+      "lines": [
+       "ആരോഗ്യവകുപ്പ് ജാഗ്രതാ നിർദേശം നൽകി",
+       "മലിനജലത്തിലൂടെയും കേടായ ഭക്ഷണത്തിലൂടെയും പകരും",
+       "ചികിത്സ വൈകിയാൽ ഗുരുതരമായേക്കാം"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "മലപ്പുറം ജില്ലയിലെ നിലമ്പൂരിൽ 3 പേർക്ക് ഷിഗെല്ല രോഗബാധ സ്ഥിരീകരിച്ചു. അമരമ്പലത്തെ കടയിൽ നിന്ന് ലഘുഭക്ഷണം കഴിച്ച 4 വയസ്സുകാരിക്കാണ് രോഗം ബാധിച്ചത്. പാലുണ്ടയിലെ കടയിൽ നിന്ന് മന്തി കഴിച്ച 2 പേർക്കും രോഗം സ്ഥിരീകരിച്ചു. വയറിളക്കവും വയറുവേദനയും ലക്ഷണങ്ങളോടെ 23 പേർ നിലവിൽ ചികിത്സയിൽ കഴിയുന്നുണ്ട്. ഇവരുടെ പരിശോധനാഫലം പുറത്തുവന്നാൽ മാത്രമേ രോഗബാധ പൂർണമായി സ്ഥിരീകരിക്കാനാകൂ. രോഗബാധ കണ്ടെത്തിയ പശ്ചാത്തലത്തിൽ പ്രദേശത്ത് ആരോഗ്യവകുപ്പ് ജാഗ്രതാ നിർദേശം നൽകി. ബാക്ടീരിയ മൂലം മനുഷ്യന്റെ കുടലിലുണ്ടാകുന്ന രോഗമാണ് ഷിഗല്ലോസിസ്. മലിനജലത്തിലൂടെയും വൃത്തിയില്ലാത്തതും കേടായതുമായ ഭക്ഷണത്തിലൂടെയുമാണ് രോഗം പകരുന്നത്. ശരിയായ ചികിത്സ സമയത്തിന് ലഭിച്ചില്ലെങ്കിൽ രോഗം ഗുരുതരമാകാൻ സാധ്യതയുണ്ട്. നേരത്തേ കോഴിക്കോട് മേപ്പയിൽ സ്കൂളിലെ 3 വിദ്യാർത്ഥികൾക്കും രോഗം സ്ഥിരീകരിച്ചിരുന്നു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🚨 നിലമ്പൂരിൽ 3 പേർക്ക് ഷിഗെല്ല സ്ഥിരീകരിച്ചു; 23 പേർക്ക് രോഗലക്ഷണം\n\n📰 പൂർണ വിവരം:\nകോഴിക്കോടിന് പിന്നാലെ മലപ്പുറം ജില്ലയിലെ നിലമ്പൂരിൽ 3 പേർക്ക് ഷിഗെല്ല രോഗബാധ സ്ഥിരീകരിച്ചു. അമരമ്പലത്തെ കടയിൽ നിന്ന് ലഘുഭക്ഷണം കഴിച്ച 4 വയസ്സുകാരിക്കും പാലുണ്ടയിലെ കടയിൽ നിന്ന് മന്തി കഴിച്ച 2 പേർക്കുമാണ് രോഗം ബാധിച്ചത്. വയറിളക്കം, വയറുവേദന തുടങ്ങിയ രോഗലക്ഷണങ്ങളോടെ 23 പേർ നിലവിൽ ചികിത്സയിൽ കഴിയുന്നുണ്ട്. ഇവരുടെ പരിശോധനാഫലം ലഭിച്ച ശേഷമേ രോഗബാധ സ്ഥിരീകരിക്കാനാകൂ. രോഗബാധയുടെ പശ്ചാത്തലത്തിൽ പ്രദേശത്ത് ആരോഗ്യവകുപ്പ് ജാഗ്രതാ നിർദേശം നൽകിയിട്ടുണ്ട്. ബാക്ടീരിയ മൂലം കുടലിലുണ്ടാകുന്ന രോഗമാണ് ഷിഗല്ലോസിസ്. മലിനജലത്തിലൂടെയും വൃത്തിയില്ലാത്തതും കേടായതുമായ ഭക്ഷണത്തിലൂടെയുമാണ് രോഗം പകരുന്നത്. ശരിയായ ചികിത്സ ലഭിച്ചില്ലെങ്കിൽ രോഗം ഗുരുതരമാകാൻ സാധ്യതയുണ്ട്.\n📍 സ്ഥലം: നിലമ്പൂർ (അമരമ്പലം, പാലുണ്ട), മലപ്പുറം\n👮 നടപടി: ആരോഗ്യവകുപ്പ് ജാഗ്രതാ നിർദേശം നൽകി\nℹ️ ശ്രദ്ധിക്കുക: വയറിളക്കമോ വയറുവേദനയോ കണ്ടാൽ ഉടൻ വൈദ്യസഹായം തേടുക\nആവശ്യമുള്ളവർക്ക് Share ചെയ്യൂ\n\nShigella confirmed in Nilambur Malappuram | Malappuram news\n📍 നിലമ്പൂർ, മലപ്പുറം | 7 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Nilambur #HealthAlert #MalappuramNews",
+   "prompts": "Exterior view of Nilambur Government Hospital building in Malappuram district under morning daylight, green trees around, a health department vehicle parked in the driveway. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nHealth department officials taking water samples from a domestic well in a residential yard at Amarambalam near Nilambur, daylight setting. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nFood safety inspectors conducting a check near an eatery shop counter at Palunda near Nilambur, clean Kerala street background. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nInformational visual of boiling water on a stove in a traditional Kerala kitchen, soft warm sunlight filtering through the window. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://keralakaumudi.com/kerala/general/malappuram-nilambur-shigella-outbreak-1823644",
+   "published": "2026-11-07T12:23:35+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: reel_script has 84 words; need 85-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)",
+   "note": "free-model draft gemini/gemini-3.6-flash, 2 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 4.0,
+   "images": [
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794076987/news360/lnklktnlzw8hhdunbzz6.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794076995/news360/sk9mpdiduuhg6a1hguyh.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794077002/news360/cznjfaex0gu0ef5x11ki.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794077008/news360/wkwco5k31vrs3wp6xpc2.jpg"
+   ]
+  }
+ ]
 }
