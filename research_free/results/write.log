@@ -1,22 +1,16 @@
 writing [N]: മലപ്പുറത്തും ഷിഗെല്ല ഭീതി: നാലു വയസുകാരി ഉൾപ്പെടെ രണ്ടുപേർക്
-writing [N]: വാഹന നമ്പർ കുറിച്ചെടുത്തതിൽ പ്രകോപനം; എ.എസ്.ഐയെ മർദിച്ച കേസി
 writing [N]: ഹാൻഡ്ബാഗിൽ പശ രൂപത്തിൽ സ്വർണക്കടത്ത്; കരിപ്പൂരിൽ കാസർകോട് സ്
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: വാഹന നമ്പർ കുറിച്ചെടുത്തതിൽ പ്രകോപനം; എ.എസ്.ഐയെ മർദിച്ച കേസി
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -27,11 +21,7 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -57,105 +47,92 @@ dead for this round: groq/openai/gpt-oss-120b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 dead for this round: groq/openai/gpt-oss-120b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgomc3rmXVPAEM2y6BJ28"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgomcAXN8sAiZKwGQVm5D"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgomcDQjhtGx8Z4tR8HA2"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgooBiG74stphVytwunKa"}
 writing [N]: മലപ്പുറത്തിന്റെ ചരിത്രഗ്രന്ഥങ്ങൾ പ്രകാശനം ചെയ്തു
-free models unavailable: free models not efficient (25 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgomcFJLvtzVinAVke6WJ"}
-writing [N]: പോലീസുകാരന്റെ മൂക്കിടിച്ച് തകർത്തു; റൗഡികൾക്ക് മലപ്പുറത്തെ വ
-free models unavailable: free models not efficient (25 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgomcGZVUVneCgTttJogQ"}
-writing [N]: അബുദബിയിൽ ജയിൽവാസം, സ്വന്തം വീട്ടിൽ നിന്ന് 40 പവന്റെ മോഷണം; 
-free models unavailable: free models not efficient (25 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgomcKap6biud3KHraN5x"}
-writing [N]: അങ്കണവാടിയിലെ വാട്ടർ ടാങ്കിൽ ഹാർപ്പിക് കലർത്തിയ സംഭവം | Deep
-free models unavailable: free models not efficient (25 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgomcLpjWgKiZcekZ6uBd"}
-writing [N]: അമരമ്പലത്ത് നാലുവയസ്സുകാരിക്ക് ഷിഗല്ല; മാതാവിനും രോഗലക്ഷണം |
-free models unavailable: free models not efficient (25 failures in a row): using Claude
+free models unavailable: free models not efficient (21 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgooBkVJycBPCdjxbC8pz"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgooBr1h6QLWZjZP3Af1t"}
 writing [N]: മലപ്പുറത്തും ഷിഗെല്ല; നാല് വയസുകാരി ഉൾപ്പെടെ രണ്ടുപേർക്ക് രോ
-free models unavailable: free models not efficient (25 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgomcMbceTcCAk2Sa29gf"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgomcMxwHg8JYvc9bG7uV"}
-writing [N]: ഷിഗല്ല; അഞ്ചാംമൈലിലെ തട്ടുകടകൾക്കും ചായക്കടകൾക്കും കർശന നിയന
-free models unavailable: free models not efficient (25 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgomcNmoujHyZ76eYMGKL"}
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+writing [N]: പോലീസുകാരന്റെ മൂക്കിടിച്ച് തകർത്തു; റൗഡികൾക്ക് മലപ്പുറത്തെ വ
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgooBrrnjuYtgZ4bLauT2"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgooBrtGnmEpQ4UuA63mN"}
+writing [N]: അബുദബിയിൽ ജയിൽവാസം, സ്വന്തം വീട്ടിൽ നിന്ന് 40 പവന്റെ മോഷണം; 
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgooBsQXiNAGfa1LQYBQg"}
+writing [N]: അങ്കണവാടിയിലെ വാട്ടർ ടാങ്കിൽ ഹാർപ്പിക് കലർത്തിയ സംഭവം | Deep
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgooBvc1SC2T52XQmpXfS"}
+writing [N]: അമരമ്പലത്ത് നാലുവയസ്സുകാരിക്ക് ഷിഗല്ല; മാതാവിനും രോഗലക്ഷണം |
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgooBxGEUotkea4ajTNP8"}
 writing [N]: കോട്ടക്കൽ എരഞ്ഞിക്കൽ കണാരൻ അന്തരിച്ചു
-free models unavailable: free models not efficient (25 failures in a row): using Claude
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgooBxvfgrrCQt8N1EFB7"}
 writing [N]: പുഴയിൽ മുങ്ങിത്താഴ്ന്ന യുവാവിനെ രക്ഷിക്കാൻ സ്വന്തം ജീവൻ പണയപ
-free models unavailable: free models not efficient (25 failures in a row): using Claude
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgooByLDigZs6gRkp98GF"}
+writing [N]: ഷിഗല്ല; അഞ്ചാംമൈലിലെ തട്ടുകടകൾക്കും ചായക്കടകൾക്കും കർശന നിയന
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgooBzf6hdybjg5iTD4YW"}
 writing [N]: സെവൻ ആർട്സ് കൾച്ചറൽ ഫോറം കേരളപ്പിറവി ദിനം ആഘോഷിച്ചു | Madhya
-free models unavailable: free models not efficient (25 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgomcPK3sfqEmHeEm14WR"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgomcPKYwnkU24VNj8J9Q"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgomcPbAfhkMTnV2Bq2G2"}
-writing [N]: മലപ്പുറത്തും കോഴിക്കോട്ടും ഷിഗല്ല സ്ഥിരീകരിച്ചു; ആരോഗ്യവകുപ്
-free models unavailable: free models not efficient (25 failures in a row): using Claude
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgooBzzS8SbrQFVyugV58"}
 writing [N]: സംസ്ഥാനത്ത് വീണ്ടും ഷിഗെല്ല ഭീതി. മലപ്പുറം നിലമ്പൂരിൽ നാലുവയ
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgomcQLKFfkthZNefpPiw"}
-free models unavailable: free models not efficient (25 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgomcQpbHGy9ASCq1MCNc"}
-writing [N]: ദുരന്തങ്ങൾ താണ്ടി പുതിയ ജീവിതത്തിലേക്ക്; ശ്രുതിക്ക് കൂട്ടായി
-free models unavailable: free models not efficient (25 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgomcSCgkK1DmbzMj3Gni"}
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgooC1rHVk7f2DgFMxehi"}
+writing [N]: മലപ്പുറത്തും കോഴിക്കോട്ടും ഷിഗല്ല സ്ഥിരീകരിച്ചു; ആരോഗ്യവകുപ്
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgooC2eQ6M76MmkUBNMor"}
 writing [N]: പൊട്ടിപ്പൊളിഞ്ഞ പാത: കുഴിയിൽവീണ് യാത്രക്കാർ
-free models unavailable: free models not efficient (25 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgomcSs7VFH2FFgzst9Tr"}
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgooC32j83XkX9ukpPDfE"}
+writing [N]: ദുരന്തങ്ങൾ താണ്ടി പുതിയ ജീവിതത്തിലേക്ക്; ശ്രുതിക്ക് കൂട്ടായി
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgooC63nXo6KnzEdWr5v2"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgooCDdCR6u7NFD71WLZi"}
 earlier stories still waiting for images: []
 instagram check: 20 recent posts read from both pages
-write round: 24 news waiting in the queue (written in priority order)
-candidate filter: collected=24
-to write: 0 Manjeri + 24 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 24 Malappuram; time left 29 min
+write round: 17 news waiting in the queue (written in priority order)
+candidate filter: collected=17
+to write: 0 Manjeri + 17 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 17 Malappuram; time left 29 min
 try (N) manual=False: മലപ്പുറത്തും ഷിഗെല്ല ഭീതി: നാലു വയസുകാരി ഉൾപ്പെടെ രണ്ടുപേർക്
 try (N) manual=False: ഹാൻഡ്ബാഗിൽ പശ രൂപത്തിൽ സ്വർണക്കടത്ത്; കരിപ്പൂരിൽ കാസർകോട് സ്
 try (N) manual=False: വാഹന നമ്പർ കുറിച്ചെടുത്തതിൽ പ്രകോപനം; എ.എസ്.ഐയെ മർദിച്ച കേസി
-NOT filed (N) വാഹന നമ്പർ കുറിച്ചെടുത്തതിൽ പ്രകോപനം; എ.എസ്.ഐയെ മർ: all free models failed: no usable answer from the models
-try (N) manual=False: വസ്ത്രത്തിൽ തേച്ചുപിടിപ്പിച്ച് സ്വർണം കടത്തൽ; കരിപ്പൂരിൽ വൻ 
-skip (N) similar to a filed story: വസ്ത്രത്തിൽ തേച്ചുപിടിപ്പിച്ച് സ്വർണം കടത്തൽ; കരിപ
-try (N) manual=False: എം.ഡി.എം.എ കേസിൽ
-ഡോക്ടർ പിടിയിൽ
-NOT filed (N) ഹാൻഡ്ബാഗിൽ പശ രൂപത്തിൽ സ്വർണക്കടത്ത്; കരിപ്പൂരിൽ ക: all free models failed: no usable answer from the models
-try (N) manual=False: മലപ്പുറത്ത് പോലീസ് ഉദ്യോഗസ്ഥനെ മർദ്ദിച്ച കേസ്: രണ്ടാമത്തെ പ്
-skip (N) similar to a filed story: എം.ഡി.എം.എ കേസിൽ
-ഡോക്ടർ പിടിയിൽ
-try (N) manual=False: ഗോൾപൂരം! ഫോഴ്സ കൊച്ചിയെ 3–0ന് കീഴടക്കി മലപ്പുറം എഫ്സി
-skip (N) similar to a filed story: ഗോൾപൂരം! ഫോഴ്സ കൊച്ചിയെ 3–0ന് കീഴടക്കി മലപ്പുറം എഫ
-try (N) manual=False: വീണ്ടും ഷിഗെല്ല; മലപ്പുറത്ത് എട്ടുപേർക്ക് രോഗം സ്ഥിരീകരിച്ചു
 NOT filed (N) മലപ്പുറത്തും ഷിഗെല്ല ഭീതി: നാലു വയസുകാരി ഉൾപ്പെടെ : all free models failed: no usable answer from the models
 try (N) manual=False: മലപ്പുറത്തിന്റെ ചരിത്രഗ്രന്ഥങ്ങൾ പ്രകാശനം ചെയ്തു
-skip (N) similar to a filed story: മലപ്പുറത്ത് പോലീസ് ഉദ്യോഗസ്ഥനെ മർദ്ദിച്ച കേസ്: രണ്
-try (N) manual=False: മലപ്പുറത്തും ഷിഗെല്ല; നാല് വയസുകാരി ഉൾപ്പെടെ രണ്ടുപേർക്ക് രോ
 NOT filed (N) മലപ്പുറത്തിന്റെ ചരിത്രഗ്രന്ഥങ്ങൾ പ്രകാശനം ചെയ്തു: all free models failed: no usable answer from the models
+try (N) manual=False: മലപ്പുറത്തും ഷിഗെല്ല; നാല് വയസുകാരി ഉൾപ്പെടെ രണ്ടുപേർക്ക് രോ
+NOT filed (N) വാഹന നമ്പർ കുറിച്ചെടുത്തതിൽ പ്രകോപനം; എ.എസ്.ഐയെ മർ: all free models failed: no usable answer from the models
 try (N) manual=False: പോലീസുകാരന്റെ മൂക്കിടിച്ച് തകർത്തു; റൗഡികൾക്ക് മലപ്പുറത്തെ വ
-NOT filed (N) പോലീസുകാരന്റെ മൂക്കിടിച്ച് തകർത്തു; റൗഡികൾക്ക് മലപ: all free models failed: no usable answer from the models
+NOT filed (N) മലപ്പുറത്തും ഷിഗെല്ല; നാല് വയസുകാരി ഉൾപ്പെടെ രണ്ടു: all free models failed: no usable answer from the models
 try (N) manual=False: അങ്കണവാടിയിലെ വാട്ടർ ടാങ്കിൽ ഹാർപ്പിക് കലർത്തിയ സംഭവം | Deep
-skip (N) similar to a filed story: വീണ്ടും ഷിഗെല്ല; മലപ്പുറത്ത് എട്ടുപേർക്ക് രോഗം സ്ഥ
+NOT filed (N) പോലീസുകാരന്റെ മൂക്കിടിച്ച് തകർത്തു; റൗഡികൾക്ക് മലപ: all free models failed: no usable answer from the models
 try (N) manual=False: അബുദബിയിൽ ജയിൽവാസം, സ്വന്തം വീട്ടിൽ നിന്ന് 40 പവന്റെ മോഷണം; 
 NOT filed (N) അബുദബിയിൽ ജയിൽവാസം, സ്വന്തം വീട്ടിൽ നിന്ന് 40 പവന്: all free models failed: no usable answer from the models
 try (N) manual=False: കോട്ടക്കൽ എരഞ്ഞിക്കൽ കണാരൻ അന്തരിച്ചു
@@ -163,26 +140,22 @@ NOT filed (N) അങ്കണവാടിയിലെ വാട്ടർ ടാ�
 try (N) manual=False: അമരമ്പലത്ത് നാലുവയസ്സുകാരിക്ക് ഷിഗല്ല; മാതാവിനും രോഗലക്ഷണം |
 NOT filed (N) അമരമ്പലത്ത് നാലുവയസ്സുകാരിക്ക് ഷിഗല്ല; മാതാവിനും ര: all free models failed: no usable answer from the models
 try (N) manual=False: പുഴയിൽ മുങ്ങിത്താഴ്ന്ന യുവാവിനെ രക്ഷിക്കാൻ സ്വന്തം ജീവൻ പണയപ
-NOT filed (N) മലപ്പുറത്തും ഷിഗെല്ല; നാല് വയസുകാരി ഉൾപ്പെടെ രണ്ടു: all free models failed: no usable answer from the models
-try (N) manual=False: ഷിഗല്ല; അഞ്ചാംമൈലിലെ തട്ടുകടകൾക്കും ചായക്കടകൾക്കും കർശന നിയന
-NOT filed (N) ഷിഗല്ല; അഞ്ചാംമൈലിലെ തട്ടുകടകൾക്കും ചായക്കടകൾക്കും: all free models failed: no usable answer from the models
-try (N) manual=False: സെവൻ ആർട്സ് കൾച്ചറൽ ഫോറം കേരളപ്പിറവി ദിനം ആഘോഷിച്ചു | Madhya
-NOT filed (N) പുഴയിൽ മുങ്ങിത്താഴ്ന്ന യുവാവിനെ രക്ഷിക്കാൻ സ്വന്തം: all free models failed: no usable answer from the models
-try (N) manual=False: ഫോഴ്സ കൊച്ചിയെ തകർത്ത് മലപ്പുറം എഫ്സി; സൂപ്പർ ലീഗ് കേരളയിൽ മ
 NOT filed (N) കോട്ടക്കൽ എരഞ്ഞിക്കൽ കണാരൻ അന്തരിച്ചു: all free models failed: no usable answer from the models
+try (N) manual=False: ഷിഗല്ല; അഞ്ചാംമൈലിലെ തട്ടുകടകൾക്കും ചായക്കടകൾക്കും കർശന നിയന
+NOT filed (N) പുഴയിൽ മുങ്ങിത്താഴ്ന്ന യുവാവിനെ രക്ഷിക്കാൻ സ്വന്തം: all free models failed: no usable answer from the models
+try (N) manual=False: സെവൻ ആർട്സ് കൾച്ചറൽ ഫോറം കേരളപ്പിറവി ദിനം ആഘോഷിച്ചു | Madhya
+NOT filed (N) ഷിഗല്ല; അഞ്ചാംമൈലിലെ തട്ടുകടകൾക്കും ചായക്കടകൾക്കും: all free models failed: no usable answer from the models
 try (N) manual=False: മലപ്പുറത്തും കോഴിക്കോട്ടും ഷിഗല്ല സ്ഥിരീകരിച്ചു; ആരോഗ്യവകുപ്
 NOT filed (N) സെവൻ ആർട്സ് കൾച്ചറൽ ഫോറം കേരളപ്പിറവി ദിനം ആഘോഷിച്ച: all free models failed: no usable answer from the models
 try (N) manual=False: സംസ്ഥാനത്ത് വീണ്ടും ഷിഗെല്ല ഭീതി. മലപ്പുറം നിലമ്പൂരിൽ നാലുവയ
-NOT filed (N) മലപ്പുറത്തും കോഴിക്കോട്ടും ഷിഗല്ല സ്ഥിരീകരിച്ചു; ആ: all free models failed: no usable answer from the models
-try (N) manual=False: സംസ്ഥാനത്ത് വീണ്ടും ഷിഗെല്ല; മലപ്പുറം നിലമ്പൂരിൽ മൂന്ന് പേർക
 NOT filed (N) സംസ്ഥാനത്ത് വീണ്ടും ഷിഗെല്ല ഭീതി. മലപ്പുറം നിലമ്പൂ: all free models failed: no usable answer from the models
 try (N) manual=False: ദുരന്തങ്ങൾ താണ്ടി പുതിയ ജീവിതത്തിലേക്ക്; ശ്രുതിക്ക് കൂട്ടായി
-NOT filed (N) ദുരന്തങ്ങൾ താണ്ടി പുതിയ ജീവിതത്തിലേക്ക്; ശ്രുതിക്ക: all free models failed: no usable answer from the models
+NOT filed (N) മലപ്പുറത്തും കോഴിക്കോട്ടും ഷിഗല്ല സ്ഥിരീകരിച്ചു; ആ: all free models failed: no usable answer from the models
 try (N) manual=False: പൊട്ടിപ്പൊളിഞ്ഞ പാത: കുഴിയിൽവീണ് യാത്രക്കാർ
 NOT filed (N) പൊട്ടിപ്പൊളിഞ്ഞ പാത: കുഴിയിൽവീണ് യാത്രക്കാർ: all free models failed: no usable answer from the models
-skip (N) similar to a filed story: സംസ്ഥാനത്ത് വീണ്ടും ഷിഗെല്ല; മലപ്പുറം നിലമ്പൂരിൽ മ
-skip (N) similar to a filed story: ഫോഴ്സ കൊച്ചിയെ തകർത്ത് മലപ്പുറം എഫ്സി; സൂപ്പർ ലീഗ്
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 24}, done={'R': 0, 'N': 0}, time left 29 min
+NOT filed (N) ദുരന്തങ്ങൾ താണ്ടി പുതിയ ജീവിതത്തിലേക്ക്; ശ്രുതിക്ക: all free models failed: no usable answer from the models
+NOT filed (N) ഹാൻഡ്ബാഗിൽ പശ രൂപത്തിൽ സ്വർണക്കടത്ത്; കരിപ്പൂരിൽ ക: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 17}, done={'R': 0, 'N': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
 queue: 17 news waiting to be written
