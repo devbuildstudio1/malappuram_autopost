@@ -2,36 +2,39 @@ imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message"
 imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150) 504 timeout
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-07:05:31 image attempt 1 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
+10:26:29 image attempt 1 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-07:08:02 image attempt 2 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
+10:28:56 image attempt 2 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-07:10:51 image attempt 3 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
-07:11:51 image models failed for MP-23 all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error - the reel is made without pictures
-07:11:54 auto images: time for this run used up, the rest waits for the next run
-07:11:57 SKIP MP-7 stale: published 05 Nov, older than yesterday
-07:11:57 SKIP MP-19 stale: published 05 Nov, older than yesterday
-07:11:57 9 stories in the queue, ready to post: 7
-07:11:57   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ml', 'images', 'importance', 'location', 'malappuram_link', 'manjeri_link', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'story_id', 'verification']
-07:11:57    MP-7 review= 'Auto' images= 385 spec= 646 pages= ['malappuram'] links= '' '' '' age_h= 22.4 ready= False set_started= True
-07:11:57    MP-15 review= 'Auto' images= 385 spec= 662 pages= ['malappuram'] links= '' '' '' age_h= 16.2 ready= True set_started= True
-07:11:57    MP-16 review= 'Auto' images= 385 spec= 710 pages= ['malappuram'] links= '' '' '' age_h= 16.1 ready= True set_started= True
-07:11:57    MP-17 review= 'Auto' images= 385 spec= 571 pages= ['malappuram'] links= '' '' '' age_h= 12.0 ready= True set_started= True
-07:11:57    MP-18 review= 'Auto' images= 385 spec= 656 pages= ['malappuram'] links= '' '' '' age_h= 11.9 ready= True set_started= True
-07:11:57    MP-19 review= 'Auto' images= 385 spec= 699 pages= ['manjeri'] links= '' '' '' age_h= 9.2 ready= False set_started= True
-07:11:57    MP-21 review= 'Auto' images= 11 spec= 681 pages= ['malappuram'] links= '' '' '' age_h= 4.1 ready= True set_started= True
-07:11:57    MP-22 review= 'Auto' images= 11 spec= 678 pages= ['malappuram'] links= '' '' '' age_h= 3.8 ready= True set_started= True
-07:11:57    MP-23 review= 'Auto' images= 11 spec= 740 pages= ['malappuram'] links= '' '' '' age_h= 3.5 ready= True set_started= True
-07:12:01 publishing quota malappuram: 14/50
-07:12:05 publishing quota manjeri: 6/50
-07:12:08 instagram duplicate check malappuram: 11 recent posts read
-07:12:08    MP-15 last reel 06:09 IST - next one from 07:24 IST (75 min gap)
-07:12:08    MP-16 last reel 06:09 IST - next one from 07:24 IST (75 min gap)
-07:12:08    MP-17 last reel 06:09 IST - next one from 07:24 IST (75 min gap)
-07:12:08    MP-18 last reel 06:09 IST - next one from 07:24 IST (75 min gap)
-07:12:08    MP-22 last reel 06:09 IST - next one from 07:24 IST (75 min gap)
-07:12:08    MP-23 last reel 06:09 IST - next one from 07:24 IST (75 min gap)
-07:12:08    MP-21 last reel 06:09 IST - next one from 07:24 IST (75 min gap)
-07:12:08 prebuilding ahead of the set start: ['MP-22', 'MP-23']
+10:31:56 image attempt 3 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
+10:32:57 image models failed for MP-25 all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error - the reel is made without pictures
+10:33:00 auto images: time for this run used up, the rest waits for the next run
+10:33:03 SKIP MP-7 stale: published 05 Nov, older than yesterday
+10:33:03 SKIP MP-19 stale: published 05 Nov, older than yesterday
+10:33:03 11 stories in the queue, ready to post: 9
+10:33:03   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ml', 'images', 'importance', 'location', 'malappuram_link', 'manjeri_link', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'story_id', 'verification']
+10:33:03    MP-7 review= 'Auto' images= 385 spec= 646 pages= ['malappuram'] links= '' '' '' age_h= 25.8 ready= False set_started= True
+10:33:03    MP-15 review= 'Auto' images= 385 spec= 662 pages= ['malappuram'] links= '' '' '' age_h= 19.5 ready= True set_started= True
+10:33:03    MP-16 review= 'Auto' images= 385 spec= 710 pages= ['malappuram'] links= '' '' '' age_h= 19.5 ready= True set_started= True
+10:33:03    MP-17 review= 'Auto' images= 385 spec= 571 pages= ['malappuram'] links= '' '' '' age_h= 15.3 ready= True set_started= True
+10:33:03    MP-18 review= 'Auto' images= 385 spec= 656 pages= ['malappuram'] links= '' '' '' age_h= 15.3 ready= True set_started= True
+10:33:03    MP-19 review= 'Auto' images= 385 spec= 699 pages= ['manjeri'] links= '' '' '' age_h= 12.5 ready= False set_started= True
+10:33:03    MP-21 review= 'Auto' images= 11 spec= 681 pages= ['malappuram'] links= '' '' '' age_h= 7.5 ready= True set_started= True
+10:33:03    MP-22 review= 'Auto' images= 11 spec= 678 pages= ['malappuram'] links= '' '' '' age_h= 7.2 ready= True set_started= True
+10:33:03    MP-23 review= 'Auto' images= 11 spec= 740 pages= ['malappuram'] links= '' '' '' age_h= 6.9 ready= True set_started= True
+10:33:03    MP-24 review= 'Auto' images= 11 spec= 625 pages= ['manjeri'] links= '' '' '' age_h= 5.6 ready= True set_started= True
+10:33:03    MP-25 review= 'Auto' images= 11 spec= 898 pages= ['malappuram'] links= '' '' '' age_h= 5.6 ready= True set_started= True
+10:33:07 publishing quota malappuram: 14/50
+10:33:10 publishing quota manjeri: 6/50
+10:33:14 instagram duplicate check malappuram: 11 recent posts read
+10:33:14    MP-16 one reel per run (the gap starts after it)
+10:33:14    MP-17 one reel per run (the gap starts after it)
+10:33:14    MP-18 one reel per run (the gap starts after it)
+10:33:14    MP-22 waits for prime time (12:30 IST)
+10:33:14    MP-23 waits for prime time (12:30 IST)
+10:33:14    MP-25 waits for prime time (12:30 IST)
+10:33:14    MP-24 waits for prime time (12:30 IST)
+10:33:14    MP-21 waits for prime time (12:30 IST)
+10:33:14 prebuilding ahead of the set start: ['MP-24', 'MP-25']
