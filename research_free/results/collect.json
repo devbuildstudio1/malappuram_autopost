@@ -2,16 +2,14 @@
  "log": [
   "earlier stories still waiting for images: []",
   "instagram check: 20 recent posts read from both pages",
-  "write round: 9 news waiting in the queue (written in priority order)",
-  "candidate filter: collected=9",
-  "to write: 0 Manjeri + 9 other district candidates (max 200 + 200 stories)",
-  "candidates waiting: 0 Manjeri, 9 Malappuram; time left 29 min",
-  "try (N) manual=False: മലപ്പുറത്തും ഷിഗെല്ല ഭീതി: നാലു വയസുകാരി ഉൾപ്പെടെ രണ്ടുപേർക്",
+  "write round: 8 news waiting in the queue (written in priority order)",
+  "candidate filter: collected=8",
+  "to write: 0 Manjeri + 8 other district candidates (max 200 + 200 stories)",
+  "candidates waiting: 0 Manjeri, 8 Malappuram; time left 29 min",
   "try (N) manual=False: വാഹന നമ്പർ കുറിച്ചെടുത്തതിൽ പ്രകോപനം; എ.എസ്.ഐയെ മർദിച്ച കേസി",
   "try (N) manual=False: മലപ്പുറത്തും ഷിഗെല്ല; നാല് വയസുകാരി ഉൾപ്പെടെ രണ്ടുപേർക്ക് രോ",
-  "NOT filed (N) മലപ്പുറത്തും ഷിഗെല്ല; നാല് വയസുകാരി ഉൾപ്പെടെ രണ്ടു: all free models failed: no usable answer from the models",
   "try (N) manual=False: അങ്കണവാടിയിലെ വാട്ടർ ടാങ്കിൽ ഹാർപ്പിക് കലർത്തിയ സംഭവം | Deep",
-  "NOT filed (N) അങ്കണവാടിയിലെ വാട്ടർ ടാങ്കിൽ ഹാർപ്പിക് കലർത്തിയ സം: all free models failed: no usable answer from the models",
+  "NOT filed (N) മലപ്പുറത്തും ഷിഗെല്ല; നാല് വയസുകാരി ഉൾപ്പെടെ രണ്ടു: all free models failed: no usable answer from the models",
   "try (N) manual=False: പോലീസുകാരന്റെ മൂക്കിടിച്ച് തകർത്തു; റൗഡികൾക്ക് മലപ്പുറത്തെ വ",
   "NOT filed (N) പോലീസുകാരന്റെ മൂക്കിടിച്ച് തകർത്തു; റൗഡികൾക്ക് മലപ: all free models failed: no usable answer from the models",
   "try (N) manual=False: കോട്ടക്കൽ എരഞ്ഞിക്കൽ കണാരൻ അന്തരിച്ചു",
@@ -22,117 +20,43 @@
   "NOT filed (N) അബുദബിയിൽ ജയിൽവാസം, സ്വന്തം വീട്ടിൽ നിന്ന് 40 പവന്: all free models failed: no usable answer from the models",
   "try (N) manual=False: സംസ്ഥാനത്ത് വീണ്ടും ഷിഗെല്ല ഭീതി. മലപ്പുറം നിലമ്പൂരിൽ നാലുവയ",
   "NOT filed (N) സംസ്ഥാനത്ത് വീണ്ടും ഷിഗെല്ല ഭീതി. മലപ്പുറം നിലമ്പൂ: all free models failed: no usable answer from the models",
+  "NOT filed (N) അങ്കണവാടിയിലെ വാട്ടർ ടാങ്കിൽ ഹാർപ്പിക് കലർത്തിയ സം: all free models failed: no usable answer from the models",
   "NOT filed (N) വാഹന നമ്പർ കുറിച്ചെടുത്തതിൽ പ്രകോപനം; എ.എസ്.ഐയെ മർ: all free models failed: no usable answer from the models",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux.1-dev': 5})",
-  "posting job started at once",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 9}, done={'R': 0, 'N': 1}, time left 24 min",
-  "carousel for 0 of 1 stories, the rest reel only",
-  "filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)",
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 8}, done={'R': 0, 'N': 0}, time left 29 min",
+  "carousel for 0 of 0 stories, the rest reel only",
+  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
   "queue: 8 news waiting to be written",
-  "write_stories.yml started",
-  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":9}"
+  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":8}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.8-flash",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.7-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "dead for this round: groq/openai/gpt-oss-120b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "dead for this round: groq/openai/gpt-oss-120b",
   "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
   "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
+  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
   "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
   "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "ok gemini/gemini-3.6-flash (15s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash"
+  "switching away from mistral/mistral-small-latest for 10 min"
  ],
- "stories": [
-  {
-   "malayalam_headline": "നിലമ്പൂരിൽ 4 വയസ്സുകാരി ഉൾപ്പെടെ 3 പേർക്ക് ഷിഗെല്ല രോഗബാധ; ജാഗ്രതാ നിർദേശം",
-   "english_headline": "Shigella outbreak in Malappuram: 3 confirmed infected in Nilambur, health alert issued",
-   "category": "Health",
-   "location": "Nilambur, Malappuram district",
-   "importance": "High",
-   "scope": "district",
-   "post_to": "Malappuram 360 (collab: Manjeri 360)",
-   "slides_spec": {
-    "v": 3,
-    "cat": "ആരോഗ്യ മുന്നറിയിപ്പ്",
-    "loc": "നിലമ്പൂർ, മലപ്പുറം",
-    "hl1": "നിലമ്പൂരിൽ 3 പേർക്ക് ഷിഗെല്ല രോഗബാധ",
-    "hl2": "ആരോഗ്യവകുപ്പ് ജാഗ്രതാ",
-    "slides": [
-     {
-      "title": "എവിടെ, എന്തായി?",
-      "lines": [
-       "നിലമ്പൂരിൽ <b>3 പേർക്ക്</b> ഷിഗെല്ല സ്ഥിരീകരിച്ചു",
-       "ആരോഗ്യവകുപ്പ് ജാഗ്രതാ നിർദേശം നൽകി"
-      ]
-     },
-     {
-      "title": "രോഗബാധ എങ്ങനെ?",
-      "lines": [
-       "അമരമ്പലത്ത് <b>4 വയസ്സുള്ള</b> കുട്ടിക്കും",
-       "പാലുണ്ടയിൽ മന്തി കഴിച്ച <b>2 പേർക്കുമാണ്</b> രോഗം",
-       "<b>23 പേർ</b> രോഗലക്ഷണങ്ങളോടെ ചികിത്സയിലാണ്"
-      ]
-     },
-     {
-      "title": "രോഗലക്ഷണങ്ങൾ",
-      "lines": [
-       "കഠിനമായ വയറിളക്കം, വയറുവേദന, പനി",
-       "ഛർദ്ദിയും തളർച്ചയും ലക്ഷണങ്ങളാണ്",
-       "മലിനമായ വെള്ളത്തിലൂടെയും ഭക്ഷണത്തിലൂടെയും പടരും"
-      ]
-     },
-     {
-      "title": "ശ്രദ്ധിക്കുക",
-      "lines": [
-       "തിളപ്പിച്ചാറിയ വെള്ളം മാത്രം കുടിക്കുക",
-       "കൈകൾ <b>20 സെക്കൻഡ്</b> വൃത്തിയായി കഴുകുക",
-       "ചൂടുള്ള ഭക്ഷണം മാത്രം കഴിക്കുക"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "മലപ്പുറം നിലമ്പൂരിൽ 3 പേർക്ക് ഷിഗെല്ല രോഗബാധ സ്ഥിരീകരിച്ചു. കോഴിക്കോടിന് പിന്നാലെയാണ് മലപ്പുറം ജില്ലയിലും രോഗബാധ കണ്ടെത്തിയത്. അമരമ്പലത്ത് കടയിൽ നിന്ന് ഭക്ഷണം കഴിച്ച 4 വയസ്സുള്ള കുട്ടിക്കും പാലുണ്ടയിലെ കടയിൽ നിന്ന് മന്തി കഴിച്ച 2 പേർക്കുമാണ് രോഗം സ്ഥിരീകരിച്ചത്. നിലമ്പൂരിലും പരിസര പ്രദേശങ്ങളിലും ആരോഗ്യവകുപ്പ് ജാഗ്രതാ നിർദേശം നൽകി. വയറിളക്കവും വയറുവേദനയുമായി 23 പേർ നിലവിൽ ചികിത്സയിൽ കഴിയുന്നുണ്ട്. മലിനമായ വെള്ളത്തിലൂടെയും ശുചിത്വമില്ലാത്ത ഭക്ഷണത്തിലൂടെയുമാണ് ഈ ബാക്ടീരിയ പ്രധാനമായും പടരുന്നത്. തിളപ്പിച്ചാറിയ വെള്ളം മാത്രം കുടിക്കാനും കൈകൾ 20 സെക്കൻഡ് സോപ്പിട്ട് കഴുകാനും ആരോഗ്യവകുപ്പ് നിർദേശിച്ചു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
-   "caption": "🚨 നിലമ്പൂരിൽ 4 വയസ്സുകാരി ഉൾപ്പെടെ 3 പേർക്ക് ഷിഗെല്ല രോഗബാധ; ജാഗ്രതാ നിർദേശം\n\n📰 പൂർണ വിവരം:\nകോഴിക്കോടിന് പിന്നാലെ മലപ്പുറം ജില്ലയിലും ഷിഗെല്ല രോഗബാധ സ്ഥിരീകരിച്ചു. നിലമ്പൂരിൽ മൂന്ന് പേർക്കാണ് നിലവിൽ രോഗം സ്ഥിരീകരിച്ചത്. അമരമ്പലത്തെ കടയിൽ നിന്ന് ലഘുഭക്ഷണം കഴിച്ച 4 വയസ്സുള്ള പെൺകുട്ടിക്കും പാലുണ്ടയിലെ കടയിൽ നിന്ന് മന്തി കഴിച്ച 2 പേർക്കുമാണ് രോഗം ബാധിച്ചത്. സംഭവത്തെ തുടർന്ന് നിലമ്പൂരിലും പരിസര പ്രദേശങ്ങളിലും ആരോഗ്യവകുപ്പ് ജാഗ്രതാ നിർദേശം നൽകി. വയറിളക്കം, വയറുവേദന തുടങ്ങിയ രോഗലക്ഷണങ്ങളോടെ 23 പേർ നിലവിൽ ചികിത്സയിൽ കഴിയുകയാണ്. മലിനമായ വെള്ളത്തിലൂടെയും ശുചിത്വമില്ലാതെ തയാറാക്കുന്ന ഭക്ഷണത്തിലൂടെയുമാണ് ഷിഗെല്ല ബാക്ടീരിയ പ്രധാനമായും ശരീരത്തിൽ പ്രവേശിക്കുന്നത്.\n\n📍 സ്ഥലം: നിലമ്പൂർ, അമരമ്പലം, പാലുണ്ട\nℹ️ ശ്രദ്ധിക്കുക: തിളപ്പിച്ചാറിയ വെള്ളം മാത്രം കുടിക്കുക. ചൂടുള്ള ഭക്ഷണം മാത്രം കഴിക്കുക. ഭക്ഷണം കഴിക്കുന്നതിന് മുമ്പും ടോയ്ലറ്റ് ഉപയോഗത്തിന് ശേഷവും 20 സെക്കൻഡ് സോപ്പുപയോഗിച്ച് കൈകൾ വൃത്തിയായി കഴുകുക. രോഗലക്ഷണങ്ങൾ കണ്ടാൽ ഒആർഎസ്, ഉപ്പിട്ട കഞ്ഞിവെള്ളം എന്നിവ കുടിക്കുക.\n\nഎല്ലാവരുടെയും അറിവിലേക്ക് Share ചെയ്യൂ\n\nShigella infection confirmed in Nilambur Malappuram | Malappuram news\n📍 നിലമ്പൂർ, മലപ്പുറം | 07 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Nilambur #Shigella #MalappuramNews",
-   "prompts": "A quiet daytime view of Nilambur town street with health department vehicles parked near a local government clinic, green trees and cloudy overcast sky. Neutral, informative tone across the series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nAn exterior view of a small eatery/shop in a rural Malappuram roadside area with traditional steel utensils, visible clean surroundings. Neutral, informative tone across the series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close view of a glass being filled with clean boiled water from a traditional steel flask inside a home setting, soft natural lighting. Neutral, informative tone across the series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nHands being washed thoroughly with soap under running tap water at a washbasin, showing clear hygiene practices. Neutral, informative tone across the series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA Primary Health Centre building in Nilambur area with a public health notification board outside, clean ambient lighting. Neutral, informative tone across the series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.malayalamtv9.com/kerala/kerala-malappuram-shigella-outbreak-2-people-including-a-4-year-old-confirm-infection-2246320.html",
-   "published": "2026-11-07T13:08:34+05:30",
-   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: reel_script has 71 words; need 85-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block); numbers not found in the article: 07, 23",
-   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 2 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 9.0,
-   "images": [
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794074560/news360/vozo4eina3q3canettre.jpg",
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794074573/news360/c75y2e6dgs2tmednww1x.jpg",
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794074642/news360/v5oqtvvfwdsd9m01wss1.jpg",
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794074584/news360/mhvx8mbx8hxq6rqej76w.jpg",
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794074594/news360/azlge0wj9pkaxykq0zrh.jpg"
-   ]
-  }
- ]
+ "stories": []
 }
