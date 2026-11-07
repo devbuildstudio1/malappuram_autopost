@@ -1,17 +1,12 @@
 writing [N]: മലപ്പുറത്തും ഷിഗെല്ല ഭീതി: നാലു വയസുകാരി ഉൾപ്പെടെ രണ്ടുപേർക്
 writing [N]: ഹാൻഡ്ബാഗിൽ പശ രൂപത്തിൽ സ്വർണക്കടത്ത്; കരിപ്പൂരിൽ കാസർകോട് സ്
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 writing [N]: വാഹന നമ്പർ കുറിച്ചെടുത്തതിൽ പ്രകോപനം; എ.എസ്.ഐയെ മർദിച്ച കേസി
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -37,90 +32,80 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+ok gemini/gemini-3.6-flash (16s)
+attempt 1 gemini/gemini-3.6-flash: 3 problems
+  numbers not found in the article: 07
+  stray Malayalam sign 'ാ' after '4' in «ുന്ന 4ാമത്»
+  stray Malayalam sign 'ാ' after '4' in «ുന്ന 4ാമത്»
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgou1zpSfiRZeUutFemSx"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgox4sansBkSYM7Qcog1w"}
 writing [N]: മലപ്പുറത്തും ഷിഗെല്ല; നാല് വയസുകാരി ഉൾപ്പെടെ രണ്ടുപേർക്ക് രോ
-free models unavailable: free models not efficient (17 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgou27bEB4WL8Ghd8MzLm"}
-writing [N]: പോലീസുകാരന്റെ മൂക്കിടിച്ച് തകർത്തു; റൗഡികൾക്ക് മലപ്പുറത്തെ വ
-free models unavailable: free models not efficient (17 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgou29ExB7iAoPUV9LYYP"}
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+dead for this round: groq/openai/gpt-oss-120b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgou2C86FEG8dzpghDqS1"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgox51sNRJB5UZrw6W8sN"}
+writing [N]: പോലീസുകാരന്റെ മൂക്കിടിച്ച് തകർത്തു; റൗഡികൾക്ക് മലപ്പുറത്തെ വ
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgox52s9PdAiv5uXXdL8W"}
 writing [N]: അങ്കണവാടിയിലെ വാട്ടർ ടാങ്കിൽ ഹാർപ്പിക് കലർത്തിയ സംഭവം | Deep
-free models unavailable: free models not efficient (19 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgou2E6Qaijckuu3F7Eyn"}
-writing [N]: മലപ്പുറത്തിന്റെ ചരിത്രഗ്രന്ഥങ്ങൾ പ്രകാശനം ചെയ്തു
-free models unavailable: free models not efficient (19 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgou2F9tgLXfrCQfZB943"}
-writing [N]: അമരമ്പലത്ത് നാലുവയസ്സുകാരിക്ക് ഷിഗല്ല; മാതാവിനും രോഗലക്ഷണം |
-free models unavailable: free models not efficient (19 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgou2Hkuh1FZJMeGQJNST"}
-writing [N]: പുഴയിൽ മുങ്ങിത്താഴ്ന്ന യുവാവിനെ രക്ഷിക്കാൻ സ്വന്തം ജീവൻ പണയപ
-free models unavailable: free models not efficient (19 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgou2KMf4Kx6kz7sj6hc3"}
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgox572gZkUcRFqnHceQe"}
 writing [N]: കോട്ടക്കൽ എരഞ്ഞിക്കൽ കണാരൻ അന്തരിച്ചു
-free models unavailable: free models not efficient (19 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgou2Lb5TyV42Ln3oVw8F"}
-writing [N]: ഷിഗല്ല; അഞ്ചാംമൈലിലെ തട്ടുകടകൾക്കും ചായക്കടകൾക്കും കർശന നിയന
-free models unavailable: free models not efficient (19 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgou2MrUHgzDvp86Be9pZ"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-writing [N]: സെവൻ ആർട്സ് കൾച്ചറൽ ഫോറം കേരളപ്പിറവി ദിനം ആഘോഷിച്ചു | Madhya
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgou2Na8joDhTQsXyXNDt"}writing [N]: അബുദബിയിൽ ജയിൽവാസം, സ്വന്തം വീട്ടിൽ നിന്ന് 40 പവന്റെ മോഷണം; 
-
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgou2P5tjhyZ2dWRqFrEn"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgou2PC6BrXSgxYZGEuHN"}
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgox5DdJTpbsvdbTitQqJ"}
+writing [N]: പുഴയിൽ മുങ്ങിത്താഴ്ന്ന യുവാവിനെ രക്ഷിക്കാൻ സ്വന്തം ജീവൻ പണയപ
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgox5ExfnSZeuD34ssBuK"}
+writing [N]: അബുദബിയിൽ ജയിൽവാസം, സ്വന്തം വീട്ടിൽ നിന്ന് 40 പവന്റെ മോഷണം; 
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgox5FsFAi6YpJD5f1RDU"}
 writing [N]: സംസ്ഥാനത്ത് വീണ്ടും ഷിഗെല്ല ഭീതി. മലപ്പുറം നിലമ്പൂരിൽ നാലുവയ
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgou2QTFXKrp9nnzjJ9oR"}
-writing [N]: പൊട്ടിപ്പൊളിഞ്ഞ പാത: കുഴിയിൽവീണ് യാത്രക്കാർ
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-writing [N]: മലപ്പുറത്തും കോഴിക്കോട്ടും ഷിഗല്ല സ്ഥിരീകരിച്ചു; ആരോഗ്യവകുപ്
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgou2RaiC9FS2VBskcnUX"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgou2RhewcEvF9j6AffkB"}
-writing [N]: ദുരന്തങ്ങൾ താണ്ടി പുതിയ ജീവിതത്തിലേക്ക്; ശ്രുതിക്ക് കൂട്ടായി
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgou2TypGsmeYxbwX6vBa"}
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgox5GzDSq11JF8f666UX"}
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgox5QSvm8YsKWSTMiFzg"}
+proofread skipped: free models not efficient (5 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgox83Ar2kXAffTxECgTH"}
+imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150) 504 timeout
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match: False The image shows only a black briefcase on a table without any seized gold, suspect, or law enforcement officials context
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 4 for 'Gold worth Rs 1.67 crore seized at Karip'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261107-2252","first":"MP-45"}
+posting job started at once
+write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 20 recent posts read from both pages
 write round: 17 news waiting in the queue (written in priority order)
-candidate filter: collected=17
-to write: 0 Manjeri + 17 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 17 Malappuram; time left 29 min
+candidate filter: collected=10, checked earlier=7
+to write: 0 Manjeri + 10 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 10 Malappuram; time left 29 min
 try (N) manual=False: മലപ്പുറത്തും ഷിഗെല്ല ഭീതി: നാലു വയസുകാരി ഉൾപ്പെടെ രണ്ടുപേർക്
 try (N) manual=False: ഹാൻഡ്ബാഗിൽ പശ രൂപത്തിൽ സ്വർണക്കടത്ത്; കരിപ്പൂരിൽ കാസർകോട് സ്
 try (N) manual=False: വാഹന നമ്പർ കുറിച്ചെടുത്തതിൽ പ്രകോപനം; എ.എസ്.ഐയെ മർദിച്ച കേസി
@@ -130,34 +115,22 @@ NOT filed (N) മലപ്പുറത്തും ഷിഗെല്ല; നാ
 try (N) manual=False: പോലീസുകാരന്റെ മൂക്കിടിച്ച് തകർത്തു; റൗഡികൾക്ക് മലപ്പുറത്തെ വ
 NOT filed (N) പോലീസുകാരന്റെ മൂക്കിടിച്ച് തകർത്തു; റൗഡികൾക്ക് മലപ: all free models failed: no usable answer from the models
 try (N) manual=False: അങ്കണവാടിയിലെ വാട്ടർ ടാങ്കിൽ ഹാർപ്പിക് കലർത്തിയ സംഭവം | Deep
-NOT filed (N) വാഹന നമ്പർ കുറിച്ചെടുത്തതിൽ പ്രകോപനം; എ.എസ്.ഐയെ മർ: all free models failed: no usable answer from the models
-try (N) manual=False: മലപ്പുറത്തിന്റെ ചരിത്രഗ്രന്ഥങ്ങൾ പ്രകാശനം ചെയ്തു
 NOT filed (N) അങ്കണവാടിയിലെ വാട്ടർ ടാങ്കിൽ ഹാർപ്പിക് കലർത്തിയ സം: all free models failed: no usable answer from the models
 try (N) manual=False: കോട്ടക്കൽ എരഞ്ഞിക്കൽ കണാരൻ അന്തരിച്ചു
-NOT filed (N) മലപ്പുറത്തിന്റെ ചരിത്രഗ്രന്ഥങ്ങൾ പ്രകാശനം ചെയ്തു: all free models failed: no usable answer from the models
-try (N) manual=False: അമരമ്പലത്ത് നാലുവയസ്സുകാരിക്ക് ഷിഗല്ല; മാതാവിനും രോഗലക്ഷണം |
-NOT filed (N) അമരമ്പലത്ത് നാലുവയസ്സുകാരിക്ക് ഷിഗല്ല; മാതാവിനും ര: all free models failed: no usable answer from the models
+NOT filed (N) കോട്ടക്കൽ എരഞ്ഞിക്കൽ കണാരൻ അന്തരിച്ചു: all free models failed: no usable answer from the models
 try (N) manual=False: പുഴയിൽ മുങ്ങിത്താഴ്ന്ന യുവാവിനെ രക്ഷിക്കാൻ സ്വന്തം ജീവൻ പണയപ
 NOT filed (N) പുഴയിൽ മുങ്ങിത്താഴ്ന്ന യുവാവിനെ രക്ഷിക്കാൻ സ്വന്തം: all free models failed: no usable answer from the models
-try (N) manual=False: ഷിഗല്ല; അഞ്ചാംമൈലിലെ തട്ടുകടകൾക്കും ചായക്കടകൾക്കും കർശന നിയന
-NOT filed (N) കോട്ടക്കൽ എരഞ്ഞിക്കൽ കണാരൻ അന്തരിച്ചു: all free models failed: no usable answer from the models
-try (N) manual=False: സെവൻ ആർട്സ് കൾച്ചറൽ ഫോറം കേരളപ്പിറവി ദിനം ആഘോഷിച്ചു | Madhya
-NOT filed (N) ഷിഗല്ല; അഞ്ചാംമൈലിലെ തട്ടുകടകൾക്കും ചായക്കടകൾക്കും: all free models failed: no usable answer from the models
 try (N) manual=False: അബുദബിയിൽ ജയിൽവാസം, സ്വന്തം വീട്ടിൽ നിന്ന് 40 പവന്റെ മോഷണം; 
-NOT filed (N) ഹാൻഡ്ബാഗിൽ പശ രൂപത്തിൽ സ്വർണക്കടത്ത്; കരിപ്പൂരിൽ ക: all free models failed: no usable answer from the models
-try (N) manual=False: മലപ്പുറത്തും കോഴിക്കോട്ടും ഷിഗല്ല സ്ഥിരീകരിച്ചു; ആരോഗ്യവകുപ്
-NOT filed (N) സെവൻ ആർട്സ് കൾച്ചറൽ ഫോറം കേരളപ്പിറവി ദിനം ആഘോഷിച്ച: all free models failed: no usable answer from the models
-try (N) manual=False: സംസ്ഥാനത്ത് വീണ്ടും ഷിഗെല്ല ഭീതി. മലപ്പുറം നിലമ്പൂരിൽ നാലുവയ
 NOT filed (N) അബുദബിയിൽ ജയിൽവാസം, സ്വന്തം വീട്ടിൽ നിന്ന് 40 പവന്: all free models failed: no usable answer from the models
-try (N) manual=False: ദുരന്തങ്ങൾ താണ്ടി പുതിയ ജീവിതത്തിലേക്ക്; ശ്രുതിക്ക് കൂട്ടായി
+try (N) manual=False: സംസ്ഥാനത്ത് വീണ്ടും ഷിഗെല്ല ഭീതി. മലപ്പുറം നിലമ്പൂരിൽ നാലുവയ
 NOT filed (N) സംസ്ഥാനത്ത് വീണ്ടും ഷിഗെല്ല ഭീതി. മലപ്പുറം നിലമ്പൂ: all free models failed: no usable answer from the models
-try (N) manual=False: പൊട്ടിപ്പൊളിഞ്ഞ പാത: കുഴിയിൽവീണ് യാത്രക്കാർ
-NOT filed (N) പൊട്ടിപ്പൊളിഞ്ഞ പാത: കുഴിയിൽവീണ് യാത്രക്കാർ: all free models failed: no usable answer from the models
-NOT filed (N) മലപ്പുറത്തും കോഴിക്കോട്ടും ഷിഗല്ല സ്ഥിരീകരിച്ചു; ആ: all free models failed: no usable answer from the models
-NOT filed (N) ദുരന്തങ്ങൾ താണ്ടി പുതിയ ജീവിതത്തിലേക്ക്; ശ്രുതിക്ക: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 17}, done={'R': 0, 'N': 0}, time left 29 min
-carousel for 0 of 0 stories, the rest reel only
-filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
-queue: 17 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":17} 
-stories: 0
+auto images: 1 of 1 stories ({'black-forest-labs/flux.1-dev': 5})
+posting job started at once
+NOT filed (N) വാഹന നമ്പർ കുറിച്ചെടുത്തതിൽ പ്രകോപനം; എ.എസ്.ഐയെ മർ: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 10}, done={'R': 0, 'N': 1}, time left 26 min
+carousel for 0 of 1 stories, the rest reel only
+filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)
+queue: 9 news waiting to be written
+write_stories.yml started
+All News sheet: {"ok":true,"added":0,"updated":10} 
+stories: 1
