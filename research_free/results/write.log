@@ -1,9 +1,22 @@
-writing [R]: വീണുകിട്ടിയ സ്വർണമാല ഉടമയ്ക്ക് നൽകി പഞ്ചായത്തംഗം
 writing [N]: പ്രതിസന്ധികളെ തോൽപ്പിച്ച് ഡോക്ടറായി; മുബീനയ്ക്ക് നാടിന്റെ സ്
+writing [N]: വേങ്ങരയ്ക്കും ഇനി പുതുമോടിwriting [N]: ലൗ പ്ലാസ്റ്റിക്: സ്കൂളും പരിസരവും ശുചീകരിച്ചു
+
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -14,22 +27,16 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-writing [N]: തിരൂരങ്ങാടിയിൽ  ഫിറ്റ്നസില്ല
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok gemini/gemini-3.6-flash (19s)
-attempt 1 gemini/gemini-3.6-flash: 1 problems
-  numbers not found in the article: 09
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok gemini/gemini-3.6-flash (20s)
-attempt 1 gemini/gemini-3.6-flash: 1 problems
-  numbers not found in the article: 09
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok gemini/gemini-3.6-flash (15s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -37,118 +44,91 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 dead for this round: groq/openai/gpt-oss-120b
-ok groq/qwen/qwen3.8-27b (1s)
-factcheck by groq/qwen/qwen3.8-27b: 4 problems
-  reel_script states the woman was going to a 'driving school' (ഡ്രൈവിങ് സ്കൂളിലേക്ക്), but the article says she was going to an 'establishment' (സ്ഥാപനത്തിലേക്ക്) to learn driving.
-  reel_script states the friend 'handed the necklace to the panchayat member' (സുഹൃത്ത് മാല പഞ്ചായത്തംഗത്തെ ഏൽപ്പിച്ചു), omitting the crucial detail from the article that the friend did not know if it was gold or silver and gave it to the member for inspection.
-  reel_script states the owner and husband arrived at the police station after seeing the post, but the article specifies this happened 'at night' (രാത്രി), which is a specific time detail omitted in the script.
-  reel_script states the police congratulated the panchayat member for the 'exemplary action' (മാതൃകാപരമായ പ്രവർത്തനത്തിന്), whereas the article simply states the police congratulated him (അഭിനന്ദിച്ചു) without explicitly labeling the action as 'exemplary' in that specific sentence (though the headline implies it, the script adds the adjective to the police's action description which is a slight interpretation, but the main issue is the missing 'night' timing and the driving school error).
-attempt 2 gemini/gemini-3.6-flash: 4 problems
-  fact-check: reel_script states the woman was going to a 'driving school' (ഡ്രൈവിങ് സ്കൂളിലേക്ക്), but the article says she was going to an 'establishment' (സ്ഥാപനത്തിലേക്ക്) to learn driving.
-  fact-check: reel_script states the friend 'handed the necklace to the panchayat member' (സുഹൃത്ത് മാല പഞ്ചായത്തംഗത്തെ ഏൽപ്പിച്ചു), omitting the crucial detail from the article that the friend did not know if it was gold or silver and gave it to the member for inspection.
-  fact-check: reel_script states the owner and husband arrived at the police station after seeing the post, but the article specifies this happened 'at night' (രാത്രി), which is a specific time detail omitted in the script.
-  fact-check: reel_script states the police congratulated the panchayat member for the 'exemplary action' (മാതൃകാപരമായ പ്രവർത്തനത്തിന്), whereas the article simply states the police congratulated him (അഭിനന്ദിച്ചു) without explicitly labeling the action as 'exemplary' in that specific sentence (though the headline implies it, the script adds the adjective to the police's action description which is a slight interpretation, but the main issue is the missing 'night' timing and the driving school error).
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-ok gemini/gemini-3.6-flash (24s)
-attempt 2 gemini/gemini-3.6-flash: 1 problems
-  numbers not found in the article: 09
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrDmBkovvkmLiMp4bWYB"}
-proofread skipped: free models not efficient (3 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.8-flash
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrDmVE3RNSigQivm5gsR"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrDmZCuFgnzNqGxohztJ"}
-proofread skipped: free models not efficient (6 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150) 504 timeout
-imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-images NOT made for 'Panchayat member returns lost gold neckl': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
-bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261109-0341","first":"MP-79"}
-posting job started at once
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-writing [N]: ലൗ പ്ലാസ്റ്റിക്: സ്കൂളും പരിസരവും ശുചീകരിച്ചു
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrEC1vff8TmRg5t8qEdW"}
-bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261109-0341","first":"MP-80"}
-writing [N]: വേങ്ങരയ്ക്കും ഇനി പുതുമോടി
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrECCcMHLNq87byVrM3H"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrEFXkNieDayNB6qtKXQ"}
 writing [N]: ജില്ലയിൽ വീണ്ടും ഷിഗെല്ല
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrECE9P3TzW9tmz4Vkiz"}
-writing [N]: യൂത്ത് ലീഗ് നേതാവിനെ സംരക്ഷിച്ച് പൊലീസ്
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrECFMobWikS33c8GxKW"}
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrEFdxRng37QrocNXMtn"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrEFe7MXxt4kdFrWWZHL"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrEFeLjxh46FLaDuqgin"}
 writing [N]: സർവത്ര മായം!, 'നക്സൽ ഭീഷണി അവസാനിച്ച ആദ്യ ദീപാവലി', മലപ്പുറത
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrECFxmFrPEfkuFURqbj"}
+free models unavailable: free models not efficient (25 failures in a row): using Claude
+writing [N]: യൂത്ത് ലീഗ് നേതാവിനെ സംരക്ഷിച്ച് പൊലീസ്
+free models unavailable: free models not efficient (25 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrEFfzURFAsGubtrKFwu"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrEFg9QCHAo8Sp5q8DDf"}
 writing [N]: സെക്രട്ടറിയറ്റ് വളയൽ സമരം: മേഖലാ വാഹനജാഥ നാളെ ജില്ലയിൽ
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrECHW2ghXJeLoyofAVV"}
+free models unavailable: free models not efficient (25 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrEFiexT3E8ah9uiehHh"}
 writing [N]: എട്ടു ദിവസം,  25 രോഗികൾ,   പിടിമുറുക്കി ഷിഗെല്ല
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrECJXob2ScA18VJ5gRj"}
+free models unavailable: free models not efficient (25 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrEFkaYdkV3SLMyYuamy"}
 writing [N]: കലാമണ്ഡലം വാർഷികാഘോഷങ്ങൾക്ക് തുടക്കും
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrECN39JrkQqHSwFoDbR"}
-write_stories.yml started
+free models unavailable: free models not efficient (25 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgrEFnPSgXBXtukeWvtEe"}
 earlier stories still waiting for images: []
 instagram check: 28 recent posts read from both pages
-write round: 11 news waiting in the queue (written in priority order)
-candidate filter: collected=11
-to write: 1 Manjeri + 10 other district candidates (max 200 + 200 stories)
-candidates waiting: 1 Manjeri, 10 Malappuram; time left 29 min
-try (N) manual=False: തിരൂരങ്ങാടിയിൽ  ഫിറ്റ്നസില്ല
-try (R) manual=False: വീണുകിട്ടിയ സ്വർണമാല ഉടമയ്ക്ക് നൽകി പഞ്ചായത്തംഗം
+write round: 9 news waiting in the queue (written in priority order)
+candidate filter: collected=9
+to write: 0 Manjeri + 9 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 9 Malappuram; time left 29 min
 try (N) manual=False: പ്രതിസന്ധികളെ തോൽപ്പിച്ച് ഡോക്ടറായി; മുബീനയ്ക്ക് നാടിന്റെ സ്
-auto images failed for 'Panchayat member returns lost gold neckl': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email
-auto images: 0 of 1 stories ({})
-posting job started at once
 try (N) manual=False: ലൗ പ്ലാസ്റ്റിക്: സ്കൂളും പരിസരവും ശുചീകരിച്ചു
-auto images: 0 of 1 stories ({})
-NOT filed (N) പ്രതിസന്ധികളെ തോൽപ്പിച്ച് ഡോക്ടറായി; മുബീനയ്ക്ക് ന: all free models failed: no usable answer from the models
 try (N) manual=False: വേങ്ങരയ്ക്കും ഇനി പുതുമോടി
+NOT filed (N) പ്രതിസന്ധികളെ തോൽപ്പിച്ച് ഡോക്ടറായി; മുബീനയ്ക്ക് ന: all free models failed: no usable answer from the models
 try (N) manual=False: ജില്ലയിൽ വീണ്ടും ഷിഗെല്ല
-NOT filed (N) ലൗ പ്ലാസ്റ്റിക്: സ്കൂളും പരിസരവും ശുചീകരിച്ചു: all free models failed: no usable answer from the models
-try (N) manual=False: യൂത്ത് ലീഗ് നേതാവിനെ സംരക്ഷിച്ച് പൊലീസ്
-NOT filed (N) വേങ്ങരയ്ക്കും ഇനി പുതുമോടി: all free models failed: no usable answer from the models
-try (N) manual=False: എട്ടു ദിവസം,  25 രോഗികൾ,   പിടിമുറുക്കി ഷിഗെല്ല
 NOT filed (N) ജില്ലയിൽ വീണ്ടും ഷിഗെല്ല: all free models failed: no usable answer from the models
+try (N) manual=False: യൂത്ത് ലീഗ് നേതാവിനെ സംരക്ഷിച്ച് പൊലീസ്
+NOT filed (N) ലൗ പ്ലാസ്റ്റിക്: സ്കൂളും പരിസരവും ശുചീകരിച്ചു: all free models failed: no usable answer from the models
+try (N) manual=False: എട്ടു ദിവസം,  25 രോഗികൾ,   പിടിമുറുക്കി ഷിഗെല്ല
+NOT filed (N) വേങ്ങരയ്ക്കും ഇനി പുതുമോടി: all free models failed: no usable answer from the models
 try (N) manual=False: സർവത്ര മായം!, 'നക്സൽ ഭീഷണി അവസാനിച്ച ആദ്യ ദീപാവലി', മലപ്പുറത
-NOT filed (N) യൂത്ത് ലീഗ് നേതാവിനെ സംരക്ഷിച്ച് പൊലീസ്: all free models failed: no usable answer from the models
-try (N) manual=False: സെക്രട്ടറിയറ്റ് വളയൽ സമരം: മേഖലാ വാഹനജാഥ നാളെ ജില്ലയിൽ
 NOT filed (N) സർവത്ര മായം!, 'നക്സൽ ഭീഷണി അവസാനിച്ച ആദ്യ ദീപാവലി': all free models failed: no usable answer from the models
+try (N) manual=False: സെക്രട്ടറിയറ്റ് വളയൽ സമരം: മേഖലാ വാഹനജാഥ നാളെ ജില്ലയിൽ
+NOT filed (N) യൂത്ത് ലീഗ് നേതാവിനെ സംരക്ഷിച്ച് പൊലീസ്: all free models failed: no usable answer from the models
 try (N) manual=False: കലാമണ്ഡലം വാർഷികാഘോഷങ്ങൾക്ക് തുടക്കും
 NOT filed (N) സെക്രട്ടറിയറ്റ് വളയൽ സമരം: മേഖലാ വാഹനജാഥ നാളെ ജില്: all free models failed: no usable answer from the models
 NOT filed (N) എട്ടു ദിവസം,  25 രോഗികൾ,   പിടിമുറുക്കി ഷിഗെല്ല: all free models failed: no usable answer from the models
 NOT filed (N) കലാമണ്ഡലം വാർഷികാഘോഷങ്ങൾക്ക് തുടക്കും: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 10}, done={'R': 1, 'N': 1}, time left 23 min
-carousel for 0 of 2 stories, the rest reel only
-filed: 1 Manjeri + 1 Malappuram (targets 200 + 200)
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 9}, done={'R': 0, 'N': 0}, time left 29 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
 queue: 9 news waiting to be written
-write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":11} 
-stories: 2
+All News sheet: {"ok":true,"added":0,"updated":9} 
+stories: 0
