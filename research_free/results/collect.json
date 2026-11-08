@@ -9,65 +9,280 @@
   "try (N) manual=False: എഎസ്ഐയെ ആക്രമിച്ച് ഒളിവിൽപോയി; പിടികൂടി വിലങ്ങുവച്ച് അതേ റോഡ",
   "try (N) manual=False: മലപ്പുറത്ത് ഷിഗെല്ല പടരുന്നു; രോഗബാധിതർ ഏഴായി",
   "try (N) manual=False: ഷിഗെല്ല ഭീതിയിൽ മലപ്പുറം; 114 ഓളം പേർക്ക് രോഗലക്ഷണം",
-  "NOT filed (N) ഷിഗെല്ല ഭീതിയിൽ മലപ്പുറം; 114 ഓളം പേർക്ക് രോഗലക്ഷണ: all free models failed: no usable answer from the models",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux.1-dev': 6})",
+  "posting job started at once",
   "try (N) manual=False: മലപ്പുറത്ത്  4 വയസുകാരിക്ക് ഷിഗല്ല",
-  "NOT filed (N) മലപ്പുറത്ത്  4 വയസുകാരിക്ക് ഷിഗല്ല: all free models failed: no usable answer from the models",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux.1-dev': 10})",
+  "auto images failed for 'Shigella confirmed in 4 more people in M': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email",
+  "auto images: 0 of 1 stories ({'black-forest-labs/flux.1-dev': 12})",
   "try (N) manual=False: ഭീതി പടർത്തി ഷിഗെല്ല; നാല് പേർക്ക് കൂടി സ്ഥിരീകരിച്ചു, 114 പ",
-  "NOT filed (N) ഭീതി പടർത്തി ഷിഗെല്ല; നാല് പേർക്ക് കൂടി സ്ഥിരീകരിച: all free models failed: no usable answer from the models",
   "try (N) manual=False: തൊഴിലാളികൾ  തമ്മിൽ തർക്കം:  കേസെടുത്ത്  പൊലിസ്  | Deepika | ",
-  "NOT filed (N) മലപ്പുറത്ത് ഷിഗെല്ല പടരുന്നു; രോഗബാധിതർ ഏഴായി: all free models failed: no usable answer from the models",
+  "NOT filed (N) മലപ്പുറത്ത്  4 വയസുകാരിക്ക് ഷിഗല്ല: all free models failed: no usable answer from the models",
+  "skip (N) similar to a filed story: ഭീതി പടർത്തി ഷിഗെല്ല; നാല് പേർക്ക് കൂടി സ്ഥിരീകരിച",
   "NOT filed (N) തൊഴിലാളികൾ  തമ്മിൽ തർക്കം:  കേസെടുത്ത്  പൊലിസ്  | : all free models failed: no usable answer from the models",
-  "NOT filed (N) എഎസ്ഐയെ ആക്രമിച്ച് ഒളിവിൽപോയി; പിടികൂടി വിലങ്ങുവച്: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 6}, done={'R': 0, 'N': 0}, time left 29 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
-  "queue: 6 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":6}"
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 6}, done={'R': 0, 'N': 3}, time left 14 min",
+  "carousel for 0 of 3 stories, the rest reel only",
+  "filed: 0 Manjeri + 3 Malappuram (targets 200 + 200)",
+  "queue: 2 news waiting to be written",
+  "write_stories.yml started",
+  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":5}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.8-flash",
+  "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.8-flash",
+  "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.8-flash",
+  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "switching away from gemini/gemini-3.7-flash for 10 min",
+  "ok gemini/gemini-3.6-flash (14s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.7-flash",
+  "ok gemini/gemini-3.6-flash (20s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.8-flash",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.8-flash",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.7-flash",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.7-flash",
+  "ok gemini/gemini-3.6-flash (14s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (3s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.7-flash",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "ok gemini/gemini-3.6-flash (3s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (11s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "ok gemini/gemini-3.6-flash (15s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "ok gemini/gemini-3.6-flash (19s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (3s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (10s)",
+  "ok gemini/gemini-3.6-flash (9s)",
+  "ok gemini/gemini-3.6-flash (21s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (20s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (20s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (6s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (13s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (12s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "dead for this round: groq/openai/gpt-oss-120b",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
-  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
   "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
   "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
-  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "മലപ്പുറത്ത് വീണ്ടും ഷിഗെല്ല; 114 പേർക്ക് രോഗലക്ഷണം",
+   "english_headline": "Shigella scare in Malappuram: 8 confirmed cases and around 114 people under observation",
+   "category": "Health",
+   "location": "Perinthalmanna, Amarambalam and Palunda, Malappuram district",
+   "importance": "High",
+   "scope": "district",
+   "post_to": "Malappuram 360 (collab: Manjeri 360)",
+   "slides_spec": {
+    "v": 3,
+    "cat": "ആരോഗ്യ വാർത്ത",
+    "loc": "മലപ്പുറം ജില്ല",
+    "hl1": "മലപ്പുറത്ത് വീണ്ടും ഷിഗെല്ല രോഗബാധ",
+    "hl2": "114 പേർക്ക് രോഗലക്ഷണം",
+    "slides": [
+     {
+      "title": "രോഗബാധ",
+      "lines": [
+       "<b>8</b> പേർക്ക് ഷിഗെല്ല സ്ഥിരീകരിച്ചു",
+       "<b>114</b> പേർക്ക് രോഗലക്ഷണങ്ങൾ കണ്ടെത്തി",
+       "മലപ്പുറം ജില്ലയിലാണ് വീണ്ടും ഷിഗെല്ല"
+      ]
+     },
+     {
+      "title": "എവിടെയെല്ലാം?",
+      "lines": [
+       "ഏലംകുളത്തെ കല്യാണത്തിൽ പങ്കെടുത്തവർക്ക്",
+       "അമരമ്പലത്ത് <b>4</b> വയസ്സുകാരിക്ക് രോഗം",
+       "പാലുണ്ടയിൽ മന്തി കഴിച്ച <b>2</b> പേർക്ക്"
+      ]
+     },
+     {
+      "title": "പ്രതിരോധ നടപടി",
+      "lines": [
+       "സംശയമുള്ള ഭക്ഷണശാലകൾ അടപ്പിച്ചു",
+       "കിണറുകളിൽ സൂപ്പർ ക്ലോറിനേഷൻ നടപ്പിലാക്കി",
+       "ലക്ഷണങ്ങൾ കണ്ടാൽ ഉടനടി ചികിത്സ തേടുക"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "മലപ്പുറം ജില്ലയിൽ വീണ്ടും ഷിഗെല്ല രോഗബാധ സ്ഥിരീകരിച്ചു. 8 പേർക്ക് രോഗം സ്ഥിരീകരിക്കുകയും 114 പേർക്ക് രോഗലക്ഷണം കണ്ടെത്തുകയും ചെയ്തു. പെരിന്തൽമണ്ണ ഏലംകുളം കോരക്കുത്തിൽ ഒക്ടോബർ 31ന് നടന്ന വിവാഹച്ചടങ്ങിൽ പങ്കെടുത്തവർക്കാണ് പ്രധാനമായി ലക്ഷണങ്ങൾ ഉള്ളത്. അമരമ്പലത്തെ കടയിൽ നിന്ന് ഭക്ഷണം കഴിച്ച 4 വയസ്സുകാരിക്കും പാലുണ്ടയിൽ മന്തി കഴിച്ച 2 പേർക്കും രോഗം സ്ഥിരീകരിച്ചു. വയറിളക്കം, വയറുവേദന, പനി, ഛർദ്ദി എന്നിവയാണ് പ്രധാന ലക്ഷണങ്ങൾ. സംശയമുള്ള ഭക്ഷണശാലകൾ അധികൃതർ അടപ്പിച്ചു. വീടുകളിലും കിണറുകളിലും സൂപ്പർ ക്ലോറിനേഷൻ ഊർജിതമാക്കിയിട്ടുണ്ട്. ഏലംകുളം കുടുംബാരോഗ്യ കേന്ദ്രത്തിന്റെ നേതൃത്വത്തിൽ രോഗനിരീക്ഷണം ആരംഭിച്ചു. അസ്വസ്ഥതകൾ ഉണ്ടായാൽ തൊട്ടടുത്ത ആരോഗ്യ കേന്ദ്രത്തിൽ ചികിത്സ തേടണമെന്ന് ആരോഗ്യവകുപ്പ് നിർദേശിച്ചു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🦠 മലപ്പുറത്ത് വീണ്ടും ഷിഗെല്ല; 114 ഓളം പേർക്ക് രോഗലക്ഷണം\n\n📰 പൂർണ വിവരം:\nമലപ്പുറം ജില്ലയിൽ 8 പേർക്ക് ഷിഗെല്ല രോഗം സ്ഥിരീകരിക്കുകയും 114 പേർക്ക് രോഗലക്ഷണങ്ങൾ കണ്ടെത്തുകയും ചെയ്തു. പെരിന്തൽമണ്ണ ഏലംകുളം കോരക്കുത്തിൽ ഒക്ടോബർ 31ന് നടന്ന വിവാഹച്ചടങ്ങിൽ പങ്കെടുത്തവർക്കാണ് പ്രധാനമായും രോഗലക്ഷണങ്ങൾ കണ്ടെത്തിയത്. കൂടാതെ നിലമ്പൂർ അമരമ്പലത്തെ കടയിൽ നിന്ന് ലഘുഭക്ഷണം കഴിച്ച 4 വയസ്സുകാരിക്കും പാലുണ്ടയിലെ കടയിൽ നിന്ന് മന്തി കഴിച്ച 2 പേർക്കും രോഗം സ്ഥിരീകരിച്ചിട്ടുണ്ട്. വയറിളക്കം, വയറുവേദന, പനി, ഛർദ്ദി, മലത്തിൽ രക്തത്തിന്റെ അംശം എന്നിവയാണ് പ്രധാന ലക്ഷണങ്ങൾ. രോഗബാധയ്ക്ക് കാരണമായെന്ന് സംശയിക്കുന്ന ഭക്ഷണശാലകൾ താൽക്കാലികമായി അടപ്പിച്ചു. വീടുകളിലും കിണറുകളിലും സൂപ്പർ ക്ലോറിനേഷൻ ഊർജിതമാക്കിയിട്ടുണ്ട്. ഏലംകുളം കുടുംബാരോഗ്യ കേന്ദ്രത്തിന്റെ നേതൃത്വത്തിൽ രോഗനിരീക്ഷണം ആരംഭിച്ചു. വയറിളക്കമോ മറ്റ് അസ്വസ്ഥതകളോ ഉണ്ടായാൽ സ്വയംചികിത്സ ഒഴിവാക്കി ഉടൻ ചികിത്സ തേടാനും ORS ലായനി, തിളപ്പിച്ചാറ്റിയ കഞ്ഞിവെള്ളം എന്നിവ കുടിക്കാനും ആരോഗ്യവകുപ്പ് നിർദേശം നൽകി.\n📍 സ്ഥലം: ഏലംകുളം, അമരമ്പലം, പാലുണ്ട (മലപ്പുറം ജില്ല)\n👮 നടപടി: സംശയമുള്ള ഭക്ഷണശാലകൾ അടപ്പിച്ചു, സൂപ്പർ ക്ലോറിനേഷൻ ആരംഭിച്ചു\nℹ️ ശ്രദ്ധിക്കുക: അസ്വസ്ഥതകൾ ഉണ്ടായാൽ തൊട്ടടുത്ത ആരോഗ്യ കേന്ദ്രത്തിൽ ചികിത്സ തേടുക\nആവശ്യമുള്ളവർക്ക് Share ചെയ്യൂ\n\nShigella cases reported in Malappuram district | Malappuram news\n📍 മലപ്പുറം | ഒക്ടോബർ 31\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Perinthalmanna #Nilambur #MalappuramNews",
+   "prompts": "Health squad workers conduct super-chlorination of an open village ring well in Elamkulam near Perinthalmanna following the Shigella outbreak. The setting is a traditional Kerala house courtyard surrounded by dense coconut palms, banana plants, and a laterite compound wall. Two health department workers wearing light blue protective coats and masks, seen from behind, mix chlorine powder in a plastic bucket and lower it down a concrete ring well using a thick rope while a house owner stands at a distance. A white plastic bucket, chlorine powder packet, and water sampling kits rest on the wet cement wall of the well. Bright morning sunlight filters through the coconut canopy under clear weather. Eye-level medium shot taken with a 35mm lens. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nEstablishing shot of a shuttered small eatery shop temporarily closed by health authorities in a rural Malappuram village street. The scene takes place along a narrow tarred village road lined with lush green rubber trees, coconut palms, and sloping concrete shop fronts. A couple of local residents dressed in mundu and churidar walk away in the background, while a white health squad inspection jeep is parked along the roadside at a distance. The closed dark blue iron roll-down shutter of the small food shop dominates the foreground with no visible text or logos anywhere. Diffused afternoon light under slightly overcast skies. Wide-angle street view shot captured with a 35mm lens. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up detail shot of ORS packets and water treatment supplies prepared for distribution during the Shigella surveillance drive at Elamkulam Family Health Centre. The shot is set on a wooden table on the open veranda of a government health centre building with cream walls and lush greenery in the background. Gloved hands of a health department worker, with faces strictly out of frame, arrange ORS packets alongside a white plastic bucket containing super-chlorination solution and measuring scoops. Unlabelled ORS paper packets, glass water bottles filled with boiled water, and chlorine powder tubs fill the frame. Bright natural indoor daytime light. Macro close-up angle using a 35mm lens with shallow depth of field. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.deshabhimani.com/News/kerala/shigella-scare-malappuram-over-100-with-symptoms-ax3",
+   "published": "2026-11-08T03:44:00+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet",
+   "note": "free-model draft gemini/gemini-3.6-flash, 2 attempt(s), 0 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 3.0,
+   "images": [
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794126376/news360/ppwnln4y9dxueogkumfo.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794126473/news360/jf2xnxxd1j33rwr1weqb.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794126448/news360/h0oomwjtbsvcngsre981.jpg"
+   ]
+  },
+  {
+   "malayalam_headline": "വൈലത്തൂരിൽ പോലീസിനെ ആക്രമിച്ച കേസ്: ഒളിവിലായിരുന്ന പ്രതിയെ ആലപ്പുഴയിൽ നിന്ന് പിടികൂടി റോഡിലൂടെ നടത്തി പോലീസ്",
+   "english_headline": "Main accused in police attack case at Vailathur arrested from Alappuzha and paraded by police",
+   "category": "Crime & Safety",
+   "location": "Vailathur, Malappuram district",
+   "importance": "High",
+   "scope": "district",
+   "post_to": "Malappuram 360 (collab: Manjeri 360)",
+   "slides_spec": {
+    "v": 3,
+    "cat": "പ്രതി അറസ്റ്റിൽ",
+    "loc": "വൈലത്തൂർ, മലപ്പുറം",
+    "hl1": "വൈലത്തൂരിൽ പോലീസിനെ ആക്രമിച്ച",
+    "hl2": "പ്രതിയെ പിടിച്ച് റോഡിലൂടെ",
+    "slides": [
+     {
+      "title": "പ്രതി അറസ്റ്റിൽ",
+      "lines": [
+       "പോലീസിനെ ആക്രമിച്ച കേസിൽ പ്രതി പിടിയിൽ",
+       "തിരൂർ സ്വദേശിയായ <b>26</b> വയസ്സുള്ള യുവാവ് അറസ്റ്റിൽ",
+       "ആലപ്പുഴയിൽ നിന്നാണ് പിടികൂടിയത്"
+      ]
+     },
+     {
+      "title": "സംഭവം ഇങ്ങനെ",
+      "lines": [
+       "വൈലത്തൂരിൽ വാഹന പരിശോധനയ്ക്കിടെ ആക്രമണം",
+       "മദ്യപിച്ച് ഹെൽമെറ്റും ലൈസൻസുമില്ലാതെ വാഹനമോടിച്ചു",
+       "തടഞ്ഞ എഎസ്ഐ രാമചന്ദ്രനും പോലീസ് ഉദ്യോഗസ്ഥനും പരിക്ക്"
+      ]
+     },
+     {
+      "title": "പോലീസ് നടപടി",
+      "lines": [
+       "സ്വന്തം വീട്ടിൽ <b>45</b> പവൻ സ്വർണം കവർന്ന കേസിലും പ്രതി",
+       "കുറ്റിപ്പുറത്ത് എംഡിഎംഎ കേസിൽ ഉൾപ്പെട്ടയാൾ",
+       "വിലങ്ങണിയിച്ച് പ്രതിയെ അതേ റോഡിലൂടെ നടത്തി"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "വൈലത്തൂരിൽ പോലീസിനെ ആക്രമിച്ച് ഒളിവിൽപ്പോയ പ്രധാന പ്രതിയെ പോലീസ് പിടികൂടി. തിരൂർ പൂക്കയിൽ സ്വദേശിയായ 26 വയസ്സുള്ള യുവാവിനെ ആലപ്പുഴയിൽ നിന്നാണ് പിടികൂടിയത്. വൈലത്തൂരിൽ വാഹന പരിശോധനയ്ക്കിടെ മദ്യപിച്ച് ഹെൽമെറ്റും ലൈസൻസുമില്ലാതെ വാഹനമോടിച്ച യുവാക്കൾ പോലീസിനെ ആക്രമിക്കുകയായിരുന്നു. ആക്രമണത്തിൽ അസിസ്റ്റന്റ് സബ് ഇൻസ്പെക്ടർ രാമചന്ദ്രനും സീനിയർ സിവിൽ പോലീസ് ഓഫീസർ സുധീഷിനും പരുക്കേറ്റു. ഗുരുതരമായി പരുക്കേറ്റ രാമചന്ദ്രനെ കോട്ടക്കലിലെ സ്വകാര്യ ആശുപത്രിയിൽ പ്രവേശിപ്പിച്ചു. സംഭവദിവസം 22 വയസ്സുള്ള മറ്റൊരു യുവാവിനെ പോലീസ് കസ്റ്റഡിയിലെടുത്തിരുന്നു. സ്വന്തം വീട്ടിൽനിന്ന് 45 പവൻ സ്വർണം മോഷ്ടിച്ച കേസിലും എംഡിഎംഎ കേസിലും പിടികൂടിയയാൾ പ്രതിയാണ്. പ്രതിയെ വിലങ്ങുവച്ച് അക്രമം നടന്ന അതേ റോഡിലൂടെ പോലീസ് നടത്തിച്ചു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🚨 വൈലത്തൂരിൽ പോലീസിനെ ആക്രമിച്ച കേസ്: ഒളിവിലായിരുന്ന പ്രതിയെ ആലപ്പുഴയിൽ നിന്ന് പിടികൂടി റോഡിലൂടെ നടത്തി പോലീസ്\n\n📰 പൂർണ വിവരം:\nമലപ്പുറം വൈലത്തൂരിൽ വാഹന പരിശോധനയ്ക്കിടെ പൊലീസിനെ ആക്രമിച്ച് ഒളിവിൽപ്പോയ പ്രധാന പ്രതിയെ പോലീസ് ആലപ്പുഴയിൽ നിന്ന് പിടികൂടി. തിരൂർ പൂക്കയിൽ കുളങ്ങരകത്ത് 26 വയസ്സുള്ള യുവാവിനെയാണ് പോലീസ് അറസ്റ്റ് ചെയ്തത്. മദ്യലഹരിയിൽ ഹെൽമെറ്റും ലൈസൻസുമില്ലാതെ ഇരുചക്രവാഹനം ഓടിക്കുന്നത് തടഞ്ഞതോടെയാണ് യുവാക്കൾ പോലീസിനെ ആക്രമിച്ചത്. ആക്രമണത്തിൽ അസിസ്റ്റന്റ് സബ് ഇൻസ്പെക്ടർ രാമചന്ദ്രനും സീനിയർ സിവിൽ പോലീസ് ഓഫീസർ സുധീഷിനും പരുക്കേറ്റു. മൂക്കിനും ചുണ്ടിനും ഗുരുതരമായി പരുക്കേറ്റ രാമചന്ദ്രനെ കോട്ടക്കലിലെ സ്വകാര്യ ആശുപത്രിയിൽ പ്രവേശിപ്പിച്ചു. സംഭവത്തിൽ തലക്കടത്തൂർ അരീക്കാട് സ്വദേശിയായ 22 വയസ്സുള്ള യുവാവിനെ സംഭവദിവസം തന്നെ പോലീസ് കസ്റ്റഡിയിലെടുത്തിരുന്നു. സ്വന്തം വീട്ടിൽനിന്ന് 45 പവൻ സ്വർണാഭരണം മോഷ്ടിച്ച കേസിലും കുറ്റിപ്പുറത്തുവച്ച് എംഡിഎംഎ പിടികൂടിയ കേസിലും മുഖ്യപ്രതി പ്രതിയാണ്. യുഎഇയിൽ എംഡിഎംഎ കേസിൽ ഇയാൾ ജയിൽശിക്ഷ അനുഭവിച്ചിട്ടുണ്ടെന്നും പോലീസ് പറഞ്ഞു. പിടികൂടിയ പ്രതിയെ വിലങ്ങുവച്ച് അക്രമം നടന്ന വൈലത്തൂരിലെ റോഡിലൂടെ പോലീസ് നടത്തിച്ചു.\n📍 സ്ഥലം: വൈലത്തൂർ, മലപ്പുറം\n👮 നടപടി: പ്രധാന പ്രതിയെ ആലപ്പുഴയിൽ നിന്ന് അറസ്റ്റ് ചെയ്തു, വിലങ്ങണിയിച്ച് റോഡിലൂടെ നടത്തി\nകൂടുതൽ വിവരങ്ങൾക്ക് Share ചെയ്യൂ\n\nPolice attack case Vailathur Malappuram main accused arrested | Malappuram news\n📍 വൈലത്തൂർ, മലപ്പുറം | 8 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Tirur #Police #MalappuramNews",
+   "prompts": "Kerala Police officers in khaki uniform parade the handcuffed male accused along the main tar road in Vailathur following his arrest. The setting is a typical Malappuram roadside stretch flanked by modest concrete shop fronts, laterite compound walls, and tall coconut palms standing against the sky. Three police officers in crisp khaki uniforms walk closely alongside and behind the male accused, who is seen strictly from behind wearing casual trousers and a shirt with metal handcuffs visible behind his back. A white police jeep with blue and red top beacons is parked on the dusty road shoulder nearby. The scene is illuminated by harsh bright daylight under clear skies. The camera captures a medium eye-level shot using a 35mm lens. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide view of the Vailathur town road stretch establishes the location where police paraded the arrested accused following the attack incident. The broad asphalt road winds through a leafy Malappuram landscape filled with lush green rubber plants, coconut trees, and single-storey commercial buildings with sloping tiled roofs. In the distance, a small squad of Kerala Police officers in khaki uniforms is visible walking with the handcuffed individual along the edge of the tar road. A white police vehicle and an autorickshaw sit parked near the roadside edge. Midday sunlight casts sharp shadows across the dry road surface. The camera is positioned at a high, wide 35mm angle from a distance. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up photograph focuses on the heavy metallic handcuffs fastened tightly around the wrists of the arrested accused as he is walked along the Vailathur road. Only the hands of the accused and the khaki-uniformed sleeve of a Kerala Police officer guiding him are captured in frame, with no faces visible. The blurred background reveals the textured dark asphalt surface of the rural Malappuram street and the edge of a police trouser leg in motion. Strong direct sunlight glints off the polished steel surface of the restraints. The shot is taken with a tight 35mm macro lens at a low angle. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.manoramaonline.com/news/latest-news/2026/11/08/man-arrested-for-assaulting-asi-malappuram.html",
+   "published": "2026-11-08T10:25:22+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet",
+   "note": "free-model draft gemini/gemini-3.6-flash, 4 attempt(s), 0 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 13.0,
+   "images": [
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794126511/news360/okro2ku1chjrfwh0oq6v.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794126648/news360/jchfqodsxvrhzscknb0e.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794126555/news360/zrox5jh3zkhaxovelbaw.jpg"
+   ]
+  },
+  {
+   "malayalam_headline": "മലപ്പുറത്ത് 4 പേർക്കു കൂടി ഷിഗെല്ല സ്ഥിരീകരിച്ചു; രോഗബാധിതർ 7 ആയി",
+   "english_headline": "Shigella confirmed in 4 more people in Malappuram; total cases reach 7",
+   "category": "Health",
+   "location": "Elamkulam, Perinthalmanna taluk, Malappuram district",
+   "importance": "High",
+   "scope": "district",
+   "post_to": "Malappuram 360 (collab: Manjeri 360)",
+   "slides_spec": {
+    "v": 3,
+    "cat": "ആരോഗ്യ വാർത്ത",
+    "loc": "ഏലംകുളം, മലപ്പുറം",
+    "hl1": "മലപ്പുറത്ത് 4 പേർക്കു കൂടി ഷിഗെല്ല",
+    "hl2": "ആകെ രോഗബാധിതർ 7 ആയി",
+    "slides": [
+     {
+      "title": "രോഗബാധ",
+      "lines": [
+       "<b>ഏലംകുളത്ത്</b> 4 പേർക്ക് ഷിഗെല്ല",
+       "2 കുട്ടികൾക്കും 2 മുതിർന്നവർക്കും",
+       "ജില്ലയിൽ ആകെ രോഗികൾ <b>7</b> ആയി"
+      ]
+     },
+     {
+      "title": "രോഗകാരണം",
+      "lines": [
+       "<b>ഒക്ടോബർ 31ലെ</b> വിവാഹച്ചടങ്ങ്",
+       "<b>114</b> പേർക്ക് രോഗലക്ഷണങ്ങൾ",
+       "സാമ്പിളുകൾ പരിശോധനയ്ക്ക് അയച്ചു"
+      ]
+     },
+     {
+      "title": "ആശുപത്രിയിൽ",
+      "lines": [
+       "<b>പെരിന്തൽമണ്ണ താലൂക്ക് ആശുപത്രിയിൽ</b> പ്രവേശിപ്പിച്ചു",
+       "എല്ലാവരുടെയും ആരോഗ്യനില തൃപ്തികരം",
+       "ആരോഗ്യവകുപ്പ് ജാഗ്രത ശക്തമാക്കി"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "മലപ്പുറം ജില്ലയിൽ 4 പേർക്കു കൂടി ഷിഗെല്ല രോഗബാധ സ്ഥിരീകരിച്ചു. ഏലംകുളം പഞ്ചായത്തിലെ 2 കുട്ടികൾക്കും 2 മുതിർന്നവർക്കുമാണ് പുതുതായി രോഗം കണ്ടെത്തിയത്. ഇതോടെ ജില്ലയിൽ ആകെ ഷിഗെല്ല ബാധിച്ചവരുടെ എണ്ണം 7 ആയി. ഒക്ടോബർ 31ന് ഏലംകുളത്ത് നടന്ന വിവാഹച്ചടങ്ങിൽ പങ്കെടുത്ത 114 പേർക്കാണ് രോഗലക്ഷണങ്ങൾ കണ്ടത്. തുടർന്ന് ഇവരുടെ സാമ്പിളുകൾ വിദഗ്ധ പരിശോധനയ്ക്കായി അയക്കുകയായിരുന്നു. ഇതിനിടെ രോഗം സ്ഥിരീകരിച്ചവരെ പെരിന്തൽമണ്ണ താലൂക്ക് ആശുപത്രിയിൽ പ്രവേശിപ്പിച്ചു. നിലവിൽ ഇവരുടെ ആരോഗ്യനില തൃപ്തികരമാണെന്ന് അധികൃതർ വ്യക്തമാക്കി. പ്രദേശത്ത് ആശങ്കപ്പെടേണ്ട സാഹചര്യമില്ലെങ്കിലും ആരോഗ്യവകുപ്പ് ജാഗ്രത ശക്തമാക്കിയിട്ടുണ്ട്. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🦠 മലപ്പുറത്ത് 4 പേർക്കു കൂടി ഷിഗെല്ല സ്ഥിരീകരിച്ചു; ആകെ രോഗബാധിതർ 7 ആയി\n\n📰 പൂർണ വിവരം:\nമലപ്പുറം ജില്ലയിലെ ഏലംകുളം പഞ്ചായത്തിൽ 2 കുട്ടികൾക്കും 2 മുതിർന്നവർക്കുമാണ് പുതുതായി ഷിഗെല്ല രോഗബാധ സ്ഥിരീകരിച്ചത്. ഇതോടെ ജില്ലയിൽ ഷിഗെല്ല ബാധിച്ചവരുടെ എണ്ണം 7 ആയി. ഒക്ടോബർ 31ന് ഏലംകുളത്ത് നടന്ന വിവാഹച്ചടങ്ങിൽ പങ്കെടുത്ത 114 പേർക്കാണ് രോഗലക്ഷണങ്ങൾ കണ്ടെത്തിയത്. ഇവരുടെ സാമ്പിളുകൾ പരിശോധനയ്ക്കായി അയച്ചിരിക്കുകയാണ്. രോഗം സ്ഥിരീകരിച്ചവരെ പെരിന്തൽമണ്ണ താലൂക്ക് ആശുപത്രിയിൽ പ്രവേശിപ്പിച്ചു. ഇവരുടെ ആരോഗ്യനില തൃപ്തികരമാണെന്ന് അധികൃതർ അറിയിച്ചു. നിലവിൽ ആശങ്കപ്പെടേണ്ട സാഹചര്യമില്ലെങ്കിലും ആരോഗ്യവകുപ്പ് ജാഗ്രത ശക്തമാക്കിയിട്ടുണ്ട്.\n\n📍 സ്ഥലം: ഏലംകുളം പഞ്ചായത്ത്, പെരിന്തൽമണ്ണ\n🗓️ വിവാഹച്ചടങ്ങ്: ഒക്ടോബർ 31\n🏥 ആശുപത്രി: പെരിന്തൽമണ്ണ താലൂക്ക് ആശുപത്രി\nℹ️ ശ്രദ്ധിക്കുക: ആരോഗ്യവകുപ്പ് ജാഗ്രതാ നടപടികൾ ശക്തമാക്കി\n\nശ്രദ്ധിക്കേണ്ടവർക്കായി Share ചെയ്യൂ\n\nShigella confirmed in 4 more people in Malappuram | Malappuram news\n📍 ഏലംകുളം, മലപ്പുറം | 8 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Perinthalmanna #Health #MalappuramNews",
+   "prompts": "Health department workers collect water samples from a residential open well in Elamkulam village following the confirmation of four new Shigella cases. The location is a rural residential plot in Elamkulam panchayat, surrounded by tall coconut palms, areca nut trees, and a weathered laterite compound wall. Two female health staff wearing light blue coats, facemasks, and surgical gloves carefully lower a sampling container into the well mouth, while two village residents in churidar and shirt-mundu watch from behind. A white government inspection jeep is parked on the narrow tar road in the background. Bright daytime light illuminates the green rural backdrop. Eye-level shot, 35mm lens, focusing on the water collection process. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nPerinthalmanna Taluk Hospital compound stands quiet as four newly confirmed Shigella patients receive medical treatment inside the wards. The location is the government hospital exterior in Perinthalmanna town, featuring a multi-storey whitewashed concrete structure with sloping terracotta roofs and rain-streaked exterior pillars. Two hospital workers in green scrubs walk along the covered veranda seen from behind, while a white ambulance with blue emergency lights remains parked in the paved driveway. Diffused afternoon daylight under an overcast sky lights up the serene medical campus. Wide establishing shot, 35mm lens, showing the full hospital building and clean surroundings. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of clear glass water sampling vials and chlorine tablet strips used by health teams for preventive measures in Elamkulam panchayat. The setup is arranged on a plain wooden table inside a local health center office. A pair of rubber-gloved hands sets a stoppered test tube containing well water into a metal specimen rack beside foil packs of water purification tablets and blue sample caps. No faces, text, or readable labels are visible on any object. Soft daylight streams through a side window, highlighting the glass and rubber textures. Close-up macro shot, 35mm lens, sharp focus on the water safety equipment. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.mediaoneonline.com/kerala/shigella-spreads-in-malappuram-343068",
+   "published": "2026-11-08T11:14:32+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash + proofread gemini/gemini-3.6-flash) - not checked by Claude yet",
+   "note": "free-model draft gemini/gemini-3.6-flash + proofread gemini/gemini-3.6-flash, 1 attempt(s), 0 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 4.0,
+   "auto_images": true
+  }
+ ]
 }
