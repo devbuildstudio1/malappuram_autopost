@@ -14,27 +14,28 @@
   "NOT filed (N) Shigella Outbreak Reported Again in Malappuram; 11: all free models failed: no usable answer from the models",
   "try (N) manual=False: വെന്നിയൂരിൽ തണ്ണീർത്തടം മണ്ണിട്ട് നികത്തുന്നത് തടയണം: കർഷകസം",
   "NOT filed (N) വെന്നിയൂരിൽ തണ്ണീർത്തടം മണ്ണിട്ട് നികത്തുന്നത് തടയ: all free models failed: no usable answer from the models",
-  "NOT filed (N) മലപ്പുറത്ത് മൈജി ഫ്യൂച്ചർ ഷോറൂം; ഉദ്ഘാടനം നിർവഹിച്: bad draft: 'scenes'",
-  "NOT filed (R) അബു അരീക്കോടിന്റെ ഓർമ ദിനത്തിൽ സഹപാഠിയുടെ കുറിപ്പ്: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 2, 'N': 3}, done={'R': 0, 'N': 0}, time left 28 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
-  "queue: 5 news waiting to be written",
+  "NOT filed (N) മലപ്പുറത്ത് മൈജി ഫ്യൂച്ചർ ഷോറൂം; ഉദ്ഘാടനം നിർവഹിച്: all free models failed: no usable answer from the models",
+  "auto images failed for 'Classmate Shabeel remembers Abu Areekode': all image models failed: all image models failed: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed ou -> images-needed email",
+  "auto images: 0 of 1 stories ({})",
+  "posting job started at once",
+  "candidate loop ended: left R=0 N=0, tried={'R': 2, 'N': 3}, done={'R': 1, 'N': 0}, time left 24 min",
+  "carousel for 0 of 1 stories, the rest reel only",
+  "filed: 1 Manjeri + 0 Malappuram (targets 200 + 200)",
+  "queue: 4 news waiting to be written",
+  "write_stories.yml started",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":5}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.8-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.8-flash",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.8-flash",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.8-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.7-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
@@ -43,27 +44,94 @@
   "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "dead for this round: groq/openai/gpt-oss-120b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
   "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
   "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "ok groq/openai/gpt-oss-120b (7s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "dead for this round: groq/openai/gpt-oss-120b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_gener",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
+  "ok gemini/gemini-3.6-flash (16s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "ok groq/qwen/qwen3.8-27b (4s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
-  "fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.7-flash",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6"
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "അബു അരീക്കോടിന്റെ ഒന്നാം ചരമവാർഷികത്തിൽ ഹൃദയസ്പർശിയായ ഓർമക്കുറിപ്പുമായി സഹപാഠി",
+   "english_headline": "Classmate Shabeel remembers Abu Areekode on his first death anniversary with emotional post",
+   "category": "Education",
+   "location": "Areekode, Malappuram district",
+   "importance": "Medium",
+   "scope": "local",
+   "post_to": "Manjeri 360 (collab: Malappuram 360)",
+   "slides_spec": {
+    "v": 3,
+    "cat": "ഓർമക്കുറിപ്പ്",
+    "loc": "അരീക്കോട്, മലപ്പുറം",
+    "hl1": "അബു അരീക്കോടിന് ഓർമപ്പൂക്കൾ",
+    "hl2": "സഹപാഠിയുടെ കുറിപ്പ്",
+    "slides": [
+     {
+      "title": "ഓർമക്കുറിപ്പ്",
+      "lines": [
+       "അബു അരീക്കോടിന്റെ <b>ഒന്നാം</b> ചരമവാർഷികം",
+       "സഹപാഠി ഷബീൽ ഇൻസ്റ്റഗ്രാമിൽ കുറിപ്പിട്ടു",
+       "ഹൃദയസ്പർശിയായ ഓർമകൾ പങ്കുവെച്ചു"
+      ]
+     },
+     {
+      "title": "ആരായിരുന്നു അബു?",
+      "lines": [
+       "മർകസ് ലോ കോളജ് <b>3-ം</b> വർഷ നിയമ വിദ്യാർഥി",
+       "അരീക്കോട് വി.സി. അബൂബക്കർ (<b>24</b>)",
+       "ഡിവൈഎഫ്ഐ അരീക്കോട് മേഖലാ ഭാരവാഹി"
+      ]
+     },
+     {
+      "title": "സംഭവം",
+      "lines": [
+       "<b>2025 നവംബർ 8-ന്</b> പുതുപ്പാടിയിൽ മരിച്ച നിലയിൽ",
+       "ഓൺലൈൻ ലോൺ ആപ്പ് ഭീഷണിയെന്ന് സംശയം",
+       "കോടഞ്ചേരി പോലീസ് കേസെടുത്തിരുന്നു"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "അബു അരീക്കോടിന്റെ ഒന്നാം ചരമവാർഷികത്തിൽ വൈകാരിക ഓർമക്കുറിപ്പുമായി സഹപാഠി ഷബീൽ മുഹമ്മദ്. താമരശ്ശേരി മർകസ് ലോ കോളജിലെ 3ം വർഷ നിയമ വിദ്യാർഥിയായിരുന്നു അരീക്കോട് സ്വദേശിയായ 24 വയസ്സുള്ള വി സി അബൂബക്കർ എന്ന അബു. കഴിഞ്ഞ വർഷം നവംബർ 8നാണ് കോഴിക്കോട് പുതുപ്പാടിയിലെ താമസസ്ഥലത്ത് അബുവിനെ മരിച്ച നിലയിൽ കണ്ടെത്തിയത്. ഡിവൈഎഫ്ഐ അരീക്കോട് മേഖലാ ഭാരവാഹിയും സിപിഎം ബ്രാഞ്ച് അംഗവുമായിരുന്നു. ഓൺലൈൻ ലോൺ ആപ്പുകളുടെ ഭീഷണിയും സാമ്പത്തിക ബാധ്യതയുമാണ് മരണത്തിലേക്ക് നയിച്ചതെന്ന് സംശയമുയർന്നിരുന്നു. സംഭവത്തിൽ കോടഞ്ചേരി പോലീസ് അസ്വാഭാവിക മരണത്തിന് കേസെടുത്തിരുന്നു. ഒന്നിച്ച് പഠിച്ചതും താമസിച്ചതുമായ ഓർമകൾ പങ്കുവെച്ചാണ് ഷബീൽ ഇൻസ്റ്റഗ്രാമിൽ കുറിപ്പ് പങ്കുവെച്ചത്. എല്ലാവരെയും ചേർത്തുനിർത്തിയ അബുവിന്റെ വിയോഗം ഉണ്ടാക്കിയ ശൂന്യതയെക്കുറിച്ചാണ് കുറിപ്പിൽ പറയുന്നത്. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "📱 അബു അരീക്കോടിന്റെ ഒന്നാം ചരമവാർഷികത്തിൽ ഹൃദയസ്പർശിയായ ഓർമക്കുറിപ്പുമായി സഹപാഠി ഷബീൽ മുഹമ്മദ്\n\n📰 പൂർണ വിവരം:\nസമൂഹമാധ്യമങ്ങളിൽ സജീവമായിരുന്ന നിയമവിദ്യാർഥി അബു അരീക്കോടിന്റെ ഒന്നാം ചരമവാർഷികത്തിൽ ക്ലാസ്മേറ്റും അടുത്ത സുഹൃത്തുമായിരുന്ന ഷബീൽ ഇൻസ്റ്റഗ്രാമിൽ ഓർമക്കുറിപ്പ് പങ്കുവെച്ചു. താമരശ്ശേരി കൈതപ്പൊയിൽ മർകസ് ലോ കോളജിലെ 3-ം വർഷ നിയമ വിദ്യാർഥിയായിരുന്ന അരീക്കോട് സ്വദേശി വി.സി. അബൂബക്കർ എന്ന അബു അരീക്കോടിനെ (24 വയസ്സ്) കഴിഞ്ഞ വർഷം നവംബർ 8നാണ് കോഴിക്കോട് പുതുപ്പാടിയിലെ താമസസ്ഥലത്ത് മരിച്ച നിലയിൽ കണ്ടെത്തിയത്. ഡിവൈഎഫ്ഐ അരീക്കോട് മേഖലാ ഭാരവാഹിയും സിപിഎം കാരിപ്പറമ്പ് ബ്രാഞ്ച് അംഗവുമായിരുന്നു അബു. സാമ്പത്തിക ബാധ്യതകളും ഓൺലൈൻ ലോൺ ആപ്പുകളുടെ ഭീഷണിയുമാണോ മരണത്തിലേക്ക് നയിച്ചതെന്ന സംശയത്തെ തുടർന്ന് കോടഞ്ചേരി പോലീസ് കേസെടുത്തിരുന്നു. കോളജിലെ സൗഹൃദവും ഒരുമിച്ച് താമസിച്ച ദിവസങ്ങളും വിവരിക്കുന്നതാണ് ഷബീലിന്റെ ഓർമക്കുറിപ്പ്.\n📍 സ്ഥലം: അരീക്കോട്, മലപ്പുറം\n🗓️ തീയതി: നവംബർ 8\n👮 നടപടി: കോടഞ്ചേരി പോലീസ് കേസെടുത്തിരുന്നു\nഓർമകൾ പങ്കുവെക്കാൻ Share ചെയ്യൂ\n\nAbu Areekode death anniversary classmate Shabeel remembrance note | Malappuram news\n📍 അരീക്കോട്, മലപ്പുറം | 08 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Areekode #Manjeri #MalappuramNews",
+   "prompts": "A peaceful view of Areekode town near the Chaliyar river in Malappuram district under soft daytime lighting, rubber plantations and lush green hills in the background. Soft warm color grade. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nExterior view of a college campus building surrounded by tropical greenery in Kaithapoyil Kozhikode, quiet verandah with soft afternoon light. Same warm lighting. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA student study room with textbooks, a wooden table, and notebooks neatly kept near a window overlooking coconut trees in Kerala. Soft interior lighting. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA quiet village road in Kozhikode district with trees on both sides and distant blue hills, silent morning ambiance. Soft warm color grade. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.madhyamam.com/amp/kerala/classmates-emotional-note-on-abu-areekodes-death-anniversary-1570390",
+   "published": "2026-11-08T17:43:44+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: reel_script has 84 words; need 85-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block); numbers not found in the article: 08, 2025; stray Malayalam sign 'ാ' after '3' in «ജിലെ 3ാം വ»; stray Malayalam sign 'ാ' after '-' in «ിലെ 3-ാം വ»",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 4 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "R",
+   "_score": 3.0,
+   "auto_images": true
+  }
+ ]
 }
