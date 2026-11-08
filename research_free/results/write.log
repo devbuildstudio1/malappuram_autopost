@@ -1,11 +1,11 @@
-writing [N]: ആൽക്കൽമണ്ണ ധന്വന്തരി; ആയുരാരോഗ്യങ്ങളുടെ ദേവൻ
 writing [N]: ഭരണഘടനയെ മാനിക്കാത്ത അധികാരപ്രയോഗങ്ങൾ ദേശീയ സമരങ്ങൾക്ക് വഴിത
+writing [N]: ജൂനാ അഖാഡ മഹാമാഘ മഹോത്സവം: സംഘാടകസമിതിയായി
 writing [N]: ഇന്ദിരാജി കർമശേഷി പുരസ്കാരം സമ്മാനിച്ചു
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
@@ -22,110 +22,105 @@ fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgphKa9jTbtCnHqrhjVPu"}
-writing [N]: ജൂനാ അഖാഡ മഹാമാഘ മഹോത്സവം: സംഘാടകസമിതിയായി
-free models unavailable: free models not efficient (17 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgphKbHw4DGUBYmhq63oz"}
-writing [N]: തിരുനാവായ കുംഭമേള: ഇരു വിഭാഗങ്ങളുമായി ആർ.ഡി.ഒയുടെ നേതൃത്വത്ത
-free models unavailable: free models not efficient (17 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgphKhSXzVXEbDyLXmbw2"}
-writing [N]: അബുദബിയിൽ ജയിൽവാസം, സ്വന്തം വീട്ടിൽ നിന്ന് 40 പവന്റെ മോഷണം; 
-free models unavailable: free models not efficient (17 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgphKiJNS18GZkXxJpXwG"}
-writing [N]: 'പൂക്കി സർക്കാർ അധികാരമേറ്റ ശേഷം സത്യസന്ധതക്ക് പേരുകേട്ട ഉദ്
-free models unavailable: free models not efficient (17 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgphKjLczcfwyqcBop7Mb"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgphLWrpHbFwgnfqh3kda"}
-ok gemini/gemini-3.6-flash (40s)
+ok gemini/gemini-3.6-flash (16s)
 attempt 1 gemini/gemini-3.6-flash: 3 problems
-  reel_script has 57 words; need 85-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 08
-  not grounded: location 'അങ്ങാടിപ്പുറം' is not in the article
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgphME4o26Wqs5shZpvhE"}
+  numbers not found in the article: 08, 50
+  letters of another script inside Malayalam words: प र ि - write every word only in Malayalam letters
+  known issue foreign_script: card has letters of another script (परि) - rewrite so it does not happen again
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-proofread skipped: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6fxrnxae4nt2p749ssm50dy` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1514. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
-
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+dead for this round: groq/openai/gpt-oss-120b
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgphpHb8yoRTFX6fHJFFF"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgphpHhL4rj8q6ouPQGQr"}
+proofread skipped: free models not efficient (3 failures in a row): using Claude
 image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
 image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
 imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+writing [N]: തിരുനാവായ കുംഭമേള: ഇരു വിഭാഗങ്ങളുമായി ആർ.ഡി.ഒയുടെ നേതൃത്വത്ത
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgphpPwNwB2usP5AjrDUK"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgphpte2bhhHJBHBtU2PS"}
 imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150) 504 timeout
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-images NOT made for 'Alkalmanna Dhanwanthari Award to be pres': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
-bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261108-0822","first":"MP-56"}
+images NOT made for 'Indiraji Karmaseshi Puraskaram presented': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
+bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261108-0827","first":"MP-57"}
 posting job started at once
+writing [N]: അബുദബിയിൽ ജയിൽവാസം, സ്വന്തം വീട്ടിൽ നിന്ന് 40 പവന്റെ മോഷണം; 
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+writing [N]: 'പൂക്കി സർക്കാർ അധികാരമേറ്റ ശേഷം സത്യസന്ധതക്ക് പേരുകേട്ട ഉദ്
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgpiBWnUEAraFnd25WeaX"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgpiBWsvN8dXpWbq2ujZN"}
 write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 23 recent posts read from both pages
-write round: 7 news waiting in the queue (written in priority order)
-candidate filter: collected=7
-to write: 0 Manjeri + 7 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 7 Malappuram; time left 29 min
+write round: 6 news waiting in the queue (written in priority order)
+candidate filter: collected=6
+to write: 0 Manjeri + 6 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 6 Malappuram; time left 29 min
 try (N) manual=False: ഇന്ദിരാജി കർമശേഷി പുരസ്കാരം സമ്മാനിച്ചു
 try (N) manual=False: ഭരണഘടനയെ മാനിക്കാത്ത അധികാരപ്രയോഗങ്ങൾ ദേശീയ സമരങ്ങൾക്ക് വഴിത
-try (N) manual=False: ആൽക്കൽമണ്ണ ധന്വന്തരി; ആയുരാരോഗ്യങ്ങളുടെ ദേവൻ
-NOT filed (N) ഇന്ദിരാജി കർമശേഷി പുരസ്കാരം സമ്മാനിച്ചു: all free models failed: no usable answer from the models
 try (N) manual=False: ജൂനാ അഖാഡ മഹാമാഘ മഹോത്സവം: സംഘാടകസമിതിയായി
 NOT filed (N) ജൂനാ അഖാഡ മഹാമാഘ മഹോത്സവം: സംഘാടകസമിതിയായി: all free models failed: no usable answer from the models
 try (N) manual=False: തിരുനാവായ കുംഭമേള: ഇരു വിഭാഗങ്ങളുമായി ആർ.ഡി.ഒയുടെ നേതൃത്വത്ത
-NOT filed (N) തിരുനാവായ കുംഭമേള: ഇരു വിഭാഗങ്ങളുമായി ആർ.ഡി.ഒയുടെ : all free models failed: no usable answer from the models
-try (N) manual=False: അബുദബിയിൽ ജയിൽവാസം, സ്വന്തം വീട്ടിൽ നിന്ന് 40 പവന്റെ മോഷണം; 
-NOT filed (N) അബുദബിയിൽ ജയിൽവാസം, സ്വന്തം വീട്ടിൽ നിന്ന് 40 പവന്: all free models failed: no usable answer from the models
-try (N) manual=False: 'പൂക്കി സർക്കാർ അധികാരമേറ്റ ശേഷം സത്യസന്ധതക്ക് പേരുകേട്ട ഉദ്
-NOT filed (N) 'പൂക്കി സർക്കാർ അധികാരമേറ്റ ശേഷം സത്യസന്ധതക്ക് പേര: all free models failed: no usable answer from the models
-NOT filed (N) ഭരണഘടനയെ മാനിക്കാത്ത അധികാരപ്രയോഗങ്ങൾ ദേശീയ സമരങ്ങ: all free models failed: no usable answer from the models
-auto images failed for 'Alkalmanna Dhanwanthari Award to be pres': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email
+auto images failed for 'Indiraji Karmaseshi Puraskaram presented': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email
 auto images: 0 of 1 stories ({})
 posting job started at once
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 7}, done={'R': 0, 'N': 1}, time left 22 min
+try (N) manual=False: അബുദബിയിൽ ജയിൽവാസം, സ്വന്തം വീട്ടിൽ നിന്ന് 40 പവന്റെ മോഷണം; 
+NOT filed (N) ഭരണഘടനയെ മാനിക്കാത്ത അധികാരപ്രയോഗങ്ങൾ ദേശീയ സമരങ്ങ: all free models failed: no usable answer from the models
+NOT filed (N) തിരുനാവായ കുംഭമേള: ഇരു വിഭാഗങ്ങളുമായി ആർ.ഡി.ഒയുടെ : all free models failed: no usable answer from the models
+try (N) manual=False: 'പൂക്കി സർക്കാർ അധികാരമേറ്റ ശേഷം സത്യസന്ധതക്ക് പേരുകേട്ട ഉദ്
+NOT filed (N) അബുദബിയിൽ ജയിൽവാസം, സ്വന്തം വീട്ടിൽ നിന്ന് 40 പവന്: all free models failed: no usable answer from the models
+NOT filed (N) 'പൂക്കി സർക്കാർ അധികാരമേറ്റ ശേഷം സത്യസന്ധതക്ക് പേര: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 6}, done={'R': 0, 'N': 1}, time left 24 min
 carousel for 0 of 1 stories, the rest reel only
 filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)
-queue: 6 news waiting to be written
+queue: 5 news waiting to be written
 write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":7} 
+All News sheet: {"ok":true,"added":0,"updated":6} 
 stories: 1
