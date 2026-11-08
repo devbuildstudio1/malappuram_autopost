@@ -3,48 +3,101 @@
   "earlier stories still waiting for images: []",
   "instagram check: 28 recent posts read from both pages",
   "write round: 2 news waiting in the queue (written in priority order)",
-  "candidate filter: collected=2",
-  "to write: 1 Manjeri + 1 other district candidates (max 200 + 200 stories)",
-  "candidates waiting: 1 Manjeri, 1 Malappuram; time left 29 min",
+  "candidate filter: collected=1, old=1",
+  "to write: 1 Manjeri + 0 other district candidates (max 200 + 200 stories)",
+  "candidates waiting: 1 Manjeri, 0 Malappuram; time left 29 min",
   "try (R) manual=False: മഞ്ചേരി ബോയ്സ് ഗ്രൗണ്ട് മുതൽ ചേളാരി മൊബൈൽ ടവർ വരെ! ഇൻസ്റ്റയി",
-  "try (N) manual=False: വെന്നിയൂരിൽ തണ്ണീർത്തടം മണ്ണിട്ട് നികത്തുന്നത് തടയണം: കർഷകസം",
-  "NOT filed (N) വെന്നിയൂരിൽ തണ്ണീർത്തടം മണ്ണിട്ട് നികത്തുന്നത് തടയ: all free models failed: no usable answer from the models",
-  "NOT filed (R) മഞ്ചേരി ബോയ്സ് ഗ്രൗണ്ട് മുതൽ ചേളാരി മൊബൈൽ ടവർ വരെ!: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 1}, done={'R': 0, 'N': 0}, time left 29 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
-  "queue: 2 news waiting to be written",
-  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":2}"
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux.1-dev': 5})",
+  "posting job started at once",
+  "candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 0}, done={'R': 1, 'N': 0}, time left 25 min",
+  "carousel for 0 of 1 stories, the rest reel only",
+  "filed: 1 Manjeri + 0 Malappuram (targets 200 + 200)",
+  "queue: 0 news waiting to be written",
+  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":1}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
+  "ok gemini/gemini-3.6-flash (16s)",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "dead for this round: groq/openai/gpt-oss-120b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
   "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
   "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "dead for this round: groq/openai/gpt-oss-120b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min"
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "ഇൻസ്റ്റഗ്രാമിൽ തരംഗമായി മലപ്പുറം ലൊക്കേഷൻ ട്രെൻഡ്; വിദേശ കാഴ്ചകൾക്ക് നാട്ടുപേരുകൾ നൽകി സോഷ്യൽ മീഡിയ",
+   "english_headline": "Malappuram location meme trend goes viral on Instagram with local place name captions",
+   "category": "Social Media",
+   "location": "Malappuram district",
+   "importance": "Low",
+   "scope": "district",
+   "post_to": "Manjeri 360 (collab: Malappuram 360)",
+   "slides_spec": {
+    "v": 3,
+    "cat": "സോഷ്യൽ മീഡിയ",
+    "loc": "മലപ്പുറം",
+    "hl1": "ഇൻസ്റ്റയിൽ മലപ്പുറം ലൊക്കേഷൻ ട്രെൻഡ്",
+    "hl2": "കാഴ്ചകൾക്ക് നാട്ടുപേര്!",
+    "slides": [
+     {
+      "title": "എന്താണ് ട്രെൻഡ്?",
+      "lines": [
+       "വിദേശ വീഡിയോകൾക്ക് നാട്ടുപേര് നൽകുന്നു",
+       "<b>12 km from Malappuram</b> എന്ന് ക്യാപ്ഷൻ",
+       "കാഴ്ചക്കാരിൽ കൗതുകം വളർത്തുന്ന ട്രെൻഡ്"
+      ]
+     },
+     {
+      "title": "പ്രധാന ലൊക്കേഷനുകൾ",
+      "lines": [
+       "വിദേശ പാലങ്ങൾക്ക് <b>അങ്ങാടിപ്പുറം പാലം</b>",
+       "എയർപോർട്ട് ദൃശ്യത്തിന് <b>കരിപ്പൂർ എയർപോർട്ട്</b>",
+       "കുന്നംപുറം ഗേറ്റ്, പരപ്പനങ്ങാടി പേരുകളും"
+      ]
+     },
+     {
+      "title": "വൈറലായി കമന്റുകൾ",
+      "lines": [
+       "വീഡിയോകൾക്ക് താഴെ തമാശ നിറഞ്ഞ കമന്റുകൾ",
+       "സ്വന്തം നാടിനോടുള്ള അടുപ്പവും തമാശയും",
+       "സോഷ്യൽ മീഡിയയിൽ തരംഗമായി വൈറൽ പോസ്റ്റുകൾ"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "ഇൻസ്റ്റഗ്രാമിൽ മലപ്പുറത്തെ സ്ഥലങ്ങളുടെ പേരിൽ പുതിയ ലൊക്കേഷൻ ട്രെൻഡ് തരംഗമാകുന്നു. വിദേശ രാജ്യങ്ങളിലെയും മറ്റു സംസ്ഥാനങ്ങളിലെയും മനോഹര കാഴ്ചകൾക്ക് മലപ്പുറത്തെ നാട്ടുപേരുകൾ നൽകുന്നതാണ് ഈ രീതി. 12 കിലോമീറ്റർ ഫ്രം മലപ്പുറം എന്നും നിയർ കോഴിക്കോട് എന്നും ക്യാപ്ഷനുകൾ നൽകുന്നു. വിദേശ പാലങ്ങൾക്ക് അങ്ങാടിപ്പുറം പാലമെന്നും വിമാനത്താവളങ്ങൾക്ക് കരിപ്പൂർ ഇന്റർനാഷണൽ എയർപോർട്ട് എന്നും പേരിടുന്നു. കുന്നംപുറം ഗേറ്റ്, പരപ്പനങ്ങാടി എന്നീ പേരുകളും ദൃശ്യങ്ങൾക്ക് നൽകുന്നുണ്ട്. ആദ്യ കാഴ്ചയിൽ അത്ഭുതം തോന്നുമെങ്കിലും കമന്റ് ബോക്സ് തുറക്കുമ്പോഴാണ് തമാശ മനസ്സിലാകുന്നത്. സ്വന്തം നാടിനോടുള്ള സ്നേഹവും തമാശയും ചേർത്തുവെക്കുന്ന കമന്റുകളാണ് പോസ്റ്റുകളിൽ വരുന്നത്. സോഷ്യൽ മീഡിയയിൽ വലിയ രീതിയിലുള്ള ശ്രദ്ധയാണ് ഈ ട്രെൻഡിന് ലഭിക്കുന്നത്. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "📱 ഇൻസ്റ്റഗ്രാമിൽ തരംഗമായി മലപ്പുറം ലൊക്കേഷൻ ട്രെൻഡ്; വിദേശ കാഴ്ചകൾക്ക് നാട്ടുപേരുകൾ!\n\n📰 പൂർണ വിവരം:\nഇൻസ്റ്റഗ്രാമിൽ ശ്രദ്ധ നേടി പുതിയ ലൊക്കേഷൻ ട്രെൻഡ്. വിദേശരാജ്യങ്ങളിലെയും മറ്റു സംസ്ഥാനങ്ങളിലെയും മനോഹരമായ കാഴ്ചകൾക്ക് മലപ്പുറത്തെയും കേരളത്തിലെയും സ്ഥലങ്ങളുടെ പേരുകൾ നൽകിയാണ് ഈ ട്രെൻഡ് വൈറലാകുന്നത്. 12 കിലോമീറ്റർ ഫ്രം മലപ്പുറം, നിയർ കോഴിക്കോട് തുടങ്ങിയ ക്യാപ്ഷനുകളാണ് പോസ്റ്റുകളിൽ നൽകുന്നത്. വിദേശത്തെ പാലങ്ങൾക്ക് അങ്ങാടിപ്പുറം പാലമെന്നും വിമാനത്താവളങ്ങൾക്ക് കരിപ്പൂർ ഇന്റർനാഷണൽ എയർപോർട്ട് എന്നും പേരുനൽകുന്നു. കൂടാതെ കുന്നംപുറം ഗേറ്റ്, പരപ്പനങ്ങാടി എന്നീ പേരുകളും തമാശയായി നൽകുന്നുണ്ട്. കമന്റ് ബോക്സുകളിലാണ് കൂടുതൽ ആൾക്കാരും ഇത്തരം തമാശകൾ പങ്കുവെക്കുന്നത്.\n📍 വിഷയം: ഇൻസ്റ്റഗ്രാം ലൊക്കേഷൻ ട്രെൻഡ്\nℹ️ വിവരങ്ങൾ: വിദേശ ദൃശ്യങ്ങൾക്ക് മലപ്പുറത്തെ നാട്ടുപേരുകൾ നൽകുന്ന മീം ട്രെൻഡ്\nകൂട്ടുകാർക്ക് Share ചെയ്യൂ\n\nMalappuram location trend viral on Instagram | Malappuram social media news\n📍 മലപ്പുറം | 09 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #SocialMedia #Trend #MalappuramNews",
+   "prompts": "A hand holding a smartphone in outdoor daytime light in Malappuram, displaying an Instagram video reel with nature scenery and Malayalam comments scrolling underneath. Warm natural daylight across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA perspective view of Angadipuram bridge in Malappuram district with vehicles driving across on a sunny day. Warm natural daylight across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nThe entrance road and terminal building exterior of Karipur International Airport near Calicut, Malappuram with palm trees around. Warm natural daylight across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nTwo young Malayali friends sitting together outdoors on a concrete bench in Malappuram, smiling while looking at a mobile phone screen held between them, seen from a side angle. Warm natural daylight across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.mediaoneonline.com/viral/social-mediafake-location-troll-trend-instagram-reels-malappuram-kozhikode-captions-343117",
+   "published": "2026-11-08T19:21:14+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: reel_script has 79 words; need 85-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block); numbers not found in the article: 09",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 2 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "R",
+   "_score": 3.0,
+   "images": [
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794163525/news360/rmn4xlr9737c3xwabvlk.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794163604/news360/gjl21nmpsdhcmd3stome.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794163560/news360/gmg6f6gfn5iewjemuvsf.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794163600/news360/vsm67uzjxu4uiawsia6v.jpg"
+   ]
+  }
+ ]
 }
