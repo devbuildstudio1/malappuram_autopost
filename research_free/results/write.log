@@ -1,4 +1,10 @@
+writing [R]: മഞ്ചേരി ബോയ്സ് ഗ്രൗണ്ട് മുതൽ ചേളാരി മൊബൈൽ ടവർ വരെ! ഇൻസ്റ്റയി
+writing [R]: അബു അരീക്കോടിന്റെ ഓർമ ദിനത്തിൽ സഹപാഠിയുടെ കുറിപ്പ്: ‘എല്ലാവര
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 writing [N]: മലപ്പുറത്ത് മൈജി ഫ്യൂച്ചർ ഷോറൂം; ഉദ്ഘാടനം നിർവഹിച്ച് ആസിഫ് അ
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
@@ -6,12 +12,16 @@ fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-writing [R]: മഞ്ചേരി ബോയ്സ് ഗ്രൗണ്ട് മുതൽ ചേളാരി മൊബൈൽ ടവർ വരെ! ഇൻസ്റ്റയി
-writing [R]: അബു അരീക്കോടിന്റെ ഓർമ ദിനത്തിൽ സഹപാഠിയുടെ കുറിപ്പ്: ‘എല്ലാവര
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -27,69 +37,67 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+ok groq/openai/gpt-oss-120b (7s)
+attempt 1 groq/openai/gpt-oss-120b: 3 problems
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 dead for this round: groq/openai/gpt-oss-120b
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgqgb3mi8bgRtVerzv2X7"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqjrHnqEAiY89ZdaC3TG"}
 writing [N]: Shigella Outbreak Reported Again in Malappuram; 114 People S
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgqgb9C9AHjQi57s5peff"}
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqjrKot6J2NM51gjMVQn"}
+writing [N]: വെന്നിയൂരിൽ തണ്ണീർത്തടം മണ്ണിട്ട് നികത്തുന്നത് തടയണം: കർഷകസം
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqjrQdqP48tacgcPFLpG"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqgbAUXbCKQmMCvqrdxn"}
-writing [N]: വെന്നിയൂരിൽ തണ്ണീർത്തടം മണ്ണിട്ട് നികത്തുന്നത് തടയണം: കർഷകസം
-free models unavailable: free models not efficient (16 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqgbEimghQmncQZKHTYN"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgqjroua8LFNJ9v5K76LG"}
+proofread skipped: free models not efficient (5 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
 fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
 poor answer - skipped for 30 min: gemini/gemini-3.7-flash
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqgeDxCzUUveFRKGba3k"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqjuVWcLwrhkU3YyHD9a"}
 earlier stories still waiting for images: []
 instagram check: 28 recent posts read from both pages
-write round: 11 news waiting in the queue (written in priority order)
-candidate filter: collected=9, already filed=2
-to write: 2 Manjeri + 7 other district candidates (max 200 + 200 stories)
-candidates waiting: 2 Manjeri, 7 Malappuram; time left 29 min
-try (N) manual=False: "പൊലീസ് ഡാ...!!!"; എഎസ്ഐയെ ആക്രമിച്ച് ഒളിവിൽ പോയ പ്രതിയെ പിട
-try (N) manual=False: ഓപറേഷൻ ജലസുരക്ഷ: ജലാശയങ്ങളിൽ  മാലിന്യം തള്ളുന്നവർക്കെതിരേ നട
+write round: 5 news waiting in the queue (written in priority order)
+candidate filter: collected=5
+to write: 2 Manjeri + 3 other district candidates (max 200 + 200 stories)
+candidates waiting: 2 Manjeri, 3 Malappuram; time left 29 min
 try (N) manual=False: മലപ്പുറത്ത് മൈജി ഫ്യൂച്ചർ ഷോറൂം; ഉദ്ഘാടനം നിർവഹിച്ച് ആസിഫ് അ
-skip (N) similar to a filed story: "പൊലീസ് ഡാ...!!!"; എഎസ്ഐയെ ആക്രമിച്ച് ഒളിവിൽ പോയ പ
-try (N) manual=False: ഭീതി പടർത്തി ഷിഗെല്ല; നാല് പേർക്ക് കൂടി സ്ഥിരീകരിച്ചു, 114 പ
-skip (N) similar to a filed story: ഭീതി പടർത്തി ഷിഗെല്ല; നാല് പേർക്ക് കൂടി സ്ഥിരീകരിച
 try (R) manual=False: മഞ്ചേരി ബോയ്സ് ഗ്രൗണ്ട് മുതൽ ചേളാരി മൊബൈൽ ടവർ വരെ! ഇൻസ്റ്റയി
-skip (N) similar to a filed story: ഓപറേഷൻ ജലസുരക്ഷ: ജലാശയങ്ങളിൽ  മാലിന്യം തള്ളുന്നവർക
 try (R) manual=False: അബു അരീക്കോടിന്റെ ഓർമ ദിനത്തിൽ സഹപാഠിയുടെ കുറിപ്പ്: ‘എല്ലാവര
 NOT filed (R) മഞ്ചേരി ബോയ്സ് ഗ്രൗണ്ട് മുതൽ ചേളാരി മൊബൈൽ ടവർ വരെ!: all free models failed: no usable answer from the models
 try (N) manual=False: Shigella Outbreak Reported Again in Malappuram; 114 People S
 NOT filed (N) Shigella Outbreak Reported Again in Malappuram; 11: all free models failed: no usable answer from the models
-try (N) manual=False: മലപ്പുറത്ത് 4 പേർക്ക് കൂടി ഷിഗെല്ല; രോഗബാധിതരുടെ എണ്ണം ഏഴായി
-NOT filed (R) അബു അരീക്കോടിന്റെ ഓർമ ദിനത്തിൽ സഹപാഠിയുടെ കുറിപ്പ്: all free models failed: no usable answer from the models
 try (N) manual=False: വെന്നിയൂരിൽ തണ്ണീർത്തടം മണ്ണിട്ട് നികത്തുന്നത് തടയണം: കർഷകസം
-skip (N) similar to a filed story: മലപ്പുറത്ത് 4 പേർക്ക് കൂടി ഷിഗെല്ല; രോഗബാധിതരുടെ എ
 NOT filed (N) വെന്നിയൂരിൽ തണ്ണീർത്തടം മണ്ണിട്ട് നികത്തുന്നത് തടയ: all free models failed: no usable answer from the models
-NOT filed (N) മലപ്പുറത്ത് മൈജി ഫ്യൂച്ചർ ഷോറൂം; ഉദ്ഘാടനം നിർവഹിച്: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 2, 'N': 7}, done={'R': 0, 'N': 0}, time left 28 min
+NOT filed (N) മലപ്പുറത്ത് മൈജി ഫ്യൂച്ചർ ഷോറൂം; ഉദ്ഘാടനം നിർവഹിച്: bad draft: 'scenes'
+NOT filed (R) അബു അരീക്കോടിന്റെ ഓർമ ദിനത്തിൽ സഹപാഠിയുടെ കുറിപ്പ്: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 2, 'N': 3}, done={'R': 0, 'N': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
 queue: 5 news waiting to be written
