@@ -1,10 +1,8 @@
-writing [N]: ഏലംകുളത്ത് വിവാഹത്തിൽ പങ്കെടുത്ത അഞ്ചുപേർക്ക് ഷിഗെല്ല; മലപ്പ
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 writing [N]: സ്പൈസ് ജെറ്റിൽ വൻ പ്രതിസന്ധി: 20 ശതമാനത്തിലധികം ഫ്ലൈറ്റുകൾ റ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 writing [R]: പോസ്റ്റ് ഓഫീസുകൾ 
 പൂട്ടുന്നതിൽ പ്രതിഷേധം
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
@@ -12,17 +10,6 @@ fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -33,26 +20,15 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
+dead for this round: gemini/gemini-3.7-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
@@ -61,63 +37,59 @@ fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mis
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqNyU9Re7V5LXdb2VQdP"}
+writing [N]: ഏലംകുളത്ത് വിവാഹത്തിൽ പങ്കെടുത്ത അഞ്ചുപേർക്ക് ഷിഗെല്ല; മലപ്പ
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqXY7iCeaeuv2f9aTf2b"}
 writing [N]: ചികിത്സാ ചിലവുകൾ കടക്കെണിയിലാക്കുന്നത് 
 തടയണം: ആര്യാടൻ ഷൗക്ക
-free models unavailable: free models not efficient (23 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqNyYVsQWtLwPUevekCj"}
+free models unavailable: free models not efficient (13 failures in a row): using Claude
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqNyb3A555FRe73t4gnJ"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqXYCPEvKmnaoRpuJYmJ"}
 writing [N]: അജ്ഞാത ജീവിയുടെ ആക്രമണം; 
 35 കോഴികൾ ചത്തു
-free models unavailable: free models not efficient (24 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqNycYgzTecKe1ZRZLak"}
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqXYHSr6ds7ZmtPRFyig"}
 writing [N]: ഗസറ്റ് വിജ്ഞാപനമിറങ്ങി; കാലിക്കറ്റിലെ ബൊട്ടാണിക്കൽ ഗാർഡൻ ഇനി
-free models unavailable: free models not efficient (24 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqNydUG9VTdo9tXNAMod"}
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqXYJX5rWfeRd8o85zxC"}
 writing [N]: കോൺവൊക്കേഷനും ഖലീലുൽ ബുഖാരി തങ്ങളുടെ അറബി ഗ്രന്ഥ പ്രകാശനവു
-free models unavailable: free models not efficient (24 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqNygezmqAbiG5p3St57"}
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqXYPJ4snySkG6mngMRP"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqNyhx99Lpb33SCa6Snp"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqXZDkdJ2szhkgVXvfkp"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgqXZKrjLKYbuMXyLNHtC"}
 earlier stories still waiting for images: []
 instagram check: 27 recent posts read from both pages
 write round: 7 news waiting in the queue (written in priority order)
 candidate filter: collected=7
 to write: 1 Manjeri + 6 other district candidates (max 200 + 200 stories)
 candidates waiting: 1 Manjeri, 6 Malappuram; time left 29 min
-try (N) manual=False: ഏലംകുളത്ത് വിവാഹത്തിൽ പങ്കെടുത്ത അഞ്ചുപേർക്ക് ഷിഗെല്ല; മലപ്പ
-try (N) manual=False: സ്പൈസ് ജെറ്റിൽ വൻ പ്രതിസന്ധി: 20 ശതമാനത്തിലധികം ഫ്ലൈറ്റുകൾ റ
 try (R) manual=False: പോസ്റ്റ് ഓഫീസുകൾ 
 പൂട്ടുന്നതിൽ പ്രതിഷേധം
-NOT filed (R) പോസ്റ്റ് ഓഫീസുകൾ 
-പൂട്ടുന്നതിൽ പ്രതിഷേധം: all free models failed: no usable answer from the models
+try (N) manual=False: ഏലംകുളത്ത് വിവാഹത്തിൽ പങ്കെടുത്ത അഞ്ചുപേർക്ക് ഷിഗെല്ല; മലപ്പ
+try (N) manual=False: സ്പൈസ് ജെറ്റിൽ വൻ പ്രതിസന്ധി: 20 ശതമാനത്തിലധികം ഫ്ലൈറ്റുകൾ റ
+NOT filed (N) ഏലംകുളത്ത് വിവാഹത്തിൽ പങ്കെടുത്ത അഞ്ചുപേർക്ക് ഷിഗെ: all free models failed: no usable answer from the models
 try (N) manual=False: ചികിത്സാ ചിലവുകൾ കടക്കെണിയിലാക്കുന്നത് 
 തടയണം: ആര്യാടൻ ഷൗക്ക
 NOT filed (N) ചികിത്സാ ചിലവുകൾ കടക്കെണിയിലാക്കുന്നത് 
 തടയണം: ആര്: all free models failed: no usable answer from the models
 try (N) manual=False: അജ്ഞാത ജീവിയുടെ ആക്രമണം; 
 35 കോഴികൾ ചത്തു
-NOT filed (N) ഏലംകുളത്ത് വിവാഹത്തിൽ പങ്കെടുത്ത അഞ്ചുപേർക്ക് ഷിഗെ: all free models failed: no usable answer from the models
-try (N) manual=False: ഗസറ്റ് വിജ്ഞാപനമിറങ്ങി; കാലിക്കറ്റിലെ ബൊട്ടാണിക്കൽ ഗാർഡൻ ഇനി
 NOT filed (N) അജ്ഞാത ജീവിയുടെ ആക്രമണം; 
 35 കോഴികൾ ചത്തു: all free models failed: no usable answer from the models
-try (N) manual=False: കോൺവൊക്കേഷനും ഖലീലുൽ ബുഖാരി തങ്ങളുടെ അറബി ഗ്രന്ഥ പ്രകാശനവു
+try (N) manual=False: ഗസറ്റ് വിജ്ഞാപനമിറങ്ങി; കാലിക്കറ്റിലെ ബൊട്ടാണിക്കൽ ഗാർഡൻ ഇനി
 NOT filed (N) ഗസറ്റ് വിജ്ഞാപനമിറങ്ങി; കാലിക്കറ്റിലെ ബൊട്ടാണിക്കൽ: all free models failed: no usable answer from the models
+try (N) manual=False: കോൺവൊക്കേഷനും ഖലീലുൽ ബുഖാരി തങ്ങളുടെ അറബി ഗ്രന്ഥ പ്രകാശനവു
 NOT filed (N) കോൺവൊക്കേഷനും ഖലീലുൽ ബുഖാരി തങ്ങളുടെ അറബി ഗ്രന്ഥ: all free models failed: no usable answer from the models
 NOT filed (N) സ്പൈസ് ജെറ്റിൽ വൻ പ്രതിസന്ധി: 20 ശതമാനത്തിലധികം ഫ്: all free models failed: no usable answer from the models
+NOT filed (R) പോസ്റ്റ് ഓഫീസുകൾ 
+പൂട്ടുന്നതിൽ പ്രതിഷേധം: all free models failed: no usable answer from the models
 candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 6}, done={'R': 0, 'N': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
