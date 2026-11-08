@@ -3,7 +3,7 @@ gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-
 writing [N]: ഷിഗെല്ല ഭീതിയിൽ മലപ്പുറം; 114 ഓളം പേർക്ക് രോഗലക്ഷണം
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -14,6 +14,7 @@ fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
+writing [N]: മലപ്പുറത്ത് ഷിഗെല്ല പടരുന്നു; രോഗബാധിതർ ഏഴായി
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -24,6 +25,13 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -31,43 +39,49 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 dead for this round: groq/openai/gpt-oss-120b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-writing [N]: മലപ്പുറത്ത് ഷിഗെല്ല പടരുന്നു; രോഗബാധിതർ ഏഴായി
-free models unavailable: free models not efficient (11 failures in a row): using Claude
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgq2zeftYx8PsYCfSb3t4"}
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgq62pk24nKu9KRhxfNrk"}
 writing [N]: മലപ്പുറത്ത്  4 വയസുകാരിക്ക് ഷിഗല്ല
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgq2zgkANj8EFV95cv7zU"}
+free models unavailable: free models not efficient (20 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgq62rrmzVjsu8UAzwnu9"}
 writing [N]: ഭീതി പടർത്തി ഷിഗെല്ല; നാല് പേർക്ക് കൂടി സ്ഥിരീകരിച്ചു, 114 പ
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgq2zhvbYYs3pUsUe1tKh"}
+free models unavailable: free models not efficient (20 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgq62uQKW4PXaCtW5J54t"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgq62vdyvyLZUAqbZB4Bw"}
 writing [N]: തൊഴിലാളികൾ  തമ്മിൽ തർക്കം:  കേസെടുത്ത്  പൊലിസ്  | Deepika | 
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgq2zm1eDwKpdaodi39ta"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgq31mzwaccSwHBLTy8oA"}
+free models unavailable: free models not efficient (21 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgq62xTrrg4sZ1JBqzMyc"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgq31tvfTSToziTtpdfCz"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgq63HvteGpJmcLQS4MiR"}
 earlier stories still waiting for images: []
-instagram check: 26 recent posts read from both pages
+instagram check: 27 recent posts read from both pages
 write round: 6 news waiting in the queue (written in priority order)
 candidate filter: collected=6
 to write: 0 Manjeri + 6 other district candidates (max 200 + 200 stories)
@@ -75,14 +89,14 @@ candidates waiting: 0 Manjeri, 6 Malappuram; time left 29 min
 try (N) manual=False: എഎസ്ഐയെ ആക്രമിച്ച് ഒളിവിൽപോയി; പിടികൂടി വിലങ്ങുവച്ച് അതേ റോഡ
 try (N) manual=False: മലപ്പുറത്ത് ഷിഗെല്ല പടരുന്നു; രോഗബാധിതർ ഏഴായി
 try (N) manual=False: ഷിഗെല്ല ഭീതിയിൽ മലപ്പുറം; 114 ഓളം പേർക്ക് രോഗലക്ഷണം
-NOT filed (N) മലപ്പുറത്ത് ഷിഗെല്ല പടരുന്നു; രോഗബാധിതർ ഏഴായി: all free models failed: no usable answer from the models
+NOT filed (N) ഷിഗെല്ല ഭീതിയിൽ മലപ്പുറം; 114 ഓളം പേർക്ക് രോഗലക്ഷണ: all free models failed: no usable answer from the models
 try (N) manual=False: മലപ്പുറത്ത്  4 വയസുകാരിക്ക് ഷിഗല്ല
 NOT filed (N) മലപ്പുറത്ത്  4 വയസുകാരിക്ക് ഷിഗല്ല: all free models failed: no usable answer from the models
 try (N) manual=False: ഭീതി പടർത്തി ഷിഗെല്ല; നാല് പേർക്ക് കൂടി സ്ഥിരീകരിച്ചു, 114 പ
 NOT filed (N) ഭീതി പടർത്തി ഷിഗെല്ല; നാല് പേർക്ക് കൂടി സ്ഥിരീകരിച: all free models failed: no usable answer from the models
 try (N) manual=False: തൊഴിലാളികൾ  തമ്മിൽ തർക്കം:  കേസെടുത്ത്  പൊലിസ്  | Deepika | 
+NOT filed (N) മലപ്പുറത്ത് ഷിഗെല്ല പടരുന്നു; രോഗബാധിതർ ഏഴായി: all free models failed: no usable answer from the models
 NOT filed (N) തൊഴിലാളികൾ  തമ്മിൽ തർക്കം:  കേസെടുത്ത്  പൊലിസ്  | : all free models failed: no usable answer from the models
-NOT filed (N) ഷിഗെല്ല ഭീതിയിൽ മലപ്പുറം; 114 ഓളം പേർക്ക് രോഗലക്ഷണ: all free models failed: no usable answer from the models
 NOT filed (N) എഎസ്ഐയെ ആക്രമിച്ച് ഒളിവിൽപോയി; പിടികൂടി വിലങ്ങുവച്: all free models failed: no usable answer from the models
 candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 6}, done={'R': 0, 'N': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
