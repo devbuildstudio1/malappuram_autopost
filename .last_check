@@ -2,76 +2,85 @@ imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message"
 imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150) 504 timeout
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-10:13:28 image attempt 1 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
+10:32:05 image attempt 1 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-10:15:55 image attempt 2 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
+10:34:52 image attempt 2 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+image match: True The image shows committee members seated at a meeting table in front of the Ponnani Taluk Office, matching the context a
+image match: False The photo shows a post office building with a post box, but does not depict the Ponnani Taluk Development Committee or a
+10:36:08 picture does not match the news, generating again: MP-55 2
+image match: False The photo shows an empty small post office building and does not show any development committee, event, protest, or peop
+10:36:22 picture does not match the news, generating again: MP-55 2
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-10:19:00 image attempt 3 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
-10:20:00 image models failed for MP-55 all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error - tried again in the next run (gives up after 3 h)
-10:20:00 auto images: time for this run used up, the rest waits for the next run
-10:20:04 SKIP MP-7 stale: published 05 Nov, older than yesterday
-10:20:04 SKIP MP-19 stale: published 05 Nov, older than yesterday
-10:20:04 SKIP MP-21 stale: published 06 Nov, older than yesterday
-10:20:04 SKIP MP-40 duplicate of MP-17
-10:20:04 SKIP MP-44 duplicate of MP-17
-10:20:04 SKIP MP-46 duplicate of MP-39
-10:20:04 SKIP MP-47 duplicate of MP-39
-10:20:04 30 stories in the queue, ready to post: 23
-10:20:04   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ml', 'images', 'importance', 'location', 'malappuram_link', 'manjeri_link', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'story_id', 'verification']
-10:20:04    MP-7 review= 'Auto' images= 385 spec= 646 pages= ['malappuram'] links= '' '' '' age_h= 49.6 ready= False set_started= True
-10:20:04    MP-19 review= 'Auto' images= 385 spec= 699 pages= ['manjeri'] links= '' '' '' age_h= 36.3 ready= False set_started= True
-10:20:04    MP-21 review= 'Auto' images= 11 spec= 681 pages= ['malappuram'] links= '' '' '' age_h= 31.3 ready= False set_started= True
-10:20:04    MP-22 review= 'Auto' images= 11 spec= 678 pages= ['malappuram'] links= '' '' '' age_h= 31.0 ready= True set_started= True
-10:20:04    MP-23 review= 'Auto' images= 11 spec= 740 pages= ['malappuram'] links= '' '' '' age_h= 30.7 ready= True set_started= True
-10:20:04    MP-25 review= 'Auto' images= 11 spec= 898 pages= ['malappuram'] links= '' '' '' age_h= 29.4 ready= True set_started= True
-10:20:04    MP-26 review= 'Auto' images= 11 spec= 634 pages= ['malappuram'] links= '' '' '' age_h= 29.4 ready= True set_started= True
-10:20:04    MP-27 review= 'Auto' images= 11 spec= 639 pages= ['malappuram'] links= '' '' '' age_h= 28.7 ready= True set_started= True
-10:20:04    MP-28 review= 'Auto' images= 11 spec= 654 pages= ['malappuram'] links= '' '' '' age_h= 23.5 ready= True set_started= True
-10:20:04    MP-30 review= 'Auto' images= 11 spec= 590 pages= ['malappuram'] links= '' '' '' age_h= 21.7 ready= True set_started= True
-10:20:04    MP-31 review= 'Auto' images= 11 spec= 705 pages= ['malappuram'] links= '' '' '' age_h= 21.6 ready= True set_started= True
-10:20:04    MP-32 review= 'Auto' images= 11 spec= 654 pages= ['malappuram'] links= '' '' '' age_h= 20.2 ready= True set_started= True
-10:20:04    MP-33 review= 'Auto' images= 11 spec= 713 pages= ['malappuram'] links= '' '' '' age_h= 20.2 ready= True set_started= True
-10:20:04    MP-34 review= 'Auto' images= 11 spec= 712 pages= ['malappuram'] links= '' '' '' age_h= 20.2 ready= True set_started= True
-10:20:04    MP-35 review= 'Auto' images= 11 spec= 627 pages= ['malappuram'] links= '' '' '' age_h= 20.1 ready= True set_started= True
-10:20:04    MP-36 review= 'Auto' images= 11 spec= 570 pages= ['malappuram'] links= '' '' '' age_h= 20.1 ready= True set_started= True
-10:20:04    MP-40 review= 'Auto' images= 289 spec= 600 pages= ['malappuram'] links= '' '' '' age_h= 14.5 ready= False set_started= True
-10:20:04    MP-41 review= 'Auto' images= 289 spec= 460 pages= ['malappuram'] links= '' '' '' age_h= 14.5 ready= True set_started= True
-10:20:04    MP-42 review= 'Auto' images= 289 spec= 624 pages= ['malappuram'] links= '' '' '' age_h= 14.5 ready= True set_started= True
-10:20:04    MP-43 review= 'Auto' images= 385 spec= 463 pages= ['malappuram'] links= '' '' '' age_h= 14.4 ready= True set_started= True
-10:20:04    MP-44 review= 'Auto' images= 385 spec= 440 pages= ['malappuram'] links= '' '' '' age_h= 14.4 ready= False set_started= True
-10:20:04    MP-45 review= 'Auto' images= 385 spec= 563 pages= ['malappuram'] links= '' '' '' age_h= 11.5 ready= True set_started= True
-10:20:04    MP-46 review= 'Auto' images= 481 spec= 780 pages= ['malappuram'] links= '' '' '' age_h= 10.8 ready= False set_started= True
-10:20:04    MP-47 review= 'Auto' images= 385 spec= 609 pages= ['malappuram'] links= '' '' '' age_h= 10.1 ready= False set_started= True
-10:20:04    MP-48 review= 'Auto' images= 11 spec= 649 pages= ['malappuram'] links= '' '' '' age_h= 9.0 ready= True set_started= True
-10:20:04    MP-50 review= 'Auto' images= 11 spec= 620 pages= ['malappuram'] links= '' '' '' age_h= 7.7 ready= True set_started= True
-10:20:04    MP-51 review= 'Auto' images= 289 spec= 642 pages= ['malappuram'] links= '' '' '' age_h= 6.9 ready= True set_started= True
-10:20:04    MP-52 review= 'Auto' images= 11 spec= 630 pages= ['malappuram'] links= '' '' '' age_h= 6.8 ready= True set_started= True
-10:20:04    MP-53 review= 'Auto' images= 11 spec= 602 pages= ['malappuram'] links= '' '' '' age_h= 6.8 ready= True set_started= True
-10:20:04    MP-54 review= 'Auto' images= 11 spec= 676 pages= ['malappuram'] links= '' '' '' age_h= 6.7 ready= True set_started= True
-10:20:06 publishing quota malappuram: 15/50
-10:20:09 publishing quota manjeri: 3/50
-10:20:11 instagram duplicate check malappuram: 19 recent posts read
-10:20:11    MP-51 one reel per run (the gap starts after it)
-10:20:11    MP-54 one reel per run (the gap starts after it)
-10:20:11    MP-22 one reel per run (the gap starts after it)
-10:20:11    MP-23 one reel per run (the gap starts after it)
-10:20:11    MP-26 one reel per run (the gap starts after it)
-10:20:11    MP-25 one reel per run (the gap starts after it)
-10:20:11    MP-27 one reel per run (the gap starts after it)
-10:20:11    MP-28 one reel per run (the gap starts after it)
-10:20:11    MP-30 one reel per run (the gap starts after it)
-10:20:11    MP-31 one reel per run (the gap starts after it)
-10:20:11    MP-34 one reel per run (the gap starts after it)
-10:20:11    MP-33 one reel per run (the gap starts after it)
-10:20:11    MP-32 one reel per run (the gap starts after it)
-10:20:11    MP-36 one reel per run (the gap starts after it)
-10:20:11    MP-35 one reel per run (the gap starts after it)
-10:20:11    MP-41 one reel per run (the gap starts after it)
-10:20:11    MP-42 one reel per run (the gap starts after it)
-10:20:11    MP-43 one reel per run (the gap starts after it)
-10:20:11    MP-48 waits for prime time (12:30 IST)
-10:20:11    MP-50 waits for prime time (12:30 IST)
-10:20:11    MP-53 waits for prime time (12:30 IST)
-10:20:11    MP-52 one reel per run (the gap starts after it)
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+10:38:07 automatic images queued: MP-55 4
+10:38:07 auto images: time for this run used up, the rest waits for the next run
+10:38:12 SKIP MP-7 stale: published 05 Nov, older than yesterday
+10:38:12 SKIP MP-19 stale: published 05 Nov, older than yesterday
+10:38:12 SKIP MP-21 stale: published 06 Nov, older than yesterday
+10:38:12 SKIP MP-40 duplicate of MP-17
+10:38:12 SKIP MP-44 duplicate of MP-17
+10:38:12 SKIP MP-46 duplicate of MP-39
+10:38:12 SKIP MP-47 duplicate of MP-39
+10:38:12 30 stories in the queue, ready to post: 23
+10:38:12   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ml', 'images', 'importance', 'location', 'malappuram_link', 'manjeri_link', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'story_id', 'verification']
+10:38:12    MP-7 review= 'Auto' images= 385 spec= 646 pages= ['malappuram'] links= '' '' '' age_h= 49.9 ready= False set_started= True
+10:38:12    MP-19 review= 'Auto' images= 385 spec= 699 pages= ['manjeri'] links= '' '' '' age_h= 36.6 ready= False set_started= True
+10:38:12    MP-21 review= 'Auto' images= 11 spec= 681 pages= ['malappuram'] links= '' '' '' age_h= 31.6 ready= False set_started= True
+10:38:12    MP-22 review= 'Auto' images= 11 spec= 678 pages= ['malappuram'] links= '' '' '' age_h= 31.3 ready= True set_started= True
+10:38:12    MP-23 review= 'Auto' images= 11 spec= 740 pages= ['malappuram'] links= '' '' '' age_h= 31.0 ready= True set_started= True
+10:38:12    MP-25 review= 'Auto' images= 11 spec= 898 pages= ['malappuram'] links= '' '' '' age_h= 29.7 ready= True set_started= True
+10:38:12    MP-26 review= 'Auto' images= 11 spec= 634 pages= ['malappuram'] links= '' '' '' age_h= 29.7 ready= True set_started= True
+10:38:12    MP-27 review= 'Auto' images= 11 spec= 639 pages= ['malappuram'] links= '' '' '' age_h= 29.0 ready= True set_started= True
+10:38:12    MP-28 review= 'Auto' images= 11 spec= 654 pages= ['malappuram'] links= '' '' '' age_h= 23.8 ready= True set_started= True
+10:38:12    MP-30 review= 'Auto' images= 11 spec= 590 pages= ['malappuram'] links= '' '' '' age_h= 22.0 ready= True set_started= True
+10:38:12    MP-31 review= 'Auto' images= 11 spec= 705 pages= ['malappuram'] links= '' '' '' age_h= 21.9 ready= True set_started= True
+10:38:12    MP-32 review= 'Auto' images= 11 spec= 654 pages= ['malappuram'] links= '' '' '' age_h= 20.5 ready= True set_started= True
+10:38:12    MP-33 review= 'Auto' images= 11 spec= 713 pages= ['malappuram'] links= '' '' '' age_h= 20.5 ready= True set_started= True
+10:38:12    MP-34 review= 'Auto' images= 11 spec= 712 pages= ['malappuram'] links= '' '' '' age_h= 20.5 ready= True set_started= True
+10:38:12    MP-35 review= 'Auto' images= 11 spec= 627 pages= ['malappuram'] links= '' '' '' age_h= 20.4 ready= True set_started= True
+10:38:12    MP-36 review= 'Auto' images= 11 spec= 570 pages= ['malappuram'] links= '' '' '' age_h= 20.4 ready= True set_started= True
+10:38:12    MP-40 review= 'Auto' images= 289 spec= 600 pages= ['malappuram'] links= '' '' '' age_h= 14.8 ready= False set_started= True
+10:38:12    MP-41 review= 'Auto' images= 289 spec= 460 pages= ['malappuram'] links= '' '' '' age_h= 14.8 ready= True set_started= True
+10:38:12    MP-42 review= 'Auto' images= 289 spec= 624 pages= ['malappuram'] links= '' '' '' age_h= 14.8 ready= True set_started= True
+10:38:12    MP-43 review= 'Auto' images= 385 spec= 463 pages= ['malappuram'] links= '' '' '' age_h= 14.7 ready= True set_started= True
+10:38:12    MP-44 review= 'Auto' images= 385 spec= 440 pages= ['malappuram'] links= '' '' '' age_h= 14.7 ready= False set_started= True
+10:38:12    MP-46 review= 'Auto' images= 481 spec= 780 pages= ['malappuram'] links= '' '' '' age_h= 11.1 ready= False set_started= True
+10:38:12    MP-47 review= 'Auto' images= 385 spec= 609 pages= ['malappuram'] links= '' '' '' age_h= 10.4 ready= False set_started= True
+10:38:12    MP-48 review= 'Auto' images= 11 spec= 649 pages= ['malappuram'] links= '' '' '' age_h= 9.3 ready= True set_started= True
+10:38:12    MP-50 review= 'Auto' images= 11 spec= 620 pages= ['malappuram'] links= '' '' '' age_h= 8.0 ready= True set_started= True
+10:38:12    MP-51 review= 'Auto' images= 289 spec= 642 pages= ['malappuram'] links= '' '' '' age_h= 7.2 ready= True set_started= True
+10:38:12    MP-52 review= 'Auto' images= 11 spec= 630 pages= ['malappuram'] links= '' '' '' age_h= 7.1 ready= True set_started= True
+10:38:12    MP-53 review= 'Auto' images= 11 spec= 602 pages= ['malappuram'] links= '' '' '' age_h= 7.1 ready= True set_started= True
+10:38:12    MP-54 review= 'Auto' images= 11 spec= 676 pages= ['malappuram'] links= '' '' '' age_h= 7.0 ready= True set_started= True
+10:38:12    MP-55 review= 'Auto' images= 385 spec= 663 pages= ['malappuram'] links= '' '' '' age_h= 2.4 ready= True set_started= True
+10:38:14 publishing quota malappuram: 17/50
+10:38:17 publishing quota manjeri: 3/50
+10:38:19 instagram duplicate check malappuram: 20 recent posts read
+10:38:19    MP-51 last reel 10:25 IST - next one from 11:40 IST (75 min gap)
+10:38:19    MP-54 last reel 10:25 IST - next one from 11:40 IST (75 min gap)
+10:38:19    MP-22 last reel 10:25 IST - next one from 11:40 IST (75 min gap)
+10:38:19    MP-23 last reel 10:25 IST - next one from 11:40 IST (75 min gap)
+10:38:19    MP-26 last reel 10:25 IST - next one from 11:40 IST (75 min gap)
+10:38:19    MP-25 last reel 10:25 IST - next one from 11:40 IST (75 min gap)
+10:38:19    MP-27 last reel 10:25 IST - next one from 11:40 IST (75 min gap)
+10:38:19    MP-28 last reel 10:25 IST - next one from 11:40 IST (75 min gap)
+10:38:19    MP-30 last reel 10:25 IST - next one from 11:40 IST (75 min gap)
+10:38:19    MP-31 last reel 10:25 IST - next one from 11:40 IST (75 min gap)
+10:38:19    MP-34 last reel 10:25 IST - next one from 11:40 IST (75 min gap)
+10:38:19    MP-33 last reel 10:25 IST - next one from 11:40 IST (75 min gap)
+10:38:19    MP-32 last reel 10:25 IST - next one from 11:40 IST (75 min gap)
+10:38:19    MP-36 last reel 10:25 IST - next one from 11:40 IST (75 min gap)
+10:38:19    MP-35 last reel 10:25 IST - next one from 11:40 IST (75 min gap)
+10:38:19    MP-41 last reel 10:25 IST - next one from 11:40 IST (75 min gap)
+10:38:19    MP-42 last reel 10:25 IST - next one from 11:40 IST (75 min gap)
+10:38:19    MP-43 last reel 10:25 IST - next one from 11:40 IST (75 min gap)
+10:38:19    MP-48 waits for prime time (12:30 IST)
+10:38:19    MP-50 waits for prime time (12:30 IST)
+10:38:19    MP-53 waits for prime time (12:30 IST)
+10:38:19    MP-52 last reel 10:25 IST - next one from 11:40 IST (75 min gap)
+10:38:19    MP-55 waits for prime time (12:30 IST)
+10:38:20 prebuilding ahead of the set start: ['MP-55']
