@@ -1,27 +1,22 @@
 {
  "log": [
   "earlier stories still waiting for images: []",
-  "instagram check: 27 recent posts read from both pages",
-  "write round: 2 news waiting in the queue (written in priority order)",
-  "candidate filter: collected=2",
-  "to write: 0 Manjeri + 2 other district candidates (max 200 + 200 stories)",
-  "candidates waiting: 0 Manjeri, 2 Malappuram; time left 29 min",
-  "try (N) manual=False: ഗസറ്റ് വിജ്ഞാപനമിറങ്ങി; കാലിക്കറ്റിലെ ബൊട്ടാണിക്കൽ ഗാർഡൻ ഇനി",
+  "instagram check: 28 recent posts read from both pages",
+  "write round: 1 news waiting in the queue (written in priority order)",
+  "candidate filter: collected=1",
+  "to write: 0 Manjeri + 1 other district candidates (max 200 + 200 stories)",
+  "candidates waiting: 0 Manjeri, 1 Malappuram; time left 29 min",
   "try (N) manual=False: കോൺവൊക്കേഷനും ഖലീലുൽ ബുഖാരി തങ്ങളുടെ അറബി ഗ്രന്ഥ പ്രകാശനവു",
   "NOT filed (N) കോൺവൊക്കേഷനും ഖലീലുൽ ബുഖാരി തങ്ങളുടെ അറബി ഗ്രന്ഥ: all free models failed: no usable answer from the models",
-  "auto images failed for 'Kalikkat Botanical Garden declared as bi': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email",
-  "auto images: 0 of 1 stories ({})",
-  "posting job started at once",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 2}, done={'R': 0, 'N': 1}, time left 19 min",
-  "carousel for 0 of 1 stories, the rest reel only",
-  "filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)",
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 1}, done={'R': 0, 'N': 0}, time left 29 min",
+  "carousel for 0 of 0 stories, the rest reel only",
+  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
   "queue: 1 news waiting to be written",
-  "write_stories.yml started",
-  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":2}"
+  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":1}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
@@ -31,81 +26,13 @@
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "dead for this round: groq/openai/gpt-oss-120b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "ok cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast (56s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)",
-  "poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (38s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (50s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (40s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
+  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
   "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min"
  ],
- "stories": [
-  {
-   "malayalam_headline": "കാലിക്കറ്റിലെ ബൊട്ടാണിക്കൽ ഗാർഡൻ ജൈവവൈവിധ്യ പൈതൃക കേന്ദ്രമായി പ്രഖ്യാപിച്ചു",
-   "english_headline": "Kalikkat Botanical Garden declared as biodiversity heritage site",
-   "category": "Government & Services",
-   "location": "Kalikkat Botanical Garden, Calicut University, Malappuram district",
-   "importance": "Medium",
-   "scope": "district",
-   "post_to": "Malappuram 360 (collab: Manjeri 360)",
-   "slides_spec": {
-    "v": 3,
-    "cat": "ജൈവവൈവിധ്യം",
-    "loc": "കാലിക്കറ്റ് സർവകലാശാല",
-    "hl1": "കാലിക്കറ്റിലെ ബൊട്ടാണിക്കൽ ഗാർഡൻ",
-    "hl2": "ജൈവവൈവിധ്യ പൈതൃക കേന്ദ്രം",
-    "slides": [
-     {
-      "title": "എന്ത്, എവിടെ?",
-      "lines": [
-       "കാലിക്കറ്റിലെ ബൊട്ടാണിക്കൽ ഗാർഡൻ",
-       "ജൈവവൈവിധ്യ പൈതൃക കേന്ദ്രമായി പ്രഖ്യാപിച്ചു"
-      ]
-     },
-     {
-      "title": "എപ്പോൾ, എങ്ങനെ?",
-      "lines": [
-       "ഗസറ്റ് വിജ്ഞാപനമിറങ്ങി",
-       "കേരളത്തിലെ രണ്ടാമത്തെ കേന്ദ്രം",
-       "ദേശീയ ജൈവവൈവിധ്യ അതോറിറ്റി പരിശോധനയ്ക്ക് ശേഷം"
-      ]
-     },
-     {
-      "title": "വിവരങ്ങൾ",
-      "lines": [
-       "<b>19.5</b> ഏക്കർ ബൊട്ടാണിക്കൽ ഗാർഡൻ",
-       "<b>13.5</b> ഏക്കർ വൃക്ഷോദ്യാനം",
-       "വൈവിധ്യമാർന്ന സസ്യശേഖരം, ജലസംഭരണികൾ"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "കാലിക്കറ്റിലെ ബൊട്ടാണിക്കൽ ഗാർഡൻ ജൈവവൈവിധ്യ പൈതൃക കേന്ദ്രമായി പ്രഖ്യാപിച്ചു. കാലിക്കട്ട് സർവകലാശാലാ ബൊട്ടാണിക്കൽ ഗാർഡനാണ് കേരളത്തിലെ രണ്ടാമത്തെ ജൈവവൈവിധ്യ പൈതൃക കേന്ദ്രം. ഗസറ്റ് വിജ്ഞാപനമിറങ്ങിയതോടെ പ്രഖ്യാപനം പൂർണ്ണമായി. ദേശീയ ജൈവവൈവിധ്യ അതോറിറ്റിയുടെ പരിശോധനയ്ക്കുശേഷം സംസ്ഥാന ജൈവവൈവിധ്യ ബോർഡ് അംഗീകാരം നൽകിയതാണ്. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
-   "caption": "🌱 കാലിക്കറ്റിലെ ബൊട്ടാണിക്കൽ ഗാർഡൻ ജൈവവൈവിധ്യ പൈതൃക കേന്ദ്രമായി പ്രഖ്യാപിച്ചു\n\n📰 പൂർണ വിവരം:\nകാലിക്കട്ട് സർവകലാശാലാ ബൊട്ടാണിക്കൽ ഗാർഡൻ കേരളത്തിലെ രണ്ടാമത്തെ ജൈവവൈവിധ്യ പൈതൃക കേന്ദ്രമായി പ്രഖ്യാപിച്ചു. ഗസറ്റ് വിജ്ഞാപനമിറങ്ങിയതോടെ പ്രഖ്യാപനം പൂർണ്ണമായി. ദേശീയ ജൈവവൈവിധ്യ അതോറിറ്റിയുടെ പരിശോധനയ്ക്കുശേഷം സംസ്ഥാന ജൈവവൈവിധ്യ ബോർഡ് അംഗീകാരം നൽകിയതാണ്. രാജ്യത്ത് ഈ വിഭാഗത്തിലുള്ള 58-മത്തെ കേന്ദ്രമാണിത്. കേരളത്തിൽ കൊല്ലത്തെ ആശ്രാമം കണ്ടൽവനമാണ് ആദ്യ ജൈവവൈവിധ്യ പൈതൃക കേന്ദ്രം. 19.5 ഏക്കറിലുള്ള ബൊട്ടാണിക്കൽ ഗാർഡനും സമീപത്തായി 13.5 ഏക്കറിലുള്ള വൃക്ഷോദ്യാനവും ഉൾപ്പെടുത്തിയാണ് ജൈവവൈവിധ്യ പൈതൃക കേന്ദ്രമായി പ്രഖ്യാപിച്ചത്. കേരളത്തിന് അകത്തും പുറത്തുമുള്ള വൈവിധ്യമാർന്ന സസ്യശേഖരം, അന്തമാൻ നിക്കോബാർ ദ്വീപുകൾ, വടക്കുകിഴക്കൻ സംസ്ഥാനങ്ങൾ എന്നിവിടങ്ങളിൽനിന്നുള്ള വിവിധതരം ഇഞ്ചിവർഗങ്ങൾ, വൈവിധ്യമാർന്ന വന്യവാഴകൾ, ജലസസ്യങ്ങളുടെ വ്യത്യസ്ത ശേഖരം, പന്നൽ വർഗങ്ങൾ, ബ്രയോഫൈറ്റുകൾ, കള്ളിമുൾച്ചെടികൾ തുടങ്ങിയവ ബൊട്ടാണിക്കൽ ഗാർഡന്റെ സമ്പന്നതയാണ്. ഇതിനെല്ലാംപുറമെ കാഴ്ചപരിമിതർക്ക് ചെടികളെ മണത്തും തൊട്ടും മനസ്സിലാക്കാനുള്ള സംവിധാനവും പ്രകൃതിദത്തമായ വനപാതയും ഇവിടെയുണ്ട്. വിശാലമായ ജലസംഭരണികളാണ് മറ്റൊന്ന്. 1968-ലാണ് ബൊട്ടാണിക്കൽ ഗാർഡനായി സ്ഥലം അനുവദിച്ചത്. 1972-ലായിരുന്നു ഉദ്ഘാടനം. സസ്യശാസ്ത്ര പഠനവിഭാഗം പ്രഥമ മേധാവി ഡോ. ബി.കെ. നായരുടെ താത്പര്യപ്രകാരംകൂടിയായിരുന്നു നടപടികൾ. മുൻ വകുപ്പ് മേധാവി ഡോ. സന്തോഷ് നമ്പിയാണ് ജൈവവൈവിധ്യ പൈതൃക കേന്ദ്ര പദവിക്കായി നടപടികൾ സ്വീകരിച്ചത്. പൈതൃക പദവി ലഭിച്ചതോടെ ജൈവവൈവിധ്യ സംരക്ഷണ പ്രവർത്തനങ്ങൾക്കുള്ള കേന്ദ്ര-സംസ്ഥാന ഫണ്ടുകൾ ലഭിക്കും. രാജ്യത്ത് ബംഗാളിലാണ് ഏറ്റവുംകൂടുതൽ ജൈവവൈവിധ്യ പൈതൃക കേന്ദ്രങ്ങളുള്ളത്; 10 എണ്ണം.\n📍 സ്ഥലം: കാലിക്കറ്റ് സർവകലാശാലാ ബൊട്ടാണിക്കൽ ഗാർഡൻ\n📜 പ്രഖ്യാപനം: ഗസറ്റ് വിജ്ഞാപനം\n📞 ബന്ധപ്പെടാൻ: കാലിക്കറ്റ് സർവകലാശാല\nആവശ്യമുള്ളവർക്ക് Share ചെയ്യൂ\n\nCalicut University Botanical Garden declared biodiversity heritage site | Malappuram news\n📍 കാലിക്കറ്റ് സർവകലാശാലാ ബൊട്ടാണിക്കൽ ഗാർഡൻ, മലപ്പുറം | 7 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #CalicutUniversity #Biodiversity #MalappuramNews",
-   "prompts": "A wide view of the Botanical Garden at Calicut University on a bright November morning, with a variety of trees, shrubs and flowering plants, a small lake with water lilies, a group of students seen from behind taking notes, a Kerala University signboard in the background. Same soft morning light and fresh green colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose view of a section of the Botanical Garden with a variety of plants, a signboard with the names of the plants in Malayalam, a student seen from behind taking a photo of a plant, a Kerala University signboard in the background. Same soft morning light and fresh green colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA group of students seen from behind walking along a path in the Botanical Garden, a variety of plants and trees on either side, a small lake with water lilies in the background, a Kerala University signboard in the background. Same soft morning light and fresh green colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close view of a variety of plants in the Botanical Garden, a signboard with the names of the plants in Malayalam, a student seen from behind taking notes, a Kerala University signboard in the background. Same soft morning light and fresh green colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.mathrubhumi.com/amp/malappuram/news/localnews-malappuram-m39t9slo",
-   "published": "2026-11-07T02:15+05:30",
-   "verification": "FREE-MODEL DRAFT (cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct) - not checked by Claude yet; validator problems: reel_script has 37 words; need 85-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block); stray Malayalam sign 'ാ' after '-' in «്ള 58-ാമത്»; caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 17 ('റൂട്ട് കനാൽ ചികിത്സയ്ക്കിടെ ഉപകരണം 17-കാരിയുടെ വയറ്റിലെത്തി,')",
-   "note": "free-model draft cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct, 2 attempt(s), 3 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 2.0,
-   "auto_images": true
-  }
- ]
+ "stories": []
 }
