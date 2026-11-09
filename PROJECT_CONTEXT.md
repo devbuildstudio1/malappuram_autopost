@@ -80,21 +80,9 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
-| 2026-11-06 | `0e404c6` | ig probe: read follower and post counts |
-| 2026-11-06 | `dcbb235` | Pin workflows to ubuntu-24.04 |
-| 2026-11-05 | `6e37e55` | Heartbeat |
-| 2026-11-05 | `0aafb04` | Heartbeat |
-| 2026-11-04 | `2c0eb4e` | Heartbeat |
-| 2026-11-04 | `40c9222` | Heartbeat |
-| 2026-11-04 | `8d33e8c` | Pace reels for reach: prime-time windows, 75 min gap, 6 a day, quiet hours |
-| 2026-11-04 | `8ccf322` | Start the posting job every 10 min from Apps Script |
-| 2026-11-04 | `f3c4cf0` | Go live: enable automatic collecting and Instagram posting |
-| 2026-11-04 | `d4ea741` | image test output |
-| 2026-11-04 | `ad48f61` | Require the LIVE file for any real posting and honour PAUSED |
-| 2026-11-04 | `6eb3014` | Support Meta system-user tokens (graph.facebook.com) for Instagram posting |
-| 2026-11-04 | `0cacbae` | ig probe output |
-| 2026-11-04 | `b045573` | Use @malappuram.360.official as the Malappuram Instagram handle |
-| 2026-11-03 | `a04ceab` | Update configuration values for Google Sheet and Cloudinary in Code.gs |
-| 2026-11-03 | `e37d70f` | ig probe output |
-| 2026-10-30 | `0ed08f2` | Initial commit: Malappuram 360 autopost pipeline |
+| 2026-11-09 | `5da5c14` | Never let slow image models block the posting check |
+| 2026-11-09 | `adf98b5` | ig probe output |
+| 2026-11-08 | `56e82d6` | Heartbeat |
+| 2026-11-07 | `0fe9838` | Heartbeat |
+| 2026-11-07 | `1a786f5` | Heartbeat |
 <!-- recent-changes:end -->
