@@ -1452,12 +1452,16 @@ def auto_images():
                 data = None
                 last_err = None
                 for attempt in range(3):      # owner 25 Oct: a picture that does not show the news is generated again (up to 3 times)
+                    if time.time() > budget:      # 9 Nov: retries with slow image models ran past the 12-min check job and nothing posted
+                        last_err = last_err or RuntimeError("time for this run used up")
+                        break
                     try:
                         cand = imagegen.generate(pr[:1800], seed=k + 7 + attempt * 13, cheap=k > 1)      # cover: dev; scenes 2-3: schnell
                     except Exception as e:
                         last_err = e
                         log("image attempt", attempt + 1, "failed:", str(e)[:140])
-                        time.sleep(20 * (attempt + 1))
+                        if time.time() + 20 * (attempt + 1) < budget:
+                            time.sleep(20 * (attempt + 1))
                         continue
                     data = cand
                     if imagegen.matches(cand, r.get("headline_en") or ""):
@@ -1501,7 +1505,18 @@ def main():
     else:
         try:
             if mode == "check" and not PREBUILD and not DRY:      # once per cycle; the 12 posting jobs used to make the same pictures 12 times
-                auto_images()
+                # hard limit: a hung image model must never stop the posting check (9 Nov: job killed at 12 min, nothing posted for hours)
+                import threading
+                def _imgs():
+                    try:
+                        auto_images()
+                    except Exception as e:
+                        log("automatic images step failed (posting goes on):", e)
+                th = threading.Thread(target=_imgs, daemon=True)
+                th.start()
+                th.join(int(os.environ.get("AUTO_IMG_SECONDS", "420")) + 60)
+                if th.is_alive():
+                    log("automatic images still running - left for the next run, posting goes on")
         except Exception as e:
             log("automatic images step failed (posting goes on):", e)
         rows = bridge_get("queue")["rows"]
