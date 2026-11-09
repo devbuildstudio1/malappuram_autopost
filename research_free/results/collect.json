@@ -2,113 +2,15 @@
  "log": [
   "earlier stories still waiting for images: []",
   "instagram check: 28 recent posts read from both pages",
-  "write round: 2 news waiting in the queue (written in priority order)",
-  "candidate filter: collected=2",
-  "to write: 0 Manjeri + 2 other district candidates (max 200 + 200 stories)",
-  "candidates waiting: 0 Manjeri, 2 Malappuram; time left 29 min",
-  "try (N) manual=False: ലൗ പ്ലാസ്റ്റിക്: സ്കൂളും പരിസരവും ശുചീകരിച്ചു",
-  "try (N) manual=False: സെക്രട്ടറിയറ്റ് വളയൽ സമരം: മേഖലാ വാഹനജാഥ നാളെ ജില്ലയിൽ",
-  "auto images failed for 'Regional vehicle rally for Nov 21 Secret': all image models failed: all image models failed: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed ou -> images-needed email",
-  "auto images: 0 of 1 stories ({})",
-  "posting job started at once",
-  "NOT filed (N) ലൗ പ്ലാസ്റ്റിക്: സ്കൂളും പരിസരവും ശുചീകരിച്ചു: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 2}, done={'R': 0, 'N': 1}, time left 24 min",
-  "carousel for 0 of 1 stories, the rest reel only",
-  "filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)",
-  "queue: 1 news waiting to be written",
-  "write_stories.yml started",
-  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":2}"
+  "write round: 1 news waiting in the queue (written in priority order)",
+  "candidate filter: checked earlier=1",
+  "to write: 0 Manjeri + 0 other district candidates (max 200 + 200 stories)",
+  "candidates waiting: 0 Manjeri, 0 Malappuram; time left 29 min",
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 0}, done={'R': 0, 'N': 0}, time left 29 min",
+  "carousel for 0 of 0 stories, the rest reel only",
+  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
+  "queue: 0 news waiting to be written"
  ],
- "llm": [
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.8-flash",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.7-flash",
-  "ok gemini/gemini-3.6-flash (20s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
-  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
-  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min",
-  "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.8-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6"
- ],
- "stories": [
-  {
-   "malayalam_headline": "സെക്രട്ടറിയറ്റ് വളയൽ സമരം: മേഖലാ വാഹനജാഥ ജില്ലയിൽ പര്യടനം നടത്തും",
-   "english_headline": "Regional vehicle rally for Nov 21 Secretariat blockade to tour Malappuram district",
-   "category": "Government & Services",
-   "location": "Malappuram district",
-   "importance": "Medium",
-   "scope": "district",
-   "post_to": "Malappuram 360 (collab: Manjeri 360)",
-   "slides_spec": {
-    "v": 3,
-    "cat": "വാഹനജാഥ",
-    "loc": "മലപ്പുറം ജില്ല",
-    "hl1": "ജീവനക്കാരുടെ മേഖലാ വാഹനജാഥ",
-    "hl2": "ജില്ലയിൽ പര്യടനം നടത്തും",
-    "slides": [
-     {
-      "title": "എന്ത്, എന്ന്?",
-      "lines": [
-       "സെക്രട്ടറിയറ്റ് വളയൽ സമര പ്രചാരണ ജാഥ",
-       "തിങ്കൾ വൈകിട്ട് <b>4 മണിക്ക്</b> ചന്തക്കുന്നിൽ ഉദ്ഘാടനം",
-       "നവംബർ <b>21ന്</b> കാൽലക്ഷം പേരുടെ സമരം"
-      ]
-     },
-     {
-      "title": "ചൊവ്വാഴ്ച പര്യടനം",
-      "lines": [
-       "രാവിലെ <b>9.30ന്</b> പെരിന്തൽമണ്ണയിൽ നിന്ന് ആരംഭിക്കും",
-       "<b>11ന്</b> മഞ്ചേരി, <b>12.30ന്</b> മലപ്പുറം സിവിൽ സ്റ്റേഷൻ",
-       "വൈകിട്ട് <b>3ന്</b> സർവകലാശാല, <b>4ന്</b> തിരൂരിൽ സമാപനം"
-      ]
-     },
-     {
-      "title": "ബുധനാഴ്ച",
-      "lines": [
-       "രാവിലെ <b>9.30ന്</b> എടപ്പാളിൽ സ്വീകരണം",
-       "തുടർന്ന് പാലക്കാട് ജില്ലയിലേക്ക് പ്രവേശിക്കും",
-       "ടി കെ എ ഷാഫിയാണ് ജാഥാ ക്യാപ്റ്റൻ"
-      ]
-     },
-     {
-      "title": "പ്രധാന ആവശ്യങ്ങൾ",
-      "lines": [
-       "ശമ്പള പരിഷ്കരണം, ഇടക്കാലാശ്വാസം അനുവദിക്കുക",
-       "പങ്കാളിത്ത പെൻഷൻ പിൻവലിക്കുക, DA കുടിശ്ശിക നൽകുക",
-       "മെഡിസെപ് അപാകം പരിഹരിക്കുക"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "നവംബർ 21ലെ കാൽലക്ഷം ജീവനക്കാരുടെ സെക്രട്ടറിയറ്റ് വളയൽ സമരത്തിന്റെ പ്രചാരണ വാഹനജാഥ ജില്ലയിൽ പര്യടനം നടത്തും. തിങ്കളാഴ്ച വൈകിട്ട് 4 മണിക്ക് ചന്തക്കുന്നിൽ പി കെ സൈനബ ജാഥ ഉദ്ഘാടനം ചെയ്യും. ചൊവ്വാഴ്ച രാവിലെ 9.30ന് പെരിന്തൽമണ്ണയിൽ നിന്നാണ് പര്യടനം ആരംഭിക്കുന്നത്. രാവിലെ 11ന് മഞ്ചേരിയിലും 12.30ന് മലപ്പുറം സിവിൽ സ്റ്റേഷനിലും ജാഥയ്ക്ക് സ്വീകരണം നൽകും. വൈകിട്ട് 3ന് കലിക്കറ്റ് സർവകലാശാലയിലും 4 മണിക്ക് തിരൂരിലും ജാഥ പര്യടനം നടത്തും. ബുധനാഴ്ച രാവിലെ 9.30ന് എടപ്പാളിലെ സ്വീകരണത്തിന് ശേഷം ജാഥ പാലക്കാട് ജില്ലയിലേക്ക് കടക്കും. ശമ്പള പരിഷ്കരണം നടപ്പാക്കുക, പങ്കാളിത്ത പെൻഷൻ പിൻവലിക്കുക തുടങ്ങിയ ആവശ്യങ്ങൾ ഉന്നയിച്ചാണ് സമരം. ടി കെ എ ഷാഫിയാണ് ജാഥാ ക്യാപ്റ്റൻ. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
-   "caption": "🚍 നവംബർ 21ലെ സെക്രട്ടറിയറ്റ് വളയൽ സമരം: മേഖലാ വാഹനജാഥ ജില്ലയിൽ പര്യടനം നടത്തും\n\n📰 പൂർണ വിവരം:\nനവംബർ 21ന് സംഘടിപ്പിക്കുന്ന കാൽലക്ഷം ജീവനക്കാരുടെ സെക്രട്ടറിയറ്റ് വളയൽ സമരത്തിന്റെ പ്രചാരണാർഥമുള്ള മലപ്പുറം-തൃശൂർ മേഖലാ വാഹനജാഥ ജില്ലയിൽ പര്യടനം നടത്തും. തിങ്കളാഴ്ച വൈകിട്ട് 4 മണിക്ക് ചന്തക്കുന്നിൽ ജനാധിപത്യ മഹിളാ അസോസിയേഷൻ അഖിലേന്ത്യാ വൈസ് പ്രസിഡന്റ് പി കെ സൈനബ ജാഥ ഉദ്ഘാടനം ചെയ്യും. ചൊവ്വാഴ്ച രാവിലെ 9.30ന് പെരിന്തൽമണ്ണയിൽ നിന്ന് പര്യടനം ആരംഭിക്കും. രാവിലെ 11ന് മഞ്ചേരി, 12.30ന് മലപ്പുറം സിവിൽ സ്റ്റേഷൻ, വൈകിട്ട് 3ന് കലിക്കറ്റ് സർവകലാശാല എന്നിവിടങ്ങളിലെ സ്വീകരണത്തിന് ശേഷം 4 മണിക്ക് തിരൂരിൽ സമാപിക്കും. ബുധനാഴ്ച രാവിലെ 9.30ന് എടപ്പാളിലെ സ്വീകരണത്തിന് ശേഷം ജാഥ പാലക്കാട് ജില്ലയിലേക്ക് പ്രവേശിക്കും. ശമ്പള പരിഷ്കരണം ഉടൻ നടപ്പാക്കുക, ഇടക്കാലാശ്വാസം അനുവദിക്കുക, പങ്കാളിത്ത പെൻഷൻ പിൻവലിക്കുക, ക്ഷാമബത്ത കുടിശ്ശിക അനുവദിക്കുക, അന്യായ സ്ഥലംമാറ്റങ്ങൾ റദ്ദാക്കുക, മെഡിസെപ് അപാകം പരിഹരിക്കുക തുടങ്ങിയ ആവശ്യങ്ങൾ ഉന്നയിച്ചാണ് സമരം. ടി കെ എ ഷാഫിയാണ് ജാഥാ ക്യാപ്റ്റൻ.\n\n🗓️ തീയതി: നവംബർ 9 - 11\n📍 സ്ഥലം: പെരിന്തൽമണ്ണ, മഞ്ചേരി, മലപ്പുറം, സർവകലാശാല, തിരൂർ, എടപ്പാൾ\nℹ️ ശ്രദ്ധിക്കുക: മുഴുവൻ ജീവനക്കാരും അധ്യാപകരും സ്വീകരണ പരിപാടികളിൽ പങ്കെടുക്കാൻ ആക്ഷൻ കൗൺസിൽ അഭ്യർഥിച്ചു\n\nആവശ്യമുള്ളവർക്ക് Share ചെയ്യൂ\n\nRegional vehicle campaign rally for Secretariat strike in Malappuram district | Malappuram news\n📍 മലപ്പുറം | 09 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Perinthalmanna #GovernmentEmployees #MalappuramNews",
-   "prompts": "A decorated campaign vehicle with banners parked beside a road in Malappuram district under soft morning sunlight, coconut trees and green surroundings in the background. Same natural daylight mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA quiet town junction in Perinthalmanna with a wide street, shops along the roadside, and morning sunlight casting soft shadows. Same natural daylight mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nExterior shot of the Malappuram Civil Station office complex entrance gate with green trees surrounding the building under a clear sky. Same natural daylight mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA tree-lined campus road at Calicut University in Tenhipalam with clear afternoon lighting and quiet atmosphere. Same natural daylight mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA busy street corner in Tirur town with vehicles passing by and buildings on either side in late afternoon light. Same natural daylight mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.deshabhimani.com/district-news/-73594/meghala-jadha-fy0",
-   "published": "2026-11-08T17:55:00+05:30",
-   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences; numbers not found in the article: 09",
-   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 2 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 2.0,
-   "auto_images": true
-  }
- ]
+ "llm": [],
+ "stories": []
 }
