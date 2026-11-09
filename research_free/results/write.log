@@ -1,17 +1,12 @@
-writing [N]: യൂത്ത് ലീഗ് നേതാവിനെ സംരക്ഷിച്ച് പൊലീസ്
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 writing [N]: Shigella Outbreak Reported Again in Malappuram; 114 People S
-writing [N]: കാറ്റക്കിസം അധ്യാപകരെ ആദരിച്ചു  | Deepika | The Largest Read
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [N]: കൃഷി വേണോ വേണ്ടയോ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: ഖോ ഖോ; മലപ്പുറവും തിരുവനന്തപുരവും ജേതാക്കൾ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -22,74 +17,92 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+ok groq/openai/gpt-oss-120b (7s)
+attempt 1 groq/openai/gpt-oss-120b: 3 problems
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+dead for this round: groq/openai/gpt-oss-120b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgskGxmnsV3s6tR2CNByr"}
-writing [N]: സർവത്ര മായം!, 'നക്സൽ ഭീഷണി അവസാനിച്ച ആദ്യ ദീപാവലി', മലപ്പുറത
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgskH19Ayv6eRrMHqUBkC"}
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgsrieWcSmWFqEWeKzjEu"}
+proofread skipped: free models not efficient (6 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+writing [N]: രാജ്യറാണി സമയത്തെത്തിയില്ല; നൂറുകണക്കിന് യാത്രക്കാർ ദുരിതത്ത
+free models unavailable: free models not efficient (6 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgsriitoDVzUVG971mgF7"}
+writing [N]: യൂത്ത് ലീഗ് നേതാവിനെ സംരക്ഷിച്ച് പൊലീസ്
+free models unavailable: free models not efficient (6 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgsrimiwyGVyABJEL7ZQe"}
+writing [N]: കാറ്റക്കിസം അധ്യാപകരെ ആദരിച്ചു  | Deepika | The Largest Read
+free models unavailable: free models not efficient (6 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgsriqJ1mgV7RiczrAxYG"}
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgskJLfx5sWZ5o2SZxGBP"}
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-switching away from gemini/gemini-3.6-flash for 10 min
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgsrjA3PB5NW4KTzTkTKC"}
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgskLVhjWGwb6GTgrajdX"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgsrkZssLz4KeZ1gN5hkD"}
 earlier stories still waiting for images: []
 instagram check: 37 recent posts read from both pages
-write round: 4 news waiting in the queue (written in priority order)
-candidate filter: collected=4
-to write: 0 Manjeri + 4 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 4 Malappuram; time left 29 min
+write round: 13 news waiting in the queue (written in priority order)
+candidate filter: collected=12, already filed=1
+to write: 0 Manjeri + 12 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 12 Malappuram; time left 29 min
+try (N) manual=False: കൃഷി വേണോ വേണ്ടയോ
+try (N) manual=False: മലപ്പുറം അമരമ്പലത്ത് ഷിഗെല്ല രോഗബാധ; ഹോട്ടലുകളിലും കൂൾബാറുകള
 try (N) manual=False: Shigella Outbreak Reported Again in Malappuram; 114 People S
-try (N) manual=False: കാറ്റക്കിസം അധ്യാപകരെ ആദരിച്ചു  | Deepika | The Largest Read
+skip (N) similar to a filed story: മലപ്പുറം അമരമ്പലത്ത് ഷിഗെല്ല രോഗബാധ; ഹോട്ടലുകളിലും
+try (N) manual=False: ഖോ ഖോ; മലപ്പുറവും തിരുവനന്തപുരവും ജേതാക്കൾ
+NOT filed (N) ഖോ ഖോ; മലപ്പുറവും തിരുവനന്തപുരവും ജേതാക്കൾ: bad draft: 'scenes'
+try (N) manual=False: രോഗം പടരുമ്പോഴും പഴകിയ ഭക്ഷണ വിൽപന വ്യാപകം; അമരമ്പലത്ത് ഹോട്
+skip (N) similar to a filed story: രോഗം പടരുമ്പോഴും പഴകിയ ഭക്ഷണ വിൽപന വ്യാപകം; അമരമ്പ
+try (N) manual=False: രാജ്യറാണി സമയത്തെത്തിയില്ല; നൂറുകണക്കിന് യാത്രക്കാർ ദുരിതത്ത
+NOT filed (N) രാജ്യറാണി സമയത്തെത്തിയില്ല; നൂറുകണക്കിന് യാത്രക്കാ: all free models failed: no usable answer from the models
 try (N) manual=False: യൂത്ത് ലീഗ് നേതാവിനെ സംരക്ഷിച്ച് പൊലീസ്
-NOT filed (N) കാറ്റക്കിസം അധ്യാപകരെ ആദരിച്ചു  | Deepika | The La: all free models failed: no usable answer from the models
-try (N) manual=False: സർവത്ര മായം!, 'നക്സൽ ഭീഷണി അവസാനിച്ച ആദ്യ ദീപാവലി', മലപ്പുറത
-NOT filed (N) സർവത്ര മായം!, 'നക്സൽ ഭീഷണി അവസാനിച്ച ആദ്യ ദീപാവലി': all free models failed: no usable answer from the models
 NOT filed (N) യൂത്ത് ലീഗ് നേതാവിനെ സംരക്ഷിച്ച് പൊലീസ്: all free models failed: no usable answer from the models
+try (N) manual=False: കാറ്റക്കിസം അധ്യാപകരെ ആദരിച്ചു  | Deepika | The Largest Read
+NOT filed (N) കാറ്റക്കിസം അധ്യാപകരെ ആദരിച്ചു  | Deepika | The La: all free models failed: no usable answer from the models
+try (N) manual=False: ഷിഗെല്ല ആശങ്കയ്ക്കിടെ പഴകിയ ഭക്ഷണ വിൽപ്പന! മലപ്പുറത്ത് ഹോട്ട
+skip (N) similar to a filed story: ഷിഗെല്ല ആശങ്കയ്ക്കിടെ പഴകിയ ഭക്ഷണ വിൽപ്പന! മലപ്പുറ
+try (N) manual=False: മലപ്പുറത്ത് 2 പേർക്ക് കൂടി ഷിഗെല്ല; രോഗ ബാധിതർ ഒമ്പതായി, 100
+skip (N) similar to a filed story: മലപ്പുറത്ത് 2 പേർക്ക് കൂടി ഷിഗെല്ല; രോഗ ബാധിതർ ഒമ്
+try (N) manual=False: പി.എം ശ്രീ; വ്യത്യസ്തമായ അഭിപ്രായങ്ങൾ പരിശോധിക്കുമെന്ന് എൻ. 
+skip (N) similar to a filed story: പി.എം ശ്രീ; വ്യത്യസ്തമായ അഭിപ്രായങ്ങൾ പരിശോധിക്കുമ
+try (N) manual=False: പിഎം ശ്രീയെ സംബന്ധിച്ച് വ്യത്യസ്തമായ അഭിപ്രായങ്ങളുണ്ട്; ഇതുവ
+skip (N) similar to a filed story: പിഎം ശ്രീയെ സംബന്ധിച്ച് വ്യത്യസ്തമായ അഭിപ്രായങ്ങളു
 NOT filed (N) Shigella Outbreak Reported Again in Malappuram; 11: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 4}, done={'R': 0, 'N': 0}, time left 28 min
+NOT filed (N) കൃഷി വേണോ വേണ്ടയോ: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 12}, done={'R': 0, 'N': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
-queue: 4 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":4} 
+queue: 6 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":6} 
 stories: 0
