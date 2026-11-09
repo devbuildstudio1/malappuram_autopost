@@ -1,6 +1,9 @@
-writing [N]: സംസ്കൃത അധ്യാപകർക്ക് സർക്കാർ ജോലി; അസിസ്റ്റന്റ് പ്രൊഫസർ ഒഴിവ
+writing [N]: Shigella Outbreak Reported Again in Malappuram; 114 People S
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: യങ് ഡെമോക്രാറ്റ്സ് മെമ്പർഷിപ് കാംപയിൻ മലപ്പുറം ജില്ലാതല ഉദ്ഘ
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -11,9 +14,11 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-writing [N]: യങ് ഡെമോക്രാറ്റ്സ് മെമ്പർഷിപ് കാംപയിൻ മലപ്പുറം ജില്ലാതല ഉദ്ഘ
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -21,96 +26,150 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 dead for this round: groq/openai/gpt-oss-120b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-writing [N]: Shigella Outbreak Reported Again in Malappuram; 114 People S
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgsbkPR5jB1qZFT5MLtFT"}
-writing [N]: യൂത്ത് ലീഗ് നേതാവിനെ സംരക്ഷിച്ച് പൊലീസ്
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgsbkV9cbztq897pS5A4n"}
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+writing [N]: 'വ്യത്യസ്ത  അഭിപ്രായങ്ങളുണ്ട്,  അതെല്ലാം  പരിശോധിക്കുകയാണ്':
+free models unavailable: free models not efficient (6 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgscmXDXS8DzEWxt4fCKK"}
 writing [N]: ഇന്ദിരാ ഗാന്ധി വെടിയേറ്റു മരിക്കുമെന്ന് അന്ത്രുപ്പാപ്പ നേരത്
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgsbkWUySrr3g5vDbCskf"}
+free models unavailable: free models not efficient (6 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgscmYGGne7zJxaGp2E5U"}
 writing [N]: കാറ്റക്കിസം അധ്യാപകരെ ആദരിച്ചു  | Deepika | The Largest Read
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgsbkc3r6cDhFNT3mwR5s"}
+free models unavailable: free models not efficient (6 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgscmciB1bqnixFpkfFBk"}
+writing [N]: യൂത്ത് ലീഗ് നേതാവിനെ സംരക്ഷിച്ച് പൊലീസ്
+free models unavailable: free models not efficient (6 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgscmhd6cLU1o6x9itHpW"}
 writing [N]: സർവത്ര മായം!, 'നക്സൽ ഭീഷണി അവസാനിച്ച ആദ്യ ദീപാവലി', മലപ്പുറത
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgsbkdSvNV7VqR3zZAZCj"}
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
+free models unavailable: free models not efficient (6 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgscmjXSfDTLFtt7qrXLD"}
+ok gemini/gemini-3.6-flash (23s)
+attempt 1 gemini/gemini-3.6-flash: 3 problems
+  reel_script has 54 words; need 60-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  not grounded: place word 'മലപ്പുറത്ത്' is not in the article
+  not grounded: only 6% of the words come from the article (e.g. മലപ്പുറം, ജില്ലയിൽ, ഷിഗെല്ല, രോഗബാധ, റിപ്പോർട്ട്); use the article's own words and facts
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+ok cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast (86s)
+attempt 1 cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: 2 problems
+  reel_script has 45 words; need 60-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): അങ്ങാടിപ്പുറം ('ജില്ലാ ജോയിൻ കൺവീനർ മിസ്ഹബ് എൻ അധ്യക്ഷത വഹിച്ച പരിപാടിയിൽ ജി')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
+poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (31s)
+attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 4 problems
+  reel_script has 37 words; need 60-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 09
+  not grounded: place word 'മലപ്പുറം' is not in the article
+  not grounded: only 3% of the words come from the article (e.g. മലപ്പുറം, ജില്ലയിൽ, ഷിഗെല്ല, രോഗബാധ, കേസുകൾ); use the article's own words and facts
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
+poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
-poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
-poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (43s)
-attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 05 ('ഇവിടെ ക്ലിക്ക് ചെയ്യുക https://chat.whatsapp.com/GQ0abkJF05l'); 28 ('28 നഴ്സിങ് ഫാക്കൽറ്റി ഒഴിവുകൾ, ഇപ്പോൾ അപേക്ഷിക്കാം .എങ്ങനെ അ')
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (33s)
+attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 4 problems
+  reel_script has 46 words; need 60-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 09
+  not grounded: place word 'മലപ്പുറം' is not in the article
+  not grounded: only 7% of the words come from the article (e.g. മലപ്പുറം, ജില്ലയിൽ, ഷിഗെല്ല, രോഗബാധ, കേസുകൾ); use the article's own words and facts
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (39s)
+attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  numbers not found in the article: 09
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (40s)
+attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 4 problems
+  reel_script has 34 words; need 60-105 (the key facts once each, in at most 60 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 09
+  not grounded: place word 'മലപ്പുറം' is not in the article
+  not grounded: only 0% of the words come from the article (e.g. മലപ്പുറം, ജില്ലയിൽ, ഷിഗെല്ല, രോഗബാധ, മുതൽക്കൂട്ടം); use the article's own words and facts
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (45s)
+attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
+  numbers not found in the article: 09
+  not grounded: location 'മഞ്ചേരി' is not in the article
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (38s)
+attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  numbers not found in the article: 09
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
 poor answer - skipped for 30 min: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgsbziWfaEtga8MUq7Pvh"}
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
-poor answer - skipped for 30 min: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgsdBP25VGdbGBL5TZRHA"}
+proofread skipped: free models not efficient (4 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (39s)
+attempt 5 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  numbers not found in the article: 09
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgsc6CjgfeYY8ghWDVX8Q"}
-proofread skipped: free models not efficient (5 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgsdCSAND2tVnFpgDtDGY"}
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-image match: True The photo depicts the building of Vaidyaratnam P.S. Varier Ayurveda College in Kottakkal, which directly corresponds to 
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok groq/qwen/qwen3.8-27b (6s)
+proofread rejected (3 problems)
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+ok groq/qwen/qwen3.8-27b (1s)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+image match check unavailable: gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 3 for 'Assistant Professor in Sanskrit open at '
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261109-2110","first":"MP-101"}
+images made: 3 for 'Young Democrats membership campaign inau'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261109-2126","first":"MP-102"}
 posting job started at once
 write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 37 recent posts read from both pages
-write round: 12 news waiting in the queue (written in priority order)
-candidate filter: collected=12
+write round: 13 news waiting in the queue (written in priority order)
+candidate filter: collected=12, already filed=1
 to write: 0 Manjeri + 12 other district candidates (max 200 + 200 stories)
 candidates waiting: 0 Manjeri, 12 Malappuram; time left 29 min
-try (N) manual=False: സംസ്കൃത അധ്യാപകർക്ക് സർക്കാർ ജോലി; അസിസ്റ്റന്റ് പ്രൊഫസർ ഒഴിവ
 try (N) manual=False: രോഗബാധയ്ക്കിടയിലും പഴകിയ ഭക്ഷണ വിൽപ്പന വ്യാപകം; ഹോട്ടലുകളിൽ 
 try (N) manual=False: ഷിഗെല്ല ആശങ്കയ്ക്കിടെ പഴകിയ ഭക്ഷണ വിൽപ്പന! മലപ്പുറത്ത് ഹോട്ട
-skip (N) similar to a filed story: രോഗബാധയ്ക്കിടയിലും പഴകിയ ഭക്ഷണ വിൽപ്പന വ്യാപകം; ഹോ
 try (N) manual=False: യങ് ഡെമോക്രാറ്റ്സ് മെമ്പർഷിപ് കാംപയിൻ മലപ്പുറം ജില്ലാതല ഉദ്ഘ
-skip (N) similar to a filed story: ഷിഗെല്ല ആശങ്കയ്ക്കിടെ പഴകിയ ഭക്ഷണ വിൽപ്പന! മലപ്പുറ
+skip (N) similar to a filed story: രോഗബാധയ്ക്കിടയിലും പഴകിയ ഭക്ഷണ വിൽപ്പന വ്യാപകം; ഹോ
 try (N) manual=False: Shigella Outbreak Reported Again in Malappuram; 114 People S
-NOT filed (N) Shigella Outbreak Reported Again in Malappuram; 11: all free models failed: no usable answer from the models
+skip (N) similar to a filed story: ഷിഗെല്ല ആശങ്കയ്ക്കിടെ പഴകിയ ഭക്ഷണ വിൽപ്പന! മലപ്പുറ
 try (N) manual=False: പി.എം ശ്രീ; വ്യത്യസ്തമായ അഭിപ്രായങ്ങൾ പരിശോധിക്കുമെന്ന് എൻ. 
 skip (N) similar to a filed story: പി.എം ശ്രീ; വ്യത്യസ്തമായ അഭിപ്രായങ്ങൾ പരിശോധിക്കുമ
-try (N) manual=False: യൂത്ത് ലീഗ് നേതാവിനെ സംരക്ഷിച്ച് പൊലീസ്
-NOT filed (N) യൂത്ത് ലീഗ് നേതാവിനെ സംരക്ഷിച്ച് പൊലീസ്: all free models failed: no usable answer from the models
+try (N) manual=False: 'വ്യത്യസ്ത  അഭിപ്രായങ്ങളുണ്ട്,  അതെല്ലാം  പരിശോധിക്കുകയാണ്':
+NOT filed (N) 'വ്യത്യസ്ത  അഭിപ്രായങ്ങളുണ്ട്,  അതെല്ലാം  പരിശോധിക: all free models failed: no usable answer from the models
 try (N) manual=False: ഇന്ദിരാ ഗാന്ധി വെടിയേറ്റു മരിക്കുമെന്ന് അന്ത്രുപ്പാപ്പ നേരത്
 NOT filed (N) ഇന്ദിരാ ഗാന്ധി വെടിയേറ്റു മരിക്കുമെന്ന് അന്ത്രുപ്പ: all free models failed: no usable answer from the models
 try (N) manual=False: പിഎം ശ്രീയെ സംബന്ധിച്ച് വ്യത്യസ്തമായ അഭിപ്രായങ്ങളുണ്ട്; ഇതുവ
 skip (N) similar to a filed story: പിഎം ശ്രീയെ സംബന്ധിച്ച് വ്യത്യസ്തമായ അഭിപ്രായങ്ങളു
 try (N) manual=False: കാറ്റക്കിസം അധ്യാപകരെ ആദരിച്ചു  | Deepika | The Largest Read
 NOT filed (N) കാറ്റക്കിസം അധ്യാപകരെ ആദരിച്ചു  | Deepika | The La: all free models failed: no usable answer from the models
+try (N) manual=False: യൂത്ത് ലീഗ് നേതാവിനെ സംരക്ഷിച്ച് പൊലീസ്
+NOT filed (N) യൂത്ത് ലീഗ് നേതാവിനെ സംരക്ഷിച്ച് പൊലീസ്: all free models failed: no usable answer from the models
 try (N) manual=False: മലപ്പുറത്ത് 2 പേർക്ക് കൂടി ഷിഗെല്ല; രോഗ ബാധിതർ ഒമ്പതായി, 100
 skip (N) similar to a filed story: മലപ്പുറത്ത് 2 പേർക്ക് കൂടി ഷിഗെല്ല; രോഗ ബാധിതർ ഒമ്
 try (N) manual=False: സർവത്ര മായം!, 'നക്സൽ ഭീഷണി അവസാനിച്ച ആദ്യ ദീപാവലി', മലപ്പുറത
 NOT filed (N) സർവത്ര മായം!, 'നക്സൽ ഭീഷണി അവസാനിച്ച ആദ്യ ദീപാവലി': all free models failed: no usable answer from the models
-NOT filed (N) യങ് ഡെമോക്രാറ്റ്സ് മെമ്പർഷിപ് കാംപയിൻ മലപ്പുറം ജില: all free models failed: no usable answer from the models
+NOT filed (N) Shigella Outbreak Reported Again in Malappuram; 11: duplicate after write
 auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 3})
 posting job started at once
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 12}, done={'R': 0, 'N': 1}, time left 24 min
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 12}, done={'R': 0, 'N': 1}, time left 22 min
 carousel for 0 of 1 stories, the rest reel only
 filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)
 queue: 6 news waiting to be written
