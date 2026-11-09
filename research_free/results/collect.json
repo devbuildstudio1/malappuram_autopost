@@ -2,123 +2,54 @@
  "log": [
   "earlier stories still waiting for images: []",
   "instagram check: 37 recent posts read from both pages",
-  "write round: 6 news waiting in the queue (written in priority order)",
-  "candidate filter: collected=6",
-  "to write: 0 Manjeri + 6 other district candidates (max 200 + 200 stories)",
-  "candidates waiting: 0 Manjeri, 6 Malappuram; time left 29 min",
+  "write round: 5 news waiting in the queue (written in priority order)",
+  "candidate filter: collected=5",
+  "to write: 0 Manjeri + 5 other district candidates (max 200 + 200 stories)",
+  "candidates waiting: 0 Manjeri, 5 Malappuram; time left 29 min",
   "try (N) manual=False: നവോദയ ‘മധുരം മലയാളം’ പദ്ധതിക്ക് യാംബുവിൽ തുടക്കം | Madhyamam",
-  "try (N) manual=False: രോഗം പടരുമ്പോഴും പഴകിയ ഭക്ഷണ വിൽപന വ്യാപകം; അമരമ്പലത്ത് ഹോട്",
   "try (N) manual=False: തിരൂർ ജില്ല പ്രഖ്യാപിക്കുക; എസ് ഡിപിഐ മനുഷ്യചങ്ങല 2027 ജനുവര",
-  "NOT filed (N) തിരൂർ ജില്ല പ്രഖ്യാപിക്കുക; എസ് ഡിപിഐ മനുഷ്യചങ്ങല : all free models failed: no usable answer from the models",
   "try (N) manual=False: പിഎം ശ്രീ: എം കെ മുനീറിൻ്റെ പരാമർശത്തിൽ പ്രതികരിച്ച് വിദ്യാഭ",
-  "NOT filed (N) പിഎം ശ്രീ: എം കെ മുനീറിൻ്റെ പരാമർശത്തിൽ പ്രതികരിച്: all free models failed: no usable answer from the models",
+  "NOT filed (N) തിരൂർ ജില്ല പ്രഖ്യാപിക്കുക; എസ് ഡിപിഐ മനുഷ്യചങ്ങല : all free models failed: no usable answer from the models",
   "try (N) manual=False: പാത്ത് വേയും ഡ്രൈനേജും നാടിന് സമർപ്പിച്ചു",
   "NOT filed (N) പാത്ത് വേയും ഡ്രൈനേജും നാടിന് സമർപ്പിച്ചു: all free models failed: no usable answer from the models",
   "try (N) manual=False: ദിശ ഉന്നത വിദ്യാഭ്യാസ പ്രദർശനത്തിന് ഇന്ന് തുടക്കം",
   "NOT filed (N) ദിശ ഉന്നത വിദ്യാഭ്യാസ പ്രദർശനത്തിന് ഇന്ന് തുടക്കം: all free models failed: no usable answer from the models",
   "NOT filed (N) നവോദയ ‘മധുരം മലയാളം’ പദ്ധതിക്ക് യാംബുവിൽ തുടക്കം |: all free models failed: no usable answer from the models",
-  "auto images failed for 'Food safety raids in Amarambalam hotels ': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email",
-  "auto images: 0 of 1 stories ({})",
-  "posting job started at once",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 6}, done={'R': 0, 'N': 1}, time left 23 min",
-  "carousel for 0 of 1 stories, the rest reel only",
-  "filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)",
+  "NOT filed (N) പിഎം ശ്രീ: എം കെ മുനീറിൻ്റെ പരാമർശത്തിൽ പ്രതികരിച്: all free models failed: no usable answer from the models",
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 5}, done={'R': 0, 'N': 0}, time left 29 min",
+  "carousel for 0 of 0 stories, the rest reel only",
+  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
   "queue: 5 news waiting to be written",
-  "write_stories.yml started",
-  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":6}"
+  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":5}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.8-flash",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.8-flash",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.8-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.7-flash",
-  "ok gemini/gemini-3.6-flash (41s)",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.7-flash",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "dead for this round: groq/openai/gpt-oss-120b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
   "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
-  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
-  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
   "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
   "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min"
  ],
- "stories": [
-  {
-   "malayalam_headline": "അമരമ്പലത്ത് ഹോട്ടലുകളിൽ വ്യാപക പരിശോധന: പഴകിയ ഭക്ഷണം പിടിച്ചെടുത്ത് നശിപ്പിച്ചു",
-   "english_headline": "Food safety raids in Amarambalam hotels after Shigella cases; stale food seized and destroyed",
-   "category": "Health",
-   "location": "Pookkottumpadam, Amarambalam, Malappuram district",
-   "importance": "High",
-   "scope": "local",
-   "post_to": "Malappuram 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "ആരോഗ്യ പരിശോധന",
-    "loc": "അമരമ്പലം, പൂക്കോട്ടുംപാടം",
-    "hl1": "അമരമ്പലത്ത് ഹോട്ടലുകളിൽ മിന്നൽ പരിശോധന",
-    "hl2": "പഴകിയ ഭക്ഷണം നശിപ്പിച്ചു",
-    "slides": [
-     {
-      "title": "മിന്നൽ പരിശോധന",
-      "lines": [
-       "ഷിഗെല്ല ബാധ സ്ഥിരീകരിച്ചതിന് പിന്നാലെ",
-       "പൂക്കോട്ടുംപാടത്തെ ഹോട്ടലുകളിൽ പരിശോധന",
-       "ഞായറാഴ്ച അതിരാവിലെ ഹെൽത്ത് ഇൻസ്പെക്ടറുടെ നേതൃത്വത്തിൽ"
-      ]
-     },
-     {
-      "title": "കണ്ടെത്തിയ",
-      "lines": [
-       "<b>10</b> ഹോട്ടലുകളിൽ പരിശോധന നടത്തി",
-       "വൻതോതിൽ പഴകിയ ഭക്ഷണം പിടിച്ചെടുത്തു",
-       "നിയമം ലംഘിച്ച കടകൾക്ക് നോട്ടീസ് നൽകി"
-      ]
-     },
-     {
-      "title": "ആരോഗ്യവകുപ്പ്",
-      "lines": [
-       "സ്ഥാപനങ്ങൾക്കെതിരെ കർശന നടപടിയും പിഴയും",
-       "പുതിയ ഷിഗെല്ല കേസുകൾ റിപ്പോർട്ട് ചെയ്തിട്ടില്ല",
-       "വരും ദിവസങ്ങളിലും പരിശോധന തുടരും"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "അമരമ്പലത്ത് ഹോട്ടലുകളിൽ ആരോഗ്യവകുപ്പ് നടത്തിയ വ്യാപക പരിശോധനയിൽ പഴകിയ ഭക്ഷണം പിടിച്ചെടുത്തു. ഷിഗെല്ല രോഗബാധ സ്ഥിരീകരിച്ചതിനെ തുടർന്നാണ് പൂക്കോട്ടുംപാടം അങ്ങാടിയിലെ ഹോട്ടലുകളിലും കൂൾബാറുകളിലും പരിശോധന ശക്തമാക്കിയത്. അമരമ്പലം കുടുംബാരോഗ്യ കേന്ദ്രം മെഡിക്കൽ ഓഫീസർ ഡോക്ടർ അശ്വതിയുടെ നിർദേശപ്രകാരം ഹെൽത്ത് ഇൻസ്പെക്ടർ ഗോകുൽദാസിന്റെ നേതൃത്വത്തിലാണ് പരിശോധന നടന്നത്. ഞായറാഴ്ച അതിരാവിലെ അമരമ്പലം പഞ്ചായത്തിലെ 10 ഹോട്ടലുകളിൽ ഉദ്യോഗസ്ഥർ പരിശോധന നടത്തി. പരിശോധനയിൽ പിടിച്ചെടുത്ത പഴകിയ ഭക്ഷണ സാധനങ്ങൾ ഉദ്യോഗസ്ഥർ നശിപ്പിച്ചു. മുൻകരുതൽ നിർദേശങ്ങൾ പാലിക്കാത്ത സ്ഥാപനങ്ങൾക്ക് നോട്ടീസ് നൽകി. ഇത്തരം സ്ഥാപനങ്ങൾക്കെതിരെ കർശന നടപടിയും പിഴയും ഉണ്ടാകുമെന്ന് ഹെൽത്ത് ഇൻസ്പെക്ടർ അറിയിച്ചു. നിലവിൽ പ്രദേശത്ത് പുതിയ ഷിഗെല്ല കേസുകളൊന്നും റിപ്പോർട്ട് ചെയ്തിട്ടില്ലെന്ന് ആരോഗ്യവകുപ്പ് വ്യക്തമാക്കി. പരിശോധനക്ക് അയച്ച സാമ്പിളുകളുടെ ഫലം അടുത്ത ദിവസം പുറത്തുവരും. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
-   "caption": "🦠 അമരമ്പലത്ത് ഹോട്ടലുകളിൽ ആരോഗ്യവകുപ്പിന്റെ മിന്നൽ പരിശോധന; പഴകിയ ഭക്ഷണം പിടിച്ചെടുത്ത് നശിപ്പിച്ചു\n\n📰 പൂർണ വിവരം:\nഅമരമ്പലത്ത് ഷിഗെല്ല രോഗബാധ സ്ഥിരീകരിച്ചതിനെ തുടർന്ന് പൂക്കോട്ടുംപാടം അങ്ങാടിയിലെ ഹോട്ടലുകളിലും കൂൾബാറുകളിലും ആരോഗ്യവകുപ്പ് പരിശോധന കടുപ്പിച്ചു. അമരമ്പലം കുടുംബാരോഗ്യ കേന്ദ്രം മെഡിക്കൽ ഓഫീസർ ഡോ. അശ്വതിയുടെ നിർദേശപ്രകാരം ഞായറാഴ്ച അതിരാവിലെ ഹെൽത്ത് ഇൻസ്പെക്ടർ ഗോകുൽദാസിന്റെ നേതൃത്വത്തിലാണ് പരിശോധന നടന്നത്. പഞ്ചായത്തിന്റെ വിവിധ ഭാഗങ്ങളിലായി 10 ഹോട്ടലുകളിൽ നടത്തിയ പരിശോധനയിൽ വൻതോതിൽ പഴകിയ ഭക്ഷണ സാധനങ്ങൾ പിടിച്ചെടുത്ത് നശിപ്പിച്ചു. നിർദേശങ്ങൾ പാലിക്കാതെ പ്രവർത്തിച്ച സ്ഥാപനങ്ങൾക്ക് നോട്ടീസ് നൽകി. ഇവയ്ക്കെതിരെ കർശന നടപടിയും പിഴയും ഈടാക്കുമെന്ന് അധികൃതർ വ്യക്തമാക്കി. നിലവിൽ പുതിയ ഷിഗെല്ല കേസുകളൊന്നും റിപ്പോർട്ട് ചെയ്തിട്ടില്ലെന്നും സാമ്പിളുകളുടെ പരിശോധനാ ഫലം ഉടൻ വരുമെന്നും ആരോഗ്യവകുപ്പ് അറിയിച്ചു.\n📍 സ്ഥലം: പൂക്കോട്ടുംപാടം, അമരമ്പലം പഞ്ചായത്ത്\n🗓️ തീയതി: ഞായറാഴ്ച\n👮 നടപടി: 10 ഹോട്ടലുകളിൽ പരിശോധന, പഴകിയ ഭക്ഷണം നശിപ്പിച്ചു, നോട്ടീസ് നൽകി\nℹ️ ശ്രദ്ധിക്കുക: ശുചിത്വ നിർദേശങ്ങൾ ലംഘിക്കുന്ന സ്ഥാപനങ്ങൾക്കെതിരെ പിഴയടക്കമുള്ള നടപടികൾ സ്വീകരിക്കും\nഎല്ലാവരുടെയും അറിവിലേക്കായി Share ചെയ്യൂ\n\nFood safety inspection in Amarambalam Pookkottumpadam hotels after Shigella cases | Malappuram news\n📍 പൂക്കോട്ടുംപാടം, മലപ്പുറം | 09 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Pookkottumpadam #FoodSafety #MalappuramNews",
-   "prompts": "Early morning view of Pookkottumpadam market street in Amarambalam panchayat, Malappuram district: health inspection officers in light blue shirts standing outside a traditional Kerala hotel, coconut trees and green hills in the soft morning mist background. Clean, daylight natural tones across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nInterior of a small hotel kitchen in Pookkottumpadam during early morning health inspection: stainless steel counters, clean tiled walls, health inspector wearing gloves pointing to food containers, owner watching from the side. Clean, daylight natural tones across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up detail of health department officer issuing a written notice paper on a wooden desk inside a food establishment, official stamp pad and logbook visible on the desk. Clean, daylight natural tones across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nExterior view of the Amarambalam Family Health Centre building under bright daylight, board in Malayalam visible, clean paved courtyard surrounded by lush greenery. Clean, daylight natural tones across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.madhyamam.com/amp/kerala/local-news/malappuram/widespread-sale-of-stale-food-amid-disease-outbreak-raids-conducted-at-hotels-in-amarambalam-1570624",
-   "published": "2026-11-09T14:11:49+05:30",
-   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: numbers not found in the article: 09",
-   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 4.0,
-   "auto_images": true
-  }
- ]
+ "stories": []
 }
