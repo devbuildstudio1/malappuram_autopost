@@ -32,28 +32,30 @@
   "NOT filed (N) മലബാറിന്റെ പാർട്ടിയെന്ന പഴയ ചിത്രം മാറി; തെക്കൻ കേ: all free models failed: no usable answer from the models",
   "try (N) manual=False: പട്ടിക്കാട് റെയിൽവേഗേറ്റ് പൂർണമായും അടയ്ക്കില്ല  | Deepika |",
   "NOT filed (N) പട്ടിക്കാട് റെയിൽവേഗേറ്റ് പൂർണമായും അടയ്ക്കില്ല  |: all free models failed: no usable answer from the models",
-  "NOT filed (N) തിരുനാവായ–തവനൂർ പാലം വരുമെന്ന് മന്ത്രി; ഇ.ശ്രീധരൻ : all free models failed: no usable answer from the models",
   "NOT filed (N) കുതിച്ചുയർന്ന ചിരട്ടവില കുത്തനെ താഴേക്ക്; രണ്ടാഴ്ച: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 14}, done={'R': 0, 'N': 0}, time left 29 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
-  "queue: 14 news waiting to be written",
+  "auto images failed for 'Thirunavaya-Thavanur bridge project to b': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email",
+  "auto images: 0 of 1 stories ({})",
+  "posting job started at once",
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 14}, done={'R': 0, 'N': 1}, time left 23 min",
+  "carousel for 0 of 1 stories, the rest reel only",
+  "filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)",
+  "queue: 13 news waiting to be written",
+  "write_stories.yml started",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":14}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "dead for this round: groq/openai/gpt-oss-120b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
   "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
@@ -61,10 +63,74 @@
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.8-flash",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6"
+  "ok gemini/gemini-3.6-flash (38s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "dead for this round: groq/openai/gpt-oss-120b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok groq/qwen/qwen3.8-27b (4s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "ok groq/qwen/qwen3.8-27b (1s)"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "തിരുനാവായ–തവനൂർ പാലം വരുന്നു; ഇ.ശ്രീധരന്റെ നിർദേശം അംഗീകരിച്ച് നിർമാണം തുടങ്ങുമെന്ന് മന്ത്രി",
+   "english_headline": "Thirunavaya-Thavanur bridge project to become a reality with revised alignment based on E. Sreedharan's suggestion",
+   "category": "Roads & Transport",
+   "location": "Thirunavaya - Thavanur, Malappuram district",
+   "importance": "High",
+   "scope": "district",
+   "post_to": "Malappuram 360 (collab: Manjeri 360)",
+   "slides_spec": {
+    "v": 3,
+    "cat": "പാലം നിർമാണം",
+    "loc": "തിരുനാവായ - തവനൂർ",
+    "hl1": "തിരുനാവായ-തവനൂർ പാലം നിർമിക്കും",
+    "hl2": "അലൈൻമെന്റിൽ മാറ്റം വരുത്തും",
+    "slides": [
+     {
+      "title": "പാലം നിർമാണം",
+      "lines": [
+       "തിരുനാവായ-തവനൂർ പാലം ഉടൻ നിർമിക്കും",
+       "മന്ത്രി <b>പി.കെ.ബഷീർ</b> സ്ഥലം സന്ദർശിച്ചു",
+       "<b>3 വർഷം കൊണ്ട്</b> പണി പൂർത്തിയാക്കും"
+      ]
+     },
+     {
+      "title": "അലൈൻമെന്റ് മാറും",
+      "lines": [
+       "ഇ.ശ്രീധരൻ നിർദേശിച്ച അലൈൻമെന്റ് പരിഗണിക്കും",
+       "പാലത്തിനായി <b>15 സെന്റ്</b> സ്ഥലം ഏറ്റെടുക്കും",
+       "ഡിപിആറിൽ ആവശ്യമായ മാറ്റങ്ങൾ വരുത്തും"
+      ]
+     },
+     {
+      "title": "തടസ്സങ്ങൾ നീങ്ങി",
+      "lines": [
+       "വി.എസ്.ജോയ് എംഎൽഎ ഇ.ശ്രീധരനുമായി ചർച്ച നടത്തി",
+       "നിർദേശങ്ങൾ അംഗീകരിച്ചതോടെ അനിശ്ചിതത്വം നീങ്ങി",
+       "ഭാരതപ്പുഴയ്ക്ക് കുറുകെയാണ് പാലം വരുന്നത്"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "തിരുനാവായ-തവനൂർ പാലം ഉടൻ വരുന്നു. ഭാരതപ്പുഴയ്ക്ക് കുറുകെയാണ് ഇത്. മന്ത്രി പി.കെ.ബഷീർ സ്ഥലം സന്ദർശിച്ചു. ഇ.ശ്രീധരൻ നിർദേശിച്ച അലൈൻമെന്റ് അംഗീകരിച്ചു. 15 സെന്റ് സ്ഥലം ഏറ്റെടുക്കും. 3 വർഷം കൊണ്ട് പണി പൂർത്തിയാക്കും. ഈ സന്തോഷവാർത്ത ഷെയർ ചെയ്യൂ. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🌉 തിരുനാവായ–തവനൂർ പാലം വരുന്നു; ഇ.ശ്രീധരന്റെ നിർദേശം അംഗീകരിച്ച് പദ്ധതി മുന്നോട്ട്\n\n📰 പൂർണ വിവരം:\nതിരുനാവായയെയും തവനൂരിനെയും ബന്ധിപ്പിച്ച് ഭാരതപ്പുഴയ്ക്ക് കുറുകെ പാലം നിർമിക്കുമെന്ന പ്രഖ്യാപനവുമായി മന്ത്രി പി.കെ.ബഷീർ. വി.എസ്.ജോയ് എംഎൽഎയുടെ ആവശ്യപ്രകാരം മന്ത്രി പദ്ധതി പ്രദേശം സന്ദർശിച്ചു. മുൻപ് മെട്രോമാൻ ഇ.ശ്രീധരൻ നിർദേശിച്ച അലൈൻമെന്റിൽ മാറ്റങ്ങൾ വരുത്തിയാകും പുതിയ പാലം നിർമിക്കുക. തവനൂർ ഭാഗത്ത് പാലം ത്രിമൂർത്തി സ്നാനഘട്ടിനെ വിഭജിക്കുമെന്നും കെ.കേളപ്പന്റെ സ്മാരകങ്ങൾ ഇല്ലാതാക്കുമെന്നും ചൂണ്ടിക്കാട്ടിയാണ് ഇ.ശ്രീധരൻ കോടതിയെ സമീപിക്കുകയും ചെലവുകുറഞ്ഞ പുതിയ അലൈൻമെന്റ് സമർപ്പിക്കുകയും ചെയ്തത്. ഈ നിർദേശം അംഗീകരിച്ച് 15 സെന്റ് സ്ഥലം കൂടി ഏറ്റെടുത്ത് ഡിപിആർ പുതുക്കും. വി.എസ്.ജോയ് എംഎൽഎ ഇ.ശ്രീധരനുമായി കൂടിക്കാഴ്ച നടത്തി നിർദേശങ്ങൾ തത്ത്വത്തിൽ അംഗീകരിച്ചു. 3 വർഷത്തിനുള്ളിൽ നിർമാണം പൂർത്തിയാക്കാനാണ് ലക്ഷ്യമിടുന്നത്.\n📍 സ്ഥലം: തിരുനാവായ - തവനൂർ, ഭാരതപ്പുഴ\n🏗️ പദ്ധതി: തിരുനാവായ-തവനൂർ പാലം\n🗓️ സമയം: 3 വർഷത്തിനുള്ളിൽ പൂർത്തിയാക്കും\nℹ️ വിവരങ്ങൾക്ക്: 15 സെന്റ് സ്ഥലം ഏറ്റെടുത്ത് പുതിയ ഡിപിആർ തയാറാക്കും\nസന്തോഷവാർത്ത എല്ലാവർക്കും Share ചെയ്യൂ\n\nThirunavaya Thavanur Bharathappuzha bridge project approved | Malappuram news\n📍 തിരുനാവായ, തവനൂർ, മലപ്പുറം | 10 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Thirunavaya #Thavanur #MalappuramNews",
+   "prompts": "Minister P.K. Basheer and MLA V.S. Joy stand on the riverbank discussing the bridge alignment with local officials. The location is the Bharathapuzha river stretch between Thirunavaya and Thavanur, characterized by lush green banks and coconut palms. Several men in shirts and trousers stand nearby, listening from a distance. Government vehicles are parked on the narrow tar road leading to the site. The time is daytime with bright natural light and clear weather. The camera is at eye level, 35 mm, capturing the group from a medium distance to show the interaction without focusing on faces. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide view of the Bharathapuzha river showing the proposed bridge span between Thirunavaya and Thavanur. The river flows calmly with green banks on either side, dotted with areca nut and rubber trees. The Trimuthi Snanaghati is visible on one bank, with concrete steps leading down to the water. A few devotees are seen from behind near the ghat. The new six-lane NH 66 is visible in the background, contrasting with the rural river setting. The time is midday with strong sunlight and no rain. The camera is positioned high, 35 mm, providing an establishing shot of the geographical context. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of the riverbank soil and the edge of the Trimuthi Snanaghati concrete structure. The focus is on the laterite soil and the concrete steps where the revised bridge alignment will avoid causing damage. No people are in the frame. The water of the Bharathapuzha river laps gently against the bank. The time is daytime with soft light highlighting the texture of the soil and concrete. The camera is at a low angle, 35 mm, emphasizing the specific location where the alignment change is being discussed to preserve the ghat. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.manoramaonline.com/district-news/malappuram/2026/11/10/thirunavaya-thavanur-bridge-project.html",
+   "published": "2026-11-10T11:23:36+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash + proofread groq/qwen/qwen3.8-27b) - not checked by Claude yet; validator problems: reel_script has 36 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)",
+   "note": "free-model draft gemini/gemini-3.6-flash + proofread groq/qwen/qwen3.8-27b, 1 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 10.0,
+   "auto_images": true
+  }
+ ]
 }
