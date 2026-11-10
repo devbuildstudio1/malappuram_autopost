@@ -1,0 +1,23 @@
+name: keycheck (temporary)
+on: workflow_dispatch
+jobs:
+  k:
+    runs-on: ubuntu-24.04
+    steps:
+      - env:
+          K: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import os, re, json, urllib.request
+          k = os.environ.get("K", "")
+          s = k.strip()
+          print("length", len(k), "stripped", len(s), "has whitespace/newline", k != s or bool(re.search(r"\s", s)))
+          print("prefix", re.sub(r"[^a-z0-9-]", "?", s[:14]))
+          print("quotes", s[:1] in "\"'" )
+          for path in ["/v1/models"]:
+              req = urllib.request.Request("https://api.anthropic.com" + path, headers={"x-api-key": s, "anthropic-version": "2023-06-01"})
+              try:
+                  r = urllib.request.urlopen(req, timeout=30); print(path, r.status)
+              except Exception as e:
+                  print(path, getattr(e, "code", ""), (e.read().decode()[:200] if hasattr(e, "read") else e))
+          PY
