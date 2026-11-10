@@ -1,22 +1,22 @@
-writing [N]: 'സന്ദീപ് വാര്യർ തൃക്കരിപ്പൂർ എംഎൽഎ ആയത് വലിയ ദുരന്തം'; പി എസ
+writing [N]: കുതിച്ചുയർന്ന ചിരട്ടവില കുത്തനെ താഴേക്ക്; രണ്ടാഴ്ചക്കിടെ ഇടി
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 writing [R]: പുതിയ ട്രാഫിക് സിഗ്നൽ, ബസ് ബേ ഉദ്ഘാടനം നാളെ  | Deepika | The
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-writing [N]: കുതിച്ചുയർന്ന ചിരട്ടവില കുത്തനെ താഴേക്ക്; രണ്ടാഴ്ചക്കിടെ ഇടി
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: 'സന്ദീപ് വാര്യർ തൃക്കരിപ്പൂർ എംഎൽഎ ആയത് വലിയ ദുരന്തം'; പി എസ
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -25,7 +25,12 @@ dead for this round: gemini/gemini-3.7-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
+    "message": "You exceeded your current quota, please chefail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
     "message": "You exceeded your current quota, please che
+
+dead for this round: gemini/gemini-3.7-flash
 dead for this round: gemini/gemini-3.7-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
@@ -37,87 +42,84 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high d
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguGfstFWMUVHfWTcz3G7"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguKCnwRtMQbgNriCkGET"}
 writing [R]: മഞ്ചേരിയിൽ പുതിയ ട്രാഫിക് സിഗ്നൽ സംവിധാനങ്ങളുടെ സ്വിച്ച് ഓൺ 
 free models unavailable: free models not efficient (21 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguGfxyL8o9jXBk29YNpq"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguGfzHUDJXn7dbDgv77j"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguKCsNLVJ5oahqZ4cYrJ"}
 writing [N]: പൊന്നാനി കോടതിക്ക് സ്വന്തം കെട്ടിടം വരുന്നു; 70 സെൻറ് സ്ഥലത്
-free models unavailable: free models not efficient (22 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguGg1GWDCmpVaKyrHV4r"}
+free models unavailable: free models not efficient (21 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguKCtJeA6w8vpFXCZKdk"}
 writing [N]: ഏലംകുളത്ത് ഒരാൾക്ക് കൂടി ഷിഗല്ലെ; നിരീക്ഷണ പട്ടികയിൽ 115 പേർ
-free models unavailable: free models not efficient (22 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguGg2acukJzHZeqDyswt"}
-writing [N]: പി.സി.ഡബ്ലിയു.എഫ് ഏഴാം വാർഷികം ഡിസംബർ 11ന് | Madhyamam
-free models unavailable: free models not efficient (22 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguGg4naMoor62fqP4iAX"}
+free models unavailable: free models not efficient (21 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguKCuDxxM4keHVH1P5FC"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 writing [N]: വീട്ടിൽ നിന്നും 23 പവൻ കവർന്ന കേസ്; വീട്ടുടമയുടെ മകൻ അടക്കം 
 free models unavailable: free models not efficient (22 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguGg6uLHxVv5n3GsbB2j"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguKD19QpmhBGJx9YAVAC"}
+writing [N]: പി.സി.ഡബ്ലിയു.എഫ് ഏഴാം വാർഷികം ഡിസംബർ 11ന് | Madhyamamfail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguKD28BghJdfvZiLKpDP"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguKD27wHZogp3V7hDj6Z"}
 writing [N]: സഫാ ഗോൾഡ് ആൻഡ് ഡയമണ്ട്സ് നവീകരിച്ച മലപ്പുറം ഷോറൂം തുറന്നു
-free models unavailable: free models not efficient (22 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguGg7xaB1dem9x5B6pwo"}
+free models unavailable: free models not efficient (23 failures in a row): using Claude
 writing [N]: മലപ്പുറത്ത് 24 പവനും അഞ്ച് ലക്ഷവും കവർന്നത് നവവരൻ; കൂട്ടായത്
-free models unavailable: free models not efficient (22 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguGg9f2QMHWJ99xFqUkL"}
-writing [N]: തിരുനാവായ പക്ഷിസങ്കേതത്തിലേക്ക് 17 ഇനം പക്ഷികൾ കൂടി; ആകെ 165
-free models unavailable: free models not efficient (22 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguGgAZLoTAMa4d19FoYU"}
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguKD5WbJ3tTMZUhfUJwg"}
 writing [N]: തിരൂർ കൂട്ടായ്മയുടെ ഒൻപതാം വാർഷികാഘോഷം | Madhyamam
-free models unavailable: free models not efficient (22 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguGgC6sVVadzjWVAM5NN"}
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguKD5rREaUzuFxRhJVA3"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguKD6S9s55bYx6PJpqFx"}
 writing [N]: 'അയൽവീട്ടിലെ കാര്യത്തിൽ തലയിട്ട് കുടുക്കിലായി'; ലീഗ് നേതാക്ക
-free models unavailable: free models not efficient (22 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguGgDUU7GwqQMzPT6HN8"}
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+writing [N]: തിരുനാവായ പക്ഷിസങ്കേതത്തിലേക്ക് 17 ഇനം പക്ഷികൾ കൂടി; ആകെ 165
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguKD91SCNdnY3dj49rYB"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguKD94uMkLS6EhUmcRAG"}
 writing [N]: വൻ കവർച്ചയെന്ന പരാതിയിൽ വഴിത്തിരിവ്; 23 പവനും അഞ്ച് ലക്ഷവും 
-free models unavailable: free models not efficient (22 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguGgEQ2RsdnJDGQ7AbRW"}
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguKDBYij9CezfeZar188"}
 writing [N]: ശിശുദിന സംഗമം; കുട്ടികൾ സാരഥികളാകും
-free models unavailable: free models not efficient (22 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguGgJUMFgGYAHLUpCxRD"}
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguKDD9iEWSMZcCApgZKp"}
 writing [N]: പ്രിന്റേഴ്സ് ഡെ ആചരിച്ചു
-free models unavailable: free models not efficient (22 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguGgKNgBBCciwEw1kPiR"}
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguKDFbJZ8GdTrCWhouQn"}
 writing [N]: എം.എസ്.എഫ് നേതാക്കളെ ജയിലിൽ സന്ദർശിച്ചു
-free models unavailable: free models not efficient (22 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguGgPH4oPdqPa3PhSoR6"}
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguKDHGWtEnRDcDWNJG5v"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguGgvr7cFSNfp6FpyUqz"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CguKE6AJJbiGcGvRKaFQC"}
 earlier stories still waiting for images: []
 instagram check: 43 recent posts read from both pages
 write round: 17 news waiting in the queue (written in priority order)
@@ -131,25 +133,25 @@ NOT filed (N) 'സന്ദീപ് വാര്യർ തൃക്കരിപ
 try (R) manual=False: മഞ്ചേരിയിൽ പുതിയ ട്രാഫിക് സിഗ്നൽ സംവിധാനങ്ങളുടെ സ്വിച്ച് ഓൺ 
 NOT filed (R) മഞ്ചേരിയിൽ പുതിയ ട്രാഫിക് സിഗ്നൽ സംവിധാനങ്ങളുടെ സ്: all free models failed: no usable answer from the models
 try (N) manual=False: പൊന്നാനി കോടതിക്ക് സ്വന്തം കെട്ടിടം വരുന്നു; 70 സെൻറ് സ്ഥലത്
-NOT filed (N) കുതിച്ചുയർന്ന ചിരട്ടവില കുത്തനെ താഴേക്ക്; രണ്ടാഴ്ച: all free models failed: no usable answer from the models
-try (N) manual=False: ഏലംകുളത്ത് ഒരാൾക്ക് കൂടി ഷിഗല്ലെ; നിരീക്ഷണ പട്ടികയിൽ 115 പേർ
 NOT filed (N) പൊന്നാനി കോടതിക്ക് സ്വന്തം കെട്ടിടം വരുന്നു; 70 സെ: all free models failed: no usable answer from the models
-try (N) manual=False: വീട്ടിൽ നിന്നും 23 പവൻ കവർന്ന കേസ്; വീട്ടുടമയുടെ മകൻ അടക്കം 
+try (N) manual=False: ഏലംകുളത്ത് ഒരാൾക്ക് കൂടി ഷിഗല്ലെ; നിരീക്ഷണ പട്ടികയിൽ 115 പേർ
 NOT filed (N) ഏലംകുളത്ത് ഒരാൾക്ക് കൂടി ഷിഗല്ലെ; നിരീക്ഷണ പട്ടികയ: all free models failed: no usable answer from the models
+try (N) manual=False: വീട്ടിൽ നിന്നും 23 പവൻ കവർന്ന കേസ്; വീട്ടുടമയുടെ മകൻ അടക്കം 
+NOT filed (N) വീട്ടിൽ നിന്നും 23 പവൻ കവർന്ന കേസ്; വീട്ടുടമയുടെ മ: all free models failed: no usable answer from the models
 try (N) manual=False: പി.സി.ഡബ്ലിയു.എഫ് ഏഴാം വാർഷികം ഡിസംബർ 11ന് | Madhyamam
 NOT filed (N) പി.സി.ഡബ്ലിയു.എഫ് ഏഴാം വാർഷികം ഡിസംബർ 11ന് | Madhy: all free models failed: no usable answer from the models
 try (N) manual=False: സഫാ ഗോൾഡ് ആൻഡ് ഡയമണ്ട്സ് നവീകരിച്ച മലപ്പുറം ഷോറൂം തുറന്നു
-NOT filed (N) വീട്ടിൽ നിന്നും 23 പവൻ കവർന്ന കേസ്; വീട്ടുടമയുടെ മ: all free models failed: no usable answer from the models
+NOT filed (R) പുതിയ ട്രാഫിക് സിഗ്നൽ, ബസ് ബേ ഉദ്ഘാടനം നാളെ  | Dee: all free models failed: no usable answer from the models
 try (N) manual=False: മലപ്പുറത്ത് 24 പവനും അഞ്ച് ലക്ഷവും കവർന്നത് നവവരൻ; കൂട്ടായത്
 NOT filed (N) സഫാ ഗോൾഡ് ആൻഡ് ഡയമണ്ട്സ് നവീകരിച്ച മലപ്പുറം ഷോറൂം : all free models failed: no usable answer from the models
 try (N) manual=False: തിരൂർ കൂട്ടായ്മയുടെ ഒൻപതാം വാർഷികാഘോഷം | Madhyamam
 NOT filed (N) മലപ്പുറത്ത് 24 പവനും അഞ്ച് ലക്ഷവും കവർന്നത് നവവരൻ;: all free models failed: no usable answer from the models
 try (N) manual=False: തിരുനാവായ പക്ഷിസങ്കേതത്തിലേക്ക് 17 ഇനം പക്ഷികൾ കൂടി; ആകെ 165
-NOT filed (N) തിരുനാവായ പക്ഷിസങ്കേതത്തിലേക്ക് 17 ഇനം പക്ഷികൾ കൂട: all free models failed: no usable answer from the models
-try (N) manual=False: 'അയൽവീട്ടിലെ കാര്യത്തിൽ തലയിട്ട് കുടുക്കിലായി'; ലീഗ് നേതാക്ക
 NOT filed (N) തിരൂർ കൂട്ടായ്മയുടെ ഒൻപതാം വാർഷികാഘോഷം | Madhyamam: all free models failed: no usable answer from the models
-try (N) manual=False: വൻ കവർച്ചയെന്ന പരാതിയിൽ വഴിത്തിരിവ്; 23 പവനും അഞ്ച് ലക്ഷവും 
+try (N) manual=False: 'അയൽവീട്ടിലെ കാര്യത്തിൽ തലയിട്ട് കുടുക്കിലായി'; ലീഗ് നേതാക്ക
 NOT filed (N) 'അയൽവീട്ടിലെ കാര്യത്തിൽ തലയിട്ട് കുടുക്കിലായി'; ലീ: all free models failed: no usable answer from the models
+try (N) manual=False: വൻ കവർച്ചയെന്ന പരാതിയിൽ വഴിത്തിരിവ്; 23 പവനും അഞ്ച് ലക്ഷവും 
+NOT filed (N) തിരുനാവായ പക്ഷിസങ്കേതത്തിലേക്ക് 17 ഇനം പക്ഷികൾ കൂട: all free models failed: no usable answer from the models
 try (N) manual=False: ശിശുദിന സംഗമം; കുട്ടികൾ സാരഥികളാകും
 NOT filed (N) വൻ കവർച്ചയെന്ന പരാതിയിൽ വഴിത്തിരിവ്; 23 പവനും അഞ്ച: all free models failed: no usable answer from the models
 try (N) manual=False: പ്രിന്റേഴ്സ് ഡെ ആചരിച്ചു
@@ -157,7 +159,7 @@ NOT filed (N) ശിശുദിന സംഗമം; കുട്ടികൾ �
 try (N) manual=False: എം.എസ്.എഫ് നേതാക്കളെ ജയിലിൽ സന്ദർശിച്ചു
 NOT filed (N) പ്രിന്റേഴ്സ് ഡെ ആചരിച്ചു: all free models failed: no usable answer from the models
 NOT filed (N) എം.എസ്.എഫ് നേതാക്കളെ ജയിലിൽ സന്ദർശിച്ചു: all free models failed: no usable answer from the models
-NOT filed (R) പുതിയ ട്രാഫിക് സിഗ്നൽ, ബസ് ബേ ഉദ്ഘാടനം നാളെ  | Dee: all free models failed: no usable answer from the models
+NOT filed (N) കുതിച്ചുയർന്ന ചിരട്ടവില കുത്തനെ താഴേക്ക്; രണ്ടാഴ്ച: all free models failed: no usable answer from the models
 candidate loop ended: left R=0 N=0, tried={'R': 2, 'N': 15}, done={'R': 0, 'N': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
