@@ -80,9 +80,9 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-10 | `5cdf219` | Reel voice in friendly spoken Malayalam |
+| 2026-11-09 | `ac92ddb` | Heartbeat |
 | 2026-11-09 | `5da5c14` | Never let slow image models block the posting check |
 | 2026-11-09 | `adf98b5` | ig probe output |
 | 2026-11-08 | `56e82d6` | Heartbeat |
-| 2026-11-07 | `0fe9838` | Heartbeat |
-| 2026-11-07 | `1a786f5` | Heartbeat |
 <!-- recent-changes:end -->
