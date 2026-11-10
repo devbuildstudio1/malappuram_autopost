@@ -1,77 +1,11 @@
-writing [N]: തിരുനാവായയിലെ പക്ഷിസമ്പത്തിൽ 17 അതിഥികൾ കൂടി; പട്ടികയിൽ ഇനി 
-writing [N]: പി.സി.ഡബ്ള്യു.എഫ് മേഖലാ സമ്മേളനങ്ങൾ | Madhyamam
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-writing [N]: നിലമ്പൂർ കനോലി തൂക്കുപാലം പ്രവൃത്തി മാർച്ചിൽ പൂർത്തിയാകും | 
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgupYmES6T54x1u4jc5id"}
-writing [N]: വീട്ടിൽ നിന്ന് 24 പവൻ സ്വർണവും അഞ്ചുലക്ഷം രൂപയും കവർന്ന കേസി
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgupYoDjLgTfA3tRuaZa2"}
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgupYttYkzF93YawN69V2"}
-fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.7-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgupby8NT6uLKjZXXG68R"}
 earlier stories still waiting for images: []
 instagram check: 44 recent posts read from both pages
 write round: 4 news waiting in the queue (written in priority order)
-candidate filter: collected=4
-to write: 0 Manjeri + 4 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 4 Malappuram; time left 29 min
-try (N) manual=False: നിലമ്പൂർ കനോലി തൂക്കുപാലം പ്രവൃത്തി മാർച്ചിൽ പൂർത്തിയാകും | 
-try (N) manual=False: തിരുനാവായയിലെ പക്ഷിസമ്പത്തിൽ 17 അതിഥികൾ കൂടി; പട്ടികയിൽ ഇനി 
-try (N) manual=False: പി.സി.ഡബ്ള്യു.എഫ് മേഖലാ സമ്മേളനങ്ങൾ | Madhyamam
-NOT filed (N) നിലമ്പൂർ കനോലി തൂക്കുപാലം പ്രവൃത്തി മാർച്ചിൽ പൂർത്: all free models failed: no usable answer from the models
-try (N) manual=False: വീട്ടിൽ നിന്ന് 24 പവൻ സ്വർണവും അഞ്ചുലക്ഷം രൂപയും കവർന്ന കേസി
-NOT filed (N) വീട്ടിൽ നിന്ന് 24 പവൻ സ്വർണവും അഞ്ചുലക്ഷം രൂപയും ക: all free models failed: no usable answer from the models
-NOT filed (N) തിരുനാവായയിലെ പക്ഷിസമ്പത്തിൽ 17 അതിഥികൾ കൂടി; പട്ട: all free models failed: no usable answer from the models
-NOT filed (N) പി.സി.ഡബ്ള്യു.എഫ് മേഖലാ സമ്മേളനങ്ങൾ | Madhyamam: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 4}, done={'R': 0, 'N': 0}, time left 28 min
+candidate filter: checked earlier=4
+to write: 0 Manjeri + 0 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 0 Malappuram; time left 29 min
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 0}, done={'R': 0, 'N': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
-queue: 4 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":4} 
+queue: 0 news waiting to be written 
 stories: 0
