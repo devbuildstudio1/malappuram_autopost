@@ -81,6 +81,7 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-10 | `321843f` | Remove temporary Claude key check |
 | 2026-11-10 | `bbc9bd9` | Temporary check of the Claude key format |
 | 2026-11-10 | `11dd9b6` | Record posts Instagram published despite a temporary error |
 | 2026-11-10 | `e1490cf` | Shorter reels with a stronger hook and a share line |
