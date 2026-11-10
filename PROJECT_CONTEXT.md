@@ -81,6 +81,7 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-10 | `563589d` | Temporary check of the Claude key |
 | 2026-11-10 | `321843f` | Remove temporary Claude key check |
 | 2026-11-10 | `bbc9bd9` | Temporary check of the Claude key format |
 | 2026-11-10 | `11dd9b6` | Record posts Instagram published despite a temporary error |
@@ -89,5 +90,4 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 | 2026-11-09 | `ac92ddb` | Heartbeat |
 | 2026-11-09 | `5da5c14` | Never let slow image models block the posting check |
 | 2026-11-09 | `adf98b5` | ig probe output |
-| 2026-11-08 | `56e82d6` | Heartbeat |
 <!-- recent-changes:end -->
