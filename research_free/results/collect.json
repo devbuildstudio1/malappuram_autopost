@@ -9,56 +9,123 @@
   "try (N) manual=False: മേഖലാ വാഹന പ്രചാരണ ജാഥയ്ക്ക് ആവേശോജ്വല തുടക്കം",
   "try (R) manual=False: എം കൃഷ്ണൻകുട്ടിക്കും പ്രസാദ് ചെമ്പ്രശ്ശേരിക്കും ഫെലോഷിപ്പ്",
   "try (N) manual=False: വേങ്ങരയിൽ 3500 പേർ  കുത്തിവയ്പ്പെടുക്കാത്തവർ",
-  "NOT filed (R) എം കൃഷ്ണൻകുട്ടിക്കും പ്രസാദ് ചെമ്പ്രശ്ശേരിക്കും ഫെ: all free models failed: no usable answer from the models",
+  "NOT filed (N) മേഖലാ വാഹന പ്രചാരണ ജാഥയ്ക്ക് ആവേശോജ്വല തുടക്കം: all free models failed: no usable answer from the models",
   "try (N) manual=False: എട്ട് കോടിയുടെ ടെൻഡർ റദ്ദാക്കി കെഎൽഡിസി",
   "NOT filed (N) എട്ട് കോടിയുടെ ടെൻഡർ റദ്ദാക്കി കെഎൽഡിസി: all free models failed: no usable answer from the models",
   "try (N) manual=False: 11 വയസ്സുകാരനെ പീഡിപ്പിച്ച  യൂത്ത് ലീഗ് നേതാവ് അറസ്റ്റിൽ",
   "NOT filed (N) 11 വയസ്സുകാരനെ പീഡിപ്പിച്ച  യൂത്ത് ലീഗ് നേതാവ് അറസ: all free models failed: no usable answer from the models",
+  "auto images failed for 'National Ambedkar Fellowship for folk ar': all image models failed: all image models failed: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed ou -> images-needed email",
+  "auto images: 0 of 1 stories ({})",
+  "posting job started at once",
   "NOT filed (N) വേങ്ങരയിൽ 3500 പേർ  കുത്തിവയ്പ്പെടുക്കാത്തവർ: all free models failed: no usable answer from the models",
-  "NOT filed (N) മേഖലാ വാഹന പ്രചാരണ ജാഥയ്ക്ക് ആവേശോജ്വല തുടക്കം: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 4}, done={'R': 0, 'N': 0}, time left 29 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
-  "queue: 5 news waiting to be written",
+  "candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 4}, done={'R': 1, 'N': 0}, time left 21 min",
+  "carousel for 0 of 1 stories, the rest reel only",
+  "filed: 1 Manjeri + 0 Malappuram (targets 200 + 200)",
+  "queue: 4 news waiting to be written",
+  "write_stories.yml started",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":5}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.8-flash",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.7-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
+  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
+  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
+  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
+  "switching away from mistral/mistral-small-latest for 10 min",
+  "ok gemini/gemini-3.6-flash (17s)",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "ok groq/openai/gpt-oss-120b (4s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
+  "ok groq/qwen/qwen3.8-27b (4s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "ok groq/openai/gpt-oss-120b (3s)",
+  "fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.7-flash",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
   "dead for this round: groq/openai/gpt-oss-120b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
-  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
-  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
-  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
-  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "കരുവാരക്കുണ്ടിലെയും പാണ്ടിക്കാട്ടിലെയും കലാകാരന്മാർക്ക് ഡോ. ബി ആർ അംബേദ്കർ നാഷണൽ ഫെലോഷിപ്പ്",
+   "english_headline": "National Ambedkar Fellowship for folk artists M Krishnankutty and Prasad Chembrassery",
+   "category": "Temples & Events",
+   "location": "Karuvarakundu and Pandikkad, Malappuram district",
+   "importance": "Medium",
+   "scope": "district",
+   "post_to": "Manjeri 360 (collab: Malappuram 360)",
+   "slides_spec": {
+    "v": 3,
+    "cat": "ദേശീയ പുരസ്കാരം",
+    "loc": "കരുവാരക്കുണ്ട് & പാണ്ടിക്കാട്",
+    "hl1": "മലപ്പുറത്തെ 2 കലാകാരന്മാർക്ക്",
+    "hl2": "ദേശീയ അംബേദ്കർ ഫെലോഷിപ്പ്",
+    "slides": [
+     {
+      "title": "പുരസ്കാരം",
+      "lines": [
+       "ഭാരതീയ ദളിത് സാഹിത്യ അക്കാദമി പുരസ്കാരം",
+       "അംബേദ്കർ നാഷണൽ ഫെലോഷിപ്പ് ലഭിച്ചു",
+       "കലാ മേഖലയിലെ സംഭാവനകൾക്കാണ് പുരസ്കാരം"
+      ]
+     },
+     {
+      "title": "അവാർഡ് ജേതാക്കൾ",
+      "lines": [
+       "കരുവാരക്കുണ്ട് സ്വദേശി <b>എം കൃഷ്ണൻകുട്ടി</b>",
+       "പാണ്ടിക്കാട് സ്വദേശി <b>പ്രസാദ് ചെമ്പ്രശ്ശേരി</b>",
+       "നാടൻകലാരംഗത്തെ മികവിനാണ് അംഗീകാരം"
+      ]
+     },
+     {
+      "title": "വിവരങ്ങൾ",
+      "lines": [
+       "ഡിസംബർ <b>11, 12</b> തീയതികളിൽ ഡൽഹിയിൽ ചടങ്ങ്",
+       "കൃഷ്ണൻകുട്ടി പഴയകടയ്ക്കൽ ജിയുപി സ്കൂൾ അധ്യാപകനാണ്",
+       "പ്രസാദ് <b>22</b> വർഷമായി കലാരംഗത്ത് സജീവമാണ്"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "കരുവാരക്കുണ്ടിലെയും പാണ്ടിക്കാട്ടിലെയും കലാകാരന്മാർക്ക് ദേശീയ പുരസ്കാരം. ഭാരതീയ ദളിത് സാഹിത്യ അക്കാദമിയുടെ അംബേദ്കർ നാഷണൽ ഫെലോഷിപ്പാണ് ലഭിച്ചത്. കരുവാരക്കുണ്ട് സ്വദേശി എം കൃഷ്ണൻകുട്ടിയും പാണ്ടിക്കാട് സ്വദേശി പ്രസാദ് ചെമ്പ്രശ്ശേരിയുമാണ് അവാർഡിന് അർഹരായത്. കലാ മേഖലയിലെ മികവുകൾ പരിഗണിച്ചാണ് ഈ അംഗീകാരം. എം കൃഷ്ണൻകുട്ടി അധ്യാപകനും നാടൻപാട്ട് കലാകാരനുമാണ്. പ്രസാദ് ചെമ്പ്രശ്ശേരി 22 വർഷമായി നാടൻകലാരംഗത്ത് പ്രവർത്തിക്കുന്നു. ഡിസംബർ 11, 12 തീയതികളിൽ ഡൽഹിയിൽ വെച്ച് പുരസ്കാരം നൽകും. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🏆 കരുവാരക്കുണ്ടിലെയും പാണ്ടിക്കാട്ടിലെയും കലാകാരന്മാർക്ക് ഡോ. ബി ആർ അംബേദ്കർ നാഷണൽ ഫെലോഷിപ്പ്\n\n📰 പൂർണ വിവരം:\nകരുവാരക്കുണ്ട് സ്വദേശി എം കൃഷ്ണൻകുട്ടിക്കും പാണ്ടിക്കാട് സ്വദേശി പ്രസാദ് ചെമ്പ്രശ്ശേരിക്കും ഭാരതീയ ദളിത് സാഹിത്യ അക്കാദമിയുടെ ബാബാസാഹേബ് ഡോ. ബി ആർ അംബേദ്കർ നാഷണൽ ഫെലോഷിപ്പ് പുരസ്കാരം ലഭിച്ചു. കലാ മേഖലയിലെ സംഭാവനകൾ പരിഗണിച്ചാണ് പുരസ്കാരം. ഡിസംബർ 11, 12 തീയതികളിൽ ഡൽഹിയിൽ നടക്കുന്ന ചടങ്ങിൽ പുരസ്കാരം സമ്മാനിക്കും.\n\nപഴയകടയ്ക്കൽ ജിയുപി സ്കൂൾ അധ്യാപകനായ എം കൃഷ്ണൻകുട്ടി കതിർ നാടൻപാട്ട് സംഘത്തിന്റെ ഭാഗമായി 300ഓളം വേദികളിൽ പരിപാടികൾ അവതരിപ്പിച്ചു. സംസ്ഥാന അധ്യാപക കലോത്സവത്തിൽ ഒന്നാം സ്ഥാനം നേടിയിട്ടുണ്ട്. കൂടൽ സിനിമയ്ക്കും വിവിധ ആൽബങ്ങൾക്കും പാട്ടുകൾ എഴുതി. നൂറോളം ശിൽപ്പശാലകൾക്ക് നേതൃത്വം നൽകുകയും ലോക റെക്കോഡിൽ ഇടം നേടുകയും ചെയ്തു. നിലമ്പൂർ താലൂക്ക് ലൈബ്രറി കൗൺസിൽ അംഗമാണ്.\n\n22 വർഷമായി നാടൻകലാരംഗത്ത് സജീവമായ പ്രസാദ് ചെമ്പ്രശ്ശേരിക്ക് കലാഭവൻ മണി ഫൗണ്ടേഷൻ അവാർഡും സംസ്ഥാന യുവ പ്രതിഭാ പുരസ്കാരവും ലഭിച്ചിട്ടുണ്ട്. കൂടൽ സിനിമയിലെ അങ്ങകലെ എന്ന ഗാനത്തിന് സംഗീതം നൽകി. വിദ്യാരംഗം കലാസാഹിത്യവേദി ആർപിആയും പ്രവർത്തിക്കുന്നു.\n\n📍 സ്ഥലം: കരുവാരക്കുണ്ട്, പാണ്ടിക്കാട്\n🗓️ തീയതി: ഡിസംബർ 11, 12\n\nഅഭിനന്ദനങ്ങൾ അറിയിക്കാൻ Share ചെയ്യൂ\n\nNational Ambedkar Fellowship for Karuvarakundu and Pandikkad folk artists | Malappuram news\n📍 കരുവാരക്കുണ്ട്, മലപ്പുറം | 11 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Pandikkad #Karuvarakundu #MalappuramNews",
+   "prompts": "Cover: Two folk artists stand side‑by‑side, backs to the camera, receiving the Ambedkar Fellowship award at a podium in a Delhi conference hall; the polished wooden stage holds a brass lamp and the award plaque, while officials in khaki uniforms hand over the certificate. The hall is bright with overhead lights, a neutral backdrop, and a subtle Indian flag draped on a side wall. Shot from a low angle, 35 mm lens, capturing the ceremony’s solemn moment. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nWide establishing shot: A narrow tar road winds through Karuvarakundu village, lined with coconut palms, laterite compound walls and red‑tiled houses; in the centre stands the old G U P I school where M Krishnankutty teaches. From behind, two figures in simple mundu shirts walk toward the school, a small crowd of villagers in sarees and mundus lingers nearby. The late‑morning sun casts soft shadows, the sky is clear, and the scene is captured at eye level with a 35 mm lens, showing the Kerala village character and the hometowns of the awardees. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nDetail: A close‑up of the Ambedkar Fellowship award plaque placed on a wooden table, its brass nameplate gleaming beside a traditional Kerala brass lamp (vilakku) with a wick lit. The table rests against a plain wall of a Kerala home, the background shows a hint of laterite plaster. The shot is taken from a slight top‑down angle, 35 mm lens, focusing on the texture of the plaque and lamp, emphasizing the honor bestowed on the two folk artists. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.deshabhimani.com/district-news/-73594/aaa23-fy0",
+   "published": "2026-11-11T01:19:59+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 0 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "R",
+   "_score": 3.0,
+   "auto_images": true
+  }
+ ]
 }
