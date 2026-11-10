@@ -81,6 +81,7 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-10 | `8b3d928` | Remove temporary Claude key check |
 | 2026-11-10 | `563589d` | Temporary check of the Claude key |
 | 2026-11-10 | `321843f` | Remove temporary Claude key check |
 | 2026-11-10 | `bbc9bd9` | Temporary check of the Claude key format |
