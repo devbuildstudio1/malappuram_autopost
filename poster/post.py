@@ -1008,6 +1008,38 @@ def ig_recent(page):
     return IG_RECENT[page]
 
 
+def own_post(page, caption, kind="reel", token=None):
+    """our own post of THIS caption on the page, read fresh from Instagram: {id, permalink, ...} or None.
+    10 Nov: media_publish answered 'unexpected error, retry later' but the reel WAS published; the story stayed in the queue,
+    every later run skipped it as an Instagram duplicate and nothing else was posted for hours."""
+    import difflib
+    first = lambda t: re.sub(r"\s+", " ", (t or "").strip().split("\n")[0]).strip()
+    mine = first(caption)
+    if len(mine) < 15:
+        return None
+    try:
+        token = token or bridge_get("token", page=page)["token"]
+        uid, _ = ig_account(token)
+        d = ig("GET", f"{uid}/media", token, fields="id,caption,timestamp,permalink,media_type,media_product_type", limit=25)
+    except Exception as e:
+        log("own post check unavailable:", str(e)[:150])
+        return None
+    for m in d.get("data") or []:
+        is_reel = m.get("media_product_type") == "REELS"
+        if (kind == "reel") != is_reel or (kind == "carousel" and m.get("media_type") != "CAROUSEL_ALBUM"):
+            continue
+        if difflib.SequenceMatcher(None, mine, first(m.get("caption"))).ratio() >= 0.9:
+            return m
+    return None
+
+
+def mark_found(row, page, kind, m, caption, why):
+    """record a post that is already on Instagram as posted in the sheet, so the story leaves the queue"""
+    log(f"{kind} of", row.get("story_id"), "is already on", page, "-", why, "- marked posted:", m.get("permalink"))
+    bridge_post("posted", {"row": row["row"], "page": page, "kind": kind, "permalink": m.get("permalink") or "", "media_id": m.get("id") or "",
+                           "media_urls": [], "caption": caption, "slides": 0, "voice": "", "collab": False, "checks": why})
+
+
 def _ig_time(ts):
     try:
         return datetime.strptime(ts, "%Y-%m-%dT%H:%M:%S%z").astimezone(IST)
@@ -1070,6 +1102,15 @@ def run_story(row):
         dup = "" if (owner_reel or row.get(pg + "_link") or row.get("reel_link")) else (ig_duplicate(row, pg) or ig_duplicate(row, "manjeri" if pg == "malappuram" else "malappuram"))
         if dup:
             log("SKIP instagram duplicate:", row.get("story_id"), pg, "already posted", dup)
+            if not DRY and not PREBUILD:
+                for kind in ("reel", "carousel"):
+                    if kind == "reel" and LABEL[pg] in (row.get("reel_link") or ""):
+                        continue
+                    if kind == "carousel" and (row.get(pg + "_link") or not spec_has_carousel(row)):
+                        continue
+                    m = own_post(pg, row.get("caption") or "", kind)
+                    if m:
+                        mark_found(row, pg, kind, m, row.get("caption") or "", "our own earlier post of this story (the sheet had missed it)")
             continue
         if limit_reached(pg):
             log("LIMIT: 24-hour Instagram post limit reached for", pg, "- ", row.get("story_id"), "waits")
@@ -1361,6 +1402,11 @@ def run_story_page(row, page):
                 log("LIMIT: Instagram post limit hit while posting carousel", sid, "- waits, not a failure")
             elif is_transient(e):
                 log("TEMPORARY Instagram problem while posting carousel", sid, "- tried again in the next run, not a failure:", str(e)[:200])
+                time.sleep(30)      # Instagram sometimes publishes and still answers with this error
+                m = own_post(PAGE, caption, "carousel")
+                if m:
+                    mark_found(row, PAGE, "carousel", m, caption, "published despite Instagram's temporary error")
+                    done.append(("carousel", m.get("permalink")))
             else:
                 log("ERROR carousel", sid, e)
                 bridge_post("error", {"row": row["row"], "page": PAGE, "kind": "carousel", "error": str(e)[:900]})
@@ -1395,6 +1441,11 @@ def run_story_page(row, page):
                 log("LIMIT: Instagram post limit hit while posting reel", sid, "- waits, not a failure")
             elif is_transient(e):
                 log("TEMPORARY Instagram problem while posting reel", sid, "- tried again in the next run, not a failure:", str(e)[:200])
+                time.sleep(30)      # Instagram sometimes publishes and still answers with this error
+                m = own_post(PAGE, caption, "reel")
+                if m:
+                    mark_found(row, PAGE, "reel", m, caption, "published despite Instagram's temporary error")
+                    done.append(("reel", m.get("permalink")))
             else:
                 log("ERROR reel", sid, e)
                 bridge_post("error", {"row": row["row"], "page": PAGE, "kind": "reel", "error": str(e)[:900]})
