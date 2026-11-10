@@ -81,6 +81,7 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-10 | `e1490cf` | Shorter reels with a stronger hook and a share line |
 | 2026-11-10 | `5cdf219` | Reel voice in friendly spoken Malayalam |
 | 2026-11-09 | `ac92ddb` | Heartbeat |
 | 2026-11-09 | `5da5c14` | Never let slow image models block the posting check |
