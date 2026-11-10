@@ -2,150 +2,156 @@ imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message"
 imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150) 504 timeout
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-08:11:01 image attempt 1 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
+08:20:33 image attempt 1 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-08:13:46 automatic images still running - left for the next run, posting goes on
-08:13:52 SKIP MP-7 stale: published 05 Nov, older than yesterday
-08:13:52 SKIP MP-19 stale: published 05 Nov, older than yesterday
-08:13:52 SKIP MP-21 stale: published 06 Nov, older than yesterday
-08:13:52 SKIP MP-22 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-23 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-25 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-26 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-27 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-28 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-30 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-31 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-32 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-33 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-34 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-35 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-36 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-40 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-41 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-42 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-43 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-44 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-46 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-47 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-48 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-50 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-52 stale: published 08 Nov, older than yesterday
-08:13:52 SKIP MP-55 stale: published 08 Nov, older than yesterday
-08:13:52 SKIP MP-56 stale: published 08 Nov, older than yesterday
-08:13:52 SKIP MP-57 stale: published 08 Nov, older than yesterday
-08:13:52 SKIP MP-58 stale: published 08 Nov, older than yesterday
-08:13:52 SKIP MP-59 stale: published 08 Nov, older than yesterday
-08:13:52 SKIP MP-60 stale: published 08 Nov, older than yesterday
-08:13:52 SKIP MP-62 stale: published 08 Nov, older than yesterday
-08:13:52 SKIP MP-66 stale: published 08 Nov, older than yesterday
-08:13:52 SKIP MP-67 stale: published 08 Nov, older than yesterday
-08:13:52 SKIP MP-68 stale: published 08 Nov, older than yesterday
-08:13:52 SKIP MP-70 stale: published 08 Nov, older than yesterday
-08:13:52 SKIP MP-71 stale: published 08 Nov, older than yesterday
-08:13:52 SKIP MP-72 stale: published 08 Nov, older than yesterday
-08:13:52 SKIP MP-73 stale: published 07 Nov, older than yesterday
-08:13:52 SKIP MP-75 stale: published 08 Nov, older than yesterday
-08:13:52 SKIP MP-81 stale: published 08 Nov, older than yesterday
-08:13:52 SKIP MP-86 duplicate of MP-61 (same event, other outlet)
-08:13:53 SKIP MP-90 stale: published 08 Nov, older than yesterday
-08:13:53 SKIP MP-91 stale: published 08 Nov, older than yesterday
-08:13:53 SKIP MP-94 duplicate of MP-82 (same event, other outlet)
-08:13:53 70 stories in the queue, ready to post: 24
-08:13:53   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ml', 'images', 'importance', 'location', 'malappuram_link', 'manjeri_link', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'story_id', 'verification']
-08:13:53    MP-7 review= 'Auto' images= 385 spec= 646 pages= ['malappuram'] links= '' '' '' age_h= 95.4 ready= False set_started= True
-08:13:53    MP-19 review= 'Auto' images= 385 spec= 699 pages= ['manjeri'] links= '' '' '' age_h= 82.2 ready= False set_started= True
-08:13:53    MP-21 review= 'Auto' images= 11 spec= 681 pages= ['malappuram'] links= '' '' '' age_h= 77.2 ready= False set_started= True
-08:13:53    MP-22 review= 'Auto' images= 11 spec= 678 pages= ['malappuram'] links= '' '' '' age_h= 76.9 ready= False set_started= True
-08:13:53    MP-23 review= 'Auto' images= 11 spec= 740 pages= ['malappuram'] links= '' '' '' age_h= 76.6 ready= False set_started= True
-08:13:53    MP-25 review= 'Auto' images= 11 spec= 898 pages= ['malappuram'] links= '' '' '' age_h= 75.3 ready= False set_started= True
-08:13:53    MP-26 review= 'Auto' images= 11 spec= 634 pages= ['malappuram'] links= '' '' '' age_h= 75.3 ready= False set_started= True
-08:13:53    MP-27 review= 'Auto' images= 11 spec= 639 pages= ['malappuram'] links= '' '' '' age_h= 74.6 ready= False set_started= True
-08:13:53    MP-28 review= 'Auto' images= 11 spec= 654 pages= ['malappuram'] links= '' '' '' age_h= 69.4 ready= False set_started= True
-08:13:53    MP-30 review= 'Auto' images= 11 spec= 590 pages= ['malappuram'] links= '' '' '' age_h= 67.6 ready= False set_started= True
-08:13:53    MP-31 review= 'Auto' images= 11 spec= 705 pages= ['malappuram'] links= '' '' '' age_h= 67.5 ready= False set_started= True
-08:13:53    MP-32 review= 'Auto' images= 11 spec= 654 pages= ['malappuram'] links= '' '' '' age_h= 66.1 ready= False set_started= True
-08:13:53    MP-33 review= 'Auto' images= 11 spec= 713 pages= ['malappuram'] links= '' '' '' age_h= 66.1 ready= False set_started= True
-08:13:53    MP-34 review= 'Auto' images= 11 spec= 712 pages= ['malappuram'] links= '' '' '' age_h= 66.1 ready= False set_started= True
-08:13:53    MP-35 review= 'Auto' images= 11 spec= 627 pages= ['malappuram'] links= '' '' '' age_h= 65.9 ready= False set_started= True
-08:13:53    MP-36 review= 'Auto' images= 11 spec= 570 pages= ['malappuram'] links= '' '' '' age_h= 65.9 ready= False set_started= True
-08:13:53    MP-40 review= 'Auto' images= 289 spec= 600 pages= ['malappuram'] links= '' '' '' age_h= 60.4 ready= False set_started= True
-08:13:53    MP-41 review= 'Auto' images= 289 spec= 460 pages= ['malappuram'] links= '' '' '' age_h= 60.4 ready= False set_started= True
-08:13:53    MP-42 review= 'Auto' images= 289 spec= 624 pages= ['malappuram'] links= '' '' '' age_h= 60.4 ready= False set_started= True
-08:13:53    MP-43 review= 'Auto' images= 385 spec= 463 pages= ['malappuram'] links= '' '' '' age_h= 60.3 ready= False set_started= True
-08:13:53    MP-44 review= 'Auto' images= 385 spec= 440 pages= ['malappuram'] links= '' '' '' age_h= 60.2 ready= False set_started= True
-08:13:53    MP-46 review= 'Auto' images= 481 spec= 780 pages= ['malappuram'] links= '' '' '' age_h= 56.7 ready= False set_started= True
-08:13:53    MP-47 review= 'Auto' images= 385 spec= 609 pages= ['malappuram'] links= '' '' '' age_h= 56.0 ready= False set_started= True
-08:13:53    MP-48 review= 'Auto' images= 11 spec= 649 pages= ['malappuram'] links= '' '' '' age_h= 54.9 ready= False set_started= True
-08:13:53    MP-50 review= 'Auto' images= 11 spec= 620 pages= ['malappuram'] links= '' '' '' age_h= 53.5 ready= False set_started= True
-08:13:53    MP-52 review= 'Auto' images= 11 spec= 630 pages= ['malappuram'] links= '' '' '' age_h= 52.7 ready= False set_started= True
-08:13:53    MP-55 review= 'Auto' images= 385 spec= 663 pages= ['malappuram'] links= '' '' '' age_h= 48.0 ready= False set_started= True
-08:13:53    MP-56 review= 'Auto' images= 11 spec= 644 pages= ['malappuram'] links= '' '' '' age_h= 47.9 ready= False set_started= True
-08:13:53    MP-57 review= 'Auto' images= 11 spec= 683 pages= ['malappuram'] links= '' '' '' age_h= 47.8 ready= False set_started= True
-08:13:53    MP-58 review= 'Auto' images= 385 spec= 654 pages= ['malappuram'] links= '' '' '' age_h= 46.0 ready= False set_started= True
-08:13:53    MP-59 review= 'Auto' images= 11 spec= 780 pages= ['malappuram'] links= '' '' '' age_h= 46.0 ready= False set_started= True
-08:13:53    MP-60 review= 'Auto' images= 385 spec= 456 pages= ['malappuram'] links= '' '' '' age_h= 44.9 ready= False set_started= True
-08:13:53    MP-62 review= 'Auto' images= 289 spec= 696 pages= ['malappuram'] links= '' '' '' age_h= 42.2 ready= False set_started= True
-08:13:53    MP-66 review= 'Auto' images= 385 spec= 635 pages= ['malappuram'] links= '' '' '' age_h= 39.4 ready= False set_started= True
-08:13:53    MP-67 review= 'Auto' images= 11 spec= 641 pages= ['malappuram'] links= '' '' '' age_h= 39.3 ready= False set_started= True
-08:13:53    MP-68 review= 'Auto' images= 385 spec= 620 pages= ['malappuram'] links= '' '' '' age_h= 36.0 ready= False set_started= True
-08:13:53    MP-70 review= 'Auto' images= 385 spec= 696 pages= ['malappuram'] links= '' '' '' age_h= 35.9 ready= False set_started= True
-08:13:53    MP-71 review= 'Auto' images= 385 spec= 595 pages= ['malappuram'] links= '' '' '' age_h= 35.9 ready= False set_started= True
-08:13:53    MP-72 review= 'Auto' images= 385 spec= 539 pages= ['malappuram'] links= '' '' '' age_h= 35.8 ready= False set_started= True
-08:13:53    MP-73 review= 'Auto' images= 11 spec= 561 pages= ['malappuram'] links= '' '' '' age_h= 35.7 ready= False set_started= True
-08:13:53    MP-75 review= 'Auto' images= 11 spec= 614 pages= ['malappuram'] links= '' '' '' age_h= 33.3 ready= False set_started= True
-08:13:53    MP-77 review= 'Auto' images= 385 spec= 527 pages= ['malappuram'] links= '' '' '' age_h= 30.0 ready= True set_started= True
-08:13:53    MP-78 review= 'Auto' images= 385 spec= 542 pages= ['malappuram'] links= '' '' '' age_h= 28.7 ready= True set_started= True
-08:13:53    MP-80 review= 'Auto' images= 385 spec= 750 pages= ['malappuram'] links= '' '' '' age_h= 28.5 ready= True set_started= True
-08:13:53    MP-81 review= 'Auto' images= 11 spec= 855 pages= ['malappuram'] links= '' '' '' age_h= 26.3 ready= False set_started= True
-08:13:53    MP-83 review= 'Auto' images= 11 spec= 518 pages= ['malappuram'] links= '' '' '' age_h= 24.3 ready= True set_started= True
-08:13:53    MP-84 review= 'Auto' images= 11 spec= 563 pages= ['malappuram'] links= '' '' '' age_h= 23.5 ready= True set_started= True
-08:13:53    MP-85 review= 'Auto' images= 11 spec= 578 pages= ['malappuram'] links= '' '' '' age_h= 22.8 ready= True set_started= True
-08:13:53    MP-86 review= 'Auto' images= 11 spec= 800 pages= ['malappuram'] links= '' '' '' age_h= 22.1 ready= False set_started= True
-08:13:53    MP-87 review= 'Auto' images= 11 spec= 601 pages= ['malappuram'] links= '' '' '' age_h= 22.0 ready= True set_started= True
-08:13:53    MP-88 review= 'Auto' images= 11 spec= 596 pages= ['malappuram'] links= '' '' '' age_h= 21.9 ready= True set_started= True
-08:13:53    MP-89 review= 'Auto' images= 11 spec= 696 pages= ['malappuram'] links= '' '' '' age_h= 19.5 ready= True set_started= True
-08:13:53    MP-90 review= 'Auto' images= 11 spec= 481 pages= ['malappuram'] links= '' '' '' age_h= 19.4 ready= False set_started= True
-08:13:53    MP-91 review= 'Auto' images= 11 spec= 625 pages= ['malappuram'] links= '' '' '' age_h= 19.3 ready= False set_started= True
-08:13:53    MP-92 review= 'Auto' images= 11 spec= 596 pages= ['malappuram'] links= '' '' '' age_h= 19.3 ready= True set_started= True
-08:13:53    MP-93 review= 'Auto' images= 11 spec= 576 pages= ['malappuram'] links= '' '' '' age_h= 19.2 ready= True set_started= True
-08:13:53    MP-94 review= 'Auto' images= 11 spec= 740 pages= ['malappuram'] links= '' '' '' age_h= 15.7 ready= False set_started= True
-08:13:53    MP-95 review= 'Auto' images= 11 spec= 680 pages= ['malappuram'] links= '' '' '' age_h= 15.7 ready= True set_started= True
-08:13:53    MP-96 review= 'Auto' images= 11 spec= 537 pages= ['malappuram'] links= '' '' '' age_h= 15.7 ready= True set_started= True
-08:13:53    MP-97 review= 'Auto' images= 11 spec= 593 pages= ['malappuram'] links= '' '' '' age_h= 15.0 ready= True set_started= True
-08:13:53    MP-98 review= 'Auto' images= 385 spec= 657 pages= ['malappuram'] links= '' '' '' age_h= 14.3 ready= True set_started= True
-08:13:53    MP-99 review= 'Auto' images= 385 spec= 548 pages= ['malappuram'] links= '' '' '' age_h= 13.6 ready= True set_started= True
-08:13:53    MP-100 review= 'Auto' images= 385 spec= 623 pages= ['malappuram'] links= '' '' '' age_h= 13.5 ready= True set_started= True
-08:13:53    MP-101 review= 'Auto' images= 289 spec= 504 pages= ['malappuram'] links= '' '' '' age_h= 11.1 ready= True set_started= True
-08:13:53    MP-102 review= 'Auto' images= 289 spec= 608 pages= ['malappuram'] links= '' '' '' age_h= 10.8 ready= True set_started= True
-08:13:53    MP-103 review= 'Auto' images= 11 spec= 614 pages= ['malappuram'] links= '' '' '' age_h= 10.6 ready= True set_started= True
-08:13:53    MP-104 review= 'Auto' images= 11 spec= 481 pages= ['malappuram'] links= '' '' '' age_h= 10.6 ready= True set_started= True
-08:13:53    MP-105 review= 'Auto' images= 11 spec= 520 pages= ['malappuram'] links= '' '' '' age_h= 5.8 ready= True set_started= True
-08:13:53    MP-106 review= 'Auto' images= 11 spec= 538 pages= ['malappuram'] links= '' '' '' age_h= 5.7 ready= True set_started= True
-08:13:53    MP-107 review= 'Auto' images= 11 spec= 653 pages= ['malappuram'] links= '' '' '' age_h= 4.3 ready= True set_started= True
-08:13:56 publishing quota malappuram: 10/50
-08:13:58 publishing quota manjeri: 4/50
-08:14:00 instagram duplicate check malappuram: 29 recent posts read
-08:14:00    MP-98 one reel per run (the gap starts after it)
-08:14:00    MP-105 one reel per run (the gap starts after it)
-08:14:00    MP-77 one reel per run (the gap starts after it)
-08:14:00    MP-78 one reel per run (the gap starts after it)
-08:14:00    MP-80 one reel per run (the gap starts after it)
-08:14:00    MP-83 one reel per run (the gap starts after it)
-08:14:00    MP-85 one reel per run (the gap starts after it)
-08:14:00    MP-88 one reel per run (the gap starts after it)
-08:14:00    MP-89 one reel per run (the gap starts after it)
-08:14:00    MP-93 one reel per run (the gap starts after it)
-08:14:00    MP-96 one reel per run (the gap starts after it)
-08:14:00    MP-95 one reel per run (the gap starts after it)
-08:14:00    MP-100 one reel per run (the gap starts after it)
-08:14:00    MP-101 one reel per run (the gap starts after it)
-08:14:00    MP-104 one reel per run (the gap starts after it)
-08:14:00    MP-103 one reel per run (the gap starts after it)
-08:14:00    MP-106 one reel per run (the gap starts after it)
-08:14:00    MP-107 one reel per run (the gap starts after it)
-08:14:00    MP-84 one reel per run (the gap starts after it)
-08:14:00    MP-87 one reel per run (the gap starts after it)
-08:14:00    MP-97 one reel per run (the gap starts after it)
-08:14:00    MP-99 one reel per run (the gap starts after it)
-08:14:00    MP-102 one reel per run (the gap starts after it)
+imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
+08:23:40 image attempt 2 failed: all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
+08:23:40 image models failed for MP-108 all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error - the reel is made without pictures
+08:23:45 auto images: time for this run used up, the rest waits for the next run
+08:23:51 SKIP MP-7 stale: published 05 Nov, older than yesterday
+08:23:51 SKIP MP-19 stale: published 05 Nov, older than yesterday
+08:23:51 SKIP MP-21 stale: published 06 Nov, older than yesterday
+08:23:51 SKIP MP-22 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-23 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-25 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-26 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-27 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-28 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-30 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-31 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-32 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-33 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-34 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-35 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-36 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-40 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-41 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-42 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-43 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-44 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-46 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-47 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-48 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-50 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-52 stale: published 08 Nov, older than yesterday
+08:23:51 SKIP MP-55 stale: published 08 Nov, older than yesterday
+08:23:51 SKIP MP-56 stale: published 08 Nov, older than yesterday
+08:23:51 SKIP MP-57 stale: published 08 Nov, older than yesterday
+08:23:51 SKIP MP-58 stale: published 08 Nov, older than yesterday
+08:23:51 SKIP MP-59 stale: published 08 Nov, older than yesterday
+08:23:51 SKIP MP-60 stale: published 08 Nov, older than yesterday
+08:23:51 SKIP MP-62 stale: published 08 Nov, older than yesterday
+08:23:51 SKIP MP-66 stale: published 08 Nov, older than yesterday
+08:23:51 SKIP MP-67 stale: published 08 Nov, older than yesterday
+08:23:51 SKIP MP-68 stale: published 08 Nov, older than yesterday
+08:23:51 SKIP MP-70 stale: published 08 Nov, older than yesterday
+08:23:51 SKIP MP-71 stale: published 08 Nov, older than yesterday
+08:23:51 SKIP MP-72 stale: published 08 Nov, older than yesterday
+08:23:51 SKIP MP-73 stale: published 07 Nov, older than yesterday
+08:23:51 SKIP MP-75 stale: published 08 Nov, older than yesterday
+08:23:51 SKIP MP-81 stale: published 08 Nov, older than yesterday
+08:23:51 SKIP MP-86 duplicate of MP-61 (same event, other outlet)
+08:23:51 SKIP MP-90 stale: published 08 Nov, older than yesterday
+08:23:51 SKIP MP-91 stale: published 08 Nov, older than yesterday
+08:23:52 SKIP MP-94 duplicate of MP-82 (same event, other outlet)
+08:23:52 71 stories in the queue, ready to post: 25
+08:23:52   keys: ['batch', 'caption', 'category', 'doc', 'email_sent', 'gmail_id', 'headline_en', 'headline_ml', 'images', 'importance', 'location', 'malappuram_link', 'manjeri_link', 'notes', 'notion', 'other_sources', 'post_status', 'post_to', 'posted_at', 'prompts', 'published', 'reel', 'reel_link', 'reel_script', 'researched', 'review', 'review_page', 'row', 'slides_spec', 'source', 'story_id', 'verification']
+08:23:52    MP-7 review= 'Auto' images= 385 spec= 646 pages= ['malappuram'] links= '' '' '' age_h= 95.6 ready= False set_started= True
+08:23:52    MP-19 review= 'Auto' images= 385 spec= 699 pages= ['manjeri'] links= '' '' '' age_h= 82.4 ready= False set_started= True
+08:23:52    MP-21 review= 'Auto' images= 11 spec= 681 pages= ['malappuram'] links= '' '' '' age_h= 77.3 ready= False set_started= True
+08:23:52    MP-22 review= 'Auto' images= 11 spec= 678 pages= ['malappuram'] links= '' '' '' age_h= 77.0 ready= False set_started= True
+08:23:52    MP-23 review= 'Auto' images= 11 spec= 740 pages= ['malappuram'] links= '' '' '' age_h= 76.7 ready= False set_started= True
+08:23:52    MP-25 review= 'Auto' images= 11 spec= 898 pages= ['malappuram'] links= '' '' '' age_h= 75.5 ready= False set_started= True
+08:23:52    MP-26 review= 'Auto' images= 11 spec= 634 pages= ['malappuram'] links= '' '' '' age_h= 75.5 ready= False set_started= True
+08:23:52    MP-27 review= 'Auto' images= 11 spec= 639 pages= ['malappuram'] links= '' '' '' age_h= 74.8 ready= False set_started= True
+08:23:52    MP-28 review= 'Auto' images= 11 spec= 654 pages= ['malappuram'] links= '' '' '' age_h= 69.5 ready= False set_started= True
+08:23:52    MP-30 review= 'Auto' images= 11 spec= 590 pages= ['malappuram'] links= '' '' '' age_h= 67.7 ready= False set_started= True
+08:23:52    MP-31 review= 'Auto' images= 11 spec= 705 pages= ['malappuram'] links= '' '' '' age_h= 67.6 ready= False set_started= True
+08:23:52    MP-32 review= 'Auto' images= 11 spec= 654 pages= ['malappuram'] links= '' '' '' age_h= 66.3 ready= False set_started= True
+08:23:52    MP-33 review= 'Auto' images= 11 spec= 713 pages= ['malappuram'] links= '' '' '' age_h= 66.3 ready= False set_started= True
+08:23:52    MP-34 review= 'Auto' images= 11 spec= 712 pages= ['malappuram'] links= '' '' '' age_h= 66.3 ready= False set_started= True
+08:23:52    MP-35 review= 'Auto' images= 11 spec= 627 pages= ['malappuram'] links= '' '' '' age_h= 66.1 ready= False set_started= True
+08:23:52    MP-36 review= 'Auto' images= 11 spec= 570 pages= ['malappuram'] links= '' '' '' age_h= 66.1 ready= False set_started= True
+08:23:52    MP-40 review= 'Auto' images= 289 spec= 600 pages= ['malappuram'] links= '' '' '' age_h= 60.6 ready= False set_started= True
+08:23:52    MP-41 review= 'Auto' images= 289 spec= 460 pages= ['malappuram'] links= '' '' '' age_h= 60.6 ready= False set_started= True
+08:23:52    MP-42 review= 'Auto' images= 289 spec= 624 pages= ['malappuram'] links= '' '' '' age_h= 60.6 ready= False set_started= True
+08:23:52    MP-43 review= 'Auto' images= 385 spec= 463 pages= ['malappuram'] links= '' '' '' age_h= 60.4 ready= False set_started= True
+08:23:52    MP-44 review= 'Auto' images= 385 spec= 440 pages= ['malappuram'] links= '' '' '' age_h= 60.4 ready= False set_started= True
+08:23:52    MP-46 review= 'Auto' images= 481 spec= 780 pages= ['malappuram'] links= '' '' '' age_h= 56.8 ready= False set_started= True
+08:23:52    MP-47 review= 'Auto' images= 385 spec= 609 pages= ['malappuram'] links= '' '' '' age_h= 56.2 ready= False set_started= True
+08:23:52    MP-48 review= 'Auto' images= 11 spec= 649 pages= ['malappuram'] links= '' '' '' age_h= 55.1 ready= False set_started= True
+08:23:52    MP-50 review= 'Auto' images= 11 spec= 620 pages= ['malappuram'] links= '' '' '' age_h= 53.7 ready= False set_started= True
+08:23:52    MP-52 review= 'Auto' images= 11 spec= 630 pages= ['malappuram'] links= '' '' '' age_h= 52.8 ready= False set_started= True
+08:23:52    MP-55 review= 'Auto' images= 385 spec= 663 pages= ['malappuram'] links= '' '' '' age_h= 48.2 ready= False set_started= True
+08:23:52    MP-56 review= 'Auto' images= 11 spec= 644 pages= ['malappuram'] links= '' '' '' age_h= 48.0 ready= False set_started= True
+08:23:52    MP-57 review= 'Auto' images= 11 spec= 683 pages= ['malappuram'] links= '' '' '' age_h= 47.9 ready= False set_started= True
+08:23:52    MP-58 review= 'Auto' images= 385 spec= 654 pages= ['malappuram'] links= '' '' '' age_h= 46.2 ready= False set_started= True
+08:23:52    MP-59 review= 'Auto' images= 11 spec= 780 pages= ['malappuram'] links= '' '' '' age_h= 46.2 ready= False set_started= True
+08:23:52    MP-60 review= 'Auto' images= 385 spec= 456 pages= ['malappuram'] links= '' '' '' age_h= 45.0 ready= False set_started= True
+08:23:52    MP-62 review= 'Auto' images= 289 spec= 696 pages= ['malappuram'] links= '' '' '' age_h= 42.4 ready= False set_started= True
+08:23:52    MP-66 review= 'Auto' images= 385 spec= 635 pages= ['malappuram'] links= '' '' '' age_h= 39.6 ready= False set_started= True
+08:23:52    MP-67 review= 'Auto' images= 11 spec= 641 pages= ['malappuram'] links= '' '' '' age_h= 39.5 ready= False set_started= True
+08:23:52    MP-68 review= 'Auto' images= 385 spec= 620 pages= ['malappuram'] links= '' '' '' age_h= 36.2 ready= False set_started= True
+08:23:52    MP-70 review= 'Auto' images= 385 spec= 696 pages= ['malappuram'] links= '' '' '' age_h= 36.0 ready= False set_started= True
+08:23:52    MP-71 review= 'Auto' images= 385 spec= 595 pages= ['malappuram'] links= '' '' '' age_h= 36.0 ready= False set_started= True
+08:23:52    MP-72 review= 'Auto' images= 385 spec= 539 pages= ['malappuram'] links= '' '' '' age_h= 36.0 ready= False set_started= True
+08:23:52    MP-73 review= 'Auto' images= 11 spec= 561 pages= ['malappuram'] links= '' '' '' age_h= 35.8 ready= False set_started= True
+08:23:52    MP-75 review= 'Auto' images= 11 spec= 614 pages= ['malappuram'] links= '' '' '' age_h= 33.5 ready= False set_started= True
+08:23:52    MP-77 review= 'Auto' images= 385 spec= 527 pages= ['malappuram'] links= '' '' '' age_h= 30.2 ready= True set_started= True
+08:23:52    MP-78 review= 'Auto' images= 385 spec= 542 pages= ['malappuram'] links= '' '' '' age_h= 28.8 ready= True set_started= True
+08:23:52    MP-80 review= 'Auto' images= 385 spec= 750 pages= ['malappuram'] links= '' '' '' age_h= 28.7 ready= True set_started= True
+08:23:52    MP-81 review= 'Auto' images= 11 spec= 855 pages= ['malappuram'] links= '' '' '' age_h= 26.5 ready= False set_started= True
+08:23:52    MP-83 review= 'Auto' images= 11 spec= 518 pages= ['malappuram'] links= '' '' '' age_h= 24.4 ready= True set_started= True
+08:23:52    MP-84 review= 'Auto' images= 11 spec= 563 pages= ['malappuram'] links= '' '' '' age_h= 23.7 ready= True set_started= True
+08:23:52    MP-85 review= 'Auto' images= 11 spec= 578 pages= ['malappuram'] links= '' '' '' age_h= 23.0 ready= True set_started= True
+08:23:52    MP-86 review= 'Auto' images= 11 spec= 800 pages= ['malappuram'] links= '' '' '' age_h= 22.3 ready= False set_started= True
+08:23:52    MP-87 review= 'Auto' images= 11 spec= 601 pages= ['malappuram'] links= '' '' '' age_h= 22.2 ready= True set_started= True
+08:23:52    MP-88 review= 'Auto' images= 11 spec= 596 pages= ['malappuram'] links= '' '' '' age_h= 22.1 ready= True set_started= True
+08:23:52    MP-89 review= 'Auto' images= 11 spec= 696 pages= ['malappuram'] links= '' '' '' age_h= 19.7 ready= True set_started= True
+08:23:52    MP-90 review= 'Auto' images= 11 spec= 481 pages= ['malappuram'] links= '' '' '' age_h= 19.6 ready= False set_started= True
+08:23:52    MP-91 review= 'Auto' images= 11 spec= 625 pages= ['malappuram'] links= '' '' '' age_h= 19.5 ready= False set_started= True
+08:23:52    MP-92 review= 'Auto' images= 11 spec= 596 pages= ['malappuram'] links= '' '' '' age_h= 19.5 ready= True set_started= True
+08:23:52    MP-93 review= 'Auto' images= 11 spec= 576 pages= ['malappuram'] links= '' '' '' age_h= 19.4 ready= True set_started= True
+08:23:52    MP-94 review= 'Auto' images= 11 spec= 740 pages= ['malappuram'] links= '' '' '' age_h= 15.9 ready= False set_started= True
+08:23:52    MP-95 review= 'Auto' images= 11 spec= 680 pages= ['malappuram'] links= '' '' '' age_h= 15.9 ready= True set_started= True
+08:23:52    MP-96 review= 'Auto' images= 11 spec= 537 pages= ['malappuram'] links= '' '' '' age_h= 15.9 ready= True set_started= True
+08:23:52    MP-97 review= 'Auto' images= 11 spec= 593 pages= ['malappuram'] links= '' '' '' age_h= 15.2 ready= True set_started= True
+08:23:52    MP-98 review= 'Auto' images= 385 spec= 657 pages= ['malappuram'] links= '' '' '' age_h= 14.5 ready= True set_started= True
+08:23:52    MP-99 review= 'Auto' images= 385 spec= 548 pages= ['malappuram'] links= '' '' '' age_h= 13.8 ready= True set_started= True
+08:23:52    MP-100 review= 'Auto' images= 385 spec= 623 pages= ['malappuram'] links= '' '' '' age_h= 13.6 ready= True set_started= True
+08:23:52    MP-101 review= 'Auto' images= 289 spec= 504 pages= ['malappuram'] links= '' '' '' age_h= 11.2 ready= True set_started= True
+08:23:52    MP-102 review= 'Auto' images= 289 spec= 608 pages= ['malappuram'] links= '' '' '' age_h= 11.0 ready= True set_started= True
+08:23:52    MP-103 review= 'Auto' images= 11 spec= 614 pages= ['malappuram'] links= '' '' '' age_h= 10.8 ready= True set_started= True
+08:23:52    MP-104 review= 'Auto' images= 11 spec= 481 pages= ['malappuram'] links= '' '' '' age_h= 10.8 ready= True set_started= True
+08:23:52    MP-105 review= 'Auto' images= 11 spec= 520 pages= ['malappuram'] links= '' '' '' age_h= 6.0 ready= True set_started= True
+08:23:52    MP-106 review= 'Auto' images= 11 spec= 538 pages= ['malappuram'] links= '' '' '' age_h= 5.9 ready= True set_started= True
+08:23:52    MP-107 review= 'Auto' images= 11 spec= 653 pages= ['malappuram'] links= '' '' '' age_h= 4.5 ready= True set_started= True
+08:23:52    MP-108 review= 'Auto' images= 11 spec= 689 pages= ['malappuram'] links= '' '' '' age_h= 3.3 ready= True set_started= True
+08:23:56 publishing quota malappuram: 10/50
+08:23:59 publishing quota manjeri: 4/50
+08:24:01 instagram duplicate check malappuram: 29 recent posts read
+08:24:01    MP-98 one reel per run (the gap starts after it)
+08:24:01    MP-105 one reel per run (the gap starts after it)
+08:24:01    MP-108 one reel per run (the gap starts after it)
+08:24:01    MP-77 one reel per run (the gap starts after it)
+08:24:01    MP-78 one reel per run (the gap starts after it)
+08:24:01    MP-80 one reel per run (the gap starts after it)
+08:24:01    MP-83 one reel per run (the gap starts after it)
+08:24:01    MP-85 one reel per run (the gap starts after it)
+08:24:01    MP-88 one reel per run (the gap starts after it)
+08:24:01    MP-89 one reel per run (the gap starts after it)
+08:24:01    MP-93 one reel per run (the gap starts after it)
+08:24:01    MP-96 one reel per run (the gap starts after it)
+08:24:01    MP-95 one reel per run (the gap starts after it)
+08:24:01    MP-100 one reel per run (the gap starts after it)
+08:24:01    MP-101 one reel per run (the gap starts after it)
+08:24:01    MP-104 one reel per run (the gap starts after it)
+08:24:01    MP-103 one reel per run (the gap starts after it)
+08:24:01    MP-106 one reel per run (the gap starts after it)
+08:24:01    MP-107 one reel per run (the gap starts after it)
+08:24:01    MP-84 one reel per run (the gap starts after it)
+08:24:01    MP-87 one reel per run (the gap starts after it)
+08:24:01    MP-97 one reel per run (the gap starts after it)
+08:24:01    MP-99 one reel per run (the gap starts after it)
+08:24:01    MP-102 one reel per run (the gap starts after it)
+08:24:02 prebuilding ahead of the set start: ['MP-108']
