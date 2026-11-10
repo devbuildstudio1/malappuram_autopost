@@ -1,0 +1,22 @@
+name: keycheck (temporary)
+on: workflow_dispatch
+jobs:
+  k:
+    runs-on: ubuntu-24.04
+    steps:
+      - env:
+          K: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import os, re, json, urllib.request
+          k = os.environ.get("K", ""); s = k.strip()
+          print("RESULT length", len(k), "whitespace", k != s or bool(re.search(r"\s", s)))
+          print("RESULT prefix", re.sub(r"[^a-z0-9-]", "?", s[:13]))
+          body = json.dumps({"model": "claude-haiku-5-5", "max_tokens": 10, "messages": [{"role": "user", "content": "Say OK"}]}).encode()
+          req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, headers={"x-api-key": s, "anthropic-version": "2023-06-01", "content-type": "application/json"})
+          try:
+              r = urllib.request.urlopen(req, timeout=60); j = json.loads(r.read())
+              print("RESULT messages", r.status, j.get("model"), [b.get("text") for b in j.get("content", [])])
+          except Exception as e:
+              print("RESULT messages", getattr(e, "code", ""), (e.read().decode()[:250] if hasattr(e, "read") else e))
+          PY
