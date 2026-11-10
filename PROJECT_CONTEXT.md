@@ -27,7 +27,7 @@ daily        insights.yml       Instagram insights -> learned topic weights (wri
 | Instagram limit | 50 posts per page per 24 h; no internal cap below that |
 | Voice | Google Chirp 3 HD **`ml-IN-Chirp3-HD-Charon`** for every reel, ONLY inside Google's free allowance (code stops at 700,000 characters/month), then edge-tts **`ml-IN-MidhunNeural`**. Never paid |
 | Reel opening | Striking fact spoken first with the big headline; no double reading when the one-line story already says it; then one-line story, then full news |
-| Reel language | Formal news Malayalam, no slang; everyday Kerala words in voice, subtitles and cards (ബസ്, ബൈക്ക്, പോലീസ്, കളക്ടർ, കെഎസ്ഇബി, കെഎസ്ആർടിസി ...); dates always with the month |
+| Reel language | Voice (reel_script): friendly spoken Malayalam, like a local telling a neighbour - no dialect spellings, serious news calm (owner choice 10 Nov 2026). Caption and slides: formal written Malayalam; everyday Kerala words in voice, subtitles and cards (ബസ്, ബൈക്ക്, പോലീസ്, കളക്ടർ, കെഎസ്ഇബി, കെഎസ്ആർടിസി ...); dates always with the month |
 | Follow line | Reel ends with: കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ. (Manjeri page: മഞ്ചേരി ത്രീ സിക്സ്റ്റി) |
 | Images | New AI images for every story, made from the story's own scenes; older pictures are never reused |
 | Text | No `<b>` marks on screen; website never shows long dashes |

@@ -31,7 +31,7 @@ Write ONE JSON object only (no explanation) with exactly these keys:
  "source": "https://link-of-the-news-article",          // used only for the fact check, never shown
  "slides_spec": {"v":3,"cat":"...","loc":"short place","hl1":"max 40 chars","hl2":"max 28 chars",
    "slides":[{"title":"max 18 chars","lines":["2-3 short lines, each max 60 chars; <b>bold</b> allowed for key facts"]}]},   // 3 or 4 slides: who/what/when/where/why/how
- "reel_script": "...",               // 60-120 Malayalam words, 7-10 sentences with every detail. NO digits and NO English letters (write numbers in Malayalam words: പത്തര മണി, അറുപത്തഞ്ച് വയസ്സ്). Strong hook in the first sentence (no greeting), short sentences, plain words, covers who-what-when-where-why-how, ends with exactly: കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.
+ "reel_script": "...",               // friendly spoken Malayalam (like a local telling a neighbour, no dialect spellings; serious news calm), 60-120 Malayalam words, 7-10 sentences with every detail. NO digits and NO English letters (write numbers in Malayalam words: പത്തര മണി, അറുപത്തഞ്ച് വയസ്സ്). Strong hook in the first sentence (no greeting), short sentences, plain words, covers who-what-when-where-why-how, ends with exactly: കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.
  "caption": "..."                    // emoji heading, 3-5 short lines with facts, then a line 📍 place | date, then 5 hashtags, last line: പ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏
 }
 Rules: no newspaper/TV/website names or links in any text field except "source"; no "comment below" lines; readable plain Malayalam

@@ -142,13 +142,13 @@ def factcheck(d, art, claude=True):
 PROOF = """You are a senior Malayalam news editor and proofreader for the Instagram page "മലപ്പുറം 360".
 You get a JSON draft. Return the SAME JSON object (same keys, same structure, same facts, same numbers) with ONLY these fixes:
 1. Correct Malayalam spelling, chillu letters (ൽ ർ ൻ ൾ ൺ), sandhi, grammar and place names in every Malayalam text.
-2. reel_script: make it read like ONE continuous story by a professional Malayalam TV news reader: smooth connecting words between sentences (തുടർന്ന്, ഇതോടെ, ഇതിനിടെ, അതേസമയം), no abrupt jumps, no repeated facts, first sentence = the hook. Keep the key facts of the draft (70-105 words: the reel is at most 60 seconds; the caption keeps every other detail) and give every detail the article has (who, exact place, when, how, numbers, action, what next). Keep EVERY number, date, time, amount and age exactly as the digits written in the draft (10.30, 5.70 രൂപ, 65 വയസ്സുള്ള, ഒക്ടോബർ 26ന്) - never turn them into words and never change them. No English letters. English words that people say in Malayalam must be written in Malayalam script so a Malayalam voice pronounces them (മൊബൈൽ, ഓൺലൈൻ, ബസ്). Keep the last sentence exactly: കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.
+2. reel_script: make it read like ONE continuous story told by a friendly local person in simple spoken Malayalam (owner choice: NOT a formal TV news reader - keep spoken forms such as പറഞ്ഞു, ഇടിച്ചു, പരിക്ക് പറ്റി, വിളിക്കാം, കറന്റ്, ശ്രദ്ധിക്കണേ; never turn them into formal news words; no dialect spellings such as ഇണ്ട്, ഇങ്ങള്, പോയീന്; serious news stays calm and respectful), no abrupt jumps, no repeated facts, first sentence = the hook. Keep the key facts of the draft (70-105 words: the reel is at most 60 seconds; the caption keeps every other detail) and give every detail the article has (who, exact place, when, how, numbers, action, what next). Keep EVERY number, date, time, amount and age exactly as the digits written in the draft (10.30, 5.70 രൂപ, 65 വയസ്സുള്ള, ഒക്ടോബർ 26ന്) - never turn them into words and never change them. No English letters. English words that people say in Malayalam must be written in Malayalam script so a Malayalam voice pronounces them (മൊബൈൽ, ഓൺലൈൻ, ബസ്). Keep the last sentence exactly: കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.
 3. slides_spec texts and caption: natural modern Malayalam, no half-English sentences except fixed words (Follow, Share, Save). Keep the character limits (hl1 40, hl2 28, title 18, lines 60).
 Never add facts. Never remove the follow line or hashtags. Output ONLY the JSON object."""
 
 
 def proofread(best, art):
-    """second free-model pass: Malayalam grammar/spelling, smooth news-reader flow. Kept only if it still passes every check."""
+    """second free-model pass: Malayalam grammar/spelling, smooth friendly spoken flow. Kept only if it still passes every check."""
     d, model, errors, att = best
     try:
         fixed, m2 = llm.ask_json(PROOF, json.dumps(d, ensure_ascii=False))

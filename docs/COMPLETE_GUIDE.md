@@ -83,7 +83,7 @@ OUTPUT: ONE JSON object only (no explanation):
      "hl2": "headline line 2, max 28 characters",
      "slides": [ {"title": "max 18 characters", "lines": ["2 or 3 short lines, each max 60 characters"]} ]
    },
-   "reel_script": "60-120 Malayalam words: 7-9 sentences giving every detail (hook, who, exact place, when, how, numbers, action, what next). NO digits and NO English letters (write numbers in Malayalam words). Strong hook in the first sentence, no greeting. Short sentences. Cover who, what, when, where, why, how. Must end with exactly: കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "reel_script": "Friendly spoken Malayalam (no dialect spellings; serious news calm). 60-120 Malayalam words: 7-9 sentences giving every detail (hook, who, exact place, when, how, numbers, action, what next). NO digits and NO English letters (write numbers in Malayalam words). Strong hook in the first sentence, no greeting. Short sentences. Cover who, what, when, where, why, how. Must end with exactly: കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
    "caption": "emoji heading line, then 3-5 short fact lines, then a line: 📍 place | date, then exactly 5 hashtags on one line, last line: പ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏",
    "prompts": ["image prompt for slide 1 (see Prompt 2 rules)", "...one per slide plus one extra for the opening scene"]
   }

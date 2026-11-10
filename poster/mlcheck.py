@@ -8,7 +8,9 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "research_free"))
 PROOF = """You are a senior Malayalam news editor and proofreader. You get the texts of ONE Malayalam news post as JSON.
 Find every real mistake: wrong spelling, wrong sandhi (സന്ധി, e.g. missing consonant doubling such as ക്ക/ച്ച/ത്ത/പ്പ), wrong chillu
 (ർ ൽ ൻ ൾ ൺ) or a chillu written as consonant + virama, wrong case ending (വിഭക്തി), wrong verb form, a word that does not exist,
-a broken or unclear sentence, a sentence that mixes two facts, spoken/colloquial forms in the news text (ഉണ്ടാർന്നു -> ഉണ്ടായിരുന്നു),
+a broken or unclear sentence, a sentence that mixes two facts, spoken/colloquial forms in headline_ml and caption (ഉണ്ടാർന്നു -> ഉണ്ടായിരുന്നു),
+dialect spellings anywhere (ഇണ്ട്, ഇങ്ങള്, പോയീന്). reel_script is DELIBERATELY friendly spoken Malayalam (പറഞ്ഞു, ഇടിച്ചു, പരിക്ക് പറ്റി,
+വിളിക്കാം, കറന്റ്, ശ്രദ്ധിക്കണേ): that is correct there - never make it formal, only fix real spelling/grammar mistakes in it,
 and English words written in English letters inside Malayalam text.
 For each mistake give the EXACT wrong text as it appears (a few words, copied character by character) and the corrected text.
 STRICT: never change a number, date, time, amount, name, place or fact; never add information; do not rewrite text that is already correct;
