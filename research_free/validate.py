@@ -229,11 +229,11 @@ def validate(d, article, today_digits=("2026",)):
     if not rs.endswith(LAST):
         p.append("reel_script must end with exactly: " + LAST)
     wc = len(rs.split())
-    maxw = int(_reach().get("script_max_words") or 170)      # owner 29 Oct: reels at most 60 s (105 words); the caption keeps every detail
-    need = min(130, int(len(_ml_words(article)) * 0.55)) if article else 60      # owner 28 Oct: full detail - a longer article needs a longer reel
+    maxw = int(_reach().get("script_max_words") or 170)      # owner 10 Nov: reels about 25-40 s (75 words); the caption keeps every detail
+    need = min(130, int(len(_ml_words(article)) * 0.55)) if article else 45      # owner 28 Oct: full detail - a longer article needs a longer reel
     need = min(need, maxw - 20)
-    if not max(60, need) <= wc <= maxw + 5:
-        p.append(f"reel_script has {wc} words; need {max(60, need)}-{maxw} (the key facts once each, in at most {60 if maxw <= 110 else 90} seconds; "
+    if not max(45, need) <= wc <= maxw + 5:      # owner 10 Nov: short reels are watched to the end (45-75 words)
+        p.append(f"reel_script has {wc} words; need {max(45, need)}-{maxw} (the key facts once each, in about {40 if maxw <= 80 else 60} seconds; "
                  "every other detail goes in the caption's 📰 പൂർണ വിവരം block)")
     ages = re.findall("[" + ML + r"]+,\s?\d{1,2},|[" + ML + r"]+\s?\(\d{1,2}\)", rs)
     if ages:      # "രാജു, 47," / "രാജു (47)" is newspaper shorthand; read aloud it is confusing

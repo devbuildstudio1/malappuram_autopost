@@ -374,18 +374,19 @@ class FullDetail(unittest.TestCase):
         return [x for x in validate.validate(d, art) if x.startswith("reel_script has")]
 
     def test_short_reel_of_long_article_is_rewritten(self):
-        self.assertTrue(self.length_problems(70, 300))
-        self.assertFalse(self.length_problems(95, 300))      # owner: at most 60 s / 105 words; the caption keeps the rest
+        self.assertTrue(self.length_problems(40, 300))
+        self.assertFalse(self.length_problems(65, 300))      # owner 10 Nov: about 25-40 s / 45-75 words; the caption keeps the rest
+        self.assertTrue(self.length_problems(90, 300))      # too long: viewers skip before the end
 
     def test_short_article_keeps_a_short_reel(self):
-        self.assertFalse(self.length_problems(70, 80))
+        self.assertFalse(self.length_problems(48, 80))
 
     def test_never_more_words_than_60_seconds(self):
         self.assertTrue(self.length_problems(130, 400))
 
-    def test_examples_are_full_detail(self):      # rules.md asks for 70-105 Malayalam words (Malayalam words are longer than Tamil ones)
+    def test_examples_are_short_reels(self):      # rules.md asks for 45-75 Malayalam words (owner 10 Nov: watched to the end)
         for e in json.loads((ROOT / "research_free" / "examples.json").read_text(encoding="utf-8")):
-            self.assertGreaterEqual(len(e["output"]["reel_script"].split()), 70)
+            self.assertTrue(45 <= len(e["output"]["reel_script"].split()) <= 75)
 
     def test_reel_max_seconds(self):
         self.assertEqual(json.loads((ROOT / "poster" / "config.json").read_text())["reel_max_seconds"], 60)

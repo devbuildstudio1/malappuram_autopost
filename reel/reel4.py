@@ -593,7 +593,7 @@ def fit_max(work, n, lead, gap):
 def main(spec_path, out_mp4, page_key="malappuram"):
     R.PAGE = R.PAGES[page_key]; R.LOGO = R.KIT / R.PAGE["logo"]
     if page_key == "manjeri":
-        V3.OUTRO_EN = "Follow Manjeri Three Sixty for more local news."
+        V3.OUTRO_EN = "Follow Manjeri Three Sixty."
     spec = json.loads(Path(spec_path).read_text())
     work = Path(out_mp4).with_suffix("")
     work = work.parent / (work.name + "_work"); work.mkdir(parents=True, exist_ok=True)
@@ -653,7 +653,7 @@ def main(spec_path, out_mp4, page_key="malappuram"):
         t += d + (V3.PAUSE if i == len(texts) - 2 else (0.55 if i == 0 else gap))      # a beat after the one-line story, then the full news
     V3.CHIME_T = round(ends[-2] + 0.12, 3)
     end_t = V3.CHIME_T
-    total = round(max(ends[-1] + 0.6, end_t + 1.8), 3)
+    total = round(max(ends[-1] + 0.35, end_t + 1.2), 3)      # owner 10 Nov: short ending, viewers who wait for it count as watched to the end
     R.make_voice_track(work, texts, starts, total)
     for i, s in enumerate(sents):
         s["a"], s["b"] = starts[i], ends[i]

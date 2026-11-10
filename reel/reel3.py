@@ -259,9 +259,9 @@ window.fitAll=function(){{
 
 from digits import to_digits  # display-only: numbers as digits, 360
 
-PAUSE = 0.8      # quiet beat + soft chime between the end of the news and the "follow" line
+PAUSE = 0.35     # short beat + soft chime between the end of the news and the "follow" line (owner 10 Nov: a long ending is skipped)
 CHIME_T = 0.0
-OUTRO_EN = "Follow Malappuram Three Sixty for more local news."
+OUTRO_EN = "Follow Malappuram Three Sixty."
 
 
 def english_outro(work, idx):
