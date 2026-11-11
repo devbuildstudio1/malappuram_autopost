@@ -123,17 +123,30 @@ def bridge(action, **kw):
 
 
 # what Malappuram readers care about most (higher = picked first, so it is never missed)
+# owner 11 Nov: the goal of every reel is NEW FOLLOWERS. People follow a local page for news they will need again (power / water cuts,
+# road closures, holidays, health alerts, jobs, deadlines) and for news about their own place they are proud of; crime and accidents bring
+# views but few follows, so they come last. Order of the queue only - see low_interest() for what is not written at all.
 INTEREST = [
-    (10, ("വൈദ്യുതി മുടങ്ങും", "വൈദ്യുതി മുടക്കം", "വൈദ്യുതി തടസ്സ", "വൈദ്യുതി വിതരണം തടസ്സ", "പവർകട്ട്", "ലോഡ് ഷെഡ്ഡിങ്")),
-    (9, ("മഴ", "കാലാവസ്ഥ", "വെള്ളപ്പൊക്ക", "ഉരുൾപൊട്ട", "കടലാക്രമണ", "അവധി", "സ്കൂളുകൾക്ക് അവധി", "വിദ്യാഭ്യാസ സ്ഥാപനങ്ങൾക്ക് അവധി")),
+    (10, ("വൈദ്യുതി മുടങ്ങും", "വൈദ്യുതി മുടക്കം", "വൈദ്യുതി തടസ്സ", "വൈദ്യുതി വിതരണം തടസ്സ", "പവർകട്ട്", "ലോഡ് ഷെഡ്ഡിങ്",
+          "വൈദ്യുതി നിയന്ത്രണ")),
+    (9, ("മഴ", "കാലാവസ്ഥ", "വെള്ളപ്പൊക്ക", "ഉരുൾപൊട്ട", "കടലാക്രമണ", "അവധി", "സ്കൂളുകൾക്ക് അവധി", "വിദ്യാഭ്യാസ സ്ഥാപനങ്ങൾക്ക് അവധി",
+         "കുടിവെള്ളം മുടങ്ങും", "ജലവിതരണം മുടങ്ങും", "ജലവിതരണം തടസ്സ", "ഗതാഗതം നിരോധി", "ഗതാഗത നിയന്ത്രണ", "വഴിതിരിച്ചു",
+         "ഹർത്താൽ", "പണിമുടക്ക്", "ബസ് സമരം")),
+    (9, ("ഷിഗെല്ല", "മഞ്ഞപ്പിത്ത", "നിപ", "ഡെങ്കി", "എലിപ്പനി", "കോളറ", "ഭക്ഷ്യവിഷബാധ", "പകർച്ചവ്യാധി", "ജാഗ്രതാ നിർദേശ",
+         "ഹോട്ടൽ അടപ്പിച്ചു", "അടച്ചുപൂട്ടി", "പഴകിയ ഭക്ഷണം", "മിന്നൽ പരിശോധന")),
     (9, ("വില", "പച്ചക്കറി", "മത്സ്യ", "അരി", "സ്വർണവില", "ഇന്ധന", "വിപണി")),
     (8, ("തൊഴിൽ മേള", "ജോലി ഒഴിവ്", "ഒഴിവ്", "നിയമനം", "അഭിമുഖം", "പരീക്ഷ", "റിക്രൂട്ട്")),
     (7, ("സ്കൂൾ", "കോളേജ്", "വിദ്യാർഥി", "ഫലം", "സ്കോളർഷിപ്പ്", "പ്രവേശനം", "സർവകലാശാല")),
-    (7, ("റേഷൻ", "പെൻഷൻ", "ക്ഷേമ", "പദ്ധതി", "സബ്സിഡി", "കളക്ടർ", "അറിയിപ്പ്", "ക്യാമ്പ്", "അദാലത്ത്")),
+    (7, ("റേഷൻ", "പെൻഷൻ", "ക്ഷേമ", "പദ്ധതി", "സബ്സിഡി", "കളക്ടർ", "അറിയിപ്പ്", "ക്യാമ്പ്", "അദാലത്ത്", "മസ്റ്ററിങ്", "അവസാന തീയതി",
+         "അപേക്ഷ ക്ഷണിച്ചു")),
+    # local pride / feel-good: people send these to friends and follow "their" page
+    (7, ("വൈറൽ", "ട്രെൻഡ്", "ഇൻസ്റ്റഗ്രാമിൽ", "അഭിമാനം", "റെക്കോർഡ്", "ഒന്നാം സ്ഥാനം", "ഒന്നാം റാങ്ക്", "സ്വർണ മെഡൽ", "സത്യസന്ധത",
+         "തിരികെ നൽകി", "കൈത്താങ്ങ്", "സെവൻസ്", "ഫുട്ബോൾ", "ടൂറിസം", "സഞ്ചാരികൾ")),
     (6, ("ബസ്", "റോഡ്", "ഗതാഗത", "ട്രെയിൻ", "പാലം", "ദേശീയപാത", "വിമാനത്താവള", "കരിപ്പൂർ")),
-    (6, ("കുടിവെള്ള", "കൊതുക്", "മാലിന്യ", "ഓട", "വെള്ളം", "പനി", "മഞ്ഞപ്പിത്ത", "നിപ")),
-    (5, ("ഉത്സവ", "ക്ഷേത്ര", "നേർച്ച", "പെരുന്നാൾ", "ഫുട്ബോൾ", "സെവൻസ്", "ടൂറിസം")),
-    (4, ("അപകട", "രക്ഷാപ്രവർത്തന", "തീപിടിത്ത", "അറസ്റ്റ്", "പിടിയിൽ")),
+    (6, ("കുടിവെള്ള", "കൊതുക്", "മാലിന്യ", "ഓട", "വെള്ളം", "പനി")),
+    (5, ("ഉത്സവ", "ക്ഷേത്ര", "നേർച്ച", "പെരുന്നാൾ")),
+    (4, ("അപകട", "രക്ഷാപ്രവർത്തന", "തീപിടിത്ത", "മരിച്ചു")),
+    (3, ("അറസ്റ്റ്", "പിടിയിൽ")),
 ]
 
 
@@ -148,6 +161,44 @@ def interest(art):
             elif k in t:
                 best = max(best, score)
     return best
+
+
+# owner 11 Nov (goal: followers): news few people watch is not written at all - it would take one of the day's few reel slots and lower the
+# page's average watch time. Never for a power cut or useful / urgent news (NEVER_LOW). Off: config "selection": {"skip_low_interest": false}
+LOW_EDITORIAL_URL = re.compile(r"editorial|/opinion|/columns?/|mukhaprasangam|/article-?column", re.I)
+LOW_FEATURE = re.compile(r"എങ്ങനെ|ടിപ്സ്|ഗുണങ്ങൾ|ലക്ഷണങ്ങൾ|പാചക|റെസിപ്പി|രുചിയൂറും|അറിയേണ്ട(?:തെല്ലാം)?|ശ്രദ്ധിക്കേണ്ട കാര്യങ്ങൾ")
+LOW_CEREMONY = re.compile(r"ഉദ്ഘാടന|ഉദ്ഘാടനം|ശിലാസ്ഥാപന|സമ്മേളന|കൺവെൻഷൻ|സെമിനാർ|ശിൽപശാല|പുരസ്കാര|അവാർഡ്|ആദരി|ആദരം|അനുമോദന|"
+                          r"അനുസ്മരണ|ചരമവാർഷിക|വാർഷികാഘോഷ|ദിനാചരണ|ബോധവൽക്കരണ|ഭാരവാഹി|പ്രസിഡന്റായി|സെക്രട്ടറിയായി|"
+                          r"ധർണ|പ്രതിഷേധ|നിവേദനം|ആവശ്യപ്പെട്ടു|ആരോപിച്ചു|ആരോപണം|പ്രസ്താവന|വിമർശിച്ചു|"
+                          r"കോടതിയലക്ഷ്യ|ഹൈക്കോടതി|ജാമ്യാപേക്ഷ|ഹർജി|സഹകരണ സംഘ|കോ-?ഓപ്പ?റേറ്റീവ്|"
+                          r"നിർദേശം സമർപ്പി|ശുപാർശ|സാധ്യതാ പഠന|ഡിപിആർ|"
+                          r"യുഡിഎഫ്|എൽഡിഎഫ്|സിപിഎം|സിപിഐ|ബിജെപി|കോൺഗ്രസ്|മുസ്ലിം ലീഗ്|യൂത്ത് ലീഗ്|ഡിവൈഎഫ്ഐ|എസ്എഫ്ഐ|കെഎസ്‌?യു|എംഎസ്എഫ്")
+NEVER_LOW = re.compile(r"വൈദ്യുതി|പവർ\s*കട്ട്|ലോഡ്\s*ഷെഡ്ഡി|മരിച്ചു|മരണം|മരിച്ച|അപകട|അറസ്റ്റ്|പിടിയിൽ|തീപിടിത്ത|കാണാതായ|മുങ്ങി|"
+                       r"കാട്ടാന|പുലി|കടുവ|ഉരുൾപൊട്ട|വെള്ളപ്പൊക്ക|കനത്ത മഴ|അലർട്ട്|മുന്നറിയിപ്പ്|അവധി|കുടിവെള്ളം മുടങ്ങ|ജലവിതരണം|"
+                       r"ഗതാഗത നിയന്ത്രണ|ഗതാഗതം നിരോധ|ഷിഗെല്ല|മഞ്ഞപ്പിത്ത|നിപ|ഡെങ്കി|എലിപ്പനി|കോളറ|ഭക്ഷ്യവിഷബാധ|തൊഴിൽ മേള|ഒഴിവ്|"
+                       r"ഹർത്താൽ|പണിമുടക്ക്|ബസ് സമരം|അവസാന തീയതി")
+
+
+def _selection():
+    try:
+        return json.loads((HERE.parent / "poster" / "config.json").read_text(encoding="utf-8")).get("selection") or {}
+    except Exception:
+        return {}
+
+
+def low_interest(title, url=""):
+    """'' = worth writing; else why Malappuram viewers would not watch it"""
+    t, u = allnews.norm(title or ""), url or ""
+    if not _selection().get("skip_low_interest", True) or NEVER_LOW.search(t):
+        return ""
+    if LOW_EDITORIAL_URL.search(u):
+        return "editorial / opinion, not news"
+    if LOW_FEATURE.search(t) and not allnews.has_place(t):
+        return "feature / tips / recipe, not a Malappuram event"
+    m = LOW_CEREMONY.search(t)
+    if m:
+        return f"ceremony / politics / court / proposal ({m.group(0)}) - few viewers"
+    return ""
 
 
 def _start_at():
@@ -383,7 +434,8 @@ def verify_candidates(items, state, log):
             # ONLY Malappuram-district news - a district place in the headline or in the opening lines (not just a sidebar or a
             # long list of districts), and a headline that names no other district / town and is not state-wide
             if (not allnews.local_ok(art["url"], art["title"]) or not allnews.local_ok(art["url"], n.get("title", "") or art["title"])
-                    or not (allnews.has_place(art["title"]) or allnews.has_place(art["text"][:300]) or allnews.url_district(art["url"]) == allnews.DISTRICT_KEY)
+                    or not (allnews.has_place(art["title"]) or allnews.has_place(art["text"][:300]) or allnews.url_district(art["url"]) == allnews.DISTRICT_KEY
+                            or allnews.kerala_power_alert(art["title"], art["text"]))
                     or allnews.outside_district(art["title"])):      # a story on the paper's own Malappuram page is Malappuram news even when it names no town
                 n["status"], stt["s"] = "not Malappuram district news (article names no Malappuram place)", "notdistrict"; kept["notdistrict"] += 1
                 continue
@@ -858,6 +910,10 @@ def main():
         if n["status"] == "collected" and (allnews.other_district(n["title"]) or (n["area"] == "N" and allnews.outside_district(n["title"], n.get("via", "")))):
             n["status"] = "not Malappuram district news (state-wide / other district)"
             continue
+        lowi = low_interest(n["title"], n.get("url", "")) if n["status"] == "collected" and not n.get("manual") else ""
+        if lowi:      # owner 11 Nov: only news that brings followers is written
+            n["status"] = "not written: " + lowi
+            continue
         if n["status"] == "collected" and fresh(n["published"]):
             queues[n["area"]].append(n)
         elif n["status"] == "collected" and n.get("via") in ("district-list", "listing") and rechecks < 60:
@@ -933,9 +989,13 @@ def main():
         if not fresh(art["published"]) and not n.get("manual"):      # a link the owner gives by hand is written whatever its date
             return {"skip": "old", "s": "old", "log": f"skip ({area}) too old ({art['published'] or 'no date'}): {art['title'][:50]}"}
         if ((not (allnews.has_place(n["title"]) or allnews.has_place(art["title"]) or allnews.has_place(art["text"][:300])
-                  or allnews.url_district(art["url"]) == allnews.DISTRICT_KEY) and n.get("via", "") != "district-list")
+                  or allnews.url_district(art["url"]) == allnews.DISTRICT_KEY or allnews.kerala_power_alert(art["title"], art["text"]))
+                 and n.get("via", "") != "district-list")
                 or not allnews.local_ok(art["url"], art["title"])) and not n.get("manual"):
             return {"skip": "not Malappuram district news (article names no Malappuram place)", "s": "notdistrict", "log": f"skip ({area}) no Malappuram place in article: {art['title'][:50]}"}
+        lowi = "" if n.get("manual") else low_interest(art["title"], art["url"])
+        if lowi:      # owner 11 Nov: the article's own headline (a feed title can differ) - checked before any model call
+            return {"skip": "not written: " + lowi, "s": "notext", "log": f"skip ({area}) low interest ({lowi}): {art['title'][:50]}"}
         if not n.get("manual") and any(_fr().similar(r.get("headline_ml", ""), art["title"], 0.55, r.get("researched"))
                                        or same_news(r.get("headline_ml", ""), art["title"], r.get("researched")) for r in recent):      # already posted / written
             return {"skip": "already filed", "s": "dup", "log": f"skip ({area}) similar to a filed story: {art['title'][:50]}"}

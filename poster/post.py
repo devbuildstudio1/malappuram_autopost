@@ -297,6 +297,8 @@ def not_in_district(row):
     why = allnews.written_elsewhere(head, row.get("reel_script") or "")
     if why:      # a story written about another district
         return why
+    if getattr(allnews, "kerala_power_alert", lambda *a: False)(head, row.get("reel_script") or ""):
+        return ""      # owner 11 Nov: a state-wide KSEB power restriction applies to Malappuram too
     if allnews.other_district(head):
         return "not Malappuram district news (the headline names another district)"
     if allnews.has_place(head):

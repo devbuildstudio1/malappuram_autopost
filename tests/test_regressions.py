@@ -914,5 +914,37 @@ class PortLeftovers(unittest.TestCase):
                 self.assertNotIn(old, src, f"{old} in {f}")
 
 
+class FollowerSelection(unittest.TestCase):      # owner 11 Nov: topics are chosen for new followers
+    def test_low_interest_skipped(self):
+        for h in ("കുറ്റിപ്പുറത്ത് സഹകരണ സൊസൈറ്റി കെട്ടിടം ഉദ്ഘാടനം ചെയ്തു", "പാണ്ടിക്കാട്ടിലെ കലാകാരന്മാർക്ക് പുരസ്കാരം",
+                  "അബു അരീക്കോടിന്റെ ചരമവാർഷികം", "മഞ്ചേരി പോസ്റ്റ് ഓഫീസിനു മുന്നിൽ പ്രതിഷേധ ധർണ",
+                  "എംഎൽഎക്കെതിരായ കോടതിയലക്ഷ്യ കേസ് ഹൈക്കോടതി തള്ളി"):
+            self.assertTrue(collect.low_interest(h), h)
+
+    def test_useful_and_urgent_never_skipped(self):
+        for h in ("കോട്ടക്കലിൽ നാളെ വൈദ്യുതി മുടങ്ങും", "ഏലംകുളത്ത് ഒരാൾക്കുകൂടി ഷിഗെല്ല സ്ഥിരീകരിച്ചു",
+                  "യൂത്ത് ലീഗ് പ്രവർത്തകൻ വാഹനാപകടത്തിൽ മരിച്ചു", "ഉദ്ഘാടനത്തിനിടെ തീപിടിത്തം",
+                  "മഞ്ചേരിയിൽ തൊഴിൽ മേള ശനിയാഴ്ച", "ഇൻസ്റ്റഗ്രാമിൽ തരംഗമായി മലപ്പുറം ലൊക്കേഷൻ ട്രെൻഡ്"):
+            self.assertEqual("", collect.low_interest(h), h)
+
+    def test_useful_news_ranks_above_crime(self):
+        i = lambda h: collect.interest({"title": h})
+        self.assertGreater(i("അമരമ്പലത്ത് ഹോട്ടലുകളിൽ മിന്നൽ പരിശോധന"), i("15 ലക്ഷത്തിന്റെ എംഡിഎംഎയുമായി 6 പേർ പിടിയിൽ"))
+        self.assertGreater(i("മലപ്പുറം ലൊക്കേഷൻ ഇൻസ്റ്റഗ്രാമിൽ ട്രെൻഡ്"), i("യുവാവ് അറസ്റ്റിൽ"))
+        self.assertGreater(i("കോട്ടക്കലിൽ നാളെ വൈദ്യുതി മുടങ്ങും"), i("ഏലംകുളത്ത് ഷിഗെല്ല"))
+
+    def test_kerala_power_restriction_is_ours(self):
+        h, txt = "സംസ്ഥാനത്ത് ഇന്ന് രാത്രി വൈദ്യുതി നിയന്ത്രണം", "തിരുവനന്തപുരം: സംസ്ഥാനത്ത് ഇന്ന് വൈകിട്ട് 6.30 മുതൽ"
+        self.assertTrue(allnews.kerala_power_alert(h, txt))
+        self.assertFalse(allnews.other_district(h))
+        self.assertFalse(allnews.outside_district(h))
+
+    def test_other_district_power_news_is_not_ours(self):
+        self.assertFalse(allnews.kerala_power_alert("വൈദ്യുതി നിയന്ത്രണം ഇന്ന്", "കോഴിക്കോട്: ജില്ലയിലെ ചില ഭാഗങ്ങളിൽ"))
+        self.assertFalse(allnews.kerala_power_alert("കോഴിക്കോട് ജില്ലയിൽ വൈദ്യുതി നിയന്ത്രണം"))
+        self.assertFalse(allnews.kerala_power_alert("നാളെ വൈദ്യുതി മുടങ്ങും", "അമ്പലപ്പുഴ സെക്ഷൻ പരിധിയിൽ"))      # local notice, not state-wide
+        self.assertTrue(allnews.other_district("ആലപ്പുഴയിൽ നാളെ വൈദ്യുതി മുടങ്ങും"))
+
+
 if __name__ == "__main__":
     unittest.main()

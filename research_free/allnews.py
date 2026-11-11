@@ -55,6 +55,10 @@ QUERIES = ["മലപ്പുറം", "മഞ്ചേരി", "തിരൂർ
            "വളാഞ്ചേരി", "താനൂർ", "പരപ്പനങ്ങാടി", "വേങ്ങര", "എടപ്പാൾ", "അരീക്കോട്", "വണ്ടൂർ", "കരിപ്പൂർ", "മലപ്പുറം ജില്ല",
            # KSEB / government notices: the papers carry the official notices every day
            "മലപ്പുറം വൈദ്യുതി മുടങ്ങും", "മഞ്ചേരി വൈദ്യുതി മുടങ്ങും", "തിരൂർ വൈദ്യുതി മുടങ്ങും", "പെരിന്തൽമണ്ണ വൈദ്യുതി മുടങ്ങും",
+           # owner 11 Nov: power cuts are the news that brings followers - every big town, and KSEB's state-wide restrictions
+           "കോട്ടക്കൽ വൈദ്യുതി മുടങ്ങും", "നിലമ്പൂർ വൈദ്യുതി മുടങ്ങും", "പൊന്നാനി വൈദ്യുതി മുടങ്ങും", "അരീക്കോട് വൈദ്യുതി മുടങ്ങും",
+           "വേങ്ങര വൈദ്യുതി മുടങ്ങും", "കൊണ്ടോട്ടി വൈദ്യുതി മുടങ്ങും", "വളാഞ്ചേരി വൈദ്യുതി മുടങ്ങും", "എടപ്പാൾ വൈദ്യുതി മുടങ്ങും",
+           "സെക്ഷൻ പരിധിയിൽ വൈദ്യുതി മുടങ്ങും മലപ്പുറം", "വൈദ്യുതി നിയന്ത്രണം കെഎസ്ഇബി", "ലോഡ് ഷെഡ്ഡിങ് കേരളം", "KSEB power restriction",
            "മലപ്പുറം കളക്ടർ", "മലപ്പുറം ജില്ലാ ഭരണകൂടം", "മലപ്പുറം തൊഴിൽ മേള", "മലപ്പുറം നിയമനം", "മലപ്പുറം അവധി",
            "Malappuram", "Manjeri", "Tirur", "Perinthalmanna", "Nilambur", "Ponnani", "Kondotty", "Malappuram collector",
            "Malappuram power outage"]
@@ -175,10 +179,36 @@ def local_ok(url, title):
     return not any(s in (url or "").lower() for s in NON_NEWS)
 
 
+# owner 11 Nov: a STATE-WIDE KSEB power restriction / load shedding affects Malappuram too and is the news people share most, so it is
+# posted (urgent) even though the headline names the whole state. A local maintenance notice ("... വൈദ്യുതി മുടങ്ങും") is NOT this:
+# that one must still name a Malappuram place. A headline / opening that names another district and none of ours is never this.
+POWER_RESTRICTION = re.compile(r"വൈദ്യുതി\s*നിയന്ത്രണ|ലോഡ്\s*ഷെഡ്ഡി|പവർ\s*കട്ട്|load[\s-]*shedding|power\s*(?:restriction|cut)s?\b", re.I)
+
+
+STATE_WORD = re.compile(r"സംസ്ഥാന|കേരള|\bKerala\b|\bstate\b", re.I)
+
+
+def kerala_power_alert(title, text=""):
+    """True for state-wide KSEB power-restriction / load-shedding news that also applies to Malappuram district"""
+    t = norm(title or "")
+    if not POWER_RESTRICTION.search(t):
+        return False
+    lead = re.sub(r"^\s*[^\s:]{2,25}\s*:\s*", "", norm(text or ""))[:400]      # drop the dateline ("തിരുവനന്തപുരം: ...")
+    if not STATE_WORD.search(t) and not STATE_WORD.search(lead[:200]):
+        return False      # must really be state-wide ("സംസ്ഥാനത്ത്", "കേരളത്തിൽ"), not one district's restriction
+    for part in (t, lead):
+        if not has_place(part) and (any(f in part for w in OTHER_PLACES for f in _forms(w))
+                                    or any(re.search(r"\b" + w + r"\b", part.lower()) for w in OTHER_EN)):
+            return False
+    return True
+
+
 def other_district(title):
     """headline names another district / town / the whole state and no Malappuram-district place"""
     t = norm(title)
     low = t.lower()
+    if kerala_power_alert(t):
+        return False
     return not has_place(t) and (any(f in t for w in OTHER_PLACES for f in _forms(w)) or any(w in t for w in STATE_WIDE)
                                  or any(re.search(r"\b" + w + r"\b", low) for w in OTHER_EN))
 
@@ -235,6 +265,8 @@ def outside_district(text, via=""):
     headline that names another place and none of ours. A headline that names no place at all is KEPT (many local reports omit it) - the
     article itself is checked for a Malappuram place before anything is written (collect.py)."""
     text = norm(text)
+    if kerala_power_alert(text):
+        return False
     if any(w in text for w in ALWAYS_OUTSIDE) or any(w in text for w in WEATHER_FORECAST):
         return True
     if has_place(text):
