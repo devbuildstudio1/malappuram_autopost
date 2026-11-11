@@ -1,22 +1,17 @@
 writing [N]: ഇനി കുരുക്കഴിയും; മേലാറ്റൂർ അങ്ങാടിയിൽ ഡിവൈഡറുകൾ സ്ഥാപിച്ചു
-writing [N]: മമ്പാട്ട് പൊതുസ്ഥലങ്ങൾ കൈയടക്കി തെരുവുനായ്ക്കൾ
+writing [N]: സ്വന്തം കെട്ടിടമായില്ല; വേങ്ങര സബ്ട്രഷറി ഇപ്പോഴും ചെമ്മാട്ടു
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-writing [N]: അമരമ്പലം പഞ്ചായത്തിൽ ആരോഗ്യവകുപ്പിന്റെ ‘ഓപ്പറേഷൻ തട്ട് ’
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3.8-flash (17s)
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -26,14 +21,11 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high d
-ok gemini/gemini-3.6-flash (22s)
+ok gemini/gemini-3.8-flash (24s)
+attempt 1 gemini/gemini-3.8-flash: 1 problems
+  reel_script has 52 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -47,76 +39,47 @@ dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-ok groq/openai/gpt-oss-120b (4s)
-factcheck by groq/openai/gpt-oss-120b: 3 problems
-  Incorrect place name “അമരമ്പലത്ത്” used instead of the article’s “അമരമ്പലം” (headline, reel script and caption)
-  Reel script omits the important fact that the operation was led by Health Inspector K.C. Gokuldas, Panchayat Health Inspector K. Shilpa and other officials
-  Ungrammatical phrase “അമരമ്പലത്തുള്ള കൂട്ടുകാർക്ക്” in the reel script
-attempt 1 gemini/gemini-3.6-flash: 3 problems
-  fact-check: Incorrect place name “അമരമ്പലത്ത്” used instead of the article’s “അമരമ്പലം” (headline, reel script and caption)
-  fact-check: Reel script omits the important fact that the operation was led by Health Inspector K.C. Gokuldas, Panchayat Health Inspector K. Shilpa and other officials
-  fact-check: Ungrammatical phrase “അമരമ്പലത്തുള്ള കൂട്ടുകാർക്ക്” in the reel script
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-ok gemini/gemini-3.8-flash (31s)
-attempt 1 gemini/gemini-3.8-flash: 1 problems
-  reel_script has 50 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgvSD6ZAMoPzcSCPbTN69"}
-writing [N]: സ്വന്തം കെട്ടിടമായില്ല; വേങ്ങര സബ്ട്രഷറി ഇപ്പോഴും ചെമ്മാട്ടു
-free models unavailable: free models not efficient (3 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgvSD7TUcA4DEVRqCE6Dt"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgvSDQPhucUghh47Ay5zL"}
-proofread skipped: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgvSi1JhhRxWn1opaPJjR"}
+proofread skipped: free models not efficient (7 failures in a row): using Claude
 image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
 image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
 imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgvSDejfKvCiu4GFA6ZzZ"}
-proofread skipped: free models not efficient (5 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+ok gemini/gemini-3.6-flash (5s)
+factcheck by gemini/gemini-3.6-flash: 0 problems
+attempt 1 gemini/gemini-3.8-flash: 0 problems
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+proofread skipped: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6fxrnxae4nt2p749ssm50dy` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1237. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok groq/qwen/qwen3.8-27b (1s)
 imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150) 504 timeout
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-images NOT made for 'Health team launches Operation Thattu in': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
-bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261111-0907","first":"MP-139"}
+images NOT made for 'Traffic dividers installed in Melattur t': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
+bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261111-0914","first":"MP-141"}
 posting job started at once
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261111-0907","first":"MP-140"}
-write_stories.yml started
+bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261111-0914","first":"MP-142"}
 earlier stories still waiting for images: []
-instagram check: 47 recent posts read from both pages
-write round: 4 news waiting in the queue (written in priority order)
-candidate filter: collected=4
-to write: 0 Manjeri + 4 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 4 Malappuram; time left 29 min
+instagram check: 48 recent posts read from both pages
+write round: 2 news waiting in the queue (written in priority order)
+candidate filter: collected=2
+to write: 0 Manjeri + 2 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 2 Malappuram; time left 29 min
 try (N) manual=False: ഇനി കുരുക്കഴിയും; മേലാറ്റൂർ അങ്ങാടിയിൽ ഡിവൈഡറുകൾ സ്ഥാപിച്ചു
-try (N) manual=False: അമരമ്പലം പഞ്ചായത്തിൽ ആരോഗ്യവകുപ്പിന്റെ ‘ഓപ്പറേഷൻ തട്ട് ’
-try (N) manual=False: മമ്പാട്ട് പൊതുസ്ഥലങ്ങൾ കൈയടക്കി തെരുവുനായ്ക്കൾ
-NOT filed (N) ഇനി കുരുക്കഴിയും; മേലാറ്റൂർ അങ്ങാടിയിൽ ഡിവൈഡറുകൾ സ: all free models failed: no usable answer from the models
 try (N) manual=False: സ്വന്തം കെട്ടിടമായില്ല; വേങ്ങര സബ്ട്രഷറി ഇപ്പോഴും ചെമ്മാട്ടു
-NOT filed (N) സ്വന്തം കെട്ടിടമായില്ല; വേങ്ങര സബ്ട്രഷറി ഇപ്പോഴും : all free models failed: no usable answer from the models
-auto images failed for 'Health team launches Operation Thattu in': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email
+auto images failed for 'Traffic dividers installed in Melattur t': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email
 auto images: 0 of 1 stories ({})
 posting job started at once
 auto images: 0 of 1 stories ({})
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 4}, done={'R': 0, 'N': 2}, time left 23 min
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 2}, done={'R': 0, 'N': 2}, time left 23 min
 carousel for 0 of 2 stories, the rest reel only
 filed: 0 Manjeri + 2 Malappuram (targets 200 + 200)
-queue: 2 news waiting to be written
-write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":4} 
+queue: 0 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":2} 
 stories: 2
