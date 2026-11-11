@@ -1,36 +1,34 @@
-writing [N]: മതത്തിന്റെ അതിരുകൾ മാഞ്ഞു; മസ്ജിദിന്റെ വാതിൽ കടന്ന് പ്രേമലത 
+writing [N]: മമ്പാട്ട് പൊതുസ്ഥലങ്ങൾ കൈയടക്കി തെരുവുനായ്ക്കൾ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-writing [N]: അന്ത്യ കർമ്മങ്ങൾ നടത്താൻ ഇടമില്ല, പ്രേമലതയ്ക്കായി വാതിൽ തുറന
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 writing [N]: ഒന്നര മാസത്തിനുള്ളിൽ സ്വർണം 1.36 ലക്ഷം കടക്കും! വിലയിൽ 46% മ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: കാട്ടാനകളെ കാടുകയറ്റാൻ നാളെ സ്പെഷ്യൽ ഡ്രൈവ്; ഒരുക്കങ്ങൾ അന്ത
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
+ok gemini/gemini-3.8-flash (14s)
+attempt 1 gemini/gemini-3.8-flash: 2 problems
+  reel_script has 51 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): വേങ്ങര ('സ്വന്തം കെട്ടിടമായില്ല; വേങ്ങര സബ്ട്രഷറി ഇപ്പോഴും ചെമ്മാട്ടു'); ചെമ്മാട് ('സ്വന്തം കെട്ടിടമായില്ല; വേങ്ങര സബ്ട്രഷറി ഇപ്പോഴും ചെമ്മാട്ടു')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3.6-flash (22s)
+attempt 1 gemini/gemini-3.6-flash: 2 problems
+  numbers not found in the article: 7
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): എടവണ്ണ ('സുനിൽകുമാർ, നോർത്ത് എസിഎഫ് അനിഷാ സിദ്ദിഖ്, നിലമ്പൂർ റേഞ്ച് ഓ')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -44,27 +42,9 @@ dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-ok gemini/gemini-3.6-flash (21s)
-attempt 1 gemini/gemini-3.6-flash: 3 problems
-  reel_script has 52 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  source/outlet name or link appears: mangalam
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 30 ('ഇതറിഞ്ഞ പള്ളി ഭാരവാഹികൾ ഇതിനായുള്ള സൗകര്യം ഒരുക്കി നൽകാൻ തീര')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-ok gemini/gemini-3.8-flash (28s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok groq/qwen/qwen3.8-27b (0s)
-factcheck by groq/qwen/qwen3.8-27b: 3 problems
-  reel_script states the woman died 'yesterday' (ഇന്നലെ), but the article does not specify the day of death relative to the publication date, only stating she died at Thiruvananthapuram Medical College Hospital (implied recent, but 'yesterday' is a specific temporal claim not explicitly in the text, though often inferred, the stricter check is on the missing location of death in the script). More critically, the reel_script omits the specific location of death (Thiruvananthapuram Medical College Hospital) which is a key fact in the article.
-  reel_script omits the name of the deceased (Premlatha) and her husband (Sahadevan), referring to her only as 'housewife' (വീട്ടമ്മ), which is a significant omission of the 'who' in the news event.
-  reel_script omits the specific role of Suhara Mampad (State President of Women's League) and other specific individuals mentioned in the article, generalizing them to 'neighbors' and 'mosque officials', which misses the specific human interest angle highlighted in the article.
-attempt 1 gemini/gemini-3.8-flash: 3 problems
-  fact-check: reel_script states the woman died 'yesterday' (ഇന്നലെ), but the article does not specify the day of death relative to the publication date, only stating she died at Thiruvananthapuram Medical College Hospital (implied recent, but 'yesterday' is a specific temporal claim not explicitly in the text, though often inferred, the stricter check is on the missing location of death in the script). More critically, the reel_script omits the specific location of death (Thiruvananthapuram Medical College Hospital) which is a key fact in the article.
-  fact-check: reel_script omits the name of the deceased (Premlatha) and her husband (Sahadevan), referring to her only as 'housewife' (വീട്ടമ്മ), which is a significant omission of the 'who' in the news event.
-  fact-check: reel_script omits the specific role of Suhara Mampad (State President of Women's League) and other specific individuals mentioned in the article, generalizing them to 'neighbors' and 'mosque officials', which misses the specific human interest angle highlighted in the article.
+ok gemini/gemini-3.8-flash (25s)
+attempt 1 gemini/gemini-3.8-flash: 1 problems
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 36 ('ഒന്നര മാസത്തിനുള്ളിൽ സ്വർണം 1.36 ലക്ഷം കടക്കും!'); 93 ('രാജ്യാന്തര വിപണിയിൽ ഒരു ട്രോയ് ഔൺസ് സ്വർണത്തിന് 6,000 ഡോളർ വ')
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
@@ -72,75 +52,87 @@ fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgvcSjfrSbzxFCSzyABB7"}
-writing [N]: മമ്പാട്ട് പൊതുസ്ഥലങ്ങൾ കൈയടക്കി തെരുവുനായ്ക്കൾ
-free models unavailable: free models not efficient (3 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgvcSktXpgHe7eQSXNRnz"}
-writing [N]: കാട്ടാനകളെ കാടുകയറ്റാൻ നാളെ സ്പെഷ്യൽ ഡ്രൈവ്; ഒരുക്കങ്ങൾ അന്ത
-free models unavailable: free models not efficient (3 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgvcSobzkBtBZoo54BHKT"}
-writing [N]: വെറും ഒരു രൂപയ്ക്ക് മൊബൈൽ റിപ്പയറിങ്ങ് പഠിക്കാം; അഖിൽ എന്ന ച
-free models unavailable: free models not efficient (3 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgvcSqaJpWHKLG6CBvfkg"}
-writing [N]: അനിൽകുമാറിനെ ജീവിതത്തിലേക്ക് തിരിച്ചെത്തിക്കാൻ നാട്ടുകാർ; ചി
-free models unavailable: free models not efficient (3 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgvcSryejqipPM5jxekpo"}
-writing [N]: കുട്ടിക്കെതിരേ ലൈംഗികാതിക്രമം, തടഞ്ഞുനിർത്തി മുഖത്ത് സിഗരറ്റ
-free models unavailable: free models not efficient (3 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgvcSsjnXQvCaCRtSLGLN"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgvcSvuXeUkk5tjAhZj52"}
-proofread skipped: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgvd1ZMfgN6HrZFqnSyNH"}
+proofread skipped: free models not efficient (3 failures in a row): using Claude
 image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
 image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
 imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgvcTSxJQqZ9X6dswhLug"}
-proofread skipped: free models not efficient (5 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgvd1gVHDw7REpnbyZwkb"}
+proofread skipped: free models not efficient (4 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+ok gemini/gemini-3.6-flash (29s)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok groq/qwen/qwen3.8-27b (1s)
+factcheck by groq/qwen/qwen3.8-27b: 2 problems
+  reel_script claims the dog menace is a threat to 'travelers' (യാത്രക്കാർ), but the article specifically mentions 'morning walkers' (പ്രഭാതസവാരിക്കാർ) and people in general, not travelers.
+  caption includes a paragraph about the Vengara Sub-treasury operating from Chembatt, which is a separate news item (indicated by the second headline in the article) and not part of the main story about stray dogs in Mampad, constituting an irrelevant detail/invented context for this specific reel.
+attempt 2 gemini/gemini-3.6-flash: 2 problems
+  fact-check: reel_script claims the dog menace is a threat to 'travelers' (യാത്രക്കാർ), but the article specifically mentions 'morning walkers' (പ്രഭാതസവാരിക്കാർ) and people in general, not travelers.
+  fact-check: caption includes a paragraph about the Vengara Sub-treasury operating from Chembatt, which is a separate news item (indicated by the second headline in the article) and not part of the main story about stray dogs in Mampad, constituting an irrelevant detail/invented context for this specific reel.
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgvd1zUX3L4i5cCp6XH6u"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok groq/qwen/qwen3.8-27b (4s)
+proofread by groq/qwen/qwen3.8-27b: 1 problems
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
 imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150) 504 timeout
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-images NOT made for 'Pallikkara Khadeeja Masjid offers space ': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
-bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261111-1122","first":"MP-144"}
+images NOT made for 'Special Forest Department drive tomorrow': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
+bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261111-1129","first":"MP-146"}
 posting job started at once
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261111-1122","first":"MP-145"}
+writing [N]: കുട്ടിക്കെതിരേ ലൈംഗികാതിക്രമം, തടഞ്ഞുനിർത്തി മുഖത്ത് സിഗരറ്റ
+writing [N]: അനിൽകുമാറിനെ ജീവിതത്തിലേക്ക് തിരിച്ചെത്തിക്കാൻ നാട്ടുകാർ; ചി
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgvdSaCD3Hx6QrEW4HorW"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgvdSaZHfXXKks8Pz3rpb"}
+writing [N]: വെറും ഒരു രൂപയ്ക്ക് മൊബൈൽ റിപ്പയറിങ്ങ് പഠിക്കാം; അഖിൽ എന്ന ച
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgvdSc2r6hWDu7vY1QqcW"}
 write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 49 recent posts read from both pages
-write round: 9 news waiting in the queue (written in priority order)
-candidate filter: collected=9
-to write: 0 Manjeri + 9 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 9 Malappuram; time left 29 min
+write round: 6 news waiting in the queue (written in priority order)
+candidate filter: collected=6
+to write: 0 Manjeri + 6 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 6 Malappuram; time left 29 min
 try (N) manual=False: ഒന്നര മാസത്തിനുള്ളിൽ സ്വർണം 1.36 ലക്ഷം കടക്കും! വിലയിൽ 46% മ
-try (N) manual=False: പുഴയിൽ വീണ്ടും അറവു മാലിന്യം തള്ളി | Deepika | The Largest R
-try (N) manual=False: മതത്തിന്റെ അതിരുകൾ മാഞ്ഞു; മസ്ജിദിന്റെ വാതിൽ കടന്ന് പ്രേമലത 
-skip (N) similar to a filed story: പുഴയിൽ വീണ്ടും അറവു മാലിന്യം തള്ളി | Deepika | The
-try (N) manual=False: അന്ത്യ കർമ്മങ്ങൾ നടത്താൻ ഇടമില്ല, പ്രേമലതയ്ക്കായി വാതിൽ തുറന
-NOT filed (N) ഒന്നര മാസത്തിനുള്ളിൽ സ്വർണം 1.36 ലക്ഷം കടക്കും! വി: all free models failed: no usable answer from the models
 try (N) manual=False: മമ്പാട്ട് പൊതുസ്ഥലങ്ങൾ കൈയടക്കി തെരുവുനായ്ക്കൾ
-NOT filed (N) മമ്പാട്ട് പൊതുസ്ഥലങ്ങൾ കൈയടക്കി തെരുവുനായ്ക്കൾ: all free models failed: no usable answer from the models
 try (N) manual=False: കാട്ടാനകളെ കാടുകയറ്റാൻ നാളെ സ്പെഷ്യൽ ഡ്രൈവ്; ഒരുക്കങ്ങൾ അന്ത
-NOT filed (N) കാട്ടാനകളെ കാടുകയറ്റാൻ നാളെ സ്പെഷ്യൽ ഡ്രൈവ്; ഒരുക്: all free models failed: no usable answer from the models
-try (N) manual=False: വെറും ഒരു രൂപയ്ക്ക് മൊബൈൽ റിപ്പയറിങ്ങ് പഠിക്കാം; അഖിൽ എന്ന ച
-NOT filed (N) വെറും ഒരു രൂപയ്ക്ക് മൊബൈൽ റിപ്പയറിങ്ങ് പഠിക്കാം; അ: all free models failed: no usable answer from the models
-try (N) manual=False: അനിൽകുമാറിനെ ജീവിതത്തിലേക്ക് തിരിച്ചെത്തിക്കാൻ നാട്ടുകാർ; ചി
-NOT filed (N) അനിൽകുമാറിനെ ജീവിതത്തിലേക്ക് തിരിച്ചെത്തിക്കാൻ നാട: all free models failed: no usable answer from the models
-try (N) manual=False: കുട്ടിക്കെതിരേ ലൈംഗികാതിക്രമം, തടഞ്ഞുനിർത്തി മുഖത്ത് സിഗരറ്റ
-NOT filed (N) കുട്ടിക്കെതിരേ ലൈംഗികാതിക്രമം, തടഞ്ഞുനിർത്തി മുഖത്: all free models failed: no usable answer from the models
-auto images failed for 'Pallikkara Khadeeja Masjid offers space ': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email
+auto images failed for 'Special Forest Department drive tomorrow': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email
 auto images: 0 of 1 stories ({})
 posting job started at once
-auto images: 0 of 1 stories ({})
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 9}, done={'R': 0, 'N': 2}, time left 22 min
-carousel for 0 of 2 stories, the rest reel only
-filed: 0 Manjeri + 2 Malappuram (targets 200 + 200)
-queue: 6 news waiting to be written
+try (N) manual=False: വെറും ഒരു രൂപയ്ക്ക് മൊബൈൽ റിപ്പയറിങ്ങ് പഠിക്കാം; അഖിൽ എന്ന ച
+NOT filed (N) മമ്പാട്ട് പൊതുസ്ഥലങ്ങൾ കൈയടക്കി തെരുവുനായ്ക്കൾ: duplicate after write
+NOT filed (N) ഒന്നര മാസത്തിനുള്ളിൽ സ്വർണം 1.36 ലക്ഷം കടക്കും! വി: stale: price news from 10 Nov, not today
+try (N) manual=False: അനിൽകുമാറിനെ ജീവിതത്തിലേക്ക് തിരിച്ചെത്തിക്കാൻ നാട്ടുകാർ; ചി
+try (N) manual=False: കുട്ടിക്കെതിരേ ലൈംഗികാതിക്രമം, തടഞ്ഞുനിർത്തി മുഖത്ത് സിഗരറ്റ
+NOT filed (N) കുട്ടിക്കെതിരേ ലൈംഗികാതിക്രമം, തടഞ്ഞുനിർത്തി മുഖത്: all free models failed: no usable answer from the models
+NOT filed (N) അനിൽകുമാറിനെ ജീവിതത്തിലേക്ക് തിരിച്ചെത്തിക്കാൻ നാട: all free models failed: no usable answer from the models
+NOT filed (N) വെറും ഒരു രൂപയ്ക്ക് മൊബൈൽ റിപ്പയറിങ്ങ് പഠിക്കാം; അ: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 6}, done={'R': 0, 'N': 1}, time left 23 min
+carousel for 0 of 1 stories, the rest reel only
+filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)
+queue: 5 news waiting to be written
 write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":8} 
-stories: 2
+All News sheet: {"ok":true,"added":0,"updated":6} 
+stories: 1
