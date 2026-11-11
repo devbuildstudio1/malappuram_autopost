@@ -9,24 +9,35 @@
   "try (N) manual=False: 11 വയസ്സുകാരനെ പീഡിപ്പിച്ച  യൂത്ത് ലീഗ് നേതാവ് അറസ്റ്റിൽ",
   "try (N) manual=False: എട്ട് കോടിയുടെ ടെൻഡർ റദ്ദാക്കി കെഎൽഡിസി",
   "NOT filed (N) എട്ട് കോടിയുടെ ടെൻഡർ റദ്ദാക്കി കെഎൽഡിസി: all free models failed: no usable answer from the models",
-  "NOT filed (N) 11 വയസ്സുകാരനെ പീഡിപ്പിച്ച  യൂത്ത് ലീഗ് നേതാവ് അറസ: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 2}, done={'R': 0, 'N': 0}, time left 29 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
-  "queue: 2 news waiting to be written",
+  "auto images failed for 'Youth League leader arrested in Mankada ': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email",
+  "auto images: 0 of 1 stories ({})",
+  "posting job started at once",
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 2}, done={'R': 0, 'N': 1}, time left 23 min",
+  "carousel for 0 of 1 stories, the rest reel only",
+  "filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)",
+  "queue: 1 news waiting to be written",
+  "write_stories.yml started",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":2}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
+  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.7-flash",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "ok gemini/gemini-3.6-flash (18s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
@@ -37,12 +48,70 @@
   "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
   "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "ok groq/openai/gpt-oss-120b (4s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.7-flash",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6"
+  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
+  "switching away from mistral/mistral-small-latest for 10 min"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "11 വയസ്സുകാരനെ പീഡിപ്പിച്ച കേസിൽ യൂത്ത് ലീഗ് നേതാവ് അറസ്റ്റിൽ",
+   "english_headline": "Youth League leader arrested in Mankada for sexually assaulting 11-year-old boy",
+   "category": "Crime & Safety",
+   "location": "Makkaraparamba, Mankada, Malappuram district",
+   "importance": "High",
+   "scope": "local",
+   "post_to": "Malappuram 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "അറസ്റ്റ്",
+    "loc": "മക്കരപ്പറമ്പ്, മങ്കട",
+    "hl1": "11 വയസ്സുകാരനെ പീഡിപ്പിച്ചു",
+    "hl2": "യൂത്ത് ലീഗ് നേതാവ് അറസ്റ്റിൽ",
+    "slides": [
+     {
+      "title": "എന്ത്, എവിടെ?",
+      "lines": [
+       "11 വയസ്സുകാരനെ പീഡിപ്പിച്ച കേസ്",
+       "യൂത്ത് ലീഗ് ഭാരവാഹി അറസ്റ്റിൽ",
+       "മങ്കട പോലീസാണ് അറസ്റ്റ് ചെയ്തത്"
+      ]
+     },
+     {
+      "title": "സംഭവം ഇങ്ങനെ",
+      "lines": [
+       "<b>ഒക്ടോബർ 16</b>നാണ് സംഭവം",
+       "ഇരുചക്ര വാഹനത്തിൽ കരിമ്പനക്കുണ്ട് ക്വാറിയിലെത്തിച്ചു",
+       "കുട്ടിയെ കൊല്ലുമെന്ന് ഭീഷണിപ്പെടുത്തി"
+      ]
+     },
+     {
+      "title": "നിയമനടപടി",
+      "lines": [
+       "കുട്ടി രക്ഷിതാക്കളെ വിവരമറിയിച്ചു",
+       "മങ്കട പോലീസിൽ പരാതി നൽകി",
+       "പ്രതിയെ പെരിന്തൽമണ്ണ കോടതി റിമാൻഡ് ചെയ്തു"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "മങ്കടയിൽ 11 വയസ്സുകാരനെ പീഡിപ്പിച്ച കേസിൽ യൂത്ത് ലീഗ് നേതാവ് അറസ്റ്റിലായി. മക്കരപ്പറമ്പ് പഞ്ചായത്ത് യൂത്ത് ലീഗ് വൈസ് പ്രസിഡന്റായ 34 വയസ്സുള്ളയാളെയാണ് മങ്കട പോലീസ് അറസ്റ്റ് ചെയ്തത്. ഒക്ടോബർ 16ന് കുട്ടിയെ ഇരുചക്ര വാഹനത്തിൽ കരിമ്പനക്കുണ്ട് ക്വാറിയിൽ എത്തിച്ചാണ് അതിക്രമം നടത്തിയത്. രക്ഷപ്പെടാൻ ശ്രമിച്ചപ്പോൾ കൊല്ലുമെന്ന് ഭീഷണിപ്പെടുത്തിയിരുന്നു. കുട്ടി വീട്ടിൽ വിവരമറിച്ചതിനെ തുടർന്ന് രക്ഷിതാക്കൾ മങ്കട പോലീസിൽ പരാതി നൽകുകയായിരുന്നു. അറസ്റ്റ് ചെയ്ത പ്രതിയെ പെരിന്തൽമണ്ണ കോടതി റിമാൻഡ് ചെയ്തു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🚨 11 വയസ്സുകാരനെ പീഡിപ്പിച്ച കേസിൽ മക്കരപ്പറമ്പിൽ യൂത്ത് ലീഗ് നേതാവ് അറസ്റ്റിൽ\n\n📰 പൂർണ വിവരം:\nമങ്കട മക്കരപ്പറമ്പിൽ പതിനൊന്ന് വയസ്സുകാരനെ ലൈംഗിക അതിക്രമത്തിന് ഇരയാക്കിയ കേസിൽ 34 വയസ്സുള്ള യൂത്ത് ലീഗ് നേതാവിനെ മങ്കട പോലീസ് അറസ്റ്റ് ചെയ്തു. മക്കരപ്പറമ്പ് പഞ്ചായത്ത് യൂത്ത് ലീഗ് വൈസ് പ്രസിഡന്റാണ് അറസ്റ്റിലായത്. ഒക്ടോബർ 16-നാണ് ഇരുചക്ര വാഹനത്തിൽ കുട്ടിയെ കരിമ്പനക്കുണ്ട് ക്വാറിയിലെത്തിച്ച് അതിക്രമം നടത്തിയത്. രക്ഷപ്പെടാൻ ശ്രമിച്ചപ്പോൾ കുട്ടിയെ കൊല്ലുമെന്ന് ഭീഷണിപ്പെടുത്തുകയും ചെയ്തു. രക്ഷിതാക്കളോട് കുട്ടി വിവരം പറഞ്ഞതിന്റെ അടിസ്ഥാനത്തിൽ മങ്കട പോലീസിൽ പരാതി നൽകുകയായിരുന്നു. ഇൻസ്പെക്ടറുടെ നേതൃത്വത്തിൽ അറസ്റ്റ് ചെയ്ത പ്രതിയെ പെരിന്തൽമണ്ണ കോടതി റിമാൻഡ് ചെയ്തു.\n📍 സ്ഥലം: മക്കരപ്പറമ്പ്, മങ്കട\n🗓️ തീയതി: ഒക്ടോബർ 16 (സംഭവം നടന്നത്)\n👮 നടപടി: മങ്കട പോലീസ് അറസ്റ്റ് ചെയ്തു, കോടതി റിമാൻഡ് ചെയ്തു\n\nYouth League leader arrested in Mankada for child abuse case | Malappuram news\n📍 മക്കരപ്പറമ്പ്, മലപ്പുറം | 11 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Mankada #Crime #MalappuramNews",
+   "prompts": "Exterior view of Mankada police station building in Malappuram district in dim evening light, a Kerala police jeep parked in the compound, trees and greenery in the background. Same dark moody tone across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA quiet secluded path leading near an abandoned stone quarry surrounded by wild shrubs and rocks near Karimbanakundu, cloudy overcast sky. Same dark moody tone across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nDetail view of the sign board of Perinthamanna Judicial First Class Magistrate Court complex, subdued daylight. Same dark moody tone across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nWide view of Perinthalmanna court complex premises from a distance, empty courtyard with a few parked vehicles under tall trees. Same dark moody tone across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.deshabhimani.com/district-news/-73594/leagur-1-fy0",
+   "published": "2026-11-11T01:19:59+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: fact-check: Reel script omits the accused's name (Ismaili) which is a key fact in the article; fact-check: Reel script contains unclear/grammatically odd Malayalam sentence \"കുട്ടി വീട്ടിൽ വിവരമറിച്ചതിനെ തുടർന്ന്\"; fact-check: Slide 3 line \"കുട്ടി രക്ഷിതാക്കളെ വിവരമറിയിച്ചു\" is unclear Malayalam phrasing",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 3 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 3.0,
+   "auto_images": true
+  }
+ ]
 }
