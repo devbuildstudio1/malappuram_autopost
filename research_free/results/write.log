@@ -1,64 +1,40 @@
-writing [N]: ശിശുദിന സംഗമം; കുട്ടികൾ സാരഥികളാകും
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
 writing [N]: യുവാക്കൾക്ക് വേറിട്ട അനുഭവമായി കോഫി വിത്ത് ജെൻസി എന്റർപ്രെണ
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flashfail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgwaAqAL6TkPKY4VZfuqu"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgwaAx4pCRrtaVYYYog6q"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgwdJbU8sQkgBHRBkYrSc"}
 earlier stories still waiting for images: []
 instagram check: 51 recent posts read from both pages
 write round: 2 news waiting in the queue (written in priority order)
-candidate filter: collected=2
-to write: 0 Manjeri + 2 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 2 Malappuram; time left 29 min
+candidate filter: collected=1, old=1
+to write: 0 Manjeri + 1 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 1 Malappuram; time left 29 min
 try (N) manual=False: യുവാക്കൾക്ക് വേറിട്ട അനുഭവമായി കോഫി വിത്ത് ജെൻസി എന്റർപ്രെണ
-try (N) manual=False: ശിശുദിന സംഗമം; കുട്ടികൾ സാരഥികളാകും
 NOT filed (N) യുവാക്കൾക്ക് വേറിട്ട അനുഭവമായി കോഫി വിത്ത് ജെൻസി : all free models failed: no usable answer from the models
-NOT filed (N) ശിശുദിന സംഗമം; കുട്ടികൾ സാരഥികളാകും: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 2}, done={'R': 0, 'N': 0}, time left 29 min
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 1}, done={'R': 0, 'N': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
-queue: 2 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":2} 
+queue: 1 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":1} 
 stories: 0
