@@ -41,6 +41,27 @@ for page in ("manjeri", "malappuram"):
             r["account_reach"] = "ERR " + str(e)[:160]
     except Exception as e:
         r["error"] = str(e)[:300]
+# public stats of other pages to compare with (Instagram business discovery; works for public business/creator accounts)
+OTHERS = [u for u in os.environ.get("COMPARE", "").split(",") if u.strip()]
+if OTHERS:
+    try:
+        tok = post.bridge_get("token", page="malappuram")["token"]
+        uid, _ = post.ig_account(tok)
+        for u in OTHERS:
+            u = u.strip().lstrip("@")
+            try:
+                f = ("business_discovery.username(%s){username,name,biography,website,followers_count,follows_count,media_count,"
+                     "media.limit(60){caption,timestamp,media_type,media_product_type,like_count,comments_count,view_count,permalink}}") % u
+                d = post.ig("GET", uid, tok, fields=f).get("business_discovery", {})
+                med = (d.pop("media", {}) or {}).get("data", [])
+                d["recent"] = [{"t": i.get("timestamp"), "type": i.get("media_product_type") or i.get("media_type"), "likes": i.get("like_count"),
+                                "comments": i.get("comments_count"), "views": i.get("view_count"), "link": i.get("permalink"),
+                                "caption": (i.get("caption") or "")[:300].replace("\n", " ")} for i in med]
+                out["compare_" + u] = d
+            except Exception as e:
+                out["compare_" + u] = "ERR " + str(e)[:300]
+    except Exception as e:
+        out["compare_error"] = str(e)[:300]
 os.makedirs(os.path.join(os.path.dirname(__file__), "probe"), exist_ok=True)
 json.dump(out, open(os.path.join(os.path.dirname(__file__), "probe", "ig_probe.json"), "w"), ensure_ascii=False, indent=1)
 print(json.dumps(out, ensure_ascii=False)[:1500])

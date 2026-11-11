@@ -1,6 +1,8 @@
 name: ig-probe
 on:
   workflow_dispatch:
+    inputs:
+      compare: {description: "other public pages to compare, comma separated", required: false, default: ""}
 permissions:
   contents: write
 env:
@@ -16,6 +18,8 @@ jobs:
         with: {python-version: "3.11"}
       - run: pip install requests pillow
       - run: python poster/ig_probe.py || true
+        env:
+          COMPARE: ${{ inputs.compare }}
       - name: Commit result
         run: |
           git config user.name "news360-bot"; git config user.email "bot@users.noreply.github.com"
