@@ -1,7 +1,7 @@
 {
  "log": [
   "earlier stories still waiting for images: []",
-  "instagram check: 44 recent posts read from both pages",
+  "instagram check: 45 recent posts read from both pages",
   "write round: 4 news waiting in the queue (written in priority order)",
   "candidate filter: collected=4",
   "to write: 0 Manjeri + 4 other district candidates (max 200 + 200 stories)",
@@ -9,15 +9,18 @@
   "try (N) manual=False: മേഖലാ വാഹന പ്രചാരണ ജാഥയ്ക്ക് ആവേശോജ്വല തുടക്കം",
   "try (N) manual=False: വേങ്ങരയിൽ 3500 പേർ  കുത്തിവയ്പ്പെടുക്കാത്തവർ",
   "try (N) manual=False: എട്ട് കോടിയുടെ ടെൻഡർ റദ്ദാക്കി കെഎൽഡിസി",
-  "NOT filed (N) എട്ട് കോടിയുടെ ടെൻഡർ റദ്ദാക്കി കെഎൽഡിസി: all free models failed: no usable answer from the models",
+  "auto images failed for 'Over 3,500 children in Vengara missing f': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email",
+  "auto images: 0 of 1 stories ({})",
+  "posting job started at once",
   "try (N) manual=False: 11 വയസ്സുകാരനെ പീഡിപ്പിച്ച  യൂത്ത് ലീഗ് നേതാവ് അറസ്റ്റിൽ",
+  "auto images: 0 of 1 stories ({})",
+  "NOT filed (N) എട്ട് കോടിയുടെ ടെൻഡർ റദ്ദാക്കി കെഎൽഡിസി: all free models failed: no usable answer from the models",
   "NOT filed (N) 11 വയസ്സുകാരനെ പീഡിപ്പിച്ച  യൂത്ത് ലീഗ് നേതാവ് അറസ: all free models failed: no usable answer from the models",
-  "NOT filed (N) മേഖലാ വാഹന പ്രചാരണ ജാഥയ്ക്ക് ആവേശോജ്വല തുടക്കം: duplicate after write",
-  "NOT filed (N) വേങ്ങരയിൽ 3500 പേർ  കുത്തിവയ്പ്പെടുക്കാത്തവർ: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 4}, done={'R': 0, 'N': 0}, time left 28 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
-  "queue: 4 news waiting to be written",
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 4}, done={'R': 0, 'N': 2}, time left 23 min",
+  "carousel for 0 of 2 stories, the rest reel only",
+  "filed: 0 Manjeri + 2 Malappuram (targets 200 + 200)",
+  "queue: 2 news waiting to be written",
+  "write_stories.yml started",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":4}"
  ],
  "llm": [
@@ -25,7 +28,7 @@
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
@@ -33,8 +36,12 @@
   "dead for this round: gemini/gemini-3.8-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.7-flash",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.8-flash",
+  "ok gemini/gemini-3.6-flash (21s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
@@ -46,26 +53,139 @@
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
-  "ok gemini/gemini-3.6-flash (21s)",
+  "ok gemini/gemini-3.6-flash (24s)",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
-  "ok groq/qwen/qwen3.8-27b (0s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "dead for this round: groq/openai/gpt-oss-120b",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok groq/qwen/qwen3.8-27b (3s)",
+  "ok groq/openai/gpt-oss-120b (6s)",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
-  "switching away from groq/qwen/qwen3.8-27b for 10 min",
-  "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.8-flash"
+  "ok groq/openai/gpt-oss-120b (2s)",
+  "fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.7-flash",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "dead for this round: groq/openai/gpt-oss-120b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "വേങ്ങരയിൽ 3,500 കുട്ടികൾ പൂർണമായി പ്രതിരോധ കുത്തിവയ്പ്പെടുത്തിട്ടില്ലെന്ന് കണക്ക്",
+   "english_headline": "Over 3,500 children in Vengara missing full vaccination, reveals Health Department",
+   "category": "Health",
+   "location": "Vengara, Malappuram district",
+   "importance": "High",
+   "scope": "local",
+   "post_to": "Malappuram 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "ആരോഗ്യം",
+    "loc": "വേങ്ങര",
+    "hl1": "വേങ്ങരയിൽ 3,500 കുട്ടികൾക്ക്",
+    "hl2": "കുത്തിവയ്പ് പൂർണ്ണമല്ല",
+    "slides": [
+     {
+      "title": "ആരോഗ്യ കണക്ക്",
+      "lines": [
+       "വേങ്ങരയിൽ <b>3,500</b> കുട്ടികൾ കുത്തിവയ്പ്പെടുത്തിട്ടില്ല",
+       "<b>250</b> കുട്ടികൾ ഒരു കുത്തിവയ്പ്പും എടുത്തിട്ടില്ല",
+       "ആരോഗ്യ വകുപ്പാണ് കണക്ക് പുറത്തുവിട്ടത്"
+      ]
+     },
+     {
+      "title": "പ്രധാന കാരണങ്ങൾ",
+      "lines": [
+       "സോഷ്യൽ മീഡിയയിലെ വ്യാജ പ്രചാരണം",
+       "വ്യാജ ചികിത്സകരുടെ സ്വാധീനം, തെറ്റിദ്ധാരണകൾ",
+       "രണ്ടാം ഡോസ് എടുക്കുന്നതിലെ വീഴ്ച"
+      ]
+     },
+     {
+      "title": "അടിയന്തര നടപടി",
+      "lines": [
+       "<b>5</b> വയസ്സിൽ താഴെയുള്ള കുട്ടികൾക്കാണ് കുത്തിവയ്പ്",
+       "ജില്ലാ ശരാശരിയേക്കാൾ താഴെയാണ് വേങ്ങരയിലെ നിരക്ക്",
+       "വരുംദിവസങ്ങളിൽ തീവ്രശ്രമത്തിന് പദ്ധതി"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "വേങ്ങരയിൽ 3,500 കുട്ടികൾ പൂർണമായി പ്രതിരോധ കുത്തിവയ്പ്പെടുത്തിട്ടില്ല. ആരോഗ്യ വകുപ്പ് പുറത്തുവിട്ട കണക്കുകളിലാണ് ഈ വിവരമുള്ളത്. ഇതിൽ 250 കുട്ടികൾ ഒരു കുത്തിവയ്പ്പ് പോലും എടുക്കാത്തവരാണ്. സോഷ്യൽ മീഡിയയിലെ വ്യാജ പ്രചാരണങ്ങളും വ്യാജ ചികിത്സകരുടെ സ്വാധീനവുമാണ് നിരക്ക് കുറയാൻ കാരണം. രണ്ടാം ഡോസ് എടുക്കുന്നതിൽ വരുന്ന വീഴ്ചയും ഇതിന് കാരണമാകുന്നുണ്ട്. 5 വയസ്സിൽ താഴെയുള്ള മുഴുവൻ കുട്ടികൾക്കും കുത്തിവയ്പ്പ് പൂർത്തിയാക്കാൻ തീവ്രശ്രമത്തിലാണ് ആരോഗ്യ വകുപ്പ്. ചെറിയ കുട്ടികളുള്ള വീട്ടുകാർക്ക് ഇത് ഷെയർ ചെയ്യണേ. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "💉 വേങ്ങരയിൽ 3,500 കുട്ടികൾ പൂർണമായി പ്രതിരോധ കുത്തിവയ്പ്പെടുത്തിട്ടില്ലെന്ന് ആരോഗ്യ വകുപ്പ്\n\n📰 പൂർണ വിവരം:\nവേങ്ങര സാമൂഹികാരോഗ്യ കേന്ദ്രത്തിനുകീഴിലെ ഏഴ് കുടുംബാരോഗ്യകേന്ദ്രങ്ങൾക്കു കീഴിൽ 3,500 കുട്ടികൾ പൂർണ പ്രതിരോധ കുത്തിവയ്പ്പെടുത്തിട്ടില്ലെന്ന് ആരോഗ്യ വകുപ്പിന്റെ കണക്കുകൾ വ്യക്തമാക്കുന്നു. ഇതിൽ 250 കുട്ടികൾ ഒരു കുത്തിവയ്പ്പുപോലും എടുക്കാത്തവരാണ്. നിലവിൽ സംസ്ഥാനത്തെ ഏറ്റവും കുറഞ്ഞ പ്രതിരോധകുത്തിവയ്പ് നിരക്കുള്ളത് മലപ്പുറം ജില്ലയിലാണ്. സോഷ്യൽ മീഡിയയിലെ വ്യാജപ്രചാരണം, വ്യാജ ചികിത്സകരുടെ സ്വാധീനം, വിശ്വാസപരമായ തെറ്റിധാരണകൾ, രണ്ടാം ഡോസ് എടുക്കുന്നതിലെ വീഴ്ച എന്നിവയാണ് നിരക്ക് താഴാൻ കാരണം. വരുംദിവസങ്ങളിൽ അഞ്ചുവയസ്സിൽ താഴെയുള്ള മുഴുവൻ കുട്ടികൾക്കും കുത്തിവയ്പ് പൂർത്തിയാക്കാൻ തീവ്രശ്രമം നടത്തും.\n📍 സ്ഥലം: വേങ്ങര, മലപ്പുറം\nℹ️ ശ്രദ്ധിക്കുക: 5 വയസ്സിൽ താഴെയുള്ള കുട്ടികൾക്ക് കുത്തിവയ്പ് പൂർത്തിയാക്കുക\nകുട്ടികളുള്ള കുടുംബങ്ങളിലേക്ക് Share ചെയ്യൂ\n\nOver 3500 children missing vaccination in Vengara | Malappuram news\n📍 വേങ്ങര, മലപ്പുറം | 11 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Vengara #Health #MalappuramNews",
+   "prompts": "Wide exterior shot of Vengara Family Health Centre building in Malappuram district, bright daytime light, neat paved entrance, official health department signage, visitors walking outside seen from behind. Bright natural lighting mood. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA female healthcare worker in Kerala holding a official medical record register walking along a village residential road near Vengara, coconut trees and green surroundings, daytime light. Bright natural lighting mood. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose view of a doctor inside a government health clinic holding a vaccine vial and syringe in hands, sunlight coming through a glass window. Bright natural lighting mood. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA mother sitting on a bench at a primary health centre holding a young toddler on her lap, seen from behind, clean clinic interior in daytime. Bright natural lighting mood. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.deshabhimani.com/district-news/-73594/aaa121-fy0",
+   "published": "2026-11-11T01:19:59+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: numbers not found in the article: 500",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 3.0,
+   "auto_images": true
+  },
+  {
+   "malayalam_headline": "ജീവനക്കാരുടെ സെക്രട്ടറിയറ്റ് വളയൽ സമരം: മേഖലാ വാഹന പ്രചാരണ ജാഥയ്ക്ക് തുടക്കം",
+   "english_headline": "Regional vehicle campaign rally for Nov 21 Secretariat siege starts in Malappuram",
+   "category": "Government & Services",
+   "location": "Chandakkunnu, Perinthalmanna, Manjeri, Malappuram, University and Tirur, Malappuram district",
+   "importance": "Medium",
+   "scope": "district",
+   "post_to": "Malappuram 360 (collab: Manjeri 360)",
+   "slides_spec": {
+    "v": 3,
+    "cat": "വാഹനജാഥ",
+    "loc": "മലപ്പുറം ജില്ല",
+    "hl1": "ജീവനക്കാരുടെ വാഹന പ്രചാരണ ജാഥ തുടങ്ങി",
+    "hl2": "നവംബർ 21ന് സെക്രട്ടറിയറ്റ്",
+    "slides": [
+     {
+      "title": "എന്താണ് സംഭവം?",
+      "lines": [
+       "നവംബർ <b>21</b>ലെ സെക്രട്ടറിയറ്റ് വളയൽ സമരം",
+       "<b>25,000</b> ജീവനക്കാർ പങ്കെടുക്കും",
+       "മലപ്പുറം-തൃശൂർ മേഖലാ വാഹനജാഥയ്ക്ക് തുടക്കം"
+      ]
+     },
+     {
+      "title": "ഉദ്ഘാടനം",
+      "lines": [
+       "ചന്തക്കുന്നിൽ പി കെ സൈനബ ഉദ്ഘാടനം ചെയ്തു",
+       "ജാഥാ ക്യാപ്റ്റൻ ടി കെ എ ഷാഫിക്ക് പതാക കൈമാറി",
+       "വിവിധ സംഘടനാ നേതാക്കൾ സംസാരിച്ചു"
+      ]
+     },
+     {
+      "title": "ചൊവ്വാഴ്ച പര്യടനം",
+      "lines": [
+       "രാവിലെ <b>9.30</b>ന് പെരിന്തൽമണ്ണയിൽ തുടങ്ങി <b>11</b>ന് മഞ്ചേരിയിൽ",
+       "<b>12.30</b>ന് മലപ്പുറം സിവിൽ സ്റ്റേഷൻ, <b>3</b>ന് യൂണിവേഴ്സിറ്റി",
+       "വൈകിട്ട് <b>4</b>ന് തിരൂരിൽ സമാപിക്കും"
+      ]
+     },
+     {
+      "title": "പ്രധാന ആവശ്യങ്ങൾ",
+      "lines": [
+       "ശമ്പളപരിഷ്കരണവും ഇടക്കാലാശ്വാസവും അനുവദിക്കുക",
+       "പങ്കാളിത്ത പെൻഷൻ പിൻവലിക്കുക, ക്ഷാമബത്ത കുടിശ്ശിക തീർക്കുക",
+       "മെഡിസെപ് അപാകം പരിഹരിക്കുക"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "നവംബർ 21ലെ സെക്രട്ടറിയറ്റ് വളയൽ സമരത്തിന്റെ പ്രചാരണ ജാഥ തുടങ്ങി. ചന്തക്കുന്നിൽ മഹിളാ അസോസിയേഷൻ നേതാവ് പി കെ സൈനബ ജാഥ ഉദ്ഘാടനം ചെയ്തു. കാൽലക്ഷം ജീവനക്കാരാണ് നവംബർ 21ന് സെക്രട്ടറിയറ്റ് വളയുന്നത്. വാഹനജാഥ ചൊവ്വാഴ്ച രാവിലെ 9.30ന് പെരിന്തൽമണ്ണയിൽനിന്ന് പര്യടനം തുടങ്ങും. 11ന് മഞ്ചേരിയിലും 12.30ന് മലപ്പുറം സിവിൽ സ്റ്റേഷനിലും 3 മണിക്ക് യൂണിവേഴ്സിറ്റിയിലും സ്വീകരണം നൽകും. വൈകിട്ട് 4 മണിക്ക് തിരൂരിൽ ജാഥ സമാപിക്കും. ശമ്പളപരിഷ്കരണം നടപ്പാക്കുക, പങ്കാളിത്ത പെൻഷൻ പിൻവലിക്കുക എന്നിവയാണ് പ്രധാന ആവശ്യങ്ങൾ. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🚌 ജീവനക്കാരുടെ സെക്രട്ടറിയറ്റ് വളയൽ സമരം: മലപ്പുറത്ത് മേഖലാ വാഹന പ്രചാരണ ജാഥ തുടങ്ങി\n\n📰 പൂർണ വിവരം:\nനവംബർ 21ന് സംഘടിപ്പിക്കുന്ന കാൽലക്ഷം ജീവനക്കാരുടെ സെക്രട്ടറിയറ്റ് വളയൽ സമരത്തിന്റെ പ്രചാരണാർഥമുള്ള മലപ്പുറം-തൃശൂർ മേഖലാ വാഹനജാഥ പര്യടനം തുടങ്ങി. ചന്തക്കുന്നിൽ ജനാധിപത്യ മഹിളാ അസോസിയേഷൻ അഖിലേന്ത്യാ വൈസ് പ്രസിഡന്റ് പി കെ സൈനബ, ജാഥാ ക്യാപ്റ്റൻ ടി കെ എ ഷാഫിക്ക് പതാക കൈമാറി ഉദ്ഘാടനം ചെയ്തു. ജാഥ ചൊവ്വാഴ്ച രാവിലെ 9.30ന് പെരിന്തൽമണ്ണയിൽനിന്ന് പര്യടനം തുടരും. 11ന് മഞ്ചേരിയിലും 12.30ന് മലപ്പുറം സിവിൽ സ്റ്റേഷനുമുന്നിലും പകൽ 3ന് യൂണിവേഴ്സിറ്റിയിലും സ്വീകരണത്തിനുശേഷം വൈകിട്ട് 4ന് തിരൂരിൽ സമാപിക്കും. ശമ്പളപരിഷ്കരണം ഉടൻ നടപ്പാക്കുക, ഇടക്കാലാശ്വാസം അനുവദിക്കുക, പങ്കാളിത്ത പെൻഷൻ പദ്ധതി പിൻവലിക്കുക, ക്ഷാമബത്ത കുടിശ്ശിക അനുവദിക്കുക, അന്യായമായ സ്ഥലംമാറ്റങ്ങൾ റദ്ദാക്കുക, മെഡിസെപ് അപാകം പരിഹരിക്കുക തുടങ്ങിയ ആവശ്യങ്ങൾ ഉന്നയിച്ചാണ് സമരം.\n📍 സ്ഥലം: ചന്തക്കുന്ന്, പെരിന്തൽമണ്ണ, മഞ്ചേരി, മലപ്പുറം, തിരൂർ\n🗓️ തീയതി: 11 നവംബർ 2026\nℹ️ ശ്രദ്ധിക്കുക: നവംബർ 21നാണ് കാൽലക്ഷം ജീവനക്കാരുടെ സെക്രട്ടറിയറ്റ് വളയൽ സമരം\nആവശ്യമുള്ളവർക്ക് Share ചെയ്യൂ\n\nRegional vehicle campaign rally for Nov 21 Secretariat siege starts in Malappuram | Malappuram news\n📍 മലപ്പുറം ജില്ല | 11 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Perinthalmanna #GovernmentEmployees #MalappuramNews",
+   "prompts": "The rally captain TK E Shafi receives the protest flag from PK Sainab as the procession begins; the handover occurs on the main town road of Perinthalmanna lined with coconut palms and laterite walls. Several officials in khaki‑styled shirts and mundu stand behind them, while a line of cars and a red‑and‑yellow KSRTC bus line up ready to move. Morning light at 9:30 am casts soft shadows, sky overcast but clear; shot taken from a low angle, 35 mm lens, capturing the flag handover and the waiting vehicles. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide establishing view shows the rally moving along a narrow tar road in Manjeri, flanked by rubber trees and a red‑tiled house wall. The procession of several vehicles – a mix of private buses, autorickshaws and cars – snakes forward, the protest flag fluttering atop a pole on the lead vehicle. Behind, a crowd of participants in sarees and mundu watches from the roadside. Mid‑day sun brightens the scene, slight haze from recent rain; camera positioned at eye level, 35 mm, framing the road, trees and moving convoy. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close‑up focuses on the protest flag itself, its bright orange fabric rippling in the breeze, attached to a wooden pole propped against a concrete curb. The pole is marked with a simple metal ring; a few hands in khaki uniforms grip the rope, but faces are turned away. The background shows a blurred stretch of the University campus’s green lawn and a low wall of laterite bricks. Late afternoon light at 3:00 pm casts a warm glow; shot taken from a side angle, shallow depth of field, 35 mm, emphasizing the flag as the symbol of the rally. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.deshabhimani.com/district-news/-73594/meghala-fy0",
+   "published": "2026-11-11T01:19:58+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: numbers not found in the article: 000, 25, 25000",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 4.0,
+   "auto_images": true
+  }
+ ]
 }
