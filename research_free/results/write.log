@@ -1,12 +1,25 @@
-writing [N]: ന്യൂനപക്ഷങ്ങൾക്കും പിന്നാക്ക ജനവിഭാഗങ്ങൾക്കും സാമൂഹികനീതിയും
+writing [N]: ശിശുദിന സംഗമം; കുട്ടികൾ സാരഥികളാകും
+writing [N]: വാണിയമ്പലം റെയിൽവേ മേൽപാല നിർമാണ നടപടികൾ വേഗത്തിലാക്കും: മന്
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-writing [N]: 'അവർ പറഞ്ഞ കാര്യങ്ങൾ കേട്ട് ഞെട്ടിപ്പോയി, തിരുനാവായ കുംഭമേളയ
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
+writing [N]: യുവാക്കൾക്ക് വേറിട്ട അനുഭവമായി കോഫി വിത്ത് ജെൻസി എന്റർപ്രെണ
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
@@ -24,213 +37,71 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-writing [N]: യുവാക്കൾക്ക് വേറിട്ട അനുഭവമായി കോഫി വിത്ത് ജെൻസി എന്റർപ്രെണ
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgwTkAFeHYsJGcRmWYbRf"}
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+dead for this round: groq/openai/gpt-oss-120b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+dead for this round: groq/openai/gpt-oss-120b
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 400: {"errors":[{"message":"AiError: AiError: {\"error\":{\"message\
-writing [N]: ശിശുദിന സംഗമം; കുട്ടികൾ സാരഥികളാകും
-free models unavailable: free models not efficient (9 failures in a row): using Claude
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 400: {"errors":[{"message":"AiError: AiError: {\"error\":{\"message\
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgwTkFD3uiemrg9eZFUx8"}
-writing [N]: വാണിയമ്പലം റെയിൽവേ മേൽപാല നിർമാണ നടപടികൾ വേഗത്തിലാക്കും: മന്
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgwTkLmANZCyYNN5hEuzy"}
 ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (28s)
 attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): തവനൂർ ('തവനൂരും തിരുനാവായയുമായി രണ്ട് തട്ടിലായിരുന്ന കമ്മിറ്റികളെ ഒന'); 86 ('86 ലക്ഷമോ 96 ലക്ഷമോ രൂപയുടെ കടബാധ്യത കമ്മിറ്റിക്ക് വന്നിട്ടു'); 96 ('86 ലക്ഷമോ 96 ലക്ഷമോ രൂപയുടെ കടബാധ്യത കമ്മിറ്റിക്ക് വന്നിട്ടു')
+  reel_script has 36 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (38s)
-attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 5 problems
-  slide 2 must have 2-3 lines
-  reel_script has 37 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 6, 7
-  stray Malayalam sign 'ാ' after '-' in «്ച 11-ാമത്»
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 100 ('കേരളത്തിനകത്തും പുറത്തുനിന്നുമുള്ള 41 കോളജുകളിൽ നിന്നായി 313')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (56s)
-attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 38 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (51s)
-attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  numbers not found in the article: 6, 7
-  stray Malayalam sign 'ാ' after '-' in «്ച 11-ാമത്»
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (30s)
-attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 5 problems
-  reel_script has 48 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 6, 7
-  stray Malayalam sign 'ാ' after '-' in «യി 11-ാമത്»
-  stray Malayalam sign 'ാ' after '-' in «്ച 11-ാമത്»
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 100 ('കേരളത്തിനകത്തും പുറത്തുനിന്നുമുള്ള 41 കോളജുകളിൽ നിന്നായി 313')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (36s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (2s)
-factcheck by cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
-  The article says the debt is more than 80 lakhs, not exactly 80 lakhs.
-  The article says the debt might be 86 lakhs or 96 lakhs, not exactly 80 lakhs.
-  The article does not mention the amount 80 lakhs in the reel_script or slides_spec.
-attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
-  fact-check: The article says the debt is more than 80 lakhs, not exactly 80 lakhs.
-  fact-check: The article says the debt might be 86 lakhs or 96 lakhs, not exactly 80 lakhs.
-  fact-check: The article does not mention the amount 80 lakhs in the reel_script or slides_spec.
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (26s)
-attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 35 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): തവനൂർ ('തവനൂരും തിരുനാവായയുമായി രണ്ട് തട്ടിലായിരുന്ന കമ്മിറ്റികളെ ഒന'); 86 ('86 ലക്ഷമോ 96 ലക്ഷമോ രൂപയുടെ കടബാധ്യത കമ്മിറ്റിക്ക് വന്നിട്ടു'); 96 ('86 ലക്ഷമോ 96 ലക്ഷമോ രൂപയുടെ കടബാധ്യത കമ്മിറ്റിക്ക് വന്നിട്ടു')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (53s)
-attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
-  reel_script has 47 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 6, 7
-  stray Malayalam sign 'ാ' after '-' in «്ച 11-ാമത്»
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (37s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (9s)
-factcheck by cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 12 problems
-  The draft says that the amount is 80 lakhs, but the article says '80 ലക്ഷത്തിലധികം' (more than 80 lakhs)
-  The draft says that the amount is 86 lakhs, but the article says '86 ലക്ഷമോ 96 ലക്ഷമോ' (either 86 lakhs or 96 lakhs)
-  The draft says that the committees were from 'തവനൂർ, തിരുനാവായ', but the article says 'തവനൂരും തിരുനാവായയുമായി രണ്ട് തട്ടിലായിരുന്ന കമ്മിറ്റികൾ' (two committees, one from Tavanoor and one from Tirunavaya)
-  The draft says that the money was sent to 'കൃത്യമല്ലാത്ത മറ്റ് അക്കൗണ്ടുകളിലേക്ക്' (incorrect other accounts), but the article says 'പല അക്കൗണ്ടുകൾ വഴിയും വ്യക്തിഗത ക്യുആർ കോഡുകൾ വഴിയുമാണ് പണം സ്വീകരിച്ചിരുന്നതെന്നും ഇതെല്ലാം ആ അക്കൗണ്ടുകളിലേക്കാണ് പോയതെന്നും' (through multiple accounts and personal QR codes)
-  The draft does not mention that the committees were combined, which is an important fact from the article
-  The draft does not mention that the committees had not paid any bills, which is an important fact from the article
-  The draft does not mention that the committees had received money from various sources, which is an important fact from the article
-  The draft does not mention that the committees had received money through personal QR codes, which is an important fact from the article
-  The draft does not mention that the committees had sent the money to the same accounts, which is an important fact from the article
-  The draft does not mention that the committees had sent the money to the same accounts, which is an important fact from the article
-  The draft does not mention that the committees had sent the money to the same accounts, which is an important fact from the article
-  The draft does not mention that the committees had sent the money to the same accounts, which is an important fact from the article
-attempt 5 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 12 problems
-  fact-check: The draft says that the amount is 80 lakhs, but the article says '80 ലക്ഷത്തിലധികം' (more than 80 lakhs)
-  fact-check: The draft says that the amount is 86 lakhs, but the article says '86 ലക്ഷമോ 96 ലക്ഷമോ' (either 86 lakhs or 96 lakhs)
-  fact-check: The draft says that the committees were from 'തവനൂർ, തിരുനാവായ', but the article says 'തവനൂരും തിരുനാവായയുമായി രണ്ട് തട്ടിലായിരുന്ന കമ്മിറ്റികൾ' (two committees, one from Tavanoor and one from Tirunavaya)
-  fact-check: The draft says that the money was sent to 'കൃത്യമല്ലാത്ത മറ്റ് അക്കൗണ്ടുകളിലേക്ക്' (incorrect other accounts), but the article says 'പല അക്കൗണ്ടുകൾ വഴിയും വ്യക്തിഗത ക്യുആർ കോഡുകൾ വഴിയുമാണ് പണം സ്വീകരിച്ചിരുന്നതെന്നും ഇതെല്ലാം ആ അക്കൗണ്ടുകളിലേക്കാണ് പോയതെന്നും' (through multiple accounts and personal QR codes)
-  fact-check: The draft does not mention that the committees were combined, which is an important fact from the article
-  fact-check: The draft does not mention that the committees had not paid any bills, which is an important fact from the article
-  fact-check: The draft does not mention that the committees had received money from various sources, which is an important fact from the article
-  fact-check: The draft does not mention that the committees had received money through personal QR codes, which is an important fact from the article
-  fact-check: The draft does not mention that the committees had sent the money to the same accounts, which is an important fact from the article
-  fact-check: The draft does not mention that the committees had sent the money to the same accounts, which is an important fact from the article
-  fact-check: The draft does not mention that the committees had sent the money to the same accounts, which is an important fact from the article
-  fact-check: The draft does not mention that the committees had sent the money to the same accounts, which is an important fact from the article
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (36s)
-attempt 5 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 6 problems
-  reel_script has 49 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 6, 7
-  stray Malayalam sign 'ാ' after '-' in «ിൽ 11-ാമത്»
-  stray Malayalam sign 'ാ' after '-' in «ിൽ 11-ാമത്»
-  stray Malayalam sign 'ാ' after '-' in «ിൽ 11-ാമത്»
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 100 ('കേരളത്തിനകത്തും പുറത്തുനിന്നുമുള്ള 41 കോളജുകളിൽ നിന്നായി 313')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)
-attempt 6 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 40 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (57s)
-attempt 6 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
-  numbers not found in the article: 6, 7
-  stray Malayalam sign 'ാ' after '-' in «ിൽ 11-ാമത്»
-  stray Malayalam sign 'ാ' after '-' in «്ച 11-ാമത്»
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (40s)
-attempt 7 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 47 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 86 ('86 ലക്ഷമോ 96 ലക്ഷമോ രൂപയുടെ കടബാധ്യത കമ്മിറ്റിക്ക് വന്നിട്ടു'); 96 ('86 ലക്ഷമോ 96 ലക്ഷമോ രൂപയുടെ കടബാധ്യത കമ്മിറ്റിക്ക് വന്നിട്ടു')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (29s)
-attempt 8 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 44 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): തവനൂർ ('തവനൂരും തിരുനാവായയുമായി രണ്ട് തട്ടിലായിരുന്ന കമ്മിറ്റികളെ ഒന')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (33s)
-attempt 9 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 49 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): തവനൂർ ('തവനൂരും തിരുനാവായയുമായി രണ്ട് തട്ടിലായിരുന്ന കമ്മിറ്റികളെ ഒന'); 86 ('86 ലക്ഷമോ 96 ലക്ഷമോ രൂപയുടെ കടബാധ്യത കമ്മിറ്റിക്ക് വന്നിട്ടു'); 96 ('86 ലക്ഷമോ 96 ലക്ഷമോ രൂപയുടെ കടബാധ്യത കമ്മിറ്റിക്ക് വന്നിട്ടു')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: Expecting ',' delimiter: line 9 column 744 (char 1145)
-poor answer - skipped for 30 min: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 400: {"errors":[{"message":"AiError: AiError: {\"error\":{\"message\
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgwUCjStigW65BHnjknvc"}
-proofread skipped: free models not efficient (6 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgwUQVYZYwvuprwf93hUC"}
+proofread skipped: free models not efficient (5 failures in a row): using Claude
 image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
 image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Prof. B. Ramesh calls for social justice'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261111-2208","first":"MP-158"}
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
+poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+
+free models unavailable: poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+no free model answered: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
+free models unavailable: no free model answered: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgwUTgk6WKG1Csfs4iHQ6"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgwUTgn5An5araiPYPQtQ"}
+imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150) 504 timeout
+imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
+imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
+images NOT made for 'Minister orders speedy construction of V': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
+bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261111-2216","first":"MP-160"}
 posting job started at once
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: Expecting ',' delimiter: line 1 column 953 (char 952)
-poor answer - skipped for 30 min: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 400: {"errors":[{"message":"AiError: AiError: {\"error\":{\"message\
-free models unavailable: no free model answered: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 400: {"errors":[{"message":"AiError: AiError
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgwUGs5ds8xCWTXKVZrKG"}
-proofread skipped: free models not efficient (10 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Major financial irregularities in Tiruna'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261111-2210","first":"MP-159"}
 write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 51 recent posts read from both pages
-write round: 5 news waiting in the queue (written in priority order)
-candidate filter: collected=5
-to write: 0 Manjeri + 5 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 5 Malappuram; time left 29 min
-try (N) manual=False: 'അവർ പറഞ്ഞ കാര്യങ്ങൾ കേട്ട് ഞെട്ടിപ്പോയി, തിരുനാവായ കുംഭമേളയ
-try (N) manual=False: ന്യൂനപക്ഷങ്ങൾക്കും പിന്നാക്ക ജനവിഭാഗങ്ങൾക്കും സാമൂഹികനീതിയും
+write round: 3 news waiting in the queue (written in priority order)
+candidate filter: collected=3
+to write: 0 Manjeri + 3 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 3 Malappuram; time left 29 min
 try (N) manual=False: യുവാക്കൾക്ക് വേറിട്ട അനുഭവമായി കോഫി വിത്ത് ജെൻസി എന്റർപ്രെണ
-NOT filed (N) യുവാക്കൾക്ക് വേറിട്ട അനുഭവമായി കോഫി വിത്ത് ജെൻസി : all free models failed: no usable answer from the models
 try (N) manual=False: ശിശുദിന സംഗമം; കുട്ടികൾ സാരഥികളാകും
-NOT filed (N) ശിശുദിന സംഗമം; കുട്ടികൾ സാരഥികളാകും: all free models failed: no usable answer from the models
 try (N) manual=False: വാണിയമ്പലം റെയിൽവേ മേൽപാല നിർമാണ നടപടികൾ വേഗത്തിലാക്കും: മന്
-NOT filed (N) വാണിയമ്പലം റെയിൽവേ മേൽപാല നിർമാണ നടപടികൾ വേഗത്തിലാ: all free models failed: no usable answer from the models
-auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})
+auto images failed for 'Minister orders speedy construction of V': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email
+auto images: 0 of 1 stories ({})
 posting job started at once
-auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 8})
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 5}, done={'R': 0, 'N': 2}, time left 22 min
-carousel for 0 of 2 stories, the rest reel only
-filed: 0 Manjeri + 2 Malappuram (targets 200 + 200)
-queue: 3 news waiting to be written
+NOT filed (N) ശിശുദിന സംഗമം; കുട്ടികൾ സാരഥികളാകും: all free models failed: no usable answer from the models
+NOT filed (N) യുവാക്കൾക്ക് വേറിട്ട അനുഭവമായി കോഫി വിത്ത് ജെൻസി : all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 3}, done={'R': 0, 'N': 1}, time left 24 min
+carousel for 0 of 1 stories, the rest reel only
+filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)
+queue: 2 news waiting to be written
 write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":5} 
-stories: 2
+All News sheet: {"ok":true,"added":0,"updated":3} 
+stories: 1
