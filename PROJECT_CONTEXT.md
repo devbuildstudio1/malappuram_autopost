@@ -82,6 +82,8 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-11 | `2be3bd5` | Choose reel topics for new followers |
+| 2026-11-11 | `0b327a5` | ig probe output |
 | 2026-11-11 | `fd0cef8` | ig probe: optional public stats of other pages for comparison |
 | 2026-11-11 | `4726c18` | ig probe output |
 | 2026-11-10 | `7049ce1` | Heartbeat |
