@@ -8,25 +8,27 @@
   "candidates waiting: 0 Manjeri, 2 Malappuram; time left 29 min",
   "try (N) manual=False: കൊടകര കുഴൽപ്പണക്കേസ് പുനരന്വേഷിക്കണമെന്ന് ആവശ്യം",
   "try (N) manual=False: കവി അല്ലാമ മുഹമ്മദ് ഇഖ്ബാലിൻ്റെ ചിത്രമുള്ള പോസ്റ്റർ: മലപ്പുറ",
-  "NOT filed (N) കൊടകര കുഴൽപ്പണക്കേസ് പുനരന്വേഷിക്കണമെന്ന് ആവശ്യം: all free models failed: no usable answer from the models",
-  "NOT filed (N) കവി അല്ലാമ മുഹമ്മദ് ഇഖ്ബാലിൻ്റെ ചിത്രമുള്ള പോസ്റ്റ: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 2}, done={'R': 0, 'N': 0}, time left 29 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
-  "queue: 2 news waiting to be written",
+  "auto images: 1 of 1 stories ({'pollinations': 4})",
+  "posting job started at once",
+  "auto images: 1 of 1 stories ({'pollinations': 9})",
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 2}, done={'R': 0, 'N': 2}, time left 22 min",
+  "carousel for 0 of 2 stories, the rest reel only",
+  "filed: 0 Manjeri + 2 Malappuram (targets 200 + 200)",
+  "queue: 0 news waiting to be written",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":2}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (16s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
@@ -35,16 +37,136 @@
   "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
   "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "ok gemini/gemini-3.6-flash (17s)",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "switching away from gemini/gemini-3.8-flash for 10 min",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min"
+  "switching away from mistral/mistral-small-latest for 10 min",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "അന്താരാഷ്ട്ര ഉറുദു ദിന പോസ്റ്റർ വിവാദം: പോസ്റ്റർ പിൻവലിച്ച് തിരൂരിലെ സ്കൂൾ",
+   "english_headline": "Tirur school withdraws International Urdu Day poster featuring poet Allama Iqbal following controversy",
+   "category": "Education",
+   "location": "Alathiyur, Tirur, Malappuram district",
+   "importance": "Medium",
+   "scope": "local",
+   "post_to": "Malappuram 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "വിവാദം",
+    "loc": "ആലത്തിയൂർ, തിരൂർ",
+    "hl1": "ഉറുദു ദിന പോസ്റ്റർ വിവാദം",
+    "hl2": "പോസ്റ്റർ പിൻവലിച്ച് സ്കൂൾ",
+    "slides": [
+     {
+      "title": "എവിടെ, എന്ത്?",
+      "lines": [
+       "തിരൂർ ആലത്തിയൂരിലെ സ്കൂളിൽ സംഭവം",
+       "<b>നവംബർ 9</b> ഉറുദു ദിനത്തിൽ പോസ്റ്റർ ഇറക്കി",
+       "കവി അല്ലാമ ഇഖ്ബാലിന്റെ ചിത്രം നൽകി"
+      ]
+     },
+     {
+      "title": "വിശദാംശങ്ങൾ",
+      "lines": [
+       "സാരേ ജഹാം സേ അച്ചാ രചിച്ച കവിയാണ്",
+       "ഉറുദു ദിനത്തിൽ അക്കാദമിക് പോസ്റ്റർ ഇറക്കി",
+       "പിന്നാലെ പോസ്റ്ററിനെതിരെ വിമർശനം"
+      ]
+     },
+     {
+      "title": "സ്കൂൾ നടപടി",
+      "lines": [
+       "ദാറുൽ ഖുർആൻ സ്കൂളാണ് പോസ്റ്റർ ഇറക്കിയത്",
+       "വിവാദം ഒഴിവാക്കാൻ പോസ്റ്റർ പിൻവലിച്ചു",
+       "സ്കൂൾ മാനേജ്മെന്റ് അറിയിച്ചു"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "തിരൂരിൽ സ്കൂളിന്റെ ഉറുദു ദിന പോസ്റ്റർ പിൻവലിച്ചു. നവംബർ 9 അന്താരാഷ്ട്ര ഉറുദു ദിനത്തിന്റെ ഭാഗമായാണ് തിരൂർ ആലത്തിയൂരിലെ ദാറുൽ ഖുർആൻ റസിഡൻഷ്യൽ സ്കൂൾ പോസ്റ്റർ പുറത്തിറക്കിയത്. സാരേ ജഹാം സേ അച്ചാ എന്ന ദേശഭക്തിഗാനം രചിച്ച കവി അല്ലാമ മുഹമ്മദ് ഇഖ്ബാലിന്റെ ചിത്രമാണ് പോസ്റ്ററിൽ ഉണ്ടായിരുന്നത്. എന്നാൽ പോസ്റ്ററിനെതിരെ വിമർശനങ്ങളും പ്രചരണങ്ങളും ഉയർന്നു. ഇതോടെ തർക്കങ്ങൾ ഒഴിവാക്കാൻ പോസ്റ്റർ പിൻവലിച്ചതായി സ്കൂൾ അധികൃതർ പറഞ്ഞു. അക്കാദമിക് കലണ്ടർ അനുസരിച്ചാണ് പോസ്റ്റർ ഇറക്കിയതെന്നും മാനേജ്മെന്റ് വ്യക്തമാക്കി. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "📌 അന്താരാഷ്ട്ര ഉറുദു ദിന പോസ്റ്റർ വിവാദം: പോസ്റ്റർ പിൻവലിച്ച് തിരൂരിലെ സ്കൂൾ\n\n📰 പൂർണ വിവരം:\nനവംബർ 9 അന്താരാഷ്ട്ര ഉറുദു ദിനത്തിന്റെ ഭാഗമായി തിരൂർ ആലത്തിയൂരിലെ ദാറുൽ ഖുർആൻ റസിഡൻഷ്യൽ സ്കൂൾ പുറത്തിറക്കിയ പോസ്റ്ററാണ് വിവാദത്തിലായത്. 'സാരേ ജഹാം സേ അച്ചാ' ഉൾപ്പെടെയുള്ള ദേശഭക്തിഗാനങ്ങൾ രചിച്ച പ്രശസ്ത കവി അല്ലാമ മുഹമ്മദ് ഇഖ്ബാലിന്റെ ചിത്രം ഉൾപ്പെടുത്തിയ പോസ്റ്ററിനെതിരെയാണ് വിമർശനങ്ങളും വിദ്വേഷ പ്രചരണങ്ങളും ഉയർന്നത്. ഉറുദു ഭാഷയ്ക്ക് നൽകിയ സംഭാവനകൾ പരിഗണിച്ചാണ് അദ്ദേഹത്തിന്റെ ജന്മദിനം ഉറുദു ദിനമായി ആചരിക്കുന്നത്. അക്കാദമിക് കലണ്ടർ പ്രകാരമാണ് സ്കൂൾ പോസ്റ്റർ ഇറക്കിയത്. എന്നാൽ തർക്കങ്ങളിലും വിവാദങ്ങളിലും താല്പര്യമില്ലാത്തതിനാൽ മാനേജ്മെന്റ് പോസ്റ്റർ പിൻവലിക്കുകയായിരുന്നു.\n\n📍 സ്ഥലം: ആലത്തിയൂർ, തിരൂർ\n🗓️ തീയതി: നവംബർ 9\nℹ️ ശ്രദ്ധിക്കുക: സ്കൂൾ മാനേജ്മെന്റ് പോസ്റ്റർ പിൻവലിച്ചു\n\nTirur Alathiyur school withdraws Urdu Day poster featuring Allama Iqbal | Malappuram news\n📍 ആലത്തിയൂർ, തിരൂർ, മലപ്പുറം | 12 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Tirur #KeralaNews #MalappuramNews",
+   "prompts": "Daytime exterior shot of Darul Quran Residential School building at Alathiyur near Tirur in Malappuram, clear blue sky, green trees around the campus gate. Same soft daytime sunlight across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose view of a school bulletin board near the main entrance wall, soft shadows, quiet atmosphere in a Malappuram countryside village setting. Same soft daytime sunlight across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nWide view of the main road at Alathiyur near Tirur with small shops, coconut palms, and peaceful village backdrop. Same soft daytime sunlight across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nAn empty office room inside a educational institution in Kerala, neatly arranged table and wooden chairs, sunlight coming through the window. Same soft daytime sunlight across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.reporterlive.com/topnews/kerala/2026/11/12/janam-tv-hate-remarks-against-malappuram-over-iqbal-poster",
+   "published": "2026-11-12T16:55:53+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: numbers not found in the article: 9",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 3.0,
+   "images": [
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794517182/news360/zs2342h7pluxcdjcoppq.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794517305/news360/wbk4dd0riowcxdvydcxr.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794517256/news360/c1nqexmsr3o3lgsvq4bd.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794517322/news360/x9td0mgvhlv1eryrp2gw.jpg"
+   ]
+  },
+  {
+   "malayalam_headline": "കൊടകര കുഴൽപ്പണക്കേസ് പുനരന്വേഷിക്കണമെന്ന് ആവശ്യം; തിരൂർ സതീഷ് പരാതി നൽകി",
+   "english_headline": "Demand for reinvestigation in Kodakara money laundering case, complaint submitted",
+   "category": "Crime & Safety",
+   "location": "Tirur, Malappuram district",
+   "importance": "Medium",
+   "scope": "district",
+   "post_to": "Malappuram 360 (collab: Manjeri 360)",
+   "slides_spec": {
+    "v": 3,
+    "cat": "വാർത്ത",
+    "loc": "തിരൂർ",
+    "hl1": "കൊടകര കുഴൽപ്പണക്കേസ്",
+    "hl2": "പുനരന്വേഷിക്കണമെന്ന് പരാതി",
+    "slides": [
+     {
+      "title": "പരാതി",
+      "lines": [
+       "കൊടകര കുഴൽപ്പണക്കേസ് പുനരന്വേഷിക്കണം",
+       "തിരൂർ സതീഷ് പരാതി നൽകി"
+      ]
+     },
+     {
+      "title": "ആരോപണം",
+      "lines": [
+       "<b>2021</b>ൽ <b>9</b> ചാക്കുകളിലായി <b>6.5</b> കോടി രൂപ എത്തി",
+       "കൊടകരയിലെത്തിച്ച പണമാണിതെന്ന് വെളിപ്പെടുത്തൽ",
+       "ക്രൈംബ്രാഞ്ച് കോടതിയിൽ റിപ്പോർട്ട് നൽകിയിരുന്നു"
+      ]
+     },
+     {
+      "title": "പുതിയ വിവരങ്ങൾ",
+      "lines": [
+       "<b>17</b> ചാക്കുകളിലായി <b>25</b> കോടി എത്തിച്ചെന്നും ആരോപണം",
+       "കേസിൽ <b>19</b> ബിജെപി നേതാക്കൾ സാക്ഷിപ്പട്ടികയിൽ",
+       "തട്ടിപ്പുകൾ അന്വേഷിക്കണമെന്നാണ് ആവശ്യം"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "കൊടകര കുഴൽപ്പണക്കേസിൽ പുനരന്വേഷണം വേണമെന്ന് പരാതി. ബിജെപി തൃശൂർ ജില്ലാ കമ്മിറ്റി ഓഫീസ് മുൻ സെക്രട്ടറി തിരൂർ സതീഷാണ് പരാതി നൽകിയത്. കുഴൽപ്പണവും കള്ളപ്പണം വെളുപ്പിക്കലും അന്വേഷിക്കണം എന്നാണ് ആവശ്യം. 2021ലെ തെരഞ്ഞെടുപ്പിൽ 9 ചാക്കുകളിലായി 6.5 കോടി രൂപ എത്തിച്ചതായി സതീഷ് നേരത്തേ വെളിപ്പെടുത്തിയിരുന്നു. 17 ചാക്കുകളിലായി 25 കോടി രൂപ വീണ്ടും എത്തിച്ചതായും ആരോപണമുണ്ട്. കേസിൽ 19 ബിജെപി നേതാക്കൾ സാക്ഷിപ്പട്ടികയിലുണ്ട്. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "⚖️ കൊടകര കുഴൽപ്പണക്കേസ് പുനരന്വേഷിക്കണമെന്ന് ആവശ്യം; തിരൂർ സതീഷ് പരാതി നൽകി\n\n📰 പൂർണ വിവരം:\nകൊടകര കുഴൽപ്പണക്കേസും ബിജെപി തൃശൂർ ജില്ലാ കമ്മിറ്റി ഓഫീസിലെ കള്ളപ്പണം വെളുപ്പിക്കലും പുനരന്വേഷിക്കണമെന്ന് ആവശ്യപ്പെട്ട് മുൻ ഓഫീസ് സെക്രട്ടറി തിരൂർ സതീഷ് പരാതി നൽകി. 2021ലെ നിയമസഭാ തെരഞ്ഞെടുപ്പിൽ 9 ചാക്കുകളിലായി 6.5 കോടി രൂപ തൃശൂർ ഓഫീസിൽ എത്തിച്ചതായി സതീഷ് വെളിപ്പെടുത്തിയിരുന്നു. കേസ് അന്വേഷിച്ച ക്രൈംബ്രാഞ്ച് കോടതിയിൽ സമർപ്പിച്ച റിപ്പോർട്ടിൽ 19 ബിജെപി നേതാക്കൾ സാക്ഷിപ്പട്ടികയിലുണ്ട്. ഇതിനുപുറമേ 17 ചാക്കുകളിലായി 25 കോടി രൂപയുടെ കള്ളപ്പണം വീണ്ടും എത്തിച്ചതായി ഓഫീസ് സെക്രട്ടറി പി അക്ഷയ്യും ആരോപിച്ചിരുന്നു. ഈ സംഭവങ്ങളിലെ ഫണ്ട് വെട്ടിപ്പും തട്ടിപ്പുകളും അന്വേഷിക്കണമെന്നാണ് പരാതിയിലെ ആവശ്യം.\n📍 സ്ഥലം: തിരൂർ, മലപ്പുറം\n👮 നടപടി: ക്രൈംബ്രാഞ്ച് കോടതിയിൽ റിപ്പോർട്ട് സമർപ്പിച്ചു\nവാർത്ത അറിയാൻ Share ചെയ്യൂ\n\nKodakara money laundering case reinvestigation demand Tirur Satheesh | Malappuram news\n📍 തിരൂർ, മലപ്പുറം | 12 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Tirur #Kodakara #MalappuramNews",
+   "prompts": "Exterior view of an office building in Thrissur under clear daytime sky, quiet street with tropical green trees, subtle neutral photo tone. Same natural lighting and realistic tone across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of official complaint documents and paper files placed neatly on a wooden office desk, soft ambient indoor lighting. Same natural lighting and realistic tone across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nWide outdoor shot of a District Court complex building in Kerala with green gardens in front, morning sunlight, clean perspective. Same natural lighting and realistic tone across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA Crime Branch police vehicle parked outside a official office complex in Kerala, blue light bar on top, bright daylight. Same natural lighting and realistic tone across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.deshabhimani.com/News/kerala/demand-for-a-re-investigation-into-the-kodakara-hawala-case-br9",
+   "published": "2026-11-12T01:33:19+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: reel_script has 54 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block); numbers not found in the article: 6, 9",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 2 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 4.0,
+   "images": [
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794517377/news360/oqo86vuoji2hvyckfexh.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794517524/news360/ytadajra1sojrju769wi.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794517542/news360/cw6cincyqo5vxufxcmhz.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794517562/news360/ectf3ohzuwn6hvtzgx99.jpg"
+   ]
+  }
+ ]
 }
