@@ -2,27 +2,23 @@
  "log": [
   "earlier stories still waiting for images: []",
   "instagram check: 60 recent posts read from both pages",
-  "write round: 5 news waiting in the queue (written in priority order)",
-  "candidate filter: collected=5",
-  "to write: 2 Manjeri + 3 other district candidates (max 200 + 200 stories)",
-  "candidates waiting: 2 Manjeri, 3 Malappuram; time left 29 min",
-  "try (N) manual=False: കലിക്കറ്റ് സർവകലാശാലാ സംരക്ഷണ മാർച്ച് നാളെ",
+  "write round: 3 news waiting in the queue (written in priority order)",
+  "candidate filter: collected=3",
+  "to write: 1 Manjeri + 2 other district candidates (max 200 + 200 stories)",
+  "candidates waiting: 1 Manjeri, 2 Malappuram; time left 29 min",
   "try (N) manual=False: കൊടകര കുഴൽപ്പണക്കേസ് പുനരന്വേഷിക്കണമെന്ന് ആവശ്യം",
-  "try (R) manual=False: യുവതിയെ അപമാനിച്ച കേസ്: യൂട്യൂബർ തൊപ്പിയുടെ സുഹൃത്ത് മുഹമ്മദ",
-  "NOT filed (N) കൊടകര കുഴൽപ്പണക്കേസ് പുനരന്വേഷിക്കണമെന്ന് ആവശ്യം: all free models failed: no usable answer from the models",
   "try (R) manual=False: സമൂഹമാധ്യമങ്ങളിലൂടെ സ്ത്രീകളെ അപമാനിച്ച കേസ്: യൂട്യൂബർ തൊപ്പ",
-  "NOT filed (R) സമൂഹമാധ്യമങ്ങളിലൂടെ സ്ത്രീകളെ അപമാനിച്ച കേസ്: യൂട്: all free models failed: no usable answer from the models",
   "try (N) manual=False: കവി അല്ലാമ മുഹമ്മദ് ഇഖ്ബാലിൻ്റെ ചിത്രമുള്ള പോസ്റ്റർ: മലപ്പുറ",
-  "NOT filed (N) കവി അല്ലാമ മുഹമ്മദ് ഇഖ്ബാലിൻ്റെ ചിത്രമുള്ള പോസ്റ്റ: all free models failed: no usable answer from the models",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})",
+  "NOT filed (N) കൊടകര കുഴൽപ്പണക്കേസ് പുനരന്വേഷിക്കണമെന്ന് ആവശ്യം: all free models failed: no usable answer from the models",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})",
   "posting job started at once",
-  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 9})",
-  "candidate loop ended: left R=0 N=0, tried={'R': 2, 'N': 3}, done={'R': 1, 'N': 1}, time left 24 min",
-  "carousel for 0 of 2 stories, the rest reel only",
-  "filed: 1 Manjeri + 1 Malappuram (targets 200 + 200)",
-  "queue: 3 news waiting to be written",
+  "NOT filed (N) കവി അല്ലാമ മുഹമ്മദ് ഇഖ്ബാലിൻ്റെ ചിത്രമുള്ള പോസ്റ്റ: bad draft: 'scenes'",
+  "candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 2}, done={'R': 1, 'N': 0}, time left 24 min",
+  "carousel for 0 of 1 stories, the rest reel only",
+  "filed: 1 Manjeri + 0 Malappuram (targets 200 + 200)",
+  "queue: 2 news waiting to be written",
   "write_stories.yml started",
-  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":5}"
+  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":3}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
@@ -31,48 +27,55 @@
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.8-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "dead for this round: groq/openai/gpt-oss-120b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.8-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)",
-  "poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)",
-  "poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (43s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (26s)",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 400: {\"errors\":[{\"message\":\"AiError: AiError: {\\\"error\\\":{\\\"message\\",
+  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (32s)",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (26s)",
+  "fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.7-flash",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (42s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (27s)",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (29s)",
+  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (59s)",
+  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)",
+  "poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (24s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (37s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (31s)",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (41s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: Expecting ',' delimiter: line 1 column 888 (char 887)",
+  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: Unterminated string starting at: line 1 column 17572 (char 17571)",
   "poor answer - skipped for 30 min: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "ok groq/qwen/qwen3.8-27b (1s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (38s)",
+  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (36s)",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
@@ -83,66 +86,8 @@
  ],
  "stories": [
   {
-   "malayalam_headline": "കലിക്കറ്റ് സർവകലാശാലാ സംരക്ഷണ മാർച്ച് നാളെ",
-   "english_headline": "Protest march for Calicut University tomorrow",
-   "category": "Education",
-   "location": "Calicut University, Thenjippalam, Malappuram district",
-   "importance": "Medium",
-   "scope": "district",
-   "post_to": "Malappuram 360 (collab: Manjeri 360)",
-   "slides_spec": {
-    "v": 3,
-    "cat": "സംരക്ഷണ മാർച്ച്",
-    "loc": "തേഞ്ഞിപ്പലം, കലിക്കറ്റ്",
-    "hl1": "നാളെ കലിക്കറ്റ് സർവകലാശാലാ സംരക്ഷണ",
-    "hl2": "വെള്ളിയാഴ്ച രാവിലെ 10 മണി",
-    "slides": [
-     {
-      "title": "എന്ത്, എപ്പോൾ?",
-      "lines": [
-       "കലിക്കറ്റ് സർവകലാശാലാ സംരക്ഷണ മാർച്ച്",
-       "വെള്ളിയാഴ്ച രാവിലെ <b>10 മണി</b>"
-      ]
-     },
-     {
-      "title": "എവിടെ, എങ്ങനെ?",
-      "lines": [
-       "തേഞ്ഞിപ്പലം ആസ്ഥാനത്തേക്ക്",
-       "വിദ്യാർഥികളും ബഹുജനങ്ങളും അണിനിരക്കും",
-       "മുൻ എംപി എ വിജയരാഘവൻ ഉദ്ഘാടനം"
-      ]
-     },
-     {
-      "title": "ആവശ്യങ്ങൾ",
-      "lines": [
-       "വൈസ് ചാൻസലർ രാജിവയ്ക്കുക",
-       "വർഗീയവൽക്കരണത്തിൽനിന്ന് സംരക്ഷിക്കുക",
-       "അക്കാദമിക നിലവാരം മെച്ചപ്പെടുത്തുക"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "നാളെ കലിക്കറ്റ് സർവകലാശാലാ സംരക്ഷണ മാർച്ച്. വെള്ളിയാഴ്ച രാവിലെ 10 മണിയാണ് മാർച്ച്. തേഞ്ഞിപ്പലം ആസ്ഥാനത്തേക്ക് നടക്കുന്ന മാർച്ചിൽ വിദ്യാർഥികളും ബഹുജനങ്ങളും അണിനിരക്കും. മുൻ എംപി എ വിജയരാഘവൻ ഉദ്ഘാടനം ചെയ്യും. മുൻമന്ത്രി എം ബി രാജേഷ് മുഖ്യാതിഥിയാകും. വൈസ് ചാൻസലർ പി രവീന്ദ്രൻ രാജിവയ്ക്കുക, വർഗീയവൽക്കരണത്തിൽനിന്ന് കലിക്കറ്റ് സർവകലാശാലയെ സംരക്ഷിക്കുക, അക്കാദമിക നിലവാരം മെച്ചപ്പെടുത്തുക തുടങ്ങിയ മുദ്രാവാക്യങ്ങളുയർത്തും. കലിക്കറ്റ് സർവകലാശാലയെ സംരക്ഷിക്കാൻ വേണ്ടവർക്ക് ഇത് അയച്ചുകൊടുക്കണേ. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
-   "caption": "📢 നാളെ കലിക്കറ്റ് സർവകലാശാലാ സംരക്ഷണ മാർച്ച് വെള്ളിയാഴ്ച രാവിലെ 10 മണി\n\n📰 പൂർണ വിവരം:\nകലിക്കറ്റ് സർവകലാശാലയുടെ അക്കാദമിക നിലവാരം തകർക്കാനുള്ള വൈസ് ചാൻസലറുടെ ശ്രമത്തിനെതിരെ കലിക്കറ്റ് സർവകലാശാലാ സംരക്ഷണ സമിതി നേതൃത്വത്തിൽ വെള്ളിയാഴ്ച പ്രതിഷേധ മാർച്ച് സംഘടിപ്പിക്കുന്നു. തേഞ്ഞിപ്പലം ആസ്ഥാനത്തേക്ക് നടക്കുന്ന സർവകലാശാലാ സംരക്ഷണ മാർച്ചിൽ വിദ്യാർഥികളും ബഹുജനങ്ങളും അണിനിരക്കും. മുൻ എംപി എ വിജയരാഘവൻ ഉദ്ഘാടനം ചെയ്യും. മുൻമന്ത്രി എം ബി രാജേഷ് മുഖ്യാതിഥിയാകും. വൈസ് ചാൻസലർ പി രവീന്ദ്രൻ രാജിവയ്ക്കുക, വർഗീയവൽക്കരണത്തിൽനിന്ന് കലിക്കറ്റ് സർവകലാശാലയെ സംരക്ഷിക്കുക, അക്കാദമിക നിലവാരം മെച്ചപ്പെടുത്തുക തുടങ്ങിയ മുദ്രാവാക്യങ്ങളുയർത്തും.\n📍 സ്ഥലം: തേഞ്ഞിപ്പലം, കലിക്കറ്റ് സർവകലാശാല\n🕘 സമയം: വെള്ളിയാഴ്ച രാവിലെ 10 മണി\n👮 നടപടി: മുൻ എംപി എ വിജയരാഘവൻ ഉദ്ഘാടനം, മുൻമന്ത്രി എം ബി രാജേഷ് മുഖ്യാതിഥി\n📞 ബന്ധപ്പെടാൻ: കലിക്കറ്റ് സർവകലാശാലാ സംരക്ഷണ സമിതി\nആവശ്യമുള്ളവർക്ക് Share ചെയ്യൂ\n\nCalicut University protest march tomorrow 10 am | Malappuram news\n📍 കലിക്കറ്റ് സർവകലാശാല, തേഞ്ഞിപ്പലം, മലപ്പുറം | 13 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Calicut #Protest #MalappuramNews",
-   "prompts": "A large crowd of students and people walking in a protest march on the road near Calicut University at Thenjippalam, Malappuram district, Kerala on a bright November morning: a banner in Malayalam with the university name, a few people holding placards, a few police officers seen from behind, coconut palms and red-tiled houses around, a parked two-wheeler. Same soft morning light and fresh green colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close view of a placard held by a student in the march, with a slogan in Malayalam about protecting the university, a few other people in the background, a police officer seen from behind. Same soft morning light and fresh green colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide view of the march from the back, a few people holding placards, a few police officers seen from behind, a parked two-wheeler. Same soft morning light and fresh green colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close view of a few people in the march, a few police officers seen from behind, a parked two-wheeler. Same soft morning light and fresh green colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.deshabhimani.com/News/kerala/calicut-university-protection-march-thursday-malappuram-sw6",
-   "published": "2026-11-12T13:59:00+05:30",
-   "verification": "FREE-MODEL DRAFT (cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct) - not checked by Claude yet; validator problems: caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 17 ('ഓസ്ട്രേലിയൻ കാട്ടിൽ ആറു ദിവസം അതിജീവിച്ച് 17കാരൻ; രക്ഷിച്ചത്')",
-   "note": "free-model draft cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct, 2 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 9.0,
-   "images": [
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794503456/news360/sju4f03eatrktf9nlhu7.jpg",
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794503468/news360/bz4hxpltzm9muhj6b5v9.jpg",
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794503459/news360/l5k3chfcd0bnkmpsuzvj.jpg",
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794503463/news360/pj1rv0l98h65iqxvqr22.jpg"
-   ]
-  },
-  {
-   "malayalam_headline": "മഞ്ചേരിയിൽ യൂട്യൂബർ തൊപ്പിയുടെ സുഹൃത്ത് മുഹമ്മദ് ഷമീർ അറസ്റ്റിലായി",
-   "english_headline": "Muhammad Shameer, friend of YouTuber Thoppi, arrested in case of harassing a young woman",
+   "malayalam_headline": "മഞ്ചേരി സ്വദേശിയെ അപമാനിച്ച കേസിൽ യൂട്യൂബർ തൊപ്പിയുടെ കൂട്ടാളി അറസ്റ്റിലായി",
+   "english_headline": "Manjeri man arrested in case of insulting women through social media",
    "category": "Crime & Safety",
    "location": "Manjeri, Malappuram district",
    "importance": "Medium",
@@ -152,50 +97,50 @@
     "v": 3,
     "cat": "അറസ്റ്റ്",
     "loc": "മഞ്ചേരി",
-    "hl1": "യൂട്യൂബർ തൊപ്പിയുടെ സുഹൃത്ത്",
-    "hl2": "ലൈവ് സ്ട്രീമിങിൽ",
+    "hl1": "യൂട്യൂബർ തൊപ്പിയുടെ കൂട്ടാളി",
+    "hl2": "സ്ത്രീകളെ അപമാനിച്ച കേസ്",
     "slides": [
      {
-      "title": "ഏതു കേസ്?",
+      "title": "എന്ത്, എവിടെ?",
       "lines": [
-       "ലൈവ് സ്ട്രീമിങിലൂടെ യുവതിയെ അധിക്ഷേപിച്ച കേസ്",
-       "മഞ്ചേരി പൊലീസ് കസ്റ്റഡിയിലെടുത്തു"
+       "സ്ത്രീകളെ അപമാനിച്ച കേസ്",
+       "മഞ്ചേരി സ്വദേശിയെ അറസ്റ്റിലാക്കി"
       ]
      },
      {
-      "title": "ആര് അറസ്റ്റിലായി?",
+      "title": "ഏതെല്ലാം?",
       "lines": [
-       "മിസ്റ്റർ ഷമീർ യൂട്യൂബ് ചാനൽ ഉടമയായ മുഹമ്മദ് ഷമീർ",
-       "കണ്ണൂർ സ്വദേശിയാണ് ഇയാൾ",
-       "തൊപ്പിയുടെ സുഹൃത്താണ് ഇയാൾ"
+       "മഞ്ചേരി പൊലീസ് അറസ്റ്റ് ചെയ്തു",
+       "കണ്ണൂർ അഴീക്കോട് സ്വദേശി മുഹമ്മദ് ഷമീറാണ് അറസ്റ്റിലായത്",
+       "<b>24</b> വയസ്സുള്ള യുവാവ്"
       ]
      },
      {
-      "title": "അറസ്റ്റ് പിന്നാലെ",
+      "title": "തുടർന്ന്",
       "lines": [
-       "മഞ്ചേരി പൊലീസ് കേസെടുത്തു",
-       "അറസ്റ്റ് ചെയ്തത് മഞ്ചേരി പൊലീസ്",
-       "ഇക്കഴിഞ്ഞ ജൂലൈയിൽ മറ്റൊരു സുഹൃത്തിനെ അറസ്റ്റ് ചെയ്തിരുന്നു"
+       "കോടതിയിൽ ഹാജരാക്കി റിമാൻഡ് ചെയ്തു",
+       "ജൂൺ 10ന് യൂട്യൂബ് ചാനലിൽ ലൈവ്",
+       "സ്ത്രീത്വത്തെ അപമാനിക്കൽ, ഐടി നിയമ വകുപ്പുകൾ ചുമത്തി"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "മഞ്ചേരിയിൽ യൂട്യൂബർ തൊപ്പിയുടെ സുഹൃത്തിനെ അറസ്റ്റ് ചെയ്തു. ലൈവ് സ്ട്രീമിങിലൂടെ യുവതിയെ അധിക്ഷേപിച്ച കേസിൽ മഞ്ചേരി പൊലീസ് കസ്റ്റഡിയിലെടുത്തു. കണ്ണൂർ സ്വദേശിയും മിസ്റ്റർ ഷമീർ യൂട്യൂബ് ചാനൽ ഉടമയുമായ മുഹമ്മദ് ഷമീർ അറസ്റ്റിലായി. ഷമീറിനെ റിമാൻഡ് ചെയ്തിട്ടുണ്ട്. മഞ്ചേരി പൊലീസ് കേസെടുത്തു. തൊപ്പിയുടെ മറ്റൊരു സുഹൃത്തിനെ ഇക്കഴിഞ്ഞ ജൂലൈയിൽ അറസ്റ്റ് ചെയ്തിരുന്നു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
-   "caption": "🚨 മഞ്ചേരിയിൽ യൂട്യൂബർ തൊപ്പിയുടെ സുഹൃത്തിനെ അറസ്റ്റ് ചെയ്തു\n\n📰 പൂർണ വിവരം:\nലൈവ് സ്ട്രീമിങിലൂടെ യുവതിയെ അധിക്ഷേപിച്ച സംഭവത്തിൽ യൂട്യൂബർ തൊപ്പിയുടെ സുഹൃത്തിനെ അറസ്റ്റ് ചെയ്തു. കണ്ണൂർ സ്വദേശിയും മിസ്റ്റർ ഷമീർ യൂട്യൂബ് ചാനൽ ഉടമയുമായ മുഹമ്മദ് ഷമീറാണ് അറസ്റ്റിലായത്. വളപട്ടണത്ത് വെച്ച് ഇയാളെ മഞ്ചേരി പൊലീസ് കസ്റ്റഡിയിലെടുത്തു. സമൂഹമാധ്യമങ്ങളിലൂടെ അധിക്ഷേപിച്ചെന്ന് ആരോപിച്ച് കോഴിക്കോട് സ്വദേശിനി നൽകിയ പരാതിയിൽ മഞ്ചേരി പൊലീസ് മാസങ്ങൾക്ക് മുമ്പ് രജിസ്റ്റർ ചെയ്ത കേസിലാണ് ഇയാൾ അറസ്റ്റിലായത്. ഷമീറിനെ റിമാൻഡ് ചെയ്തിട്ടുണ്ട്. അതേ സമയം കേസിൽ തൊപ്പിയുടെ മറ്റൊരു സുഹൃത്തിനെ ഇക്കഴിഞ്ഞ ജൂലൈയിൽ അറസ്റ്റ് ചെയ്തിരുന്നു. തൊപ്പി ഗാങ്ങിലെ മുഹമ്മദ് എന്ന മമ്മുവിനെയാണ് പൊലീസ് അറസ്റ്റ് ചെയ്തിരുന്നത്. മഞ്ചേരി പൊലീസാണ് മമ്മുവിനെ അറസ്റ്റ് ചെയ്തത്. ലൈവ് സ്ട്രീമിങിനിടെ ഗായകൻ ഹനാൻ ഷായെ പരാമർശിച്ചാണ് യുവതിയെ അധിക്ഷേപിച്ചത്. സംഭവത്തിൽ ഹനാൻ ഷാ ആഭ്യന്തര മന്ത്രിക്ക് നേരിട്ട് പരാതി നൽകിയിരുന്നു. അശ്ലീല ദൃശ്യങ്ങൾ സമൂഹമാധ്യമങ്ങളിൽ പോസ്റ്റ് ചെയ്ത സംഭവത്തിൽ യൂട്യൂബറായ തൊപ്പിക്കെതിരെ എറണാകുളം റൂറൽ സൈബർ പൊലീസ് ഐ.ടി. നിയമപ്രകാരം കേസെടുത്തിരുന്നു. ഇതിന് പിന്നാലെയാണ് യുവതി പരാതി നൽകിയത്. തൊപ്പിയുടെ മുൻ സുഹൃത്തുക്കളും 'എം.ആർ.എസ് ഗ്യാങ്' അംഗങ്ങളും പരസ്പരം പല തരത്തിലുള്ള ആരോപണങ്ങൾ ഉന്നയിക്കുന്ന വെളിപ്പെടുത്തലുകളുമായി രംഗത്ത് എത്തിയിരുന്നു. അതേസമയം, ഹനാൻ ഷായുടെ കുടുംബത്തെയും സുഹൃത്തുക്കളെയും ലക്ഷ്യമിട്ട് തൊപ്പിയും കൂട്ടാളികളും നടത്തിയ മോശം പരാമർശങ്ങൾ അടങ്ങിയ യൂട്യൂബ് ലൈവ് വീഡിയോ കോപ്പിറൈറ്റ് സ്ട്രൈക്ക് നൽകി പിൻവലിപ്പിക്കുകയും ചെയ്തിരുന്നു. ഇത്തരം കണ്ടന്റുകൾ സൃഷ്ടിക്കുകയോ പങ്കുവെക്കുകയോ പ്രചരിപ്പിക്കുകയോ ചെയ്യുന്നവർക്ക് കോപ്പിറൈറ്റ് സ്ട്രൈക്ക്, അക്കൗണ്ട് ടേക്ക്ഡൗൺ, പ്ലാറ്റ്ഫോം ആക്ഷൻസ് എന്നിവയ്ക്കൊപ്പം അപകീർത്തിപ്പെടുത്തൽ, സ്ത്രീകളെ അപമാനിക്കുന്ന പരാമർശങ്ങൾ, സൈബർ ഉപദ്രവം, വ്യക്തിഹത്യ, സ്വകാര്യതാ ലംഘനം എന്നിവയുമായി ബന്ധപ്പെട്ട ഇന്ത്യൻ ശിക്ഷാനിയമത്തിലേയും ഐ.ടി ആക്ടിലേയും ബാധകമായ വകുപ്പുകൾ പ്രകാരമുള്ള നിയമനടപടി നേരിടേണ്ടിവരാം. നിങ്ങൾ ഇത്തരത്തിലുള്ള വീഡിയോകൾ പങ്കുവെച്ചിട്ടുണ്ടെങ്കിൽ ദയവായി നീക്കം ചെയ്യുക' എന്നായിരുന്നു ഹനാൻഷായുടെ പ്രതികരണം. ഡി.ജി.പി റവാഡ ചന്ദ്രശേഖറാണ് തൊപ്പിക്കും സംഘത്തിനുമെതിരെ അന്വേഷണത്തിന് ഉത്തരവിട്ടത്. സംസ്ഥാന സൈബർ ഓപ്പറേഷൻസ് പൊലീസ് സൂപ്രണ്ട് അങ്കിത് അശോകനാണ് അന്വേഷണച്ചുമതല. പോക്സോ കുറ്റകൃത്യങ്ങൾ, മയക്കുമരുന്ന് ഉപയോഗവും വിതരണവും, മാനസികവും ശാരീരികവുമായ പീഡനങ്ങൾ, അശ്ലീല പ്രചാരണം, മറ്റു സൈബർ കുറ്റകൃത്യങ്ങൾ തുടങ്ങിയ ആരോപണങ്ങളിൽ സൈബർ പൊലീസിന്റെ പ്രത്യേക സംഘമാണ് അന്വേഷണം നടത്തുക.\n📍 സ്ഥലം: മഞ്ചേരി\n👮 നടപടി: മഞ്ചേരി പൊലീസ് കേസെടുത്തു\n📞 ബന്ധപ്പെടാൻ: മഞ്ചേരി പൊലീസ് സ്റ്റേഷൻ\nആവശ്യമുള്ളവർക്ക് Share ചെയ്യൂ\n\nManjeri YouTuber Thoppi friend arrested | Malappuram news\n📍 മഞ്ചേരി, മലപ്പുറം | 12 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Manjeri #Arrest #MalappuramNews",
-   "prompts": "A Kerala Police jeep parked on a road at night with its blue light on, two policemen in khaki seen from behind, a crowd of people standing at a distance, a street light and coconut palms around. Same night-time orange street-light mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA Kerala Police station in Manjeri town, Malappuram district, with a crowd of people standing outside, a police jeep parked in front, a street light and coconut palms around. Same night-time orange street-light mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA Kerala Police officer in khaki uniform seen from behind, standing in front of a police jeep, a crowd of people standing at a distance, a street light and coconut palms around. Same night-time orange street-light mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA Kerala Police officer in khaki uniform seen from behind, standing in front of a police jeep, a crowd of people standing at a distance, a street light and coconut palms around. Same night-time orange street-light mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.madhyamam.com/kerala/youtuber-thoppi-friend-arrested-live-1571722",
-   "published": "2026-11-12T18:32:48+05:30",
-   "verification": "FREE-MODEL DRAFT (cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct) - not checked by Claude yet; validator problems: reel_script has 45 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)",
-   "note": "free-model draft cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct, 4 attempt(s), 1 validator problem(s)",
+   "reel_script": "മഞ്ചേരിയിൽ സ്ത്രീകളെ അപമാനിച്ച കേസിൽ യൂട്യൂബർ തൊപ്പിയുടെ കൂട്ടാളി അറസ്റ്റിലായി. കണ്ണൂർ അഴീക്കോട് സ്വദേശിയായ 24 വയസ്സുള്ള മുഹമ്മദ് ഷമീറാണ് അറസ്റ്റിലായത്. മഞ്ചേരി പൊലീസ് ഇയാളെ അറസ്റ്റ് ചെയ്തു. കോടതിയിൽ ഹാജരാക്കിയ പ്രതിയെ റിമാൻഡ് ചെയ്തു. ജൂൺ 10ന് യൂട്യൂബ് ചാനലിൽ നാലു മണിക്കൂറോളം നീണ്ട ലൈവിനിടെ മഞ്ചേരി സ്വദേശിയുടെ സമ്മതമില്ലാതെ ചിത്രങ്ങളും വീഡിയോകളും പ്രദർശിപ്പിച്ചതാണ് കേസ്. സ്ത്രീത്വത്തെ അപമാനിക്കൽ, ഐടി നിയമ വകുപ്പുകൾ ചുമത്തിയാണ് മഞ്ചേരി പൊലീസ് കേസെടുത്തത്. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🚨 മഞ്ചേരിയിൽ സ്ത്രീകളെ അപമാനിച്ച കേസിൽ യൂട്യൂബർ തൊപ്പിയുടെ കൂട്ടാളി അറസ്റ്റിലായി\n\n📰 പൂർണ വിവരം:\nകണ്ണൂർ അഴീക്കോട് സ്വദേശിയായ 24 വയസ്സുള്ള മുഹമ്മദ് ഷമീറിനെ മഞ്ചേരി പൊലീസ് അറസ്റ്റ് ചെയ്തു. കോടതിയിൽ ഹാജരാക്കിയ പ്രതിയെ റിമാൻഡ് ചെയ്തു. ജൂൺ 10ന് യൂട്യൂബ് ചാനലിൽ നാലു മണിക്കൂറോളം നീണ്ട ലൈവിനിടെ മഞ്ചേരി സ്വദേശിയുടെ സമ്മതമില്ലാതെ ചിത്രങ്ങളും വീഡിയോകളും പ്രദർശിപ്പിച്ചതാണ് കേസ്. സ്ത്രീത്വത്തെ അപമാനിക്കൽ, ഐടി നിയമ വകുപ്പുകൾ ചുമത്തിയാണ് മഞ്ചേരി പൊലീസ് കേസെടുത്തത്. തുടർന്ന് ഇയാൾക്ക് ഹൈക്കോടതി ജാമ്യം അനുവദിച്ചിരുന്നു.\n📍 സ്ഥലം: മഞ്ചേരി\n👮 നടപടി: മഞ്ചേരി പൊലീസ് അറസ്റ്റ് ചെയ്തു, കേസെടുത്തു\n📞 ബന്ധപ്പെടാൻ: മഞ്ചേരി പൊലീസ് സ്റ്റേഷൻ\n\nManjeri man arrested in case of insulting women through social media | Malappuram news\n📍 മഞ്ചേരി, മലപ്പുറം | 12 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Manjeri #Arrest #MalappuramNews",
+   "prompts": "A Kerala Police jeep parked outside a house in a residential area of Manjeri town, Malappuram district, Kerala on a bright November morning: two policemen in khaki seen from behind talking to a person in the doorway, coconut palms and red-tiled houses around, a parked two-wheeler. Same soft morning light and fresh green colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nInside a police station in daytime: a person seen from behind sitting on a bench, a police officer in khaki at a table with a computer, a Kerala Police jeep parked outside a window. Same soft morning light and fresh green colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA Kerala High Court building in daytime: a few people seen from behind walking up the steps, a Kerala Police jeep parked nearby, a person in a white shirt and black pants walking down the steps. Same soft morning light and fresh green colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA red and yellow Kerala KSRTC bus stopped at a stand in Manjeri town, Malappuram district, Kerala on a bright November morning: a few people seen from behind boarding the bus, a Kerala Police jeep parked nearby, coconut palms and red-tiled houses around. Same soft morning light and fresh green colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.mediaoneonline.com/kerala/youtuber-thoppi-friend-muhammed-shameer-arrested-manjeri-police-343535",
+   "published": "2026-11-12T13:22:59+05:30",
+   "verification": "FREE-MODEL DRAFT (cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct) - not checked by Claude yet; validator problems: fact-check: reel_script states 'മഞ്ചേരിയിൽ സ്ത്രീകളെ അപമാനിച്ച കേസിൽ' (In the case of insulting women in Manjeri), which is factually incorrect. The article states the case is about insulting a specific woman from Manjeri ('മഞ്ചേരി സ്വദേശിയുടെ'), not women in general in Manjeri. The headline and caption correctly say 'മഞ്ചേരി സ്വദേശിയെ' (a person from Manjeri), but the reel_script incorrectly generalizes it to 'സ്ത്രീകളെ' (women) and adds the location 'മഞ്ചേരിയിൽ' which implies the act happened in Manjeri or targets women there, whereas the article says the victim is from Manjeri and the act was on a YouTube channel.; fact-check: slides_spec slide 1 line 2 says 'മഞ്ചേരി സ്വദേശിയെ അറസ്റ്റിലാക്കി' (Arrested a person from Manjeri). This is factually incorrect. The arrested person is from Kannur Azhikkod (കണ്ണൂർ അഴീക്കോട് സ്വദേശി). The person from Manjeri is the victim.; fact-check: caption English summary says 'Manjeri man arrested'. This is factually incorrect. The arrested man is from Kannur Azhikkod. The man from Manjeri is the victim.",
+   "note": "free-model draft cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct, 1 attempt(s), 3 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "R",
    "_score": 3.0,
    "images": [
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794503489/news360/kofpd0yccwhcurvi2q25.jpg",
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794503493/news360/oa13vkemy2be7mbufw91.jpg",
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794503492/news360/gbhowbgqjs4vgxaqvcuz.jpg",
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794503499/news360/sxsibqbklhbbfby6zgpi.jpg"
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794504543/news360/dicmhhcobdynalniyi10.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794504547/news360/v5q17iqmdiwtmggjdxr6.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794504546/news360/ghopfrin6uwigcuknts3.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794504550/news360/l4i5xhlyyikbjob0d11l.jpg"
    ]
   }
  ]
