@@ -82,20 +82,12 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-12 | `fad2679` | Remove daily reel limit (owner 12 Nov) |
+| 2026-11-11 | `4599baf` | Heartbeat |
+| 2026-11-11 | `9b7cae3` | Heartbeat |
 | 2026-11-11 | `5777c2e` | Rank human-interest and wild-animal warnings higher |
 | 2026-11-11 | `2be3bd5` | Choose reel topics for new followers |
 | 2026-11-11 | `0b327a5` | ig probe output |
 | 2026-11-11 | `fd0cef8` | ig probe: optional public stats of other pages for comparison |
 | 2026-11-11 | `4726c18` | ig probe output |
-| 2026-11-10 | `7049ce1` | Heartbeat |
-| 2026-11-10 | `e0b09e7` | Heartbeat |
-| 2026-11-10 | `deb965c` | Heartbeat |
-| 2026-11-10 | `8b3d928` | Remove temporary Claude key check |
-| 2026-11-10 | `563589d` | Temporary check of the Claude key |
-| 2026-11-10 | `321843f` | Remove temporary Claude key check |
-| 2026-11-10 | `bbc9bd9` | Temporary check of the Claude key format |
-| 2026-11-10 | `11dd9b6` | Record posts Instagram published despite a temporary error |
-| 2026-11-10 | `e1490cf` | Shorter reels with a stronger hook and a share line |
-| 2026-11-10 | `5cdf219` | Reel voice in friendly spoken Malayalam |
-| 2026-11-09 | `ac92ddb` | Heartbeat |
 <!-- recent-changes:end -->
