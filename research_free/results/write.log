@@ -1,26 +1,22 @@
 writing [N]: കണ്ടനകം കെ.എസ്.ആർ.ടി.സി.യിലെ എസ്.എം. ഓഫീസ് തത്കാലമില്ല
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: കൈവെടിയരുത് ജാഗ്രത
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
-    "message": "You exceeded your current quota, please chewriting [N]: കൈവെടിയരുത് ജാഗ്രത
+    "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
 writing [N]: കളംപാട്ട് അടുത്തറിഞ്ഞ് വിദ്യാർഥികൾ
-free models unavailable: free models not efficient (3 failures in a row): using Claude
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -31,79 +27,96 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx4GRk6odttP9LmcyCwA"}
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx77vogwFte1LMpDxhJc"}
 writing [N]: കലിക്കറ്റ് സർവകലാശാലാ സംരക്ഷണ മാർച്ച് നാളെ
-free models unavailable: free models not efficient (11 failures in a row): using Claude
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx4GViy8nAo67UmvPmus"}
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+free models unavailable: free models not efficient (21 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx77xtT3wYZnFb9BLKZJ"}
 writing [R]: കൺവെട്ടത്ത് കോടികളുടെ നഷ്ടം
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx4GYAoVpJmM3NHGDpNz"}
-writing [N]: ആൺസുഹൃത്തിനെ ഒഴിവാക്കാൻ യുവതിയുടെ ക്വട്ടേഷൻ; യുവതിയും സുഹൃത്
-free models unavailable: free models not efficient (13 failures in a row): using Claude
+free models unavailable: free models not efficient (21 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx781naVxcjG66BG9SPJ"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx4Gct5VW3qyNvcJx7ij"}
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx7847UcvBzWG6GToPLN"}
 writing [N]: നിലമ്പൂർ ബൈപ്പാസ്: ഒരു സ്വപ്നം സാക്ഷാത്കരിക്കപ്പെടുന്നു
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx4GdnA1WfiiPqNMyfZB"}
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx784ya1L3PCdVNyxcdQ"}
+writing [N]: ആൺസുഹൃത്തിനെ ഒഴിവാക്കാൻ യുവതിയുടെ ക്വട്ടേഷൻ; യുവതിയും സുഹൃത്
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx785nReYpj1TsSEBTjE"}
 writing [N]: ആവേശ സ്വീകരണങ്ങളുമായി പ്രചാരണജാഥ മുന്നോട്ട്
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx4GgAWwHhbw8gjcsCzf"}
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx78735mZmMBnhVqHSkq"}
 writing [N]: കൊടകര കുഴൽപ്പണക്കേസ് പുനരന്വേഷിക്കണമെന്ന് ആവശ്യം
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx4Gigq7WERzRubY2seu"}
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx787wA61RZ17ov2fwCa"}
 writing [N]: ഒത്തുചേരുന്നു, നാളെയുടെ സ്വപ്നങ്ങൾ
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx4Gm2yG56gCf9u8g515"}
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx789HHLp5HaXN28kbre"}
 writing [N]: ഡിജിറ്റൽ സർവേ അവസാന ഘട്ടത്തിൽ; ജനങ്ങൾക്ക് കാര്യങ്ങൾ ഉറപ്പുവര
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx4GqjV2Bp6kTQnXY2cf"}
+free models unavailable: free models not efficient (22 failures in a row): using Claude
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx4HdFB7ymN8mN6dxMD6"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx4HkLZxzjvo4Z8LbrtA"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx78ARygJ5rb34fuTc8R"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgx78AWSajwpTwNEucphp"}
 earlier stories still waiting for images: []
-instagram check: 51 recent posts read from both pages
+instagram check: 52 recent posts read from both pages
 write round: 11 news waiting in the queue (written in priority order)
 candidate filter: collected=11
 to write: 1 Manjeri + 10 other district candidates (max 200 + 200 stories)
 candidates waiting: 1 Manjeri, 10 Malappuram; time left 29 min
 try (N) manual=False: കൈവെടിയരുത് ജാഗ്രത
-try (N) manual=False: കളംപാട്ട് അടുത്തറിഞ്ഞ് വിദ്യാർഥികൾ
 try (N) manual=False: കണ്ടനകം കെ.എസ്.ആർ.ടി.സി.യിലെ എസ്.എം. ഓഫീസ് തത്കാലമില്ല
-NOT filed (N) കളംപാട്ട് അടുത്തറിഞ്ഞ് വിദ്യാർഥികൾ: all free models failed: no usable answer from the models
+try (N) manual=False: കളംപാട്ട് അടുത്തറിഞ്ഞ് വിദ്യാർഥികൾ
+NOT filed (N) കൈവെടിയരുത് ജാഗ്രത: all free models failed: no usable answer from the models
 try (N) manual=False: കലിക്കറ്റ് സർവകലാശാലാ സംരക്ഷണ മാർച്ച് നാളെ
 NOT filed (N) കലിക്കറ്റ് സർവകലാശാലാ സംരക്ഷണ മാർച്ച് നാളെ: all free models failed: no usable answer from the models
 try (R) manual=False: കൺവെട്ടത്ത് കോടികളുടെ നഷ്ടം
 NOT filed (R) കൺവെട്ടത്ത് കോടികളുടെ നഷ്ടം: all free models failed: no usable answer from the models
 try (N) manual=False: ആൺസുഹൃത്തിനെ ഒഴിവാക്കാൻ യുവതിയുടെ ക്വട്ടേഷൻ; യുവതിയും സുഹൃത്
-NOT filed (N) ആൺസുഹൃത്തിനെ ഒഴിവാക്കാൻ യുവതിയുടെ ക്വട്ടേഷൻ; യുവതി: all free models failed: no usable answer from the models
+NOT filed (N) കണ്ടനകം കെ.എസ്.ആർ.ടി.സി.യിലെ എസ്.എം. ഓഫീസ് തത്കാലമ: all free models failed: no usable answer from the models
 try (N) manual=False: നിലമ്പൂർ ബൈപ്പാസ്: ഒരു സ്വപ്നം സാക്ഷാത്കരിക്കപ്പെടുന്നു
 NOT filed (N) നിലമ്പൂർ ബൈപ്പാസ്: ഒരു സ്വപ്നം സാക്ഷാത്കരിക്കപ്പെട: all free models failed: no usable answer from the models
 try (N) manual=False: ആവേശ സ്വീകരണങ്ങളുമായി പ്രചാരണജാഥ മുന്നോട്ട്
-NOT filed (N) ആവേശ സ്വീകരണങ്ങളുമായി പ്രചാരണജാഥ മുന്നോട്ട്: all free models failed: no usable answer from the models
+NOT filed (N) ആൺസുഹൃത്തിനെ ഒഴിവാക്കാൻ യുവതിയുടെ ക്വട്ടേഷൻ; യുവതി: all free models failed: no usable answer from the models
 try (N) manual=False: കൊടകര കുഴൽപ്പണക്കേസ് പുനരന്വേഷിക്കണമെന്ന് ആവശ്യം
-NOT filed (N) കൊടകര കുഴൽപ്പണക്കേസ് പുനരന്വേഷിക്കണമെന്ന് ആവശ്യം: all free models failed: no usable answer from the models
+NOT filed (N) ആവേശ സ്വീകരണങ്ങളുമായി പ്രചാരണജാഥ മുന്നോട്ട്: all free models failed: no usable answer from the models
 try (N) manual=False: ഒത്തുചേരുന്നു, നാളെയുടെ സ്വപ്നങ്ങൾ
-NOT filed (N) ഒത്തുചേരുന്നു, നാളെയുടെ സ്വപ്നങ്ങൾ: all free models failed: no usable answer from the models
+NOT filed (N) കൊടകര കുഴൽപ്പണക്കേസ് പുനരന്വേഷിക്കണമെന്ന് ആവശ്യം: all free models failed: no usable answer from the models
 try (N) manual=False: ഡിജിറ്റൽ സർവേ അവസാന ഘട്ടത്തിൽ; ജനങ്ങൾക്ക് കാര്യങ്ങൾ ഉറപ്പുവര
+NOT filed (N) ഒത്തുചേരുന്നു, നാളെയുടെ സ്വപ്നങ്ങൾ: all free models failed: no usable answer from the models
 NOT filed (N) ഡിജിറ്റൽ സർവേ അവസാന ഘട്ടത്തിൽ; ജനങ്ങൾക്ക് കാര്യങ്ങ: all free models failed: no usable answer from the models
-NOT filed (N) കൈവെടിയരുത് ജാഗ്രത: all free models failed: no usable answer from the models
-NOT filed (N) കണ്ടനകം കെ.എസ്.ആർ.ടി.സി.യിലെ എസ്.എം. ഓഫീസ് തത്കാലമ: all free models failed: no usable answer from the models
+NOT filed (N) കളംപാട്ട് അടുത്തറിഞ്ഞ് വിദ്യാർഥികൾ: all free models failed: no usable answer from the models
 candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 10}, done={'R': 0, 'N': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
