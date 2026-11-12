@@ -1,60 +1,136 @@
-writing [N]: ഹൃദയം നിറയ്ക്കുന്ന പച്ചപ്പ്; ഇത് മലയാളി കൊതിക്കുന്ന വീട്
+writing [N]: ഫുജൈറയിൽ വാഹനാപകടത്തിൽ മൂന്ന് മലയാളികൾ മരിച്ചു; മരിച്ചത് മലപ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: മലപ്പുറത്ത് ഈ വർഷം ഷിഗെല്ല ബാധിച്ചത് 75 പേർക്ക്; പ്രതിരോധ നട
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-ok gemini/gemini-3.6-flash (18s)
-attempt 1 gemini/gemini-3.6-flash: 1 problems
-  reel_script has 53 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+writing [N]: യു എ ഇ സന്ദർശനത്തിനെത്തിയ മലപ്പുറത്തെ കുടുംബം വാഹനാപകടത്തിൽ 
+free models unavailable: free models not efficient (5 failures in a row): using Claude
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgxcpkuPiMKAEpmsqmf8C"}
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+writing [N]: കൊണ്ടോട്ടിയിൽ വാഹനത്തിന്റെ കാബിനിൽ കയറി പണവും മൊബൈൽ ഫോണും മോ
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgxcpoVfaNwFvWgCngAS7"}
+writing [N]: ഷിഗല്ലെ സാമൂഹിക വ്യാപനത്തിലേക്ക് നീങ്ങാതിരിക്കാൻ ജാഗ്രത | Ma
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgxcpprGxYWiEwhf6FW6b"}
+writing [N]: ശമ്പളത്തിൽനിന്ന് കരുതൽ; രക്ഷിതാക്കൾക്ക് തുണയായി 'ഉപജീവനം മാഷ
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgxcptTKjWK9CXmJxLe43"}
+writing [N]: ഒരു കോടി രൂപ ചെലവഴിച്ചു നിർമിച്ച റോഡിൽ അരക്കോടി രൂപയുടെ വെട്
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgxcpuvN8sUwjebfx4e1j"}
+writing [N]: കോട്ടക്കൽ അഴിമുഖത്തിന് സമീപം പുഴയിൽ ബൈക്ക് ഉപേ
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgxcpypmhDmotuW5mneNL"}
+writing [N]: ആവേശ സ്വീകരണങ്ങളുമായി പ്രചാരണജാഥ മുന്നോട്ട്
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgxcq4HuyLkgTjfLnkeX7"}
+writing [N]: ഫുജൈറ വാഹനാപകടത്തിൽ മരിച്ചവരിൽ മൂന്ന് മലയാളികളും; മരിച്ചത് ഇ
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgxcq78ZtjGTktywHN2Gt"}
+writing [N]: ഒമാനിലെ റൂവി ഏരിയ SKSSF കമ്മിറ്റിക്ക് പുതിയ നേതൃത്വം
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgxcq968d732rnqAvEbm8"}
+writing [N]: 51 സ്ഥാപനങ്ങളിൽ പരിശോധന; ഏഴ് പേർക്ക് രോഗം, 115 പേർ നിരീക്ഷണത
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgxcqDKsyeF5XmTLnmqpz"}
+ok gemini/gemini-3.6-flash (15s)
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  numbers not found in the article: 7
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgxZfyxNN24KTq3rzwAqh"}
-proofread skipped: free models not efficient (7 failures in a row): using Claude
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgxcqvk1Pm6bzh4aHz3ne"}
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgxcrU89ojfGxwMJkwYyk"}
+proofread skipped: free models not efficient (3 failures in a row): using Claude
 image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
 image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
 imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
 imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150) 504 timeout
 imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
-images NOT made for '2200 sq.ft tropical home built on 15 cen': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
-bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261112-1206","first":"MP-168"}
+imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150) 504 timeout
+images NOT made for 'Three Malappuram natives die in tragic r': all image models failed: all image models failed: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150)
+bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261112-1250","first":"MP-169"}
 posting job started at once
+write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 56 recent posts read from both pages
-write round: 1 news waiting in the queue (written in priority order)
-candidate filter: collected=1
-to write: 0 Manjeri + 1 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 1 Malappuram; time left 29 min
-try (N) manual=False: ഹൃദയം നിറയ്ക്കുന്ന പച്ചപ്പ്; ഇത് മലയാളി കൊതിക്കുന്ന വീട്
-auto images failed for '2200 sq.ft tropical home built on 15 cen': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email
+write round: 18 news waiting in the queue (written in priority order)
+candidate filter: collected=17, already filed=1
+to write: 0 Manjeri + 17 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 17 Malappuram; time left 29 min
+try (N) manual=False: മലപ്പുറത്ത് ഈ വർഷം ഷിഗെല്ല ബാധിച്ചത് 75 പേർക്ക്; പ്രതിരോധ നട
+try (N) manual=False: മലപ്പുറം തിരൂരിൽ ആൺസുഹൃത്തിനെ വധിക്കാൻ ക്വട്ടേഷൻ; യുവതികളടക്
+try (N) manual=False: ഫുജൈറയിൽ വാഹനാപകടത്തിൽ മൂന്ന് മലയാളികൾ മരിച്ചു; മരിച്ചത് മലപ
+skip (N) similar to a filed story: മലപ്പുറം തിരൂരിൽ ആൺസുഹൃത്തിനെ വധിക്കാൻ ക്വട്ടേഷൻ; 
+try (N) manual=False: യു എ ഇ സന്ദർശനത്തിനെത്തിയ മലപ്പുറത്തെ കുടുംബം വാഹനാപകടത്തിൽ 
+NOT filed (N) യു എ ഇ സന്ദർശനത്തിനെത്തിയ മലപ്പുറത്തെ കുടുംബം വാഹന: all free models failed: no usable answer from the models
+try (N) manual=False: കാമുകനെ മർദിക്കാൻ സുഹൃത്തുകൾക്ക് ക്വട്ടേഷൻ; കാമുകിയും കൂട്ടാ
+skip (N) similar to a filed story: കാമുകനെ മർദിക്കാൻ സുഹൃത്തുകൾക്ക് ക്വട്ടേഷൻ; കാമുകി
+try (N) manual=False: കൊണ്ടോട്ടിയിൽ വാഹനത്തിന്റെ കാബിനിൽ കയറി പണവും മൊബൈൽ ഫോണും മോ
+NOT filed (N) കൊണ്ടോട്ടിയിൽ വാഹനത്തിന്റെ കാബിനിൽ കയറി പണവും മൊബൈ: all free models failed: no usable answer from the models
+try (N) manual=False: ഷിഗല്ലെ: പ്രതിരോധവും ജാഗ്രതയും ശക്തമാക്കി ആരോഗ്യവകുപ്പ് | Ma
+skip (N) similar to a filed story: ഷിഗല്ലെ: പ്രതിരോധവും ജാഗ്രതയും ശക്തമാക്കി ആരോഗ്യവക
+try (N) manual=False: ഷിഗല്ലെ സാമൂഹിക വ്യാപനത്തിലേക്ക് നീങ്ങാതിരിക്കാൻ ജാഗ്രത | Ma
+NOT filed (N) ഷിഗല്ലെ സാമൂഹിക വ്യാപനത്തിലേക്ക് നീങ്ങാതിരിക്കാൻ ജ: all free models failed: no usable answer from the models
+try (N) manual=False: മലപ്പുറം സ്വദേശിയായ പ്രവാസി ഖത്തറിൽ അന്തരിച്ചു
+skip (N) similar to a filed story: മലപ്പുറം സ്വദേശിയായ പ്രവാസി ഖത്തറിൽ അന്തരിച്ചു
+try (N) manual=False: ശമ്പളത്തിൽനിന്ന് കരുതൽ; രക്ഷിതാക്കൾക്ക് തുണയായി 'ഉപജീവനം മാഷ
+NOT filed (N) ശമ്പളത്തിൽനിന്ന് കരുതൽ; രക്ഷിതാക്കൾക്ക് തുണയായി 'ഉ: all free models failed: no usable answer from the models
+try (N) manual=False: ഒരു കോടി രൂപ ചെലവഴിച്ചു നിർമിച്ച റോഡിൽ അരക്കോടി രൂപയുടെ വെട്
+NOT filed (N) ഒരു കോടി രൂപ ചെലവഴിച്ചു നിർമിച്ച റോഡിൽ അരക്കോടി രൂ: all free models failed: no usable answer from the models
+try (N) manual=False: ടോക്സിക്കായ ആൺസുഹൃത്തിനെ ഒഴിവാക്കാൻ ക്വട്ടേഷൻ, തിരൂരിൽ യുവതി
+skip (N) similar to a filed story: ടോക്സിക്കായ ആൺസുഹൃത്തിനെ ഒഴിവാക്കാൻ ക്വട്ടേഷൻ, തിര
+try (N) manual=False: കോട്ടക്കൽ അഴിമുഖത്തിന് സമീപം പുഴയിൽ ബൈക്ക് ഉപേ
+NOT filed (N) കോട്ടക്കൽ അഴിമുഖത്തിന് സമീപം പുഴയിൽ ബൈക്ക് ഉപേ: all free models failed: no usable answer from the models
+try (N) manual=False: ആവേശ സ്വീകരണങ്ങളുമായി പ്രചാരണജാഥ മുന്നോട്ട്
+NOT filed (N) ആവേശ സ്വീകരണങ്ങളുമായി പ്രചാരണജാഥ മുന്നോട്ട്: all free models failed: no usable answer from the models
+try (N) manual=False: ഫുജൈറ വാഹനാപകടത്തിൽ മരിച്ചവരിൽ മൂന്ന് മലയാളികളും; മരിച്ചത് ഇ
+NOT filed (N) ഫുജൈറ വാഹനാപകടത്തിൽ മരിച്ചവരിൽ മൂന്ന് മലയാളികളും; : all free models failed: no usable answer from the models
+try (N) manual=False: ഒമാനിലെ റൂവി ഏരിയ SKSSF കമ്മിറ്റിക്ക് പുതിയ നേതൃത്വം
+NOT filed (N) ഒമാനിലെ റൂവി ഏരിയ SKSSF കമ്മിറ്റിക്ക് പുതിയ നേതൃത്: all free models failed: no usable answer from the models
+try (N) manual=False: 51 സ്ഥാപനങ്ങളിൽ പരിശോധന; ഏഴ് പേർക്ക് രോഗം, 115 പേർ നിരീക്ഷണത
+NOT filed (N) 51 സ്ഥാപനങ്ങളിൽ പരിശോധന; ഏഴ് പേർക്ക് രോഗം, 115 പേർ: all free models failed: no usable answer from the models
+NOT filed (N) മലപ്പുറത്ത് ഈ വർഷം ഷിഗെല്ല ബാധിച്ചത് 75 പേർക്ക്; പ: all free models failed: no usable answer from the models
+auto images failed for 'Three Malappuram natives die in tragic r': all image models failed: all image models failed: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed ou -> images-needed email
 auto images: 0 of 1 stories ({})
 posting job started at once
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 1}, done={'R': 0, 'N': 1}, time left 23 min
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 17}, done={'R': 0, 'N': 1}, time left 21 min
 carousel for 0 of 1 stories, the rest reel only
 filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)
-queue: 0 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":1} 
+queue: 11 news waiting to be written
+write_stories.yml started
+All News sheet: {"ok":true,"added":0,"updated":12} 
 stories: 1
