@@ -1,63 +1,106 @@
-writing [N]: ഡിജിറ്റൽ സർവേ അവസാന ഘട്ടത്തിൽ; ജനങ്ങൾക്ക് കാര്യങ്ങൾ ഉറപ്പുവര
+writing [N]: ടോക്സിക്കായ ആൺസുഹൃത്തിനെ ഒഴിവാക്കാൻ ക്വട്ടേഷൻ, തിരൂരിൽ യുവതി
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: ഹൃദയം നിറയ്ക്കുന്ന പച്ചപ്പ്; ഇത് മലയാളി കൊതിക്കുന്ന വീട്
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: തിരൂരിൽ കാമുകനെ ഒഴിവാക്കാൻ ക്വട്ടേഷൻ; തട്ടിക്കൊണ്ടുപോയി മർദ്
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high d
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-switching away from gemini/gemini-3.7-flash for 10 min
 ok gemini/gemini-3.6-flash (16s)
+attempt 1 gemini/gemini-3.6-flash: 2 problems
+  reel_script has 50 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 19 ('പട്ടാമ്പി സ്വദേശിനിയായ പനങ്ങാട്ട് തൊടി സഫാന (19), തിരൂർ നോർത'); 20 ('പട്ടാമ്പി സ്വദേശിനിയായ പനങ്ങാട്ട് തൊടി സഫാന (19), തിരൂർ നോർത'); 25 ('പട്ടാമ്പി സ്വദേശിനിയായ പനങ്ങാട്ട് തൊടി സഫാന (19), തിരൂർ നോർത'); 28 ('പട്ടാമ്പി സ്വദേശിനിയായ പനങ്ങാട്ട് തൊടി സഫാന (19), തിരൂർ നോർത')
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-ok groq/openai/gpt-oss-120b (4s)
-factcheck by groq/openai/gpt-oss-120b: 0 problems
-attempt 1 gemini/gemini-3.6-flash: 0 problems
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok groq/openai/gpt-oss-120b (6s)
-proofread rejected (3 problems)
-  missing key: reel_script
-  missing key: caption
-  missing key: scenes
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-switching away from groq/openai/gpt-oss-120b for 10 min
-ok groq/qwen/qwen3.8-27b (1s)
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgxL8uUMXCsEXq9dn9HGJ"}
+proofread skipped: free models not efficient (11 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
 imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgxL92WmL9GschnuzG1CD"}
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgxLAubMcqKBwARB9SRgL"}
 imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150) 504 timeout
 imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150) 504 timeout
-images NOT made for 'Digital land survey enters final phase i': all image models failed: all image models failed: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150)
-bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261112-0815","first":"MP-163"}
+images NOT made for 'Quotation attack to get rid of boyfriend': all image models failed: all image models failed: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=150)
+bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261112-0908","first":"MP-164"}
 posting job started at once
+writing [N]: നിലമ്പൂർ ബൈപ്പാസ്: ഒരു സ്വപ്നം സാക്ഷാത്കരിക്കപ്പെടുന്നു
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgxLXW1cBEMirUtxyEhgy"}
+writing [N]: സാഹിത്യ സെമിനാറിൽ എസ്. ശ്രീകാർത്തിക ഒന്നാമത് | Deepika | The
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgxLXYsVzyGhmFY8hHE56"}
+write_stories.yml started
 earlier stories still waiting for images: []
-instagram check: 53 recent posts read from both pages
-write round: 1 news waiting in the queue (written in priority order)
-candidate filter: collected=1
-to write: 0 Manjeri + 1 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 1 Malappuram; time left 29 min
-try (N) manual=False: ഡിജിറ്റൽ സർവേ അവസാന ഘട്ടത്തിൽ; ജനങ്ങൾക്ക് കാര്യങ്ങൾ ഉറപ്പുവര
-auto images failed for 'Digital land survey enters final phase i': all image models failed: all image models failed: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed ou -> images-needed email
+instagram check: 54 recent posts read from both pages
+write round: 7 news waiting in the queue (written in priority order)
+candidate filter: collected=6, already filed=1
+to write: 0 Manjeri + 6 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 6 Malappuram; time left 29 min
+try (N) manual=False: തിരൂരിൽ കാമുകനെ ഒഴിവാക്കാൻ ക്വട്ടേഷൻ; തട്ടിക്കൊണ്ടുപോയി മർദ്
+try (N) manual=False: ടോക്സിക്കായ ആൺസുഹൃത്തിനെ ഒഴിവാക്കാൻ ക്വട്ടേഷൻ, തിരൂരിൽ യുവതി
+try (N) manual=False: ഹൃദയം നിറയ്ക്കുന്ന പച്ചപ്പ്; ഇത് മലയാളി കൊതിക്കുന്ന വീട്
+auto images failed for 'Quotation attack to get rid of boyfriend': all image models failed: all image models failed: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed ou -> images-needed email
 auto images: 0 of 1 stories ({})
 posting job started at once
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 1}, done={'R': 0, 'N': 1}, time left 23 min
+try (N) manual=False: സാഹിത്യ സെമിനാറിൽ എസ്. ശ്രീകാർത്തിക ഒന്നാമത് | Deepika | The
+NOT filed (N) ടോക്സിക്കായ ആൺസുഹൃത്തിനെ ഒഴിവാക്കാൻ ക്വട്ടേഷൻ, തിര: all free models failed: no usable answer from the models
+NOT filed (N) ഹൃദയം നിറയ്ക്കുന്ന പച്ചപ്പ്; ഇത് മലയാളി കൊതിക്കുന്: all free models failed: no usable answer from the models
+try (N) manual=False: കാമുകൻ സ്വാതന്ത്ര്യം തരുന്നില്ല, ഒഴിവാക്കാൻ ക്വട്ടേഷൻ: മലപ്പ
+try (N) manual=False: നിലമ്പൂർ ബൈപ്പാസ്: ഒരു സ്വപ്നം സാക്ഷാത്കരിക്കപ്പെടുന്നു
+NOT filed (N) നിലമ്പൂർ ബൈപ്പാസ്: ഒരു സ്വപ്നം സാക്ഷാത്കരിക്കപ്പെട: all free models failed: no usable answer from the models
+skip (N) similar to a filed story: കാമുകൻ സ്വാതന്ത്ര്യം തരുന്നില്ല, ഒഴിവാക്കാൻ ക്വട്ട
+NOT filed (N) സാഹിത്യ സെമിനാറിൽ എസ്. ശ്രീകാർത്തിക ഒന്നാമത് | Dee: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 6}, done={'R': 0, 'N': 1}, time left 24 min
 carousel for 0 of 1 stories, the rest reel only
 filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)
-queue: 0 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":1} 
+queue: 4 news waiting to be written
+write_stories.yml started
+All News sheet: {"ok":true,"added":0,"updated":5} 
 stories: 1
