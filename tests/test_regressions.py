@@ -284,7 +284,7 @@ class PrimeTime(unittest.TestCase):
             self.assertIn("07:00", post.prime_wait(self.row("സ്വകാര്യ ബസ് ഇടിച്ച് തൊഴിലാളി മരിച്ചു"), self.at(h, m)))
         self.assertEqual("", post.prime_wait(self.row("സ്വകാര്യ ബസ് ഇടിച്ച് തൊഴിലാളി മരിച്ചു"), self.at(6, 0)))
 
-    def test_pacing_gap_and_daily_max(self):            # owner 4 Nov: 75 min between reels, at most 6 a day per page
+    def test_pacing_gap_and_daily_max(self):            # owner 4 Nov: 75 min between reels; owner 12 Nov: no daily limit (daily_max 0)
         now = self.at(19, 0)
         old_dry, old_recent = post.DRY, dict(post.IG_RECENT)
         post.DRY = False
@@ -294,7 +294,13 @@ class PrimeTime(unittest.TestCase):
             post.IG_RECENT["malappuram"] = [((now - datetime.timedelta(minutes=80)).strftime("%Y-%m-%dT%H:%M:%S%z"), "x")]
             self.assertEqual("", post.pacing_wait("malappuram", now))
             post.IG_RECENT["malappuram"] = [((now - datetime.timedelta(hours=k + 2)).strftime("%Y-%m-%dT%H:%M:%S%z"), "x") for k in range(6)]
-            self.assertIn("daily maximum", post.pacing_wait("malappuram", now))
+            self.assertEqual("", post.pacing_wait("malappuram", now))      # 6 today: no limit
+            pt = post.CONFIG.setdefault("prime_time", {}); old_cap = pt.get("daily_max")
+            pt["daily_max"] = 6
+            try:
+                self.assertIn("daily maximum", post.pacing_wait("malappuram", now))
+            finally:
+                pt["daily_max"] = old_cap
         finally:
             post.DRY = old_dry
             post.IG_RECENT.clear(); post.IG_RECENT.update(old_recent)
