@@ -82,6 +82,7 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-12 | `74be949` | Images: free Pollinations backup, cheaper Cloudflare, shorter NVIDIA wait |
 | 2026-11-12 | `fad2679` | Remove daily reel limit (owner 12 Nov) |
 | 2026-11-11 | `4599baf` | Heartbeat |
 | 2026-11-11 | `9b7cae3` | Heartbeat |
