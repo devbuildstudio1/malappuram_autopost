@@ -1482,7 +1482,7 @@ def auto_images():
     if not pend:
         return
     budget = time.time() + int(os.environ.get("AUTO_IMG_SECONDS", "420"))      # the check job must finish; the rest waits for the next run
-    giveup_h = float(os.environ.get("AUTO_IMG_GIVEUP_H", "3"))
+    giveup_h = float(os.environ.get("AUTO_IMG_GIVEUP_H", "12"))      # 12 Nov: 3 h sent reels out plain while the free image services were busy
     sys.path.insert(0, str(ROOT / "research_free"))
     import imagegen
     cap = int(os.environ.get("IMG_MAX_PER_RUN", "40"))

@@ -85,12 +85,14 @@ def _pollinations(prompt, seed):
     from PIL import Image
     url = POLL + quote(prompt[:1000], safe="")
     params = {"width": 720, "height": 1280, "seed": seed, "nologo": "true", "model": "flux", "private": "true"}
-    for k in range(3):
-        r = requests.get(url, params=params, timeout=90)
-        if r.status_code in (402, 429) and k < 2:      # anonymous use: one picture per 45 s per address ("Retry after 19s")
+    headers = {"Authorization": "Bearer " + os.environ["POLLINATIONS_KEY"]} if os.environ.get("POLLINATIONS_KEY") else {}
+    for k in range(5):
+        r = requests.get(url, params=params, headers=headers, timeout=90)
+        # busy answers say when to come back: 402/429 "one picture per 45 s per address", 503 "at its limit right now. Retry after 10s"
+        if r.status_code in (402, 429, 500, 502, 503) and k < 4:
             import re
             m = re.search(r"[Rr]etry after (\d+)", r.text)
-            time.sleep(min(50, int(m.group(1)) if m else 45) + 2)
+            time.sleep(min(50, int(m.group(1)) if m else 15 * (k + 1)) + 2)
             continue
         break
     if r.status_code != 200 or not r.headers.get("content-type", "").startswith("image/"):
@@ -174,7 +176,7 @@ def generate(prompt, seed=0, key=None, cheap=False):
 
 
 def _generate(prompt, seed=0, key=None, cheap=False):
-    """owner 29 Oct: FREE first - Cloudflare Workers AI FLUX schnell, then NVIDIA FLUX (free credits); only when both fail, fal.ai
+    """owner 29 Oct: FREE first - Cloudflare Workers AI FLUX schnell, then Pollinations (12 Nov), then NVIDIA FLUX (free credits); only when all fail, fal.ai
     (cover: FLUX dev; scenes 2-3: FLUX schnell, dev as backup). Cloudinary only stores the picture."""
     tok, acct = os.environ.get("CLOUDFLARE_API_TOKEN"), os.environ.get("CLOUDFLARE_ACCOUNT_ID")
     last = None
@@ -192,12 +194,7 @@ def _generate(prompt, seed=0, key=None, cheap=False):
                 print("imagegen:", m[:220], file=sys.stderr)
                 if any(c in m for c in (" 401", " 403", " 404", " 400", " 422", "no image", "daily free allocation")) or "Timeout" in type(e).__name__:
                     DEAD.add(model)      # the daily free neurons are used up: not tried again for every picture of this run
-    nkey = key or os.environ.get("NVIDIA_API_KEY")
-    if nkey and not all(m in DEAD for m, _ in MODELS):
-        try:
-            return generate_nvidia(prompt, seed, nkey)
-        except Exception as e:
-            last = e
+    # 12 Nov: Pollinations before NVIDIA - NVIDIA timed out (90 s each) or answered 500 all evening and used up the run's picture time
     if "pollinations" not in DEAD and os.environ.get("POLLINATIONS_OFF") != "1":
         try:
             img = _pollinations(prompt, seed)
@@ -207,8 +204,14 @@ def _generate(prompt, seed=0, key=None, cheap=False):
             last = e
             m = str(e)
             print("imagegen:", m[:220], file=sys.stderr)
-            if "Timeout" in type(e).__name__ or "timed out" in m or " 5" in m[:16]:
+            if "Timeout" in type(e).__name__ or "timed out" in m:
                 DEAD.add("pollinations")
+    nkey = key or os.environ.get("NVIDIA_API_KEY")
+    if nkey and not all(m in DEAD for m, _ in MODELS):
+        try:
+            return generate_nvidia(prompt, seed, nkey)
+        except Exception as e:
+            last = e
     fkey = os.environ.get("FAL_KEY")
     for fm in ([FAL_SCENE_MODEL, FAL_MODEL] if cheap and FAL_SCENE_MODEL != FAL_MODEL else [FAL_MODEL]):
         if not fkey or fm in DEAD:
@@ -248,7 +251,7 @@ def generate_nvidia(prompt, seed=0, key=None):
                 if "Timeout" in type(e).__name__ or "timed out" in m:
                     m += " 504 timeout"
                 print("imagegen:", m[:220], file=sys.stderr)
-                if any(c in m for c in (" 401", " 403", " 404", " 422", " 504")):
+                if any(c in m for c in (" 401", " 403", " 404", " 422", " 500", " 502", " 503", " 504")):
                     DEAD.add(model)
                     break
                 if any(c in m for c in (" 402", " 429")):

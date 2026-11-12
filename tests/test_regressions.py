@@ -612,10 +612,27 @@ class FreeImagesFirst(unittest.TestCase):
 
     def test_free_first_then_fal(self):
         self.assertEqual(["cloudflare"], self.order(set()))
-        self.assertEqual(["cloudflare", "nvidia"], self.order({"cloudflare"}))
-        self.assertEqual(["cloudflare", "nvidia", "pollinations"], self.order({"cloudflare", "nvidia"}))      # 12 Nov: free backup
-        self.assertEqual(["cloudflare", "nvidia", "pollinations", "fal-ai/flux/dev"], self.order({"cloudflare", "nvidia", "pollinations"}))      # cover
-        self.assertEqual(["cloudflare", "nvidia", "pollinations", "fal-ai/flux/schnell"], self.order({"cloudflare", "nvidia", "pollinations"}, cheap=True))      # scenes 2-3
+        self.assertEqual(["cloudflare", "pollinations"], self.order({"cloudflare"}))      # 12 Nov: free backup before NVIDIA
+        self.assertEqual(["cloudflare", "pollinations", "nvidia"], self.order({"cloudflare", "pollinations"}))
+        self.assertEqual(["cloudflare", "pollinations", "nvidia", "fal-ai/flux/dev"], self.order({"cloudflare", "pollinations", "nvidia"}))      # cover
+        self.assertEqual(["cloudflare", "pollinations", "nvidia", "fal-ai/flux/schnell"], self.order({"cloudflare", "pollinations", "nvidia"}, cheap=True))      # scenes 2-3
+
+    def test_pollinations_waits_when_busy(self):      # 12 Nov: a 503 "retry after 10s" switched the free backup off for the whole run
+        import imagegen
+        class R:
+            def __init__(self, code, text="", ctype="text/plain", content=b""):
+                self.status_code, self.text, self.headers, self.content = code, text, {"content-type": ctype}, content
+        from io import BytesIO
+        from PIL import Image
+        buf = BytesIO(); Image.new("RGB", (72, 128)).save(buf, "JPEG")
+        answers = [R(503, "at its limit right now. Retry after 1s"), R(402, "Retry after 1s"), R(200, ctype="image/jpeg", content=buf.getvalue())]
+        old_get, old_sleep = imagegen.requests.get, imagegen.time.sleep
+        imagegen.requests.get = lambda *a, **k: answers.pop(0)
+        imagegen.time.sleep = lambda s: None
+        try:
+            self.assertTrue(imagegen._pollinations("p", 1))
+        finally:
+            imagegen.requests.get, imagegen.time.sleep = old_get, old_sleep
 
 
 class NewsImagePrompt(unittest.TestCase):
