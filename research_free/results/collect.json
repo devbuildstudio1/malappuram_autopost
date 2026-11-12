@@ -1,17 +1,19 @@
 {
  "log": [
   "earlier stories still waiting for images: []",
-  "instagram check: 55 recent posts read from both pages",
+  "instagram check: 56 recent posts read from both pages",
   "write round: 1 news waiting in the queue (written in priority order)",
   "candidate filter: collected=1",
   "to write: 0 Manjeri + 1 other district candidates (max 200 + 200 stories)",
   "candidates waiting: 0 Manjeri, 1 Malappuram; time left 29 min",
   "try (N) manual=False: ഹൃദയം നിറയ്ക്കുന്ന പച്ചപ്പ്; ഇത് മലയാളി കൊതിക്കുന്ന വീട്",
-  "NOT filed (N) ഹൃദയം നിറയ്ക്കുന്ന പച്ചപ്പ്; ഇത് മലയാളി കൊതിക്കുന്: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 1}, done={'R': 0, 'N': 0}, time left 29 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
-  "queue: 1 news waiting to be written",
+  "auto images failed for '2200 sq.ft tropical home built on 15 cen': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email",
+  "auto images: 0 of 1 stories ({})",
+  "posting job started at once",
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 1}, done={'R': 0, 'N': 1}, time left 23 min",
+  "carousel for 0 of 1 stories, the rest reel only",
+  "filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)",
+  "queue: 0 news waiting to be written",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":1}"
  ],
  "llm": [
@@ -21,6 +23,9 @@
   "dead for this round: gemini/gemini-3.8-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
+  "ok gemini/gemini-3.6-flash (18s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
@@ -33,5 +38,60 @@
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "പെരിന്തൽമണ്ണ കുന്നപ്പള്ളിയിൽ 15 സെന്റിൽ 2200 ചതുരശ്രയടിയിൽ ഒരുങ്ങിയ മനോഹര വീട്",
+   "english_headline": "2200 sq.ft tropical home built on 15 cents at Kunnappally near Perinthalmanna",
+   "category": "Home & Design",
+   "location": "Kunnappally, Perinthalmanna, Malappuram district",
+   "importance": "Low",
+   "scope": "district",
+   "post_to": "Malappuram 360 (collab: Manjeri 360)",
+   "slides_spec": {
+    "v": 3,
+    "cat": "വീട്ടുവിശേഷം",
+    "loc": "കുന്നപ്പള്ളി, പെരിന്തൽമണ്ണ",
+    "hl1": "പെരിന്തൽമണ്ണ കുന്നപ്പള്ളിയിലെ വീട്",
+    "hl2": "15 സെന്റിൽ 2200 ചതുരശ്രയടി",
+    "slides": [
+     {
+      "title": "അളവും പ്ലാനും",
+      "lines": [
+       "പെരിന്തൽമണ്ണ കുന്നപ്പള്ളിയിൽ <b>15</b> സെന്റിൽ വീട്",
+       "മണികണ്ഠന്റെ <b>2200</b> ചതുരശ്രയടി വീട്",
+       "ഡിസൈൻ ചെയ്തത് ആർക്കിടെക്റ്റ് മുഹമ്മദ് റഷീദ്"
+      ]
+     },
+     {
+      "title": "മുറികളും",
+      "lines": [
+       "ആകെ <b>3</b> കിടപ്പുമുറികൾ ഒരുക്കി",
+       "താഴെ ഒരു മുറിയും മുകളിൽ <b>2</b> മുറികളും",
+       "ഡബിൾ ഹൈറ്റ് ലിവിങ്-ഡൈനിങ് ഹാൾ"
+      ]
+     },
+     {
+      "title": "പ്രത്യേകതകൾ",
+      "lines": [
+       "പല തട്ടുകളായുള്ള ഓടുമേഞ്ഞ മേൽക്കൂര",
+       "ലാറ്ററൈറ്റ് ക്ലാഡിങ് നൽകിയ ചുവരുകൾ",
+       "സൈഡ് യാർഡും പാറ്റിയോയും അടങ്ങിയ പച്ചപ്പ്"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "പെരിന്തൽമണ്ണ കുന്നപ്പള്ളിയിൽ 15 സെന്റിൽ മനോഹരമായൊരു വീട്. മണികണ്ഠനും കുടുംബത്തിനുമായാണ് 2200 ചതുരശ്രയടിയിൽ വീട് നിർമിച്ചത്. പല തട്ടുകളായുള്ള ഓടുമേഞ്ഞ മേൽക്കൂരയും ലാറ്ററൈറ്റ് ക്ലാഡിങ് ചുവരുകളുമാണ് പ്രധാന ഭംഗി. താഴത്തെ നിലയിൽ ഒരു മുറിയും മുകളിൽ 2 മുറികളുമുണ്ട്. ലിവിങ്-ഡൈനിങ് ഹാൾ ഡബിൾ ഹൈറ്റിലാണ് ഒരുക്കിയിരിക്കുന്നത്. പെരിന്തൽമണ്ണയിലെ ആർക്കിടെക്റ്റ് മുഹമ്മദ് റഷീദാണ് വീട് രൂപകൽപ്പന ചെയ്തത്. വീടുപണിയാൻ ആഗ്രഹിക്കുന്ന കൂട്ടുകാർക്ക് ഇത് അയച്ചുകൊടുക്കണേ. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🏡 പെരിന്തൽമണ്ണ കുന്നപ്പള്ളിയിൽ 15 സെന്റിൽ 2200 ചതുരശ്രയടിയിൽ ഒരുങ്ങിയ മനോഹര വീട്\n\n📰 പൂർണ വിവരം:\nമലപ്പുറം പെരിന്തൽമണ്ണയ്ക്കടുത്ത് കുന്നപ്പള്ളിയിൽ മണികണ്ഠനും കുടുംബത്തിനുമായി 15 സെന്റിൽ 2200 ചതുരശ്രയടി വീട് ഒരുക്കി. പല തട്ടുകളായി ചരിഞ്ഞ ഓടുവിരിച്ച മേൽക്കൂരയും ലാറ്ററൈറ്റ് ക്ലാഡിങ് പതിച്ച ചുവരുകളുമാണ് വീടിന്റെ പുറംകാഴ്ചയിലെ പ്രത്യേകത. താഴത്തെ നിലയിൽ സിറ്റൗട്ട്, ലിവിങ്, ഡൈനിങ്, കിച്ചൻ, വർക്കേരിയ, ഒരു കിടപ്പുമുറി, ബാത്റൂം എന്നിവയുണ്ട്. മുകൾനിലയിൽ 2 കിടപ്പുമുറികളും ബാത്റൂമും ബാൽക്കണിയുമുണ്ട്. ഡബിൾഹൈറ്റിലുള്ള ലിവിങ്-ഡൈനിങ് ഹാളും മഹാഗണി പ്ലാങ്ക് വിരിച്ച ഇൻഡസ്ട്രിയൽ സ്റ്റെയറും ശ്രദ്ധേയമാണ്. ആർ+എ ആർക്കിടെക്ട്സിലെ ആർക്കിടെക്റ്റ് മുഹമ്മദ് റഷീദാണ് വീട് ഡിസൈൻ ചെയ്തത്.\n\n📍 സ്ഥലം: കുന്നപ്പള്ളി, പെരിന്തൽമണ്ണ\n📐 വിസ്തീർണം: 15 സെന്റ്, 2200 Sq.ft\n👤 ഉടമ: മണികണ്ഠൻ\n✏️ ആർക്കിടെക്റ്റ്: മുഹമ്മദ് റഷീദ് (R+A Architects)\nവീട് നിർമിക്കാൻ ആഗ്രഹിക്കുന്നവർക്കായി Share ചെയ്യൂ\n\nKunnappally Perinthalmanna 2200 sqft home design | Malappuram news\n📍 കുന്നപ്പള്ളി, പെരിന്തൽമണ്ണ, മലപ്പുറം | 12 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Perinthalmanna #HomeDesign #MalappuramNews",
+   "prompts": "Exterior front view of a newly built tropical Kerala house at Kunnappally near Perinthalmanna, multi-sloped clay tile roof, white plastered walls with warm laterite stone cladding sections, lush green landscape with bamboo and palm plants in front, daytime sunlight. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nInterior view of a double-height living and dining space in the Perinthalmanna house, customized wooden furniture, textured paint wall behind a TV unit, sunlight streaming in through large glass windows facing a green patio. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose view of an open industrial staircase inside the home featuring dark mahogany wood steps, bay window seating at the first stair landing looking out to tropical garden greenery. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nView of the side yard patio filled with Calathea and tropical foliage, seen through sliding glass doors from the dining hall, peaceful natural lighting. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.manoramaonline.com/homestyle/dream-home/2026/11/11/tropical-house-with-green-interiors-kunnappally.html",
+   "published": "2026-11-12T07:08:38+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: reel_script has 53 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 4.0,
+   "auto_images": true
+  }
+ ]
 }
