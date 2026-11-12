@@ -8,45 +8,107 @@
   "candidates waiting: 0 Manjeri, 2 Malappuram; time left 29 min",
   "try (N) manual=False: ഹൃദയം നിറയ്ക്കുന്ന പച്ചപ്പ്; ഇത് മലയാളി കൊതിക്കുന്ന വീട്",
   "try (N) manual=False: സാഹിത്യ സെമിനാറിൽ എസ്. ശ്രീകാർത്തിക ഒന്നാമത് | Deepika | The",
+  "auto images failed for 'S. Sreekarthika wins first place in Mank': all image models failed: all image models failed: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed ou -> images-needed email",
+  "auto images: 0 of 1 stories ({})",
+  "posting job started at once",
   "NOT filed (N) ഹൃദയം നിറയ്ക്കുന്ന പച്ചപ്പ്; ഇത് മലയാളി കൊതിക്കുന്: all free models failed: no usable answer from the models",
-  "NOT filed (N) സാഹിത്യ സെമിനാറിൽ എസ്. ശ്രീകാർത്തിക ഒന്നാമത് | Dee: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 2}, done={'R': 0, 'N': 0}, time left 29 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
-  "queue: 2 news waiting to be written",
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 2}, done={'R': 0, 'N': 1}, time left 21 min",
+  "carousel for 0 of 1 stories, the rest reel only",
+  "filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)",
+  "queue: 1 news waiting to be written",
+  "write_stories.yml started",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":2}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.8-flash",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "switching away from gemini/gemini-3.8-flash for 10 min",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "switching away from gemini/gemini-3.8-flash for 10 min",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.7-flash",
+  "ok gemini/gemini-3.6-flash (16s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
-  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
   "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
   "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
-  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min"
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "മങ്കട ഉപജില്ലാ സാഹിത്യ സെമിനാറിൽ എസ്. ശ്രീകാർത്തികയ്ക്ക് ഒന്നാം സ്ഥാനം",
+   "english_headline": "S. Sreekarthika wins first place in Mankada sub-district literary seminar",
+   "category": "Education",
+   "location": "Angadippuram, Mankada sub-district, Malappuram district",
+   "importance": "Low",
+   "scope": "local",
+   "post_to": "Malappuram 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "വിദ്യാഭ്യാസം",
+    "loc": "അങ്ങാടിപ്പുറം, മങ്കട",
+    "hl1": "മങ്കട ഉപജില്ലാ സാഹിത്യ സെമിനാർ",
+    "hl2": "എസ്. ശ്രീകാർത്തിക ഒന്നാമത്",
+    "slides": [
+     {
+      "title": "ഒന്നാം സ്ഥാനം",
+      "lines": [
+       "എഐ കാലത്തെ സർഗാത്മകത എന്ന വിഷയത്തിൽ സെമിനാർ",
+       "പരിയാപുരം സെന്റ് മേരീസ് സ്കൂളിലെ <b>എസ്. ശ്രീകാർത്തിക</b> ഒന്നാമത്",
+       "മങ്കടയെ പ്രതിനിധീകരിച്ച് ജില്ലാതലത്തിൽ മത്സരിക്കും"
+      ]
+     },
+     {
+      "title": "മറ്റു വിജയികൾ",
+      "lines": [
+       "രണ്ടാം സ്ഥാനം: <b>എം. ഷെസ ഫാത്തിമ</b> (വടക്കാങ്ങര ടിഎസ്എസ്)",
+       "മൂന്നാം സ്ഥാനം: <b>എസ്. അനാമിക</b> (കൊളത്തൂർ എൻഎച്ച്എസ്എസ്)",
+       "എഇഒ <b>ജോസ്മി ജോസഫ്</b> സമ്മാനങ്ങൾ വിതരണം ചെയ്തു"
+      ]
+     },
+     {
+      "title": "സംഘാടനം",
+      "lines": [
+       "വിദ്യാരംഗം കലാസാഹിത്യവേദിയാണ് പരിപാടി സംഘടിപ്പിച്ചത്",
+       "മങ്കട ഉപജില്ലാതലത്തിലായിരുന്നു മത്സരം",
+       "അങ്ങാടിപ്പുറത്താണ് സെമിനാർ നടന്നത്"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "മങ്കട ഉപജില്ലാ സാഹിത്യ സെമിനാറിൽ എസ്. ശ്രീകാർത്തിക ഒന്നാം സ്ഥാനം നേടി. വിദ്യാരംഗം കലാസാഹിത്യവേദി സംഘടിപ്പിച്ച ഉപജില്ലാതല സെമിനാറിലാണ് വിജയം. എഐ കാലത്തെ സർഗാത്മകത എന്നതായിരുന്നു സെമിനാർ വിഷയം. പരിയാപുരം സെന്റ് മേരീസ് ഹയർ സെക്കൻഡറി സ്കൂളിലെ 10ം ക്ലാസ് വിദ്യാർഥിനിയാണ് ശ്രീകാർത്തിക. ജില്ലാതല മത്സരത്തിൽ ശ്രീകാർത്തിക മങ്കടയെ പ്രതിനിധീകരിക്കും. വടക്കാങ്ങര ടിഎസ്എസിലെ എം. ഷെസ ഫാത്തിമ രണ്ടാം സ്ഥാനവും കൊളത്തൂർ എൻഎച്ച്എസ്എസിലെ എസ്. അനാമിക മൂന്നാം സ്ഥാനവും നേടി. എഇഒ ജോസ്മി ജോസഫ് സമ്മാനങ്ങൾ വിതരണം ചെയ്തു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🎓 മങ്കട ഉപജില്ലാ സാഹിത്യ സെമിനാറിൽ എസ്. ശ്രീകാർത്തിക ഒന്നാമത്\n\n📰 പൂർണ വിവരം:\nമങ്കട ഉപജില്ലാതലത്തിൽ വിദ്യാരംഗം കലാസാഹിത്യവേദി സംഘടിപ്പിച്ച സാഹിത്യ സെമിനാറിൽ പരിയാപുരം സെന്റ് മേരീസ് ഹയർ സെക്കൻഡറി സ്കൂളിലെ പത്താം ക്ലാസ് വിദ്യാർഥിനി എസ്. ശ്രീകാർത്തിക ഒന്നാം സ്ഥാനം നേടി. എഐ കാലത്തെ സർഗാത്മകത എന്നതായിരുന്നു സെമിനാർ വിഷയം. മങ്കട ഉപജില്ലയെ പ്രതിനിധീകരിച്ച് ശ്രീകാർത്തിക ജില്ലാതല മത്സരത്തിൽ പങ്കെടുക്കും. വടക്കാങ്ങര ടിഎസ്എസിലെ എം. ഷെസ ഫാത്തിമ രണ്ടും കൊളത്തൂർ എൻഎച്ച്എസ്എസിലെ എസ്. അനാമിക മൂന്നും സ്ഥാനം നേടി. എഇഒ ജോസ്മി ജോസഫ് സമ്മാനങ്ങൾ വിതരണം ചെയ്തു. മങ്കട ഗവൺമെന്റ് എച്ച്എസ്എസ് പ്രധാനാധ്യാപകൻ വി. ഷൗക്കത്തലി, സുനിൽ പെഴുങ്കാട്, വിദ്യാരംഗം ഉപജില്ലാ കോ-ഓർഡിനേറ്റർ പി. സബിൻ, പി.ടി. സൈഫുദ്ധീൻ, പി. ഷമീന എന്നിവർ പ്രസംഗിച്ചു.\n\n📍 സ്ഥലം: അങ്ങാടിപ്പുറം, മങ്കട\n🏆 വിജയി: എസ്. ശ്രീകാർത്തിക (പത്താം ക്ലാസ്, പരിയാപുരം സെന്റ് മേരീസ് എച്ച്എസ്എസ്)\n\nMankada sub district literary seminar winner S Sreekarthika | Malappuram news\n📍 അങ്ങാടിപ്പുറം, മലപ്പുറം | 12 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Mankada #Education #MalappuramNews",
+   "prompts": "A decorated school hall stage in Angadippuram near Mankada, Malappuram district, during a literary seminar event, with a wooden podium and flower pots, viewed from the audience side in soft daytime light. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA student standing on stage receiving a trophy and certificate from an official during an award ceremony in a school auditorium in Malappuram district, blurred audience in background. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA view of speakers and school teachers seated on the stage during the Mankada sub-district Vidyarangam event, bright daytime atmosphere with lush greenery outside the window. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nSchool students in uniforms seated in rows inside an auditorium during a literary contest event in Malappuram, viewed from behind. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.deepika.com/district-news/at-the-literature-seminar-s-sreekarthika-first-place-214147",
+   "published": "2026-11-11T23:24:00+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: stray Malayalam sign 'ാ' after '0' in «ിലെ 10ാം ക»",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 3.0,
+   "auto_images": true
+  }
+ ]
 }
