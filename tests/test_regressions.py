@@ -233,14 +233,15 @@ class Images(unittest.TestCase):
     def test_cover_dev_scenes_schnell(self):      # owner: cost saving, every picture still made for this news
         import imagegen
         calls = []
-        old_fal, old_size, old_key = imagegen._fal, imagegen.to_story_size, os.environ.get("FAL_KEY")
+        old_fal, old_size, old_key, old_poll = imagegen._fal, imagegen.to_story_size, os.environ.get("FAL_KEY"), imagegen._pollinations
         imagegen._fal = lambda p, s, k, model=None: calls.append(model) or b"img"
+        imagegen._pollinations = lambda p, s: (_ for _ in ()).throw(RuntimeError("pollinations 429: busy"))      # free backup down: fal
         imagegen.to_story_size = lambda b: b
         os.environ["FAL_KEY"] = "test"
         try:
             imagegen.generate("p", 1); imagegen.generate("p", 1, cheap=True)
         finally:
-            imagegen._fal, imagegen.to_story_size = old_fal, old_size
+            imagegen._fal, imagegen.to_story_size, imagegen._pollinations = old_fal, old_size, old_poll
             if old_key is None:
                 os.environ.pop("FAL_KEY", None)
             else:
@@ -592,10 +593,11 @@ class FreeImagesFirst(unittest.TestCase):
                     raise RuntimeError(name + " 429: daily free allocation used")
                 return b"img"
             return f
-        saved = {k: getattr(imagegen, k) for k in ("_cf", "generate_nvidia", "_fal", "to_story_size")}
+        saved = {k: getattr(imagegen, k) for k in ("_cf", "generate_nvidia", "_fal", "_pollinations", "to_story_size")}
         env = {k: os.environ.get(k) for k in ("FAL_KEY", "NVIDIA_API_KEY", "CLOUDFLARE_API_TOKEN", "CLOUDFLARE_ACCOUNT_ID")}
         imagegen._cf, imagegen.generate_nvidia, imagegen.to_story_size = src("cloudflare"), src("nvidia"), (lambda b: b)
         imagegen._fal = lambda p, s, k, model=None: src(model)()
+        imagegen._pollinations = src("pollinations")
         os.environ.update({k: "test" for k in env})
         imagegen.DEAD.clear()
         try:
@@ -611,8 +613,9 @@ class FreeImagesFirst(unittest.TestCase):
     def test_free_first_then_fal(self):
         self.assertEqual(["cloudflare"], self.order(set()))
         self.assertEqual(["cloudflare", "nvidia"], self.order({"cloudflare"}))
-        self.assertEqual(["cloudflare", "nvidia", "fal-ai/flux/dev"], self.order({"cloudflare", "nvidia"}))      # cover
-        self.assertEqual(["cloudflare", "nvidia", "fal-ai/flux/schnell"], self.order({"cloudflare", "nvidia"}, cheap=True))      # scenes 2-3
+        self.assertEqual(["cloudflare", "nvidia", "pollinations"], self.order({"cloudflare", "nvidia"}))      # 12 Nov: free backup
+        self.assertEqual(["cloudflare", "nvidia", "pollinations", "fal-ai/flux/dev"], self.order({"cloudflare", "nvidia", "pollinations"}))      # cover
+        self.assertEqual(["cloudflare", "nvidia", "pollinations", "fal-ai/flux/schnell"], self.order({"cloudflare", "nvidia", "pollinations"}, cheap=True))      # scenes 2-3
 
 
 class NewsImagePrompt(unittest.TestCase):

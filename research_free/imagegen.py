@@ -14,7 +14,7 @@ USED = {}
 
 
 def _one(model, body, key):
-    r = requests.post(GEN + model, json=body, timeout=150,
+    r = requests.post(GEN + model, json=body, timeout=90,      # 12 Nov: 150 s waits ate the run's picture time
                       headers={"Authorization": "Bearer " + key, "Accept": "application/json"})
     if r.status_code != 200:
         raise RuntimeError(f"{model} {r.status_code}: {r.text[:300]}")
@@ -56,7 +56,8 @@ def _fal(prompt, seed, key, model=None):
 
 CF = "https://api.cloudflare.com/client/v4/accounts/{}/ai/run/@cf/"
 CF_MODELS = [
-    ("black-forest-labs/flux-1-schnell", lambda p, s: {"prompt": p, "steps": 8}),
+    # 12 Nov: 4 steps (schnell's own setting) - each step costs most of the free daily neurons, 8 steps ran out by evening
+    ("black-forest-labs/flux-1-schnell", lambda p, s: {"prompt": p, "steps": 4}),
 ]
 
 
@@ -71,6 +72,35 @@ def _cf(model, body, token, acct):
     if not b64:
         raise RuntimeError(f"cloudflare {model} no image: {str(j)[:200]}")
     return base64.b64decode(b64)
+
+
+POLL = "https://image.pollinations.ai/prompt/"
+
+
+def _pollinations(prompt, seed):
+    """12 Nov: free, no key - the backup when Cloudflare's daily allowance is used up and NVIDIA times out.
+    Anonymous pictures carry a small 'pollinations.ai' mark in the bottom corner: the bottom strip is cut off."""
+    from io import BytesIO
+    from urllib.parse import quote
+    from PIL import Image
+    url = POLL + quote(prompt[:1000], safe="")
+    params = {"width": 720, "height": 1280, "seed": seed, "nologo": "true", "model": "flux", "private": "true"}
+    for k in range(3):
+        r = requests.get(url, params=params, timeout=90)
+        if r.status_code in (402, 429) and k < 2:      # anonymous use: one picture per 45 s per address ("Retry after 19s")
+            import re
+            m = re.search(r"[Rr]etry after (\d+)", r.text)
+            time.sleep(min(50, int(m.group(1)) if m else 45) + 2)
+            continue
+        break
+    if r.status_code != 200 or not r.headers.get("content-type", "").startswith("image/"):
+        raise RuntimeError(f"pollinations {r.status_code}: {r.text[:200]}")
+    im = Image.open(BytesIO(r.content)).convert("RGB")
+    w, h = im.size
+    im = im.crop((0, 0, w, int(h * 0.93)))      # to_story_size trims the sides back to 9:16
+    out = BytesIO()
+    im.save(out, "JPEG", quality=95)
+    return out.getvalue()
 
 
 _VISION = []
@@ -163,11 +193,22 @@ def _generate(prompt, seed=0, key=None, cheap=False):
                 if any(c in m for c in (" 401", " 403", " 404", " 400", " 422", "no image", "daily free allocation")) or "Timeout" in type(e).__name__:
                     DEAD.add(model)      # the daily free neurons are used up: not tried again for every picture of this run
     nkey = key or os.environ.get("NVIDIA_API_KEY")
-    if nkey:
+    if nkey and not all(m in DEAD for m, _ in MODELS):
         try:
             return generate_nvidia(prompt, seed, nkey)
         except Exception as e:
             last = e
+    if "pollinations" not in DEAD and os.environ.get("POLLINATIONS_OFF") != "1":
+        try:
+            img = _pollinations(prompt, seed)
+            USED["pollinations"] = USED.get("pollinations", 0) + 1
+            return img
+        except Exception as e:
+            last = e
+            m = str(e)
+            print("imagegen:", m[:220], file=sys.stderr)
+            if "Timeout" in type(e).__name__ or "timed out" in m or " 5" in m[:16]:
+                DEAD.add("pollinations")
     fkey = os.environ.get("FAL_KEY")
     for fm in ([FAL_SCENE_MODEL, FAL_MODEL] if cheap and FAL_SCENE_MODEL != FAL_MODEL else [FAL_MODEL]):
         if not fkey or fm in DEAD:
@@ -185,7 +226,7 @@ def _generate(prompt, seed=0, key=None, cheap=False):
                     DEAD.add(fm)     # bad key / no balance / wrong model id
                     break
                 time.sleep(3)
-    raise RuntimeError(f"all image models failed: {last or 'no image service configured'}")
+    raise RuntimeError(f"all image models failed: {last or ('switched off for this run: ' + ', '.join(sorted(DEAD)) if DEAD else 'no image service configured')}")
 
 
 def generate_nvidia(prompt, seed=0, key=None):
