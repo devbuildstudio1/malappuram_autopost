@@ -1,25 +1,17 @@
+writing [R]: സമൂഹമാധ്യമങ്ങളിലൂടെ സ്ത്രീകളെ അപമാനിച്ച കേസ്: യൂട്യൂബർ തൊപ്പ
 writing [N]: മലപ്പുറം സ്വദേശി അബൂദബിയിൽ നിര്യാതനായി | Madhyamam
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-writing [R]: സമൂഹമാധ്യമങ്ങളിലൂടെ സ്ത്രീകളെ അപമാനിച്ച കേസ്: യൂട്യൂബർ തൊപ്പ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 writing [N]: കളംപാട്ട് അടുത്തറിഞ്ഞ് വിദ്യാർഥികൾ
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -43,48 +35,56 @@ dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgyAGQoFX5k52fR7nuu6x"}
+writing [N]: കാമുകനെ ഒഴിവാക്കാൻ യുവതി ക്വട്ടേഷൻ നൽകി; അർധരാത്രി വിളിച്ചുവ
+free models unavailable: free models not efficient (12 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgyAGSo4MokxR7fY5ogL1"}
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chewriting [N]: ഖേദകരം, ഭാവിയിൽ ആർക്കും ഇതുപോലുള്ള അപവാദപ്രചരണങ്ങൾ നേരിടേണ്ട
+
+dead for this round: gemini/gemini-3.8-flash
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgyAGTbRdjtT4kGvMXtK4"}
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgyAGUQnSq9zyCZaNmg9G"}
+writing [N]: ആവേശത്തിരയിളക്കി പുല്ലാളൂർ കാളപൂട്ട് മത്സരം;
+മത്സരത്തിനെത്തി
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgyAGWam75HrqnYEeMezH"}
+writing [N]: സ്വാതന്ത്ര്യം നൽകുന്നില്ല; ആൺ സുഹൃത്തിനെ വധിക്കാൻ ക്വട്ടേഷൻ:
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+writing [N]: ഒരു കോടി രൂപ ചെലവഴിച്ചു നിർമിച്ച റോഡിൽ അരക്കോടി രൂപയുടെ വെട്
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgyAGXyMKtt3NQKsnavwQ"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgyAGY7J3vohDdDSybgfU"}
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgy7s2zDDSG7GdJMprbQA"}
-writing [N]: കാമുകനെ ഒഴിവാക്കാൻ യുവതി ക്വട്ടേഷൻ നൽകി; അർധരാത്രി വിളിച്ചുവ
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgy7s5XkdXTcRnZRi4K28"}
-writing [N]: ഖേദകരം, ഭാവിയിൽ ആർക്കും ഇതുപോലുള്ള അപവാദപ്രചരണങ്ങൾ നേരിടേണ്ട
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgy7s9Zqd8mrjvK6TdNzN"}
-writing [N]: ആവേശത്തിരയിളക്കി പുല്ലാളൂർ കാളപൂട്ട് മത്സരം;
-മത്സരത്തിനെത്തി
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgy7sBuUgnNcum93SAzAS"}
-writing [N]: ഒരു കോടി രൂപ ചെലവഴിച്ചു നിർമിച്ച റോഡിൽ അരക്കോടി രൂപയുടെ വെട്
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgy7sFzJUKBGARZJzgXTF"}
-writing [N]: സ്വാതന്ത്ര്യം നൽകുന്നില്ല; ആൺ സുഹൃത്തിനെ വധിക്കാൻ ക്വട്ടേഷൻ:
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgy7sHHRtf6PWwPquroS6"}
-writing [N]: സർക്കാർ കോളജുകളിലും പുതിയ കോഴ്സ്; കോമ്പിനേഷനുകൾ ആരംഭിക്കുന്ന
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgy7sKSB36EPVKwZzQeUx"}
-writing [N]: മോഷണക്കേസ് പ്രതി അറസ്റ്റിൽ | Deepika | The Largest Read Mala
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgy7sPuo86uvEtT2LKBzQ"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgy7sryyncNsxm7znhPem"}
-fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.7-flash
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Cgy7tbmToXdeX8vSpUz6Z"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgyAGaBoB6n86TWLimodJ"}
+writing [N]: മോഷണക്കേസ് പ്രതി അറസ്റ്റിൽ | Deepika | The Largest Read Mala
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgyAGb3tv8k5uG3w5FZ8W"}
+writing [N]: സർക്കാർ കോളജുകളിലും പുതിയ കോഴ്സ്; കോമ്പിനേഷനുകൾ ആരംഭിക്കുന്ന
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgyAGdahCQ5ci71ko4NED"}
 earlier stories still waiting for images: []
 instagram check: 58 recent posts read from both pages
 write round: 10 news waiting in the queue (written in priority order)
@@ -92,8 +92,8 @@ candidate filter: collected=10
 to write: 1 Manjeri + 9 other district candidates (max 200 + 200 stories)
 candidates waiting: 1 Manjeri, 9 Malappuram; time left 29 min
 try (N) manual=False: കളംപാട്ട് അടുത്തറിഞ്ഞ് വിദ്യാർഥികൾ
-try (R) manual=False: സമൂഹമാധ്യമങ്ങളിലൂടെ സ്ത്രീകളെ അപമാനിച്ച കേസ്: യൂട്യൂബർ തൊപ്പ
 try (N) manual=False: മലപ്പുറം സ്വദേശി അബൂദബിയിൽ നിര്യാതനായി | Madhyamam
+try (R) manual=False: സമൂഹമാധ്യമങ്ങളിലൂടെ സ്ത്രീകളെ അപമാനിച്ച കേസ്: യൂട്യൂബർ തൊപ്പ
 NOT filed (N) മലപ്പുറം സ്വദേശി അബൂദബിയിൽ നിര്യാതനായി | Madhyamam: all free models failed: no usable answer from the models
 try (N) manual=False: കാമുകനെ ഒഴിവാക്കാൻ യുവതി ക്വട്ടേഷൻ നൽകി; അർധരാത്രി വിളിച്ചുവ
 NOT filed (N) കാമുകനെ ഒഴിവാക്കാൻ യുവതി ക്വട്ടേഷൻ നൽകി; അർധരാത്രി: all free models failed: no usable answer from the models
@@ -101,19 +101,19 @@ try (N) manual=False: ഖേദകരം, ഭാവിയിൽ ആർക്ക�
 NOT filed (N) ഖേദകരം, ഭാവിയിൽ ആർക്കും ഇതുപോലുള്ള അപവാദപ്രചരണങ്ങൾ: all free models failed: no usable answer from the models
 try (N) manual=False: ആവേശത്തിരയിളക്കി പുല്ലാളൂർ കാളപൂട്ട് മത്സരം;
 മത്സരത്തിനെത്തി
+NOT filed (R) സമൂഹമാധ്യമങ്ങളിലൂടെ സ്ത്രീകളെ അപമാനിച്ച കേസ്: യൂട്: all free models failed: no usable answer from the models
+try (N) manual=False: ഒരു കോടി രൂപ ചെലവഴിച്ചു നിർമിച്ച റോഡിൽ അരക്കോടി രൂപയുടെ വെട്
 NOT filed (N) ആവേശത്തിരയിളക്കി പുല്ലാളൂർ കാളപൂട്ട് മത്സരം;
 മത്സര: all free models failed: no usable answer from the models
-try (N) manual=False: ഒരു കോടി രൂപ ചെലവഴിച്ചു നിർമിച്ച റോഡിൽ അരക്കോടി രൂപയുടെ വെട്
-NOT filed (N) ഒരു കോടി രൂപ ചെലവഴിച്ചു നിർമിച്ച റോഡിൽ അരക്കോടി രൂ: all free models failed: no usable answer from the models
 try (N) manual=False: സ്വാതന്ത്ര്യം നൽകുന്നില്ല; ആൺ സുഹൃത്തിനെ വധിക്കാൻ ക്വട്ടേഷൻ:
 NOT filed (N) സ്വാതന്ത്ര്യം നൽകുന്നില്ല; ആൺ സുഹൃത്തിനെ വധിക്കാൻ : all free models failed: no usable answer from the models
 try (N) manual=False: സർക്കാർ കോളജുകളിലും പുതിയ കോഴ്സ്; കോമ്പിനേഷനുകൾ ആരംഭിക്കുന്ന
-NOT filed (N) സർക്കാർ കോളജുകളിലും പുതിയ കോഴ്സ്; കോമ്പിനേഷനുകൾ ആര: all free models failed: no usable answer from the models
+NOT filed (N) ഒരു കോടി രൂപ ചെലവഴിച്ചു നിർമിച്ച റോഡിൽ അരക്കോടി രൂ: all free models failed: no usable answer from the models
 try (N) manual=False: മോഷണക്കേസ് പ്രതി അറസ്റ്റിൽ | Deepika | The Largest Read Mala
-NOT filed (N) മോഷണക്കേസ് പ്രതി അറസ്റ്റിൽ | Deepika | The Largest: all free models failed: no usable answer from the models
-NOT filed (R) സമൂഹമാധ്യമങ്ങളിലൂടെ സ്ത്രീകളെ അപമാനിച്ച കേസ്: യൂട്: all free models failed: no usable answer from the models
 NOT filed (N) കളംപാട്ട് അടുത്തറിഞ്ഞ് വിദ്യാർഥികൾ: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 9}, done={'R': 0, 'N': 0}, time left 28 min
+NOT filed (N) മോഷണക്കേസ് പ്രതി അറസ്റ്റിൽ | Deepika | The Largest: all free models failed: no usable answer from the models
+NOT filed (N) സർക്കാർ കോളജുകളിലും പുതിയ കോഴ്സ്; കോമ്പിനേഷനുകൾ ആര: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 9}, done={'R': 0, 'N': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
 queue: 10 news waiting to be written
