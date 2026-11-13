@@ -1,11 +1,106 @@
+writing [N]: ട്രെയിൻ വഴി കഞ്ചാവുകടത്ത്; മുഖ്യസൂത്രധാരൻ അറസ്റ്റിൽ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: പ്ലാൻ തരാമോ? ഞങ്ങളുടെ മനസ്സിലും ഇങ്ങനെയൊരു വീടാണ്: ഇവിടെയെത്
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+writing [N]: ഓപ്പറേഷൻ തൂഫാൻ: വേങ്ങരയിൽ വൻ ലഹരി വേട്ട; 101.57 ഗ്രാം എംഡിഎം
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgzREmqjWsWgraTAER8WV"}
+writing [N]: ദേശീയപാതയിലെ നിയമലംഘനം; 22 ഡ്രൈവർമാരുടെ ലൈസൻസ് സസ്പെൻഡ് ചെയ്
+free models unavailable: free models not efficient (10 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgzRExQUgrkFbuMTrhLAb"}
+writing [N]: നോർക്ക കെയർ പദ്ധതി അമിത പ്രിമിയം പിൻവലിക്കുക | Madhyamam
+free models unavailable: free models not efficient (10 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgzRF16hB5jcyDb6XCe5G"}
+writing [N]: ലഹരിക്കെതിരേ ക്രിസ്തുമസ് പപ്പയുമായി വിദ്യാർഥികൾ | Deepika | 
+free models unavailable: free models not efficient (10 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgzRF5MBWAfEcB2ReoLWf"}
+writing [N]: ദേ...കാട്ടിലൂടെ റോഡ്; യാത്രക്കാർക്ക് അപകടഭീഷണിയായി മലയോരപാതയ
+free models unavailable: free models not efficient (10 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgzRF6HzLcuSpN42vtR8a"}
+writing [N]: ഒരുമിച്ച് ജനിച്ചു, ഒരേ ക്ലാസിൽ പഠിച്ചു; അവസാനം മരണത്തിലും അവ
+free models unavailable: free models not efficient (10 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgzRF8qY48jV9wvC2pmbN"}
+writing [R]: റോഡിൽ സീബ്രാവരകളില്ല; എടവണ്ണയിലെ സ്കൂളുകൾക്കുമുൻപിൽ ശ്രദ്ധിച
+free models unavailable: free models not efficient (10 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgzRF9oLJ8i1qrNDuaAbZ"}
+writing [N]: ദേശീയ അംഗീകാരം ലഭിച്ചതിൽ ആഹ്ലാദം
+free models unavailable: free models not efficient (10 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgzRFEGxmqh5sEyLk18Lf"}
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgzRHpssPstKrpvuje1RD"}
+fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CgzRK1vApet3yo6rx1M8M"}
 earlier stories still waiting for images: []
-instagram check: 61 recent posts read from both pages
-write round: 8 news waiting in the queue (written in priority order)
-candidate filter: checked earlier=8
-to write: 0 Manjeri + 0 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Malappuram; time left 29 min
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 0}, done={'R': 0, 'N': 0}, time left 29 min
+instagram check: 62 recent posts read from both pages
+write round: 12 news waiting in the queue (written in priority order)
+candidate filter: collected=11, already filed=1
+to write: 1 Manjeri + 10 other district candidates (max 200 + 200 stories)
+candidates waiting: 1 Manjeri, 10 Malappuram; time left 29 min
+try (N) manual=False: പ്ലാൻ തരാമോ? ഞങ്ങളുടെ മനസ്സിലും ഇങ്ങനെയൊരു വീടാണ്: ഇവിടെയെത്
+try (N) manual=False: ട്രെയിൻ വഴി കഞ്ചാവുകടത്ത്; മുഖ്യസൂത്രധാരൻ അറസ്റ്റിൽ
+try (N) manual=False: ഓപ്പറേഷൻ തൂഫാൻ: വേങ്ങരയിൽ വൻ ലഹരി വേട്ട; 101.57 ഗ്രാം എംഡിഎം
+NOT filed (N) ഓപ്പറേഷൻ തൂഫാൻ: വേങ്ങരയിൽ വൻ ലഹരി വേട്ട; 101.57 ഗ്: all free models failed: no usable answer from the models
+try (N) manual=False: ദേശീയപാതയിലെ നിയമലംഘനം; 22 ഡ്രൈവർമാരുടെ ലൈസൻസ് സസ്പെൻഡ് ചെയ്
+NOT filed (N) ദേശീയപാതയിലെ നിയമലംഘനം; 22 ഡ്രൈവർമാരുടെ ലൈസൻസ് സസ്: all free models failed: no usable answer from the models
+try (N) manual=False: നോർക്ക കെയർ പദ്ധതി അമിത പ്രിമിയം പിൻവലിക്കുക | Madhyamam
+NOT filed (N) നോർക്ക കെയർ പദ്ധതി അമിത പ്രിമിയം പിൻവലിക്കുക | Mad: all free models failed: no usable answer from the models
+try (N) manual=False: ലഹരിക്കെതിരേ ക്രിസ്തുമസ് പപ്പയുമായി വിദ്യാർഥികൾ | Deepika | 
+NOT filed (N) ലഹരിക്കെതിരേ ക്രിസ്തുമസ് പപ്പയുമായി വിദ്യാർഥികൾ | : all free models failed: no usable answer from the models
+try (N) manual=False: ദേ...കാട്ടിലൂടെ റോഡ്; യാത്രക്കാർക്ക് അപകടഭീഷണിയായി മലയോരപാതയ
+NOT filed (N) ദേ...കാട്ടിലൂടെ റോഡ്; യാത്രക്കാർക്ക് അപകടഭീഷണിയായി: all free models failed: no usable answer from the models
+try (N) manual=False: മഹാമാഘ ഉത്സവം: 1001 അംഗ സംഘാടകസമിതിയായി
+skip (N) similar to a filed story: മഹാമാഘ ഉത്സവം: 1001 അംഗ സംഘാടകസമിതിയായി
+try (N) manual=False: ഒരുമിച്ച് ജനിച്ചു, ഒരേ ക്ലാസിൽ പഠിച്ചു; അവസാനം മരണത്തിലും അവ
+NOT filed (N) ഒരുമിച്ച് ജനിച്ചു, ഒരേ ക്ലാസിൽ പഠിച്ചു; അവസാനം മരണ: all free models failed: no usable answer from the models
+try (R) manual=False: റോഡിൽ സീബ്രാവരകളില്ല; എടവണ്ണയിലെ സ്കൂളുകൾക്കുമുൻപിൽ ശ്രദ്ധിച
+NOT filed (R) റോഡിൽ സീബ്രാവരകളില്ല; എടവണ്ണയിലെ സ്കൂളുകൾക്കുമുൻപി: all free models failed: no usable answer from the models
+try (N) manual=False: ദേശീയ അംഗീകാരം ലഭിച്ചതിൽ ആഹ്ലാദം
+NOT filed (N) ദേശീയ അംഗീകാരം ലഭിച്ചതിൽ ആഹ്ലാദം: all free models failed: no usable answer from the models
+NOT filed (N) പ്ലാൻ തരാമോ? ഞങ്ങളുടെ മനസ്സിലും ഇങ്ങനെയൊരു വീടാണ്:: all free models failed: no usable answer from the models
+NOT filed (N) ട്രെയിൻ വഴി കഞ്ചാവുകടത്ത്; മുഖ്യസൂത്രധാരൻ അറസ്റ്റി: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 10}, done={'R': 0, 'N': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
-queue: 0 news waiting to be written 
+queue: 10 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":10} 
 stories: 0
