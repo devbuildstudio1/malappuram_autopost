@@ -1,27 +1,27 @@
 writing [N]: കലോത്സവത്തിലെ ആക്ഷൻ സോങ് വിവാദം: വരികൾ ന്യായീകരിക്കാനാകില്ലെ
+writing [N]: മലപ്പുറം ജില്ല പ്രവാസി അസോസിയേഷൻ ഫുട്ബോൾ ജഴ്സി പ്രകാശനം ചെയ്
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 writing [N]: പച്ചപ്പാടത്തിന് നടുവിൽ പ്രണയത്തിൻറെ അടയാളം; കൗതുകമായി കർഷകൻറ
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7bwriting [N]: മലപ്പുറം ജില്ല പ്രവാസി അസോസിയേഷൻ ഫുട്ബോൾ ജഴ്സി പ്രകാശനം ചെയ്
-
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -37,100 +37,243 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high d
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+dead for this round: groq/openai/gpt-oss-120b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
+poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
+poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
+poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (27s)
+attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  not grounded: location 'മനാം' is not in the article
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (37s)
+attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 49 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (24s)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (2s)
+factcheck by cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
+  The reel_script and slides_spec say that the president of the association Nasar did the unveiling, but the article says that Nasar Mankeri, the president, gave the jersey to the vice-captain Musammal, who did the unveiling.
+  The reel_script and slides_spec leave out the fact that the association's secretary gave a welcome speech.
+  The reel_script and slides_spec leave out the fact that the team coach Moydeen Kutty and many others were present.
+attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
+  fact-check: The reel_script and slides_spec say that the president of the association Nasar did the unveiling, but the article says that Nasar Mankeri, the president, gave the jersey to the vice-captain Musammal, who did the unveiling.
+  fact-check: The reel_script and slides_spec leave out the fact that the association's secretary gave a welcome speech.
+  fact-check: The reel_script and slides_spec leave out the fact that the team coach Moydeen Kutty and many others were present.
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (41s)
+attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 53 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)
+attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 64 ('പറപ്പൂർ കാട്ടുപാടത്ത് നെൽകൃഷിയെ വ്യത്യസ്തമായൊരു കലാസൃഷ്ടിയാക')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (35s)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (14s)
+factcheck by cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 16 problems
+  The malayalam_headline mentions 'പെരുമ്പാവൂർ കലോത്സവം' but the article says 'സി.ബി.എസ്.ഇ പെരുമ്പാവൂർ സഹോദയ കലോത്സവം'.
+  The reel_script omits the fact that the song was performed by students of Allappra Thuruthipply St. Mary's School at Aluva Thottumukham Crescent School.
+  The reel_script omits the fact that the song was performed at Aluva Thottumukham Crescent School.
+  The reel_script omits the fact that the song was performed by students of Allappra Thuruthipply St. Mary's School.
+  The reel_script omits the fact that the song hurt the Muslim community.
+  The reel_script omits the fact that the school management cannot justify the lyrics.
+  The reel_script omits the fact that the school management expressed regret for the pain caused to the Muslim community.
+  The reel_script omits the fact that the school management will take stern action against those responsible for the song.
+  The reel_script omits the fact that Bennie Behanan MP and Manoj Moothaden MLA were present.
+  The reel_script omits the fact that the Vaazhakkulam Mahall Association was involved.
+  The reel_script omits the fact that the leaders of the religious organizations informed that the issues related to this matter have been resolved.
+  The reel_script omits the fact that various organization representatives including TM Sakkeer Hussain, Hamsa Haji, Venngola Panchayat Vice President VH Mohammad, KMS Mohammad, CV Miran, CM Askar, Thoppil Subair, Ashraf CM, Kamal Rashid, and KA Naushad Master participated in the discussion.
+  The caption repeats the sentence 'സ്കൂൾ മാനേജ്മെന്റ് ഈ ഗാനത്തിന് ഉത്തരവാദികളെതിരെ കർശന നടപടി സ്വീകരിക്കുമെന്ന് ഉറപ്പ് നൽകി.'
+  The caption mentions 'നടപടി: സ്കൂൾ മാനേജ്മെന്റ് കർശന നടപടി സ്വീകരിക്കും' but the article says 'സ്കൂൾ മാനേജ്മെന്റ് ഈ ഗാനത്തിന് ഉത്തരവാദികളെതിരെ കർശന നടപടി സ്വീകരിക്കുമെന്ന് ഉറപ്പ് നൽകി.'
+  The caption mentions 'ബന്ധപ്പെടാൻ: സ്കൂൾ മാനേജ്മെന്റ്' but the article does not mention any contact information.
+  The caption mentions 'Perumbavoor school song controversy resolved' but the article does not mention 'Perumbavoor school song controversy'.
+attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 16 problems
+  fact-check: The malayalam_headline mentions 'പെരുമ്പാവൂർ കലോത്സവം' but the article says 'സി.ബി.എസ്.ഇ പെരുമ്പാവൂർ സഹോദയ കലോത്സവം'.
+  fact-check: The reel_script omits the fact that the song was performed by students of Allappra Thuruthipply St. Mary's School at Aluva Thottumukham Crescent School.
+  fact-check: The reel_script omits the fact that the song was performed at Aluva Thottumukham Crescent School.
+  fact-check: The reel_script omits the fact that the song was performed by students of Allappra Thuruthipply St. Mary's School.
+  fact-check: The reel_script omits the fact that the song hurt the Muslim community.
+  fact-check: The reel_script omits the fact that the school management cannot justify the lyrics.
+  fact-check: The reel_script omits the fact that the school management expressed regret for the pain caused to the Muslim community.
+  fact-check: The reel_script omits the fact that the school management will take stern action against those responsible for the song.
+  fact-check: The reel_script omits the fact that Bennie Behanan MP and Manoj Moothaden MLA were present.
+  fact-check: The reel_script omits the fact that the Vaazhakkulam Mahall Association was involved.
+  fact-check: The reel_script omits the fact that the leaders of the religious organizations informed that the issues related to this matter have been resolved.
+  fact-check: The reel_script omits the fact that various organization representatives including TM Sakkeer Hussain, Hamsa Haji, Venngola Panchayat Vice President VH Mohammad, KMS Mohammad, CV Miran, CM Askar, Thoppil Subair, Ashraf CM, Kamal Rashid, and KA Naushad Master participated in the discussion.
+  fact-check: The caption repeats the sentence 'സ്കൂൾ മാനേജ്മെന്റ് ഈ ഗാനത്തിന് ഉത്തരവാദികളെതിരെ കർശന നടപടി സ്വീകരിക്കുമെന്ന് ഉറപ്പ് നൽകി.'
+  fact-check: The caption mentions 'നടപടി: സ്കൂൾ മാനേജ്മെന്റ് കർശന നടപടി സ്വീകരിക്കും' but the article says 'സ്കൂൾ മാനേജ്മെന്റ് ഈ ഗാനത്തിന് ഉത്തരവാദികളെതിരെ കർശന നടപടി സ്വീകരിക്കുമെന്ന് ഉറപ്പ് നൽകി.'
+  fact-check: The caption mentions 'ബന്ധപ്പെടാൻ: സ്കൂൾ മാനേജ്മെന്റ്' but the article does not mention any contact information.
+  fact-check: The caption mentions 'Perumbavoor school song controversy resolved' but the article does not mention 'Perumbavoor school song controversy'.
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (37s)
+attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 43 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: Expecting ',' delimiter: line 1 column 899 (char 898)
+poor answer - skipped for 30 min: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (35s)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok groq/qwen/qwen3.8-27b (0s)
+factcheck by groq/qwen/qwen3.8-27b: 2 problems
+  Missing important fact: The reel_script omits the specific outcome that the issue was resolved/settled (ഒത്തുതീർപ്പിൽ എത്തി / പരിഹാരമായതായി അറിയിച്ചു), which is the main result of the article.
+  Missing important fact: The reel_script omits the names of the specific Muslim organizations (Kunnathunad Taluk Muslim Jamaat Council, Vengola Panchayat Mahall Confederation, Vazhakkulam Mahall Association) that participated in the discussion, referring to them only vaguely as 'various organization leaders'.
+attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
+  fact-check: Missing important fact: The reel_script omits the specific outcome that the issue was resolved/settled (ഒത്തുതീർപ്പിൽ എത്തി / പരിഹാരമായതായി അറിയിച്ചു), which is the main result of the article.
+  fact-check: Missing important fact: The reel_script omits the names of the specific Muslim organizations (Kunnathunad Taluk Muslim Jamaat Council, Vengola Panchayat Mahall Confederation, Vazhakkulam Mahall Association) that participated in the discussion, referring to them only vaguely as 'various organization leaders'.
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1JuhgUfxCYUF4HZJ2w5"}
-writing [N]: ലൈഫ് ഭവന പദ്ധതി വിവാദം: പഞ്ചാ. പ്രസിഡൻറിനെ ഉപരോധിച്ചു | Deep
-free models unavailable: free models not efficient (16 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1JumeqcLuNunDNxiJbv"}
-writing [N]: ഷിഗല്ലെ: പ്രതിരോധവും ജാഗ്രതയും ശക്തമാക്കി ആരോഗ്യവകുപ്പ് | Ma
-free models unavailable: free models not efficient (16 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1JuqeCVkEj85o5BXrLj"}
-writing [N]: അന്ത്യയാത്രയ്ക്കൊപ്പം ചേർത്തുവെച്ചത് ഇല്ലാക്കഥകൾ; പ്രേമലതയുട
-free models unavailable: free models not efficient (16 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1JurucSfBLFFYBK7szs"}
-writing [N]: സ്വാതന്ത്ര്യം നൽകുന്നില്ല; ആൺ സുഹൃത്തിനെ വധിക്കാൻ ക്വട്ടേഷൻ:
-free models unavailable: free models not efficient (16 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1Jut72ksFc6W89Di6sN"}
-writing [N]: ജനങ്ങളുടെ സുരക്ഷയ്ക്ക് വേണ്ടി ഒരു ഇടപെടൽ
-free models unavailable: free models not efficient (16 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1Jv4WrumjwLqA5FEC4P"}
-writing [N]: റിട്ട. അങ്കണവാടി വർക്കേഴ്സ് ഹെൽപ്പേഴ്സ് സംഘടനയുടെ നേതൃത്വത്ത
-free models unavailable: free models not efficient (16 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1Jv9GbvkChuyJT8FsDr"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1JviXc4fTrH4TZK78eJ"}
-ok gemini/gemini-3.6-flash (37s)
-attempt 1 gemini/gemini-3.6-flash: 1 problems
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1LNEagZUtM5E3xMHN2j"}
+proofread skipped: free models not efficient (3 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (41s)
+attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
   reel_script has 51 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1JwCYaqycctaqLoVq1L"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1LNfNBo7NUyyW7zg6Sg"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+ok groq/qwen/qwen3.8-27b (4s)
+proofread rejected (3 problems)
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok groq/qwen/qwen3.8-27b (4s)
-proofread by groq/qwen/qwen3.8-27b: 1 problems
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1LPBAKXQKHtzFthhomR"}
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-ok groq/qwen/qwen3.8-27b (4s)
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 4 for 'Malappuram district Pravasi Association '
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261113-2308","first":"MP-202"}
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+switching away from groq/qwen/qwen3.8-27b for 10 min
+proofread skipped: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m6fxrnxae4nt2p749ssm50dy` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5954, Requested 2591. Please try again in 4.0875s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+posting job started at once
+ok groq/qwen/qwen3.8-27b (2s)
+writing [N]: ലൈഫ് ഭവന പദ്ധതി വിവാദം: പഞ്ചാ. പ്രസിഡൻറിനെ ഉപരോധിച്ചു | Deep
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+free models unavailable: no free model answered: None
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1LQSFCjR1tWHrGTLkW7"}
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 3 for 'Love symbol in paddy field: Farmer's pad'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261113-2309","first":"MP-203"}
+writing [N]: സ്വാതന്ത്ര്യം നൽകുന്നില്ല; ആൺ സുഹൃത്തിനെ വധിക്കാൻ ക്വട്ടേഷൻ:
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: അന്ത്യയാത്രയ്ക്കൊപ്പം ചേർത്തുവെച്ചത് ഇല്ലാക്കഥകൾ; പ്രേമലതയുട
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+free models unavailable: no free model answered: None
+writing [N]: ഷിഗല്ലെ: പ്രതിരോധവും ജാഗ്രതയും ശക്തമാക്കി ആരോഗ്യവകുപ്പ് | Ma
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1LSMq7aDzj3fHAk2dUt"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+free models unavailable: no free model answered: None
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1LSNdUgsBnwun1VTi6R"}
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+free models unavailable: no free model answered: None
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1LSP6kixUJi6i1Y1Jtb"}
+writing [N]: റിട്ട. അങ്കണവാടി വർക്കേഴ്സ് ഹെൽപ്പേഴ്സ് സംഘടനയുടെ നേതൃത്വത്ത
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+free models unavailable: no free model answered: None
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1LSUwzQUGRoQppeqY7F"}
+writing [N]: ജനങ്ങളുടെ സുരക്ഷയ്ക്ക് വേണ്ടി ഒരു ഇടപെടൽ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+free models unavailable: no free model answered: None
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1LSXT3rPM5AkEDWF8gU"}
+write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 63 recent posts read from both pages
-write round: 13 news waiting in the queue (written in priority order)
-candidate filter: collected=12, already filed=1
-to write: 0 Manjeri + 12 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 12 Malappuram; time left 29 min
+write round: 12 news waiting in the queue (written in priority order)
+candidate filter: collected=11, already filed=1
+to write: 0 Manjeri + 11 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 11 Malappuram; time left 29 min
 try (N) manual=False: പച്ചപ്പാടത്തിന് നടുവിൽ പ്രണയത്തിൻറെ അടയാളം; കൗതുകമായി കർഷകൻറ
 try (N) manual=False: മലപ്പുറം ജില്ല പ്രവാസി അസോസിയേഷൻ ഫുട്ബോൾ ജഴ്സി പ്രകാശനം ചെയ്
 try (N) manual=False: കലോത്സവത്തിലെ ആക്ഷൻ സോങ് വിവാദം: വരികൾ ന്യായീകരിക്കാനാകില്ലെ
-NOT filed (N) മലപ്പുറം ജില്ല പ്രവാസി അസോസിയേഷൻ ഫുട്ബോൾ ജഴ്സി പ്ര: all free models failed: no usable answer from the models
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})
+posting job started at once
 try (N) manual=False: ലൈഫ് ഭവന പദ്ധതി വിവാദം: പഞ്ചാ. പ്രസിഡൻറിനെ ഉപരോധിച്ചു | Deep
-NOT filed (N) ലൈഫ് ഭവന പദ്ധതി വിവാദം: പഞ്ചാ. പ്രസിഡൻറിനെ ഉപരോധിച: all free models failed: no usable answer from the models
+NOT filed (N) കലോത്സവത്തിലെ ആക്ഷൻ സോങ് വിവാദം: വരികൾ ന്യായീകരിക്: not Malappuram district news (the story's first lines name another place and no Malappuram place)
 try (N) manual=False: ഉപകരണങ്ങൾ തകരാറായി; ഓട്ടിസം സെന്റർ ശോച്യാവസ്ഥയിൽ | Madhyama
-skip (N) similar to a filed story: ഉപകരണങ്ങൾ തകരാറായി; ഓട്ടിസം സെന്റർ ശോച്യാവസ്ഥയിൽ 
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 7})
 try (N) manual=False: ഷിഗല്ലെ: പ്രതിരോധവും ജാഗ്രതയും ശക്തമാക്കി ആരോഗ്യവകുപ്പ് | Ma
-NOT filed (N) ഷിഗല്ലെ: പ്രതിരോധവും ജാഗ്രതയും ശക്തമാക്കി ആരോഗ്യവക: all free models failed: no usable answer from the models
+NOT filed (N) ലൈഫ് ഭവന പദ്ധതി വിവാദം: പഞ്ചാ. പ്രസിഡൻറിനെ ഉപരോധിച: all free models failed: no usable answer from the models
+skip (N) similar to a filed story: ഉപകരണങ്ങൾ തകരാറായി; ഓട്ടിസം സെന്റർ ശോച്യാവസ്ഥയിൽ 
 try (N) manual=False: അന്ത്യയാത്രയ്ക്കൊപ്പം ചേർത്തുവെച്ചത് ഇല്ലാക്കഥകൾ; പ്രേമലതയുട
-NOT filed (N) അന്ത്യയാത്രയ്ക്കൊപ്പം ചേർത്തുവെച്ചത് ഇല്ലാക്കഥകൾ; : all free models failed: no usable answer from the models
 try (N) manual=False: സ്വാതന്ത്ര്യം നൽകുന്നില്ല; ആൺ സുഹൃത്തിനെ വധിക്കാൻ ക്വട്ടേഷൻ:
 NOT filed (N) സ്വാതന്ത്ര്യം നൽകുന്നില്ല; ആൺ സുഹൃത്തിനെ വധിക്കാൻ : all free models failed: no usable answer from the models
 try (N) manual=False: വാഹന പിഴ അടക്കാൻ സന്ദേശം; ഒറ്റ ക്ലിക്കിൽ കൊണ്ടോട്ടി സ്വദേശിക
-skip (N) similar to a filed story: വാഹന പിഴ അടക്കാൻ സന്ദേശം; ഒറ്റ ക്ലിക്കിൽ കൊണ്ടോട്ട
-try (N) manual=False: മലപ്പുറം ജില്ലയിൽ വോട്ടർമാർ 36,49,427 | Madhyamam
-skip (N) similar to a filed story: മലപ്പുറം ജില്ലയിൽ വോട്ടർമാർ 36,49,427 | Madhyamam
+NOT filed (N) അന്ത്യയാത്രയ്ക്കൊപ്പം ചേർത്തുവെച്ചത് ഇല്ലാക്കഥകൾ; : all free models failed: no usable answer from the models
 try (N) manual=False: ജനങ്ങളുടെ സുരക്ഷയ്ക്ക് വേണ്ടി ഒരു ഇടപെടൽ
-NOT filed (N) ജനങ്ങളുടെ സുരക്ഷയ്ക്ക് വേണ്ടി ഒരു ഇടപെടൽ: all free models failed: no usable answer from the models
+NOT filed (N) ഷിഗല്ലെ: പ്രതിരോധവും ജാഗ്രതയും ശക്തമാക്കി ആരോഗ്യവക: all free models failed: no usable answer from the models
 try (N) manual=False: റിട്ട. അങ്കണവാടി വർക്കേഴ്സ് ഹെൽപ്പേഴ്സ് സംഘടനയുടെ നേതൃത്വത്ത
+skip (N) similar to a filed story: വാഹന പിഴ അടക്കാൻ സന്ദേശം; ഒറ്റ ക്ലിക്കിൽ കൊണ്ടോട്ട
 NOT filed (N) റിട്ട. അങ്കണവാടി വർക്കേഴ്സ് ഹെൽപ്പേഴ്സ് സംഘടനയുടെ : all free models failed: no usable answer from the models
-NOT filed (N) പച്ചപ്പാടത്തിന് നടുവിൽ പ്രണയത്തിൻറെ അടയാളം; കൗതുകമ: all free models failed: no usable answer from the models
-NOT filed (N) കലോത്സവത്തിലെ ആക്ഷൻ സോങ് വിവാദം: വരികൾ ന്യായീകരിക്: not Malappuram district news (the story's first lines name another place and no Malappuram place)
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 12}, done={'R': 0, 'N': 0}, time left 28 min
-carousel for 0 of 0 stories, the rest reel only
-filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
-queue: 9 news waiting to be written
+NOT filed (N) ജനങ്ങളുടെ സുരക്ഷയ്ക്ക് വേണ്ടി ഒരു ഇടപെടൽ: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 11}, done={'R': 0, 'N': 2}, time left 24 min
+carousel for 0 of 2 stories, the rest reel only
+filed: 0 Manjeri + 2 Malappuram (targets 200 + 200)
+queue: 7 news waiting to be written
+write_stories.yml started
 All News sheet: {"ok":true,"added":0,"updated":9} 
-stories: 0
+stories: 2
