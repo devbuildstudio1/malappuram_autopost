@@ -25,28 +25,34 @@
   "try (N) manual=False: ദേശീയ അംഗീകാരം ലഭിച്ചതിൽ ആഹ്ലാദം",
   "NOT filed (N) ദേശീയ അംഗീകാരം ലഭിച്ചതിൽ ആഹ്ലാദം: all free models failed: no usable answer from the models",
   "NOT filed (N) നോർക്ക കെയർ പദ്ധതി അമിത പ്രിമിയം പിൻവലിക്കുക | Mad: all free models failed: no usable answer from the models",
-  "NOT filed (N) ട്രെയിൻ വഴി കഞ്ചാവുകടത്ത്; മുഖ്യസൂത്രധാരൻ അറസ്റ്റി: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 9}, done={'R': 0, 'N': 0}, time left 28 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
-  "queue: 10 news waiting to be written",
+  "auto images: 1 of 1 stories ({'pollinations': 3})",
+  "posting job started at once",
+  "candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 9}, done={'R': 0, 'N': 1}, time left 27 min",
+  "carousel for 0 of 1 stories, the rest reel only",
+  "filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)",
+  "queue: 9 news waiting to be written",
+  "write_stories.yml started",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":10}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.8-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
   "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
@@ -54,10 +60,80 @@
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
-  "fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.6-flash",
+  "ok gemini/gemini-3.6-flash (31s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6"
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok groq/openai/gpt-oss-120b (2s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok groq/openai/gpt-oss-120b (3s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok groq/openai/gpt-oss-120b (7s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "ട്രെയിൻ വഴി 34 കിലോ കഞ്ചാവ് കടത്ത്: പ്രധാന ആസൂത്രകനായ മലപ്പുറം സ്വദേശി പിടിയിൽ",
+   "english_headline": "Train cannabis smuggling case mastermind from Malappuram arrested by Kozhikode Railway Police",
+   "category": "Crime & Safety",
+   "location": "Kalpakanchery, Malappuram district",
+   "importance": "Medium",
+   "scope": "district",
+   "post_to": "Malappuram 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "കുറ്റകൃത്യം",
+    "loc": "കൽപകഞ്ചേരി, മലപ്പുറം",
+    "hl1": "34 കിലോ കഞ്ചാവ് കടത്ത്: പ്രധാനി പിടിയിൽ",
+    "hl2": "32 വയസ്സുള്ള പ്രതി റിമാൻഡിൽ",
+    "slides": [
+     {
+      "title": "എന്ത് സംഭവിച്ചു?",
+      "lines": [
+       "ട്രെയിൻ വഴി <b>34 കിലോ</b> കഞ്ചാവ് കടത്തിയ കേസ്",
+       "പ്രധാന ആസൂത്രകനായ മലപ്പുറം സ്വദേശി പിടിയിൽ",
+       "കോഴിക്കോട് റെയിൽവേ പോലീസ് അറസ്റ്റ് ചെയ്തു"
+      ]
+     },
+     {
+      "title": "കണ്ടെത്തിയത്",
+      "lines": [
+       "മുൻപ് അറസ്റ്റിലായവരുടെ ഫോൺ, അക്കൗണ്ടുകൾ പരിശോധിച്ചു",
+       "ഒഡിഷയിൽ നിന്ന് ലഹരി എത്തിക്കാൻ ലക്ഷങ്ങളുടെ യുപിഐ ഇടപാട്",
+       "കഞ്ചാവ് വാങ്ങി തിരൂർ മേഖലയിൽ വിതരണം ചെയ്തു"
+      ]
+     },
+     {
+      "title": "നടപടി",
+      "lines": [
+       "<b>32</b> വയസ്സുള്ള പ്രതിയെ വീട്ടിൽ നിന്ന് കസ്റ്റഡിയിലെടുത്തു",
+       "കുറ്റിപ്പുറം ഉൾപ്പെടെ പല സ്റ്റേഷനുകളിലും ലഹരി കേസുകൾ",
+       "കോടതിയിൽ ഹാജരാക്കി റിമാൻഡ് ചെയ്തു"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "ട്രെയിൻ വഴി 34 കിലോ കഞ്ചാവ് കടത്തിയ കേസിൽ പ്രധാനി പിടിയിൽ. കൽപകഞ്ചേരി സ്വദേശിയായ 32 വയസ്സുള്ള യുവാവിനെ കോഴിക്കോട് റെയിൽവേ പോലീസാണ് അറസ്റ്റ് ചെയ്തത്. കഴിഞ്ഞ ഓഗസ്റ്റിൽ മറ്റ് പ്രതികൾ പിടിയിലായ കേസിന്റെ തുടർ അന്വേഷണത്തിലാണ് ഇയാൾ കുടുങ്ങിയത്. ഫോൺ രേഖകളും അക്കൗണ്ടുകളും പരിശോധിച്ചപ്പോൾ ലക്ഷങ്ങളുടെ യുപിഐ ഇടപാടുകൾ കണ്ടെത്തി. ഒഡിഷയിൽ നിന്ന് എത്തിക്കുന്ന കഞ്ചാവ് തിരൂർ മേഖലയിൽ വിതരണം ചെയ്യുകയായിരുന്നു രീതി. ബുധനാഴ്ച ഉച്ചയ്ക്ക് കൽപകഞ്ചേരിയിലെ വീട്ടിൽ നിന്നാണ് കസ്റ്റഡിയിലെടുത്തത്. മുൻപും ലഹരി കേസുകളിൽ പ്രതിയായ ഇയാളെ കോടതി റിമാൻഡ് ചെയ്തു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🚨 ട്രെയിൻ വഴി 34 കിലോ കഞ്ചാവ് കടത്തിയ കേസിൽ പ്രധാനി അറസ്റ്റിൽ\n\n📰 പൂർണ വിവരം:\nട്രെയിൻ വഴി 34 കിലോയിലധികം കഞ്ചാവ് കടത്തിയ കേസിൽ പ്രധാന ആസൂത്രകനായ മലപ്പുറം സ്വദേശിയെ കോഴിക്കോട് റെയിൽവേ പോലീസ് അറസ്റ്റ് ചെയ്തു. കൽപകഞ്ചേരി മഞ്ഞച്ചോല അതിരുമട സ്വദേശിയായ 32 വയസ്സുള്ള യുവാവാണ് പിടിയിലായത്. കഴിഞ്ഞ ഓഗസ്റ്റിൽ 4 പേരെ അറസ്റ്റ് ചെയ്ത കേസിന്റെ അന്വേഷണത്തിലാണ് ഇയാളിലേക്ക് പോലീസ് എത്തിയത്. പ്രതികളുടെ ബാങ്ക് അക്കൗണ്ട്, ഫോൺ വിവരങ്ങൾ പരിശോധിച്ചതിൽ നിന്ന് ഇയാളുടെ പങ്കാളിത്തം വ്യക്തമായി. ഒഡിഷയിൽ നിന്ന് എത്തിക്കുന്ന കഞ്ചാവ് വാങ്ങാൻ ലക്ഷക്കണക്കിന് രൂപയുടെ യുപിഐ ഇടപാടുകൾ നടത്തിയിരുന്നു. ഈ കഞ്ചാവ് തിരൂർ മേഖലയിൽ വിതരണം ചെയ്യുകയായിരുന്നു രീതി. ബുധനാഴ്ച ഉച്ചയ്ക്ക് കൽപകഞ്ചേരിയിലെ വീട്ടിൽ നിന്നാണ് ഇയാളെ കസ്റ്റഡിയിലെടുത്തത്. കുറ്റിപ്പുറം, കൽപകഞ്ചേരി, കുഴൽമന്ദം എന്നിവിടങ്ങളിലും ഇയാൾക്കെതിരെ മയക്കുമരുന്ന് കേസുകളുണ്ട്. കോടതിയിൽ ഹാജരാക്കിയ പ്രതിയെ റിമാൻഡ് ചെയ്തു.\n📍 സ്ഥലം: കൽപകഞ്ചേരി, മലപ്പുറം\n👮 നടപടി: കോഴിക്കോട് റെയിൽവേ പോലീസ് അറസ്റ്റ് ചെയ്ത് റിമാൻഡ് ചെയ്തു\n\nTrain cannabis smuggling case mastermind arrested | Malappuram news\n📍 കൽപകഞ്ചേരി, മലപ്പുറം | 13 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Kalpakanchery #CrimeNews #MalappuramNews",
+   "prompts": "Police officers in khaki uniform handcuff K.P. Suhail as they escort him out of his Kalpakanchery house; the modest single‑storey house with a laterite wall and tiled roof sits on a narrow village lane lined with coconut palms; Suhail, a 32‑year‑old man in a white mundu, stands with his back to the camera while two police constables in khaki, one holding a handcuff case, the other with a radio, guide him toward a parked police jeep; no other vehicles are visible; the scene is bathed in bright noon sunlight under a clear sky; shot from a low angle, 35 mm lens, capturing the front door and the police action. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide view of Kalpakanchery’s residential lane shows the typical Kerala setting – red‑tiled houses, a line of coconut and areca trees, and a laterite compound wall bordering a narrow tar road; in the centre, the house where the arrest took place is visible, its front door open and a few police officers in khaki standing near it, their silhouettes clear against the midday glare; a police jeep is parked at the side of the road, its flashing lights off; a few local residents in traditional mundu and saree can be seen at a distance, watching from behind a wall; the bright daylight casts sharp shadows, captured from a slightly elevated position with a 35 mm lens to include both the house and the surrounding village atmosphere. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close‑up of a steel handcuff set lying on a wooden table inside the house, the metal gleaming under the soft noon light filtering through a half‑open window; beside the handcuffs, a police badge and a small notebook with a pen are visible, all belonging to the Kozhikode Railway Police; the background shows a portion of the house’s plastered wall with a faded mural of a coconut tree, hinting at the local character; a khaki sleeve of a police officer is partially in frame, holding the handcuff case, but the face is out of view; shot from a tight angle, 35 mm lens, emphasizing the objects that mark the arrest. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.mathrubhumi.com/crime/news/kozhikode-train-ganja-smuggling-mastermind-arrested-noqsggay",
+   "published": "2026-11-13T07:54:45+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: not grounded: location 'കൽപകഞ്ചേരി' is not in the article",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 10.0,
+   "images": [
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794553219/news360/akimdjrtabxispdnjj6j.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794553300/news360/ftcyjgrpaq94vvzmqndx.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794553252/news360/v9egpvqtekljngcesife.jpg"
+   ]
+  }
+ ]
 }
