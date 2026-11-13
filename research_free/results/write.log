@@ -1,109 +1,75 @@
-writing [N]: സൗജന്യ ഡയബറ്റിക് റെറ്റിനോപ്പതി നേത്ര പരിശോധന ക്യാമ്പ്
+writing [R]: മഞ്ചേരിയിൽ എൻ.എസ്.എസ്. വളണ്ടിയർ ലീഡർഷിപ്പ് ക്യാമ്പിന് തുടക്ക
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-writing [R]: മുഹമ്മദ് കോയ മദനിക്ക് കെ.കെ.ഐ.സി യാത്രയപ്പ് | Madhyamam
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
-writing [N]: വിവരാവകാശ നിയമം ജനാധിപത്യത്തെ ശക്തിപ്പെടുത്തുന്നു: സംസ്ഥാന വ
 dead for this round: gemini/gemini-3.7-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok gemini/gemini-3.6-flash (20s)
-attempt 1 gemini/gemini-3.6-flash: 1 problems
-  sentence 1 (one-line story) has 13 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [N]: സൗജന്യ ഡയബറ്റിക് റെറ്റിനോപ്പതി നേത്ര പരിശോധന ക്യാമ്പ്
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+dead for this round: groq/openai/gpt-oss-120b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+writing [N]: വിവരാവകാശ നിയമം ജനാധിപത്യത്തെ ശക്തിപ്പെടുത്തുന്നു: സംസ്ഥാന വ
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch12ya3qBbn5s2mwPowZv"}
+writing [N]: ഒന്നിച്ചു വന്നു, ഒന്നിച്ചു മടങ്ങി; കുഞ്ഞുങ്ങളുടെ വേർപാട് താങ
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch12ycWBWdpUQJd57rgHU"}
+writing [N]: പ്രവാസലോകത്ത് നിന്ന് ഒരു എഴുത്തുകാരി കൂടി; ഹസീന റഷീദ്  രചിച്
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch12ydUif21Uoni4pH4dN"}
+writing [N]: ജനങ്ങളുടെ സുരക്ഷയ്ക്ക് വേണ്ടി ഒരു ഇടപെടൽ
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch12yeMnkDidd4hzAny6E"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch12cBZem1ZzvXFVokXeT"}
-proofread skipped: free models not efficient (7 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-image match: False The image shows an auditorium with a projection screen and empty seating, not a felicitation event or honor ceremony fea
-fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.7-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch12dLhMNkSxGoeqBuM9g"}
-fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.6-flash
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch12dNfRchiyC9hr5F2fm"}
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match: False The image shows a woman in a long dress standing alone in a dark corridor, which does not depict an honor/felicitation e
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'KKIC Faiha unit honors Muhammad Koya Mad'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261113-1919","first":"MP-199"}
-posting job started at once
-writing [N]: ഒന്നിച്ചു വന്നു, ഒന്നിച്ചു മടങ്ങി; കുഞ്ഞുങ്ങളുടെ വേർപാട് താങ
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch12vmNdvkFoLhdq4EKYo"}
-writing [R]: മഞ്ചേരിയിൽ എൻ.എസ്.എസ്. വളണ്ടിയർ ലീഡർഷിപ്പ് ക്യാമ്പിന് തുടക്ക
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-writing [N]: പ്രവാസലോകത്ത് നിന്ന് ഒരു എഴുത്തുകാരി കൂടി; ഹസീന റഷീദ്  രചിച്
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch12vnS8fmsbHLZdbHP1L"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch12vnTsai6NRZTUgd2q9"}
-writing [N]: ജനങ്ങളുടെ സുരക്ഷയ്ക്ക് വേണ്ടി ഒരു ഇടപെടൽ
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch12vryz9HTQmWZgb9pGS"}
-write_stories.yml started
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch12zhU6ygAc3BQjzmnqK"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch12zpSZDT234K7E5JmDk"}
 earlier stories still waiting for images: []
 instagram check: 62 recent posts read from both pages
-write round: 8 news waiting in the queue (written in priority order)
-candidate filter: collected=8
-to write: 2 Manjeri + 6 other district candidates (max 200 + 200 stories)
-candidates waiting: 2 Manjeri, 6 Malappuram; time left 29 min
+write round: 6 news waiting in the queue (written in priority order)
+candidate filter: collected=6
+to write: 1 Manjeri + 5 other district candidates (max 200 + 200 stories)
+candidates waiting: 1 Manjeri, 5 Malappuram; time left 29 min
 try (N) manual=False: സൗജന്യ ഡയബറ്റിക് റെറ്റിനോപ്പതി നേത്ര പരിശോധന ക്യാമ്പ്
 try (N) manual=False: വിവരാവകാശ നിയമം ജനാധിപത്യത്തെ ശക്തിപ്പെടുത്തുന്നു: സംസ്ഥാന വ
-try (R) manual=False: മുഹമ്മദ് കോയ മദനിക്ക് കെ.കെ.ഐ.സി യാത്രയപ്പ് | Madhyamam
-auto images: 1 of 1 stories ({'pollinations': 6})
-posting job started at once
 try (R) manual=False: മഞ്ചേരിയിൽ എൻ.എസ്.എസ്. വളണ്ടിയർ ലീഡർഷിപ്പ് ക്യാമ്പിന് തുടക്ക
 NOT filed (N) വിവരാവകാശ നിയമം ജനാധിപത്യത്തെ ശക്തിപ്പെടുത്തുന്നു:: all free models failed: no usable answer from the models
-NOT filed (N) സൗജന്യ ഡയബറ്റിക് റെറ്റിനോപ്പതി നേത്ര പരിശോധന ക്യ: all free models failed: no usable answer from the models
 try (N) manual=False: ഒന്നിച്ചു വന്നു, ഒന്നിച്ചു മടങ്ങി; കുഞ്ഞുങ്ങളുടെ വേർപാട് താങ
-try (N) manual=False: പ്രവാസലോകത്ത് നിന്ന് ഒരു എഴുത്തുകാരി കൂടി; ഹസീന റഷീദ്  രചിച്
 NOT filed (N) ഒന്നിച്ചു വന്നു, ഒന്നിച്ചു മടങ്ങി; കുഞ്ഞുങ്ങളുടെ വ: all free models failed: no usable answer from the models
-try (N) manual=False: വാഹന പിഴ അടക്കാൻ സന്ദേശം; ഒറ്റ ക്ലിക്കിൽ കൊണ്ടോട്ടി സ്വദേശിക
-NOT filed (R) മഞ്ചേരിയിൽ എൻ.എസ്.എസ്. വളണ്ടിയർ ലീഡർഷിപ്പ് ക്യാമ്പ: all free models failed: no usable answer from the models
-try (N) manual=False: ജനങ്ങളുടെ സുരക്ഷയ്ക്ക് വേണ്ടി ഒരു ഇടപെടൽ
+try (N) manual=False: പ്രവാസലോകത്ത് നിന്ന് ഒരു എഴുത്തുകാരി കൂടി; ഹസീന റഷീദ്  രചിച്
 NOT filed (N) പ്രവാസലോകത്ത് നിന്ന് ഒരു എഴുത്തുകാരി കൂടി; ഹസീന റഷ: all free models failed: no usable answer from the models
-skip (N) similar to a filed story: വാഹന പിഴ അടക്കാൻ സന്ദേശം; ഒറ്റ ക്ലിക്കിൽ കൊണ്ടോട്ട
+try (N) manual=False: ജനങ്ങളുടെ സുരക്ഷയ്ക്ക് വേണ്ടി ഒരു ഇടപെടൽ
 NOT filed (N) ജനങ്ങളുടെ സുരക്ഷയ്ക്ക് വേണ്ടി ഒരു ഇടപെടൽ: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 2, 'N': 6}, done={'R': 1, 'N': 0}, time left 24 min
-carousel for 0 of 1 stories, the rest reel only
-filed: 1 Manjeri + 0 Malappuram (targets 200 + 200)
+NOT filed (R) മഞ്ചേരിയിൽ എൻ.എസ്.എസ്. വളണ്ടിയർ ലീഡർഷിപ്പ് ക്യാമ്പ: all free models failed: no usable answer from the models
+NOT filed (N) സൗജന്യ ഡയബറ്റിക് റെറ്റിനോപ്പതി നേത്ര പരിശോധന ക്യ: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 5}, done={'R': 0, 'N': 0}, time left 29 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
 queue: 6 news waiting to be written
-write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":7} 
-stories: 1
+All News sheet: {"ok":true,"added":0,"updated":6} 
+stories: 0
