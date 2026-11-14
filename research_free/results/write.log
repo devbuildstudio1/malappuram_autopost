@@ -1,21 +1,50 @@
 writing [R]: സ്കൂൾ ബസുകളുടെ ഫ്ലാഗ് ഓഫ് നിർവഹിച്ച് പ്രിയങ്ക ഗാന്ധി; ബസുകൾ 
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: മലപ്പുറത്ത് വീണ്ടും ഷിഗെല്ല; നാല് വയസുകാരൻ ചികിൽസയിൽ, കേസുകള
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+writing [R]: എംപി ഫണ്ടിൽ നിന്ന് സ്കൂൾ ബസുകൾ; ഫ്ളാഗ് ഓഫ് കർമ്മം നിർവഹിച്ച്
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+switching away from gemini/gemini-3.8-flash for 10 min
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+switching away from gemini/gemini-3.6-flash for 10 min
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
@@ -23,47 +52,43 @@ dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-writing [N]: മലപ്പുറത്ത് വീണ്ടും ഷിഗെല്ല; നാല് വയസുകാരൻ ചികിൽസയിൽ, കേസുകള
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2SQ7Nc8Nb6o7zJHCr1r"}
-writing [N]: ആനറക്കുളം തകർച്ച; സമഗ്ര അന്വേഷണത്തിന് ഡെപ്യൂട്ടി കളക്ടർ എത്ത
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2SQ8ZYc8FiU9Wafcaps"}writing [R]: എംപി ഫണ്ടിൽ നിന്ന് സ്കൂൾ ബസുകൾ; ഫ്ളാഗ് ഓഫ് കർമ്മം നിർവഹിച്ച്
-
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-writing [N]: മഹാമാഘ ഉത്സവം: 1001 അംഗ സംഘാടകസമിതിയായി
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2SQ9446V5oJG2183eDq"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2SQ9XaQ9L3Py6mipTqU"}
-writing [N]: യുവാവ് കുളത്തിൽവീണ് മരിച്ചു
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2SQGDAKKrzgBwW2W9ir"}
-writing [N]: മലപ്പുറത്ത് വീണ്ടും ഷിഗല്ല രോഗബാധ സ്ഥിരീകരിച്ചു; ഈ മാസം രോഗം
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2SQKCFncuo6FHHaurF1"}
-writing [N]: അങ്ങാടിപ്പുറത്ത് നാലുവയസുകാരന് ഷിഗല്ലെ | Deepika | The Large
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2SQLpykyt9X5YwhB336"}
-writing [N]: സർട്ടിഫിക്കറ്റിന് 1000 രൂപയുടെ പേപ്പർ ബണ്ടിൽ ആവശ്യപ്പെട്ട സം
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2SQNDKzmYP4KKggUae3"}
-writing [N]: മലപ്പുറം കിഴിശ്ശേരിയിൽ രണ്ട് സ്വകാര്യ ബസുകൾ കൂട്ടിയിടിച്ചു; 
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-writing [R]: ഇതെന്താ 'റഫറൽ' ആശുപത്രിയോ ?
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2SQNwUsq1JeU2PJv4hH"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2SQP1hQfr59PiE1C347"}
-writing [N]: ദേശീയ അംഗീകാരം ലഭിച്ചതിൽ ആഹ്ലാദം
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2SQTECGJzPw8J9YoYya"}
-writing [N]: ജിഎൻഎ കരാർ വൈദ്യുതി കൊള്ള
-കെഎസ്ഇബി ഓഫീസുകളിലേക്ക് ഡിവൈഎഫ്ഐ മ
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2SQUdHXP7vj87bGjrG6"}
+fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2SREaUJrHQHeWFwdMw7"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2UxMfhm9yT3JGVeLhzG"}
+writing [N]: ആനറക്കുളം തകർച്ച; സമഗ്ര അന്വേഷണത്തിന് ഡെപ്യൂട്ടി കളക്ടർ എത്ത
+free models unavailable: free models not efficient (21 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2UxNK9bWMJiDimmz3nB"}
+writing [N]: മഹാമാഘ ഉത്സവം: 1001 അംഗ സംഘാടകസമിതിയായി
+free models unavailable: free models not efficient (21 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2UxNv7ER9BUw99JcCr9"}
+writing [N]: മലപ്പുറത്ത് വീണ്ടും ഷിഗല്ല രോഗബാധ സ്ഥിരീകരിച്ചു; ഈ മാസം രോഗം
+free models unavailable: free models not efficient (21 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2UxXHesFaJeu76Doyf3"}
+writing [N]: മലപ്പുറം കിഴിശ്ശേരിയിൽ രണ്ട് സ്വകാര്യ ബസുകൾ കൂട്ടിയിടിച്ചു; 
+free models unavailable: free models not efficient (21 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2UxeS29pCTWnoWqScVS"}
+writing [N]: സർട്ടിഫിക്കറ്റിന് 1000 രൂപയുടെ പേപ്പർ ബണ്ടിൽ ആവശ്യപ്പെട്ട സം
+free models unavailable: free models not efficient (21 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2UxiCEMqkPN1Guu5LWw"}
+writing [R]: ഇതെന്താ 'റഫറൽ' ആശുപത്രിയോ ?
+free models unavailable: free models not efficient (21 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2Uximhpe45JYcCfaYXs"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2UyCz6gn18EAPaCsK9f"}
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2V2EjbwwUjxHcg886Zh"}
 earlier stories still waiting for images: []
 instagram check: 64 recent posts read from both pages
 write round: 13 news waiting in the queue (written in priority order)
@@ -73,32 +98,32 @@ candidates waiting: 3 Manjeri, 10 Malappuram; time left 29 min
 try (R) manual=False: സ്കൂൾ ബസുകളുടെ ഫ്ലാഗ് ഓഫ് നിർവഹിച്ച് പ്രിയങ്ക ഗാന്ധി; ബസുകൾ 
 try (N) manual=False: മലപ്പുറത്ത് വീണ്ടും ഷിഗെല്ല; നാല് വയസുകാരൻ ചികിൽസയിൽ, കേസുകള
 try (R) manual=False: എംപി ഫണ്ടിൽ നിന്ന് സ്കൂൾ ബസുകൾ; ഫ്ളാഗ് ഓഫ് കർമ്മം നിർവഹിച്ച്
-NOT filed (N) മലപ്പുറത്ത് വീണ്ടും ഷിഗെല്ല; നാല് വയസുകാരൻ ചികിൽസയ: all free models failed: no usable answer from the models
+NOT filed (R) സ്കൂൾ ബസുകളുടെ ഫ്ലാഗ് ഓഫ് നിർവഹിച്ച് പ്രിയങ്ക ഗാന്: all free models failed: no usable answer from the models
 try (N) manual=False: ആനറക്കുളം തകർച്ച; സമഗ്ര അന്വേഷണത്തിന് ഡെപ്യൂട്ടി കളക്ടർ എത്ത
 NOT filed (N) ആനറക്കുളം തകർച്ച; സമഗ്ര അന്വേഷണത്തിന് ഡെപ്യൂട്ടി ക: all free models failed: no usable answer from the models
 try (N) manual=False: മഹാമാഘ ഉത്സവം: 1001 അംഗ സംഘാടകസമിതിയായി
-NOT filed (R) എംപി ഫണ്ടിൽ നിന്ന് സ്കൂൾ ബസുകൾ; ഫ്ളാഗ് ഓഫ് കർമ്മം : all free models failed: no usable answer from the models
-try (N) manual=False: മലപ്പുറത്ത് വീണ്ടും ഷിഗല്ല രോഗബാധ സ്ഥിരീകരിച്ചു; ഈ മാസം രോഗം
 NOT filed (N) മഹാമാഘ ഉത്സവം: 1001 അംഗ സംഘാടകസമിതിയായി: all free models failed: no usable answer from the models
-try (N) manual=False: യുവാവ് കുളത്തിൽവീണ് മരിച്ചു
-NOT filed (N) യുവാവ് കുളത്തിൽവീണ് മരിച്ചു: all free models failed: no usable answer from the models
-try (N) manual=False: അങ്ങാടിപ്പുറത്ത് നാലുവയസുകാരന് ഷിഗല്ലെ | Deepika | The Large
+try (N) manual=False: മലപ്പുറത്ത് വീണ്ടും ഷിഗല്ല രോഗബാധ സ്ഥിരീകരിച്ചു; ഈ മാസം രോഗം
 NOT filed (N) മലപ്പുറത്ത് വീണ്ടും ഷിഗല്ല രോഗബാധ സ്ഥിരീകരിച്ചു; ഈ: all free models failed: no usable answer from the models
+try (N) manual=False: യുവാവ് കുളത്തിൽവീണ് മരിച്ചു
+skip (N) could not open: യുവാവ് കുളത്തിൽവീണ് മരിച്ചു [https://www.deshabhimani.com/district-news/-85521/6obituary-] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+try (N) manual=False: അങ്ങാടിപ്പുറത്ത് നാലുവയസുകാരന് ഷിഗല്ലെ | Deepika | The Large
+skip (N) could not open: അങ്ങാടിപ്പുറത്ത് നാലുവയസുകാരന് ഷിഗല്ലെ | Deepika | [https://www.deepika.com/district-news/shigella-in-a-four-yea] 403 Client Error: Forbidden for url: https://www.deepika.com/district-news/shige
 try (N) manual=False: മലപ്പുറം കിഴിശ്ശേരിയിൽ രണ്ട് സ്വകാര്യ ബസുകൾ കൂട്ടിയിടിച്ചു; 
-NOT filed (N) അങ്ങാടിപ്പുറത്ത് നാലുവയസുകാരന് ഷിഗല്ലെ | Deepika |: all free models failed: no usable answer from the models
+NOT filed (N) മലപ്പുറം കിഴിശ്ശേരിയിൽ രണ്ട് സ്വകാര്യ ബസുകൾ കൂട്ടി: all free models failed: no usable answer from the models
 try (N) manual=False: സർട്ടിഫിക്കറ്റിന് 1000 രൂപയുടെ പേപ്പർ ബണ്ടിൽ ആവശ്യപ്പെട്ട സം
 NOT filed (N) സർട്ടിഫിക്കറ്റിന് 1000 രൂപയുടെ പേപ്പർ ബണ്ടിൽ ആവശ്യ: all free models failed: no usable answer from the models
 try (R) manual=False: ഇതെന്താ 'റഫറൽ' ആശുപത്രിയോ ?
-NOT filed (N) മലപ്പുറം കിഴിശ്ശേരിയിൽ രണ്ട് സ്വകാര്യ ബസുകൾ കൂട്ടി: all free models failed: no usable answer from the models
-try (N) manual=False: ദേശീയ അംഗീകാരം ലഭിച്ചതിൽ ആഹ്ലാദം
 NOT filed (R) ഇതെന്താ 'റഫറൽ' ആശുപത്രിയോ ?: all free models failed: no usable answer from the models
+try (N) manual=False: ദേശീയ അംഗീകാരം ലഭിച്ചതിൽ ആഹ്ലാദം
+skip (N) could not open: ദേശീയ അംഗീകാരം ലഭിച്ചതിൽ ആഹ്ലാദം [https://www.mangalam.com/news/detail/881032-joyoverreceiving] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/881032
 try (N) manual=False: ജിഎൻഎ കരാർ വൈദ്യുതി കൊള്ള
 കെഎസ്ഇബി ഓഫീസുകളിലേക്ക് ഡിവൈഎഫ്ഐ മ
-NOT filed (N) ദേശീയ അംഗീകാരം ലഭിച്ചതിൽ ആഹ്ലാദം: all free models failed: no usable answer from the models
-NOT filed (N) ജിഎൻഎ കരാർ വൈദ്യുതി കൊള്ള
-കെഎസ്ഇബി ഓഫീസുകളിലേക്ക് : all free models failed: no usable answer from the models
-NOT filed (R) സ്കൂൾ ബസുകളുടെ ഫ്ലാഗ് ഓഫ് നിർവഹിച്ച് പ്രിയങ്ക ഗാന്: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 3, 'N': 10}, done={'R': 0, 'N': 0}, time left 29 min
+skip (N) could not open: ജിഎൻഎ കരാർ വൈദ്യുതി കൊള്ള
+കെഎസ്ഇബി ഓഫീസുകളിലേക്ക്  [https://www.deshabhimani.com/district-news/-35301/gna-agreem] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+NOT filed (R) എംപി ഫണ്ടിൽ നിന്ന് സ്കൂൾ ബസുകൾ; ഫ്ളാഗ് ഓഫ് കർമ്മം : all free models failed: no usable answer from the models
+NOT filed (N) മലപ്പുറത്ത് വീണ്ടും ഷിഗെല്ല; നാല് വയസുകാരൻ ചികിൽസയ: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 3, 'N': 10}, done={'R': 0, 'N': 0}, time left 26 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
 queue: 13 news waiting to be written
