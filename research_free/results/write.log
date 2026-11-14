@@ -1,213 +1,165 @@
-writing [N]: പൊന്നാനിയുടെ ഓർമ്മ ചിത്ര പ്രദർശനം സംഘടിപ്പിച്ചു
+writing [N]: ലോഡ്ഷെഡ്ഡിങ്; ഫെബ്രുവരി മുതൽ കളി മാറും, യൂണിറ്റിന് വെറും 5.4
+writing [N]: വന്ദേഭാരത് ബെംഗളൂരു ആണെങ്കിലും നിയന്ത്രണം മലയാളികൾക്ക്; കാവ്
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-writing [N]: വാർത്താനാടകം പൊളിഞ്ഞു; മരണത്തെപ്പോലും രാഷ്ട്രീയലക്ഷ്യമാക്കി 
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
 writing [N]: എൽഫോഴ്സിയുടെ കരുത്തിൽ മലപ്പുറം രണ്ടാം സ്ഥാനത്ത്
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch3Gu7wiuoX1Mz9NJv62U"}
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+dead for this round: groq/openai/gpt-oss-120b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+dead for this round: groq/openai/gpt-oss-120b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 400: {"errors":[{"message":"AiError: AiError: {\"error\":{\"message\
-writing [N]: ലോഡ്ഷെഡ്ഡിങ്; ഫെബ്രുവരി മുതൽ കളി മാറും, യൂണിറ്റിന് വെറും 5.4
-free models unavailable: free models not efficient (11 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch3GuBJ9AxPfT7w6XTnJ1"}
-writing [N]: വന്ദേഭാരത് ബെംഗളൂരു ആണെങ്കിലും നിയന്ത്രണം മലയാളികൾക്ക്; കാവ്
-free models unavailable: free models not efficient (11 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch3GuCusoZS46wpVw15Vi"}
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (26s)
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (39s)
 attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 33 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 52 ('അർബുദത്തോട് പത്തുമാസം നീണ്ട പോരാട്ടത്തിനൊടുവിൽ മരണത്തിനു കീഴ')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (44s)
-attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 50 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast (78s)
-attempt 1 cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: 1 problems
-  reel_script has 37 words; need 50-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (42s)
-attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 53 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (41s)
-attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 37 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 2 ('യൂണിറ്റിന് 5.40 രൂപ നിരക്കിൽ 540 മെഗാവാട്ട് വൈദ്യുതി ലഭിക്കു'); 4 ('ഏപ്രിൽ, മെയ് മാസങ്ങളിൽ വൈദ്യുതി ഡിമാൻഡ് ഉയരുമ്പോൾ അധിക വൈദ്യ'); 7 ('മറ്റ് വൈദ്യുതി സ്രോതസ്സുകളെ ആശ്രയിക്കുന്നത് കുറയ്ക്കാമെന്നതാ')
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
 poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (29s)
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
+poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (33s)
+attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
+  reel_script has 42 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 300 ('300 ബൈക്കുകൾ കേന്ദ്രീകരിച്ച് പോലീസ്, ചാല കവർച്ച അന്വേഷണം ഈ വ'); 13 ('മറ്റൊരാൾ തൃശൂർ മണ്ണൂത്തി സ്വദേശി രാജേഷും.ബെംഗളൂരു-ഗോവ വന്ദേഭ'); 20 ('മറ്റൊരാൾ തൃശൂർ മണ്ണൂത്തി സ്വദേശി രാജേഷും.ബെംഗളൂരു-ഗോവ വന്ദേഭ'); 26655 ('26655 നമ്പറിലുള്ള വന്ദേഭാരത് രാവിലെ 7.35നാണ് യശ്വന്ത്പൂരിൽ ന'); 7 ('26655 നമ്പറിലുള്ള വന്ദേഭാരത് രാവിലെ 7.35നാണ് യശ്വന്ത്പൂരിൽ ന'); 35 ('26655 നമ്പറിലുള്ള വന്ദേഭാരത് രാവിലെ 7.35നാണ് യശ്വന്ത്പൂരിൽ ന')
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (43s)
-attempt 5 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 45 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (37s)
+attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 5 problems
+  reel_script has 50 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  stray Malayalam sign 'ാ' after '-' in «ി. 18-ാം മ»
+  stray Malayalam sign 'ാ' after '-' in «ി. 27-ാം മ»
+  stray Malayalam sign 'ാ' after '-' in «ി. 40-ാം മ»
+  stray Malayalam sign 'ാ' after '-' in «ടെ 86-ാം മ»
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (2s)
-factcheck by cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 6 problems
-  The article does not mention that the exhibition was inaugurated.
-  The article does not mention that the exhibition is about old memories.
-  The article does not say that the exhibition is by the artist Madanan.
-  The article does not say that the exhibition is by the artist Bhaskara Das.
-  The article does not say that the artist Bhaskara Das gave a speech.
-  The reel_script omits the fact that the exhibition is titled 'Ponnani Kazhchakal'.
-attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 6 problems
-  fact-check: The article does not mention that the exhibition was inaugurated.
-  fact-check: The article does not mention that the exhibition is about old memories.
-  fact-check: The article does not say that the exhibition is by the artist Madanan.
-  fact-check: The article does not say that the exhibition is by the artist Bhaskara Das.
-  fact-check: The article does not say that the artist Bhaskara Das gave a speech.
-  fact-check: The reel_script omits the fact that the exhibition is titled 'Ponnani Kazhchakal'.
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (25s)
-attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 49 words; need 50-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (29s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (5s)
-factcheck by cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 10 problems
-  reel_script says artist Madanan painted the pictures; the article says he only opened the exhibition
-  reel_script and caption say the exhibition is on Saturday and Sunday; the article says it is on Saturday and Sunday but does not say it is ongoing
-  reel_script and caption say the exhibition is on Saturday and Sunday; the article does not say how long the exhibition will last
-  reel_script and caption say artist Madanan painted the pictures; the article says artist Bhaskara Das painted the pictures
-  reel_script and caption say the exhibition is on Saturday and Sunday; the article does not say the exhibition is on Saturday and Sunday
-  reel_script and caption say the exhibition is on Saturday and Sunday; the article does not say the exhibition is on Saturday and Sunday
-  reel_script and caption say the exhibition is on Saturday and Sunday; the article does not say the exhibition is on Saturday and Sunday
-  reel_script and caption say the exhibition is on Saturday and Sunday; the article does not say the exhibition is on Saturday and Sunday
-  reel_script and caption say the exhibition is on Saturday and Sunday; the article does not say the exhibition is on Saturday and Sunday
-  reel_script and caption say the exhibition is on Saturday and Sunday; the article does not say the exhibition is on Saturday and Sunday
-attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 10 problems
-  fact-check: reel_script says artist Madanan painted the pictures; the article says he only opened the exhibition
-  fact-check: reel_script and caption say the exhibition is on Saturday and Sunday; the article says it is on Saturday and Sunday but does not say it is ongoing
-  fact-check: reel_script and caption say the exhibition is on Saturday and Sunday; the article does not say how long the exhibition will last
-  fact-check: reel_script and caption say artist Madanan painted the pictures; the article says artist Bhaskara Das painted the pictures
-  fact-check: reel_script and caption say the exhibition is on Saturday and Sunday; the article does not say the exhibition is on Saturday and Sunday
-  fact-check: reel_script and caption say the exhibition is on Saturday and Sunday; the article does not say the exhibition is on Saturday and Sunday
-  fact-check: reel_script and caption say the exhibition is on Saturday and Sunday; the article does not say the exhibition is on Saturday and Sunday
-  fact-check: reel_script and caption say the exhibition is on Saturday and Sunday; the article does not say the exhibition is on Saturday and Sunday
-  fact-check: reel_script and caption say the exhibition is on Saturday and Sunday; the article does not say the exhibition is on Saturday and Sunday
-  fact-check: reel_script and caption say the exhibition is on Saturday and Sunday; the article does not say the exhibition is on Saturday and Sunday
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: Expecting ',' delimiter: line 9 column 537 (char 878)
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: Expecting ',' delimiter: line 9 column 578 (char 901)
 poor answer - skipped for 30 min: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch3HGGxYRoRVhUiMmFQoU"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch3HY3hX5mtUs1CYgw78Z"}
 proofread skipped: free models not efficient (4 failures in a row): using Claude
 image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
 image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (27s)
-attempt 5 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 48 words; need 50-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch3HGX95ThTj5oJBdJCQ4"}
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-ok groq/qwen/qwen3.8-27b (3s)
-proofread by groq/qwen/qwen3.8-27b: 1 problems
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-image match: False The photo is an AI-generated illustration depicting a generic Kerala Police vehicle, not authentic news photography cove
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Muslim League leader's fake news drama e'
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-switching away from groq/qwen/qwen3.8-27b for 10 min
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261114-2349","first":"MP-236"}
-posting job started at once
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (42s)
+attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
+  reel_script has 42 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 6
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch3HZSL5jt8BKcdfbtCtP"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+proofread skipped: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6fxrnxae4nt2p749ssm50dy` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1612. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Exhibition of old memories of Ponnani in'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261114-2349","first":"MP-237"}
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (42s)
+attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 4 problems
+  stray Malayalam sign 'ാ' after '-' in «ി. 18-ാം മ»
+  stray Malayalam sign 'ാ' after '-' in «ി. 27-ാം മ»
+  stray Malayalam sign 'ാ' after '-' in «ി. 40-ാം മ»
+  stray Malayalam sign 'ാ' after '-' in «ടെ 86-ാം മ»
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch3HZi4svZ6WaV7QtdSmG"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+image match: False The photo shows a general building and street scene, which is unrelated to NTPC power generation, transmission infrastru
+ok groq/qwen/qwen3.8-27b (9s)
+proofread rejected (3 problems)
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+ok groq/qwen/qwen3.8-27b (1s)
+imagegen: HTTPSConnectionPool(host='image.pollinations.ai', port=443): Read timed out. (read timeout=90)
+imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=90) 504 timeout
+imagegen: black-forest-labs/flux.1-dev 500: Internal Server Error
+images NOT made for 'Kerala to receive 540 MW power from NTPC': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error
+bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261114-2356","first":"MP-238"}
+posting job started at once
+bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261114-2356","first":"MP-239"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok groq/qwen/qwen3.8-27b (3s)
+bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261114-2357","first":"MP-240"}
 write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 67 recent posts read from both pages
-write round: 6 news waiting in the queue (written in priority order)
-candidate filter: collected=6
-to write: 0 Manjeri + 6 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 6 Malappuram; time left 29 min
+write round: 4 news waiting in the queue (written in priority order)
+candidate filter: collected=4
+to write: 0 Manjeri + 4 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 4 Malappuram; time left 29 min
 try (N) manual=False: മലപ്പുറം കൊണ്ടോട്ടിയിൽ ബസ്സുകൾ കൂട്ടിയിടിച്ചു; ഇരുപത്തിയഞ്ചി
 try (N) manual=False: എൽഫോഴ്സിയുടെ കരുത്തിൽ മലപ്പുറം രണ്ടാം സ്ഥാനത്ത്
-try (N) manual=False: പൊന്നാനിയുടെ ഓർമ്മ ചിത്ര പ്രദർശനം സംഘടിപ്പിച്ചു
-skip (N) could not open: മലപ്പുറം കൊണ്ടോട്ടിയിൽ ബസ്സുകൾ കൂട്ടിയിടിച്ചു; ഇരു [https://www.kairalinewsonline.com/ml/news/kondotty-bus-accid] 403 Client Error: Forbidden for url: https://www.kairalinewsonline.com/ml/news/k
-try (N) manual=False: വാർത്താനാടകം പൊളിഞ്ഞു; മരണത്തെപ്പോലും രാഷ്ട്രീയലക്ഷ്യമാക്കി 
-NOT filed (N) എൽഫോഴ്സിയുടെ കരുത്തിൽ മലപ്പുറം രണ്ടാം സ്ഥാനത്ത്: all free models failed: no usable answer from the models
 try (N) manual=False: ലോഡ്ഷെഡ്ഡിങ്; ഫെബ്രുവരി മുതൽ കളി മാറും, യൂണിറ്റിന് വെറും 5.4
-NOT filed (N) ലോഡ്ഷെഡ്ഡിങ്; ഫെബ്രുവരി മുതൽ കളി മാറും, യൂണിറ്റിന്: all free models failed: no usable answer from the models
+skip (N) could not open: മലപ്പുറം കൊണ്ടോട്ടിയിൽ ബസ്സുകൾ കൂട്ടിയിടിച്ചു; ഇരു [https://www.kairalinewsonline.com/ml/news/kondotty-bus-accid] 403 Client Error: Forbidden for url: https://www.kairalinewsonline.com/ml/news/k
 try (N) manual=False: വന്ദേഭാരത് ബെംഗളൂരു ആണെങ്കിലും നിയന്ത്രണം മലയാളികൾക്ക്; കാവ്
-NOT filed (N) വന്ദേഭാരത് ബെംഗളൂരു ആണെങ്കിലും നിയന്ത്രണം മലയാളികൾ: all free models failed: no usable answer from the models
-auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})
+auto images failed for 'Kerala to receive 540 MW power from NTPC': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email
+auto images: 0 of 1 stories ({'pollinations': 1})
 posting job started at once
-auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 9})
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 6}, done={'R': 0, 'N': 2}, time left 24 min
-carousel for 0 of 2 stories, the rest reel only
-filed: 0 Manjeri + 2 Malappuram (targets 200 + 200)
-queue: 4 news waiting to be written
+auto images: 0 of 1 stories ({'pollinations': 1})
+auto images: 0 of 1 stories ({'pollinations': 1})
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 4}, done={'R': 0, 'N': 3}, time left 22 min
+carousel for 0 of 3 stories, the rest reel only
+filed: 0 Manjeri + 3 Malappuram (targets 200 + 200)
+queue: 1 news waiting to be written
 write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":6} 
-stories: 2
+All News sheet: {"ok":true,"added":0,"updated":4} 
+stories: 3
