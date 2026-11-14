@@ -3,12 +3,7 @@ writing [R]: കേരള സാമൂഹിക സുരക്ഷാ മിഷ�
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -20,54 +15,84 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
 writing [N]: മലപ്പുറത്ത് വീണ്ടും ഷിഗെല്ല; ഈ മാസം രോഗം ബാധിച്ചവരുടെ എണ്ണം 
-free models unavailable: free models not efficient (3 failures in a row): using Claude
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2sjFiqpAUeobjEmQzFQ"}
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-writing [R]: ചേമഞ്ചേരി റെയിൽവേ സ്റ്റേഷൻ പുതുമോടിയിലേക്ക്; കൂടുതൽ വണ്ടികൾ 
-free models unavailable: free models not efficient (6 failures in a row): using Claude
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2sjHCPhepMwzerm5TRf"}
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-writing [R]: സ്കൂൾ ബസുകളുടെ ഫ്ലാഗ് ഓഫ് നിർവഹിച്ച് പ്രിയങ്ക ഗാന്ധി; ബസുകൾ 
-free models unavailable: free models not efficient (9 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2sjN84UEnUU7xta7bqL"}
-writing [N]: മലപ്പുറം കിഴിശ്ശേരിയിൽ രണ്ട് സ്വകാര്യ ബസുകൾ കൂട്ടിയിടിച്ചു; 
-free models unavailable: free models not efficient (9 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2sjUtbmDwHEG8RG7zMZ"}
-writing [N]: തിരൂരങ്ങാടി മണ്ഡലം കെഎംസിസി ‘കരുണാമൃതം ഹാജി സാഹിബ്’ സംഘടിപ്പ
-free models unavailable: free models not efficient (9 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2sjWMu4YpKHjUJCM8fZ"}
-writing [R]: നിലമ്പൂർ @ 1921: കിഴക്കൻ ഏറനാടിന്റെ പോരാട്ടചരിത്രം; പുസ്തകം 
-free models unavailable: free models not efficient (9 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2sjXbpGqfeRjzjk39bf"}
-writing [N]: വിദേശത്തെ ജയിലിൽ കിടന്നിട്ടും പാഠം പഠിച്ചില്ല! ആദ്യമേ അമ്മാവ
-free models unavailable: free models not efficient (9 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2sjfVaDm1CifwimJMtb"}
-writing [N]: വന്ദേഭാരത് ബെംഗളൂരു ആണെങ്കിലും നിയന്ത്രണം മലയാളികൾക്ക്; കാവ്
-free models unavailable: free models not efficient (9 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2sjh5KfbaBKArYpEJQb"}
-writing [N]: ഹജ്ജ് 2027: കേരളത്തിലെ 442 തീർഥാടകരുടെ പാസ്പോർട്ട് ചിത്രം വ്
-free models unavailable: free models not efficient (9 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2sjmJa9d6y4THyLHKqv"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2skSp7p3hx4o1CgMbgk"}
-fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2vierwptu4dr7bbzvcj"}
+writing [R]: ചേമഞ്ചേരി റെയിൽവേ സ്റ്റേഷൻ പുതുമോടിയിലേക്ക്; കൂടുതൽ വണ്ടികൾ 
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2vigQU8FdBWXnjWV6ZV"}
+writing [R]: സ്കൂൾ ബസുകളുടെ ഫ്ലാഗ് ഓഫ് നിർവഹിച്ച് പ്രിയങ്ക ഗാന്ധി; ബസുകൾ 
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2vijFcvNBaKqLLwU3zL"}
+writing [N]: മലപ്പുറം കിഴിശ്ശേരിയിൽ രണ്ട് സ്വകാര്യ ബസുകൾ കൂട്ടിയിടിച്ചു; 
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2viw5XTa1NbzqEiiaRS"}
+ok gemini/gemini-3.6-flash (21s)
+writing [N]: തിരൂരങ്ങാടി മണ്ഡലം കെഎംസിസി ‘കരുണാമൃതം ഹാജി സാഹിബ്’ സംഘടിപ്പ
+attempt 1 gemini/gemini-3.6-flash: 2 problems
+  source/outlet name or link appears: www.
+  numbers not found in the article: 180, 32, 34, 39, 440, 48
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2sofdsrXQU29W2PPytD"}
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2vj2JYvquXxq9GGuV6N"}
+proofread skipped: free models not efficient (3 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2vj3dfMcnJK5qu6ZNLK"}
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+image match: False The image shows a building exterior surrounded by greenery with no signs, text, or people related to the Kerala Social S
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2vmquJF86FPnrNQAYUN"}
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match: False The photo shows a building with traditional Asian/Japanese style architecture surrounded by trees, which does not relate
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 5 for 'Vacancies in Kerala Social Security Miss'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261114-1924","first":"MP-228"}
+posting job started at once
+writing [N]: വിദേശത്തെ ജയിലിൽ കിടന്നിട്ടും പാഠം പഠിച്ചില്ല! ആദ്യമേ അമ്മാവ
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+writing [R]: നിലമ്പൂർ @ 1921: കിഴക്കൻ ഏറനാടിന്റെ പോരാട്ടചരിത്രം; പുസ്തകം 
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2w6vkXejAaE17rmB6qw"}
+writing [N]: വന്ദേഭാരത് ബെംഗളൂരു ആണെങ്കിലും നിയന്ത്രണം മലയാളികൾക്ക്; കാവ്
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2w6vtUi6VWvWRJ8BVv2"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2w6wGYgbDeCo4NKKzth"}
+writing [N]: ഹജ്ജ് 2027: കേരളത്തിലെ 442 തീർഥാടകരുടെ പാസ്പോർട്ട് ചിത്രം വ്
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2w6zH7XDc34u8SyWjG2"}
+write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 65 recent posts read from both pages
 write round: 11 news waiting in the queue (written in priority order)
@@ -85,20 +110,22 @@ NOT filed (R) സ്കൂൾ ബസുകളുടെ ഫ്ലാഗ് ഓഫ
 try (N) manual=False: മലപ്പുറം കിഴിശ്ശേരിയിൽ രണ്ട് സ്വകാര്യ ബസുകൾ കൂട്ടിയിടിച്ചു; 
 NOT filed (N) മലപ്പുറം കിഴിശ്ശേരിയിൽ രണ്ട് സ്വകാര്യ ബസുകൾ കൂട്ടി: all free models failed: no usable answer from the models
 try (N) manual=False: തിരൂരങ്ങാടി മണ്ഡലം കെഎംസിസി ‘കരുണാമൃതം ഹാജി സാഹിബ്’ സംഘടിപ്പ
-NOT filed (N) തിരൂരങ്ങാടി മണ്ഡലം കെഎംസിസി ‘കരുണാമൃതം ഹാജി സാഹിബ്: all free models failed: no usable answer from the models
-try (R) manual=False: നിലമ്പൂർ @ 1921: കിഴക്കൻ ഏറനാടിന്റെ പോരാട്ടചരിത്രം; പുസ്തകം 
-NOT filed (R) നിലമ്പൂർ @ 1921: കിഴക്കൻ ഏറനാടിന്റെ പോരാട്ടചരിത്രം: all free models failed: no usable answer from the models
+auto images: 1 of 1 stories ({'pollinations': 7})
+posting job started at once
 try (N) manual=False: വിദേശത്തെ ജയിലിൽ കിടന്നിട്ടും പാഠം പഠിച്ചില്ല! ആദ്യമേ അമ്മാവ
-NOT filed (N) വിദേശത്തെ ജയിലിൽ കിടന്നിട്ടും പാഠം പഠിച്ചില്ല! ആദ്: all free models failed: no usable answer from the models
-try (N) manual=False: വന്ദേഭാരത് ബെംഗളൂരു ആണെങ്കിലും നിയന്ത്രണം മലയാളികൾക്ക്; കാവ്
-NOT filed (N) വന്ദേഭാരത് ബെംഗളൂരു ആണെങ്കിലും നിയന്ത്രണം മലയാളികൾ: all free models failed: no usable answer from the models
-try (N) manual=False: ഹജ്ജ് 2027: കേരളത്തിലെ 442 തീർഥാടകരുടെ പാസ്പോർട്ട് ചിത്രം വ്
-NOT filed (N) ഹജ്ജ് 2027: കേരളത്തിലെ 442 തീർഥാടകരുടെ പാസ്പോർട്ട്: all free models failed: no usable answer from the models
+NOT filed (N) തിരൂരങ്ങാടി മണ്ഡലം കെഎംസിസി ‘കരുണാമൃതം ഹാജി സാഹിബ്: all free models failed: no usable answer from the models
 NOT filed (N) രാത്രി കല്യാണപ്പന്തലിൽനിന്ന് വധുവിനെയും വരനെയും ‘പ: all free models failed: no usable answer from the models
-NOT filed (R) കേരള സാമൂഹിക സുരക്ഷാ മിഷനിൽ ഒഴിവുകൾ; ഇന്റർവ്യൂ 17 : all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 4, 'N': 7}, done={'R': 0, 'N': 0}, time left 28 min
-carousel for 0 of 0 stories, the rest reel only
-filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
-queue: 11 news waiting to be written
+try (R) manual=False: നിലമ്പൂർ @ 1921: കിഴക്കൻ ഏറനാടിന്റെ പോരാട്ടചരിത്രം; പുസ്തകം 
+try (N) manual=False: വന്ദേഭാരത് ബെംഗളൂരു ആണെങ്കിലും നിയന്ത്രണം മലയാളികൾക്ക്; കാവ്
+NOT filed (N) വിദേശത്തെ ജയിലിൽ കിടന്നിട്ടും പാഠം പഠിച്ചില്ല! ആദ്: all free models failed: no usable answer from the models
+try (N) manual=False: ഹജ്ജ് 2027: കേരളത്തിലെ 442 തീർഥാടകരുടെ പാസ്പോർട്ട് ചിത്രം വ്
+NOT filed (R) നിലമ്പൂർ @ 1921: കിഴക്കൻ ഏറനാടിന്റെ പോരാട്ടചരിത്രം: all free models failed: no usable answer from the models
+NOT filed (N) വന്ദേഭാരത് ബെംഗളൂരു ആണെങ്കിലും നിയന്ത്രണം മലയാളികൾ: all free models failed: no usable answer from the models
+NOT filed (N) ഹജ്ജ് 2027: കേരളത്തിലെ 442 തീർഥാടകരുടെ പാസ്പോർട്ട്: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 4, 'N': 7}, done={'R': 1, 'N': 0}, time left 24 min
+carousel for 0 of 1 stories, the rest reel only
+filed: 1 Manjeri + 0 Malappuram (targets 200 + 200)
+queue: 10 news waiting to be written
+write_stories.yml started
 All News sheet: {"ok":true,"added":0,"updated":11} 
-stories: 0
+stories: 1
