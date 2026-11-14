@@ -1,163 +1,119 @@
+writing [N]: പ്രിയങ്കാഗാന്ധിയുടെ പ്രാദേശിക വികസന ഫണ്ട്; അഞ്ച് സ്കൂളുകൾക്ക
+writing [N]: ആനറക്കുളം തകർച്ച; സമഗ്ര അന്വേഷണത്തിന് ഡെപ്യൂട്ടി കളക്ടർ എത്ത
 writing [N]: ഒടുവിൽ അംശക്കച്ചേരി-ഉദിനിക്കര റോഡിന്റെ പണി തുടങ്ങി
-writing [N]: നിലമ്പൂർ തറമുറ്റത്ത് കാട്ടാന കൃഷി നശിപ്പിച്ചു
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-writing [N]: ആലത്തിയൂർ ഹനുമാൻകാവിൽ തിരുവോണ
- മഹോത്സവം ആരംഭിച്ചു
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-ok gemini/gemini-3.6-flash (17s)
-attempt 1 gemini/gemini-3.6-flash: 1 problems
-  reel_script has 53 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-ok gemini/gemini-3.7-flash (30s)
-attempt 1 gemini/gemini-3.7-flash: 1 problems
-  reel_script has 51 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1vNLaYSp6A6vB85H8db"}
-proofread skipped: free models not efficient (4 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.7-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1wAVyd74FajbtauhY8R"}
+writing [R]: ഇതെന്താ 'റഫറൽ' ആശുപത്രിയോ ?
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1wAWtx2cKbktdbcHxrz"}
+writing [N]: 'റെയിൽവേ ഗേറ്റ് അടച്ചുള്ള നിർമാണം അനുവദിക്കില്ല'
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1wAZqoGNBNk33dy3ypk"}
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+dead for this round: groq/openai/gpt-oss-120b
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1wAcq8SafYjiCvn4ejR"}
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1vNyEgU2XXPzbNNSvCw"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1vPCUAwVYG4Vz2QGEu6"}
-proofread skipped: free models not efficient (8 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image match: False The image shows an empty temple structure without any people, crowd, or festival activities depicting the Thiruvona Maho
-image match: False The image shows an empty building structure without any people, decorations, or festival activities related to the Thiru
-image match: False The image shows a close-up of an ornate tassel or decorative lamp shade, with no indication of a temple, festival events
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match: False The photo depicts East Asian architecture (a pagoda-style gate at night), which does not correspond to the South Indian 
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Three-day Thiruvona Mahotsavam festival '
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261114-0639","first":"MP-214"}
-posting job started at once
-writing [N]: ആനറക്കുളം തകർച്ച; സമഗ്ര അന്വേഷണത്തിന് ഡെപ്യൂട്ടി കളക്ടർ എത്ത
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1vkD6T54aqJqtJ5Mcnt"}
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match: False The photo shows a concrete wall with greenery and trees in the background, but no wild elephant or destroyed crops/cocon
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 5 for 'Wild elephant destroys crops including 2'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261114-0643","first":"MP-215"}
-writing [R]: ഇതെന്താ 'റഫറൽ' ആശുപത്രിയോ ?
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-writing [N]: പ്രിയങ്കാഗാന്ധിയുടെ പ്രാദേശിക വികസന ഫണ്ട്; അഞ്ച് സ്കൂളുകൾക്ക
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1w77DpZufsrBMEBT9ma"}
-writing [N]: എടപ്പാളിലെ വീട്ടിൽ നിന്ന് സ്വർണവും 
-വിദേശ കറൻസിയും മോഷ്ടിച്
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1w7AWG8XxcDQMxyyVMD"}
-writing [N]: പുതിയ വ്യവസായ സംരംഭങ്ങൾക്കായി കോൺക്ലേവ് നടത്തും: ആര്യാടൻ ഷൗക
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-writing [N]: ഭിന്നശേഷി അപേക്ഷകൾ  30   ദിവസത്തിനകം   തീർപ്പാക്കണം,  കേരളകൗ
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1w7CRN1cXVv5BoVm2MF"}
-writing [N]: 'റെയിൽവേ ഗേറ്റ് അടച്ചുള്ള നിർമാണം അനുവദിക്കില്ല'
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1w7ADeTXAkPJxZsMwv4"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1w7D2aHG8HXLAeDfLNE"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1wAdEwcX3o18VMZqqv9"}
 writing [N]: തിരുനാവായ മഹാമാഘ മഹോത്സവം റാഞ്ചാൻ സംഘ് പരിവാർ;പ്രത്യേക സംഘാട
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1w7Dsg7ZVdPAt7ShFbE"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1w7Cnw9kNgVFpCZkZRJ"}
-write_stories.yml started
+free models unavailable: free models not efficient (21 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1wAfU8ueRx9kg6H5pfB"}
+writing [N]: പ്രചാരണ ജാഥ ഇന്ന് സമാപിക്കും
+free models unavailable: free models not efficient (21 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch1wAgJVCYnZi6XtcyfFS"}
 earlier stories still waiting for images: []
 instagram check: 63 recent posts read from both pages
-write round: 13 news waiting in the queue (written in priority order)
-candidate filter: collected=13
-to write: 1 Manjeri + 12 other district candidates (max 200 + 200 stories)
-candidates waiting: 1 Manjeri, 12 Malappuram; time left 29 min
-try (N) manual=False: നിലമ്പൂർ തറമുറ്റത്ത് കാട്ടാന കൃഷി നശിപ്പിച്ചു
-try (N) manual=False: ആലത്തിയൂർ ഹനുമാൻകാവിൽ തിരുവോണ
- മഹോത്സവം ആരംഭിച്ചു
+write round: 10 news waiting in the queue (written in priority order)
+candidate filter: collected=10
+to write: 1 Manjeri + 9 other district candidates (max 200 + 200 stories)
+candidates waiting: 1 Manjeri, 9 Malappuram; time left 29 min
 try (N) manual=False: ഒടുവിൽ അംശക്കച്ചേരി-ഉദിനിക്കര റോഡിന്റെ പണി തുടങ്ങി
-auto images: 1 of 1 stories ({'pollinations': 7})
-posting job started at once
 try (N) manual=False: ആനറക്കുളം തകർച്ച; സമഗ്ര അന്വേഷണത്തിന് ഡെപ്യൂട്ടി കളക്ടർ എത്ത
-auto images: 1 of 1 stories ({'pollinations': 13})
-NOT filed (N) ഒടുവിൽ അംശക്കച്ചേരി-ഉദിനിക്കര റോഡിന്റെ പണി തുടങ്ങി: all free models failed: no usable answer from the models
 try (N) manual=False: പ്രിയങ്കാഗാന്ധിയുടെ പ്രാദേശിക വികസന ഫണ്ട്; അഞ്ച് സ്കൂളുകൾക്ക
+NOT filed (N) പ്രിയങ്കാഗാന്ധിയുടെ പ്രാദേശിക വികസന ഫണ്ട്; അഞ്ച് സ: all free models failed: no usable answer from the models
 try (R) manual=False: ഇതെന്താ 'റഫറൽ' ആശുപത്രിയോ ?
-NOT filed (N) ആനറക്കുളം തകർച്ച; സമഗ്ര അന്വേഷണത്തിന് ഡെപ്യൂട്ടി ക: all free models failed: no usable answer from the models
+NOT filed (R) ഇതെന്താ 'റഫറൽ' ആശുപത്രിയോ ?: all free models failed: no usable answer from the models
 try (N) manual=False: എടപ്പാളിലെ വീട്ടിൽ നിന്ന് സ്വർണവും 
 വിദേശ കറൻസിയും മോഷ്ടിച്
-NOT filed (N) പ്രിയങ്കാഗാന്ധിയുടെ പ്രാദേശിക വികസന ഫണ്ട്; അഞ്ച് സ: all free models failed: no usable answer from the models
+skip (N) could not open: എടപ്പാളിലെ വീട്ടിൽ നിന്ന് സ്വർണവും 
+വിദേശ കറൻസിയു [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
 try (N) manual=False: പുതിയ വ്യവസായ സംരംഭങ്ങൾക്കായി കോൺക്ലേവ് നടത്തും: ആര്യാടൻ ഷൗക
-NOT filed (N) എടപ്പാളിലെ വീട്ടിൽ നിന്ന് സ്വർണവും 
-വിദേശ കറൻസിയു: all free models failed: no usable answer from the models
+skip (N) could not open: പുതിയ വ്യവസായ സംരംഭങ്ങൾക്കായി കോൺക്ലേവ് നടത്തും: ആ [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
 try (N) manual=False: ഭിന്നശേഷി അപേക്ഷകൾ  30   ദിവസത്തിനകം   തീർപ്പാക്കണം,  കേരളകൗ
-NOT filed (N) ഭിന്നശേഷി അപേക്ഷകൾ  30   ദിവസത്തിനകം   തീർപ്പാക്കണ: all free models failed: no usable answer from the models
+skip (N) could not open: ഭിന്നശേഷി അപേക്ഷകൾ  30   ദിവസത്തിനകം   തീർപ്പാക്കണ [https://www.keralakaumudi.com/kerala/special/i-1826066] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/specia
 try (N) manual=False: 'റെയിൽവേ ഗേറ്റ് അടച്ചുള്ള നിർമാണം അനുവദിക്കില്ല'
-NOT filed (R) ഇതെന്താ 'റഫറൽ' ആശുപത്രിയോ ?: all free models failed: no usable answer from the models
-try (N) manual=False: പ്രചാരണ ജാഥ ഇന്ന് സമാപിക്കും
 NOT filed (N) 'റെയിൽവേ ഗേറ്റ് അടച്ചുള്ള നിർമാണം അനുവദിക്കില്ല': all free models failed: no usable answer from the models
-try (N) manual=False: രണ്ടും കൽപ്പിച്ച് എംവിഡി ഇറങ്ങി; മലപ്പുറത്ത് 22 ഡ്രൈവർമാരുടെ
-skip (N) could not open: പ്രചാരണ ജാഥ ഇന്ന് സമാപിക്കും [https://www.deshabhimani.com/district-news/-85521/--2247-mr1] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+try (N) manual=False: പ്രചാരണ ജാഥ ഇന്ന് സമാപിക്കും
+NOT filed (N) ഒടുവിൽ അംശക്കച്ചേരി-ഉദിനിക്കര റോഡിന്റെ പണി തുടങ്ങി: all free models failed: no usable answer from the models
 try (N) manual=False: തിരുനാവായ മഹാമാഘ മഹോത്സവം റാഞ്ചാൻ സംഘ് പരിവാർ;പ്രത്യേക സംഘാട
+NOT filed (N) ആനറക്കുളം തകർച്ച; സമഗ്ര അന്വേഷണത്തിന് ഡെപ്യൂട്ടി ക: all free models failed: no usable answer from the models
 NOT filed (N) തിരുനാവായ മഹാമാഘ മഹോത്സവം റാഞ്ചാൻ സംഘ് പരിവാർ;പ്രത: all free models failed: no usable answer from the models
-NOT filed (N) പുതിയ വ്യവസായ സംരംഭങ്ങൾക്കായി കോൺക്ലേവ് നടത്തും: ആ: all free models failed: no usable answer from the models
-skip (N) similar to a filed story: രണ്ടും കൽപ്പിച്ച് എംവിഡി ഇറങ്ങി; മലപ്പുറത്ത് 22 ഡ്
-candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 12}, done={'R': 0, 'N': 2}, time left 18 min
-carousel for 0 of 2 stories, the rest reel only
-filed: 0 Manjeri + 2 Malappuram (targets 200 + 200)
+NOT filed (N) പ്രചാരണ ജാഥ ഇന്ന് സമാപിക്കും: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 9}, done={'R': 0, 'N': 0}, time left 29 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
 queue: 10 news waiting to be written
-write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":12} 
-stories: 2
+All News sheet: {"ok":true,"added":0,"updated":10} 
+stories: 0
