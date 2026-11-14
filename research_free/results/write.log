@@ -1,11 +1,136 @@
+writing [N]: മലപ്പുറത്ത് 4 വയസുകാരന് ഷിഗെല്ല സ്ഥിരീകരിച്ചു; ആരോഗ്യനില തൃപ
+writing [N]: സെക്കൻഡ് ഹാൻഡ് കാർ വിൽപ്പനയുടെ മറവിൽ രാസലഹരി വിൽപ്പന; സംഘത്ത
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: സർട്ടിഫിക്കറ്റിനായി വില്ലേജ് ഓഫിസർ കടലാസ് പാക്കറ്റുകൾ വാങ്ങി
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2isaSQ6GUggbbChqUrD"}
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2isakVYhX8h3ns3SJRA"}
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+writing [N]: ദേശീയപാത 66ൽ എക്സിറ്റ്, എൻട്രി പോയിന്റുകൾ തെറ്റിച്ചു; 22 ഡ്ര
+free models unavailable: free models not efficient (20 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2isbX9FqjJgaYdUuery"}
+writing [R]: കേരള സാമൂഹിക സുരക്ഷാ മിഷനിൽ ഒഴിവുകൾ; ഇന്റർവ്യൂ 17 മുതൽ
+free models unavailable: free models not efficient (20 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2isbmGJU478vr9FjnJU"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2isbpkRWx9yAYKxs96S"}
+writing [N]: രാത്രി കല്യാണപ്പന്തലിൽനിന്ന് വധുവിനെയും വരനെയും ‘പൊക്കി’, ഫു
+free models unavailable: free models not efficient (20 failures in a row): using Claude
+writing [R]: നിലമ്പൂർ @ 1921: കിഴക്കൻ ഏറനാടിന്റെ പോരാട്ടചരിത്രം; പുസ്തകം 
+free models unavailable: free models not efficient (20 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2iscxCgnSTCW8vK1fiS"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2isd2vMadBszvmvD7MY"}
+writing [N]: വന്ദേഭാരത് ബെംഗളൂരു ആണെങ്കിലും നിയന്ത്രണം മലയാളികൾക്ക്; കാവ്
+free models unavailable: free models not efficient (20 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2isdj5vmQGA2yYdTNtK"}
+writing [N]: വിദേശത്തെ ജയിലിൽ കിടന്നിട്ടും പാഠം പഠിച്ചില്ല! ആദ്യമേ അമ്മാവ
+free models unavailable: free models not efficient (20 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2isgZFhZLpQ8KB8kNWR"}
+writing [N]: ഹജ്ജ് 2027: കേരളത്തിലെ 442 തീർഥാടകരുടെ പാസ്പോർട്ട് ചിത്രം വ്
+free models unavailable: free models not efficient (20 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch2isiFhgXVMAMKgKFm1E"}
 earlier stories still waiting for images: []
 instagram check: 65 recent posts read from both pages
-write round: 6 news waiting in the queue (written in priority order)
-candidate filter: checked earlier=6
-to write: 0 Manjeri + 0 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Malappuram; time left 29 min
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 0}, done={'R': 0, 'N': 0}, time left 29 min
+write round: 19 news waiting in the queue (written in priority order)
+candidate filter: collected=18, already filed=1
+to write: 2 Manjeri + 16 other district candidates (max 200 + 200 stories)
+candidates waiting: 2 Manjeri, 16 Malappuram; time left 29 min
+try (N) manual=False: ഷിഗെല്ല; ചെമ്മാണിയോട്ട് പ്രതിരോധ പ്രവർത്തനം ഊർജിതം | Madhy
+try (N) manual=False: സർട്ടിഫിക്കറ്റിനായി വില്ലേജ് ഓഫിസർ കടലാസ് പാക്കറ്റുകൾ വാങ്ങി
+try (N) manual=False: സെക്കൻഡ് ഹാൻഡ് കാർ വിൽപ്പനയുടെ മറവിൽ രാസലഹരി വിൽപ്പന; സംഘത്ത
+skip (N) similar to a filed story: ഷിഗെല്ല; ചെമ്മാണിയോട്ട് പ്രതിരോധ പ്രവർത്തനം ഊർജി
+try (N) manual=False: കാട്ടാനകൾ ; തുരത്തൽ അതിശക്തം; കൃഷിനശിപ്പിക്കൽ അതിലേറെ വ്യാപക
+skip (N) could not open: കാട്ടാനകൾ ; തുരത്തൽ അതിശക്തം; കൃഷിനശിപ്പിക്കൽ അതില [https://www.deepika.com/district-news/wild-elephants-intense] 403 Client Error: Forbidden for url: https://www.deepika.com/district-news/wild-
+try (N) manual=False: മലപ്പുറത്ത് 4 വയസുകാരന് ഷിഗെല്ല സ്ഥിരീകരിച്ചു; ആരോഗ്യനില തൃപ
+NOT filed (N) മലപ്പുറത്ത് 4 വയസുകാരന് ഷിഗെല്ല സ്ഥിരീകരിച്ചു; ആരോ: all free models failed: no usable answer from the models
+try (N) manual=False: മലപ്പുറത്ത് സ്വകാര്യ ബസുകൾ കൂട്ടിയിടിച്ചു; വിദ്യാർഥികൾ ഉൾപ്പ
+skip (N) could not open: മലപ്പുറത്ത് സ്വകാര്യ ബസുകൾ കൂട്ടിയിടിച്ചു; വിദ്യാർ [https://www.deshabhimani.com/News/kerala/private-buses-colli] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/News/kerala/pr
+try (R) manual=False: കേരള സാമൂഹിക സുരക്ഷാ മിഷനിൽ ഒഴിവുകൾ; ഇന്റർവ്യൂ 17 മുതൽ
+NOT filed (N) സെക്കൻഡ് ഹാൻഡ് കാർ വിൽപ്പനയുടെ മറവിൽ രാസലഹരി വിൽപ്: all free models failed: no usable answer from the models
+try (N) manual=False: ദേശീയപാത 66ൽ എക്സിറ്റ്, എൻട്രി പോയിന്റുകൾ തെറ്റിച്ചു; 22 ഡ്ര
+NOT filed (N) സർട്ടിഫിക്കറ്റിനായി വില്ലേജ് ഓഫിസർ കടലാസ് പാക്കറ്റ: all free models failed: no usable answer from the models
+try (N) manual=False: രാത്രി കല്യാണപ്പന്തലിൽനിന്ന് വധുവിനെയും വരനെയും ‘പൊക്കി’, ഫു
+NOT filed (N) ദേശീയപാത 66ൽ എക്സിറ്റ്, എൻട്രി പോയിന്റുകൾ തെറ്റിച്: all free models failed: no usable answer from the models
+try (N) manual=False: വാണിയമ്പലം റെയിൽവേ മേൽപാലം: സ്ഥലമേറ്റെടുപ്പിനു തുടക്കം; ഏറ്റ
+NOT filed (R) കേരള സാമൂഹിക സുരക്ഷാ മിഷനിൽ ഒഴിവുകൾ; ഇന്റർവ്യൂ 17 : all free models failed: no usable answer from the models
+try (N) manual=False: വാഹനത്തിന് പിഴയുണ്ടെന്ന വ്യാജ സന്ദേശം; കൊണ്ടോട്ടി സ്വദേശിക്ക
+skip (N) similar to a filed story: വാണിയമ്പലം റെയിൽവേ മേൽപാലം: സ്ഥലമേറ്റെടുപ്പിനു തുട
+try (R) manual=False: നിലമ്പൂർ @ 1921: കിഴക്കൻ ഏറനാടിന്റെ പോരാട്ടചരിത്രം; പുസ്തകം 
+NOT filed (N) രാത്രി കല്യാണപ്പന്തലിൽനിന്ന് വധുവിനെയും വരനെയും ‘പ: all free models failed: no usable answer from the models
+try (N) manual=False: വിദേശത്തെ ജയിലിൽ കിടന്നിട്ടും പാഠം പഠിച്ചില്ല! ആദ്യമേ അമ്മാവ
+NOT filed (R) നിലമ്പൂർ @ 1921: കിഴക്കൻ ഏറനാടിന്റെ പോരാട്ടചരിത്രം: all free models failed: no usable answer from the models
+try (N) manual=False: വന്ദേഭാരത് ബെംഗളൂരു ആണെങ്കിലും നിയന്ത്രണം മലയാളികൾക്ക്; കാവ്
+NOT filed (N) വന്ദേഭാരത് ബെംഗളൂരു ആണെങ്കിലും നിയന്ത്രണം മലയാളികൾ: all free models failed: no usable answer from the models
+try (N) manual=False: വാഹനാപകട ഫൈനിന്റെ പേരിൽ ലക്ഷങ്ങൾ തട്ടി; വ്യാജ ‘പരിവാഹൻ’ ലിങ്
+skip (N) similar to a filed story: വാഹനത്തിന് പിഴയുണ്ടെന്ന വ്യാജ സന്ദേശം; കൊണ്ടോട്ടി 
+try (N) manual=False: വ്യാജ ട്രാഫിക് ഫൈൻ ലിങ്കിൽ ക്ലിക്ക് ചെയ്ത യുവാവിന് നഷ്ടമായത്
+NOT filed (N) വിദേശത്തെ ജയിലിൽ കിടന്നിട്ടും പാഠം പഠിച്ചില്ല! ആദ്: all free models failed: no usable answer from the models
+try (N) manual=False: പിഴ അടയ്ക്കാൻ വ്യാജസന്ദേശം; ഫോണിൽ വന്ന ലിങ്കിൽ കയറിയ ആൾക്ക് 
+skip (N) similar to a filed story: പിഴ അടയ്ക്കാൻ വ്യാജസന്ദേശം; ഫോണിൽ വന്ന ലിങ്കിൽ കയറ
+try (N) manual=False: ഹജ്ജ് 2027: കേരളത്തിലെ 442 തീർഥാടകരുടെ പാസ്പോർട്ട് ചിത്രം വ്
+skip (N) similar to a filed story: വ്യാജ ട്രാഫിക് ഫൈൻ ലിങ്കിൽ ക്ലിക്ക് ചെയ്ത യുവാവിന്
+NOT filed (N) ഹജ്ജ് 2027: കേരളത്തിലെ 442 തീർഥാടകരുടെ പാസ്പോർട്ട്: all free models failed: no usable answer from the models
+skip (N) similar to a filed story: വാഹനാപകട ഫൈനിന്റെ പേരിൽ ലക്ഷങ്ങൾ തട്ടി; വ്യാജ ‘പരി
+candidate loop ended: left R=0 N=0, tried={'R': 2, 'N': 16}, done={'R': 0, 'N': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
-queue: 0 news waiting to be written 
+queue: 12 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":12} 
 stories: 0
