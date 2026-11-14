@@ -1,9 +1,17 @@
 writing [N]: പൊന്നാനിയുടെ ഓർമ്മ ചിത്ര പ്രദർശനം സംഘടിപ്പിച്ചു
+writing [N]: വന്ദേഭാരത് ബെംഗളൂരു ആണെങ്കിലും നിയന്ത്രണം മലയാളികൾക്ക്; കാവ്
 writing [N]: ലോഡ്ഷെഡ്ഡിങ്; ഫെബ്രുവരി മുതൽ കളി മാറും, യൂണിറ്റിന് വെറും 5.4
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -39,29 +47,37 @@ dead for this round: groq/openai/gpt-oss-120b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 dead for this round: groq/openai/gpt-oss-120b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-writing [N]: മലപ്പുറത്ത് സ്വകാര്യ ബസുകൾ കൂട്ടിയിടിച്ചു; വിദ്യാർഥികൾ ഉൾപ്പ
-free models unavailable: free models not efficient (9 failures in a row): using Claude
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch3DVdNH8jtUki7ZVQsD2"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch3DVmEZ8EmpmwNsoLfJV"}
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch3AYN8UN7XTLDLZt98dw"}
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-writing [N]: വന്ദേഭാരത് ബെംഗളൂരു ആണെങ്കിലും നിയന്ത്രണം മലയാളികൾക്ക്; കാവ്
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch3AYPS7MHHaRZfapXvbf"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch3AZXMPeDFawUpGaLSmx"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch3AZfeTcxHpaujGpSCbQ"}
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch3DYcJrVQMYa75UDwrvf"}
 earlier stories still waiting for images: []
 instagram check: 67 recent posts read from both pages
 write round: 4 news waiting in the queue (written in priority order)
@@ -71,12 +87,12 @@ candidates waiting: 0 Manjeri, 4 Malappuram; time left 29 min
 try (N) manual=False: മലപ്പുറത്ത് സ്വകാര്യ ബസുകൾ കൂട്ടിയിടിച്ചു; വിദ്യാർഥികൾ ഉൾപ്പ
 try (N) manual=False: പൊന്നാനിയുടെ ഓർമ്മ ചിത്ര പ്രദർശനം സംഘടിപ്പിച്ചു
 try (N) manual=False: ലോഡ്ഷെഡ്ഡിങ്; ഫെബ്രുവരി മുതൽ കളി മാറും, യൂണിറ്റിന് വെറും 5.4
-NOT filed (N) മലപ്പുറത്ത് സ്വകാര്യ ബസുകൾ കൂട്ടിയിടിച്ചു; വിദ്യാർ: all free models failed: no usable answer from the models
+skip (N) could not open: മലപ്പുറത്ത് സ്വകാര്യ ബസുകൾ കൂട്ടിയിടിച്ചു; വിദ്യാർ [https://www.deshabhimani.com/News/kerala/private-buses-colli] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/News/kerala/pr
 try (N) manual=False: വന്ദേഭാരത് ബെംഗളൂരു ആണെങ്കിലും നിയന്ത്രണം മലയാളികൾക്ക്; കാവ്
-NOT filed (N) വന്ദേഭാരത് ബെംഗളൂരു ആണെങ്കിലും നിയന്ത്രണം മലയാളികൾ: all free models failed: no usable answer from the models
-NOT filed (N) പൊന്നാനിയുടെ ഓർമ്മ ചിത്ര പ്രദർശനം സംഘടിപ്പിച്ചു: all free models failed: no usable answer from the models
 NOT filed (N) ലോഡ്ഷെഡ്ഡിങ്; ഫെബ്രുവരി മുതൽ കളി മാറും, യൂണിറ്റിന്: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 4}, done={'R': 0, 'N': 0}, time left 29 min
+NOT filed (N) പൊന്നാനിയുടെ ഓർമ്മ ചിത്ര പ്രദർശനം സംഘടിപ്പിച്ചു: all free models failed: no usable answer from the models
+NOT filed (N) വന്ദേഭാരത് ബെംഗളൂരു ആണെങ്കിലും നിയന്ത്രണം മലയാളികൾ: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 4}, done={'R': 0, 'N': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
 queue: 4 news waiting to be written
