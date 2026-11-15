@@ -1,6 +1,16 @@
+writing [N]: 'ജനനി'യിലൂടെ പിറന്നത് 100ലേറെ കുഞ്ഞുങ്ങൾ; സ്നേഹ സംഗമം സംഘടിപ
 writing [N]: ബാഗിലും മുറിയിലും നിറയെ പേഴ്സുകൾ; യാത്രയ്ക്കിടെ സ്ത്രീകളുടെ 
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [N]: ദമ്മാമിൽ വേങ്ങരക്കാരുടെ ഐക്യവേദിക്ക് തുടക്കം | Madhyamam
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -11,51 +21,63 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-writing [N]: 'ജനനി'യിലൂടെ പിറന്നത് 100ലേറെ കുഞ്ഞുങ്ങൾ; സ്നേഹ സംഗമം സംഘടിപ
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-writing [N]: ദേശീയപാതയിൽ നിയമം തെറ്റിച്ചാൽ ലൈസൻസ് തെറിക്കും; 22 പേർക്കെതി
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4e1d4YzBGEVNr5YXavn"}
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-writing [N]: ദമ്മാമിൽ വേങ്ങരക്കാരുടെ ഐക്യവേദിക്ക് തുടക്കം | Madhyamam
-free models unavailable: free models not efficient (7 failures in a row): using Claude
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4e1fEXpLGyFh7tvmUf4"}
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4gQCvs1oWviYd5f19Xr"}
 writing [N]: സഹായധനം കൈമാറി | Madhyamam
-free models unavailable: free models not efficient (11 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4e1fvho9MiMnwr2Caxg"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+free models unavailable: free models not efficient (20 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4gQEVrzCShMsc8GPNsu"}
 writing [N]: ഷോക്കേറ്റ് 14കാരൻ മരിച്ച സംഭവം: വൈദ്യുതി ലൈനിലെ വീഴ്ച അന്വേഷ
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4e1ixWbTfB5yyWBravZ"}
+free models unavailable: free models not efficient (20 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4gQFvw7AKzNa8x2Abmi"}
 writing [N]: 'എല്ലാത്തിനോടും പ്രതികരിക്കേണ്ടതില്ല, ആ വിളി അപമാനകരം'; സാറ
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4e1kubUWkhf4fB5TbmK"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4e2pdMMFnsmYz4vQGEX"}
+free models unavailable: free models not efficient (20 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4gQGrW7yyZ5pG6AQb5y"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4e2vUq9Zxarz3tC3eg7"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4gQKt4r2GhwvRgwmkWR"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4gQSkozSAEiFEGfpwjV"}
 earlier stories still waiting for images: []
 instagram check: 67 recent posts read from both pages
 write round: 7 news waiting in the queue (written in priority order)
@@ -65,7 +87,7 @@ candidates waiting: 0 Manjeri, 7 Malappuram; time left 29 min
 try (N) manual=False: ദേശീയപാതയിൽ നിയമം തെറ്റിച്ചാൽ ലൈസൻസ് തെറിക്കും; 22 പേർക്കെതി
 try (N) manual=False: 'ജനനി'യിലൂടെ പിറന്നത് 100ലേറെ കുഞ്ഞുങ്ങൾ; സ്നേഹ സംഗമം സംഘടിപ
 try (N) manual=False: ബാഗിലും മുറിയിലും നിറയെ പേഴ്സുകൾ; യാത്രയ്ക്കിടെ സ്ത്രീകളുടെ 
-NOT filed (N) ദേശീയപാതയിൽ നിയമം തെറ്റിച്ചാൽ ലൈസൻസ് തെറിക്കും; 22: all free models failed: no usable answer from the models
+skip (N) could not open: ദേശീയപാതയിൽ നിയമം തെറ്റിച്ചാൽ ലൈസൻസ് തെറിക്കും; 22 [https://www.mangalam.com/news/detail/881217-license-will-be-] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/881217
 try (N) manual=False: ദമ്മാമിൽ വേങ്ങരക്കാരുടെ ഐക്യവേദിക്ക് തുടക്കം | Madhyamam
 NOT filed (N) ദമ്മാമിൽ വേങ്ങരക്കാരുടെ ഐക്യവേദിക്ക് തുടക്കം | Mad: all free models failed: no usable answer from the models
 try (N) manual=False: സഹായധനം കൈമാറി | Madhyamam
