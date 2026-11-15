@@ -2,90 +2,108 @@ writing [N]: കൈമയ്ക്ക് പൊള്ളുന്ന വില; 
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 writing [N]: സൗജന്യ യൂനിഫോം ലഭിക്കാതെ 12.16 ലക്ഷം വിദ്യാർഥികൾ; അലവൻസുമില്
+writing [N]: ചങ്ങരംകുളത്ത് ക്ഷേത്ര കുളത്തിൽ കുളിക്കാനിറങ്ങിയ 17 കാരൻ മുങ്
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-writing [N]: ചങ്ങരംകുളത്ത് ക്ഷേത്ര കുളത്തിൽ കുളിക്കാനിറങ്ങിയ 17 കാരൻ മുങ്
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+ok gemini/gemini-3.6-flash (15s)
+attempt 1 gemini/gemini-3.6-flash: 2 problems
+  numbers not found in the article: 8
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 5 ('ദുബൈയിലെ സ്വകാര്യ സ്കൂളുകളിൽ പുതിയ ഹാജർ നിയമം; കാരണമില്ലാതെ ')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 dead for this round: groq/openai/gpt-oss-120b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch41k8fPrHcUKa9snWaSW"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch41uJn78DbBmJ3CXZaoT"}
 writing [N]: സർക്കാർ സ്കൂളുകളിൽ അധ്യാപകരില്ലാതെ 876 തസ്തികകൾ;ഒഴിവുകൾ മൂന്
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch41kAjfrqqaSgfPTqu9V"}
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch41uQrjTDDSyackYHUaP"}
 writing [N]: ‘എന്റെ വീടിന്റെ’ തണലിൽ മുഹമ്മദലിയും കുടുംബവും
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch41kCBj4AnaEeCGSMiQS"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch41kL8iVoF9araac5pAc"}
-fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch41uVjAMQvwcNKsh3U2d"}
+ok gemini/gemini-3.6-flash (19s)
+attempt 2 gemini/gemini-3.6-flash: 2 problems
+  numbers not found in the article: 8
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 5 ('ദുബൈയിലെ സ്വകാര്യ സ്കൂളുകളിൽ പുതിയ ഹാജർ നിയമം; കാരണമില്ലാതെ ')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch41phDamxwJ2t5yjKUFC"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch41uYufRRWUjiQsr1yF9"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok groq/qwen/qwen3.8-27b (3s)
+proofread rejected (3 problems)
+  reel_script has 45 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 8
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 5 ('ദുബൈയിലെ സ്വകാര്യ സ്കൂളുകളിൽ പുതിയ ഹാജർ നിയമം; കാരണമില്ലാതെ ')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch41wK8F4rYNQcxLdGgdj"}
 earlier stories still waiting for images: []
 instagram check: 67 recent posts read from both pages
-write round: 12 news waiting in the queue (written in priority order)
-candidate filter: collected=10, already filed=2
-to write: 0 Manjeri + 10 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 10 Malappuram; time left 29 min
+write round: 7 news waiting in the queue (written in priority order)
+candidate filter: collected=7
+to write: 0 Manjeri + 7 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 7 Malappuram; time left 29 min
 try (N) manual=False: കൈമയ്ക്ക് പൊള്ളുന്ന വില; ബിരിയാണിപ്രിയർക്ക് ഇരുട്ടടി
 try (N) manual=False: സൗജന്യ യൂനിഫോം ലഭിക്കാതെ 12.16 ലക്ഷം വിദ്യാർഥികൾ; അലവൻസുമില്
-try (N) manual=False: തൃശൂരിൻറെ കോട്ട തകർത്ത് മലപ്പുറത്തിൻറെ തേരോട്ടം; അവസാന നിമിഷ
-skip (N) similar to a filed story: തൃശൂരിൻറെ കോട്ട തകർത്ത് മലപ്പുറത്തിൻറെ തേരോട്ടം; അ
 try (N) manual=False: ചങ്ങരംകുളത്ത് ക്ഷേത്ര കുളത്തിൽ കുളിക്കാനിറങ്ങിയ 17 കാരൻ മുങ്
 NOT filed (N) കൈമയ്ക്ക് പൊള്ളുന്ന വില; ബിരിയാണിപ്രിയർക്ക് ഇരുട്ട: all free models failed: no usable answer from the models
 try (N) manual=False: പഴയ കാറുകളുടെ വിൽപ്പന മറയാക്കി എംഡിഎംഎ കച്ചവടം; 3.60 ലക്ഷം ര
-skip (N) could not open: പഴയ കാറുകളുടെ വിൽപ്പന മറയാക്കി എംഡിഎംഎ കച്ചവടം; 3. [https://www.deshabhimani.com/News/kerala/malappuram-mdma-dru] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/News/kerala/ma
+skip (N) similar to a filed story: പഴയ കാറുകളുടെ വിൽപ്പന മറയാക്കി എംഡിഎംഎ കച്ചവടം; 3.
 try (N) manual=False: സർക്കാർ സ്കൂളുകളിൽ അധ്യാപകരില്ലാതെ 876 തസ്തികകൾ;ഒഴിവുകൾ മൂന്
 NOT filed (N) സർക്കാർ സ്കൂളുകളിൽ അധ്യാപകരില്ലാതെ 876 തസ്തികകൾ;ഒഴ: all free models failed: no usable answer from the models
 try (N) manual=False: പ്ലാറ്റ്ഫോം സൗകര്യക്കുറവ്: വേണാട് എക്സ്പ്രസ് നിലമ്പൂരിലേക്ക്
-skip (N) could not open: പ്ലാറ്റ്ഫോം സൗകര്യക്കുറവ്: വേണാട് എക്സ്പ്രസ് നിലമ് [https://www.deepika.com/district-news/inadequate-platform-fa] 403 Client Error: Forbidden for url: https://www.deepika.com/district-news/inade
-try (N) manual=False: വ്യാജ ട്രാഫിക് ഫൈൻ ലിങ്കിൽ ക്ലിക്ക് ചെയ്ത യുവാവിന് നഷ്ടമായത്
-skip (N) similar to a filed story: വ്യാജ ട്രാഫിക് ഫൈൻ ലിങ്കിൽ ക്ലിക്ക് ചെയ്ത യുവാവിന്
-try (N) manual=False: സരസ് മേളയ്ക്ക് ഫണ്ട് തടസ്സമാകില്ല-മന്ത്രി കെ.എം. ഷാജി
-skip (N) similar to a filed story: സരസ് മേളയ്ക്ക് ഫണ്ട് തടസ്സമാകില്ല-മന്ത്രി കെ.എം. ഷ
+skip (N) similar to a filed story: പ്ലാറ്റ്ഫോം സൗകര്യക്കുറവ്: വേണാട് എക്സ്പ്രസ് നിലമ്
 try (N) manual=False: ‘എന്റെ വീടിന്റെ’ തണലിൽ മുഹമ്മദലിയും കുടുംബവും
 NOT filed (N) ‘എന്റെ വീടിന്റെ’ തണലിൽ മുഹമ്മദലിയും കുടുംബവും: all free models failed: no usable answer from the models
+NOT filed (N) സൗജന്യ യൂനിഫോം ലഭിക്കാതെ 12.16 ലക്ഷം വിദ്യാർഥികൾ; : not Malappuram district news (the story's first lines name another place and no Malappuram place)
 NOT filed (N) ചങ്ങരംകുളത്ത് ക്ഷേത്ര കുളത്തിൽ കുളിക്കാനിറങ്ങിയ 17: all free models failed: no usable answer from the models
-NOT filed (N) സൗജന്യ യൂനിഫോം ലഭിക്കാതെ 12.16 ലക്ഷം വിദ്യാർഥികൾ; : all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 10}, done={'R': 0, 'N': 0}, time left 28 min
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 7}, done={'R': 0, 'N': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
-queue: 7 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":7} 
+queue: 5 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":5} 
 stories: 0
