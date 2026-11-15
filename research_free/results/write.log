@@ -1,32 +1,16 @@
-writing [N]: ‘പൊതുജനസമക്ഷം മാപ്പ് പറയുന്നു...’; സ്റ്റേ വയറിൽനിന്നു ഷോക്കേ
 writing [N]: മലപ്പുറം തിരൂരങ്ങാടിയിൽ സ്റ്റേ വയറിൽ നിന്ന് ഷോക്കേറ്റ് 14 കാ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-writing [N]: Latest Malappuram District News | Kerala Kaumudi  | മലപ്പുറം
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -34,93 +18,47 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 dead for this round: groq/openai/gpt-oss-120b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
+writing [N]: മാപ്പപേക്ഷയിൽ ഒതുങ്ങുമോ ജുനൈദിന്റെ ജീവൻ? അനാസ്ഥ തുറന്നു സമ്മ
+free models unavailable: free models not efficient (4 failures in a row): using Claude
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5AfYNajF3PADZmK1Ygr"}
+writing [N]: Latest Malappuram District News | Kerala Kaumudi  | മലപ്പുറം
+free models unavailable: free models not efficient (5 failures in a row): using Claude
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instructfail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5AfZ8TpADVonbLuS9gL"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5AMLXviJmfMiRhVMB4N"}
-writing [N]: മാപ്പപേക്ഷയിൽ ഒതുങ്ങുമോ ജുനൈദിന്റെ ജീവൻ? അനാസ്ഥ തുറന്നു സമ്മ
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5AMRLfDSaDJJyjT3vu7"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5AMTPS1CzoyheNnYeBy"}
 writing [N]: മണിക്കൂറുകളോളം കഷ്ടപ്പെടേണ്ട! വെളുത്തുള്ളി തൊലി മിനിറ്റുകൾക്
-free models unavailable: free models not efficient (16 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5AMWbAu3Q3rYy5hhNrw"}
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5AfddLXxaQZS8s2Soe4"}
 writing [N]: സ്റ്റേ കമ്പിയുടെ ഒരു ഭാഗം വൈദ്യുത ലൈനിൽ തട്ടിയ നിലയിൽ; നാട്ട
-free models unavailable: free models not efficient (16 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5AMYk9iym7hzJSyDYq1"}
-ok gemini/gemini-3.7-flash (54s)
-attempt 1 gemini/gemini-3.7-flash: 2 problems
-  numbers not found in the article: 10, 30, 9496010101
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 94 ('അപകടമുണ്ടാകാനുണ്ടായ സാഹചര്യം നിഷ്പക്ഷമായും കൃത്യമായും തിരൂരങ'); 96 ('അപകടമുണ്ടാകാനുണ്ടായ സാഹചര്യം നിഷ്പക്ഷമായും കൃത്യമായും തിരൂരങ'); 01 ('അപകടമുണ്ടാകാനുണ്ടായ സാഹചര്യം നിഷ്പക്ഷമായും കൃത്യമായും തിരൂരങ')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5AQDap46idkdmT65aXh"}
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok groq/qwen/qwen3.8-27b (4s)
-proofread rejected (3 problems)
-  missing key: reel_script
-  missing key: caption
-  missing key: scenes
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-switching away from groq/qwen/qwen3.8-27b for 10 min
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'KSEB tenders public apology after 14-yea'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261115-2342","first":"MP-265"}
-posting job started at once
-write_stories.yml started
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5AfeRiaMe2bBqA9QrRf"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5Agi9yixw4fNc66CWfd"}
 earlier stories still waiting for images: []
 instagram check: 67 recent posts read from both pages
-write round: 6 news waiting in the queue (written in priority order)
-candidate filter: collected=6
-to write: 0 Manjeri + 6 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 6 Malappuram; time left 29 min
+write round: 5 news waiting in the queue (written in priority order)
+candidate filter: collected=5
+to write: 0 Manjeri + 5 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 5 Malappuram; time left 29 min
 try (N) manual=False: മലപ്പുറം തിരൂരങ്ങാടിയിൽ സ്റ്റേ വയറിൽ നിന്ന് ഷോക്കേറ്റ് 14 കാ
-try (N) manual=False: ‘പൊതുജനസമക്ഷം മാപ്പ് പറയുന്നു...’; സ്റ്റേ വയറിൽനിന്നു ഷോക്കേ
 try (N) manual=False: Latest Malappuram District News | Kerala Kaumudi  | മലപ്പുറം
-NOT filed (N) Latest Malappuram District News | Kerala Kaumudi  : all free models failed: no usable answer from the models
 try (N) manual=False: മാപ്പപേക്ഷയിൽ ഒതുങ്ങുമോ ജുനൈദിന്റെ ജീവൻ? അനാസ്ഥ തുറന്നു സമ്മ
 NOT filed (N) മാപ്പപേക്ഷയിൽ ഒതുങ്ങുമോ ജുനൈദിന്റെ ജീവൻ? അനാസ്ഥ തു: all free models failed: no usable answer from the models
 try (N) manual=False: മണിക്കൂറുകളോളം കഷ്ടപ്പെടേണ്ട! വെളുത്തുള്ളി തൊലി മിനിറ്റുകൾക്
-NOT filed (N) മലപ്പുറം തിരൂരങ്ങാടിയിൽ സ്റ്റേ വയറിൽ നിന്ന് ഷോക്കേ: all free models failed: no usable answer from the models
+NOT filed (N) Latest Malappuram District News | Kerala Kaumudi  : all free models failed: no usable answer from the models
 try (N) manual=False: സ്റ്റേ കമ്പിയുടെ ഒരു ഭാഗം വൈദ്യുത ലൈനിൽ തട്ടിയ നിലയിൽ; നാട്ട
 NOT filed (N) മണിക്കൂറുകളോളം കഷ്ടപ്പെടേണ്ട! വെളുത്തുള്ളി തൊലി മി: all free models failed: no usable answer from the models
 NOT filed (N) സ്റ്റേ കമ്പിയുടെ ഒരു ഭാഗം വൈദ്യുത ലൈനിൽ തട്ടിയ നില: all free models failed: no usable answer from the models
-auto images: 1 of 1 stories ({'pollinations': 4})
-posting job started at once
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 6}, done={'R': 0, 'N': 1}, time left 26 min
-carousel for 0 of 1 stories, the rest reel only
-filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)
+NOT filed (N) മലപ്പുറം തിരൂരങ്ങാടിയിൽ സ്റ്റേ വയറിൽ നിന്ന് ഷോക്കേ: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 5}, done={'R': 0, 'N': 0}, time left 29 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
 queue: 5 news waiting to be written
-write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":6} 
-stories: 1
+All News sheet: {"ok":true,"added":0,"updated":5} 
+stories: 0
