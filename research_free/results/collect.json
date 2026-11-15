@@ -2,172 +2,18 @@
  "log": [
   "earlier stories still waiting for images: []",
   "instagram check: 67 recent posts read from both pages",
-  "write round: 4 news waiting in the queue (written in priority order)",
-  "candidate filter: collected=4",
-  "to write: 0 Manjeri + 4 other district candidates (max 200 + 200 stories)",
-  "candidates waiting: 0 Manjeri, 4 Malappuram; time left 29 min",
-  "try (N) manual=False: മലപ്പുറത്ത് സ്വകാര്യ ബസുകൾ കൂട്ടിയിടിച്ചു; വിദ്യാർഥികൾ ഉൾപ്പ",
-  "try (N) manual=False: ‘എന്റെ വീടിന്റെ’ തണലിൽ മുഹമ്മദലിയും കുടുംബവും",
+  "write round: 2 news waiting in the queue (written in priority order)",
+  "candidate filter: checked earlier=1, collected=1",
+  "to write: 0 Manjeri + 1 other district candidates (max 200 + 200 stories)",
+  "candidates waiting: 0 Manjeri, 1 Malappuram; time left 29 min",
   "try (N) manual=False: ഉയർന്നു, പ്രതീക്ഷയുടെ പതാക",
   "skip (N) could not open: ഉയർന്നു, പ്രതീക്ഷയുടെ പതാക [https://www.deshabhimani.com/district-news/-73594/balal121-f] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/",
-  "try (N) manual=False: ജില്ലാ കരാട്ടെ ചാമ്പ്യൻഷിപ്പിന് തുടക്കം",
-  "skip (N) could not open: മലപ്പുറത്ത് സ്വകാര്യ ബസുകൾ കൂട്ടിയിടിച്ചു; വിദ്യാർ [https://www.deshabhimani.com/News/kerala/private-buses-colli] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/News/kerala/pr",
-  "auto images failed for 'New house handed over to family in Irimb': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email",
-  "auto images: 0 of 1 stories ({'pollinations': 6})",
-  "posting job started at once",
-  "auto images: 0 of 1 stories ({'pollinations': 6})",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 4}, done={'R': 0, 'N': 2}, time left 21 min",
-  "carousel for 0 of 2 stories, the rest reel only",
-  "filed: 0 Manjeri + 2 Malappuram (targets 200 + 200)",
-  "queue: 2 news waiting to be written",
-  "write_stories.yml started",
-  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":4}"
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 1}, done={'R': 0, 'N': 0}, time left 29 min",
+  "carousel for 0 of 0 stories, the rest reel only",
+  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
+  "queue: 1 news waiting to be written",
+  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":1}"
  ],
- "llm": [
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.8-flash",
-  "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.8-flash",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.7-flash",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.7-flash",
-  "ok gemini/gemini-3.6-flash (14s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
-  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
-  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "ok gemini/gemini-3.6-flash (17s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min"
- ],
- "stories": [
-  {
-   "malayalam_headline": "ഇരിമ്പിളിയത്ത് 'എന്റെ വീട്' പദ്ധതിയിൽ നിർമിച്ച പുതിയ വീടിന്റെ താക്കോൽ കൈമാറി",
-   "english_headline": "New house handed over to family in Irimbiliyam under Ente Veedu project",
-   "category": "Government & Services",
-   "location": "Thirunilam, Irimbiliyam, Valanchery, Malappuram district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Malappuram 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "എന്റെ വീട്",
-    "loc": "ഇരിമ്പിളിയം, വളാഞ്ചേരി",
-    "hl1": "ഇരിമ്പിളിയത്ത് വീടിന്റെ താക്കോൽ കൈമാറി",
-    "hl2": "എന്റെ വീട് പദ്ധതി",
-    "slides": [
-     {
-      "title": "എവിടെ, ആർക്ക്?",
-      "lines": [
-       "ഇരിമ്പിളിയം തിരുനിലത്ത് <b>പുതിയ വീട്</b>",
-       "കരുവാട്ടിൽ മുഹമ്മദലിക്കും കുടുംബത്തിനും",
-       "<b>5</b> പെൺമക്കളടങ്ങുന്ന കുടുംബം"
-      ]
-     },
-     {
-      "title": "പദ്ധതി വിവരങ്ങൾ",
-      "lines": [
-       "കൊച്ചൗസേപ്പ് ചിറ്റിലപ്പിള്ളി ഫൗണ്ടേഷൻ പദ്ധതി",
-       "രണ്ടാം ഘട്ടത്തിൽ ജില്ലയിലെ <b>58</b>-മത്തെ വീട്",
-       "തകർച്ചയിലായ പഴയ വീടിന് പകരം സുരക്ഷിത വീട്"
-      ]
-     },
-     {
-      "title": "താക്കോൽദാനം",
-      "lines": [
-       "കുറ്റിപ്പുറം ബ്ലോക്ക് പ്രസിഡന്റ് എ.വി. ആസാദ് അജയൻ കൈമാറി",
-       "പഞ്ചായത്ത് ജനപ്രതിനിധികളും നാട്ടുകാരും പങ്കെടുത്തു"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "ഇരിമ്പിളിയത്ത് ഒരു കുടുംബത്തിന് പുതിയ വീടൊരുങ്ങി. ഇരിമ്പിളിയം തിരുനിലത്തെ കരുവാട്ടിൽ മുഹമ്മദലിക്കും കുടുംബത്തിനുമാണ് പുതിയ വീട് ലഭിച്ചത്. പഴയ തകർന്ന വീടിന് പകരം സുരക്ഷിതമായ വീടാണ് ഇവർക്ക് പണിതുനൽകിയത്. കൊച്ചൗസേപ്പ് ചിറ്റിലപ്പിള്ളി ഫൗണ്ടേഷന്റെ 'എന്റെ വീട്' പദ്ധതിയിലെ 58-മത്തെ വീടാണിത്. കുറ്റിപ്പുറം ബ്ലോക്ക് പഞ്ചായത്ത് പ്രസിഡന്റ് എ വി ആസാദ് അജയൻ താക്കോൽ കൈമാറി. മുഹമ്മദലിയും ഭാര്യ സൽമയും 5 പെൺമക്കളും അടങ്ങുന്നതാണ് ഈ കുടുംബം. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
-   "caption": "🏡 ഇരിമ്പിളിയത്ത് 'എന്റെ വീട്' പദ്ധതിയിൽ പുതിയ വീടൊരുങ്ങി; താക്കോൽ കൈമാറി\n\n📰 പൂർണ വിവരം:\nശക്തമായ കാറ്റടിച്ചാൽ തകർന്നുവീഴുന്ന അവസ്ഥയിലുള്ള പഴയ വീട ഉപേക്ഷിച്ച് പുതിയ സുരക്ഷിത വീടിലേക്ക് മാറാൻ കഴിഞ്ഞ സന്തോഷത്തിലാണ് ഇരിമ്പിളിയം തിരുനിലത്തെ കരുവാട്ടിൽ മുഹമ്മദലിയും കുടുംബവും. കൊച്ചൗസേപ്പ് ചിറ്റിലപ്പിള്ളി ഫൗണ്ടേഷൻ നടപ്പാക്കുന്ന 'എന്റെ വീട്' പദ്ധതിയുടെ രണ്ടാംഘട്ടത്തിൽ ജില്ലയിൽ പൂർത്തിയായ 58-മത്തെ വീടാണിത്. കുറ്റിപ്പുറം ബ്ലോക്ക് പഞ്ചായത്ത് പ്രസിഡന്റ് എ.വി. ആസാദ് അജയൻ താക്കോൽദാനം നിർവഹിച്ചു. വാർഡ് മെമ്പർ പി.ടി. ഷഹനാസ്, മുൻ മെമ്പർ എ.പി. നാരായണൻ ഉൾപ്പെടെയുള്ള ജനപ്രതിനിധികളും പ്രാദേശിക ഭാരവാഹികളും ചടങ്ങിൽ പങ്കെടുത്തു.\n📍 സ്ഥലം: തിരുനിലം, ഇരിമ്പിളിയം, വളാഞ്ചേരി\n🔑 നിർവഹണം: കുറ്റിപ്പുറം ബ്ലോക്ക് പഞ്ചായത്ത് പ്രസിഡന്റ് എ.വി. ആസാദ് അജയൻ\nℹ️ വിവരങ്ങൾ: 'എന്റെ വീട്' പദ്ധതിയിലെ 58-മത്തെ വീട്\nസന്തോഷവാർത്ത മറ്റുള്ളവരിലേക്കും Share ചെയ്യൂ\n\nNew house handed over under Ente Veedu project at Irimbiliyam | Malappuram news\n📍 ഇരിമ്പിളിയം, മലപ്പുറം | 15 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Irimbiliyam #EnteVeedu #MalappuramNews",
-   "prompts": "A newly constructed neat white single-storey house with a red tiled porch in Thirunilam, Irimbiliyam, Malappuram district, green palm trees in the background, daytime light. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose view of the key handing over ceremony in front of the new house: local elected representative handing key to the family head, seen from side angle, bright natural daylight. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nExterior wide shot of the new house surrounded by lush greenery and coconut palms in Irimbiliyam village, clear weather. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nSide view of the small well-built kitchen and hall area inside the new concrete house, clean modern finishing. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.mathrubhumi.com/malappuram/news/localnews-malappuram-ykvhcfdq",
-   "published": "2026-11-15T00:55:58+05:30",
-   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: stray Malayalam sign 'ാ' after '-' in «ലെ 58-ാമത്»; stray Malayalam sign 'ാ' after '-' in «ായ 58-ാമത്»; stray Malayalam sign 'ാ' after '-' in «ലെ 58-ാമത്»",
-   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 3 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 5.0,
-   "auto_images": true
-  },
-  {
-   "malayalam_headline": "കാലിക്കറ്റ് സർവകലാശാലയിൽ ജില്ലാ കരാട്ടെ ചാമ്പ്യൻഷിപ്പ് തുടങ്ങി; 896 വിദ്യാർഥികൾ മാറ്റുരയ്ക്കുന്നു",
-   "english_headline": "Malappuram District Karate Championship begins at Calicut University PT Usha Indoor Stadium",
-   "category": "Temples & Events",
-   "location": "Calicut University PT Usha Indoor Stadium, Malappuram district",
-   "importance": "Medium",
-   "scope": "district",
-   "post_to": "Malappuram 360 (collab: Manjeri 360)",
-   "slides_spec": {
-    "v": 3,
-    "cat": "കരാട്ടെ മത്സരം",
-    "loc": "കാലിക്കറ്റ് സർവകലാശാല",
-    "hl1": "ജില്ലാ കരാട്ടെ ചാമ്പ്യൻഷിപ്പ് തുടങ്ങി",
-    "hl2": "896 മത്സരാർഥികൾ",
-    "slides": [
-     {
-      "title": "എവിടെ, ആരെല്ലാം?",
-      "lines": [
-       "കാലിക്കറ്റ് സർവകലാശാലയിൽ ചാമ്പ്യൻഷിപ്പ് തുടങ്ങി",
-       "<b>896</b> വിദ്യാർഥികൾ പങ്കെടുക്കുന്നു",
-       "<b>8</b> മുതൽ <b>30</b> വയസ്സ് വരെയുള്ളവർക്ക് മത്സരം"
-      ]
-     },
-     {
-      "title": "മത്സര ക്രമം",
-      "lines": [
-       "ജൂനിയർ, സീനിയർ മത്സരങ്ങൾ ശനിയാഴ്ച പൂർത്തിയായി",
-       "ഞായറാഴ്ച സബ്ജൂനിയർ മത്സരങ്ങൾ നടക്കും"
-      ]
-     },
-     {
-      "title": "സംസ്ഥാന മത്സരം",
-      "lines": [
-       "ഒന്നും രണ്ടും സ്ഥാനക്കാർ യോഗ്യത നേടും",
-       "<b>നവംബർ 21 - 23</b> വരെ എറണാകുളത്ത് നടക്കും",
-       "സ്പോർട്സ് കൗൺസിൽ പ്രസിഡന്റ് ഉദ്ഘാടനം ചെയ്തു"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "കാലിക്കറ്റ് സർവകലാശാലയിൽ ജില്ലാ കരാട്ടെ ചാമ്പ്യൻഷിപ്പ് തുടങ്ങി. ജില്ലയുടെ വിവിധ ഭാഗങ്ങളിൽ നിന്ന് 896 കുട്ടികളാണ് പങ്കെടുക്കുന്നത്. 8 മുതൽ 30 വയസ്സ് വരെയുള്ളവർക്കാണ് മത്സരം. ജൂനിയർ, സീനിയർ മത്സരങ്ങൾ ശനിയാഴ്ച പൂർത്തിയായി. ഞായറാഴ്ച സബ്ജൂനിയർ വിഭാഗം മത്സരങ്ങൾ നടക്കും. ആദ്യ 2 സ്ഥാനക്കാർ നവംബർ 21 മുതൽ 23 വരെ എറണാകുളത്ത് നടക്കുന്ന സംസ്ഥാന മത്സരത്തിൽ പങ്കെടുക്കും. കരാട്ടെ പഠിക്കുന്ന കൂട്ടുകാർക്ക് ഇത് അയച്ചുകൊടുക്കണേ. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
-   "caption": "🥋 കാലിക്കറ്റ് സർവകലാശാലയിൽ ജില്ലാ കരാട്ടെ ചാമ്പ്യൻഷിപ്പ് തുടങ്ങി; 896 വിദ്യാർഥികൾ മാറ്റുരയ്ക്കുന്നു\n\n📰 പൂർണ വിവരം:\nകാലിക്കറ്റ് സർവകലാശാലാ പി.ടി. ഉഷ ഇൻഡോർ സ്റ്റേഡിയത്തിൽ ജില്ലാ കരാട്ടെ ഡു അസോസിയേഷന്റെ നേതൃത്വത്തിൽ ജില്ലാ കരാട്ടെ ചാമ്പ്യൻഷിപ്പ് ആരംഭിച്ചു. ജില്ലയുടെ വിവിധ ഭാഗങ്ങളിൽ നിന്നായി 896 വിദ്യാർഥികളാണ് ചാമ്പ്യൻഷിപ്പിൽ പങ്കെടുക്കുന്നത്. 8 മുതൽ 30 വയസ്സ് വരെയുള്ളവർക്കാണ് മത്സരങ്ങൾ. ജൂനിയർ, സീനിയർ, കേഡറ്റ്, അണ്ടർ-21 വിഭാഗങ്ങളിലെ മത്സരങ്ങൾ ശനിയാഴ്ച പൂർത്തിയായി. ഞായറാഴ്ച സബ്ജൂനിയർ വിഭാഗം മത്സരങ്ങൾ നടക്കും. വിവിധ വിഭാഗങ്ങളിൽ ഒന്നും രണ്ടും സ്ഥാനങ്ങളിലെത്തുന്നവർ നവംബർ 21 മുതൽ 23 വരെ എറണാകുളത്ത് നടക്കുന്ന സംസ്ഥാന ചാമ്പ്യൻഷിപ്പിലേക്ക് യോഗ്യത നേടും. ജില്ലാ സ്പോർട്സ് കൗൺസിൽ പ്രസിഡന്റ് പി. ഋഷികേശ് കുമാർ ചാമ്പ്യൻഷിപ്പ് ഉദ്ഘാടനം ചെയ്തു.\n📍 സ്ഥലം: പി.ടി. ഉഷ ഇൻഡോർ സ്റ്റേഡിയം, കാലിക്കറ്റ് സർവകലാശാല\n🥋 മത്സരാർഥികൾ: 896 വിദ്യാർഥികൾ (8-30 വയസ്സ്)\n🏆 സംസ്ഥാന മത്സരം: നവംബർ 21-23 (എറണാകുളത്ത്)\n\nകരാട്ടെ താല്പര്യമുള്ള കൂട്ടുകാർക്ക് Share ചെയ്യൂ\n\nMalappuram District Karate Championship at Calicut University PT Usha Stadium\n📍 കാലിക്കറ്റ് സർവകലാശാല, മലപ്പുറം | 15 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #CalicutUniversity #Karate #MalappuramNews",
-   "prompts": "Wide shot of the PT Usha Indoor Stadium building at Calicut University campus in Malappuram district, a banner of Malappuram District Karate-Do Association outside, bright daylight. Crisp daylight colour tone across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nInside the indoor stadium, tatami martial arts mats laid out on the wooden floor, multiple young sports students in white karate gi warming up, judges seated at tables. Crisp daylight colour tone across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nTwo sub-junior karate participants in traditional white uniforms competing on the mat inside PT Usha Indoor Stadium, referee watching closely, spectators in stadium seating background. Crisp daylight colour tone across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nThe inauguration stage at Calicut University indoor stadium with district sports council officials, dignitaries speaking at the podium, spectators listening. Crisp daylight colour tone across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.mathrubhumi.com/malappuram/news/localnews-malappuram-ro0raaoi",
-   "published": "2026-11-15T00:57:12+05:30",
-   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: numbers not found in the article: 8",
-   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 4.0,
-   "auto_images": true
-  }
- ]
+ "llm": [],
+ "stories": []
 }
