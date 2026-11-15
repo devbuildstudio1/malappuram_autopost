@@ -2,29 +2,37 @@
  "log": [
   "earlier stories still waiting for images: []",
   "instagram check: 67 recent posts read from both pages",
-  "write round: 5 news waiting in the queue (written in priority order)",
-  "candidate filter: collected=3, checked earlier=2",
+  "write round: 3 news waiting in the queue (written in priority order)",
+  "candidate filter: collected=3",
   "to write: 0 Manjeri + 3 other district candidates (max 200 + 200 stories)",
   "candidates waiting: 0 Manjeri, 3 Malappuram; time left 29 min",
   "try (N) manual=False: തിരുവാലി അഗ്നിരക്ഷാനിലയം; കെട്ടിടത്തിന് സ്ഥലം അനുവദിച്ചു",
   "try (N) manual=False: അനധികൃത ചെങ്കല്ല്, മണ്ണുകടത്ത്; വണ്ടൂരിൽ മണ്ണുമാന്തി യന്ത്രമ",
   "try (N) manual=False: സോഷ്യൽ പൊലിസിംഗ്: ഏകോപന യോഗം | Deepika | The Largest Read Ma",
-  "skip (N) could not open: സോഷ്യൽ പൊലിസിംഗ്: ഏകോപന യോഗം | Deepika | The Large [https://www.deepika.com/district-news/social-policing-coordi] 403 Client Error: Forbidden for url: https://www.deepika.com/district-news/socia",
+  "NOT filed (N) സോഷ്യൽ പൊലിസിംഗ്: ഏകോപന യോഗം | Deepika | The Large: all free models failed: no usable answer from the models",
+  "auto images: 1 of 1 stories ({'pollinations': 6})",
+  "posting job started at once",
   "NOT filed (N) അനധികൃത ചെങ്കല്ല്, മണ്ണുകടത്ത്; വണ്ടൂരിൽ മണ്ണുമാന്: all free models failed: no usable answer from the models",
-  "NOT filed (N) തിരുവാലി അഗ്നിരക്ഷാനിലയം; കെട്ടിടത്തിന് സ്ഥലം അനുവ: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 3}, done={'R': 0, 'N': 0}, time left 28 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
-  "queue: 3 news waiting to be written",
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 3}, done={'R': 0, 'N': 1}, time left 24 min",
+  "carousel for 0 of 1 stories, the rest reel only",
+  "filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)",
+  "queue: 2 news waiting to be written",
+  "write_stories.yml started",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":3}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.8-flash",
+  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.7-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
@@ -38,10 +46,86 @@
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
+  "ok gemini/gemini-3.6-flash (17s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok groq/openai/gpt-oss-120b (5s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok groq/openai/gpt-oss-120b (6s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "ok groq/openai/gpt-oss-120b (2s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
   "poor answer - skipped for 30 min: gemini/gemini-3.8-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "dead for this round: groq/openai/gpt-oss-120b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "തിരുവാലി അഗ്നിരക്ഷാ നിലയത്തിന് കെട്ടിടം പണിയാന്‍ 42.37 സെന്റ് സ്ഥലം അനുവദിച്ചു",
+   "english_headline": "Land sanctioned for Thiruvali Fire Station building in Wandoor",
+   "category": "Government & Services",
+   "location": "Thiruvali, Wandoor, Malappuram district",
+   "importance": "Medium",
+   "scope": "local",
+   "post_to": "Malappuram 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "അഗ്നിരക്ഷാ നിലയം",
+    "loc": "തിരുവാലി, വണ്ടൂർ",
+    "hl1": "തിരുവാലി ഫയർ സ്റ്റേഷന്",
+    "hl2": "കെട്ടിടം പണിയാന്‍ സ്ഥലം",
+    "slides": [
+     {
+      "title": "വാർത്ത",
+      "lines": [
+       "വർഷങ്ങളായി വാടക കെട്ടിടത്തിൽ പ്രവർത്തിച്ച സ്ഥാപനം",
+       "<b>തിരുവാലി</b> അഗ്നിരക്ഷാ നിലയത്തിന് നേട്ടം",
+       "സ്വന്തമായി കെട്ടിടം പണിയാൻ സ്ഥലം നൽകി"
+      ]
+     },
+     {
+      "title": "സ്ഥല വിവരം",
+      "lines": [
+       "തിരുവാലി അങ്ങാടിയിൽ നിന്ന് <b>1.5</b> കിലോമീറ്റർ മാറി",
+       "റോഡരികിൽ <b>42.37</b> സെന്റ് സർക്കാർ ഭൂമി",
+       "കളക്ടർ <b>ഡോ. വിനയ് ഗോയൽ</b> ഉത്തരവിട്ടു"
+      ]
+     },
+     {
+      "title": "വേഗത്തിലായ നടപടി",
+      "lines": [
+       "അഗ്നിരക്ഷാ മേധാവിയും റവന്യൂ സംഘവും ചർച്ച നടത്തി",
+       "മന്ത്രിയായ <b>എ. പി. അനിൽകുമാറിന്റെ</b> ഇടപെടൽ ഉണ്ടായി",
+       "ഇതോടെയാണ് നടപടികൾ വേഗത്തിലായത്"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "തിരുവാലി ഫയർ സ്റ്റേഷനു പുതിയ സ്ഥലം ലഭിച്ചു. വർഷങ്ങളായി വാടക കെട്ടിടത്തിൽ പ്രവർത്തിച്ചിരുന്ന അഗ്നിരക്ഷാ നിലയം, തിരുവാലി അങ്ങാടിയിൽ നിന്ന് 1.5 കിലോമീറ്റർ അകലെയുള്ള റോഡരികിൽ 42.37 സെന്റ് സർക്കാർ ഭൂമി ലഭിച്ചു. ജില്ലാ കളക്ടർ ഡോ. വിനയ് ഗോയൽ ഉത്തരവിട്ടു, അഗ്നിരക്ഷാ മേധാവിയും റവന്യൂ ഉദ്യോഗസ്ഥരും ചർച്ച ചെയ്തു. മന്ത്രിയായ എ. പി. അനിൽകുമാർ ഇടപെട്ടതോടെ നടപടികൾ വേഗം നേടി. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🚒 തിരുവാലി അഗ്നിരക്ഷാ നിലയത്തിന് കെട്ടിടം പണിയാൻ സ്ഥലം അനുവദിച്ചു\n\n📰 പൂർണ്ണ വിവരം:\nവർഷങ്ങളായി വാടക കെട്ടിടത്തിൽ പ്രവർത്തിച്ചിരുന്ന തിരുവാലി അഗ്നിരക്ഷാ നിലയത്തിന് 1.5 കി.മീ അകലെയുള്ള റോഡരികിൽ 42.37 സെന്റ് സർക്കാർ ഭൂമി ലഭിച്ചു. ജില്ലാ കളക്ടർ ഡോ. വിനയ് ഗോയൽ ഉത്തരവിട്ടു. അഗ്നിരക്ഷാ ഡയറക്ടർ, റവന്യൂ ഉദ്യോഗസ്ഥർ, ജില്ലാ ഭരണകൂടം എന്നിവരുടെ ചർച്ചക്ക് ശേഷം, മന്ത്രിയായ എ. പി. അനിൽകുമാറിന്റെ ഇടപെടലോടെ നടപടികൾ വേഗം നേടി.\n\n📍 സ്ഥലം: തിരുവാലി, വണ്ടൂർ, മലപ്പുറം\n📐 വിസ്തൃതി: 42.37 സെന്റ്\n📋 ഉത്തരവ്: ജില്ലാ കളക്ടർ ഡോ. വിനയ് ഗോയൽ\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Wandoor #FireStation #MalappuramNews",
+   "prompts": "Fire‑Rescue Director General and Collector Dr. Vinay Goyal together with other officials hand over a sealed land‑allocation document, marking the sanction of a 42.37 cent government plot for a new fire‑station; the ceremony takes place on a narrow tar road beside the plot, about 1.5 km from Thiruvali Angadi, with coconut palms and laterite walls framing the scene; officials stand side‑by‑side in khaki and white shirts, seen from behind, while a small group of local workers in mundu watches; a simple wooden table holds the document, a metal boundary marker and a map of the plot; late morning light filters through scattered clouds, casting soft shadows on the wet earth; shot from a low angle, 35 mm lens, capturing the gesture without showing faces. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide establishing view shows the stretch of road in Thiruvali where the 42.37 cent government land lies, bordered by a low laterite wall, swaying coconut and areca trees, and a distant rubber plantation typical of Malappuram; the empty plot is clearly marked by a fresh white boundary stone and a temporary “Government Land” sign; in the background, a few officials in khaki uniforms and a minister in a white shirt can be seen walking away from the site, their backs to the camera; a lone KSRTC bus passes on the adjacent lane, adding a sense of everyday traffic; the scene is bathed in overcast monsoon‑season light, with a gentle drizzle creating a glossy road surface; captured from a slightly elevated position with a 35 mm lens to include both the plot and the surrounding Kerala landscape. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close‑up focuses on the freshly placed boundary stone on the sanctioned plot, its surface bearing the engraved figure “42.37 cents” and the official seal of the district collector; beside the stone lies a folded land‑allocation letter, its top edge showing the heading “Fire‑Station Land Sanction” (text not readable); a pair of khaki‑clad hands from the collector’s side rest on the stone, indicating the handover; droplets of recent rain glisten on the stone, reflecting the muted sky; taken at eye level with a 35 mm lens, the frame isolates the stone and documents, emphasizing the concrete evidence of the sanction. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.manoramaonline.com/district-news/malappuram/2026/11/15/tiruvali-fire-station-new-building-land-allotted.html",
+   "published": "2026-11-15T10:07:45+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash + proofread groq/openai/gpt-oss-120b) - not checked by Claude yet; validator problems: caption has no \"📰 പൂർണ വിവരം:\" block - put the whole story (every fact) in the caption",
+   "note": "free-model draft gemini/gemini-3.6-flash + proofread groq/openai/gpt-oss-120b, 1 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 5.0,
+   "images": [
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794729054/news360/mauuvipgcokwu3cnbbak.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794729267/news360/dcjtljzi8syvbdm4azdg.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794729191/news360/jtii6ghwpperg0attub6.jpg"
+   ]
+  }
+ ]
 }
