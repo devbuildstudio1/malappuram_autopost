@@ -1,6 +1,17 @@
 writing [N]: പ്രതിസന്ധികൾക്ക് മുന്നിൽ പതറാത്ത ഒരു വിദ്യാർഥി തലമുറ ഇവിടെ ഉ
+writing [N]: ജുനൈദിന്റെ മരണത്തിൽ മാപ്പ് പറഞ്ഞ് കെഎസ്ഇബി; അപകട സാധ്യത അറിയ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: സ്റ്റേ കമ്പിയിൽനിന്ന് ഷോക്കേറ്റ് 14 വയസുകാരൻ മരിച്ചു; കെഎസ്
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -11,98 +22,82 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-writing [N]: സ്റ്റേ കമ്പിയിൽനിന്ന് ഷോക്കേറ്റ് 14 വയസുകാരൻ മരിച്ചു; കെഎസ്
-writing [N]: ജുനൈദിന്റെ മരണത്തിൽ മാപ്പ് പറഞ്ഞ് കെഎസ്ഇബി; അപകട സാധ്യത അറിയ
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5UHTg2etMf9n449kyKM"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5Wx1up7tusLF9a5hgFa"}
 writing [N]: സ്റ്റേ കമ്പിയിൽ വൈദ്യുതി പ്രവഹിച്ചു; മലപ്പുറത്ത് 13-കാരന് ദാ
-free models unavailable: free models not efficient (19 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5UHY5wxMKcvKREhwcZY"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5UHZEPwEtbVrX8PiY6S"}
+free models unavailable: free models not efficient (11 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5Wx7A5JFnSCg4LipAdK"}
 writing [N]: തിരൂരങ്ങാടിയിലെ 14കാരൻ്റെ മരണം: "ഉത്തരവാദികൾക്ക് എതിരെ കർശന 
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5UHaFuksmutwg17sVrs"}
-writing [N]: സംഭവിക്കരുതാത്തത് സംഭവിച്ചു! ജുനൈദിന്റെ മരണത്തിൽ മാപ്പ് പറഞ്
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5UHdvRxYrCUzWae5MdN"}
-writing [N]: Latest Malappuram District News | Kerala Kaumudi  | മലപ്പുറം
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5UHgWDWW1yfK7KgdS66"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5UHgaBTJ6W7SctH5ncv"}
+free models unavailable: free models not efficient (11 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5WxA5gam149nsgBxGBC"}
 writing [N]: പ്രണയസമ്മാനവുമായി കാത്തുനിന്നു; 
 കൺമുന്നിൽ സ്വർണം പൊട്ടിക്ക
-free models unavailable: free models not efficient (21 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5UHjQqZ9KHys1LdWTE3"}
+free models unavailable: free models not efficient (11 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5WxDc29LYzT81EW4GQV"}
+writing [N]: സംഭവിക്കരുതാത്തത് സംഭവിച്ചു! ജുനൈദിന്റെ മരണത്തിൽ മാപ്പ് പറഞ്
+free models unavailable: free models not efficient (11 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5WxEco3fF9GrePLyh5b"}
+writing [N]: Latest Malappuram District News | Kerala Kaumudi  | മലപ്പുറം
+free models unavailable: free models not efficient (11 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5WxGjXneqN5f24DXuCm"}
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5WxM8T6aEs3uTLXcf5k"}
+fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5X1BNA8JbxVrjUh2SoC"}
 earlier stories still waiting for images: []
 instagram check: 67 recent posts read from both pages
-write round: 10 news waiting in the queue (written in priority order)
-candidate filter: collected=10
-to write: 0 Manjeri + 10 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 10 Malappuram; time left 29 min
-try (N) manual=False: മലപ്പുറത്ത് വിദ്യാർഥി ഷോക്കേറ്റ് മരിച്ച സംഭവം; മുന്നിയൂർ കെ 
+write round: 8 news waiting in the queue (written in priority order)
+candidate filter: collected=8
+to write: 0 Manjeri + 8 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 8 Malappuram; time left 29 min
 try (N) manual=False: പ്രതിസന്ധികൾക്ക് മുന്നിൽ പതറാത്ത ഒരു വിദ്യാർഥി തലമുറ ഇവിടെ ഉ
 try (N) manual=False: സ്റ്റേ കമ്പിയിൽനിന്ന് ഷോക്കേറ്റ് 14 വയസുകാരൻ മരിച്ചു; കെഎസ്
-skip (N) similar to a filed story: മലപ്പുറത്ത് വിദ്യാർഥി ഷോക്കേറ്റ് മരിച്ച സംഭവം; മുന
 try (N) manual=False: ജുനൈദിന്റെ മരണത്തിൽ മാപ്പ് പറഞ്ഞ് കെഎസ്ഇബി; അപകട സാധ്യത അറിയ
 NOT filed (N) പ്രതിസന്ധികൾക്ക് മുന്നിൽ പതറാത്ത ഒരു വിദ്യാർഥി തലമ: all free models failed: no usable answer from the models
 try (N) manual=False: സ്റ്റേ കമ്പിയിൽ വൈദ്യുതി പ്രവഹിച്ചു; മലപ്പുറത്ത് 13-കാരന് ദാ
 NOT filed (N) സ്റ്റേ കമ്പിയിൽ വൈദ്യുതി പ്രവഹിച്ചു; മലപ്പുറത്ത് 1: all free models failed: no usable answer from the models
-try (N) manual=False: മലപ്പുറത്ത് 14കാരൻ ഷോക്കേറ്റ് മരിച്ചു; ജീവനെടുത്തത് കെഎസ്ഇബി
-NOT filed (N) സ്റ്റേ കമ്പിയിൽനിന്ന് ഷോക്കേറ്റ് 14 വയസുകാരൻ മരിച: all free models failed: no usable answer from the models
 try (N) manual=False: തിരൂരങ്ങാടിയിലെ 14കാരൻ്റെ മരണം: "ഉത്തരവാദികൾക്ക് എതിരെ കർശന 
 NOT filed (N) തിരൂരങ്ങാടിയിലെ 14കാരൻ്റെ മരണം: "ഉത്തരവാദികൾക്ക് എ: all free models failed: no usable answer from the models
 try (N) manual=False: പ്രണയസമ്മാനവുമായി കാത്തുനിന്നു; 
 കൺമുന്നിൽ സ്വർണം പൊട്ടിക്ക
-skip (N) similar to a filed story: മലപ്പുറത്ത് 14കാരൻ ഷോക്കേറ്റ് മരിച്ചു; ജീവനെടുത്തത
+NOT filed (N) പ്രണയസമ്മാനവുമായി കാത്തുനിന്നു; 
+കൺമുന്നിൽ സ്വർണം: all free models failed: no usable answer from the models
 try (N) manual=False: സംഭവിക്കരുതാത്തത് സംഭവിച്ചു! ജുനൈദിന്റെ മരണത്തിൽ മാപ്പ് പറഞ്
 NOT filed (N) സംഭവിക്കരുതാത്തത് സംഭവിച്ചു! ജുനൈദിന്റെ മരണത്തിൽ മ: all free models failed: no usable answer from the models
 try (N) manual=False: Latest Malappuram District News | Kerala Kaumudi  | മലപ്പുറം
 NOT filed (N) Latest Malappuram District News | Kerala Kaumudi  : all free models failed: no usable answer from the models
+NOT filed (N) സ്റ്റേ കമ്പിയിൽനിന്ന് ഷോക്കേറ്റ് 14 വയസുകാരൻ മരിച: all free models failed: no usable answer from the models
 NOT filed (N) ജുനൈദിന്റെ മരണത്തിൽ മാപ്പ് പറഞ്ഞ് കെഎസ്ഇബി; അപകട സ: all free models failed: no usable answer from the models
-NOT filed (N) പ്രണയസമ്മാനവുമായി കാത്തുനിന്നു; 
-കൺമുന്നിൽ സ്വർണം: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 10}, done={'R': 0, 'N': 0}, time left 29 min
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 8}, done={'R': 0, 'N': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
 queue: 8 news waiting to be written
