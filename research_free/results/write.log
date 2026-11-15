@@ -1,76 +1,185 @@
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 540, in _make_request
-    response = conn.getresponse()
-               ^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connection.py", line 638, in getresponse
-    httplib_response = super().getresponse()
-                       ^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/http/client.py", line 1443, in getresponse
-    response.begin()
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/http/client.py", line 337, in begin
-    version, status, reason = self._read_status()
-                              ^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/http/client.py", line 298, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/socket.py", line 718, in readinto
-    return self._sock.recv_into(b)
-           ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/ssl.py", line 1327, in recv_into
-    return self.read(nbytes, buffer)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/ssl.py", line 1179, in read
-    return self._sslobj.read(len, buffer)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TimeoutError: The read operation timed out
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/adapters.py", line 696, in send
-    resp = conn.urlopen(
-           ^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
-    retries = retries.increment(
-              ^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/util/retry.py", line 510, in increment
-    raise reraise(type(error), error, _stacktrace)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/util/util.py", line 39, in reraise
-    raise value
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
-    response = self._make_request(
-               ^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 542, in _make_request
-    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 373, in _raise_timeout
-    raise ReadTimeoutError(
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='script.google.com', port=443): Read timed out. (read timeout=120)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/malappuram_autopost/malappuram_autopost/research_free/collect.py", line 1181, in <module>
-    main()
-  File "/home/runner/work/malappuram_autopost/malappuram_autopost/research_free/collect.py", line 866, in main
-    rr = bridge("recent")
-         ^^^^^^^^^^^^^^^^
-  File "/home/runner/work/malappuram_autopost/malappuram_autopost/research_free/collect.py", line 120, in bridge
-    r = requests.get(BRIDGE_URL, params={"action": action, "key": BRIDGE_KEY, **kw}, timeout=120)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/api.py", line 87, in get
-    return request("get", url, params=params, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/api.py", line 71, in request
-    return session.request(method=method, url=url, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/sessions.py", line 651, in request
-    resp = self.send(prep, **send_kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/sessions.py", line 784, in send
-    r = adapter.send(request, **kwargs)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/adapters.py", line 742, in send
-    raise ReadTimeout(e, request=request)
-requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='script.google.com', port=443): Read timed out. (read timeout=120)
-exit 1
+writing [N]: മലപ്പുറം തിരൂരങ്ങാടിയിൽ സ്റ്റേ വയറിൽ നിന്ന് ഷോക്കേറ്റ് 14 കാ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+writing [N]: മണിക്കൂറുകളോളം കഷ്ടപ്പെടേണ്ട! വെളുത്തുള്ളി തൊലി മിനിറ്റുകൾക്
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: മാപ്പപേക്ഷയിൽ ഒതുങ്ങുമോ ജുനൈദിന്റെ ജീവൻ? അനാസ്ഥ തുറന്നു സമ്മ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+ok gemini/gemini-3.6-flash (12s)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+dead for this round: groq/openai/gpt-oss-120b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+ok groq/openai/gpt-oss-120b (3s)
+factcheck by groq/openai/gpt-oss-120b: 1 problems
+  Reel script omits the article's method of placing garlic between two steel pots for peeling
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  fact-check: Reel script omits the article's method of placing garlic between two steel pots for peeling
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 400: {"errors":[{"message":"AiError: AiError: {\"error\":{\"message\
+ok gemini/gemini-3.6-flash (20s)
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  reel_script has 53 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 400: {"errors":[{"message":"AiError: AiError: {\"error\":{\"message\
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (31s)
+attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 97 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (43s)
+attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 41 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (33s)
+attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 44 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (31s)
+attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 40 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
+poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (24s)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (24s)
+attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 46 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (55s)
+attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 52 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (27s)
+attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 47 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: Unterminated string starting at: line 1 column 17734 (char 17733)
+poor answer - skipped for 30 min: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (23s)
+attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 43 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (30s)
+attempt 5 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 44 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free fact-check unavailable, using Claude: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit ex
+factcheck unavailable: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5G2ut4Q3SyhD5uicT7T"}
+attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  fact-check: could not be run
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5G2vM5s8xnotaFBdpRG"}
+proofread skipped: free models not efficient (3 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5G334u3kQMqrUSeuC4G"}
+proofread skipped: free models not efficient (4 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5G3Go9d7vEgg5a1reWJ"}
+proofread skipped: free models not efficient (5 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match: True The photo shows a garlic bulb held over a bowl of liquid, illustrating a popular kitchen trick of soaking garlic in wate
+images made: 4 for 'Easy ways to remove garlic skin in minut'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261116-0054","first":"MP-266"}
+posting job started at once
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+writing [N]: സ്റ്റേ കമ്പിയുടെ ഒരു ഭാഗം വൈദ്യുത ലൈനിൽ തട്ടിയ നിലയിൽ; നാട്ട
+free models unavailable: free models not efficient (5 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch5G4jeDe43UJZaLxFzkD"}
+image match: False The photo is an AI-generated image showing a generic street scene with palm trees and a vehicle, not depicting the news 
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 4 for '14-year-old Junayd dies after electric s'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261116-0055","first":"MP-267"}
+write_stories.yml started
+earlier stories still waiting for images: []
+instagram check: 67 recent posts read from both pages
+write round: 5 news waiting in the queue (written in priority order)
+candidate filter: collected=5
+to write: 0 Manjeri + 5 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 5 Malappuram; time left 29 min
+try (N) manual=False: മലപ്പുറം തിരൂരങ്ങാടിയിൽ സ്റ്റേ വയറിൽ നിന്ന് ഷോക്കേറ്റ് 14 കാ
+try (N) manual=False: മാപ്പപേക്ഷയിൽ ഒതുങ്ങുമോ ജുനൈദിന്റെ ജീവൻ? അനാസ്ഥ തുറന്നു സമ്മ
+try (N) manual=False: Latest Malappuram District News | Kerala Kaumudi  | മലപ്പുറം
+skip (N) could not open: Latest Malappuram District News | Kerala Kaumudi   [https://www.keralakaumudi.com/news/mobile/sub-section.php?ci] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/news/mobile/s
+try (N) manual=False: മണിക്കൂറുകളോളം കഷ്ടപ്പെടേണ്ട! വെളുത്തുള്ളി തൊലി മിനിറ്റുകൾക്
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})
+posting job started at once
+try (N) manual=False: സ്റ്റേ കമ്പിയുടെ ഒരു ഭാഗം വൈദ്യുത ലൈനിൽ തട്ടിയ നിലയിൽ; നാട്ട
+NOT filed (N) മലപ്പുറം തിരൂരങ്ങാടിയിൽ സ്റ്റേ വയറിൽ നിന്ന് ഷോക്കേ: duplicate after write
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 9})
+NOT filed (N) സ്റ്റേ കമ്പിയുടെ ഒരു ഭാഗം വൈദ്യുത ലൈനിൽ തട്ടിയ നില: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 5}, done={'R': 0, 'N': 2}, time left 25 min
+carousel for 0 of 2 stories, the rest reel only
+filed: 0 Manjeri + 2 Malappuram (targets 200 + 200)
+queue: 3 news waiting to be written
+write_stories.yml started
+All News sheet: {"ok":true,"added":0,"updated":5} 
+stories: 2
