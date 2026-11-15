@@ -7,22 +7,29 @@
   "to write: 0 Manjeri + 1 other district candidates (max 200 + 200 stories)",
   "candidates waiting: 0 Manjeri, 1 Malappuram; time left 29 min",
   "try (N) manual=False: ഉയർന്നു, പ്രതീക്ഷയുടെ പതാക",
-  "NOT filed (N) ഉയർന്നു, പ്രതീക്ഷയുടെ പതാക: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 1}, done={'R': 0, 'N': 0}, time left 27 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
-  "queue: 1 news waiting to be written",
+  "auto images: 1 of 1 stories ({'pollinations': 5})",
+  "posting job started at once",
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 1}, done={'R': 0, 'N': 1}, time left 25 min",
+  "carousel for 0 of 1 stories, the rest reel only",
+  "filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)",
+  "queue: 0 news waiting to be written",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":1}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.8-flash",
-  "fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.7-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.8-flash",
+  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.7-flash",
+  "ok gemini/gemini-3.6-flash (21s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
+  "ok groq/openai/gpt-oss-120b (5s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
@@ -31,7 +38,68 @@
   "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min"
+  "switching away from mistral/mistral-small-latest for 10 min",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "വളാഞ്ചേരിയിൽ ബാലസംഘം ജില്ലാ സമ്മേളനത്തിന് ഉജ്വല തുടക്കം",
+   "english_headline": "Balasangham district conference begins at Valanchery in Malappuram",
+   "category": "Temples & Events",
+   "location": "KRSN College, Kavumpuram, Valanchery, Malappuram district",
+   "importance": "Medium",
+   "scope": "district",
+   "post_to": "Malappuram 360 (collab: Manjeri 360)",
+   "slides_spec": {
+    "v": 3,
+    "cat": "ജില്ലാ സമ്മേളനം",
+    "loc": "വളാഞ്ചേരി, മലപ്പുറം",
+    "hl1": "വളാഞ്ചേരിയിൽ ബാലസംഘം സമ്മേളനം",
+    "hl2": "330 പ്രതിനിധികൾ പങ്കെടുത്തു",
+    "slides": [
+     {
+      "title": "തുടക്കം",
+      "lines": [
+       "<b>വളാഞ്ചേരി</b> കാവുംപുറം കോളേജിൽ തുടക്കം",
+       "പതാകയുയർത്തി <b>പി പി ഷമീം ഇല്യാസ്</b>",
+       "എഴുത്തുകാരൻ <b>പി വി ഷാജികുമാർ</b> ഉദ്ഘാടനം ചെയ്തു"
+      ]
+     },
+     {
+      "title": "പങ്കാളിത്തം",
+      "lines": [
+       "<b>18</b> ഏരിയകളിൽ നിന്നായി <b>330</b> പേർ",
+       "<b>242</b> പ്രതിനിധികൾ പങ്കെടുത്തു",
+       "പ്രവർത്തന റിപ്പോർട്ട് അവതരിപ്പിച്ചു"
+      ]
+     },
+     {
+      "title": "സമാപനം",
+      "lines": [
+       "ഞായറാഴ്ച വൈകിട്ട് <b>3 മണിക്ക്</b> സർഗസംഗമം",
+       "ചലച്ചിത്രതാരം <b>ഗായത്രി വർഷ</b> ഉദ്ഘാടനം ചെയ്യും",
+       "അട്ടപ്പാടി വിഷയത്തിൽ പ്രമേയം അംഗീകരിച്ചു"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "വളാഞ്ചേരിയിൽ ബാലസംഘം ജില്ലാ സമ്മേളനത്തിന് തുടക്കമായി. കാവുംപുറം കെആർ എസ്എൻ കോളേജിലാണ് സമ്മേളനം നടക്കുന്നത്. ജില്ലാ പ്രസിഡന്റ് പി പി ഷമീം ഇല്യാസ് പതാക ഉയർത്തി. എഴുത്തുകാരൻ പി വി ഷാജികുമാർ ഉദ്ഘാടനം ചെയ്തു. 18 ഏരിയകളിൽ നിന്നായി 330 പേർ പങ്കെടുത്തു. അട്ടപ്പാടിയിലെ ശിശുമരണത്തിൽ അടിയന്തര ഇടപെടൽ വേണമെന്ന് പ്രമേയം പാസാക്കി. ഞായറാഴ്ച വൈകിട്ട് 3 മണിക്ക് നടക്കുന്ന സമാപനം ഗായത്രി വർഷ ഉദ്ഘാടനം ചെയ്യും. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🎈 വളാഞ്ചേരിയിൽ ബാലസംഘം ജില്ലാ സമ്മേളനത്തിന് തുടക്കം\n\n📰 പൂർണ വിവരം:\nകുട്ടികളുടെ സമാന്തര വിദ്യാഭ്യാസ സാംസ്കാരിക സംഘടനയായ ബാലസംഘത്തിന്റെ ജില്ലാ സമ്മേളനത്തിന് വളാഞ്ചേരി കാവുംപുറം കെആർ എസ്എൻ കോളേജിൽ തുടക്കമായി. ജില്ലാ പ്രസിഡന്റ് പി പി ഷമീം ഇല്യാസ് പതാക ഉയർത്തി. എഴുത്തുകാരനും തിരക്കഥാകൃത്തുമായ പി വി ഷാജികുമാർ പ്രതിനിധി സമ്മേളനം ഉദ്ഘാടനം ചെയ്തു. 18 ഏരിയാ കമ്മിറ്റികളിൽനിന്ന് 242 പ്രതിനിധികളടക്കം 330 പേരാണ് സമ്മേളനത്തിൽ പങ്കെടുത്തത്. അട്ടപ്പാടിയിലെ ശിശുമരണം പരിഹരിക്കാൻ അടിയന്തര ഇടപെടൽ വേണമെന്ന് സമ്മേളനം പ്രമേയത്തിലൂടെ ആവശ്യപ്പെട്ടു. ഞായറാഴ്ച വൈകിട്ട് 3 മണിക്ക് നടക്കുന്ന സമാപന സർഗസംഗമം ചലച്ചിത്രതാരം ഗായത്രി വർഷ ഉദ്ഘാടനം ചെയ്യും.\n\n📍 സ്ഥലം: കാവുംപുറം, വളാഞ്ചേരി\n🗓️ തീയതി: 15 നവംബർ 2026\nℹ️ ശ്രദ്ധിക്കുക: വൈകിട്ട് 3 മണിക്ക് സർഗസംഗമവും കലാപരിപാടികളും നടക്കും\n\nകൂടുതൽ വിവരങ്ങൾ അറിയാൻ Share ചെയ്യൂ\n\nBalasangham district conference begins at Valanchery | Malappuram news\n📍 വളാഞ്ചേരി, മലപ്പുറം | 15 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Valanchery #Balasangham #MalappuramNews",
+   "prompts": "Exterior view of KRSN College campus in Kavumpuram near Valanchery, Malappuram district during a bright daytime event, red Balasangham flag flying on a pole, decorative welcome banners at the entrance, participants arriving. Soft daylight, clean vibrant framing across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nInside a decorated college auditorium in Valanchery: children seated in orderly rows as delegates listening, stage visible with podium and floral arrangement. Soft daylight, clean vibrant framing across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nStage view inside the conference hall: young student artists performing a welcome group dance in colorful traditional attire, audience watching from behind. Soft daylight, clean vibrant framing across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nWide view of the auditorium during the Balasangham district conference session: delegates seated in rows, banners on side walls, lively conference atmosphere. Soft daylight, clean vibrant framing across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.deshabhimani.com/district-news/-73594/balal121-fy0",
+   "published": "2026-11-15T00:19:40+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: fact-check: slides_spec hl2 incorrectly says 330 representatives (article states 242 representatives, 330 participants); fact-check: reel_script says the proposal was passed, but article only says it was demanded, not passed; fact-check: reel_script omits the important fact that district secretary P Vinayak Prasad presented the activity report and state joint secretary Abhiram Ranjith presented the organization report",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 3 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 3.0,
+   "images": [
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794706799/news360/oi62srivxiv71xqjq3gg.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794706942/news360/ljnyidgsk9z63iwxap8e.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794706847/news360/ykcvus0zyl577rrprczq.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794706990/news360/kiqdacbot6n6zx4knyiu.jpg"
+   ]
+  }
+ ]
 }
