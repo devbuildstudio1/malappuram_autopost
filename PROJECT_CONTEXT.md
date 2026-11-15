@@ -82,14 +82,9 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
-| 2026-11-12 | `4abe49f` | Images: retry busy Pollinations, try it before NVIDIA, wait 12 h |
-| 2026-11-12 | `74be949` | Images: free Pollinations backup, cheaper Cloudflare, shorter NVIDIA wait |
-| 2026-11-12 | `fad2679` | Remove daily reel limit (owner 12 Nov) |
-| 2026-11-11 | `4599baf` | Heartbeat |
-| 2026-11-11 | `9b7cae3` | Heartbeat |
-| 2026-11-11 | `5777c2e` | Rank human-interest and wild-animal warnings higher |
-| 2026-11-11 | `2be3bd5` | Choose reel topics for new followers |
-| 2026-11-11 | `0b327a5` | ig probe output |
-| 2026-11-11 | `fd0cef8` | ig probe: optional public stats of other pages for comparison |
-| 2026-11-11 | `4726c18` | ig probe output |
+| 2026-11-15 | `a7dc605` | Skip Instagram repeats when choosing the run's reel |
+| 2026-11-14 | `07b4b43` | Heartbeat |
+| 2026-11-14 | `9c20df5` | Heartbeat |
+| 2026-11-13 | `e6c0021` | Heartbeat |
+| 2026-11-13 | `2b780b1` | Heartbeat |
 <!-- recent-changes:end -->
