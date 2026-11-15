@@ -1090,6 +1090,17 @@ def ig_duplicate(row, page):
     return ""
 
 
+def dup_reason(row, pg):
+    """the Instagram post (time) this story repeats on page pg, else '' - the same rule run_story uses before posting"""
+    try:
+        owner_reel = bool(json.loads(row.get("slides_spec") or "{}").get("ready_reel"))
+    except Exception:
+        owner_reel = False
+    if owner_reel or row.get(pg + "_link") or row.get("reel_link"):
+        return ""
+    return ig_duplicate(row, pg) or ig_duplicate(row, "manjeri" if pg == "malappuram" else "malappuram")
+
+
 def run_story(row):
     """every page named in post_to gets its own carousel + reel (own logo and follow line), one page after the other"""
     done = []
@@ -1101,7 +1112,7 @@ def run_story(row):
         except Exception:
             owner_reel = False
         # owner-made reels (e-mailed) are posted without the duplicate check (owner decision, 24 Oct); own earlier half-post is not a duplicate
-        dup = "" if (owner_reel or row.get(pg + "_link") or row.get("reel_link")) else (ig_duplicate(row, pg) or ig_duplicate(row, "manjeri" if pg == "malappuram" else "malappuram"))
+        dup = "" if owner_reel else dup_reason(row, pg)
         if dup:
             log("SKIP instagram duplicate:", row.get("story_id"), pg, "already posted", dup)
             if not DRY and not PREBUILD:
@@ -1610,6 +1621,12 @@ def main():
                                 why = paced.setdefault(p, pacing_wait(p))
                         if pg and why:
                             waiting.append(r["story_id"]); log("  ", r["story_id"], why)
+                            continue
+                        # 15 Nov: a repeat of an earlier Instagram post took the run's one reel slot, was skipped when posting,
+                        # and the same story was picked again every 10 min - nothing posted from 06:00 IST. Checked here now.
+                        dups = {p: dup_reason(r, p) for p in pg}
+                        if pg and all(dups.values()):
+                            log("  ", r["story_id"], "SKIP: same news already on Instagram", sorted(set(dups.values())))
                             continue
                         if pg and (CONFIG.get("prime_time") or {}).get("gap_minutes"):
                             for p in pg:

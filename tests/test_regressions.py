@@ -974,3 +974,23 @@ class FollowerSelection(unittest.TestCase):      # owner 11 Nov: topics are chos
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class DuplicateDoesNotBlock(unittest.TestCase):
+    """15 Nov: a repeat of an earlier Instagram post took the one reel slot every run - nothing posted for hours"""
+
+    def test_dup_reason(self):
+        old = post.ig_duplicate
+        post.ig_duplicate = lambda row, pg: "2026-11-09T03:52:41+0000" if pg == "malappuram" else ""
+        try:
+            self.assertTrue(post.dup_reason({"story_id": "MP-1"}, "malappuram"))
+            self.assertEqual("", post.dup_reason({"story_id": "MP-2", "reel_link": "x"}, "malappuram"))      # own earlier half-post
+            self.assertTrue(post.dup_reason({"story_id": "MP-3"}, "manjeri"))      # same news on the other page
+        finally:
+            post.ig_duplicate = old
+
+    def test_selection_checks_duplicates(self):
+        import inspect
+        src = inspect.getsource(post.main)
+        self.assertLess(src.index("dup_reason(r, p)"), src.index('"one reel per run'))
+
