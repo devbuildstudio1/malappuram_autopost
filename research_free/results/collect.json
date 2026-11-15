@@ -2,30 +2,26 @@
  "log": [
   "earlier stories still waiting for images: []",
   "instagram check: 67 recent posts read from both pages",
-  "write round: 3 news waiting in the queue (written in priority order)",
-  "candidate filter: collected=3",
-  "to write: 0 Manjeri + 3 other district candidates (max 200 + 200 stories)",
-  "candidates waiting: 0 Manjeri, 3 Malappuram; time left 29 min",
-  "try (N) manual=False: തിരുവാലി അഗ്നിരക്ഷാനിലയം; കെട്ടിടത്തിന് സ്ഥലം അനുവദിച്ചു",
+  "write round: 2 news waiting in the queue (written in priority order)",
+  "candidate filter: collected=2",
+  "to write: 0 Manjeri + 2 other district candidates (max 200 + 200 stories)",
+  "candidates waiting: 0 Manjeri, 2 Malappuram; time left 29 min",
   "try (N) manual=False: അനധികൃത ചെങ്കല്ല്, മണ്ണുകടത്ത്; വണ്ടൂരിൽ മണ്ണുമാന്തി യന്ത്രമ",
   "try (N) manual=False: സോഷ്യൽ പൊലിസിംഗ്: ഏകോപന യോഗം | Deepika | The Largest Read Ma",
-  "NOT filed (N) സോഷ്യൽ പൊലിസിംഗ്: ഏകോപന യോഗം | Deepika | The Large: all free models failed: no usable answer from the models",
+  "NOT filed (N) അനധികൃത ചെങ്കല്ല്, മണ്ണുകടത്ത്; വണ്ടൂരിൽ മണ്ണുമാന്: all free models failed: no usable answer from the models",
   "auto images: 1 of 1 stories ({'pollinations': 6})",
   "posting job started at once",
-  "NOT filed (N) അനധികൃത ചെങ്കല്ല്, മണ്ണുകടത്ത്; വണ്ടൂരിൽ മണ്ണുമാന്: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 3}, done={'R': 0, 'N': 1}, time left 24 min",
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 2}, done={'R': 0, 'N': 1}, time left 25 min",
   "carousel for 0 of 1 stories, the rest reel only",
   "filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)",
-  "queue: 2 news waiting to be written",
+  "queue: 1 news waiting to be written",
   "write_stories.yml started",
-  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":3}"
+  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":2}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
@@ -37,7 +33,8 @@
   "dead for this round: gemini/gemini-3.7-flash",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "dead for this round: groq/openai/gpt-oss-120b",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
   "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
@@ -46,85 +43,78 @@
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
-  "ok gemini/gemini-3.6-flash (17s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok groq/openai/gpt-oss-120b (5s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok groq/openai/gpt-oss-120b (6s)",
+  "ok gemini/gemini-3.6-flash (23s)",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "ok groq/openai/gpt-oss-120b (2s)",
+  "ok groq/qwen/qwen3.8-27b (0s)",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.8-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "dead for this round: groq/openai/gpt-oss-120b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6"
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok groq/qwen/qwen3.8-27b (3s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash"
  ],
  "stories": [
   {
-   "malayalam_headline": "തിരുവാലി അഗ്നിരക്ഷാ നിലയത്തിന് കെട്ടിടം പണിയാന്‍ 42.37 സെന്റ് സ്ഥലം അനുവദിച്ചു",
-   "english_headline": "Land sanctioned for Thiruvali Fire Station building in Wandoor",
+   "malayalam_headline": "മലപ്പുറത്ത് ജില്ലാ പോലീസ് സോഷ്യൽ പൊലീസിംഗ് ഏകോപന യോഗം ചേർന്നു",
+   "english_headline": "Inter-departmental coordination meeting held by Malappuram District Police Social Policing Division",
    "category": "Government & Services",
-   "location": "Thiruvali, Wandoor, Malappuram district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Malappuram 360",
+   "location": "Malappuram town, Malappuram district",
+   "importance": "Low",
+   "scope": "district",
+   "post_to": "Malappuram 360 (collab: Manjeri 360)",
    "slides_spec": {
     "v": 3,
-    "cat": "അഗ്നിരക്ഷാ നിലയം",
-    "loc": "തിരുവാലി, വണ്ടൂർ",
-    "hl1": "തിരുവാലി ഫയർ സ്റ്റേഷന്",
-    "hl2": "കെട്ടിടം പണിയാന്‍ സ്ഥലം",
+    "cat": "പോലീസ് വാർത്ത",
+    "loc": "മലപ്പുറം",
+    "hl1": "സോഷ്യൽ പൊലീസിംഗ്: ഏകോപന യോഗം ചേർന്നു",
+    "hl2": "വിവിധ വകുപ്പുകൾ പങ്കെടുത്തു",
     "slides": [
      {
-      "title": "വാർത്ത",
+      "title": "എവിടെ, എന്ത്?",
       "lines": [
-       "വർഷങ്ങളായി വാടക കെട്ടിടത്തിൽ പ്രവർത്തിച്ച സ്ഥാപനം",
-       "<b>തിരുവാലി</b> അഗ്നിരക്ഷാ നിലയത്തിന് നേട്ടം",
-       "സ്വന്തമായി കെട്ടിടം പണിയാൻ സ്ഥലം നൽകി"
+       "മലപ്പുറത്ത് വിവിധ വകുപ്പുകളുടെ <b>ഏകോപന യോഗം</b> ചേർന്നു",
+       "ജില്ലാ പോലീസ് സോഷ്യൽ പൊലീസിംഗ് ഡിവിഷൻ നേതൃത്വത്തിൽ",
+       "ജില്ലാ പോലീസ് ഓഫീസ് അനെക്സ് ഹാളിൽ"
       ]
      },
      {
-      "title": "സ്ഥല വിവരം",
+      "title": "ഉദ്ഘാടനം",
       "lines": [
-       "തിരുവാലി അങ്ങാടിയിൽ നിന്ന് <b>1.5</b> കിലോമീറ്റർ മാറി",
-       "റോഡരികിൽ <b>42.37</b> സെന്റ് സർക്കാർ ഭൂമി",
-       "കളക്ടർ <b>ഡോ. വിനയ് ഗോയൽ</b> ഉത്തരവിട്ടു"
+       "ജില്ലാ പോലീസ് മേധാവി <b>ചൈത്ര തെരേസ ജോൺ</b> ഉദ്ഘാടനം ചെയ്തു",
+       "ഡിവൈഎസ്പി <b>കെ.പി. തോംസൺ</b> അധ്യക്ഷത വഹിച്ചു"
       ]
      },
      {
-      "title": "വേഗത്തിലായ നടപടി",
+      "title": "പങ്കെടുത്തവർ",
       "lines": [
-       "അഗ്നിരക്ഷാ മേധാവിയും റവന്യൂ സംഘവും ചർച്ച നടത്തി",
-       "മന്ത്രിയായ <b>എ. പി. അനിൽകുമാറിന്റെ</b> ഇടപെടൽ ഉണ്ടായി",
-       "ഇതോടെയാണ് നടപടികൾ വേഗത്തിലായത്"
+       "ആരോഗ്യം, വിദ്യാഭ്യാസം, ഫയർഫോഴ്സ് വകുപ്പുകൾ പങ്കെടുത്തു",
+       "സ്റ്റുഡന്റ് പോലീസ് കേഡറ്റ്, ക്രൈംബ്രാഞ്ച് പ്രതിനിധികളും"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "തിരുവാലി ഫയർ സ്റ്റേഷനു പുതിയ സ്ഥലം ലഭിച്ചു. വർഷങ്ങളായി വാടക കെട്ടിടത്തിൽ പ്രവർത്തിച്ചിരുന്ന അഗ്നിരക്ഷാ നിലയം, തിരുവാലി അങ്ങാടിയിൽ നിന്ന് 1.5 കിലോമീറ്റർ അകലെയുള്ള റോഡരികിൽ 42.37 സെന്റ് സർക്കാർ ഭൂമി ലഭിച്ചു. ജില്ലാ കളക്ടർ ഡോ. വിനയ് ഗോയൽ ഉത്തരവിട്ടു, അഗ്നിരക്ഷാ മേധാവിയും റവന്യൂ ഉദ്യോഗസ്ഥരും ചർച്ച ചെയ്തു. മന്ത്രിയായ എ. പി. അനിൽകുമാർ ഇടപെട്ടതോടെ നടപടികൾ വേഗം നേടി. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
-   "caption": "🚒 തിരുവാലി അഗ്നിരക്ഷാ നിലയത്തിന് കെട്ടിടം പണിയാൻ സ്ഥലം അനുവദിച്ചു\n\n📰 പൂർണ്ണ വിവരം:\nവർഷങ്ങളായി വാടക കെട്ടിടത്തിൽ പ്രവർത്തിച്ചിരുന്ന തിരുവാലി അഗ്നിരക്ഷാ നിലയത്തിന് 1.5 കി.മീ അകലെയുള്ള റോഡരികിൽ 42.37 സെന്റ് സർക്കാർ ഭൂമി ലഭിച്ചു. ജില്ലാ കളക്ടർ ഡോ. വിനയ് ഗോയൽ ഉത്തരവിട്ടു. അഗ്നിരക്ഷാ ഡയറക്ടർ, റവന്യൂ ഉദ്യോഗസ്ഥർ, ജില്ലാ ഭരണകൂടം എന്നിവരുടെ ചർച്ചക്ക് ശേഷം, മന്ത്രിയായ എ. പി. അനിൽകുമാറിന്റെ ഇടപെടലോടെ നടപടികൾ വേഗം നേടി.\n\n📍 സ്ഥലം: തിരുവാലി, വണ്ടൂർ, മലപ്പുറം\n📐 വിസ്തൃതി: 42.37 സെന്റ്\n📋 ഉത്തരവ്: ജില്ലാ കളക്ടർ ഡോ. വിനയ് ഗോയൽ\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Wandoor #FireStation #MalappuramNews",
-   "prompts": "Fire‑Rescue Director General and Collector Dr. Vinay Goyal together with other officials hand over a sealed land‑allocation document, marking the sanction of a 42.37 cent government plot for a new fire‑station; the ceremony takes place on a narrow tar road beside the plot, about 1.5 km from Thiruvali Angadi, with coconut palms and laterite walls framing the scene; officials stand side‑by‑side in khaki and white shirts, seen from behind, while a small group of local workers in mundu watches; a simple wooden table holds the document, a metal boundary marker and a map of the plot; late morning light filters through scattered clouds, casting soft shadows on the wet earth; shot from a low angle, 35 mm lens, capturing the gesture without showing faces. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide establishing view shows the stretch of road in Thiruvali where the 42.37 cent government land lies, bordered by a low laterite wall, swaying coconut and areca trees, and a distant rubber plantation typical of Malappuram; the empty plot is clearly marked by a fresh white boundary stone and a temporary “Government Land” sign; in the background, a few officials in khaki uniforms and a minister in a white shirt can be seen walking away from the site, their backs to the camera; a lone KSRTC bus passes on the adjacent lane, adding a sense of everyday traffic; the scene is bathed in overcast monsoon‑season light, with a gentle drizzle creating a glossy road surface; captured from a slightly elevated position with a 35 mm lens to include both the plot and the surrounding Kerala landscape. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close‑up focuses on the freshly placed boundary stone on the sanctioned plot, its surface bearing the engraved figure “42.37 cents” and the official seal of the district collector; beside the stone lies a folded land‑allocation letter, its top edge showing the heading “Fire‑Station Land Sanction” (text not readable); a pair of khaki‑clad hands from the collector’s side rest on the stone, indicating the handover; droplets of recent rain glisten on the stone, reflecting the muted sky; taken at eye level with a 35 mm lens, the frame isolates the stone and documents, emphasizing the concrete evidence of the sanction. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.manoramaonline.com/district-news/malappuram/2026/11/15/tiruvali-fire-station-new-building-land-allotted.html",
-   "published": "2026-11-15T10:07:45+05:30",
-   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash + proofread groq/openai/gpt-oss-120b) - not checked by Claude yet; validator problems: caption has no \"📰 പൂർണ വിവരം:\" block - put the whole story (every fact) in the caption",
-   "note": "free-model draft gemini/gemini-3.6-flash + proofread groq/openai/gpt-oss-120b, 1 attempt(s), 1 validator problem(s)",
+   "reel_script": "മലപ്പുറത്ത് വിവിധ വകുപ്പുകളുടെ സോഷ്യൽ പൊലീസിംഗ് ഏകോപന യോഗം ചേർന്നു. ജില്ലാ പോലീസ് സോഷ്യൽ പൊലീസിംഗ് ഡിവിഷന്റെ ആഭിമുഖ്യത്തിലാണ് യോഗം നടന്നത്. ജില്ലാ പോലീസ് ഓഫീസ് അനെക്സ് കോൺഫറൻസ് ഹാളിൽ നടന്ന ചടങ്ങ് ജില്ലാ പോലീസ് മേധാവി ചൈത്ര തെരേസ ജോൺ ഉദ്ഘാടനം ചെയ്തു. അഡീഷണൽ പോലീസ് സൂപ്രണ്ട് ഇൻ-ചാർജ് ഡിസിആർബി ഡിവൈഎസ്പി കെ പി തോംസൺ യോഗത്തിൽ അധ്യക്ഷത വഹിച്ചു. ആരോഗ്യം, വിദ്യാഭ്യാസം, ഫയർഫോഴ്സ്, സ്റ്റുഡന്റ് പോലീസ് കേഡറ്റ്, ക്രൈംബ്രാഞ്ച് തുടങ്ങിയ വകുപ്പുകളിലെ ഉദ്യോഗസ്ഥർ സംസാരിച്ചു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🤝 മലപ്പുറത്ത് സോഷ്യൽ പൊലീസിംഗ് ഏകോപന യോഗം ചേർന്നു\n\n📰 പൂർണ വിവരം:\nമലപ്പുറം ജില്ലാ പോലീസ് സോഷ്യൽ പൊലീസിംഗ് ഡിവിഷന്റെ ആഭിമുഖ്യത്തിൽ വിവിധ വകുപ്പുകളുടെ ഏകോപന യോഗം ചേർന്നു. ജില്ലാ പോലീസ് ഓഫീസ് അനെക്സ് കോൺഫറൻസ് ഹാളിൽ നടന്ന യോഗം ജില്ലാ പോലീസ് മേധാവി ചൈത്ര തെരേസ ജോൺ ഉദ്ഘാടനം ചെയ്തു. സോഷ്യൽ പൊലീസിംഗ് നോഡൽ ഓഫീസറും അഡീഷണൽ പോലീസ് സൂപ്രണ്ട് ഇൻ-ചാർജുമായ ഡിസിആർബി ഡിവൈഎസ്പി കെ.പി. തോംസൺ അധ്യക്ഷത വഹിച്ചു. അസിസ്റ്റന്റ് ജില്ലാ നോഡൽ ഓഫീസർ സി.വി. അനിൽകുമാർ, ഡെപ്യൂട്ടി ഡിഎംഒ ഡോ. ഫിറോസ് ഖാൻ, റീജണൽ വിദ്യാഭ്യാസ ഡെപ്യൂട്ടി ഡയറക്ടർ ജൂഡ് ലൂയിസ്, ജില്ലാ ഫയർ ഓഫീസർ അനൂപ്, സ്റ്റുഡന്റ് പോലീസ് കേഡറ്റ് അസിസ്റ്റന്റ് ജില്ലാ നോഡൽ ഓഫീസർ ടി.ടി. ഹനീഫ, ജില്ലാ ക്രൈംബ്രാഞ്ച് ഇൻസ്പെക്ടർ വിജയരാജൻ എന്നിവർ സംസാരിച്ചു.\n📍 സ്ഥലം: ജില്ലാ പോലീസ് ഓഫീസ് അനെക്സ്, മലപ്പുറം\n👮 പങ്കെടുത്തവർ: ജില്ലാ പോലീസ് മേധാവി ചൈത്ര തെരേസ ജോൺ, വിവിധ വകുപ്പ് ഉദ്യോഗസ്ഥർ\nആവശ്യമുള്ളവർക്ക് Share ചെയ്യൂ\n\nMalappuram district police social policing departmental coordination meeting held | Malappuram news\n📍 മലപ്പുറം | 14 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #MalappuramPolice #SocialPolicing #MalappuramNews",
+   "prompts": "Bright daylight view of the Malappuram District Police Office building exterior in Kerala, police vehicles parked outside, trees surrounding the entrance. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nInside a bright conference hall in Malappuram, senior police officers in khaki uniform seated at a head table with microphones, framed emblem on the wall background, audience of officials listening. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nMedium shot inside the conference room of a senior police officer speaking into a desk microphone, audience members from various government departments seated in rows listening attentively. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nWide view of the government official meeting room in Malappuram, officials in formal attire and uniforms seated around a long wooden conference table. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.deepika.com/district-news/social-policing-coordination-meeting-215143",
+   "published": "2026-11-14T03:00:00+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 0 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
-   "_score": 5.0,
+   "_score": 3.0,
    "images": [
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794729054/news360/mauuvipgcokwu3cnbbak.jpg",
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794729267/news360/dcjtljzi8syvbdm4azdg.jpg",
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794729191/news360/jtii6ghwpperg0attub6.jpg"
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794729392/news360/pl74rd7jk471c5mz28g8.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794729487/news360/spzjizfzczsmk3sjly7b.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794729443/news360/wbt9h0ckdq7anpelmsvh.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794729583/news360/wpwyujd8h8y8llzbqw6b.jpg"
    ]
   }
  ]
