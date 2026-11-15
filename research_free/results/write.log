@@ -1,14 +1,9 @@
-writing [N]: സൗജന്യ യൂനിഫോം ലഭിക്കാതെ 12.16 ലക്ഷം വിദ്യാർഥികൾ; അലവൻസുമില്
 writing [N]: ചങ്ങരംകുളത്ത് ക്ഷേത്ര കുളത്തിൽ കുളിക്കാനിറങ്ങിയ 17 കാരൻ മുങ്
+writing [N]: സൗജന്യ യൂനിഫോം ലഭിക്കാതെ 12.16 ലക്ഷം വിദ്യാർഥികൾ; അലവൻസുമില്
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -19,8 +14,14 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.6-flash: Expecting ',' delimiter: line 1 column 979 (char 978)
-poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+writing [N]: തിരുവാലി അഗ്നിരക്ഷാനിലയം; കെട്ടിടത്തിന് സ്ഥലം അനുവദിച്ചു
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4EvaaASgsxqnBo1k9tD"}
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 dead for this round: groq/openai/gpt-oss-120b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
@@ -28,29 +29,55 @@ fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/ll
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+writing [N]: അനധികൃത ചെങ്കല്ല്, മണ്ണുകടത്ത്; വണ്ടൂരിൽ മണ്ണുമാന്തി യന്ത്രമ
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4Evdqs8RtQfEh5SU2V4"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4DV9FqfV9CGFg5hKm9W"}
-fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4Ewn8Tw8WBCxMWZAfQL"}
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4DWd1EbULAzdRBCq6P2"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4EwsC55TZuHKRfYieHn"}
 earlier stories still waiting for images: []
 instagram check: 67 recent posts read from both pages
-write round: 2 news waiting in the queue (written in priority order)
-candidate filter: collected=2
-to write: 0 Manjeri + 2 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 2 Malappuram; time left 29 min
+write round: 10 news waiting in the queue (written in priority order)
+candidate filter: collected=10
+to write: 0 Manjeri + 10 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 10 Malappuram; time left 29 min
 try (N) manual=False: സൗജന്യ യൂനിഫോം ലഭിക്കാതെ 12.16 ലക്ഷം വിദ്യാർഥികൾ; അലവൻസുമില്
+try (N) manual=False: തൃശൂരിൻറെ കോട്ട തകർത്ത് മലപ്പുറത്തിൻറെ തേരോട്ടം; അവസാന നിമിഷ
 try (N) manual=False: ചങ്ങരംകുളത്ത് ക്ഷേത്ര കുളത്തിൽ കുളിക്കാനിറങ്ങിയ 17 കാരൻ മുങ്
-NOT filed (N) ചങ്ങരംകുളത്ത് ക്ഷേത്ര കുളത്തിൽ കുളിക്കാനിറങ്ങിയ 17: all free models failed: no usable answer from the models
+skip (N) similar to a filed story: തൃശൂരിൻറെ കോട്ട തകർത്ത് മലപ്പുറത്തിൻറെ തേരോട്ടം; അ
+try (N) manual=False: ദേശീയപാത 66ൽ എക്സിറ്റ്, എൻട്രി പോയിന്റുകൾ തെറ്റിച്ചു; 22 ഡ്ര
+skip (N) similar to a filed story: ദേശീയപാത 66ൽ എക്സിറ്റ്, എൻട്രി പോയിന്റുകൾ തെറ്റിച്
+try (N) manual=False: തിരുവാലി അഗ്നിരക്ഷാനിലയം; കെട്ടിടത്തിന് സ്ഥലം അനുവദിച്ചു
+NOT filed (N) തിരുവാലി അഗ്നിരക്ഷാനിലയം; കെട്ടിടത്തിന് സ്ഥലം അനുവ: all free models failed: no usable answer from the models
+try (N) manual=False: അനധികൃത ചെങ്കല്ല്, മണ്ണുകടത്ത്; വണ്ടൂരിൽ മണ്ണുമാന്തി യന്ത്രമ
+NOT filed (N) അനധികൃത ചെങ്കല്ല്, മണ്ണുകടത്ത്; വണ്ടൂരിൽ മണ്ണുമാന്: all free models failed: no usable answer from the models
+try (N) manual=False: ചുവപ്പ് കാർഡും പരിക്കുകളും തൃശൂരിനെ വലച്ചു, വിജയത്തോടെ മലപ്പ
+skip (N) similar to a filed story: ചുവപ്പ് കാർഡും പരിക്കുകളും തൃശൂരിനെ വലച്ചു, വിജയത്
+try (N) manual=False: ചുവപ്പുകാർഡും പരിക്കുകളും തളർത്തിയിട്ടും പൊരുതിക്കയറി തൃശൂർ;
+skip (N) only a headline, 0 words of text: One moment, please... [https://www.expresskerala.com/news/despite-being-hampered-by]
+try (N) manual=False: സോഷ്യൽ പൊലിസിംഗ്: ഏകോപന യോഗം | Deepika | The Largest Read Ma
+skip (N) could not open: സോഷ്യൽ പൊലിസിംഗ്: ഏകോപന യോഗം | Deepika | The Large [https://www.deepika.com/district-news/social-policing-coordi] 403 Client Error: Forbidden for url: https://www.deepika.com/district-news/socia
+try (N) manual=False: സരസ് മേളയ്ക്ക് ഫണ്ട് തടസ്സമാകില്ല-മന്ത്രി കെ.എം. ഷാജി
+skip (N) similar to a filed story: സരസ് മേളയ്ക്ക് ഫണ്ട് തടസ്സമാകില്ല-മന്ത്രി കെ.എം. ഷ
 NOT filed (N) സൗജന്യ യൂനിഫോം ലഭിക്കാതെ 12.16 ലക്ഷം വിദ്യാർഥികൾ; : all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 2}, done={'R': 0, 'N': 0}, time left 28 min
+NOT filed (N) ചങ്ങരംകുളത്ത് ക്ഷേത്ര കുളത്തിൽ കുളിക്കാനിറങ്ങിയ 17: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 10}, done={'R': 0, 'N': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
-queue: 2 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":2} 
+queue: 5 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":6} 
 stories: 0
