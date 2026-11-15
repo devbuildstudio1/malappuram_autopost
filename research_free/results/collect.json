@@ -10,43 +10,121 @@
   "try (N) manual=False: ചങ്ങരംകുളത്ത് ക്ഷേത്ര കുളത്തിൽ കുളിക്കാനിറങ്ങിയ 17 കാരൻ മുങ്",
   "try (N) manual=False: ‘എന്റെ വീടിന്റെ’ തണലിൽ മുഹമ്മദലിയും കുടുംബവും",
   "NOT filed (N) ചങ്ങരംകുളത്ത് ക്ഷേത്ര കുളത്തിൽ കുളിക്കാനിറങ്ങിയ 17: all free models failed: no usable answer from the models",
-  "NOT filed (N) ‘എന്റെ വീടിന്റെ’ തണലിൽ മുഹമ്മദലിയും കുടുംബവും: all free models failed: no usable answer from the models",
   "NOT filed (N) സൗജന്യ യൂനിഫോം ലഭിക്കാതെ 12.16 ലക്ഷം വിദ്യാർഥികൾ; : all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 3}, done={'R': 0, 'N': 0}, time left 28 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
-  "queue: 3 news waiting to be written",
+  "auto images: 1 of 1 stories ({'pollinations': 7})",
+  "posting job started at once",
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 3}, done={'R': 0, 'N': 1}, time left 24 min",
+  "carousel for 0 of 1 stories, the rest reel only",
+  "filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)",
+  "queue: 2 news waiting to be written",
+  "write_stories.yml started",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":3}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
-  "dead for this round: groq/openai/gpt-oss-120b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
   "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
   "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
-  "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.8-flash",
+  "ok gemini/gemini-3.6-flash (18s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.7-flash",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6"
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.8-flash",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `o",
+  "dead for this round: groq/openai/gpt-oss-120b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_gener",
+  "ok groq/qwen/qwen3.8-27b (4s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "ഇരിമ്പിളിയത്ത് മുഹമ്മദലിക്കും കുടുംബത്തിനും പുതിയ വീടിന്റെ താക്കോൽ കൈമാറി",
+   "english_headline": "New house handed over to Muhammadali and family at Thirunilam in Irimbiliyam under Ente Veedu project",
+   "category": "Government & Services",
+   "location": "Thirunilam, Irimbiliyam, near Valanchery, Malappuram district",
+   "importance": "Medium",
+   "scope": "local",
+   "post_to": "Malappuram 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "എന്റെ വീട്",
+    "loc": "ഇരിമ്പിളിയം, വളാഞ്ചേരി",
+    "hl1": "ഇരിമ്പിളിയത്ത് മുഹമ്മദലിക്കും",
+    "hl2": "കുടുംബത്തിനും പുതിയ വീട്",
+    "slides": [
+     {
+      "title": "പുതിയ വീട് കൈമാറി",
+      "lines": [
+       "<b>ഇരിമ്പിളിയം</b> തിരുനിലത്ത് പുതിയ വീട്",
+       "മുഹമ്മദലിക്കും കുടുംബത്തിനും കൈമാറി",
+       "ജില്ലയിലെ <b>58-മത്തെ</b> വീടാണ് ഇത്"
+      ]
+     },
+     {
+      "title": "ആരാണ് കുടുംബം?",
+      "lines": [
+       "പഴയ വീട് തകർച്ചാ ഭീഷണിയിലായിരുന്നു",
+       "മുഹമ്മദലി, ഭാര്യ സൽമ, <b>5</b> പെൺമക്കൾ",
+       "കുറ്റിപ്പുറം ബ്ലോക്ക് പ്രസിഡന്റ് താക്കോൽ നൽകി"
+      ]
+     },
+     {
+      "title": "പദ്ധതിയെക്കുറിച്ച്",
+      "lines": [
+       "<b>'എന്റെ വീട്'</b> പദ്ധതിയുടെ രണ്ടാംഘട്ടം",
+       "കൊച്ചൗസേപ്പ് ചിറ്റിലപ്പിള്ളി ഫൗണ്ടേഷൻ പദ്ധതി",
+       "സുരക്ഷിതമായ അടച്ചുറപ്പുള്ള ഭവനം"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "ഇരിമ്പിളിയത്ത് കുടുംബത്തിന് പുതിയ വീടിന്റെ താക്കോൽ കൈമാറി. തിരുനിലത്തെ കരുവാട്ടിൽ മുഹമ്മദലിക്കും ഭാര്യ സൽമയ്ക്കും 5 പെൺമക്കൾക്കുമാണ് പുതിയ വീട് ലഭിച്ചത്. കാറ്റടിച്ചാൽ തകരുന്ന പഴയ വീട്ടിലായിരുന്നു ഇവർ കഴിഞ്ഞിരുന്നത്. കൊച്ചൗസേപ്പ് ചിറ്റിലപ്പിള്ളി ഫൗണ്ടേഷൻ നടപ്പാക്കുന്ന 'എന്റെ വീട്' പദ്ധതിയിലെ 58-മത്തെ വീടാണിത്. കുറ്റിപ്പുറം ബ്ലോക്ക് പഞ്ചായത്ത് പ്രസിഡന്റ് എ വി ആസാദ് അജയനാണ് താക്കോൽ നൽകിയത്. ഇതോടെ സുരക്ഷിതമായ പുതിയ വീടിന്റെ സന്തോഷത്തിലാണ് ഈ കുടുംബം. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🏡 വളാഞ്ചേരി ഇരിമ്പിളിയത്ത് മുഹമ്മദലിക്കും കുടുംബത്തിനും പുതിയ വീടിന്റെ താക്കോൽ കൈമാറി\n\n📰 പൂർണ വിവരം:\nശക്തമായ കാറ്റടിച്ചാൽ തകരുന്ന പഴക്കംചെന്ന വീട്ടിൽനിന്ന് സുരക്ഷിതമായ പുതിയ വീട്ടിലേക്ക് മാറിത്താമസിച്ച സന്തോഷത്തിലാണ് ഇരിമ്പിളിയം തിരുനിലത്തെ കരുവാട്ടിൽ മുഹമ്മദലിയും കുടുംബവും. കൊച്ചൗസേപ്പ് ചിറ്റിലപ്പിള്ളി ഫൗണ്ടേഷൻ നടപ്പാക്കുന്ന ‘എന്റെ വീട്’ പദ്ധതിയുടെ രണ്ടാംഘട്ടത്തിൽ ജില്ലയിൽ നിർമിച്ചു നൽകിയ 58-മത്തെ വീടാണ് ഇത്. മുഹമ്മദലി, ഭാര്യ സൽമ, 5 പെൺമക്കൾ എന്നിവരടങ്ങിയതാണ് ഈ കുടുംബം. കുറ്റിപ്പുറം ബ്ലോക്ക് പഞ്ചായത്ത് പ്രസിഡന്റ് എ.വി. ആസാദ് അജയൻ വീടിന്റെ താക്കോൽദാനം നിർവഹിച്ചു.\n\n📍 സ്ഥലം: തിരുനിലം, ഇരിമ്പിളിയം, വളാഞ്ചേരി\n🗓️ തീയതി: 15 നവംബർ 2026\n🔑 ചടങ്ങ്: കുറ്റിപ്പുറം ബ്ലോക്ക് പഞ്ചായത്ത് പ്രസിഡന്റ് എ.വി. ആസാദ് അജയൻ താക്കോൽ കൈമാറി\n\nആവശ്യമുള്ളവർക്ക് Share ചെയ്യൂ\n\nNew house handed over to Muhammadali family in Irimbiliyam | Malappuram news\n📍 തിരുനിലം, ഇരിമ്പിളിയം, മലപ്പുറം | 15 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Valanchery #EnteVeedu #MalappuramNews",
+   "prompts": "Front view of a newly built modern single-storey yellow and white painted house at Thirunilam in Irimbiliyam village, Malappuram district, with a small sit-out, coconut trees and green surroundings, clear morning daylight. Same daylight atmosphere across all scenes. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA small gathering of local representatives and villagers in front of the house sit-out, a person holding a house key set symbolically during the inauguration. Same daylight atmosphere across all scenes. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nExterior view of an old dilapidated tiled-roof house with weathered walls standing nearby amidst green trees. Same daylight atmosphere across all scenes. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nSide angle showing the newly completed house with neat concrete yard and greenery around under clear morning sky. Same daylight atmosphere across all scenes. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.mathrubhumi.com/amp/malappuram/news/localnews-malappuram-ykvhcfdq",
+   "published": "2026-11-15T00:55+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: stray Malayalam sign 'ാ' after '-' in «ലെ 58-ാമത്»; stray Malayalam sign 'ാ' after '-' in «ിയ 58-ാമത്»",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 2 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 2.0,
+   "images": [
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794720673/news360/wuaq9eh9n28hzmjnsmwt.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794720786/news360/grvsryxjratcq8vhrs2t.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794720837/news360/ph9gucoi6jhneolyzoai.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794720875/news360/odakgggrablswgh23doi.jpg"
+   ]
+  }
+ ]
 }
