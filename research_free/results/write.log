@@ -1,10 +1,4 @@
-writing [N]: 'ജനനി'യിലൂടെ പിറന്നത് 100ലേറെ കുഞ്ഞുങ്ങൾ; സ്നേഹ സംഗമം സംഘടിപ
 writing [N]: ബാഗിലും മുറിയിലും നിറയെ പേഴ്സുകൾ; യാത്രയ്ക്കിടെ സ്ത്രീകളുടെ 
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-writing [N]: 'കൊണ്ടോട്ടി നെക്സ്റ്റ് വിഷൻ 2040'കോൺക്ലേവ് നാളെ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
@@ -17,89 +11,74 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-ok gemini/gemini-3.6-flash (14s)
-attempt 1 gemini/gemini-3.6-flash: 1 problems
-  numbers not found in the article: 9
+writing [N]: 'ജനനി'യിലൂടെ പിറന്നത് 100ലേറെ കുഞ്ഞുങ്ങൾ; സ്നേഹ സംഗമം സംഘടിപ
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.6-flash: Expecting ',' delimiter: line 1 column 958 (char 957)
-poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+writing [N]: ദേശീയപാതയിൽ നിയമം തെറ്റിച്ചാൽ ലൈസൻസ് തെറിക്കും; 22 പേർക്കെതി
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4e1d4YzBGEVNr5YXavn"}
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+writing [N]: ദമ്മാമിൽ വേങ്ങരക്കാരുടെ ഐക്യവേദിക്ക് തുടക്കം | Madhyamam
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4e1fEXpLGyFh7tvmUf4"}
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+writing [N]: സഹായധനം കൈമാറി | Madhyamam
+free models unavailable: free models not efficient (11 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4e1fvho9MiMnwr2Caxg"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+writing [N]: ഷോക്കേറ്റ് 14കാരൻ മരിച്ച സംഭവം: വൈദ്യുതി ലൈനിലെ വീഴ്ച അന്വേഷ
+free models unavailable: free models not efficient (12 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4e1ixWbTfB5yyWBravZ"}
+writing [N]: 'എല്ലാത്തിനോടും പ്രതികരിക്കേണ്ടതില്ല, ആ വിളി അപമാനകരം'; സാറ
+free models unavailable: free models not efficient (12 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4e1kubUWkhf4fB5TbmK"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4diQMMZszY3CHw6HTJw"}
-proofread skipped: free models not efficient (7 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.8-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.8-flash
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4djF2oFiEQ9WfyYctqM"}
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4djFZYQPWsoXFhvBT6E"}
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match: False The image shows an empty, out-of-focus auditorium with no people, banners, or identifiable details related to the Kondot
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Kondotty Next Vision 2040 Development Co'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261115-1700","first":"MP-258"}
-posting job started at once
-writing [N]: സഹായധനം കൈമാറി | Madhyamam
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-writing [N]: ദമ്മാമിൽ വേങ്ങരക്കാരുടെ ഐക്യവേദിക്ക് തുടക്കം | Madhyamam
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4dyPhaXUjzzao2cmhdx"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4dyPoXimiWMX2hEA9Pn"}
-writing [N]: 'എല്ലാത്തിനോടും പ്രതികരിക്കേണ്ടതില്ല, ആ വിളി അപമാനകരം'; സാറ
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4dyRH5QSNeaYUQ3jCDJ"}
-writing [N]: ഷോക്കേറ്റ് 14കാരൻ മരിച്ച സംഭവം: വൈദ്യുതി ലൈനിലെ വീഴ്ച അന്വേഷ
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4dySFrrgHuCTBQi9BZv"}
-write_stories.yml started
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4e2pdMMFnsmYz4vQGEX"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch4e2vUq9Zxarz3tC3eg7"}
 earlier stories still waiting for images: []
 instagram check: 67 recent posts read from both pages
-write round: 8 news waiting in the queue (written in priority order)
-candidate filter: collected=8
-to write: 0 Manjeri + 8 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 8 Malappuram; time left 29 min
-try (N) manual=False: 'കൊണ്ടോട്ടി നെക്സ്റ്റ് വിഷൻ 2040'കോൺക്ലേവ് നാളെ
+write round: 7 news waiting in the queue (written in priority order)
+candidate filter: collected=7
+to write: 0 Manjeri + 7 other district candidates (max 200 + 200 stories)
+candidates waiting: 0 Manjeri, 7 Malappuram; time left 29 min
 try (N) manual=False: ദേശീയപാതയിൽ നിയമം തെറ്റിച്ചാൽ ലൈസൻസ് തെറിക്കും; 22 പേർക്കെതി
 try (N) manual=False: 'ജനനി'യിലൂടെ പിറന്നത് 100ലേറെ കുഞ്ഞുങ്ങൾ; സ്നേഹ സംഗമം സംഘടിപ
-skip (N) could not open: ദേശീയപാതയിൽ നിയമം തെറ്റിച്ചാൽ ലൈസൻസ് തെറിക്കും; 22 [https://www.mangalam.com/news/detail/881217-license-will-be-] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/881217
 try (N) manual=False: ബാഗിലും മുറിയിലും നിറയെ പേഴ്സുകൾ; യാത്രയ്ക്കിടെ സ്ത്രീകളുടെ 
-auto images: 1 of 1 stories ({'pollinations': 5})
-posting job started at once
+NOT filed (N) ദേശീയപാതയിൽ നിയമം തെറ്റിച്ചാൽ ലൈസൻസ് തെറിക്കും; 22: all free models failed: no usable answer from the models
 try (N) manual=False: ദമ്മാമിൽ വേങ്ങരക്കാരുടെ ഐക്യവേദിക്ക് തുടക്കം | Madhyamam
+NOT filed (N) ദമ്മാമിൽ വേങ്ങരക്കാരുടെ ഐക്യവേദിക്ക് തുടക്കം | Mad: all free models failed: no usable answer from the models
+try (N) manual=False: സഹായധനം കൈമാറി | Madhyamam
+NOT filed (N) സഹായധനം കൈമാറി | Madhyamam: all free models failed: no usable answer from the models
+try (N) manual=False: ഷോക്കേറ്റ് 14കാരൻ മരിച്ച സംഭവം: വൈദ്യുതി ലൈനിലെ വീഴ്ച അന്വേഷ
+NOT filed (N) ഷോക്കേറ്റ് 14കാരൻ മരിച്ച സംഭവം: വൈദ്യുതി ലൈനിലെ വീ: all free models failed: no usable answer from the models
+try (N) manual=False: 'എല്ലാത്തിനോടും പ്രതികരിക്കേണ്ടതില്ല, ആ വിളി അപമാനകരം'; സാറ
+NOT filed (N) 'എല്ലാത്തിനോടും പ്രതികരിക്കേണ്ടതില്ല, ആ വിളി അപമാ: all free models failed: no usable answer from the models
 NOT filed (N) 'ജനനി'യിലൂടെ പിറന്നത് 100ലേറെ കുഞ്ഞുങ്ങൾ; സ്നേഹ സം: all free models failed: no usable answer from the models
 NOT filed (N) ബാഗിലും മുറിയിലും നിറയെ പേഴ്സുകൾ; യാത്രയ്ക്കിടെ സ്: all free models failed: no usable answer from the models
-try (N) manual=False: സഹായധനം കൈമാറി | Madhyamam
-try (N) manual=False: ഷോക്കേറ്റ് 14കാരൻ മരിച്ച സംഭവം: വൈദ്യുതി ലൈനിലെ വീഴ്ച അന്വേഷ
-NOT filed (N) സഹായധനം കൈമാറി | Madhyamam: all free models failed: no usable answer from the models
-try (N) manual=False: 'എല്ലാത്തിനോടും പ്രതികരിക്കേണ്ടതില്ല, ആ വിളി അപമാനകരം'; സാറ
-NOT filed (N) ദമ്മാമിൽ വേങ്ങരക്കാരുടെ ഐക്യവേദിക്ക് തുടക്കം | Mad: all free models failed: no usable answer from the models
-NOT filed (N) 'എല്ലാത്തിനോടും പ്രതികരിക്കേണ്ടതില്ല, ആ വിളി അപമാ: all free models failed: no usable answer from the models
-NOT filed (N) ഷോക്കേറ്റ് 14കാരൻ മരിച്ച സംഭവം: വൈദ്യുതി ലൈനിലെ വീ: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 8}, done={'R': 0, 'N': 1}, time left 25 min
-carousel for 0 of 1 stories, the rest reel only
-filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)
+candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 7}, done={'R': 0, 'N': 0}, time left 29 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
 queue: 7 news waiting to be written
-write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":8} 
-stories: 1
+All News sheet: {"ok":true,"added":0,"updated":7} 
+stories: 0
