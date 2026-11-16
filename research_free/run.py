@@ -57,7 +57,34 @@ def _obj(d):
 MAX_ATTEMPTS = 10      # owner: a wrong draft is rewritten up to 10 times (with the exact problems listed) before the story is dropped; the round time budget still applies
 
 
+HAND = HERE / "handwritten"      # owner 16 Nov: stories written by hand (in Claude Code) for a link given by hand
+
+
+def _url_key(u):
+    return (u or "").split("?")[0].split("#")[0].rstrip("/")
+
+
+def handwritten(art):
+    """a hand-written story for this article's link, or (None, None). Used instead of the models, e.g. when the free models are
+    out of quota and the Claude key is not working. The story still goes through validate() and the normal filing checks."""
+    for p in sorted(HAND.glob("*.json")):
+        try:
+            j = json.loads(p.read_text(encoding="utf-8"))
+        except Exception as e:
+            print(f"hand-written story {p.name} unreadable: {e}")
+            continue
+        if _url_key(j.get("source_url")) and _url_key(j.get("source_url")) == _url_key(art.get("url")):
+            return j["story"], p
+    return None, None
+
+
 def write(art, today):
+    d, p = handwritten(art)
+    if d:
+        d = _norm(autofix(_obj(d)))
+        errs = validate(d, art["text"] + " " + art["title"])
+        print(f"hand-written story {p.name}: {len(errs)} problems", *errs, sep="\n  ")
+        return d, f"hand-written ({p.name})", errs, 1
     errors, best = None, None
     for attempt in range(1, MAX_ATTEMPTS + 1):
         try:
