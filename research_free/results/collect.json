@@ -7,20 +7,30 @@
   "to write: 0 Manjeri + 1 other district candidates (max 200 + 200 stories)",
   "candidates waiting: 0 Manjeri, 1 Malappuram; time left 29 min",
   "try (N) manual=False: പ്രളയത്തിൽ കല്ലുവഴിയായി റോഡ്",
-  "NOT filed (N) പ്രളയത്തിൽ കല്ലുവഴിയായി റോഡ്: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 1}, done={'R': 0, 'N': 0}, time left 29 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
-  "queue: 1 news waiting to be written",
+  "auto images: 1 of 1 stories ({'pollinations': 7})",
+  "posting job started at once",
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 1}, done={'R': 0, 'N': 1}, time left 21 min",
+  "carousel for 0 of 1 stories, the rest reel only",
+  "filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)",
+  "queue: 0 news waiting to be written",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":1}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.7-flash",
+  "fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.7-flash",
+  "ok gemini/gemini-3.6-flash (21s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok gemini/gemini-3.6-flash (23s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (16s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
@@ -31,7 +41,77 @@
   "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min"
+  "switching away from mistral/mistral-small-latest for 10 min",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "കാളികാവ് - കരുവാരകുണ്ട് മലയോര റോഡ് തകർന്നു; 3 കി.മീ യാത്രയ്ക്ക് ഓട്ടോ വാടക 1,000 രൂപയ്ക്ക് മുകളിൽ",
+   "english_headline": "Pothankad-Ummachankadu hill road destroyed since 2018 floods, residents suffer in Kalikavu",
+   "category": "Civic Issues",
+   "location": "Kalikavu and Karuvarakundu, Malappuram district",
+   "importance": "Medium",
+   "scope": "local",
+   "post_to": "Malappuram 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "റോഡ് ദുരിതം",
+    "loc": "കാളികാവ് - കരുവാരകുണ്ട്",
+    "hl1": "തകർന്നു തരിപ്പണമായി 3 കി.മീ. മലയോര റോഡ്",
+    "hl2": "യാത്രക്കാർക്ക് കടുത്ത ദുരിതം",
+    "slides": [
+     {
+      "title": "എവിടെയാണ് റോഡ്?",
+      "lines": [
+       "കാളികാവ് <b>8-ം</b> വാർഡ് എഴുപതേക്കർ മുതൽ",
+       "കരുവാരകുണ്ട് <b>5-ം</b> വാർഡ് ഉമ്മച്ചൻകാട് വരെ",
+       "<b>3 കിലോമീറ്റർ</b> ദൈർഘ്യമുള്ള മലയോര റോഡ്"
+      ]
+     },
+     {
+      "title": "തകർച്ചയുടെ കാരണം",
+      "lines": [
+       "<b>2018-ലെ</b> പ്രളയത്തിൽ റോഡ് തകർന്നു",
+       "കുഴികളും കല്ലുകളും ചെളിയും നിറഞ്ഞു",
+       "കാൽനടയാത്ര പോലും ദുഷ്കരമായി"
+      ]
+     },
+     {
+      "title": "ജനങ്ങളുടെ ദുരിതം",
+      "lines": [
+       "കർഷകരും ടാപ്പിംഗ് തൊഴിലാളികളും വലയുന്നു",
+       "<b>3 കി.മീ</b> യാത്രയ്ക്ക് വാടക <b>1000 രൂപയ്ക്ക്</b> മുകളിൽ",
+       "അടിയന്തര ചികിത്സ കിട്ടാതെ മരണം വരെ സംഭവിച്ചു"
+      ]
+     },
+     {
+      "title": "നടപടിയില്ല",
+      "lines": [
+       "മലയോര സംരക്ഷണ സമിതി ഒപ്പുശേഖരണം നടത്തി",
+       "വിവിധ വകുപ്പുകൾക്ക് നിവേദനം നൽകി",
+       "റോഡ് പുനർനിർമിക്കണമെന്ന് നാട്ടുകാർ"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "കാളികാവ്-കരുവാരകുണ്ട് പഞ്ചായത്തുകളെ ബന്ധിപ്പിക്കുന്ന മലയോര റോഡ് തകർന്ന് യാത്ര ദുഷ്കരമായി. പോത്തൻകാട് മുതൽ ഉമ്മച്ചൻകാട് വരെയുള്ള 3 കിലോമീറ്റർ റോഡാണ് തകർന്നു കിടക്കുന്നത്. 2018ലെ പ്രളയത്തിൽ തകർന്ന റോഡ് പിന്നീട് നന്നാക്കിയിട്ടില്ല. കല്ലും ചെളിയും കാരണം കാൽനടയാത്ര പോലും ഇവിടെ പ്രയാസമാണ്. 3 കിലോമീറ്റർ പോകാൻ ഓട്ടോ വാടക 1,000 രൂപയിൽ കൂടുതലാണ്. ആശുപത്രിയിൽ സമയത്ത് എത്തിക്കാൻ കഴിയാതെ ആളുകൾ മരിക്കുന്ന സാഹചര്യവുമുണ്ട്. നിവേദനങ്ങൾ നൽകിയിട്ടും റോഡ് നന്നാക്കാൻ നടപടിയുണ്ടായിട്ടില്ലെന്ന് നാട്ടുകാർ പറയുന്നു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🚨 കാളികാവിൽ പ്രളയത്തിൽ തകർന്ന റോഡ് പുനർനിർമിച്ചില്ല; 3 കി.മീ യാത്രയ്ക്ക് വാടക 1000 രൂപയ്ക്ക് മുകളിൽ\n\n📰 പൂർണ വിവരം:\nകാളികാവ് പഞ്ചായത്തിലെ എട്ടാം വാർഡിലെ എഴുപതേക്കറിൽ നിന്ന് കരുവാരകുണ്ട് പഞ്ചായത്തിലെ അഞ്ചാം വാർഡിൽ ഉൾപ്പെടുന്ന പോത്തൻകാട് വഴി ഉമ്മച്ചൻകാട് വരെയുള്ള 3 കിലോമീറ്റർ മലയോര റോഡ് തകർന്നു കിടക്കുകയാണ്. 2018ലെ പ്രളയത്തിലാണ് ഈ റോഡ് പൂർണ്ണമായി തകർന്നത്. നിലവിൽ വലിയ കുഴികളും കല്ലുകളും ചെളിയും നിറഞ്ഞ് കാൽനടയാത്ര പോലും ദുഷ്കരമാണ്. കർഷകരും ടാപ്പിംഗ് തൊഴിലാളികളും ആദിവാസികളും ദിനവും ആശ്രയിക്കുന്ന റോഡാണിത്. വാഹനങ്ങൾ ട്രിപ്പ് വരാൻ മടിക്കുന്നതിനാൽ 3 കിലോമീറ്ററിന് 1000 രൂപയ്ക്ക് മുകളിലാണ് വാടക ഈടാക്കുന്നത്. രോഗികളെ സമയത്ത് ആശുപത്രിയിൽ എത്തിക്കാൻ കഴിയാതെ മരണം സംഭവിച്ച സാഹചര്യവും ഉണ്ടായതായി നാട്ടുകാർ പറയുന്നു. റോഡ് പുനർനിർമിക്കണമെന്ന് ആവശ്യപ്പെട്ട് മലയോര സംരക്ഷണ സമിതി നിവേദനം നൽകിയെങ്കിലും നടപടിയുണ്ടായിട്ടില്ല.\n📍 സ്ഥലം: പോത്തൻകാട് - ഉമ്മച്ചൻകാട് റോഡ്, കാളികാവ് / കരുവാരകുണ്ട്\nℹ️ പരാതി: പ്രളയത്തിൽ തകർന്ന റോഡ് നന്നാക്കണം\nഅധികാരികളുടെ ശ്രദ്ധയിൽപ്പെടാൻ Share ചെയ്യൂ\n\nPothankad Ummachankadu road damaged in Kalikavu | Malappuram news\n📍 കാളികാവ്, മലപ്പുറം | 16 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Kalikavu #CivicIssues #MalappuramNews",
+   "prompts": "A rugged, broken unpaved mud road winding through a lush green hill village in Kalikavu, Malappuram district, Kerala, covered with loose stones, deep potholes and thick mud after rain, surrounded by rubber plantations and coconut trees. Soft natural daylight across all scenes. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nAn autorickshaw struggling to climb a heavily damaged gravel slope on the rural Pothankad road in Kalikavu, tires kicking up mud, lush tropical foliage on both sides of the narrow hill route. Soft natural daylight across all scenes. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up view of a badly eroded section of the rural Kerala hill road showing exposed rocks, washed-out tar remnants from past flooding, and rain-filled mud puddles. Soft natural daylight across all scenes. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nLocal villagers and rubber tapping workers walking carefully along the side of the broken muddy road carrying work tools, trees lining the background. Soft natural daylight across all scenes. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA group of local residents standing together near a damaged section of the road in Kalikavu, holding a paper petition, looking towards the road. Soft natural daylight across all scenes. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.keralakaumudi.com/local/malappuram/local-news--malappuram-1826891",
+   "published": "2026-11-16T03:22:21+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: numbers not found in the article: 000, 8",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 8.0,
+   "images": [
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794804274/news360/lkah7ewd4u6msyyb6kqv.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794804321/news360/jxy7cuzyh2cssrwggws0.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794804418/news360/kn8kagdjyrwvrvrcqpns.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794804513/news360/tnidslljd6wrevsnhbmz.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794804559/news360/smg0ouhixaq0o9xvgwj6.jpg"
+   ]
+  }
+ ]
 }
