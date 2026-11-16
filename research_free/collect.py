@@ -369,6 +369,7 @@ def open_article(n):
             art[k] = allnews.norm(art[k])
     art["title"] = art.get("title") or n["title"]
     art["published"] = art.get("published") or n["published"]
+    art["manual"] = bool(n.get("manual"))      # file_story() skips the district check for a link given by hand
     return art
 
 
