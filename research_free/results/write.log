@@ -1,27 +1,19 @@
 writing [N]: സാവരിയ വധക്കേസ്: സഹപാഠിയായ പ്രതിക്ക് 8 വർഷം തടവുശിക്ഷ
-writing [N]: നിലമ്പൂരിൽ യുവാവിനെ ആക്രമിച്ച് 10 ലക്ഷം രൂപ കവർന്നു; സിസിടിവ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
+    "code": 503,
+    "message": "This model is currently experiencing high d
+writing [N]: പ്രണയസമ്മാനവുമായി കാത്തുനിന്നു; 
+കൺമുന്നിൽ സ്വർണം പൊട്ടിക്ക
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -31,17 +23,16 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high d
-writing [N]: ബാങ്കിൽനിന്ന് പണമെടുത്തിറങ്ങിയ യുവാവിനെ നാലംഗസംഘം ആക്രമിച്ച്
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch6pjQMB64ZZSqLaDwiRC"}
-writing [N]: 9,90,000 രൂപയുമായി ബാങ്കിൽ നിന്നിറങ്ങി; പട്ടാപ്പകൽ യുവാവിനെ 
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch6pjWiuVnYQJzXydDPga"}
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+switching away from gemini/gemini-3.6-flash for 10 min
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
@@ -52,55 +43,65 @@ fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch6pm3wPSpGRRRtfeJJtr"}
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch6qodko5QiAXqwUmX6E9"}
+writing [N]: നിലമ്പൂരിൽ യുവാവിനെ ആക്രമിച്ച് 10 ലക്ഷം രൂപ കവർന്നു; സിസിടിവ
+free models unavailable: free models not efficient (12 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch6qoeZQqnxS3Y4axKy6U"}
+writing [N]: ബാങ്കിൽനിന്ന് പണമെടുത്തിറങ്ങിയ യുവാവിനെ നാലംഗസംഘം ആക്രമിച്ച്
+free models unavailable: free models not efficient (12 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch6qopxjQKcGh6k3DjF9E"}
+writing [N]: 9,90,000 രൂപയുമായി ബാങ്കിൽ നിന്നിറങ്ങി; പട്ടാപ്പകൽ യുവാവിനെ 
+free models unavailable: free models not efficient (12 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch6qoqYDSdFBcSx9ef8JV"}
+writing [N]: തൃശൂരിനെ വീഴ്ത്തി മലപ്പുറം
+free models unavailable: free models not efficient (12 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch6qp8vENzmNSaN16LupT"}
+writing [N]: 13കാരന്റെ മരണം:
+അന്വേഷണത്തിന് ഉത്തരവിട്ട് 
+മന്ത്രി സണ്ണിജോ
+free models unavailable: free models not efficient (12 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch6qpDQMZuhQEZCfqBJTx"}
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch6pnKFAR3c6vmsxBFnfv"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch6qrk77ZdrccYz89EF5G"}
 earlier stories still waiting for images: []
 instagram check: 69 recent posts read from both pages
-write round: 13 news waiting in the queue (written in priority order)
-candidate filter: collected=10, already filed=2, not written=1
+write round: 10 news waiting in the queue (written in priority order)
+candidate filter: collected=10
 to write: 0 Manjeri + 10 other district candidates (max 200 + 200 stories)
 candidates waiting: 0 Manjeri, 10 Malappuram; time left 29 min
 try (N) manual=False: സാവരിയ വധക്കേസ്: സഹപാഠിയായ പ്രതിക്ക് 8 വർഷം തടവുശിക്ഷ
 try (N) manual=False: 40 ബ്രദേഴ്സ് ജില്ല കപ്പ്; മലപ്പുറം ജില്ല പ്രവാസി അസോസിയേഷൻ മ
 try (N) manual=False: പ്രണയസമ്മാനവുമായി കാത്തുനിന്നു; 
 കൺമുന്നിൽ സ്വർണം പൊട്ടിക്ക
-skip (N) could not open: പ്രണയസമ്മാനവുമായി കാത്തുനിന്നു; 
-കൺമുന്നിൽ സ്വർണം [https://www.keralakaumudi.com/kerala/general/gold-smuggling-] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera
+NOT filed (N) പ്രണയസമ്മാനവുമായി കാത്തുനിന്നു; 
+കൺമുന്നിൽ സ്വർണം: all free models failed: no usable answer from the models
 try (N) manual=False: നിലമ്പൂരിൽ യുവാവിനെ ആക്രമിച്ച് 10 ലക്ഷം രൂപ കവർന്നു; സിസിടിവ
-skip (N) could not open: 40 ബ്രദേഴ്സ് ജില്ല കപ്പ്; മലപ്പുറം ജില്ല പ്രവാസി അ [https://www.madhyamam.com/pravasam/gcc/bahrain/malappuram-fc] HTTPSConnectionPool(host='www.madhyamam.com', port=443): Read timed out. (read t
+NOT filed (N) നിലമ്പൂരിൽ യുവാവിനെ ആക്രമിച്ച് 10 ലക്ഷം രൂപ കവർന്ന: all free models failed: no usable answer from the models
 try (N) manual=False: മലപ്പുറത്ത് 14കാരൻ ഷോക്കേറ്റ് മരിച്ചു; ജീവനെടുത്തത് കെഎസ്ഇബി
-skip (N) could not open: മലപ്പുറത്ത് 14കാരൻ ഷോക്കേറ്റ് മരിച്ചു; ജീവനെടുത്തത [https://www.kairalinewsonline.com/ml/news/kerala/malappuram-] 403 Client Error: Forbidden for url: https://www.kairalinewsonline.com/ml/news/k
+skip (N) similar to a filed story: മലപ്പുറത്ത് 14കാരൻ ഷോക്കേറ്റ് മരിച്ചു; ജീവനെടുത്തത
 try (N) manual=False: ബാങ്കിൽനിന്ന് പണമെടുത്തിറങ്ങിയ യുവാവിനെ നാലംഗസംഘം ആക്രമിച്ച്
 NOT filed (N) ബാങ്കിൽനിന്ന് പണമെടുത്തിറങ്ങിയ യുവാവിനെ നാലംഗസംഘം : all free models failed: no usable answer from the models
 try (N) manual=False: 9,90,000 രൂപയുമായി ബാങ്കിൽ നിന്നിറങ്ങി; പട്ടാപ്പകൽ യുവാവിനെ 
 NOT filed (N) 9,90,000 രൂപയുമായി ബാങ്കിൽ നിന്നിറങ്ങി; പട്ടാപ്പകൽ: all free models failed: no usable answer from the models
 try (N) manual=False: അവുക്കാദർകുട്ടി നഹ മെമ്മോറിയൽ ടൂർണമെൻറ് ബ്രോഷർ പ്രകാശനം | Ma
-NOT filed (N) സാവരിയ വധക്കേസ്: സഹപാഠിയായ പ്രതിക്ക് 8 വർഷം തടവുശി: all free models failed: no usable answer from the models
+skip (N) could not open: 40 ബ്രദേഴ്സ് ജില്ല കപ്പ്; മലപ്പുറം ജില്ല പ്രവാസി അ [https://www.madhyamam.com/pravasam/gcc/bahrain/malappuram-fc] HTTPSConnectionPool(host='www.madhyamam.com', port=443): Read timed out. (read t
 try (N) manual=False: തൃശൂരിനെ വീഴ്ത്തി മലപ്പുറം
-skip (N) could not open: തൃശൂരിനെ വീഴ്ത്തി മലപ്പുറം [https://www.keralakaumudi.com/news-360/sports/sports-1826570] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/news-360/spor
+NOT filed (N) തൃശൂരിനെ വീഴ്ത്തി മലപ്പുറം: all free models failed: no usable answer from the models
 try (N) manual=False: 13കാരന്റെ മരണം:
 അന്വേഷണത്തിന് ഉത്തരവിട്ട് 
 മന്ത്രി സണ്ണിജോ
-skip (N) could not open: 13കാരന്റെ മരണം:
+NOT filed (N) 13കാരന്റെ മരണം:
 അന്വേഷണത്തിന് ഉത്തരവിട്ട് 
-മന്ത് [https://www.keralakaumudi.com/kerala/general/sunny-joseph-18] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera
-NOT filed (N) നിലമ്പൂരിൽ യുവാവിനെ ആക്രമിച്ച് 10 ലക്ഷം രൂപ കവർന്ന: all free models failed: no usable answer from the models
+മന്ത്: all free models failed: no usable answer from the models
+NOT filed (N) സാവരിയ വധക്കേസ്: സഹപാഠിയായ പ്രതിക്ക് 8 വർഷം തടവുശി: all free models failed: no usable answer from the models
 skip (N) could not open: അവുക്കാദർകുട്ടി നഹ മെമ്മോറിയൽ ടൂർണമെൻറ് ബ്രോഷർ പ്ര [https://www.madhyamam.com/pravasam/gcc/uae/avukaderkutty-nah] HTTPSConnectionPool(host='www.madhyamam.com', port=443): Read timed out. (read t
 candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 10}, done={'R': 0, 'N': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
-queue: 10 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":11} 
+queue: 9 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":9} 
 stories: 0
