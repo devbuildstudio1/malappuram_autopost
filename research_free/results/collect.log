@@ -1,549 +1,309 @@
-writing [N]: സ്വർണവിലയിൽ ഇടിവ്; പവൻവില ഒരുലക്ഷത്തിലേക്ക് അടുത്തു, 320ന്റെ
-hand-written story 2026-11-16-gold-rate.json: 0 problems
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.8-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-writing [N]: പൊന്നാനി ഓർഗനൈസേഷൻ ഓഫ് സലാല കളറിങ് മത്സരം സംഘടിപ്പിച്ചു | M
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok gemini/gemini-3.6-flash (11s)
-ok gemini/gemini-3.6-flash (12s)
-attempt 1 gemini/gemini-3.6-flash: 1 problems
-  not grounded: location 'ഒമാൻ' is not in the article
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-ok gemini/gemini-3.6-flash (14s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-ok groq/openai/gpt-oss-120b (3s)
-factcheck by groq/openai/gpt-oss-120b: 3 problems
-  Headline uses "പൊൻതൂലിക" without space, article spells the contest name as "പൊൻ തൂലിക 2026"
-  Slides_spec location "സലാല, പൊന്നാനി" is not stated in the article (event location given only as Al Wadi Lulu Hypermarket)
-  Reel_script omits important facts from the article such as the named prize distributors (Nishad, Tahir, Muhammad Kutti, Hashim, Mansoor, Mujib) and the welcome/leadership speeches by Gafur, Janish, Jafar Jafi, Badaruddin, Arun Balan, Shafiq and Aadil
-attempt 2 gemini/gemini-3.6-flash: 3 problems
-  fact-check: Headline uses "പൊൻതൂലിക" without space, article spells the contest name as "പൊൻ തൂലിക 2026"
-  fact-check: Slides_spec location "സലാല, പൊന്നാനി" is not stated in the article (event location given only as Al Wadi Lulu Hypermarket)
-  fact-check: Reel_script omits important facts from the article such as the named prize distributors (Nishad, Tahir, Muhammad Kutti, Hashim, Mansoor, Mujib) and the welcome/leadership speeches by Gafur, Janish, Jafar Jafi, Badaruddin, Arun Balan, Shafiq and Aadil
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch6RYCLdCQXK9JArwX2hi"}
-proofread skipped: free models not efficient (6 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 3 for 'Gold price falls Rs 600 to Rs 1,00,320 p'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261116-1540","first":"MP-284"}
-posting job started at once
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Ponnani Organization of Salalah conducts'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261116-1543","first":"MP-285"}
-writing [N]: കാട്ടാന ഭീതിയിൽ തണ്ടൻകല്ല് ആദിവാസി കുടുംബങ്ങൾ | Deepika | Th
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch6RvYtkj9bR8FQGVemaD"}
-writing [N]: തിരുവാലിയിൽ ഫയർ സ്റ്റേഷന് സ്ഥലമായി | Deepika | The Largest R
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch6RvdL9NsyZtPusZ6FNy"}
-writing [N]: പാലം അപകടത്തിൽ; ഭീതിയിൽ നാട്ടുകാർ | Deepika | The Largest Re
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch6RvduNmDzAnaM5LbXH1"}
-writing [N]: മിനി പമ്പയിൽ അയ്യപ്പഭക്തർക്ക് സൗകര്യങ്ങളൊരുങ്ങി: എംഎൽഎ | Dee
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch6Rvns91SqBaxLPFstoK"}
+write_stories.yml started
 earlier stories still waiting for images: []
-instagram check: 68 recent posts read from both pages
-source district list: 27 items
-source google 'മലപ്പുറം': 45 items
+instagram check: 69 recent posts read from both pages
+source district list: 30 items
+source google 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing 'മലപ്പുറം': 12 items
-source google 'മഞ്ചേരി': 8 items
-source bing 'മഞ്ചേരി': 10 items
-source google 'തിരൂർ': 8 items
+source google 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
+source bing 'മഞ്ചേരി': 12 items
+source google 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing 'തിരൂർ': 12 items
-source google 'പെരിന്തൽമണ്ണ': 2 items
+source google 'പെരിന്തൽമണ്ണ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AA%E0%B5%86%E0%B4%B0%E0%B4%BF
 source bing 'പെരിന്തൽമണ്ണ': 11 items
-source google 'പൊന്നാനി': 6 items
+source google 'പൊന്നാനി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AA%E0%B5%8A%E0%B4%A8%E0%B5%8D
 source bing 'പൊന്നാനി': 11 items
-source google 'നിലമ്പൂർ': 4 items
+source google 'നിലമ്പൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A8%E0%B4%BF%E0%B4%B2%E0%B4%AE
 source bing 'നിലമ്പൂർ': 12 items
-source google 'കോട്ടക്കൽ': 7 items
+source google 'കോട്ടക്കൽ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%95%E0%B5%8B%E0%B4%9F%E0%B5%8D
 source bing 'കോട്ടക്കൽ': 11 items
-source google 'കൊണ്ടോട്ടി': 10 items
+source google 'കൊണ്ടോട്ടി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%95%E0%B5%8A%E0%B4%A3%E0%B5%8D
 source bing 'കൊണ്ടോട്ടി': 12 items
-source google 'തിരൂരങ്ങാടി': 30 items
+source google 'തിരൂരങ്ങാടി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing 'തിരൂരങ്ങാടി': 12 items
-source google 'വളാഞ്ചേരി': 4 items
+source google 'വളാഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%B5%E0%B4%B3%E0%B4%BE%E0%B4%9E
 source bing 'വളാഞ്ചേരി': 12 items
-source google 'താനൂർ': 5 items
+source google 'താനൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BE%E0%B4%A8%E0%B5%82
 source bing 'താനൂർ': 12 items
-source google 'പരപ്പനങ്ങാടി': 1 items
+source google 'പരപ്പനങ്ങാടി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AA%E0%B4%B0%E0%B4%AA%E0%B5%8D
 source bing 'പരപ്പനങ്ങാടി': 11 items
-source google 'വേങ്ങര': 8 items
+source google 'വേങ്ങര' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%B5%E0%B5%87%E0%B4%99%E0%B5%8D
 source bing 'വേങ്ങര': 11 items
-source google 'എടപ്പാൾ': 2 items
+source google 'എടപ്പാൾ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%8E%E0%B4%9F%E0%B4%AA%E0%B5%8D
 source bing 'എടപ്പാൾ': 10 items
-source google 'അരീക്കോട്': 1 items
+source google 'അരീക്കോട്' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%85%E0%B4%B0%E0%B5%80%E0%B4%95
 source bing 'അരീക്കോട്': 12 items
-source google 'വണ്ടൂർ': 4 items
+source google 'വണ്ടൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%B5%E0%B4%A3%E0%B5%8D%E0%B4%9F
 source bing 'വണ്ടൂർ': 10 items
-source google 'കരിപ്പൂർ': 7 items
+source google 'കരിപ്പൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%95%E0%B4%B0%E0%B4%BF%E0%B4%AA
 source bing 'കരിപ്പൂർ': 12 items
-source google 'മലപ്പുറം ജില്ല': 12 items
+source google 'മലപ്പുറം ജില്ല' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing 'മലപ്പുറം ജില്ല': 11 items
-source google 'മലപ്പുറം വൈദ്യുതി മുടങ്ങും': 0 items
+source google 'മലപ്പുറം വൈദ്യുതി മുടങ്ങും' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing 'മലപ്പുറം വൈദ്യുതി മുടങ്ങും': 0 items
-source google 'മഞ്ചേരി വൈദ്യുതി മുടങ്ങും': 0 items
+source google 'മഞ്ചേരി വൈദ്യുതി മുടങ്ങും' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing 'മഞ്ചേരി വൈദ്യുതി മുടങ്ങും': 0 items
-source google 'തിരൂർ വൈദ്യുതി മുടങ്ങും': 0 items
+source google 'തിരൂർ വൈദ്യുതി മുടങ്ങും' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing 'തിരൂർ വൈദ്യുതി മുടങ്ങും': 1 items
-source google 'പെരിന്തൽമണ്ണ വൈദ്യുതി മുടങ്ങും': 0 items
+source google 'പെരിന്തൽമണ്ണ വൈദ്യുതി മുടങ്ങും' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AA%E0%B5%86%E0%B4%B0%E0%B4%BF
 source bing 'പെരിന്തൽമണ്ണ വൈദ്യുതി മുടങ്ങും': 0 items
-source google 'കോട്ടക്കൽ വൈദ്യുതി മുടങ്ങും': 0 items
+source google 'കോട്ടക്കൽ വൈദ്യുതി മുടങ്ങും' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%95%E0%B5%8B%E0%B4%9F%E0%B5%8D
 source bing 'കോട്ടക്കൽ വൈദ്യുതി മുടങ്ങും': 0 items
-source google 'നിലമ്പൂർ വൈദ്യുതി മുടങ്ങും': 0 items
+source google 'നിലമ്പൂർ വൈദ്യുതി മുടങ്ങും' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A8%E0%B4%BF%E0%B4%B2%E0%B4%AE
 source bing 'നിലമ്പൂർ വൈദ്യുതി മുടങ്ങും': 0 items
-source google 'പൊന്നാനി വൈദ്യുതി മുടങ്ങും': 0 items
+source google 'പൊന്നാനി വൈദ്യുതി മുടങ്ങും' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AA%E0%B5%8A%E0%B4%A8%E0%B5%8D
 source bing 'പൊന്നാനി വൈദ്യുതി മുടങ്ങും': 0 items
-source google 'അരീക്കോട് വൈദ്യുതി മുടങ്ങും': 0 items
+source google 'അരീക്കോട് വൈദ്യുതി മുടങ്ങും' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%85%E0%B4%B0%E0%B5%80%E0%B4%95
 source bing 'അരീക്കോട് വൈദ്യുതി മുടങ്ങും': 0 items
-source google 'വേങ്ങര വൈദ്യുതി മുടങ്ങും': 0 items
+source google 'വേങ്ങര വൈദ്യുതി മുടങ്ങും' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%B5%E0%B5%87%E0%B4%99%E0%B5%8D
 source bing 'വേങ്ങര വൈദ്യുതി മുടങ്ങും': 0 items
-source google 'കൊണ്ടോട്ടി വൈദ്യുതി മുടങ്ങും': 0 items
+source google 'കൊണ്ടോട്ടി വൈദ്യുതി മുടങ്ങും' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%95%E0%B5%8A%E0%B4%A3%E0%B5%8D
 source bing 'കൊണ്ടോട്ടി വൈദ്യുതി മുടങ്ങും': 0 items
-source google 'വളാഞ്ചേരി വൈദ്യുതി മുടങ്ങും': 0 items
+source google 'വളാഞ്ചേരി വൈദ്യുതി മുടങ്ങും' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%B5%E0%B4%B3%E0%B4%BE%E0%B4%9E
 source bing 'വളാഞ്ചേരി വൈദ്യുതി മുടങ്ങും': 0 items
-source google 'എടപ്പാൾ വൈദ്യുതി മുടങ്ങും': 0 items
+source google 'എടപ്പാൾ വൈദ്യുതി മുടങ്ങും' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%8E%E0%B4%9F%E0%B4%AA%E0%B5%8D
 source bing 'എടപ്പാൾ വൈദ്യുതി മുടങ്ങും': 0 items
-source google 'സെക്ഷൻ പരിധിയിൽ വൈദ്യുതി മുടങ്ങും മലപ്പുറം': 0 items
+source google 'സെക്ഷൻ പരിധിയിൽ വൈദ്യുതി മുടങ്ങും മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%B8%E0%B5%86%E0%B4%95%E0%B5%8D
 source bing 'സെക്ഷൻ പരിധിയിൽ വൈദ്യുതി മുടങ്ങും മലപ്പുറം': 0 items
-source google 'വൈദ്യുതി നിയന്ത്രണം കെഎസ്ഇബി': 2 items
+source google 'വൈദ്യുതി നിയന്ത്രണം കെഎസ്ഇബി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%B5%E0%B5%88%E0%B4%A6%E0%B5%8D
 source bing 'വൈദ്യുതി നിയന്ത്രണം കെഎസ്ഇബി': 11 items
-source google 'ലോഡ് ഷെഡ്ഡിങ് കേരളം': 0 items
+source google 'ലോഡ് ഷെഡ്ഡിങ് കേരളം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%B2%E0%B5%8B%E0%B4%A1%E0%B5%8D
 source bing 'ലോഡ് ഷെഡ്ഡിങ് കേരളം': 0 items
-source google 'KSEB power restriction': 0 items
+source google 'KSEB power restriction' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=KSEB%20power%20restriction%20when%3A
 source bing 'KSEB power restriction': 3 items
-source google 'മലപ്പുറം കളക്ടർ': 0 items
-source bing 'മലപ്പുറം കളക്ടർ': 9 items
-source google 'മലപ്പുറം ജില്ലാ ഭരണകൂടം': 0 items
+source google 'മലപ്പുറം കളക്ടർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
+source bing 'മലപ്പുറം കളക്ടർ': 8 items
+source google 'മലപ്പുറം ജില്ലാ ഭരണകൂടം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing 'മലപ്പുറം ജില്ലാ ഭരണകൂടം': 4 items
-source google 'മലപ്പുറം തൊഴിൽ മേള': 0 items
+source google 'മലപ്പുറം തൊഴിൽ മേള' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing 'മലപ്പുറം തൊഴിൽ മേള': 1 items
-source google 'മലപ്പുറം നിയമനം': 2 items
-source bing 'മലപ്പുറം നിയമനം': 11 items
-source google 'മലപ്പുറം അവധി': 3 items
+source google 'മലപ്പുറം നിയമനം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
+source bing 'മലപ്പുറം നിയമനം': 12 items
+source google 'മലപ്പുറം അവധി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing 'മലപ്പുറം അവധി': 10 items
-source google 'Malappuram': 55 items
+source google 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20when%3A2d&hl=ml&gl=IN&c
 source bing 'Malappuram': 12 items
-source google 'Manjeri': 3 items
-source bing 'Manjeri': 12 items
-source google 'Tirur': 5 items
+source google 'Manjeri' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Manjeri%20when%3A2d&hl=ml&gl=IN&ceid
+source bing 'Manjeri': 11 items
+source google 'Tirur' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Tirur%20when%3A2d&hl=ml&gl=IN&ceid=I
 source bing 'Tirur': 11 items
-source google 'Perinthalmanna': 1 items
+source google 'Perinthalmanna' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Perinthalmanna%20when%3A2d&hl=ml&gl=
 source bing 'Perinthalmanna': 11 items
-source google 'Nilambur': 4 items
-source bing 'Nilambur': 10 items
-source google 'Ponnani': 8 items
+source google 'Nilambur' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Nilambur%20when%3A2d&hl=ml&gl=IN&cei
+source bing 'Nilambur': 12 items
+source google 'Ponnani' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Ponnani%20when%3A2d&hl=ml&gl=IN&ceid
 source bing 'Ponnani': 12 items
-source google 'Kondotty': 8 items
+source google 'Kondotty' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Kondotty%20when%3A2d&hl=ml&gl=IN&cei
 source bing 'Kondotty': 12 items
-source google 'Malappuram collector': 0 items
+source google 'Malappuram collector' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20collector%20when%3A2d&h
 source bing 'Malappuram collector': 11 items
-source google 'Malappuram power outage': 2 items
+source google 'Malappuram power outage' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20power%20outage%20when%3
 source bing 'Malappuram power outage': 3 items
-source google മാതൃഭൂമി 'മലപ്പുറം': 100 items
+source google മാതൃഭൂമി 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing മാതൃഭൂമി 'മലപ്പുറം': 12 items
-source google മാതൃഭൂമി 'മഞ്ചേരി': 8 items
+source google മാതൃഭൂമി 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing മാതൃഭൂമി 'മഞ്ചേരി': 12 items
-source google മാതൃഭൂമി 'തിരൂർ': 25 items
+source google മാതൃഭൂമി 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing മാതൃഭൂമി 'തിരൂർ': 12 items
-source google മാതൃഭൂമി 'Malappuram': 100 items
+source google മാതൃഭൂമി 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Amathrubhumi.com%
 source bing മാതൃഭൂമി 'Malappuram': 12 items
-source google മനോരമ 'മലപ്പുറം': 100 items
+source google മനോരമ 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing മനോരമ 'മലപ്പുറം': 12 items
-source google മനോരമ 'മഞ്ചേരി': 4 items
+source google മനോരമ 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing മനോരമ 'മഞ്ചേരി': 10 items
-source google മനോരമ 'തിരൂർ': 4 items
+source google മനോരമ 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing മനോരമ 'തിരൂർ': 4 items
-source google മനോരമ 'Malappuram': 100 items
+source google മനോരമ 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Amanoramaonline.c
 source bing മനോരമ 'Malappuram': 12 items
-source google മാധ്യമം 'മലപ്പുറം': 100 items
+source google മാധ്യമം 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing മാധ്യമം 'മലപ്പുറം': 8 items
-source google മാധ്യമം 'മഞ്ചേരി': 4 items
+source google മാധ്യമം 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing മാധ്യമം 'മഞ്ചേരി': 8 items
-source google മാധ്യമം 'തിരൂർ': 5 items
+source google മാധ്യമം 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing മാധ്യമം 'തിരൂർ': 8 items
-source google മാധ്യമം 'Malappuram': 100 items
-source bing മാധ്യമം 'Malappuram': 8 items
-source google ദേശാഭിമാനി 'മലപ്പുറം': 46 items
+source google മാധ്യമം 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Amadhyamam.com%20
+source bing മാധ്യമം 'Malappuram': 7 items
+source google ദേശാഭിമാനി 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing ദേശാഭിമാനി 'മലപ്പുറം': 12 items
-source google ദേശാഭിമാനി 'മഞ്ചേരി': 3 items
+source google ദേശാഭിമാനി 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing ദേശാഭിമാനി 'മഞ്ചേരി': 12 items
-source google ദേശാഭിമാനി 'തിരൂർ': 3 items
-source bing ദേശാഭിമാനി 'തിരൂർ': 12 items
-source google ദേശാഭിമാനി 'Malappuram': 46 items
+source google ദേശാഭിമാനി 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
+source bing ദേശാഭിമാനി 'തിരൂർ': 11 items
+source google ദേശാഭിമാനി 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Adeshabhimani.com
 source bing ദേശാഭിമാനി 'Malappuram': 12 items
-source google കേരള കൗമുദി 'മലപ്പുറം': 100 items
+source google കേരള കൗമുദി 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing കേരള കൗമുദി 'മലപ്പുറം': 12 items
-source google കേരള കൗമുദി 'മഞ്ചേരി': 3 items
+source google കേരള കൗമുദി 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing കേരള കൗമുദി 'മഞ്ചേരി': 7 items
-source google കേരള കൗമുദി 'തിരൂർ': 5 items
+source google കേരള കൗമുദി 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing കേരള കൗമുദി 'തിരൂർ': 12 items
-source google കേരള കൗമുദി 'Malappuram': 100 items
-source bing കേരള കൗമുദി 'Malappuram': 12 items
-source google സുപ്രഭാതം 'മലപ്പുറം': 47 items
+source google കേരള കൗമുദി 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Akeralakaumudi.co
+source bing കേരള കൗമുദി 'Malappuram': 11 items
+source google സുപ്രഭാതം 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing സുപ്രഭാതം 'മലപ്പുറം': 12 items
-source google സുപ്രഭാതം 'മഞ്ചേരി': 1 items
+source google സുപ്രഭാതം 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing സുപ്രഭാതം 'മഞ്ചേരി': 0 items
-source google സുപ്രഭാതം 'തിരൂർ': 1 items
+source google സുപ്രഭാതം 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing സുപ്രഭാതം 'തിരൂർ': 2 items
-source google സുപ്രഭാതം 'Malappuram': 47 items
+source google സുപ്രഭാതം 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Asuprabhaatham.co
 source bing സുപ്രഭാതം 'Malappuram': 6 items
-source google ചന്ദ്രിക 'മലപ്പുറം': 4 items
+source google ചന്ദ്രിക 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing ചന്ദ്രിക 'മലപ്പുറം': 0 items
-source google ചന്ദ്രിക 'മഞ്ചേരി': 0 items
+source google ചന്ദ്രിക 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing ചന്ദ്രിക 'മഞ്ചേരി': 0 items
-source google ചന്ദ്രിക 'തിരൂർ': 0 items
+source google ചന്ദ്രിക 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing ചന്ദ്രിക 'തിരൂർ': 0 items
-source google ചന്ദ്രിക 'Malappuram': 4 items
+source google ചന്ദ്രിക 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Achandrikadaily.c
 source bing ചന്ദ്രിക 'Malappuram': 0 items
-source google സിറാജ് 'മലപ്പുറം': 100 items
+source google സിറാജ് 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing സിറാജ് 'മലപ്പുറം': 0 items
-source google സിറാജ് 'മഞ്ചേരി': 1 items
+source google സിറാജ് 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing സിറാജ് 'മഞ്ചേരി': 0 items
-source google സിറാജ് 'തിരൂർ': 0 items
+source google സിറാജ് 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing സിറാജ് 'തിരൂർ': 0 items
-source google സിറാജ് 'Malappuram': 100 items
+source google സിറാജ് 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Asirajlive.com%20
 source bing സിറാജ് 'Malappuram': 0 items
-source google ഏഷ്യാനെറ്റ് ന്യൂസ് 'മലപ്പുറം': 21 items
+source google ഏഷ്യാനെറ്റ് ന്യൂസ് 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing ഏഷ്യാനെറ്റ് ന്യൂസ് 'മലപ്പുറം': 12 items
-source google ഏഷ്യാനെറ്റ് ന്യൂസ് 'മഞ്ചേരി': 0 items
+source google ഏഷ്യാനെറ്റ് ന്യൂസ് 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing ഏഷ്യാനെറ്റ് ന്യൂസ് 'മഞ്ചേരി': 2 items
-source google ഏഷ്യാനെറ്റ് ന്യൂസ് 'തിരൂർ': 3 items
+source google ഏഷ്യാനെറ്റ് ന്യൂസ് 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing ഏഷ്യാനെറ്റ് ന്യൂസ് 'തിരൂർ': 3 items
-source google ഏഷ്യാനെറ്റ് ന്യൂസ് 'Malappuram': 21 items
+source google ഏഷ്യാനെറ്റ് ന്യൂസ് 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Aasianetnews.com%
 source bing ഏഷ്യാനെറ്റ് ന്യൂസ് 'Malappuram': 11 items
-source google മീഡിയവൺ 'മലപ്പുറം': 26 items
+source google മീഡിയവൺ 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing മീഡിയവൺ 'മലപ്പുറം': 12 items
-source google മീഡിയവൺ 'മഞ്ചേരി': 4 items
+source google മീഡിയവൺ 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing മീഡിയവൺ 'മഞ്ചേരി': 2 items
-source google മീഡിയവൺ 'തിരൂർ': 2 items
+source google മീഡിയവൺ 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing മീഡിയവൺ 'തിരൂർ': 1 items
-source google മീഡിയവൺ 'Malappuram': 26 items
+source google മീഡിയവൺ 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Amediaoneonline.c
 source bing മീഡിയവൺ 'Malappuram': 6 items
-source google ട്വന്റിഫോർ 'മലപ്പുറം': 1 items
+source google ട്വന്റിഫോർ 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing ട്വന്റിഫോർ 'മലപ്പുറം': 0 items
-source google ട്വന്റിഫോർ 'മഞ്ചേരി': 0 items
+source google ട്വന്റിഫോർ 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing ട്വന്റിഫോർ 'മഞ്ചേരി': 0 items
-source google ട്വന്റിഫോർ 'തിരൂർ': 0 items
+source google ട്വന്റിഫോർ 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing ട്വന്റിഫോർ 'തിരൂർ': 0 items
-source google ട്വന്റിഫോർ 'Malappuram': 3 items
+source google ട്വന്റിഫോർ 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Atwentyfournews.c
 source bing ട്വന്റിഫോർ 'Malappuram': 0 items
-source google റിപ്പോർട്ടർ 'മലപ്പുറം': 100 items
-source bing റിപ്പോർട്ടർ 'മലപ്പുറം': 11 items
-source google റിപ്പോർട്ടർ 'മഞ്ചേരി': 1 items
+source google റിപ്പോർട്ടർ 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
+source bing റിപ്പോർട്ടർ 'മലപ്പുറം': 10 items
+source google റിപ്പോർട്ടർ 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing റിപ്പോർട്ടർ 'മഞ്ചേരി': 0 items
-source google റിപ്പോർട്ടർ 'തിരൂർ': 0 items
+source google റിപ്പോർട്ടർ 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing റിപ്പോർട്ടർ 'തിരൂർ': 0 items
-source google റിപ്പോർട്ടർ 'Malappuram': 100 items
+source google റിപ്പോർട്ടർ 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Areporterlive.com
 source bing റിപ്പോർട്ടർ 'Malappuram': 12 items
-source google ജനയുഗം 'മലപ്പുറം': 52 items
+source google ജനയുഗം 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing ജനയുഗം 'മലപ്പുറം': 11 items
-source google ജനയുഗം 'മഞ്ചേരി': 0 items
+source google ജനയുഗം 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing ജനയുഗം 'മഞ്ചേരി': 2 items
-source google ജനയുഗം 'തിരൂർ': 0 items
+source google ജനയുഗം 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing ജനയുഗം 'തിരൂർ': 1 items
-source google ജനയുഗം 'Malappuram': 49 items
+source google ജനയുഗം 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Ajanayugomonline.
 source bing ജനയുഗം 'Malappuram': 8 items
-source google സമകാലിക മലയാളം 'മലപ്പുറം': 6 items
+source google സമകാലിക മലയാളം 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing സമകാലിക മലയാളം 'മലപ്പുറം': 12 items
-source google സമകാലിക മലയാളം 'മഞ്ചേരി': 0 items
-source bing സമകാലിക മലയാളം 'മഞ്ചേരി': 2 items
-source google സമകാലിക മലയാളം 'തിരൂർ': 1 items
+source google സമകാലിക മലയാളം 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
+source bing സമകാലിക മലയാളം 'മഞ്ചേരി': 1 items
+source google സമകാലിക മലയാളം 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing സമകാലിക മലയാളം 'തിരൂർ': 2 items
-source google സമകാലിക മലയാളം 'Malappuram': 6 items
-source bing സമകാലിക മലയാളം 'Malappuram': 6 items
-source google ന്യൂസ്18 മലയാളം 'മലപ്പുറം': 100 items
+source google സമകാലിക മലയാളം 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Asamakalikamalaya
+source bing സമകാലിക മലയാളം 'Malappuram': 5 items
+source google ന്യൂസ്18 മലയാളം 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing ന്യൂസ്18 മലയാളം 'മലപ്പുറം': 11 items
-source google ന്യൂസ്18 മലയാളം 'മഞ്ചേരി': 1 items
+source google ന്യൂസ്18 മലയാളം 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing ന്യൂസ്18 മലയാളം 'മഞ്ചേരി': 3 items
-source google ന്യൂസ്18 മലയാളം 'തിരൂർ': 1 items
+source google ന്യൂസ്18 മലയാളം 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing ന്യൂസ്18 മലയാളം 'തിരൂർ': 5 items
-source google ന്യൂസ്18 മലയാളം 'Malappuram': 100 items
-source bing ന്യൂസ്18 മലയാളം 'Malappuram': 7 items
-source google സമയം മലയാളം 'മലപ്പുറം': 1 items
+source google ന്യൂസ്18 മലയാളം 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Amalayalam.news18
+source bing ന്യൂസ്18 മലയാളം 'Malappuram': 6 items
+source google സമയം മലയാളം 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing സമയം മലയാളം 'മലപ്പുറം': 7 items
-source google സമയം മലയാളം 'മഞ്ചേരി': 0 items
-source bing സമയം മലയാളം 'മഞ്ചേരി': 0 items
-source google സമയം മലയാളം 'തിരൂർ': 0 items
-source bing സമയം മലയാളം 'തിരൂർ': 1 items
-source google സമയം മലയാളം 'Malappuram': 1 items
+source google സമയം മലയാളം 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
+source bing സമയം മലയാളം 'മഞ്ചേരി': 1 items
+source google സമയം മലയാളം 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
+source bing സമയം മലയാളം 'തിരൂർ': 2 items
+source google സമയം മലയാളം 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Amalayalam.samaya
 source bing സമയം മലയാളം 'Malappuram': 0 items
-source google വൺഇന്ത്യ മലയാളം 'മലപ്പുറം': 3 items
-source bing വൺഇന്ത്യ മലയാളം 'മലപ്പുറം': 10 items
-source google വൺഇന്ത്യ മലയാളം 'മഞ്ചേരി': 0 items
-source bing വൺഇന്ത്യ മലയാളം 'മഞ്ചേരി': 10 items
-source google വൺഇന്ത്യ മലയാളം 'തിരൂർ': 0 items
-source bing വൺഇന്ത്യ മലയാളം 'തിരൂർ': 10 items
-source google വൺഇന്ത്യ മലയാളം 'Malappuram': 3 items
+source google വൺഇന്ത്യ മലയാളം 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
+source bing വൺഇന്ത്യ മലയാളം 'മലപ്പുറം': 11 items
+source google വൺഇന്ത്യ മലയാളം 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
+source bing വൺഇന്ത്യ മലയാളം 'മഞ്ചേരി': 11 items
+source google വൺഇന്ത്യ മലയാളം 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
+source bing വൺഇന്ത്യ മലയാളം 'തിരൂർ': 11 items
+source google വൺഇന്ത്യ മലയാളം 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Amalayalam.oneind
 source bing വൺഇന്ത്യ മലയാളം 'Malappuram': 3 items
-source google മംഗളം 'മലപ്പുറം': 100 items
+source google മംഗളം 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing മംഗളം 'മലപ്പുറം': 0 items
-source google മംഗളം 'മഞ്ചേരി': 0 items
+source google മംഗളം 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing മംഗളം 'മഞ്ചേരി': 0 items
-source google മംഗളം 'തിരൂർ': 0 items
+source google മംഗളം 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing മംഗളം 'തിരൂർ': 0 items
-source google മംഗളം 'Malappuram': 100 items
+source google മംഗളം 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Amangalam.com%20w
 source bing മംഗളം 'Malappuram': 0 items
-source google ദീപിക 'മലപ്പുറം': 7 items
-source bing ദീപിക 'മലപ്പുറം': 6 items
-source google ദീപിക 'മഞ്ചേരി': 0 items
+source google ദീപിക 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
+source bing ദീപിക 'മലപ്പുറം': 4 items
+source google ദീപിക 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing ദീപിക 'മഞ്ചേരി': 0 items
-source google ദീപിക 'തിരൂർ': 1 items
+source google ദീപിക 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing ദീപിക 'തിരൂർ': 1 items
-source google ദീപിക 'Malappuram': 7 items
+source google ദീപിക 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Adeepika.com%20wh
 source bing ദീപിക 'Malappuram': 1 items
-source google കൈരളി 'മലപ്പുറം': 10 items
-source bing കൈരളി 'മലപ്പുറം': 8 items
-source google കൈരളി 'മഞ്ചേരി': 0 items
+source google കൈരളി 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
+source bing കൈരളി 'മലപ്പുറം': 7 items
+source google കൈരളി 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing കൈരളി 'മഞ്ചേരി': 0 items
-source google കൈരളി 'തിരൂർ': 0 items
+source google കൈരളി 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing കൈരളി 'തിരൂർ': 2 items
-source google കൈരളി 'Malappuram': 10 items
+source google കൈരളി 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Akairalinewsonlin
 source bing കൈരളി 'Malappuram': 5 items
-source google The Hindu 'മലപ്പുറം': 0 items
+source google The Hindu 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing The Hindu 'മലപ്പുറം': 0 items
-source google The Hindu 'മഞ്ചേരി': 0 items
+source google The Hindu 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing The Hindu 'മഞ്ചേരി': 0 items
-source google The Hindu 'തിരൂർ': 0 items
+source google The Hindu 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing The Hindu 'തിരൂർ': 0 items
-source google The Hindu 'Malappuram': 0 items
+source google The Hindu 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Athehindu.com%20w
 source bing The Hindu 'Malappuram': 12 items
-source google New Indian Express 'മലപ്പുറം': 0 items
+source google New Indian Express 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing New Indian Express 'മലപ്പുറം': 0 items
-source google New Indian Express 'മഞ്ചേരി': 0 items
+source google New Indian Express 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing New Indian Express 'മഞ്ചേരി': 0 items
-source google New Indian Express 'തിരൂർ': 0 items
+source google New Indian Express 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing New Indian Express 'തിരൂർ': 0 items
-source google New Indian Express 'Malappuram': 0 items
+source google New Indian Express 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Anewindianexpress
 source bing New Indian Express 'Malappuram': 10 items
-source google Times of India 'മലപ്പുറം': 0 items
+source google Times of India 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing Times of India 'മലപ്പുറം': 0 items
-source google Times of India 'മഞ്ചേരി': 0 items
+source google Times of India 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing Times of India 'മഞ്ചേരി': 0 items
-source google Times of India 'തിരൂർ': 0 items
+source google Times of India 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing Times of India 'തിരൂർ': 0 items
-source google Times of India 'Malappuram': 0 items
+source google Times of India 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Atimesofindia.ind
 source bing Times of India 'Malappuram': 12 items
-source google Onmanorama 'മലപ്പുറം': 0 items
+source google Onmanorama 'മലപ്പുറം' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D
 source bing Onmanorama 'മലപ്പുറം': 0 items
-source google Onmanorama 'മഞ്ചേരി': 0 items
+source google Onmanorama 'മഞ്ചേരി' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A
 source bing Onmanorama 'മഞ്ചേരി': 0 items
-source google Onmanorama 'തിരൂർ': 0 items
+source google Onmanorama 'തിരൂർ' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82
 source bing Onmanorama 'തിരൂർ': 0 items
-source google Onmanorama 'Malappuram': 0 items
+source google Onmanorama 'Malappuram' FAILED: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Malappuram%20site%3Aonmanorama.com%2
 source bing Onmanorama 'Malappuram': 11 items
 source മാധ്യമം മലപ്പുറം: 12 items
-source ട്വന്റിഫോർ മലപ്പുറം FAILED: 403 Client Error: Forbidden for url: https://www.twentyfournews.com/tag/malappuram
+source ട്വന്റിഫോർ മലപ്പുറം: 15 items
 source സമകാലിക മലയാളം മലപ്പുറം: 5 items
 source ജനയുഗം മലപ്പുറം: 16 items
-all sources: 3273 items -> 1509 different news (24 Manjeri)
-manual link added: https://www.manoramaonline.com/business/commodity/2026/11/16/kerala-gold-price-aks.html
-candidate filter: checked earlier=518, not Malappuram district news (state-wide=337, old=234, already filed=90, collected=80, checked earlier=51, checked earlier=49, checked earlier=28, checked earlier=28, not written=13, not written=9, not written=8, not written=7, checked earlier=7, not written=6, not written=6, not written=5, not written=3, not written=3, not written=3, not written=3, not written=3, not written=3, not written=3, not written=2, not written=2, not written=2, not written=1, not written=1, not written=1, not written=1, not written=1, not written=1, not written=1
-to write: 0 Manjeri + 80 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 80 Malappuram; time left 47 min
-try (N) manual=True: https://www.manoramaonline.com/business/commodity/2026/11/16
-try (N) manual=False: പമ്പയിലെ ഇരുന്നൂറോളം ശുചിമുറികളിലേക്കുള്ള ജലവിതരണം തടസ്സപ്പെ
-try (N) manual=False: 'ആഭ്യന്തര രാഷ്ട്രീയത്തിൽ ഇടപെടാനാവില്ല'; ഇറ്റാലിയൻ നേതാവ് ജാ
-skip (N) could not open: പമ്പയിലെ ഇരുന്നൂറോളം ശുചിമുറികളിലേക്കുള്ള ജലവിതരണം [https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZDhBenA] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/kerala/wa
-try (N) manual=False: ട്രെയിനിൽ നിന്ന് മൊബൈൽ ഫോൺ മോഷ്ടിച്ച ജാർഖണ്ഡ് സ്വദേശി പിടിയി
-skip (N) could not open: ട്രെയിനിൽ നിന്ന് മൊബൈൽ ഫോൺ മോഷ്ടിച്ച ജാർഖണ്ഡ് സ്വദ [https://www.keralakaumudi.com/local/thiruvananthapuram/local] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/thiruva
-try (N) manual=False: എംജിയിലെ മാധ്യമ വിലക്കും സംഘ്പരിവാര്‍ മയില്‍പ്പീലിയും
-skip (N) could not open: 'ആഭ്യന്തര രാഷ്ട്രീയത്തിൽ ഇടപെടാനാവില്ല'; ഇറ്റാലിയൻ [https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNkZYdlh] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/india/gov
-try (N) manual=False: സി.ബി.എസ്.ഇ. സഹോദയ കലോത്സവം: മലബാറിന് സഹോദയ കിരീടം സിൽവർ ഹിൽ
-skip (N) could not open: സി.ബി.എസ്.ഇ. സഹോദയ കലോത്സവം: മലബാറിന് സഹോദയ കിരീടം [https://www.keralakaumudi.com/kerala/general/cbse-1826703] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera
-try (N) manual=False: വടക്കാഞ്ചേരിയിൽ 79 കാരന്റെ മാതൃകാ റേഷൻ കട, ഉപഭോക്താക്കൾക്ക് 
-skip (N) no Malappuram place in article: എംജിയിലെ മാധ്യമ വിലക്കും സംഘ്പരിവാർ മയിൽപ്പീലിയും
-try (N) manual=False: ഗതാഗതകുരുക്ക്...
-skip (N) could not open: വടക്കാഞ്ചേരിയിൽ 79 കാരന്റെ മാതൃകാ റേഷൻ കട, ഉപഭോക്ത [https://news.google.com/rss/articles/CBMifEFVX3lxTFA1STc2WjJ] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/thrissu
-try (N) manual=False: മധുര സ്വർണക്കവർച്ചയിലെ മുഖ്യപ്രതി നിശാന്ത് പിടിയിൽ; തിരിച്ചറ
-skip (N) could not open: ഗതാഗതകുരുക്ക്... [https://news.google.com/rss/articles/CBMid0FVX3lxTE1Uc2EzaHI] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/photogallery/
-try (N) manual=False: 21 കാരിയുടെ ഒരു മാസത്തെ ചെലവുകൾ കേട്ട് ഞെട്ടി സോഷ്യൽമീഡിയ; ക
-skip (N) no Malappuram place in article: മധുര സ്വർണക്കവർച്ചയിലെ മുഖ്യപ്രതി നിശാന്ത് പിടിയിൽ
-try (N) manual=False: മുന്നറിയിപ്പുകൾ ലംഘിച്ചു; ബ്രേക്ക് തകരാറിലായ വന്ദേ ഭാരത് ഓടി
-skip (N) could not open: 21 കാരിയുടെ ഒരു മാസത്തെ ചെലവുകൾ കേട്ട് ഞെട്ടി സോഷ് [https://news.google.com/rss/articles/CBMi2gFBVV95cUxOd3FQR2d] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/buzz/21-y
-try (N) manual=False: ആർപ്പൂക്കര സുബ്രഹ്മണ്യ സ്വാമി ക്ഷേത്രം....
-skip (N) could not open: മുന്നറിയിപ്പുകൾ ലംഘിച്ചു; ബ്രേക്ക് തകരാറിലായ വന്ദേ [https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUVpyQjB] 403 Client Error: Forbidden for url: https://www.kairalinewsonline.com/ml/news/n
-try (N) manual=False: താനൂർ-തിരൂർ പാതയിൽ വീണ്ടും അപകടം
-skip (N) could not open: ആർപ്പൂക്കര സുബ്രഹ്മണ്യ സ്വാമി ക്ഷേത്രം.... [https://news.google.com/rss/articles/CBMijAFBVV95cUxNLXd1UWh] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/photogallery/
-try (N) manual=False: മിനി കൂപ്പർ അപകടം; സുഹൈൽ സജീവ് 36 ദിവസങ്ങൾക്കുശേഷം ജയിലിന് പ
-skip (N) could not open: താനൂർ-തിരൂർ പാതയിൽ വീണ്ടും അപകടം [https://news.google.com/rss/articles/CBMie0FVX3lxTE40dmVqYjM] 403 Client Error: Forbidden for url: https://malabarinews.com/news/another-accid
-try (N) manual=False: പൊന്നാനി ഓർഗനൈസേഷൻ സലാലയിൽ കളറിംഗ്‌ മത്സരം സംഘടിപ്പിച്ചു
-skip (N) could not open: മിനി കൂപ്പർ അപകടം; സുഹൈൽ സജീവ് 36 ദിവസങ്ങൾക്കുശേഷം [https://news.google.com/rss/articles/CBMirAFBVV95cUxPNHVLRkM] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera
-try (N) manual=False: സ്റ്റേവയറിൽ നിന്ന് ഷോക്കേറ്റ് വിദ്യാർത്ഥിയുടെ മരണം ; മാപ്പ് 
-skip (N) could not open: സ്റ്റേവയറിൽ നിന്ന് ഷോക്കേറ്റ് വിദ്യാർത്ഥിയുടെ മരണം [https://www.keralakaumudi.com/kerala/general/student-dies-el] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera
-try (N) manual=False: തനിഷ്‌ക് ജുവലറി കവർച്ച; മുഖ്യപ്രതി നിശാന്ത് അറസ്റ്റിൽ, പിടിയ
-skip (N) could not open: തനിഷ്‌ക് ജുവലറി കവർച്ച; മുഖ്യപ്രതി നിശാന്ത് അറസ്റ് [https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVnY1LW0] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/case-diary/in
-try (N) manual=False: ഐസിസി ചെയർമാനായി രണ്ടാമതും എതിരില്ലാതെ തിരഞ്ഞെടുക്കപ്പെട്ട് 
-skip (N) could not open: ഐസിസി ചെയർമാനായി രണ്ടാമതും എതിരില്ലാതെ തിരഞ്ഞെടുക് [https://news.google.com/rss/articles/CBMikwFBVV95cUxPaGpvU2x] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/news-360/spor
-try (N) manual=False: 3.64 ലക്ഷം രൂപയുടെ അടക്ക മോഷണം; വിൽക്കാനെത്തിയ അഞ്ചംഗ സംഘത്ത
-skip (N) could not open: 3.64 ലക്ഷം രൂപയുടെ അടക്ക മോഷണം; വിൽക്കാനെത്തിയ അഞ് [https://news.google.com/rss/articles/CBMiVkFVX3lxTFA5Zm5GbTR] 403 Client Error: Forbidden for url: https://newsthen.com/2026/11/16/306604.html
-try (N) manual=False: തിരൂരങ്ങാടിയില്‍ 13കാരന്‍ ഷോക്കേറ്റ് മരിച്ച സംഭവം: കെഎസ്ഇബിക
-auto images: 1 of 1 stories ({'pollinations': 3})
-posting job started at once
-try (N) manual=False: മൂന്നു ചെറുപ്പക്കാർ വ്യത്യസ്ഥ ഭാവങ്ങൾ തേവർ ഫസ്റ്റ് ലുക്ക് എത
-auto images: 1 of 1 stories ({'pollinations': 7})
-skip (N) could not open: തിരൂരങ്ങാടിയില്‍ 13കാരന്‍ ഷോക്കേറ്റ് മരിച്ച സംഭവം: [https://news.google.com/rss/articles/CBMivwFBVV95cUxPb0l6Wnp] 403 Client Error: Forbidden for url: https://www.twentyfournews.com/2026/11/15/1
-try (N) manual=False: KSEB | തിരൂരങ്ങാടിയിൽ വൈദ്യുതാഘാതമേറ്റ് 14കാരൻ മരിച്ച സംഭവം 
-try (N) manual=False: കോൺഗ്രസിനും സിജെപിക്കും തമ്മിലെന്ത് | വഴിപോക്കൻ
-skip (N) could not open: മൂന്നു ചെറുപ്പക്കാർ വ്യത്യസ്ഥ ഭാവങ്ങൾ തേവർ ഫസ്റ്റ് [https://janmabhumi.in/3685592/first-look-thevar-arrived-feat] 403 Client Error: Forbidden for url: https://janmabhumi.in/3685592/first-look-th
-try (N) manual=False: സിൽവിയ പ്ലാത്തിനെക്കുറിച്ച് അറിയാത്ത കാര്യങ്ങൾ; കവിതകൾക്കപ്പ
-skip (N) could not open: KSEB | തിരൂരങ്ങാടിയിൽ വൈദ്യുതാഘാതമേറ്റ് 14കാരൻ മരി [https://news.google.com/rss/articles/CBMisgFBVV95cUxONTJSbEJ] 403 Client Error: Forbidden for url: https://www.kairalinewsonline.com/ml/news/k
-try (N) manual=False: സ്വാമിശരണം...
-skip (N) no Malappuram place in article: കോൺഗ്രസിനും സിജെപിക്കും തമ്മിലെന്ത് | വഴിപോക്കൻ
-try (N) manual=False: കുറഞ്ഞ നിരക്ക്, കൂടുതൽ സൗകര്യം: കെഎസ്‌ആർടിസിയെ തേടി ഒഴുകിയെത
-skip (N) no Malappuram place in article: സിൽവിയ പ്ലാത്തിനെക്കുറിച്ച് അറിയാത്ത കാര്യങ്ങൾ; കവ
-try (N) manual=False: മൃഗശാലയിൽ നിന്ന് പുറത്തുചാടി സിംഹം, ബൈക്കുകളിൽ പിന്തുടർന്ന് 
-skip (N) could not open: സ്വാമിശരണം... [https://news.google.com/rss/articles/CBMid0FVX3lxTE9VeUN2bTd] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/photogallery/
-try (N) manual=False: പെണ്ണുകാണൽ ചടങ്ങിൽ യുവാവിന്റെ മാമനായി എത്തി; ഒടുവിൽ വീണത് വമ
-skip (N) could not open: കുറഞ്ഞ നിരക്ക്, കൂടുതൽ സൗകര്യം: കെഎസ്‌ആർടിസിയെ തേട [https://news.google.com/rss/articles/CBMipAFBVV95cUxQMjNaZDR] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/specia
-try (N) manual=False: 'ആദ്യം ധനുഷിന് എന്നോട് ഒരു അകൽച്ചയുണ്ടായിരുന്നു, ഇപ്പോൾ പുള്
-skip (N) could not open: മൃഗശാലയിൽ നിന്ന് പുറത്തുചാടി സിംഹം, ബൈക്കുകളിൽ പിന [https://news.google.com/rss/articles/CBMikAFBVV95cUxOWmU4UTJ] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/news-360/offb
-try (N) manual=False: 'വീട്ടിലെ പ്രതിമ തനിയെ സ്ഥാനം മാറുന്നു, ഒടുവിൽ കൈയിൽ ഉപ്പ് പ
-skip (N) could not open: പെണ്ണുകാണൽ ചടങ്ങിൽ യുവാവിന്റെ മാമനായി എത്തി; ഒടുവി [https://news.google.com/rss/articles/CBMihwFBVV95cUxOeG5aMFF] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/thiruva
-try (N) manual=False: മണർകാട് സെന്‍റ്.മേരീസ് യാക്കോബായ സുറിയാനി കത്തീഡ്രൽ....
-skip (N) could not open: 'ആദ്യം ധനുഷിന് എന്നോട് ഒരു അകൽച്ചയുണ്ടായിരുന്നു, ഇ [https://news.google.com/rss/articles/CBMijwFBVV95cUxQbnhuOUE] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/cinema/news/m
-try (N) manual=False: cooking tips and tricks Archives
-skip (N) could not open: 'വീട്ടിലെ പ്രതിമ തനിയെ സ്ഥാനം മാറുന്നു, ഒടുവിൽ കൈയ [https://news.google.com/rss/articles/CBMikgFBVV95cUxOVTFGaVB] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/cinema/news/s
-try (N) manual=False: കശ്മീരിലെ സി ആര്‍ പി എഫ് പോസ്റ്റിന് നേരെയുണ്ടായ ആക്രമണം; രണ്
-skip (N) could not open: മണർകാട് സെന്‍റ്.മേരീസ് യാക്കോബായ സുറിയാനി കത്തീഡ്ര [https://news.google.com/rss/articles/CBMibEFVX3lxTE9MWGw5Smd] 403 Client Error: Forbidden for url: https://keralakaumudi.com/photogallery/day-
-try (N) manual=False: ഡേറ്റിങ് ആപ്പിലൂടെ പരിചയപ്പെട്ട കനേഡിയൻ ‘യുവതി‘ക്ക് 61 വയസ്,
-skip (N) no Malappuram place in article: കശ്മീരിലെ സി ആർ പി എഫ് പോസ്റ്റിന് നേരെയുണ്ടായ ആക്ര
-try (N) manual=False: Ramya Krishnan | വിവാഹിതയാണ് പക്ഷേ രമ്യ കൃഷ്ണനും ഭർത്താവും ഒ
-skip (N) no Malappuram place in article: cooking tips and tricks Archives - Chandrika Daily
-try (N) manual=False: Telegram App തീവ്രവാദം പ്രോത്സാഹിപ്പിക്കുന്നു; ജോർദാനിൽ ടെലഗ
-skip (N) no Malappuram place in article: ഡേറ്റിങ് ആപ്പിലൂടെ പരിചയപ്പെട്ട കനേഡിയൻ ‘യുവതി‘ക്ക
-try (N) manual=False: പൊല്യൂഷൻ സർട്ടിഫിക്കറ്റ് ഇല്ലേ? പെട്രോളുംഡീസലും സി.എൻ.ജിയും 
-skip (N) could not open: Ramya Krishnan | വിവാഹിതയാണ് പക്ഷേ രമ്യ കൃഷ്ണനും ഭ [https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMjZubEt] 403 Client Error: Forbidden for url: https://malayalam.news18.com/photogallery/b
-try (N) manual=False: ജെൻസൻ ഹുവാങ് എൻവിഡിയയിലേക്ക് തിരിച്ചെത്തുന്നോ? പിന്തുണയുമായി
-skip (N) could not open: Telegram App തീവ്രവാദം പ്രോത്സാഹിപ്പിക്കുന്നു; ജോർ [https://news.google.com/rss/articles/CBMitwFBVV95cUxOeFljNlR] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/world/use
-try (N) manual=False: അമേരിക്കയിൽ വീണ്ടും വ്യോമപ്രതിസന്ധി ; 2300 വിമാനങ്ങൾ റദ്ദാക്
-skip (N) could not open: പൊല്യൂഷൻ സർട്ടിഫിക്കറ്റ് ഇല്ലേ? പെട്രോളുംഡീസലും സി [https://news.google.com/rss/articles/CBMi9wFBVV95cUxNMS1hZ05] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/india/no-
-try (N) manual=False: ആരോഗ്യത്തിനായി നമ്മുടെ പോക്കറ്റിൽ നിന്നുള്ള ചെലവ് കുറഞ്ഞു; സ
-skip (N) could not open: ജെൻസൻ ഹുവാങ് എൻവിഡിയയിലേക്ക് തിരിച്ചെത്തുന്നോ? പിന [https://news.google.com/rss/articles/CBMi6gFBVV95cUxOT2t2MGF] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/world/jen
-try (N) manual=False: 'കരച്ചിലടക്കാനായില്ല…'; വിജയ്‌യുടെ 'ജനനായകൻ' പ്രൊമോ കണ്ട് വി
-skip (N) could not open: അമേരിക്കയിൽ വീണ്ടും വ്യോമപ്രതിസന്ധി ; 2300 വിമാനങ് [https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSkNQM1o] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/india/us-
-try (N) manual=False: കാസർഗോഡ് യുവാവ് വെടിയേറ്റു മരിച്ച നിലയിൽ; കവിളിൽ വെടിയേറ്റ മ
-skip (N) could not open: ആരോഗ്യത്തിനായി നമ്മുടെ പോക്കറ്റിൽ നിന്നുള്ള ചെലവ്  [https://news.google.com/rss/articles/CBMi9wFBVV95cUxQNHYtVWR] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/india/ind
-try (N) manual=False: നടി നിമ്മിയുടെ അക്കൗണ്ടിൽ നിന്നും 1.77 കോടി രൂപ തട്ടിയെന്ന പ
-skip (N) could not open: 'കരച്ചിലടക്കാനായില്ല…'; വിജയ്‌യുടെ 'ജനനായകൻ' പ്രൊമ [https://news.google.com/rss/articles/CBMisAFBVV95cUxOYnZISkZ] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/film/sai-
-try (N) manual=False: 'അച്ഛന്മാർ ചെയ്യുന്നത് ഔദാര്യമല്ല'; രക്ഷാകർതൃത്വത്തിലെ ഇരട്ട
-skip (N) could not open: കാസർഗോഡ് യുവാവ് വെടിയേറ്റു മരിച്ച നിലയിൽ; കവിളിൽ വ [https://news.google.com/rss/articles/CBMisAFBVV95cUxPZTgybHY] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/kerala/yo
-try (N) manual=False: ബിഹാറിൽ പൂജയുടെ പ്രസാദത്തിൽ തൊട്ടതിന് നാലുവയസ്സുകാരിയെ അമ്മ 
-skip (N) could not open: നടി നിമ്മിയുടെ അക്കൗണ്ടിൽ നിന്നും 1.77 കോടി രൂപ തട [https://news.google.com/rss/articles/CBMiswFBVV95cUxPOGNDSDJ] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/film/actr
-try (N) manual=False: ജാക്കോമോ ഫീലിബെക്ക്: ഹൈദരാബാദിൽ 'വോട്ട് കള്ളാ, പുറത്തുപോകൂ' 
-skip (N) could not open: 'അച്ഛന്മാർ ചെയ്യുന്നത് ഔദാര്യമല്ല'; രക്ഷാകർതൃത്വത് [https://news.google.com/rss/articles/CBMiqwFBVV95cUxPY0pJeEc] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/film/ram-
-try (N) manual=False: ദൃശ്യത്തിലെ വരുൺ പ്രഭാകറിനെ കിട്ടി! റോഷൻ ബഷീർ- രാഹുൽ രാജഗോപാ
-skip (N) could not open: ബിഹാറിൽ പൂജയുടെ പ്രസാദത്തിൽ തൊട്ടതിന് നാലുവയസ്സുകാ [https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeUJla05] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/crime/chi
-try (N) manual=False: ഇൻസ്റ്റ ഇൻഫ്ളുവൻസർമാരിൽ നിന്ന് കൊടുംകള്ളന്മാരിലേക്ക്; മധുരയി
-skip (N) could not open: ജാക്കോമോ ഫീലിബെക്ക്: ഹൈദരാബാദിൽ 'വോട്ട് കള്ളാ, പുറ [https://news.google.com/rss/articles/CBMijAJBVV95cUxOVVRIYzR] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/explained
-try (N) manual=False: മലപ്പുറത്ത് പതിനാലുകാരൻ ഷോക്കേറ്റ് മരിച്ച സംഭവത്തിൽ മാപ്പുപറ
-skip (N) could not open: ദൃശ്യത്തിലെ വരുൺ പ്രഭാകറിനെ കിട്ടി! റോഷൻ ബഷീർ- രാഹ [https://news.google.com/rss/articles/CBMirgFBVV95cUxOUW9sX1N] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/film/rosh
-try (N) manual=False: ദേശീയ സരസ് മേള സമ്പൂർണ ഡിജിറ്റൽ രൂപത്തിലേക്ക്: 50 ഫുഡ് കോർട്
-skip (N) could not open: ഇൻസ്റ്റ ഇൻഫ്ളുവൻസർമാരിൽ നിന്ന് കൊടുംകള്ളന്മാരിലേക് [https://news.google.com/rss/articles/CBMirAFBVV95cUxQSktRdnB] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/india/mad
-try (N) manual=False: 13കാരന്റെ മരണം: അന്വേഷണത്തിന് ഉത്തരവിട്ട് മന്ത്രി സണ്ണിജോസഫ്
-skip (N) could not open: 13കാരന്റെ മരണം: അന്വേഷണത്തിന് ഉത്തരവിട്ട് മന്ത്രി  [https://www.keralakaumudi.com/kerala/general/sunny-joseph-18] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera
-try (N) manual=False: “പാതിരാ കുറുക്കൻ” ഡിസംബർ 11ന്
-skip (N) could not open: “പാതിരാ കുറുക്കൻ” ഡിസംബർ 11ന് [https://janmabhumi.in/3685601/half-faced-fox-december-11th/] 403 Client Error: Forbidden for url: https://janmabhumi.in/3685601/half-faced-fo
-try (N) manual=False: കടൽ, കര, ലക്ഷ്യം; കോമൺമാനിൽനിന്ന് അയൺമാനിലേക്ക് ഒരു ന്യായാധി
-skip (N) could not open: മലപ്പുറത്ത് പതിനാലുകാരൻ ഷോക്കേറ്റ് മരിച്ച സംഭവത്തി [https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcDRTaGh] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/kerala/ks
-try (N) manual=False: അവഗണനയുടെ നിഴലിൽ 'അമ്മയും കുഞ്ഞും' കെട്ടിടം - LOCAL - MALAPP
-skip (N) could not open: ദേശീയ സരസ് മേള സമ്പൂർണ ഡിജിറ്റൽ രൂപത്തിലേക്ക്: 50  [https://news.google.com/rss/articles/CBMitAFBVV95cUxPVFVnRTM] 403 Client Error: Forbidden for url: https://malabarinews.com/news/national-sara
-try (N) manual=False: നാടുകാണി ചുരത്തിൽ വീണ്ടും ലോറിക്ക് തീപിടിച്ചു - LOCAL - MALA
-skip (N) no Malappuram place in article: കടൽ, കര, ലക്ഷ്യം; കോമൺമാനിൽനിന്ന് അയൺമാനിലേക്ക് ഒര
-try (N) manual=False: Audio News
-skip (N) could not open: അവഗണനയുടെ നിഴലിൽ 'അമ്മയും കുഞ്ഞും' കെട്ടിടം - LOCA [https://news.google.com/rss/articles/CBMigwFBVV95cUxNZGhIVzV] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
-try (N) manual=False: 9/11നുശേഷം അപൂർവ പ്രതിസന്ധി, അമേരിക്കയ്ക്ക് സംഭവിച്ചതെന്ത്?.
-skip (N) could not open: നാടുകാണി ചുരത്തിൽ വീണ്ടും ലോറിക്ക് തീപിടിച്ചു - LO [https://news.google.com/rss/articles/CBMiggFBVV95cUxOeWRoSHV] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
-try (N) manual=False: ആഭ്യന്തര ഉത്പാദനത്തിന് ഊന്നൽ വേണം - OPINION - EDITORIAL
-skip (N) could not open: Audio News [https://news.google.com/rss/articles/CBMiakFVX3lxTE9fUmM2QnV] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/news/video.ph
-try (N) manual=False: കൽപാത്തി രഥോത്സവത്തോടനുബഡിച്ച് രണ്ടാം തേരുത്സവ ദിനത്തിൽ
-skip (N) could not open: 9/11നുശേഷം അപൂർവ പ്രതിസന്ധി, അമേരിക്കയ്ക്ക് സംഭവിച [https://news.google.com/rss/articles/CBMia0FVX3lxTE1IRmNUVmN] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/news/news.php
-try (N) manual=False: ബൈക്ക് മോഷണ പരമ്പര 'പെരുമ്പാവൂർ ടീമി'ന് മയക്കുമരുന്ന് ബന്ധം
-skip (N) could not open: ആഭ്യന്തര ഉത്പാദനത്തിന് ഊന്നൽ വേണം - OPINION - EDIT [https://news.google.com/rss/articles/CBMib0FVX3lxTE50Z2VjU0M] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/opinion/edito
-try (N) manual=False: ചാല സ്വർണക്കവ‌‌ർച്ച: ക്വട്ടേഷൻ ഉറപ്പിച്ചത് 25 ലക്ഷം രൂപയ്‌ക്
-skip (N) could not open: കൽപാത്തി രഥോത്സവത്തോടനുബഡിച്ച് രണ്ടാം തേരുത്സവ ദിന [https://news.google.com/rss/articles/CBMidkFVX3lxTE9SdTlpLWN] 403 Client Error: Forbidden for url: https://keralakaumudi.com/photogallery/day-
-try (N) manual=False: വിട്ടൊഴിയാതെ വിവാദം ; അതൃപ്തിയിൽ മന്ത്രി ഷംസുദ്ദീൻ
-skip (N) could not open: ബൈക്ക് മോഷണ പരമ്പര 'പെരുമ്പാവൂർ ടീമി'ന് മയക്കുമരുന [https://news.google.com/rss/articles/CBMiakFVX3lxTE1EWlZVejJ] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera
-try (N) manual=False: യൂസഫലി കാരുണ്യത്തിന്റെ നിറകുടം: മന്ത്രി സിദ്ദിഖ്‌
-skip (N) could not open: ചാല സ്വർണക്കവ‌‌ർച്ച: ക്വട്ടേഷൻ ഉറപ്പിച്ചത് 25 ലക്ഷ [https://news.google.com/rss/articles/CBMilwFBVV95cUxOOFBpWmY] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/case-diary/ke
-try (N) manual=False: LOCAL
-skip (N) could not open: വിട്ടൊഴിയാതെ വിവാദം ; അതൃപ്തിയിൽ മന്ത്രി ഷംസുദ്ദീൻ [https://news.google.com/rss/articles/CBMickFVX3lxTFBSdy1POVN] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera
-try (N) manual=False: easy kitchen hacks Archives
-skip (N) could not open: യൂസഫലി കാരുണ്യത്തിന്റെ നിറകുടം: മന്ത്രി സിദ്ദിഖ്‌ [https://news.google.com/rss/articles/CBMic0FVX3lxTFBoMUItdzF] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera
-try (N) manual=False: പത്ത് വർഷത്തെ ദാമ്പത്യം പിരിഞ്ഞതിന് പിന്നാലെ യുവതി പന്നിക്കു
-skip (N) could not open: LOCAL [https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1MkRhdTN] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/lander?cid=11
-try (N) manual=False: ഇതൊക്കെ ഉള്ളതാണോ? 28 കാരനായ ഗായകന് 82കാരി കാമുകിയോ?
-skip (N) could not open: പത്ത് വർഷത്തെ ദാമ്പത്യം പിരിഞ്ഞതിന് പിന്നാലെ യുവതി [https://news.google.com/rss/articles/CBMixwFBVV95cUxNZlRvWFJ] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/life/amer
-try (N) manual=False: 'റിപ്പോർട്ട് തള്ളിയതിൽ സന്തോഷം:'തൃശ്ശൂർ പൂരം കലക്കൽ വിവാദ​ത്
-skip (N) could not open: ഇതൊക്കെ ഉള്ളതാണോ? 28 കാരനായ ഗായകന് 82കാരി കാമുകിയോ [https://news.google.com/rss/articles/CBMi5AFBVV95cUxOc19RbDZ] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/buzz/vira
-try (N) manual=False: പാത്രിയർക്കീസ് ബാവ മണർകാട് പള്ളിയിൽ കുർബാന അർപ്പിച്ചു
-skip (N) no Malappuram place in article: easy kitchen hacks Archives - Chandrika Daily
-try (N) manual=False: പ്രവാസികളുടെ സമ്പാദ്യ, നിക്ഷേപ വിവരങ്ങൾ ഒറ്റ പ്ലാറ്റ്ഫോമില്‍
-skip (N) could not open: 'റിപ്പോർട്ട് തള്ളിയതിൽ സന്തോഷം:'തൃശ്ശൂർ പൂരം കലക്ക [https://news.google.com/rss/articles/CBMi4gFBVV95cUxOT3M0RXR] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/kerala/th
-try (N) manual=False: രാജസ്ഥാൻ റെയിൽവേ ട്രാക്ക് സ്ഫോടനം: പാക് ചാരസംഘടനയായ ഐഎസ്ഐയുമ
-skip (N) could not open: പാത്രിയർക്കീസ് ബാവ മണർകാട് പള്ളിയിൽ കുർബാന അർപ്പിച [https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUF9RTkx] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/kerala/pa
-try (N) manual=False: ചാറ്റ് ജിപിടി തുണ! രണ്ടരവർഷമായി വേർപ്പെട്ട കുടുംബത്തോട് യുവത
-skip (N) could not open: പ്രവാസികളുടെ സമ്പാദ്യ, നിക്ഷേപ വിവരങ്ങൾ ഒറ്റ പ്ലാറ [https://news.google.com/rss/articles/CBMilAJBVV95cUxQcm9YMjN] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/money/tec
-try (N) manual=False: Italy fines Meta അനുമതിയില്ലാതെ ഫോൺ മെമ്മറിയിലേക്ക് കയറി; മെ
-skip (N) could not open: രാജസ്ഥാൻ റെയിൽവേ ട്രാക്ക് സ്ഫോടനം: പാക് ചാരസംഘടനയാ [https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWGlzS0R] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/crime/raj
-try (N) manual=False: പെണ്ണേ പെണ്ണേ നിൻ കല്യാണമായി! റിമിയുടെ വിവാഹസൽക്കാരത്തിന് തക
-skip (N) could not open: ചാറ്റ് ജിപിടി തുണ! രണ്ടരവർഷമായി വേർപ്പെട്ട കുടുംബത [https://news.google.com/rss/articles/CBMi3AFBVV95cUxPN3dCaUx] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/buzz/chat
-try (N) manual=False: 'രാഷ്ട്രീയമായ ചേരിപ്പോരുകള്‍ കലാകാരന്മാരെ അവഹേളിക്കപ്പെടുന്ന
-skip (N) could not open: Italy fines Meta അനുമതിയില്ലാതെ ഫോൺ മെമ്മറിയിലേക്ക [https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSV9tVUF] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/money/tec
-try (N) manual=False: ബന്ധം പിരിഞ്ഞ വൈരാഗ്യത്തിൽ ലിവ്ഇൻ പങ്കാളിയുടെ വളർത്തുനായകളെ 
-skip (N) could not open: പെണ്ണേ പെണ്ണേ നിൻ കല്യാണമായി! റിമിയുടെ വിവാഹസൽക്കാ [https://news.google.com/rss/articles/CBMi3AFBVV95cUxQOUFsa0V] 403 Client Error: Forbidden for url: https://malayalam.news18.com/photogallery/b
-try (N) manual=False: കാ​ട്ടാ​ന​ ഭീ​തി​യി​ല്‍ ത​ണ്ട​ന്‍​ക​ല്ല് ആ​ദി​വാ​സി കു​ടും​ബ
-skip (N) could not open: 'രാഷ്ട്രീയമായ ചേരിപ്പോരുകള്‍ കലാകാരന്മാരെ അവഹേളിക് [https://news.google.com/rss/articles/CBMi-AFBVV95cUxNMlpYSEN] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/kerala/th
-try (N) manual=False: തി​രു​വാ​ലി​യി​ല്‍ ഫ​യ​ര്‍ സ്റ്റേ​ഷ​ന് സ്ഥ​ല​മാ​യി
-skip (N) could not open: ബന്ധം പിരിഞ്ഞ വൈരാഗ്യത്തിൽ ലിവ്ഇൻ പങ്കാളിയുടെ വളർത [https://news.google.com/rss/articles/CBMixAFBVV95cUxOdUQ5N3M] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/crime/man
-try (N) manual=False: പാ​ലം അ​പ​ക​ടത്തി​ല്‍; ഭീതിയിൽ നാ​ട്ടു​കാ​ര്‍
-NOT filed (N) കാട്ടാന ഭീതിയിൽ തണ്ടൻകല്ല് ആദിവാസി കുടുംബങ്ങൾ | De: all free models failed: no usable answer from the models
-try (N) manual=False: മി​നി പ​മ്പ​യി​ല്‍ അ​യ്യ​പ്പ​ഭ​ക്ത​ര്‍​ക്ക് സൗ​ക​ര്യ​ങ്ങ​ളൊര
-NOT filed (N) തിരുവാലിയിൽ ഫയർ സ്റ്റേഷന് സ്ഥലമായി | Deepika | The: all free models failed: no usable answer from the models
-NOT filed (N) പാലം അപകടത്തിൽ; ഭീതിയിൽ നാട്ടുകാർ | Deepika | The : all free models failed: no usable answer from the models
-NOT filed (N) മിനി പമ്പയിൽ അയ്യപ്പഭക്തർക്ക് സൗകര്യങ്ങളൊരുങ്ങി: എ: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 80}, done={'R': 0, 'N': 2}, time left 40 min
-carousel for 0 of 2 stories, the rest reel only
-filed: 0 Manjeri + 2 Malappuram (targets 200 + 200)
-queue: 0 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":60}
-All News sheet: {"ok":true,"added":0,"updated":60}
-All News sheet: {"ok":true,"added":1,"updated":38} 
-stories: 2
+all sources: 904 items -> 567 different news (20 Manjeri)
+candidate filter: old=177, not Malappuram district news (state-wide=91, already filed=79, checked earlier=51, collected=44, checked earlier=37, checked earlier=36, checked earlier=17, checked earlier=8, not written=7, not written=2, not written=2, not written=2, not written=1, not written=1, not written=1, not written=1, not written=1, not written=1, not written=1, not written=1, not written=1, not written=1, not written=1, not written=1, not written=1, not written=1
+to write: 0 Manjeri + 44 other district candidates (max 200 + 200 stories)
+checked at collection: 13 real local news, 0 duplicates merged, 0 old, 14 other district / state-wide, 8 empty, 9 could not be opened (tried again later)
+collect round: nothing is written now - the writer job takes the queue by priority and posts each story at once
+candidates waiting: 0 Manjeri, 44 Malappuram; time left 34 min
+candidate loop ended: left R=0 N=44, tried={'R': 0, 'N': 0}, done={'R': 0, 'N': 0}, time left 34 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
+queue: 13 news waiting to be written
+write_stories.yml started
+All News sheet: {"ok":true,"added":17,"updated":40} 
+stories: 0
