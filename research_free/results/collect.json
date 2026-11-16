@@ -2,114 +2,18 @@
  "log": [
   "earlier stories still waiting for images: []",
   "instagram check: 68 recent posts read from both pages",
-  "write round: 10 news waiting in the queue (written in priority order)",
-  "candidate filter: collected=6, already filed=4",
-  "to write: 0 Manjeri + 6 other district candidates (max 200 + 200 stories)",
-  "candidates waiting: 0 Manjeri, 6 Malappuram; time left 29 min",
-  "try (N) manual=False: വിലക്കയറ്റത്തിൽ പൊറുതിമുട്ടി ജനം",
-  "try (N) manual=False: മലപ്പുറത്ത് സ്റ്റേ കമ്പിയിൽ നിന്ന് ഷോക്കേറ്റ് വിദ്യാർഥിക്ക് ",
+  "write round: 1 news waiting in the queue (written in priority order)",
+  "candidate filter: collected=1",
+  "to write: 0 Manjeri + 1 other district candidates (max 200 + 200 stories)",
+  "candidates waiting: 0 Manjeri, 1 Malappuram; time left 29 min",
   "try (N) manual=False: പ്രളയത്തിൽ കല്ലുവഴിയായി റോഡ്",
-  "skip (N) similar to a filed story: മലപ്പുറത്ത് സ്റ്റേ കമ്പിയിൽ നിന്ന് ഷോക്കേറ്റ് വിദ്",
-  "try (N) manual=False: പാടത്ത് മീൻപിടിക്കാൻ പോയ വിദ്യാർഥി സ്റ്റേ കമ്പിയിൽനിന്ന് ഷോക",
-  "skip (N) similar to a filed story: പാടത്ത് മീൻപിടിക്കാൻ പോയ വിദ്യാർഥി സ്റ്റേ കമ്പിയിൽ",
-  "try (N) manual=False: 14കാരൻ ഷോക്കേറ്റ് മരിച്ച സംഭവം; മാപ്പ് പറഞ്ഞ് കെഎസ്ഇബി; റിപ്",
-  "skip (N) similar to a filed story: 14കാരൻ ഷോക്കേറ്റ് മരിച്ച സംഭവം; മാപ്പ് പറഞ്ഞ് കെഎസ",
-  "try (N) manual=False: തിരൂരങ്ങാടിയിൽ 13കാരൻ ഷോക്കേറ്റ് മരിച്ച സംഭവം: കെഎസ്ഇബിക്ക് ",
-  "skip (N) similar to a filed story: തിരൂരങ്ങാടിയിൽ 13കാരൻ ഷോക്കേറ്റ് മരിച്ച സംഭവം: കെഎ",
-  "auto images failed for 'Vegetable and essential item prices skyr': all image models failed: all image models failed: black-forest-labs/flux.1-dev 500: Internal Server Error -> images-needed email",
-  "auto images: 0 of 1 stories ({'pollinations': 4})",
-  "posting job started at once",
-  "NOT filed (N) പ്രളയത്തിൽ കല്ലുവഴിയായി റോഡ്: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 6}, done={'R': 0, 'N': 1}, time left 23 min",
-  "carousel for 0 of 1 stories, the rest reel only",
-  "filed: 0 Manjeri + 1 Malappuram (targets 200 + 200)",
+  "skip (N) could not open: പ്രളയത്തിൽ കല്ലുവഴിയായി റോഡ് [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu",
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 1}, done={'R': 0, 'N': 0}, time left 29 min",
+  "carousel for 0 of 0 stories, the rest reel only",
+  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
   "queue: 1 news waiting to be written",
-  "write_stories.yml started",
-  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":2}"
+  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":1}"
  ],
- "llm": [
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.8-flash",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.7-flash",
-  "ok gemini/gemini-3.6-flash (16s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
-  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
-  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min",
-  "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.8-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash"
- ],
- "stories": [
-  {
-   "malayalam_headline": "മലപ്പുറത്ത് പച്ചക്കറികൾക്കും സാധനങ്ങൾക്കും കനത്ത വിലക്കയറ്റം; വെളുത്തുള്ളിക്ക് കിലോ 260 രൂപ",
-   "english_headline": "Vegetable and essential item prices skyrocket in Malappuram, garlic reaches Rs 260 per kg",
-   "category": "Business & Prices",
-   "location": "Malappuram district",
-   "importance": "High",
-   "scope": "district",
-   "post_to": "Malappuram 360 (collab: Manjeri 360)",
-   "slides_spec": {
-    "v": 3,
-    "cat": "വിലക്കയറ്റം",
-    "loc": "മലപ്പുറം",
-    "hl1": "മലപ്പുറത്ത് പച്ചക്കറി വില കുത്തനെ കൂട്ടി",
-    "hl2": "വെളുത്തുള്ളി കിലോ 260 രൂപ",
-    "slides": [
-     {
-      "title": "വിലവർദ്ധനവ്",
-      "lines": [
-       "കഴിഞ്ഞ <b>1 ആഴ്ചയായി</b> പച്ചക്കറി വില ഉയരുന്നു",
-       "കാലാവസ്ഥയും മഴക്കെടുതിയും വിളവെടുപ്പ് കുറച്ചു"
-      ]
-     },
-     {
-      "title": "പ്രധാന വിലകൾ",
-      "lines": [
-       "വെളുത്തുള്ളി കിലോ <b>260 രൂപ</b>, ചെറിയ ഉള്ളി <b>130 രൂപ</b>",
-       "സവാള <b>60</b>, ചേന, ബീറ്റ്റൂട്ട്, പയർ <b>70 രൂപ</b>",
-       "വെളിച്ചെണ്ണ <b>300 രൂപയ്ക്ക് മുകളിൽ</b>"
-      ]
-     },
-     {
-      "title": "മറ്റ് ഇനങ്ങൾ",
-      "lines": [
-       "കോഴിയിറച്ചി കിലോ <b>220 മുതൽ 260 രൂപ</b> വരെ",
-       "ഒരു മുട്ടയ്ക്ക് <b>8 രൂപ</b>, അരിവിലയും ഉയർന്നു",
-       "വിപണിയിൽ സർക്കാർ ഇടപെടണമെന്ന് ആവശ്യം"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "മലപ്പുറത്ത് പച്ചക്കറികൾക്കും സാധനങ്ങൾക്കും കനത്ത വിലക്കയറ്റം. കഴിഞ്ഞ 1 ആഴ്ചയായി വിപണിയിൽ വില കുത്തനെ ഉയരുകയാണ്. ഇപ്പോൾ വെളുത്തുള്ളി കിലോയ്ക്ക് 260 രൂപയും ചെറിയ ഉള്ളിക്ക് 130 രൂപയുമായി. സവാളയ്ക്ക് 60 രൂപയും ചേനയ്ക്കും പയറിനും 70 രൂപയുമാണ് വില. വെളിച്ചെണ്ണ വില 300 രൂപയ്ക്ക് മുകളിലെത്തി, ഒരു മുട്ടയ്ക്ക് 8 രൂപ കൊടുക്കണം. മഴയും കൃഷിനാശവും വിളവെടുപ്പ് കുറഞ്ഞതുമാണ് വില കൂടാൻ കാരണം. വിപണിയിൽ സർക്കാർ ഉടൻ ഇടപെടണമെന്ന് ജനങ്ങൾ ആവശ്യപ്പെടുന്നു. വീട്ടുകാർക്കും കൂട്ടുകാർക്കും ഇത് അയച്ചുകൊടുക്കണേ. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
-   "caption": "🛒 മലപ്പുറത്ത് പച്ചക്കറികൾക്കും നിത്യോപയോഗ സാധനങ്ങൾക്കും കനത്ത വിലക്കയറ്റം\n\n📰 പൂർണ വിവരം:\nമലപ്പുറത്ത് കുടുംബ ബഡ്ജറ്റുകളെ തകർത്ത് പച്ചക്കറികൾക്കും മറ്റ് അവശ്യസാധനങ്ങൾക്കും കനത്ത വിലക്കയറ്റം. കഴിഞ്ഞ ഒരു ആഴ്ചയ്ക്കിടയിലാണ് വില കുത്തനെ ഉയർന്നത്. കനത്ത മഴ, വെള്ളക്കെട്ടുമൂലമുള്ള കൃഷിനാശം, വിളവെടുപ്പിലെ കുറവ് എന്നിവയാണ് നിലവിലെ വിലവർദ്ധനവിന് കാരണം. നിലവിൽ ഒരു കിലോ വെളുത്തുള്ളിയ്ക്ക് 260 രൂപയും ചെറിയ ഉള്ളിയ്ക്ക് 130 രൂപയുമാണ് വില. സവാള കിലോയ്ക്ക് 60 രൂപയും ബീറ്റ്റൂട്ട്, പയർ, ചേന എന്നിവയ്ക്ക് 70 രൂപയുമായി. വെളിച്ചെണ്ണ വില 300 രൂപയ്ക്ക് മുകളിലെത്തിയപ്പോൾ ഒരു മുട്ടയ്ക്ക് 8 രൂപയും കോഴിയിറച്ചി കിലോയ്ക്ക് 220 മുതൽ 260 രൂപ വരെയുമായി. അരിയുൾപ്പെടെയുള്ള ധാന്യങ്ങൾക്കും വില വർദ്ധിച്ചിട്ടുണ്ട്. വിപണിയിൽ സർക്കാർ അടിയന്തരമായി ഇടപെടണമെന്ന് ഉപഭോക്താക്കൾ ആവശ്യപ്പെട്ടു.\n\n📍 സ്ഥലം: മലപ്പുറം ജില്ല\n🗓️ തീയതി: 16 നവംബർ 2026\nℹ️ ശ്രദ്ധിക്കുക: വിപണിയിൽ സർക്കാർ അടിയന്തരമായി ഇടപെടണമെന്ന് ആവശ്യപ്പെട്ട് ഉപഭോക്താക്കൾ\n\nവിവരങ്ങൾ അറിയാൻ മറ്റുള്ളവർക്ക് Share ചെയ്യൂ\n\nVegetable and essential item prices increase in Malappuram | Malappuram news\n📍 മലപ്പുറം | 16 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #PriceHike #VegetablePrice #MalappuramNews",
-   "prompts": "A busy vegetable market stall in Malappuram town, Kerala during early morning: wooden crates filled with fresh garlic bulbs, small red onions, and ripe tomatoes on display, a shopkeeper weighing vegetables on a digital balance, morning light filtering through blue canvas tarpaulin cover. Same natural warm daylight tone across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of garlic cloves and small red onions neatly arranged in woven baskets in a local Malappuram market, with small handwritten cardboard price tags nearby in Malayalam. Same natural warm daylight tone across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA bustling grocery and vegetable shop in Malappuram district: sacks of rice, bottles of coconut oil, and crates of eggs placed on wooden shelves, customers standing at the counter seen from behind. Same natural warm daylight tone across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nAn outdoor home kitchen setting in a typical Malappuram house, a family budget ledger notebook and grocery items lying on a wooden kitchen table, soft morning window light. Same natural warm daylight tone across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.keralakaumudi.com/local/malappuram/local-news--malappuram-1826890",
-   "published": "2026-11-16T03:21:08+05:30",
-   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: numbers not found in the article: 8",
-   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 13.0,
-   "auto_images": true
-  }
- ]
+ "llm": [],
+ "stories": []
 }
