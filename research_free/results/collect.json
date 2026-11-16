@@ -2,189 +2,72 @@
  "log": [
   "earlier stories still waiting for images: []",
   "instagram check: 68 recent posts read from both pages",
-  "write round: 6 news waiting in the queue (written in priority order)",
-  "candidate filter: collected=6",
-  "to write: 1 Manjeri + 5 other district candidates (max 200 + 200 stories)",
-  "candidates waiting: 1 Manjeri, 5 Malappuram; time left 29 min",
-  "try (R) manual=False: കെ.അബ്ദുൽ ഖാദർ മുസല്യാർ അന്തരിച്ചു",
-  "try (N) manual=False: കണ്ണൂർ വാരിയേഴ്സിനെ അഞ്ച് ഗോളുകൾക്ക് തകർത്തു; എസ് എൽ കെ ഷീൽഡ",
+  "write round: 4 news waiting in the queue (written in priority order)",
+  "candidate filter: collected=4",
+  "to write: 0 Manjeri + 4 other district candidates (max 200 + 200 stories)",
+  "candidates waiting: 0 Manjeri, 4 Malappuram; time left 29 min",
   "try (N) manual=False: 'ഞങ്ങൾക്ക് നഷ്ടപ്പെടാനുള്ളത് നഷ്ടപ്പെട്ടു, ഇനിയൊരു ദുരന്തം ഉ",
-  "NOT filed (N) 'ഞങ്ങൾക്ക് നഷ്ടപ്പെടാനുള്ളത് നഷ്ടപ്പെട്ടു, ഇനിയൊരു: all free models failed: no usable answer from the models",
   "try (N) manual=False: ഡോക്ടർമാരെ നിയമിക്കുന്നു; അപേക്ഷിക്കാം",
-  "NOT filed (N) ഡോക്ടർമാരെ നിയമിക്കുന്നു; അപേക്ഷിക്കാം: all free models failed: no usable answer from the models",
   "try (N) manual=False: അധികാരികളുടെ വാക്ക് കേട്ട് കാടിറങ്ങി; ഒടുവിൽ പാതി തകർന്ന വീട",
-  "auto images failed for 'Prominent religious scholar K Abdul Khad': all image models failed: all image models failed: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed ou -> images-needed email",
-  "auto images: 0 of 1 stories ({'pollinations': 3})",
-  "posting job started at once",
+  "NOT filed (N) 'ഞങ്ങൾക്ക് നഷ്ടപ്പെടാനുള്ളത് നഷ്ടപ്പെട്ടു, ഇനിയൊരു: all free models failed: no usable answer from the models",
   "try (N) manual=False: അധ്യാപകർ പുതിയ കാലത്തിനൊപ്പം സഞ്ചരിക്കണം: മന്ത്രി  എൻ. ഷംസു",
-  "auto images: 0 of 1 stories ({'pollinations': 3})",
-  "NOT filed (N) അധികാരികളുടെ വാക്ക് കേട്ട് കാടിറങ്ങി; ഒടുവിൽ പാതി : all free models failed: no usable answer from the models",
   "skip (N) could not open: അധ്യാപകർ പുതിയ കാലത്തിനൊപ്പം സഞ്ചരിക്കണം: മന്ത്രി [https://www.mangalam.com/news/detail/881608-teachers-must-mo] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/881608",
-  "candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 5}, done={'R': 1, 'N': 1}, time left 22 min",
-  "carousel for 0 of 2 stories, the rest reel only",
-  "filed: 1 Manjeri + 1 Malappuram (targets 200 + 200)",
+  "NOT filed (N) ഡോക്ടർമാരെ നിയമിക്കുന്നു; അപേക്ഷിക്കാം: all free models failed: no usable answer from the models",
+  "NOT filed (N) അധികാരികളുടെ വാക്ക് കേട്ട് കാടിറങ്ങി; ഒടുവിൽ പാതി : all free models failed: no usable answer from the models",
+  "candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 4}, done={'R': 0, 'N': 0}, time left 29 min",
+  "carousel for 0 of 0 stories, the rest reel only",
+  "filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)",
   "queue: 4 news waiting to be written",
-  "write_stories.yml started",
-  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":6}"
+  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":4}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
-  "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.8-flash",
-  "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.8-flash",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.8-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
-  "fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
-  "poor answer - skipped for 30 min: gemini/gemini-3.7-flash",
+  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.7-flash",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
   "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
   "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
+  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
+  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
+  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
   "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
   "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
+  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
+  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
-  "ok gemini/gemini-3.6-flash (16s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "ok gemini/gemini-3.6-flash (19s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "ok groq/openai/gpt-oss-120b (5s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok groq/openai/gpt-oss-120b (3s)"
+  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
+  "switching away from mistral/mistral-small-latest for 10 min",
+  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
+  "switching away from mistral/mistral-small-latest for 10 min"
  ],
- "stories": [
-  {
-   "malayalam_headline": "പ്രമുഖ മതപണ്ഡിതൻ കെ. അബ്ദുൽ ഖാദർ മുസല്യാർ അന്തരിച്ചു",
-   "english_headline": "Prominent religious scholar K Abdul Khadar Musliyar passes away at 75 in Poroor",
-   "category": "Temples & Events",
-   "location": "Poroor, Wandoor, Malappuram district",
-   "importance": "Medium",
-   "scope": "district",
-   "post_to": "Manjeri 360 (collab: Malappuram 360)",
-   "slides_spec": {
-    "v": 3,
-    "cat": "വിയോഗം",
-    "loc": "പോരൂർ, മലപ്പുറം",
-    "hl1": "മതപണ്ഡിതൻ അബ്ദുൽ ഖാദർ മുസല്യാർ",
-    "hl2": "75-ം വയസ്സിലാണ് വിയോഗം",
-    "slides": [
-     {
-      "title": "വിയോഗം",
-      "lines": [
-       "പ്രമുഖ മതപണ്ഡിതൻ അബ്ദുൽ ഖാദർ മുസല്യാർ അന്തരിച്ചു",
-       "<b>75</b> വയസ്സായിരുന്നു",
-       "പോരൂർ അയനിക്കോട് സ്വദേശിയാണ്"
-      ]
-     },
-     {
-      "title": "പ്രവർത്തനം",
-      "lines": [
-       "കേരള സംസ്ഥാന ജംഇയ്യത്തുൽ ഉലമാ മുശാവറ അംഗമായിരുന്നു",
-       "എസ്വൈഎഫ് സംസ്ഥാന വൈസ് പ്രസിഡന്റായിരുന്നു",
-       "വിവിധ സ്ഥലങ്ങളിൽ മുദരിസായി സേവനം ചെയ്തു"
-      ]
-     },
-     {
-      "title": "കബറടക്കം",
-      "lines": [
-       "ചെറുകോട് ഇരുപത്തെട്ടിലെ ജുമാമസ്ജിദിൽ കബറടക്കി",
-       "നേതാക്കളും പണ്ഡിതരും വീട്ടിലെത്തി",
-       "നിരവധി പണ്ഡിതന്മാരുടെ ഗുരുവാണ്"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "പോരൂരിൽ പ്രമുഖ മതപണ്ഡിതൻ അബ്ദുൽ ഖാദർ മുസല്യാർ അന്തരിച്ചു. 75 വയസ്സായിരുന്നു. അയനിക്കോട് ഇരുപത്തെട്ട് സ്വദേശിയായ അദ്ദേഹം ഒട്ടേറെ പ്രമുഖ പണ്ഡിതന്മാരുടെ ഗുരുവാണ്. മഞ്ചേരി, കിഴക്കേ പാണ്ടിക്കാട് ഉൾപ്പെടെ വിവിധ ഇടങ്ങളിൽ മുദരിസായിരുന്നു. കേരള സംസ്ഥാന ജംഇയ്യത്തുൽ ഉലമാ കേന്ദ്ര മുശാവറ അംഗമായി പ്രവർത്തിച്ചിട്ടുണ്ട്. ചെറുകോട് ഇരുപത്തെട്ടിലെ ജുമാമസ്ജിദിൽ കബറടക്കം നടന്നു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
-   "caption": "🏴 പ്രമുഖ മതപണ്ഡിതൻ കൊക്കറണി അബ്ദുൽ ഖാദർ മുസല്യാർ അന്തരിച്ചു\n\n📰 പൂർണ വിവരം:\nപോരൂർ അയനിക്കോട് ഇരുപത്തെട്ടിലെ കൊക്കറണി അബ്ദുൽ ഖാദർ മുസല്യാർ (75 വയസ്സ്) അന്തരിച്ചു. പ്രമുഖ മതപണ്ഡിതനും സൂഫിവര്യനുമായ അദ്ദേഹം ഒട്ടേറെ ബാഖവി, ഫൈസി, ദാരിമി പണ്ഡിതന്മാരുടെ ഗുരുവാണ്. മഞ്ചേരി സെൻട്രൽ ജുമാ മസ്ജിദ്, കിഴക്കേ പാണ്ടിക്കാട്, നെന്മിനി, കരുവാരകുണ്ട് തുടങ്ങി നിരവധി സ്ഥലങ്ങളിൽ മുദരിസായിരുന്നു. വണ്ടൂർ ജാമിഅ വഹബിയ്യ കോളജിലാണ് മതപഠനം പൂർത്തിയാക്കിയത്. കേരള സംസ്ഥാന ജംഇയ്യത്തുൽ ഉലമാ കേന്ദ്ര മുശാവറ അംഗമായും എസ്വൈഎഫ് സംസ്ഥാന വൈസ് പ്രസിഡന്റായും പ്രവർത്തിച്ചിട്ടുണ്ട്. ചെറുകോട് ഇരുപത്തെട്ടിലെ ജുമാമസ്ജിദിലാണ് കബറടക്കം നടന്നത്.\n📍 സ്ഥലം: അയനിക്കോട്, പോരൂർ, മലപ്പുറം\n⚰️ കബറടക്കം: ചെറുകോട് ഇരുപത്തെട്ട് ജുമാമസ്ജിദ്\nആദരാഞ്ജലികൾ\n\nReligious scholar K Abdul Khadar Musliyar passes away in Poroor | Malappuram news\n📍 പോരൂർ, മലപ്പുറം | 16 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Poroor #Obituary #MalappuramNews",
-   "prompts": "Exterior view of a serene traditional Kerala Juma Masjid with green minarets and tiled roofs in Poroor village, Malappuram district, surrounded by tall coconut palms under a quiet cloudy morning sky. Soft daylight, respectful atmosphere. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nNarrow quiet village road lined with lush green trees and laterite compound walls leading to a residence in Ayanikode, Malappuram district. Soft morning light. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nCourtyard of a traditional mosque in Cherukode village, Malappuram district, showing green lawn and surrounding trees in calm daylight, viewed from a distance. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nSoft light filtering through coconut trees over a peaceful village landscape in Wandoor taluk, Malappuram, Kerala. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.manoramaonline.com/district-news/malappuram/2026/11/16/abdul-khader-musliyar-passes-away.html",
-   "published": "2026-11-16T12:10:10+05:30",
-   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: reel_script has 45 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)",
-   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "R",
-   "_score": 3.0,
-   "auto_images": true
-  },
-  {
-   "malayalam_headline": "കണ്ണൂരിനെ 5-0ന് തകർത്തു; സൂപ്പർ ലീഗ് കേരള ഷീൽഡ് കാലിക്കറ്റ് എഫ്സിക്ക്, മലപ്പുറവും സെമിയിൽ",
-   "english_headline": "Calicut FC win Super League Kerala Shield beating Kannur 5-0; Calicut and Malappuram enter semi-finals",
-   "category": "Sports",
-   "location": "Corporation Stadium, Kozhikode",
-   "importance": "High",
-   "scope": "district",
-   "post_to": "Malappuram 360 (collab: Manjeri 360)",
-   "slides_spec": {
-    "v": 3,
-    "cat": "സൂപ്പർ ലീഗ്",
-    "loc": "കോഴിക്കോട്",
-    "hl1": "സൂപ്പർ ലീഗ് ഷീൽഡ് കാലിക്കറ്റിന്",
-    "hl2": "മലപ്പുറം എഫ്സിയും സെമിയിൽ",
-    "slides": [
-     {
-      "title": "ഷീൽഡ് വിജയം",
-      "lines": [
-       "കണ്ണൂരിനെ <b>5-0</b>ന് തകർത്തു കാലിക്കറ്റ് എഫ്സി",
-       "സൂപ്പർ ലീഗ് കേരള ഷീൽഡ് കാലിക്കറ്റിന്"
-      ]
-     },
-     {
-      "title": "സെമിയിൽ",
-      "lines": [
-       "<b>8</b> കളിയിൽ <b>20</b> പോയിന്റോടെ കാലിക്കറ്റ് ഒന്നാമത്",
-       "കാലിക്കറ്റും മലപ്പുറം എഫ്സിയും സെമി ഉറപ്പിച്ചു"
-      ]
-     },
-     {
-      "title": "മത്സര വിവരം",
-      "lines": [
-       "മാക്സിമിലിയാനോക്ക് ഹാട്രിക് ഗോൾ",
-       "പ്രശാന്ത്, ലിയോ ഡേവിഡ് എന്നിവർക്കും ഗോൾ",
-       "കണ്ണൂർ താരം മനോജിന് ചുവപ്പ് കാർഡ്"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "സൂപ്പർ ലീഗ് കേരള ഷീൽഡ് കാലിക്കറ്റ് എഫ്സിക്ക്. കോഴിക്കോട് കോർപ്പറേഷൻ സ്റ്റേഡിയത്തിൽ കണ്ണൂർ വാരിയേഴ്സിനെ എതിരില്ലാത്ത 5 ഗോളുകൾക്കാണ് കാലിക്കറ്റ് തകർത്തത്. ഇതോടെ 8 കളികളിൽ 20 പോയന്റോടെ കാലിക്കറ്റ് പോയന്റ് ടേബിളിൽ ഒന്നാമതായി. കാലിക്കറ്റും മലപ്പുറം എഫ്സിയും സെമി ഫൈനലിൽ ഇടമുറപ്പിച്ചു. മത്സരത്തിൽ കാലിക്കറ്റിനായി മാക്സിമിലിയാനോ ഹാട്രിക് നേടി. ക്യാപ്റ്റൻ പ്രശാന്തും ലിയോ ഡേവിഡും ഓരോ ഗോൾ അടിച്ചു. ഫുട്ബോൾ പ്രേമികളായ കൂട്ടുകാർക്ക് ഇത് ഷെയർ ചെയ്യണേ. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
-   "caption": "⚽ കണ്ണൂരിനെ 5-0ന് തകർത്തു; സൂപ്പർ ലീഗ് കേരള ഷീൽഡ് കാലിക്കറ്റ് എഫ്സിക്ക്, മലപ്പുറവും സെമിയിൽ\n\n📰 പൂർണ വിവരം:\nസൂപ്പർ ലീഗ് കേരള ഷീൽഡ് കാലിക്കറ്റ് എഫ് സി സ്വന്തമാക്കി. രണ്ട് റൗണ്ട് മത്സരങ്ങൾ ശേഷിക്കെ കണ്ണൂർ വാരിയേഴ്സ് എഫ് സിയെ എതിരില്ലാത്ത 5 ഗോളുകൾക്ക് തകർത്താണ് കാലിക്കറ്റ് ഷീൽഡ് ഉറപ്പിച്ചത്. കോഴിക്കോട് കോർപ്പറേഷൻ സ്റ്റേഡിയത്തിൽ നടന്ന എട്ടാം റൗണ്ടിലെ മത്സരത്തിൽ കാലിക്കറ്റിനായി മാക്സിമിലിയാനോ ഹാട്രിക് നേടി. നായകൻ പ്രശാന്തും ലിയോ ഡേവിഡും ഓരോ ഗോളുകൾ അടിച്ചു. എട്ട് കളികളിൽ 20 പോയന്റോടെ കാലിക്കറ്റ് ഒന്നാം സ്ഥാനത്താണ്. എട്ട് റൗണ്ടുകൾ പൂർത്തിയായതോടെ കാലിക്കറ്റ് എഫ്സിയും മലപ്പുറം എഫ്സിയും സെമി ഫൈനലിൽ പ്രവേശിച്ചു. മത്സരത്തിന്റെ 18-ം മിനിറ്റിൽ കണ്ണൂർ താരം എസ് മനോജ് ചുവപ്പ് കാർഡ് കണ്ടു പുറത്തായി.\n📍 സ്ഥലം: കോർപ്പറേഷൻ സ്റ്റേഡിയം, കോഴിക്കോട്\n🏆 വിജയികൾ: കാലിക്കറ്റ് എഫ് സി (5-0)\nഫുട്ബോൾ ആരാധകർക്കായി Share ചെയ്യൂ\n\nCalicut FC win Super League Kerala Shield | Malappuram news\n📍 കോഴിക്കോട് | 16 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #CalicutFC #SuperLeagueKerala #MalappuramNews",
-   "prompts": "Calicut FC's Maximiliano strikes the fifth goal, sealing a 5‑0 victory over Kannur Warriors; Corporation Stadium, Kozhikode – a concrete stadium with green turf and bright floodlights; Calicut players seen from behind sprinting toward the goal, Kannur defenders trailing, referee near the sideline, blurred crowd in the stands; football rolling into the net, goalpost, scoreboard flashing 5‑0, a red card lying on the grass; evening under clear skies, floodlights blazing; camera low angle from the side of the penalty box, 35 mm lens. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nThe Corporation Stadium glows under floodlights as the final minutes of the match unfold; wide view of the stadium’s tiered concrete stands, perimeter walls of laterite, and the illuminated pitch; spectators in Kerala shirts and sarees fill the stands, Calicut and Kannur players positioned on the field, referee and fourth‑official near the halfway line; floodlights, stadium seats, scoreboard showing 5‑0, football in play; night time, artificial lighting, no rain; camera elevated from the stands capturing a panoramic shot, 35 mm lens. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA referee holds up a bright red card after issuing a second‑yellow to Kannur’s S Manoj; sideline of Corporation Stadium, Kozhikode – the grass pitch edged by a white line and a concrete fence; referee’s back and right arm visible, S Manoj’s back turned away, no faces; red card prominently displayed in the referee’s hand, a yellow card on the ground beside it, the penalty spot marked on the turf; evening under floodlights, clear weather; camera close‑up from the side, shallow depth, 35 mm lens Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.asianetnews.com/football-sports/maxi-hattricks-as-calicut-fc-lifts-first-slk-league-shield-articleshow-h9rvsb0",
-   "published": "2026-11-16T10:25:57+05:30",
-   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: numbers not found in the article: 8; stray Malayalam sign 'ാ' after '-' in «റെ 18-ാം മ»; caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 40 ('40-ാം മിനിറ്റിൽ നായകൻ പ്രശാന്തിന്റെ ക്ലിനിക്കൽ ഫിനിഷിൽ കാലിക'); 31 ('https://www.youtube.com/live/s0LLVQeMmtU?si=31j3tChnat66QzkK'); 3 ('https://www.youtube.com/live/s0LLVQeMmtU?si=31j3tChnat66QzkK'); 66 ('https://www.youtube.com/live/s0LLVQeMmtU?si=31j3tChnat66QzkK')",
-   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 3 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 3.0,
-   "auto_images": true
-  }
- ]
+ "stories": []
 }
