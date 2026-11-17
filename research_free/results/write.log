@@ -1,6 +1,6 @@
 writing [N]: വണ്ടൂരിൽ വീട് കുത്തിത്തുറന്ന് 24 പവൻ കവർന്നു | Madhyamam
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -17,7 +17,7 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
@@ -26,9 +26,9 @@ fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch82T1Zf9bjWZ5QsFEPsm"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch84tArwevb4hX5jq4Zp7"}
 earlier stories still waiting for images: []
-instagram check: 69 recent posts read from both pages
+instagram check: 70 recent posts read from both pages
 write round: 1 news waiting in the queue (written in priority order)
 candidate filter: collected=1
 to write: 0 Manjeri + 1 other district candidates (max 200 + 200 stories)
