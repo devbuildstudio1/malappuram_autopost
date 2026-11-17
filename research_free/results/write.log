@@ -1,29 +1,21 @@
-writing [N]: തീറ്റവില കുതിച്ചുയരുന്നു; കോഴിഫാമുകൾ അടച്ചു പൂട്ടൽ ഭീഷണിയിൽ
-writing [N]: തിളക്കമാർന്ന നേട്ടം
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: ഹോസ്റ്റലിൽവച്ച് മലയാളി വിദ്യാർഥിനിയെ തലയ്ക്കടിച്ച് കൊലപ്പെടു
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [R]: ലീഡ്ഹെർഷിപ് ഇന്ന് മഞ്ചേരി യൂനിറ്റി കോളജിൽ | Madhyamam
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
+writing [N]: വണ്ടൂരിൽ വീട് കുത്തിത്തുറന്ന് 24 പവൻ കവർന്നു | Madhyamam
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -36,115 +28,50 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 400: {"errors":[{"message":"AiError: AiError: {\"error\":{\"message\
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 400: {"errors":[{"message":"AiError: AiError: {\"error\":{\"message\
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (29s)
-attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 49 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (37s)
-attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  slide 2 must have 2-3 lines
-  reel_script has 40 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (28s)
-attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 51 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (37s)
-attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 50 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 2,635 ('50 കിലോഗ്രാം തൂക്കമുള്ള ഒരു ചാക്ക് പ്രീസ്റ്റാർട്ടർ തീറ്റയ്ക്'); 2,600 ('50 കിലോഗ്രാം തൂക്കമുള്ള ഒരു ചാക്ക് പ്രീസ്റ്റാർട്ടർ തീറ്റയ്ക്')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (32s)
-attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (38s)
-attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 46 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (27s)
-attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 52 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (32s)
-attempt 5 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  missing key: scenes
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (29s)
-attempt 6 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  sentence 1 (one-line story) has 12 words; make it 6-9 words (about 2-3 seconds), the details follow in the next sentences
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: Expecting ',' delimiter: line 1 column 915 (char 914)
-poor answer - skipped for 30 min: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 400: {"errors":[{"message":"AiError: AiError: {\"error\":{\"message\
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch7W9aNt8Hjce8bcUZdaB"}
-proofread skipped: free models not efficient (6 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (29s)
-attempt 7 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  slide 2 must have 2-3 lines
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-free models unavailable: no free model answered: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch7WAK8shzN2Qdoaw7zCe"}
-proofread skipped: free models not efficient (3 failures in a row): using Claude
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Chicken feed prices soar; small-scale po'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261117-0520","first":"MP-296"}
-posting job started at once
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Sacred Heart School, Kottakkal wins at C'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261117-0523","first":"MP-297"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch7kxLPCRaiWcNnXFRpbA"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch7kxTPdVaPJQKWuQNteT"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch7kxTTbJdY6y8mHDHTwz"}
 earlier stories still waiting for images: []
 instagram check: 69 recent posts read from both pages
-write round: 3 news waiting in the queue (written in priority order)
-candidate filter: collected=3
-to write: 0 Manjeri + 3 other district candidates (max 200 + 200 stories)
-candidates waiting: 0 Manjeri, 3 Malappuram; time left 29 min
-try (N) manual=False: തീറ്റവില കുതിച്ചുയരുന്നു; കോഴിഫാമുകൾ അടച്ചു പൂട്ടൽ ഭീഷണിയിൽ
-try (N) manual=False: തിളക്കമാർന്ന നേട്ടം
-try (N) manual=False: സ്റ്റേവയറിൽ നിന്ന് ഷോക്കേറ്റ് വിദ്യാർത്ഥിയുടെ മരണം ; മനുഷ്യാ
-skip (N) similar to a filed story: സ്റ്റേവയറിൽ നിന്ന് ഷോക്കേറ്റ് വിദ്യാർത്ഥിയുടെ മരണം
-auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})
-posting job started at once
-auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4, 'pollinations': 4})
-candidate loop ended: left R=0 N=0, tried={'R': 0, 'N': 3}, done={'R': 0, 'N': 2}, time left 23 min
-carousel for 0 of 2 stories, the rest reel only
-filed: 0 Manjeri + 2 Malappuram (targets 200 + 200)
-queue: 0 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":2} 
-stories: 2
+write round: 7 news waiting in the queue (written in priority order)
+candidate filter: collected=4, already filed=2, not written=1
+to write: 1 Manjeri + 3 other district candidates (max 200 + 200 stories)
+candidates waiting: 1 Manjeri, 3 Malappuram; time left 29 min
+try (N) manual=False: സ്റ്റേവയറിൽ നിന്നും ഷോക്കേറ്റ് വിദ്യാർഥി മരിച്ച സംഭവം; മനുഷ്
+try (N) manual=False: ഹോസ്റ്റലിൽവച്ച് മലയാളി വിദ്യാർഥിനിയെ തലയ്ക്കടിച്ച് കൊലപ്പെടു
+try (R) manual=False: ലീഡ്ഹെർഷിപ് ഇന്ന് മഞ്ചേരി യൂനിറ്റി കോളജിൽ | Madhyamam
+skip (N) similar to a filed story: സ്റ്റേവയറിൽ നിന്നും ഷോക്കേറ്റ് വിദ്യാർഥി മരിച്ച സം
+try (N) manual=False: വണ്ടൂരിൽ വീട് കുത്തിത്തുറന്ന് 24 പവൻ കവർന്നു | Madhyamam
+NOT filed (N) ഹോസ്റ്റലിൽവച്ച് മലയാളി വിദ്യാർഥിനിയെ തലയ്ക്കടിച്ച്: all free models failed: no usable answer from the models
+NOT filed (N) വണ്ടൂരിൽ വീട് കുത്തിത്തുറന്ന് 24 പവൻ കവർന്നു | Mad: all free models failed: no usable answer from the models
+NOT filed (R) ലീഡ്ഹെർഷിപ് ഇന്ന് മഞ്ചേരി യൂനിറ്റി കോളജിൽ | Madhya: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 3}, done={'R': 0, 'N': 0}, time left 28 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
+queue: 3 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":4} 
+stories: 0
