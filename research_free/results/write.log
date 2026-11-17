@@ -1,47 +1,39 @@
-writing [N]: മെഡിക്കൽ വിദ്യാർഥിനി സാവര്യയെ ലാപ്ടോപ് കൊണ്ട് തലയ്ക്കടിച്ച് 
-writing [N]: തോട്ടിൽ നഷ്ടപ്പെട്ട സ്വർണം മാസങ്ങൾക്കു ശേഷം തിരിച്ചുകിട്ടി; 
+writing [N]: വിവാഹ വാഗ്ദാനം നൽകി പീഡിപ്പിച്ചെന്ന കേസ്; പ്രതിയെ കോടതി വെറു
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 writing [N]: രണ്ടത്താണിയോട് മുഖം തിരിച്ച് ദീർഘദൂര ലിമിറ്റഡ് സ്റ്റോപ്പ്, ഫ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [N]: മെഡിക്കൽ വിദ്യാർഥിനി സാവര്യയെ ലാപ്ടോപ് കൊണ്ട് തലയ്ക്കടിച്ച് 
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.7-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
+    "code": 503,
+    "message": "This model is currently experiencing high d
+switching away from gemini/gemini-3.6-flash for 10 min
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
@@ -52,76 +44,108 @@ fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8TqajyQPqJnF3Lrp4DK"}
-fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.6-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8XFJipk4yUxNaq8NkoY"}
+writing [N]: തോട്ടിൽ നഷ്ടപ്പെട്ട സ്വർണം മാസങ്ങൾക്കു ശേഷം തിരിച്ചുകിട്ടി; 
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8XFKtHL2ZJYpt272yDf"}
 writing [N]: പട്ടാപ്പകൽ യുവാവിൽ നിന്നും 9.95 ലക്ഷം രൂപ കവർച്ച ചെയ്ത കേസിൽ
-free models unavailable: free models not efficient (17 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8TqdfbaqeVUssqepfXo"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8Tqe1BbU4Ybaz1YQW3E"}
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8XFNQ6TGcbWUeAJvDZv"}
+writing [N]: മലപ്പുറത്ത് 13കാരൻ ഷോക്കേറ്റ് മരിച്ച സംഭവം;  മനുഷ്യാവകാശ കമ
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8XFPixQugv87pnL8bec"}
+writing [N]: വണ്ടൂർ വാളോറിങ്ങലിൽ വീട് കുത്തിത്തുറന്ന്  24 പവൻ കവർന്നു
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8XFS7qD3hZk5qwuTsB9"}
+fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8XFVcReHJJDkYqziCrk"}
+writing [R]: പിരിയുവാൻ വയ്യ... ഹനീഫയുടെ കബറിടത്തിൽ എന്നുമെത്തും; സുബ്രൻ മ
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8XFXUXztQe7y75EHEFc"}
+writing [N]: മലപ്പുറത്ത് ജന്തർ മന്ദർ: ഗ്യാനേഷ് കുമാറിനെ പുറത്താക്കി ബാലറ്
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8XFYZXZLHhMebECh6tE"}
+writing [N]: 5000 ബാക്കി വച്ച് 9,95,000 രൂപ പിൻവലിച്ചു; നിലമ്പൂരിൽ ബാങ്കി
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8XFaGTvqUsNYP3xqN1N"}
+writing [N]: മലപ്പുറത്ത് തുടക്കമിട്ടത് കംപ്യൂട്ടർ സാക്ഷരതയ്ക്ക്; ജനകീയ ഡി
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8XFaoxe8fyhBaoibSjQ"}
+writing [N]: പട്ടാപ്പകൽ ആക്രണം, ലക്ഷങ്ങൾ തട്ടിയെടുക്കൽ: നിലമ്പൂർ കവർച്ചയി
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8XFeLnD3dAeLPFUu6CX"}
+writing [N]: കൊണ്ടോട്ടിയുടെ വികസനത്തിന് എ.ഐ ഉൾപ്പെടെയുള്ള സാങ്കേതികവിദ്യക
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8XFifVKLJVBJ7WsqaRj"}
+writing [N]: എന്തൊരു അനാസ്ഥയാണിത്! തിരുത്താനാകാത്ത തെറ്റു സംഭവിച്ചശേഷം മാ
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+writing [N]: പട്ടാപ്പകൽ വഴിയിൽ കാത്തുനിന്നു, പിടിവലിയും കത്തിവീശലും; തട്ട
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8XFkmz3sEjAaEQZi7Tr"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8XFkmzntWh4Dg3KEJyY"}
 fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
 poor answer - skipped for 30 min: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-writing [N]: മലപ്പുറത്ത് 13കാരൻ ഷോക്കേറ്റ് മരിച്ച സംഭവം;  മനുഷ്യാവകാശ കമ
-free models unavailable: free models not efficient (19 failures in a row): using Claude
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` iclaude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8TqfRkRurCvz47sZfRu"}
-writing [N]: വണ്ടൂർ വാളോറിങ്ങലിൽ വീട് കുത്തിത്തുറന്ന്  24 പവൻ കവർന്നു
-
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8Tqg2Udj2KeAgVaq4bu"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8Tqg1UziPPx3RtjC9pE"}
-writing [N]: മലപ്പുറത്ത് തുടക്കമിട്ടത് കംപ്യൂട്ടർ സാക്ഷരതയ്ക്ക്; ജനകീയ ഡി
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8TqhARk2Vys9dapxSU4"}
-writing [R]: പിരിയുവാൻ വയ്യ... ഹനീഫയുടെ കബറിടത്തിൽ എന്നുമെത്തും; സുബ്രൻ മ
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-writing [N]: പട്ടാപ്പകൽ വഴിയിൽ കാത്തുനിന്നു, പിടിവലിയും കത്തിവീശലും; തട്ട
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8Tqi8UhHDCp1LkQ4YKc"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8Tqi8iyQ1YiUG9fbGt3"}
-writing [N]: 5000 ബാക്കി വച്ച് 9,95,000 രൂപ പിൻവലിച്ചു; നിലമ്പൂരിൽ ബാങ്കി
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8TqjS7L76JjcQZJMPHe"}
-writing [N]: എന്തൊരു അനാസ്ഥയാണിത്! തിരുത്താനാകാത്ത തെറ്റു സംഭവിച്ചശേഷം മാ
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8Tqk92fC5WdvgMHmxWf"}
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch8XHQDY6FsV4jE3rncYU"}
 earlier stories still waiting for images: []
 instagram check: 70 recent posts read from both pages
-write round: 12 news waiting in the queue (written in priority order)
-candidate filter: collected=12
-to write: 1 Manjeri + 11 other district candidates (max 200 + 200 stories)
-candidates waiting: 1 Manjeri, 11 Malappuram; time left 29 min
-try (N) manual=False: മെഡിക്കൽ വിദ്യാർഥിനി സാവര്യയെ ലാപ്ടോപ് കൊണ്ട് തലയ്ക്കടിച്ച് 
+write round: 26 news waiting in the queue (written in priority order)
+candidate filter: collected=22, already filed=3, not written=1
+to write: 1 Manjeri + 21 other district candidates (max 200 + 200 stories)
+candidates waiting: 1 Manjeri, 21 Malappuram; time left 29 min
+try (N) manual=False: കരിപ്പൂർ വിമാനത്താവളത്തിൽ വൻ സ്വർണവേട്ട; ഒരു ദിവസം പിടികൂടിയ
+try (N) manual=False: വിവാഹ വാഗ്ദാനം നൽകി പീഡിപ്പിച്ചെന്ന കേസ്; പ്രതിയെ കോടതി വെറു
+try (N) manual=False: 13കാരൻ ഷോക്കേറ്റ് മരിച്ച സംഭവം: കെ.എസ്.ഇ.ബി ഉദ്യോഗസ്ഥന് സസ്
+skip (N) similar to a filed story: 13കാരൻ ഷോക്കേറ്റ് മരിച്ച സംഭവം: കെ.എസ്.ഇ.ബി ഉദ്യോ
+try (N) manual=False: ഷോക്കേറ്റ് വിദ്യാർഥി മരിച്ച സംഭവം; ചീഫ് എൻജിനീയറുടെ നേതൃത്വത
+skip (N) similar to a filed story: ഷോക്കേറ്റ് വിദ്യാർഥി മരിച്ച സംഭവം; ചീഫ് എൻജിനീയറുട
+try (N) manual=False: സ്റ്റേവയറിൽ നിന്ന് ഷോക്കേറ്റ് വിദ്യാർഥി മരിച്ച സംഭവം: സഹികെട
+skip (N) could not open: സ്റ്റേവയറിൽ നിന്ന് ഷോക്കേറ്റ് വിദ്യാർഥി മരിച്ച സംഭ [https://www.kairalinewsonline.com/ml/news/malappuram-student] 403 Client Error: Forbidden for url: https://www.kairalinewsonline.com/ml/news/m
 try (N) manual=False: രണ്ടത്താണിയോട് മുഖം തിരിച്ച് ദീർഘദൂര ലിമിറ്റഡ് സ്റ്റോപ്പ്, ഫ
+skip (N) similar to a filed story: കരിപ്പൂർ വിമാനത്താവളത്തിൽ വൻ സ്വർണവേട്ട; ഒരു ദിവസം
+try (N) manual=False: മെഡിക്കൽ വിദ്യാർഥിനി സാവര്യയെ ലാപ്ടോപ് കൊണ്ട് തലയ്ക്കടിച്ച് 
+NOT filed (N) വിവാഹ വാഗ്ദാനം നൽകി പീഡിപ്പിച്ചെന്ന കേസ്; പ്രതിയെ : all free models failed: no usable answer from the models
 try (N) manual=False: തോട്ടിൽ നഷ്ടപ്പെട്ട സ്വർണം മാസങ്ങൾക്കു ശേഷം തിരിച്ചുകിട്ടി; 
-NOT filed (N) രണ്ടത്താണിയോട് മുഖം തിരിച്ച് ദീർഘദൂര ലിമിറ്റഡ് സ്റ: all free models failed: no usable answer from the models
-try (N) manual=False: പട്ടാപ്പകൽ യുവാവിൽ നിന്നും 9.95 ലക്ഷം രൂപ കവർച്ച ചെയ്ത കേസിൽ
 NOT filed (N) തോട്ടിൽ നഷ്ടപ്പെട്ട സ്വർണം മാസങ്ങൾക്കു ശേഷം തിരിച്: all free models failed: no usable answer from the models
-try (N) manual=False: മലപ്പുറത്ത് 13കാരൻ ഷോക്കേറ്റ് മരിച്ച സംഭവം;  മനുഷ്യാവകാശ കമ
+try (N) manual=False: പട്ടാപ്പകൽ യുവാവിൽ നിന്നും 9.95 ലക്ഷം രൂപ കവർച്ച ചെയ്ത കേസിൽ
 NOT filed (N) പട്ടാപ്പകൽ യുവാവിൽ നിന്നും 9.95 ലക്ഷം രൂപ കവർച്ച ച: all free models failed: no usable answer from the models
-try (N) manual=False: വണ്ടൂർ വാളോറിങ്ങലിൽ വീട് കുത്തിത്തുറന്ന്  24 പവൻ കവർന്നു
+try (N) manual=False: മലപ്പുറത്ത് 13കാരൻ ഷോക്കേറ്റ് മരിച്ച സംഭവം;  മനുഷ്യാവകാശ കമ
 NOT filed (N) മലപ്പുറത്ത് 13കാരൻ ഷോക്കേറ്റ് മരിച്ച സംഭവം;  മനുഷ: all free models failed: no usable answer from the models
-try (N) manual=False: പട്ടാപ്പകൽ വഴിയിൽ കാത്തുനിന്നു, പിടിവലിയും കത്തിവീശലും; തട്ട
-NOT filed (N) മെഡിക്കൽ വിദ്യാർഥിനി സാവര്യയെ ലാപ്ടോപ് കൊണ്ട് തലയ്: all free models failed: no usable answer from the models
-try (N) manual=False: മലപ്പുറത്ത് തുടക്കമിട്ടത് കംപ്യൂട്ടർ സാക്ഷരതയ്ക്ക്; ജനകീയ ഡി
+try (N) manual=False: വണ്ടൂർ വാളോറിങ്ങലിൽ വീട് കുത്തിത്തുറന്ന്  24 പവൻ കവർന്നു
 NOT filed (N) വണ്ടൂർ വാളോറിങ്ങലിൽ വീട് കുത്തിത്തുറന്ന്  24 പവൻ ക: all free models failed: no usable answer from the models
+try (N) manual=False: നിലമ്പൂരിൽ പട്ടാപ്പകൽ 9.95 ലക്ഷം രൂപ കവർന്ന കേസ്; 24 മണിക്കൂ
+NOT filed (N) മെഡിക്കൽ വിദ്യാർഥിനി സാവര്യയെ ലാപ്ടോപ് കൊണ്ട് തലയ്: all free models failed: no usable answer from the models
 try (R) manual=False: പിരിയുവാൻ വയ്യ... ഹനീഫയുടെ കബറിടത്തിൽ എന്നുമെത്തും; സുബ്രൻ മ
-NOT filed (N) മലപ്പുറത്ത് തുടക്കമിട്ടത് കംപ്യൂട്ടർ സാക്ഷരതയ്ക്ക്: all free models failed: no usable answer from the models
-try (N) manual=False: കൊണ്ടോട്ടിയുടെ വികസനത്തിന് എ.ഐ ഉൾപ്പെടെയുള്ള സാങ്കേതികവിദ്യക
-NOT filed (N) പട്ടാപ്പകൽ വഴിയിൽ കാത്തുനിന്നു, പിടിവലിയും കത്തിവീ: all free models failed: no usable answer from the models
-try (N) manual=False: എന്തൊരു അനാസ്ഥയാണിത്! തിരുത്താനാകാത്ത തെറ്റു സംഭവിച്ചശേഷം മാ
 NOT filed (R) പിരിയുവാൻ വയ്യ... ഹനീഫയുടെ കബറിടത്തിൽ എന്നുമെത്തും: all free models failed: no usable answer from the models
+try (N) manual=False: മലപ്പുറത്ത് ജന്തർ മന്ദർ: ഗ്യാനേഷ് കുമാറിനെ പുറത്താക്കി ബാലറ്
+skip (N) similar to a filed story: നിലമ്പൂരിൽ പട്ടാപ്പകൽ 9.95 ലക്ഷം രൂപ കവർന്ന കേസ്; 
+try (N) manual=False: മലപ്പുറത്ത് തുടക്കമിട്ടത് കംപ്യൂട്ടർ സാക്ഷരതയ്ക്ക്; ജനകീയ ഡി
+NOT filed (N) മലപ്പുറത്ത് ജന്തർ മന്ദർ: ഗ്യാനേഷ് കുമാറിനെ പുറത്താ: all free models failed: no usable answer from the models
 try (N) manual=False: 5000 ബാക്കി വച്ച് 9,95,000 രൂപ പിൻവലിച്ചു; നിലമ്പൂരിൽ ബാങ്കി
 NOT filed (N) 5000 ബാക്കി വച്ച് 9,95,000 രൂപ പിൻവലിച്ചു; നിലമ്പൂ: all free models failed: no usable answer from the models
+try (N) manual=False: പട്ടാപ്പകൽ ആക്രണം, ലക്ഷങ്ങൾ തട്ടിയെടുക്കൽ: നിലമ്പൂർ കവർച്ചയി
+NOT filed (N) മലപ്പുറത്ത് തുടക്കമിട്ടത് കംപ്യൂട്ടർ സാക്ഷരതയ്ക്ക്: all free models failed: no usable answer from the models
+try (N) manual=False: കൊണ്ടോട്ടിയുടെ വികസനത്തിന് എ.ഐ ഉൾപ്പെടെയുള്ള സാങ്കേതികവിദ്യക
+NOT filed (N) പട്ടാപ്പകൽ ആക്രണം, ലക്ഷങ്ങൾ തട്ടിയെടുക്കൽ: നിലമ്പൂ: all free models failed: no usable answer from the models
+try (N) manual=False: ഓഫീസിൽ പരാതി നൽകിയിട്ടും എന്തുകൊണ്ട് ഗൗനിച്ചില്ല! തിരൂരങ്ങാട
+NOT filed (N) കൊണ്ടോട്ടിയുടെ വികസനത്തിന് എ.ഐ ഉൾപ്പെടെയുള്ള സാങ്ക: all free models failed: no usable answer from the models
+try (N) manual=False: Malappuram Obituary | മലപ്പുറം ചരമ വാർത്ത | Kerala Kaumudi
+skip (N) could not open: Malappuram Obituary | മലപ്പുറം ചരമ വാർത്ത | Kerala [https://www.keralakaumudi.com/news/mobile/sub-section.php?ci] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/news/mobile/s
+try (N) manual=False: എന്തൊരു അനാസ്ഥയാണിത്! തിരുത്താനാകാത്ത തെറ്റു സംഭവിച്ചശേഷം മാ
+skip (N) similar to a filed story: ഓഫീസിൽ പരാതി നൽകിയിട്ടും എന്തുകൊണ്ട് ഗൗനിച്ചില്ല! 
+try (N) manual=False: പട്ടാപ്പകൽ വഴിയിൽ കാത്തുനിന്നു, പിടിവലിയും കത്തിവീശലും; തട്ട
+NOT filed (N) പട്ടാപ്പകൽ വഴിയിൽ കാത്തുനിന്നു, പിടിവലിയും കത്തിവീ: all free models failed: no usable answer from the models
 NOT filed (N) എന്തൊരു അനാസ്ഥയാണിത്! തിരുത്താനാകാത്ത തെറ്റു സംഭവി: all free models failed: no usable answer from the models
-skip (N) could not open: കൊണ്ടോട്ടിയുടെ വികസനത്തിന് എ.ഐ ഉൾപ്പെടെയുള്ള സാങ്ക [https://timeskerala.com/kerala/kondotty-next-vision-2040-2/] HTTPSConnectionPool(host='timeskerala.com', port=443): Read timed out. (read tim
-candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 11}, done={'R': 0, 'N': 0}, time left 27 min
+NOT filed (N) രണ്ടത്താണിയോട് മുഖം തിരിച്ച് ദീർഘദൂര ലിമിറ്റഡ് സ്റ: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 1, 'N': 21}, done={'R': 0, 'N': 0}, time left 27 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
-queue: 12 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":12} 
+queue: 17 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":18} 
 stories: 0
