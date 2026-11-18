@@ -1,90 +1,132 @@
 writing [N]: ‘ടൂറിസം എന്റെ പാഷൻ, ബേപ്പൂരിൽ മത്സരിച്ചത് തോറ്റാൽ KTDC ചെയർമ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: നിലമ്പൂർ പണം കവർച്ചാക്കേസിൽ വൻ ട്വിസ്റ്റ്; ഫിറോസിനെ ആക്രമിച്
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: കുട്ടി ഡ്രൈവർമാരിൽ മുന്നിൽ മലപ്പുറം; ഒരാഴ്ചയ്ക്കിടെ സംസ്ഥാനത
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-writing [N]: കുട്ടി ഡ്രൈവർമാരിൽ മുന്നിൽ മലപ്പുറം; ഒരാഴ്ചയ്ക്കിടെ സംസ്ഥാനത
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-writing [N]: നിലമ്പൂർ പണം കവർച്ചാക്കേസിൽ വൻ ട്വിസ്റ്റ്; ഫിറോസിനെ ആക്രമിച്
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+switching away from gemini/gemini-3.8-flash for 10 min
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChAAwAbN2pWC4KK8DtEbx"}
+ok gemini/gemini-3.6-flash (36s)
+attempt 1 gemini/gemini-3.6-flash: 2 problems
+  reel_script has 54 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 5 ('ആലപ്പുഴ, തിരുവനന്തപുരം സിറ്റി എന്നിവിടങ്ങളിൽ 5 വീതവും കോട്ടയ'); 4 ('ആലപ്പുഴ, തിരുവനന്തപുരം സിറ്റി എന്നിവിടങ്ങളിൽ 5 വീതവും കോട്ടയ'); 3 ('ആലപ്പുഴ, തിരുവനന്തപുരം സിറ്റി എന്നിവിടങ്ങളിൽ 5 വീതവും കോട്ടയ'); 10,961 ('ഏറ്റവും കൂടുതൽ വാഹന പരിശോധന നടന്നത് കൊച്ചി നഗരത്തിലാണ് (10,9')
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChAAwJ6YyYVmGzwahQz5V"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [N]: 'ബേപ്പൂരിൽ തോറ്റാൽ കെടിഡിസി ചെയർമാനാക്കണമെന്ന് ഉപാധി വച്ചിരു
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChA7rU5M1sD6poS7eufSt"}
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChAAwjsLoFP3HhaWJd78s"}
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
 writing [N]: വിവിധ ജില്ലകളിലായി വാടകവീടെടുത്ത് താമസിക്കും, പിന്നെ ആ പ്രദേ
-free models unavailable: free models not efficient (19 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChA7rW7NU9dqMouWSvovT"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChA7rbTbQDuhzUzWzCo1y"}
-writing [N]: കരിപ്പൂർ വിമാനത്താവളത്തിന്റെ സാധ്യതകൾ പ്രയോജനപ്പെടുത്തി കൊണ്
-free models unavailable: free models not efficient (20 failures in a row): using Claude
+free models unavailable: free models not efficient (5 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChAAwkpPhShHftMkujXP7"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChAAwmBjBztoXriZ3JpVw"}
 writing [N]: കെടിഡിസി ചെയർമാൻ സ്ഥാനം ആവശ്യപ്പെട്ട് കത്ത് നൽകി; തുറന്ന് പറ
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChA7rdVstBQDCnBHEmDmA"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChA7rdd4Uyq8TEYBz4VDP"}
-writing [N]: പ്രായം വെറും അക്കം; എഴുപതിന്റെ നിറവിൽ ബിരുദാനന്തര ബിരുദ തിളക
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChA7rewwrZhpM4fgooBbo"}
-writing [N]: പി.സി.ഡബ്ല്യു.എഫ് ജലീബ്- ഫർവാനിയ മേഖലാ ജനറൽ ബോഡി | Madhyamam
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChA7rfnYnYevvtZ1iJ7ht"}
+free models unavailable: free models not efficient (5 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChAAwnUNNzsCfw4ZqYtaC"}
+ok groq/openai/gpt-oss-120b (6s)
+proofread rejected (3 problems)
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 writing [N]: മണലെടുപ്പ് വൈകും; 14 നദികൾ,189 കടവുകൾ, അതിർത്തിനിർണയം നീളുന്
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChA7rhsK94sKV7o8pFc17"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChAAwtJ7ErzyoEzniNFqp"}
+writing [N]: പ്രായം വെറും അക്കം; എഴുപതിന്റെ നിറവിൽ ബിരുദാനന്തര ബിരുദ തിളക
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChAAwxJDSPLsp585B3TL4"}
+writing [N]: പി.സി.ഡബ്ല്യു.എഫ് ജലീബ്- ഫർവാനിയ മേഖലാ ജനറൽ ബോഡി | Madhyamam
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChAAwyJEJNz8ReN5VCLNB"}
+writing [N]: കരിപ്പൂർ വിമാനത്താവളത്തിന്റെ സാധ്യതകൾ പ്രയോജനപ്പെടുത്തി കൊണ്
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChAAwzbNmabXrhy5xeb7K"}
 writing [N]: ജനസംഖ്യയിൽ വല്ലാതെ തടിച്ചു, ആരോഗ്യകേന്ദ്രങ്ങളിൽ ബഹുദൂരം മെലി
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChA7rkCT46jDFhvtwdoMK"}
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChAAx1sGSVYkG4sCPnWWv"}
 writing [N]: പ്രായപൂർത്തിയാകാത്തവരുടെ ഡ്രൈവിങ്: പിടിയിലായവരിൽ പകുതിയോളം മ
-free models unavailable: free models not efficient (20 failures in a row): using Claude
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChA7rkxqmuiojAm21yJgK"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChA7rmFCipFFw2FtcmcUG"}
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChAAx3bhV3GmwsHesCLUN"}
+ok groq/openai/gpt-oss-120b (3s)
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+image match: False The image shows a person in a military/police uniform riding a vehicle, which does not depict underage driving or traffi
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 3 for 'Malappuram tops Kerala in underage drivi'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261118-1512","first":"MP-315"}
+posting job started at once
+write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 71 recent posts read from all pages
 write round: 12 news waiting in the queue (written in priority order)
@@ -96,28 +138,30 @@ try (N) manual=False: നിലമ്പൂർ പണം കവർച്ചാ�
 try (N) manual=False: ‘ടൂറിസം എന്റെ പാഷൻ, ബേപ്പൂരിൽ മത്സരിച്ചത് തോറ്റാൽ KTDC ചെയർമ
 NOT filed (N) ‘ടൂറിസം എന്റെ പാഷൻ, ബേപ്പൂരിൽ മത്സരിച്ചത് തോറ്റാൽ : all free models failed: no usable answer from the models
 try (N) manual=False: 'ബേപ്പൂരിൽ തോറ്റാൽ കെടിഡിസി ചെയർമാനാക്കണമെന്ന് ഉപാധി വച്ചിരു
-skip (N) could not open: 'ബേപ്പൂരിൽ തോറ്റാൽ കെടിഡിസി ചെയർമാനാക്കണമെന്ന് ഉപാ [https://www.keralakaumudi.com/kerala/general/pv-anwar-ktdc-c] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera
-try (N) manual=False: വിവിധ ജില്ലകളിലായി വാടകവീടെടുത്ത് താമസിക്കും, പിന്നെ ആ പ്രദേ
-NOT filed (N) വിവിധ ജില്ലകളിലായി വാടകവീടെടുത്ത് താമസിക്കും, പിന്: all free models failed: no usable answer from the models
-try (N) manual=False: കരിപ്പൂർ വിമാനത്താവളത്തിന്റെ സാധ്യതകൾ പ്രയോജനപ്പെടുത്തി കൊണ്
 NOT filed (N) നിലമ്പൂർ പണം കവർച്ചാക്കേസിൽ വൻ ട്വിസ്റ്റ്; ഫിറോസിന: all free models failed: no usable answer from the models
+try (N) manual=False: വിവിധ ജില്ലകളിലായി വാടകവീടെടുത്ത് താമസിക്കും, പിന്നെ ആ പ്രദേ
+NOT filed (N) 'ബേപ്പൂരിൽ തോറ്റാൽ കെടിഡിസി ചെയർമാനാക്കണമെന്ന് ഉപാ: all free models failed: no usable answer from the models
+try (N) manual=False: കരിപ്പൂർ വിമാനത്താവളത്തിന്റെ സാധ്യതകൾ പ്രയോജനപ്പെടുത്തി കൊണ്
+NOT filed (N) വിവിധ ജില്ലകളിലായി വാടകവീടെടുത്ത് താമസിക്കും, പിന്: all free models failed: no usable answer from the models
 try (N) manual=False: കെടിഡിസി ചെയർമാൻ സ്ഥാനം ആവശ്യപ്പെട്ട് കത്ത് നൽകി; തുറന്ന് പറ
-NOT filed (N) കരിപ്പൂർ വിമാനത്താവളത്തിന്റെ സാധ്യതകൾ പ്രയോജനപ്പെട: all free models failed: no usable answer from the models
-try (N) manual=False: മണലെടുപ്പ് വൈകും; 14 നദികൾ,189 കടവുകൾ, അതിർത്തിനിർണയം നീളുന്
 NOT filed (N) കെടിഡിസി ചെയർമാൻ സ്ഥാനം ആവശ്യപ്പെട്ട് കത്ത് നൽകി; : all free models failed: no usable answer from the models
+try (N) manual=False: മണലെടുപ്പ് വൈകും; 14 നദികൾ,189 കടവുകൾ, അതിർത്തിനിർണയം നീളുന്
+NOT filed (N) മണലെടുപ്പ് വൈകും; 14 നദികൾ,189 കടവുകൾ, അതിർത്തിനിർ: all free models failed: no usable answer from the models
 try (N) manual=False: പ്രായം വെറും അക്കം; എഴുപതിന്റെ നിറവിൽ ബിരുദാനന്തര ബിരുദ തിളക
 NOT filed (N) പ്രായം വെറും അക്കം; എഴുപതിന്റെ നിറവിൽ ബിരുദാനന്തര : all free models failed: no usable answer from the models
 try (N) manual=False: പി.സി.ഡബ്ല്യു.എഫ് ജലീബ്- ഫർവാനിയ മേഖലാ ജനറൽ ബോഡി | Madhyamam
 NOT filed (N) പി.സി.ഡബ്ല്യു.എഫ് ജലീബ്- ഫർവാനിയ മേഖലാ ജനറൽ ബോഡി |: all free models failed: no usable answer from the models
 try (N) manual=False: ജനസംഖ്യയിൽ വല്ലാതെ തടിച്ചു, ആരോഗ്യകേന്ദ്രങ്ങളിൽ ബഹുദൂരം മെലി
-NOT filed (N) മണലെടുപ്പ് വൈകും; 14 നദികൾ,189 കടവുകൾ, അതിർത്തിനിർ: all free models failed: no usable answer from the models
+NOT filed (N) കരിപ്പൂർ വിമാനത്താവളത്തിന്റെ സാധ്യതകൾ പ്രയോജനപ്പെട: all free models failed: no usable answer from the models
 try (N) manual=False: പ്രായപൂർത്തിയാകാത്തവരുടെ ഡ്രൈവിങ്: പിടിയിലായവരിൽ പകുതിയോളം മ
 NOT filed (N) ജനസംഖ്യയിൽ വല്ലാതെ തടിച്ചു, ആരോഗ്യകേന്ദ്രങ്ങളിൽ ബഹ: all free models failed: no usable answer from the models
 NOT filed (N) പ്രായപൂർത്തിയാകാത്തവരുടെ ഡ്രൈവിങ്: പിടിയിലായവരിൽ പ: all free models failed: no usable answer from the models
-NOT filed (N) കുട്ടി ഡ്രൈവർമാരിൽ മുന്നിൽ മലപ്പുറം; ഒരാഴ്ചയ്ക്കിട: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 12, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
-carousel for 0 of 0 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 12 news waiting to be written
+auto images: 1 of 1 stories ({'pollinations': 4})
+posting job started at once
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 12, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 26 min
+carousel for 0 of 1 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)
+queue: 11 news waiting to be written
+write_stories.yml started
 All News sheet: {"ok":true,"added":0,"updated":12} 
-stories: 0
+stories: 1
