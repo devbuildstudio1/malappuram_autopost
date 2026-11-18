@@ -1,11 +1,169 @@
+writing [N]: പുലിപ്പൂച്ചയെന്ന് സംശയം; കൂട്ടിലടച്ച വളർത്തുനായയെ കടിച്ചുകൊന
+writing [R]: വണ്ടൂരിൽ വീട്ടിൽ ആരുമില്ലാത്ത സമയത്ത് മോഷണം; കവർന്നത് 24 പവൻ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [R]: പകൽ വസ്ത്രവ്യാപാരി, രാത്രി കൊടുംകള്ളൻ; നൂറോളം മോഷണക്കേസുകളില
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChANeKjTAzB2UKCxE6AFR"}
+writing [N]: 24 പവൻ സ്വർണം കവർന്നു; മലപ്പുറത്ത് വീട്ടിൽ ആരും ഇല്ലാത്ത സമയ
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChANeXBme57Cat4K9KQfZ"}
+writing [R]: നൂറോളം മോഷണക്കേസുകളിൽ പ്രതി; കാവനൂരിൽ പണിയുന്നത് ആഡംബര വീട്
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChANeYpFsxafKdiXuxwYL"}
+writing [N]: സ്മാർട്ട് വാച്ചിന് വാറൻറി നിഷേധിച്ചു; ഉപഭോക്താവിന് 58999 രൂപ
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChANeaPWeY1qy5DFPGDhL"}
+writing [N]: ‘ടൂറിസം എന്റെ പാഷൻ, ബേപ്പൂരിൽ മത്സരിച്ചത് തോറ്റാൽ KTDC ചെയർമ
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChANebNoNHhKmwtTgsTSV"}
+writing [N]: സ്വർണം തേച്ചുപിടിപ്പിച്ച പാന്റ്സ് ധരിച്ച് യാത്രക്കാരൻ; വിമാന
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChANedCvUqbaKs85kLQd5"}
+writing [N]: പി.സി.ഡബ്ല്യു.എഫ് ജലീബ്- ഫർവാനിയ മേഖലാ ജനറൽ ബോഡി | Madhyamam
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChANei29BiAKjFFLD9ETq"}
+writing [R]: കുടുംബം വീട്ടിലില്ലാത്ത സമയം കൃത്യമായി നോക്കിയെത്തി; പിന്നാല
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChANf2D2XC6BhqZ8Ystuq"}
+writing [N]: ബ്രസീലിയൻ ഗോളടി യന്ത്രത്തെ റാഞ്ചി; മലപ്പുറം എഫ്.സി ഇനി ട്രിപ
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChANf7E9gcsGdBro6vLD8"}
+writing [N]: സ്വർണ മിശ്രിതം തേച്ചുപിടിപ്പിച്ച ജീൻസ്, ക്യാപ്സ്യൂൾ; കരിപ്പൂ
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChANf9dmeBimQwrnttSa8"}
+writing [N]: പ്രായം വെറും അക്കം; എഴുപതിന്റെ നിറവിൽ ബിരുദാനന്തര ബിരുദ തിളക
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChANfC67FPqDxqLpfXJr8"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChANfDHYCnUQUHa9QBgu8"}
+writing [R]: എസി ഉപയോഗിച്ചും വൈദ്യുതി ബിൽ കുറയ്ക്കാം
+free models unavailable: free models not efficient (19 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChANfGrLrjoDqxb58zArQ"}
+writing [N]: കലോത്സവ വേദി സംഘർഷഭൂമിയായി; കളിയാക്കിയതിന് വിദ്യാർത്ഥികൾ തമ്
+free models unavailable: free models not efficient (19 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChANfHkfGSRbJiUPDkREh"}
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChANfqwBFvYgVSAVy9kTM"}
 earlier stories still waiting for images: []
 instagram check: 71 recent posts read from all pages
-write round: 8 news waiting in the queue (written in priority order)
-candidate filter: checked earlier=8
-to write: 0 Manjeri + 0 Kondotty + 0 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Kondotty, 0 Malappuram; time left 29 min
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 0, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+write round: 24 news waiting in the queue (written in priority order)
+candidate filter: collected=22, already filed=2
+to write: 9 Manjeri + 0 Kondotty + 13 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 9 Manjeri, 0 Kondotty, 13 Malappuram; time left 29 min
+try (R) manual=False: മഞ്ചേരിയിൽ ഹോട്ടലിൽ നിന്ന് ഭക്ഷണം കഴിച്ച 35 പേർക്ക് മഞ്ഞപ്പി
+try (N) manual=False: പുലിപ്പൂച്ചയെന്ന് സംശയം; കൂട്ടിലടച്ച വളർത്തുനായയെ കടിച്ചുകൊന
+try (N) manual=False: സ്റ്റേ വയറിൽ നിന്ന് ഷോക്കേറ്റ് വിദ്യാർത്ഥിയുടെ മരണം: നടപടിയു
+skip (R) similar to a filed story: മഞ്ചേരിയിൽ ഹോട്ടലിൽ നിന്ന് ഭക്ഷണം കഴിച്ച 35 പേർക്ക
+try (R) manual=False: വണ്ടൂരിൽ വീട്ടിൽ ആരുമില്ലാത്ത സമയത്ത് മോഷണം; കവർന്നത് 24 പവൻ
+skip (N) similar to a filed story: സ്റ്റേ വയറിൽ നിന്ന് ഷോക്കേറ്റ് വിദ്യാർത്ഥിയുടെ മരണ
+try (R) manual=False: പകൽ വസ്ത്രവ്യാപാരി, രാത്രി കൊടുംകള്ളൻ; നൂറോളം മോഷണക്കേസുകളില
+NOT filed (R) വണ്ടൂരിൽ വീട്ടിൽ ആരുമില്ലാത്ത സമയത്ത് മോഷണം; കവർന്: all free models failed: no usable answer from the models
+try (R) manual=False: 'വസ്ത്രവ്യാപാരിയായി ആഡംബര കാറുകളിൽ കറക്കം, പൂട്ടിക്കിടക്കുന്
+skip (R) similar to a filed story: 'വസ്ത്രവ്യാപാരിയായി ആഡംബര കാറുകളിൽ കറക്കം, പൂട്ടിക
+try (R) manual=False: പകൽ വസ്ത്ര വ്യാപാരി; സ്വന്തമായി ആഡംബര വീടും ആഡംബര കാറുകളിൽ ക
+skip (R) similar to a filed story: പകൽ വസ്ത്ര വ്യാപാരി; സ്വന്തമായി ആഡംബര വീടും ആഡംബര 
+try (R) manual=False: പകൽ വസ്ത്രവ്യാപാരി, രാത്രി മഞ്ചേരിയെ ഞെട്ടിക്കുന്ന മോഷ്ടാവ് 
+skip (R) similar to a filed story: പകൽ വസ്ത്രവ്യാപാരി, രാത്രി മഞ്ചേരിയെ ഞെട്ടിക്കുന്ന
+try (N) manual=False: വഴിക്കടവിൽ വീണ്ടും പുലിയിറങ്ങി; വളർത്തുനായയെ കൊന്നു, ഭീതിയൊഴ
+skip (N) similar to a filed story: വഴിക്കടവിൽ വീണ്ടും പുലിയിറങ്ങി; വളർത്തുനായയെ കൊന്ന
+try (N) manual=False: 24 പവൻ സ്വർണ കവർന്നു; മലപ്പുറത്ത് വീട്ടിൽ ആരും ഇല്ലാത്ത സമയത
+NOT filed (N) 24 പവൻ സ്വർണം കവർന്നു; മലപ്പുറത്ത് വീട്ടിൽ ആരും ഇല: all free models failed: no usable answer from the models
+try (R) manual=False: നൂറോളം മോഷണക്കേസുകളിൽ പ്രതി; കാവനൂരിൽ പണിയുന്നത് ആഡംബര വീട്
+NOT filed (R) നൂറോളം മോഷണക്കേസുകളിൽ പ്രതി; കാവനൂരിൽ പണിയുന്നത് ആ: all free models failed: no usable answer from the models
+try (N) manual=False: സ്മാർട്ട് വാച്ചിന് വാറൻറി നിഷേധിച്ചു; ഉപഭോക്താവിന് 58999 രൂപ
+NOT filed (N) സ്മാർട്ട് വാച്ചിന് വാറൻറി നിഷേധിച്ചു; ഉപഭോക്താവിന്: all free models failed: no usable answer from the models
+try (N) manual=False: ‘ടൂറിസം എന്റെ പാഷൻ, ബേപ്പൂരിൽ മത്സരിച്ചത് തോറ്റാൽ KTDC ചെയർമ
+NOT filed (N) ‘ടൂറിസം എന്റെ പാഷൻ, ബേപ്പൂരിൽ മത്സരിച്ചത് തോറ്റാൽ : all free models failed: no usable answer from the models
+try (N) manual=False: സ്വർണം തേച്ചുപിടിപ്പിച്ച പാന്റ്സ് ധരിച്ച് യാത്രക്കാരൻ; വിമാന
+NOT filed (N) സ്വർണം തേച്ചുപിടിപ്പിച്ച പാന്റ്സ് ധരിച്ച് യാത്രക്ക: all free models failed: no usable answer from the models
+try (N) manual=False: കെടിഡിസി ചെയർമാൻ സ്ഥാനം ആവശ്യപ്പെട്ട് കത്ത് നൽകി; തുറന്ന് പറ
+skip (N) similar to a filed story: കെടിഡിസി ചെയർമാൻ സ്ഥാനം ആവശ്യപ്പെട്ട് കത്ത് നൽകി; 
+try (N) manual=False: പി.സി.ഡബ്ല്യു.എഫ് ജലീബ്- ഫർവാനിയ മേഖലാ ജനറൽ ബോഡി | Madhyamam
+NOT filed (N) പി.സി.ഡബ്ല്യു.എഫ് ജലീബ്- ഫർവാനിയ മേഖലാ ജനറൽ ബോഡി |: all free models failed: no usable answer from the models
+try (R) manual=False: കുടുംബം വീട്ടിലില്ലാത്ത സമയം കൃത്യമായി നോക്കിയെത്തി; പിന്നാല
+NOT filed (R) കുടുംബം വീട്ടിലില്ലാത്ത സമയം കൃത്യമായി നോക്കിയെത്ത: all free models failed: no usable answer from the models
+try (N) manual=False: ബ്രസീലിയൻ ഗോളടി യന്ത്രത്തെ റാഞ്ചി; മലപ്പുറം എഫ്.സി ഇനി ട്രിപ
+NOT filed (N) ബ്രസീലിയൻ ഗോളടി യന്ത്രത്തെ റാഞ്ചി; മലപ്പുറം എഫ്.സി: all free models failed: no usable answer from the models
+try (N) manual=False: സ്വർണ മിശ്രിതം തേച്ചുപിടിപ്പിച്ച ജീൻസ്, ക്യാപ്സ്യൂൾ; കരിപ്പൂ
+NOT filed (N) സ്വർണ മിശ്രിതം തേച്ചുപിടിപ്പിച്ച ജീൻസ്, ക്യാപ്സ്യൂ: all free models failed: no usable answer from the models
+try (N) manual=False: പ്രായം വെറും അക്കം; എഴുപതിന്റെ നിറവിൽ ബിരുദാനന്തര ബിരുദ തിളക
+NOT filed (N) പ്രായം വെറും അക്കം; എഴുപതിന്റെ നിറവിൽ ബിരുദാനന്തര : all free models failed: no usable answer from the models
+try (N) manual=False: കലോത്സവ വേദി സംഘർഷഭൂമിയായി; കളിയാക്കിയതിന് വിദ്യാർത്ഥികൾ തമ്
+NOT filed (R) പകൽ വസ്ത്രവ്യാപാരി, രാത്രി കൊടുംകള്ളൻ; നൂറോളം മോഷണ: all free models failed: no usable answer from the models
+try (R) manual=False: എസി ഉപയോഗിച്ചും വൈദ്യുതി ബിൽ കുറയ്ക്കാം
+NOT filed (R) എസി ഉപയോഗിച്ചും വൈദ്യുതി ബിൽ കുറയ്ക്കാം: all free models failed: no usable answer from the models
+NOT filed (N) കലോത്സവ വേദി സംഘർഷഭൂമിയായി; കളിയാക്കിയതിന് വിദ്യാർ: all free models failed: no usable answer from the models
+NOT filed (N) പുലിപ്പൂച്ചയെന്ന് സംശയം; കൂട്ടിലടച്ച വളർത്തുനായയെ : all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 9, 'N': 13, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 0 news waiting to be written 
+queue: 15 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":15} 
 stories: 0
