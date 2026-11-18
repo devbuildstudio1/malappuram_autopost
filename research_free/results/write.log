@@ -4,9 +4,9 @@ writing [N]: വഴിക്കടവിൽ പുലിഭീതി ഒഴി�
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -33,62 +33,192 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9PA4jtWHy5zWpJwawj9"}
-writing [N]: പകൽ ആഡംബര കാറിൽ ചുറ്റിക്കറങ്ങും; ആളുകളോട് സംസാരിച്ച് വിവരങ്ങ
-free models unavailable: free models not efficient (17 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9PA5yoeHEo6Dy1V8x41"}
-writing [N]: ഒന്നരവർഷത്തെ കാത്തിരിപ്പിനൊടുവിൽ ടാറിങ് നാളെ തുടങ്ങും
-free models unavailable: free models not efficient (17 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9PA7JvDC9dxf7cnRVWs"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9PABPEXK7qagSiarqnG"}
-writing [R]: നൂറോളം മോഷണക്കേസുകളിൽ പ്രതി; കാവനൂരിൽ പണിയുന്നത് ആഡംബര വീട്
-free models unavailable: writing [N]: നീണ്ട ഇടവേളക്ക് ശേഷം കണ്ണൂർ വിമാനത്താവളത്തിൽ വീണ്ടും സ്വർണ വ
-free models not efficient (18 failures in a row): using Claude
-free models unavailable: free models not efficient (18 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9PACdtynAryRtPbFE7K"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9PACg8FRXGbQYaP7BkB"}
-writing [N]: മലപ്പുറം ‘ലോഗിൻ’ ചെയ്ത ഇ-വിപ്ലവം; ‘അക്ഷയ’ക്കുതിപ്പ് കാൽനൂറ്റ
-free models unavailable: free models not efficient (18 failures in a row): using Claude
-claude rewrite failed: writing [R]: പകൽ മാന്യനായ വസ്ത്രവ്യാപാരി, രാത്രി മഞ്ചേരിയെ വിറപ്പിക്കുന്നanthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9PAE9vbm95PReBdApRi"}
-
-free models unavailable: free models not efficient (18 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9PAEqc1ohRHbxphLKjF"}
-writing [N]: അധ്യാപകർ കാലത്തിനൊപ്പം സഞ്ചരിക്കണം -മന്ത്രി എൻ. ഷംസുദ്ദീൻ
-free models unavailable: free models not efficient (18 failures in a row): using Claude
-writing [N]: ചികിത്സാ സൗകര്യങ്ങൾ വിപുലീകരിക്കുന്നു; പെരിന്തൽമണ്ണ ഇഎംഎസ് ആ
-free models unavailable: free models not efficient (18 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9PAFkRqEridHfCJ3yU6"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9PAFv6Lt4TZrJk4LBxG"}
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
 poor answer - skipped for 30 min: gemini/gemini-3.8-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9PDGTAxM2XjxqfkmuXA"}
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
+poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
+poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)
+attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
+  reel_script has 37 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  stray Malayalam sign '്' after 'ൻ' in «രത്തിൻ്റെ »
+  stray Malayalam sign '്' after 'ൻ' in «ുപ്പിൻ്റെ »
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (36s)
+attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 42 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
+poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (35s)
+attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
+  reel_script has 53 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  stray Malayalam sign '്' after 'ൻ' in «രത്തിൻ്റെ »
+  stray Malayalam sign '്' after 'ൻ' in «ുപ്പിൻ്റെ »
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (37s)
+attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  numbers not found in the article: 6
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)
+attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 53 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)
+attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
+  reel_script has 42 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  stray Malayalam sign '്' after 'ൻ' in «രത്തിൻ്റെ »
+  stray Malayalam sign '്' after 'ൻ' in «ുപ്പിൻ്റെ »
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)
+attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
+  reel_script has 48 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 6
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (40s)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (3s)
+factcheck by cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 5 problems
+  The caption says that the date is 2019, but the article says that 2019 is when the money was approved, not when the problem happened.
+  The caption and slides_spec say that there is no money to finish both the indoor stadium and the auditorium, but the article says only that there is no money to finish the auditorium.
+  The caption and slides_spec say that Hamim played at the state level, but the article says that he qualified to play at the state level.
+  The caption and slides_spec say that the indoor stadium will benefit other athletes in the area, but the article says only that it might benefit other athletes in the area.
+  The caption and slides_spec say that people should contact their representatives, but the article says only that representatives need to take an interest for the stadium to be finished.
+attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 5 problems
+  fact-check: The caption says that the date is 2019, but the article says that 2019 is when the money was approved, not when the problem happened.
+  fact-check: The caption and slides_spec say that there is no money to finish both the indoor stadium and the auditorium, but the article says only that there is no money to finish the auditorium.
+  fact-check: The caption and slides_spec say that Hamim played at the state level, but the article says that he qualified to play at the state level.
+  fact-check: The caption and slides_spec say that the indoor stadium will benefit other athletes in the area, but the article says only that it might benefit other athletes in the area.
+  fact-check: The caption and slides_spec say that people should contact their representatives, but the article says only that representatives need to take an interest for the stadium to be finished.
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (36s)
+attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 5 problems
+  reel_script has 54 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  stray Malayalam sign '്' after 'ൻ' in «ുപ്പിൻ്റെ »
+  stray Malayalam sign '്' after 'ൻ' in «രത്തിൻ്റെ »
+  stray Malayalam sign '്' after 'ൻ' in «ുപ്പിൻ്റെ »
+  stray Malayalam sign '്' after 'ൻ' in «ുപ്പിൻ്റെ »
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (33s)
+attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 49 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (33s)
+attempt 5 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
+  reel_script has 54 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  stray Malayalam sign '്' after 'ൻ' in «ുപ്പിൻ്റെ »
+  stray Malayalam sign '്' after 'ൻ' in «ുപ്പിൻ്റെ »
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)
+attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 43 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: Expecting ',' delimiter: line 1 column 988 (char 987)
+poor answer - skipped for 30 min: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (33s)
+attempt 6 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 4 problems
+  reel_script has 44 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  not grounded: location 'മഞ്ചേരി' is not in the article
+  stray Malayalam sign '്' after 'ൻ' in «രത്തിൻ്റെ »
+  stray Malayalam sign '്' after 'ൻ' in «ുപ്പിൻ്റെ »
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9SZzQxeLE8hCV1vL516"}
+proofread skipped: free models not efficient (5 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+writing [N]: പകൽ ആഡംബര കാറിൽ ചുറ്റിക്കറങ്ങും; ആളുകളോട് സംസാരിച്ച് വിവരങ്ങ
+free models unavailable: free models not efficient (6 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9Sa6tPpYutAZpALNQHD"}
+proofread skipped: free models not efficient (6 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9Sa7Nedrpv3Vu2p7PU1"}
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9SaE4EwChqdj5xmJpMt"}
+proofread skipped: free models not efficient (7 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+image match check unavailable: gemini-3.5-flash: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 4 for 'Construction of GMUP School auditorium h'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261118-0554","first":"MP-303"}
+posting job started at once
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+writing [N]: ഒന്നരവർഷത്തെ കാത്തിരിപ്പിനൊടുവിൽ ടാറിങ് നാളെ തുടങ്ങും
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9ScrXGg441SU4YXkasM"}
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 4 for 'Tiger attacks again in Vazhikkadavu; res'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261118-0555","first":"MP-304"}
+writing [R]: നൂറോളം മോഷണക്കേസുകളിൽ പ്രതി; കാവനൂരിൽ പണിയുന്നത് ആഡംബര വീട്
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+writing [R]: പകൽ മാന്യനായ വസ്ത്രവ്യാപാരി, രാത്രി മഞ്ചേരിയെ വിറപ്പിക്കുന്ന
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9Sfkna6XJjPqi7mUhLg"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9Sfm4wMzE5WhFcwNdNf"}
+writing [N]: അധ്യാപകർ കാലത്തിനൊപ്പം സഞ്ചരിക്കണം -മന്ത്രി എൻ. ഷംസുദ്ദീൻ
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+writing [N]: മലപ്പുറം ‘ലോഗിൻ’ ചെയ്ത ഇ-വിപ്ലവം; ‘അക്ഷയ’ക്കുതിപ്പ് കാൽനൂറ്റ
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9Sfn8CUdF9pWjC5Y17v"}
+writing [N]: ചികിത്സാ സൗകര്യങ്ങൾ വിപുലീകരിക്കുന്നു; പെരിന്തൽമണ്ണ ഇഎംഎസ് ആ
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9SfnbizTPF2V7NsUZDL"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9Sfo7UQp4qpLpV7rnG4"}
+writing [N]: നീണ്ട ഇടവേളക്ക് ശേഷം കണ്ണൂർ വിമാനത്താവളത്തിൽ വീണ്ടും സ്വർണ വ
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9SfrikzBMhrKvqHMu4e"}
+write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 70 recent posts read from both pages
 write round: 15 news waiting in the queue (written in priority order)
@@ -102,32 +232,34 @@ skip (N) could not open: ഷിഗെല്ല പ്രതിരോധം; പ�
 try (N) manual=False: വഴിക്കടവിൽ പുലിഭീതി ഒഴിയുന്നില്ല; വീണ്ടും വളർത്തുനായയെ പിടിക
 skip (R) could not open: മഞ്ഞപ്പിത്തം: നഗരസഭ പരിധിയിൽ ആരോഗ്യവകുപ്പ് പരിശോധന [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
 try (N) manual=False: ഒന്നു മനസ്സുവച്ചാൽ പൂർത്തീകരിക്കാം, ജി.എം.യു.പി. സ്കൂളിലെ ഓഡ
-NOT filed (N) ഒന്നു മനസ്സുവച്ചാൽ പൂർത്തീകരിക്കാം, ജി.എം.യു.പി. സ: all free models failed: no usable answer from the models
+NOT filed (N) ചമ്രവട്ടം അയ്യപ്പക്ഷേത്രത്തിൽ മുദ്രയണിയാൻ ഭക്തജനത്: not Malappuram district news (the story's first lines name another place and no Malappuram place)
 try (N) manual=False: പകൽ ആഡംബര കാറിൽ ചുറ്റിക്കറങ്ങും; ആളുകളോട് സംസാരിച്ച് വിവരങ്ങ
 NOT filed (N) പകൽ ആഡംബര കാറിൽ ചുറ്റിക്കറങ്ങും; ആളുകളോട് സംസാരിച്: all free models failed: no usable answer from the models
 try (N) manual=False: ബസ് സ്റ്റാൻഡ്  നവീകരണം പുനരാരംഭിക്കും
-skip (N) could not open: ബസ് സ്റ്റാൻഡ്  നവീകരണം പുനരാരംഭിക്കും [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})
+posting job started at once
 try (N) manual=False: ഒന്നരവർഷത്തെ കാത്തിരിപ്പിനൊടുവിൽ ടാറിങ് നാളെ തുടങ്ങും
-NOT filed (N) ഒന്നരവർഷത്തെ കാത്തിരിപ്പിനൊടുവിൽ ടാറിങ് നാളെ തുടങ്: all free models failed: no usable answer from the models
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 8})
+skip (N) could not open: ബസ് സ്റ്റാൻഡ്  നവീകരണം പുനരാരംഭിക്കും [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
 try (N) manual=False: നീണ്ട ഇടവേളക്ക് ശേഷം കണ്ണൂർ വിമാനത്താവളത്തിൽ വീണ്ടും സ്വർണ വ
-NOT filed (N) വഴിക്കടവിൽ പുലിഭീതി ഒഴിയുന്നില്ല; വീണ്ടും വളർത്തുന: all free models failed: no usable answer from the models
 try (R) manual=False: നൂറോളം മോഷണക്കേസുകളിൽ പ്രതി; കാവനൂരിൽ പണിയുന്നത് ആഡംബര വീട്
-NOT filed (R) നൂറോളം മോഷണക്കേസുകളിൽ പ്രതി; കാവനൂരിൽ പണിയുന്നത് ആ: all free models failed: no usable answer from the models
+NOT filed (N) ഒന്നരവർഷത്തെ കാത്തിരിപ്പിനൊടുവിൽ ടാറിങ് നാളെ തുടങ്: all free models failed: no usable answer from the models
 try (R) manual=False: പകൽ മാന്യനായ വസ്ത്രവ്യാപാരി, രാത്രി മഞ്ചേരിയെ വിറപ്പിക്കുന്ന
-NOT filed (N) നീണ്ട ഇടവേളക്ക് ശേഷം കണ്ണൂർ വിമാനത്താവളത്തിൽ വീണ്ട: all free models failed: no usable answer from the models
-try (N) manual=False: മലപ്പുറം ‘ലോഗിൻ’ ചെയ്ത ഇ-വിപ്ലവം; ‘അക്ഷയ’ക്കുതിപ്പ് കാൽനൂറ്റ
-NOT filed (N) മലപ്പുറം ‘ലോഗിൻ’ ചെയ്ത ഇ-വിപ്ലവം; ‘അക്ഷയ’ക്കുതിപ്പ: all free models failed: no usable answer from the models
+NOT filed (R) നൂറോളം മോഷണക്കേസുകളിൽ പ്രതി; കാവനൂരിൽ പണിയുന്നത് ആ: all free models failed: no usable answer from the models
 try (N) manual=False: വിദ്യാർത്ഥികളെ മർദ്ദിച്ചു,   അദ്ധ്യാപികയെ കൈയേറ്റം ചെയ്തു:  
-skip (N) could not open: വിദ്യാർത്ഥികളെ മർദ്ദിച്ചു,   അദ്ധ്യാപികയെ കൈയേറ്റം [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
-try (N) manual=False: അധ്യാപകർ കാലത്തിനൊപ്പം സഞ്ചരിക്കണം -മന്ത്രി എൻ. ഷംസുദ്ദീൻ
 NOT filed (R) പകൽ മാന്യനായ വസ്ത്രവ്യാപാരി, രാത്രി മഞ്ചേരിയെ വിറപ: all free models failed: no usable answer from the models
-try (N) manual=False: ചികിത്സാ സൗകര്യങ്ങൾ വിപുലീകരിക്കുന്നു; പെരിന്തൽമണ്ണ ഇഎംഎസ് ആ
+try (N) manual=False: അധ്യാപകർ കാലത്തിനൊപ്പം സഞ്ചരിക്കണം -മന്ത്രി എൻ. ഷംസുദ്ദീൻ
+skip (N) could not open: വിദ്യാർത്ഥികളെ മർദ്ദിച്ചു,   അദ്ധ്യാപികയെ കൈയേറ്റം [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
+try (N) manual=False: മലപ്പുറം ‘ലോഗിൻ’ ചെയ്ത ഇ-വിപ്ലവം; ‘അക്ഷയ’ക്കുതിപ്പ് കാൽനൂറ്റ
 NOT filed (N) അധ്യാപകർ കാലത്തിനൊപ്പം സഞ്ചരിക്കണം -മന്ത്രി എൻ. ഷം: all free models failed: no usable answer from the models
+try (N) manual=False: ചികിത്സാ സൗകര്യങ്ങൾ വിപുലീകരിക്കുന്നു; പെരിന്തൽമണ്ണ ഇഎംഎസ് ആ
+NOT filed (N) മലപ്പുറം ‘ലോഗിൻ’ ചെയ്ത ഇ-വിപ്ലവം; ‘അക്ഷയ’ക്കുതിപ്പ: all free models failed: no usable answer from the models
 NOT filed (N) ചികിത്സാ സൗകര്യങ്ങൾ വിപുലീകരിക്കുന്നു; പെരിന്തൽമണ്: all free models failed: no usable answer from the models
-NOT filed (N) ചമ്രവട്ടം അയ്യപ്പക്ഷേത്രത്തിൽ മുദ്രയണിയാൻ ഭക്തജനത്: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 N=0, tried={'R': 3, 'N': 12}, done={'R': 0, 'N': 0}, time left 28 min
-carousel for 0 of 0 stories, the rest reel only
-filed: 0 Manjeri + 0 Malappuram (targets 200 + 200)
-queue: 15 news waiting to be written
+NOT filed (N) നീണ്ട ഇടവേളക്ക് ശേഷം കണ്ണൂർ വിമാനത്താവളത്തിൽ വീണ്ട: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 N=0, tried={'R': 3, 'N': 12}, done={'R': 0, 'N': 2}, time left 23 min
+carousel for 0 of 2 stories, the rest reel only
+filed: 0 Manjeri + 2 Malappuram (targets 200 + 200)
+queue: 13 news waiting to be written
+write_stories.yml started
 All News sheet: {"ok":true,"added":0,"updated":15} 
-stories: 0
+stories: 2
