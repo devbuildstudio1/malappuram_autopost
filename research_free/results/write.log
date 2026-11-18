@@ -1,24 +1,11 @@
-writing [N]: ‘ടൂറിസം എന്റെ പാഷൻ, ബേപ്പൂരിൽ മത്സരിച്ചത് തോറ്റാൽ KTDC ചെയർമ
 writing [N]: വിവിധ ജില്ലകളിലായി വാടകവീടെടുത്ത് താമസിക്കും, പിന്നെ ആ പ്രദേ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -30,105 +17,61 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+writing [N]: മണലെടുപ്പ് വൈകും; 14 നദികൾ,189 കടവുകൾ, അതിർത്തിനിർണയം നീളുന്
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChADtUcbPcmCvJEMPE6UD"}
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-writing [N]: കരിപ്പൂർ വിമാനത്താവളത്തിന്റെ സാധ്യതകൾ പ്രയോജനപ്പെടുത്തി കൊണ്
-free models unavailable: free models not efficient (9 failures in a row): using Claude
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChADYi69jQVJbrVksWGtX"}
-writing [N]: കെടിഡിസി ചെയർമാൻ സ്ഥാനം ആവശ്യപ്പെട്ട് കത്ത് നൽകി; തുറന്ന് പറ
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChADYmL7uv6ASsgXN1tTj"}
-writing [N]: മണലെടുപ്പ് വൈകും; 14 നദികൾ,189 കടവുകൾ, അതിർത്തിനിർണയം നീളുന്
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChADYqeZTWHbYi3VurCHX"}
-writing [N]: പ്രായം വെറും അക്കം; എഴുപതിന്റെ നിറവിൽ ബിരുദാനന്തര ബിരുദ തിളക
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChADYtHZYA9QRTyRavJxM"}
 writing [N]: പി.സി.ഡബ്ല്യു.എഫ് ജലീബ്- ഫർവാനിയ മേഖലാ ജനറൽ ബോഡി | Madhyamam
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChADYvp7w6zLhtMqR7TLM"}
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChADtX2wpXmJXt5GFz19a"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+writing [N]: പ്രായം വെറും അക്കം; എഴുപതിന്റെ നിറവിൽ ബിരുദാനന്തര ബിരുദ തിളക
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChADtXqoUCC92UTph6HnF"}
 writing [N]: ജനസംഖ്യയിൽ വല്ലാതെ തടിച്ചു, ആരോഗ്യകേന്ദ്രങ്ങളിൽ ബഹുദൂരം മെലി
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChADYzkzfo1GcHfjSDFZa"}
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChADtZdxHf5YqL3B8ksbv"}
 writing [N]: പ്രായപൂർത്തിയാകാത്തവരുടെ ഡ്രൈവിങ്: പിടിയിലായവരിൽ പകുതിയോളം മ
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChADZ3LnMFgHda95GnhwY"}
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChADtcsRisa6KpKaJ4n8W"}
+writing [N]: കരിപ്പൂർ വിമാനത്താവളത്തിന്റെ സാധ്യതകൾ പ്രയോജനപ്പെടുത്തി കൊണ്
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChADtyUAmNhAnnWUP1ncp"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChADZqQDf7ZAPapC3cDLu"}
-ok gemini/gemini-3.6-flash (51s)
-attempt 1 gemini/gemini-3.6-flash: 2 problems
-  stray Malayalam sign 'െ' after 'ി' in «ം രാജിെവെച»
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 102 ('2026 ലെ നിയമസഭാ തിരഞ്ഞെടുപ്പിന്റെ ഫലപ്രഖ്യാപനം വന്നപ്പോൾ 102'); നിലമ്പൂർ ('2026 ലെ നിയമസഭാ തിരഞ്ഞെടുപ്പിന്റെ ഫലപ്രഖ്യാപനം വന്നപ്പോൾ 102')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChADcUtGNuUsjMPkqwwa5"}
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to generate JSON. Please adjust your prompt. See 'failed_gener
-ok groq/qwen/qwen3.8-27b (5s)
-proofread rejected (3 problems)
-  reel_script must have no English letters (write English words and abbreviations in Malayalam script)
-  reel_script has 35 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  known issue english_in_voice: voice script has English words the voice skips (KTDC) - rewrite so it does not happen again
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-switching away from groq/qwen/qwen3.8-27b for 10 min
-ok groq/openai/gpt-oss-120b (3s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok groq/openai/gpt-oss-120b (3s)
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-image match check unavailable: gemini-3.5-flash: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match: False The image shows old handwritten manuscripts and writing instruments, which is completely unrelated to contemporary polit
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 3 for 'PV Anvar confirms requesting KTDC Chairm'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261118-1548","first":"MP-317"}
-posting job started at once
-write_stories.yml started
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChADufMmsPPfFRYDwQkMw"}
 earlier stories still waiting for images: []
 instagram check: 71 recent posts read from all pages
-write round: 10 news waiting in the queue (written in priority order)
-candidate filter: collected=10
-to write: 0 Manjeri + 0 Kondotty + 10 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Kondotty, 10 Malappuram; time left 29 min
-try (N) manual=False: ‘ടൂറിസം എന്റെ പാഷൻ, ബേപ്പൂരിൽ മത്സരിച്ചത് തോറ്റാൽ KTDC ചെയർമ
+write round: 9 news waiting in the queue (written in priority order)
+candidate filter: collected=9
+to write: 0 Manjeri + 0 Kondotty + 9 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 0 Manjeri, 0 Kondotty, 9 Malappuram; time left 29 min
 try (N) manual=False: 'ബേപ്പൂരിൽ തോറ്റാൽ കെടിഡിസി ചെയർമാനാക്കണമെന്ന് ഉപാധി വച്ചിരു
 try (N) manual=False: വിവിധ ജില്ലകളിലായി വാടകവീടെടുത്ത് താമസിക്കും, പിന്നെ ആ പ്രദേ
-skip (N) could not open: 'ബേപ്പൂരിൽ തോറ്റാൽ കെടിഡിസി ചെയർമാനാക്കണമെന്ന് ഉപാ [https://www.keralakaumudi.com/kerala/general/pv-anwar-ktdc-c] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera
 try (N) manual=False: കരിപ്പൂർ വിമാനത്താവളത്തിന്റെ സാധ്യതകൾ പ്രയോജനപ്പെടുത്തി കൊണ്
-NOT filed (N) കരിപ്പൂർ വിമാനത്താവളത്തിന്റെ സാധ്യതകൾ പ്രയോജനപ്പെട: all free models failed: no usable answer from the models
+skip (N) could not open: 'ബേപ്പൂരിൽ തോറ്റാൽ കെടിഡിസി ചെയർമാനാക്കണമെന്ന് ഉപാ [https://www.keralakaumudi.com/kerala/general/pv-anwar-ktdc-c] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera
 try (N) manual=False: കെടിഡിസി ചെയർമാൻ സ്ഥാനം ആവശ്യപ്പെട്ട് കത്ത് നൽകി; തുറന്ന് പറ
-NOT filed (N) കെടിഡിസി ചെയർമാൻ സ്ഥാനം ആവശ്യപ്പെട്ട് കത്ത് നൽകി; : all free models failed: no usable answer from the models
+skip (N) similar to a filed story: കെടിഡിസി ചെയർമാൻ സ്ഥാനം ആവശ്യപ്പെട്ട് കത്ത് നൽകി; 
 try (N) manual=False: മണലെടുപ്പ് വൈകും; 14 നദികൾ,189 കടവുകൾ, അതിർത്തിനിർണയം നീളുന്
 NOT filed (N) മണലെടുപ്പ് വൈകും; 14 നദികൾ,189 കടവുകൾ, അതിർത്തിനിർ: all free models failed: no usable answer from the models
-try (N) manual=False: പ്രായം വെറും അക്കം; എഴുപതിന്റെ നിറവിൽ ബിരുദാനന്തര ബിരുദ തിളക
-NOT filed (N) പ്രായം വെറും അക്കം; എഴുപതിന്റെ നിറവിൽ ബിരുദാനന്തര : all free models failed: no usable answer from the models
 try (N) manual=False: പി.സി.ഡബ്ല്യു.എഫ് ജലീബ്- ഫർവാനിയ മേഖലാ ജനറൽ ബോഡി | Madhyamam
 NOT filed (N) പി.സി.ഡബ്ല്യു.എഫ് ജലീബ്- ഫർവാനിയ മേഖലാ ജനറൽ ബോഡി |: all free models failed: no usable answer from the models
+try (N) manual=False: പ്രായം വെറും അക്കം; എഴുപതിന്റെ നിറവിൽ ബിരുദാനന്തര ബിരുദ തിളക
+NOT filed (N) പ്രായം വെറും അക്കം; എഴുപതിന്റെ നിറവിൽ ബിരുദാനന്തര : all free models failed: no usable answer from the models
 try (N) manual=False: ജനസംഖ്യയിൽ വല്ലാതെ തടിച്ചു, ആരോഗ്യകേന്ദ്രങ്ങളിൽ ബഹുദൂരം മെലി
 NOT filed (N) ജനസംഖ്യയിൽ വല്ലാതെ തടിച്ചു, ആരോഗ്യകേന്ദ്രങ്ങളിൽ ബഹ: all free models failed: no usable answer from the models
 try (N) manual=False: പ്രായപൂർത്തിയാകാത്തവരുടെ ഡ്രൈവിങ്: പിടിയിലായവരിൽ പകുതിയോളം മ
 NOT filed (N) പ്രായപൂർത്തിയാകാത്തവരുടെ ഡ്രൈവിങ്: പിടിയിലായവരിൽ പ: all free models failed: no usable answer from the models
+NOT filed (N) കരിപ്പൂർ വിമാനത്താവളത്തിന്റെ സാധ്യതകൾ പ്രയോജനപ്പെട: all free models failed: no usable answer from the models
 NOT filed (N) വിവിധ ജില്ലകളിലായി വാടകവീടെടുത്ത് താമസിക്കും, പിന്: all free models failed: no usable answer from the models
-auto images: 1 of 1 stories ({'pollinations': 4})
-posting job started at once
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 10, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 25 min
-carousel for 0 of 1 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)
-queue: 9 news waiting to be written
-write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":10} 
-stories: 1
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 9, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
+queue: 8 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":8} 
+stories: 0
