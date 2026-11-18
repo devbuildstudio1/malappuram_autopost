@@ -82,6 +82,8 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-18 | `f8d19b2` | Post the reel types that go viral first, never the flops |
+| 2026-11-18 | `93c0004` | ig probe output |
 | 2026-11-18 | `a917423` | More Manjeri 360 reels: nearby towns and Manjeri searches |
 | 2026-11-18 | `2820496` | Add Kondotty 360 support and related features |
 | 2026-11-18 | `b03920f` | Write only the kinds of reels that perform |
@@ -90,6 +92,4 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 | 2026-11-17 | `5abe623` | Heartbeat |
 | 2026-11-16 | `f9fd0fa` | Heartbeat |
 | 2026-11-16 | `25bc529` | Heartbeat |
-| 2026-11-16 | `390cb8d` | Pass manual flag to article; name Malappuram in gold story |
-| 2026-11-16 | `303cb74` | Writer: use hand-written story for a manual link |
 <!-- recent-changes:end -->
