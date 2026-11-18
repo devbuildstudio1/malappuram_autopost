@@ -1,82 +1,86 @@
 writing [R]: നാട്ടിലെ വസ്ത്രവ്യാപാരി നൂറോളം മോഷണക്കേസുകളിൽ പ്രതി; കാവനൂരി
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [R]: സ്ത്രീ മുന്നേറ്റങ്ങൾക്ക് കരുത്ത് പകർന്ന് ലീഡ്ഹെർഷിപ്പ് കാമ്പ
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-writing [R]: പകൽ വസ്ത്ര വ്യാപാരി; സ്വന്തമായി ആഡംബര വീടും ആഡംബര കാറുകളിൽ ക
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+writing [R]: പകൽ വസ്ത്ര വ്യാപാരി; സ്വന്തമായി ആഡംബര വീടും ആഡംബര കാറുകളിൽ ക
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9yT6LKLjqkmpFgivVvh"}
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-writing [R]: മഞ്ഞപ്പിത്തം: നഗരസഭ പരിധിയിൽ ആരോഗ്യവകുപ്പ് പരിശോധന നടത്തി
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9vPpMhkW6uVwgJz2nJr"}
-writing [R]: സ്ത്രീ മുന്നേറ്റങ്ങൾക്ക് കരുത്ത് പകർന്ന് ലീഡ്ഹെർഷിപ്പ് കാമ്പ
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9vPrfc69UW7xSbDgY2J"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 writing [N]: 'കുട്ടി ഡ്രൈവർമാർ' ഏറെയും മലപ്പുറത്ത്; ഒരാഴ്ചയ്ക്കിടെ പൊലീസ്
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9vPvhh1BFuuQS4pJaBM"}
-writing [N]: Latest Malappuram District News | Kerala Kaumudi  | മലപ്പുറം
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9vQ1CZPfmUhBeB17d8B"}
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9yT8muLHbNktga71TdJ"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 writing [N]: അബ്ദുൽ അസീസ് കുന്നപ്പള്ളിക്ക് യാത്രയയപ്പ് | Madhyamam
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9vQ3j86aT3R9pBeKaz9"}
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9yTB1bfq2QQfGVW4BmT"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9vQuGeqMfwivC97ze85"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9vR2mMDakAki8MshCTA"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9yUHkSeJiHCk4fQMqsi"}
+ok gemini/gemini-3.7-flash (31s)
+attempt 1 gemini/gemini-3.7-flash: 2 problems
+  reel_script has 50 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 8
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011Ch9yVRWYFDNow68vDuG8e"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
+ok groq/qwen/qwen3.8-27b (3s)
+proofread by groq/qwen/qwen3.8-27b: 2 problems
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+switching away from groq/qwen/qwen3.8-27b for 10 min
+ok groq/openai/gpt-oss-120b (4s)
 earlier stories still waiting for images: []
 instagram check: 71 recent posts read from all pages
-write round: 8 news waiting in the queue (written in priority order)
-candidate filter: collected=7, checked earlier=1
+write round: 7 news waiting in the queue (written in priority order)
+candidate filter: collected=7
 to write: 4 Manjeri + 0 Kondotty + 3 other district candidates (max 200 + 200 + 200 stories)
 candidates waiting: 4 Manjeri, 0 Kondotty, 3 Malappuram; time left 29 min
 try (R) manual=False: മഞ്ഞപ്പിത്തം: നഗരസഭ പരിധിയിൽ ആരോഗ്യവകുപ്പ് പരിശോധന നടത്തി
 try (R) manual=False: നാട്ടിലെ വസ്ത്രവ്യാപാരി നൂറോളം മോഷണക്കേസുകളിൽ പ്രതി; കാവനൂരി
 try (R) manual=False: പകൽ വസ്ത്ര വ്യാപാരി; സ്വന്തമായി ആഡംബര വീടും ആഡംബര കാറുകളിൽ ക
-NOT filed (R) മഞ്ഞപ്പിത്തം: നഗരസഭ പരിധിയിൽ ആരോഗ്യവകുപ്പ് പരിശോധന: all free models failed: no usable answer from the models
+skip (R) could not open: മഞ്ഞപ്പിത്തം: നഗരസഭ പരിധിയിൽ ആരോഗ്യവകുപ്പ് പരിശോധന [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
 try (R) manual=False: സ്ത്രീ മുന്നേറ്റങ്ങൾക്ക് കരുത്ത് പകർന്ന് ലീഡ്ഹെർഷിപ്പ് കാമ്പ
-NOT filed (R) സ്ത്രീ മുന്നേറ്റങ്ങൾക്ക് കരുത്ത് പകർന്ന് ലീഡ്ഹെർഷി: all free models failed: no usable answer from the models
+NOT filed (R) പകൽ വസ്ത്ര വ്യാപാരി; സ്വന്തമായി ആഡംബര വീടും ആഡംബര : all free models failed: no usable answer from the models
 try (N) manual=False: 'കുട്ടി ഡ്രൈവർമാർ' ഏറെയും മലപ്പുറത്ത്; ഒരാഴ്ചയ്ക്കിടെ പൊലീസ്
 NOT filed (N) 'കുട്ടി ഡ്രൈവർമാർ' ഏറെയും മലപ്പുറത്ത്; ഒരാഴ്ചയ്ക്ക: all free models failed: no usable answer from the models
 try (N) manual=False: Latest Malappuram District News | Kerala Kaumudi  | മലപ്പുറം
-NOT filed (N) Latest Malappuram District News | Kerala Kaumudi  : all free models failed: no usable answer from the models
+skip (N) could not open: Latest Malappuram District News | Kerala Kaumudi   [https://www.keralakaumudi.com/news/sub-section.php?cid=11&si] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/news/sub-sect
 try (N) manual=False: അബ്ദുൽ അസീസ് കുന്നപ്പള്ളിക്ക് യാത്രയയപ്പ് | Madhyamam
 NOT filed (N) അബ്ദുൽ അസീസ് കുന്നപ്പള്ളിക്ക് യാത്രയയപ്പ് | Madhya: all free models failed: no usable answer from the models
-NOT filed (R) പകൽ വസ്ത്ര വ്യാപാരി; സ്വന്തമായി ആഡംബര വീടും ആഡംബര : all free models failed: no usable answer from the models
 NOT filed (R) നാട്ടിലെ വസ്ത്രവ്യാപാരി നൂറോളം മോഷണക്കേസുകളിൽ പ്രത: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 4, 'N': 3, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+NOT filed (R) സ്ത്രീ മുന്നേറ്റങ്ങൾക്ക് കരുത്ത് പകർന്ന് ലീഡ്ഹെർഷി: duplicate after write
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 4, 'N': 3, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
 queue: 7 news waiting to be written
