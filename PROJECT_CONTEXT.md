@@ -82,10 +82,12 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-18 | `b03920f` | Write only the kinds of reels that perform |
+| 2026-11-18 | `047ad85` | ig probe output |
+| 2026-11-17 | `07f506f` | Heartbeat |
+| 2026-11-17 | `5abe623` | Heartbeat |
+| 2026-11-16 | `f9fd0fa` | Heartbeat |
+| 2026-11-16 | `25bc529` | Heartbeat |
 | 2026-11-16 | `390cb8d` | Pass manual flag to article; name Malappuram in gold story |
 | 2026-11-16 | `303cb74` | Writer: use hand-written story for a manual link |
-| 2026-11-16 | `6dbd074` | ig probe output |
-| 2026-11-15 | `889d63e` | Heartbeat |
-| 2026-11-15 | `ebb1a18` | Heartbeat |
-| 2026-11-15 | `a7dc605` | Skip Instagram repeats when choosing the run's reel |
 <!-- recent-changes:end -->
