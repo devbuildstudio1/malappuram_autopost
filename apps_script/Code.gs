@@ -7,7 +7,7 @@
  *   - after posting: update the Sheet + the story's Google Doc and email the owner
  *
  * Setup (once): see README.md in the GitHub repository, section "Apps Script".
- * Script properties used: BRIDGE_KEY, IG_TOKEN_MANJERI, IG_TOKEN_MALAPPURAM, (auto) VOICE_FOLDER_ID,
+ * Script properties used: BRIDGE_KEY, IG_TOKEN_MANJERI, IG_TOKEN_MALAPPURAM, IG_TOKEN_KONDOTTY, (auto) VOICE_FOLDER_ID,
  *   GH_DISPATCH_TOKEN (GitHub token, Actions read+write on the repository: lets kickGithub start the posting job)
  */
 var SHEET_ID = '13jDHoYVRHSGxLAOCEtIgQlwPzmPkICisUiSQkBrglmI';          // TODO owner: ID of the new Malappuram 360 Google Sheet (from its URL)
@@ -22,17 +22,17 @@ var C = {
   importance: 8, verification: 9, source: 10, other_sources: 11, review_page: 12, doc: 13, notion: 14,
   caption: 15, email_sent: 16, gmail_id: 17, review: 18, post_to: 19, reel: 20, reel_script: 21,
   slides_spec: 22, post_status: 23, posted_at: 24, manjeri_link: 25, malappuram_link: 26, reel_link: 27, notes: 28,
-  batch: 29, prompts: 30, images: 31
+  batch: 29, prompts: 30, images: 31, kondotty_link: 32
 };
-var NCOLS = 31;
+var NCOLS = 32;
 var CLOUD_NAME = 'v0qacyr7';   // TODO owner: new Cloudinary cloud name (same value as secret CLOUDINARY_CLOUD)
 var UPLOAD_PRESET = 'news360';                   // TODO owner: unsigned upload preset in the new Cloudinary account (secret CLOUDINARY_PRESET)
 var MIN_IMAGES = 3;
 var EXPIRE_HOURS = 2;   // owner request 24 Oct: after 3 hours without the owner's images, automatic images are made and the story is posted
 var COLLAB_USERNAME = 'manjeri.360';
 var GH_REPO = 'devbuildstudio1/malappuram_autopost';   // repository whose posting job kickGithub starts
-var PAGE_LABEL = { manjeri: 'മഞ്ചേരി 360', malappuram: 'മലപ്പുറം 360' };
-var PAGE_COL = { manjeri: C.manjeri_link, malappuram: C.malappuram_link };
+var PAGE_LABEL = { manjeri: 'മഞ്ചേരി 360', malappuram: 'മലപ്പുറം 360', kondotty: 'കൊണ്ടോട്ടി 360' };
+var PAGE_COL = { manjeri: C.manjeri_link, malappuram: C.malappuram_link, kondotty: C.kondotty_link };
 
 function json_(obj) {
   return ContentService.createTextOutput(JSON.stringify(obj)).setMimeType(ContentService.MimeType.JSON);
@@ -42,7 +42,11 @@ function authorized_(e) {
   var key = props_().getProperty('BRIDGE_KEY');
   return key && e && e.parameter && e.parameter.key === key;
 }
-function sheet_() { return SpreadsheetApp.openById(SHEET_ID).getSheetByName(TAB); }
+function sheet_() {
+  var sh = SpreadsheetApp.openById(SHEET_ID).getSheetByName(TAB);
+  if (sh && sh.getMaxColumns() < NCOLS) sh.insertColumnsAfter(sh.getMaxColumns(), NCOLS - sh.getMaxColumns());   // kondotty_link (12 Nov) added later
+  return sh;
+}
 function nowIst_() { return Utilities.formatDate(new Date(), 'Asia/Kolkata', 'dd MMM yyyy, HH:mm'); }
 
 function doGet(e) {
@@ -112,12 +116,15 @@ function rowObj_(values, rowNum) {
 }
 /** Only മലപ്പുറം 360 posts. Manjeri stories add മഞ്ചേരി 360 as a collaborator instead of a second post. */
 /** The ONE page that posts a story = the first page named in post_to (same rule as poster/post.py pages_of):
- *  "Manjeri 360 (collab: Malappuram 360)" -> manjeri, "Malappuram 360 (collab: Manjeri 360)" -> malappuram. The other page is a collaborator. */
+ *  "Manjeri 360 (collab: Malappuram 360)" -> manjeri, "Kondotty 360 (collab: Malappuram 360)" -> kondotty,
+ *  "Malappuram 360 (collab: Manjeri 360)" -> malappuram. The other page is a collaborator. */
 function targets_(postTo) {
-  var t = String(postTo || '').toLowerCase();
-  var n = t.indexOf('malappuram'), r = t.indexOf('manjeri');
-  if (r >= 0 && (n < 0 || r < n)) return ['manjeri'];
-  return ['malappuram'];
+  var t = String(postTo || '').toLowerCase(), best = 'malappuram', at = -1;
+  ['malappuram', 'manjeri', 'kondotty'].forEach(function (p) {
+    var i = t.indexOf(p);
+    if (i >= 0 && (at < 0 || i < at)) { best = p; at = i; }
+  });
+  return [best];
 }
 // true when every page named in post_to has its carousel (unless reel-only) and its reel
 function allDone_(r) {
@@ -157,7 +164,7 @@ function token_(page) {
 }
 /** Runs weekly (trigger made by setup): keeps the 60-day Instagram tokens alive. */
 function refreshTokens() {
-  ['MANJERI', 'MALAPPURAM'].forEach(function (p) {
+  ['MANJERI', 'MALAPPURAM', 'KONDOTTY'].forEach(function (p) {
     var key = 'IG_TOKEN_' + p, t = props_().getProperty(key);
     if (!t || t.indexOf('IG') !== 0) return;   // only Instagram-login tokens (IG...) expire; Meta system-user tokens never do
     var res = UrlFetchApp.fetch('https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=' +
@@ -386,7 +393,7 @@ function manualProblems_(st, recent) {
     ln.forEach(function (l, j) { if (stripTags_(l).length > 60) p.push('slide ' + (i + 1) + ' line ' + (j + 1) + ' longer than 60 characters'); });
   });
   if (['High', 'Medium', 'Low'].indexOf(st.importance) < 0) p.push('importance must be High, Medium or Low');
-  if (!/^(Malappuram 360|Manjeri 360)/.test(st.post_to)) p.push("post_to must be 'Manjeri 360 (collab: Malappuram 360)' for Manjeri news, 'Malappuram 360 (collab: Manjeri 360)' for district-wide news, or 'Malappuram 360'");
+  if (!/^(Malappuram 360|Manjeri 360|Kondotty 360)/.test(st.post_to)) p.push("post_to must be 'Manjeri 360 (collab: Malappuram 360)' for Manjeri news, 'Kondotty 360 (collab: Malappuram 360)' for Kondotty news, 'Malappuram 360 (collab: Manjeri 360)' for district-wide news, or 'Malappuram 360'");
   var rs = String(st.reel_script).trim();
   if (rs.indexOf(MANUAL_LAST) < 0) rs = rs.replace(/\s+$/, '') + ' ' + MANUAL_LAST;   // fixed closing line is added if missing
   st.reel_script = rs;
@@ -495,7 +502,7 @@ function manualOne_(msg) {
 
 // ------------------------------------------------------------------ READY REEL (video + caption already made, sent by e-mail)
 // Subject contains  NEWS360 REEL . Attach ONE zip (or the files directly) holding ONE .md/.txt (the caption) and ONE video (.mp4/.mov).
-// First lines of the .md may be settings:  PAGE: malappuram | manjeri | both   (default malappuram). Nothing is rebuilt: the video is posted as it is,
+// First lines of the .md may be settings:  PAGE: malappuram | manjeri | kondotty | both   (default malappuram). Nothing is rebuilt: the video is posted as it is,
 // with the caption (standard hashtag/AI-line rules), but ONLY if the same news is not already on the Instagram page (checked right before posting).
 function allFiles_(msg, report) {
   var out = [];
@@ -584,12 +591,13 @@ function readyOne_(msg) {
 }
 
 // one zip = one caption (.md) + one or more videos. Each video becomes its own reel row.
-// Which page a video goes to: its file name (contains "manjeri" or "malappuram"), else the PAGE line in the .md (default malappuram).
+// Which page a video goes to: its file name (contains "manjeri", "kondotty" or "malappuram"), else the PAGE line in the .md (default malappuram).
 // If the zip has several videos, every video name must say its page (e.g. news_malappuram.mp4, news_manjeri.mp4).
 function pageFromName_(name) {
   var n = String(name).toLowerCase();
   if (/manjeri/.test(n) && /malappuram/.test(n)) return 'both';
   if (/manjeri/.test(n)) return 'manjeri';
+  if (/kondotty/.test(n)) return 'kondotty';
   if (/malappuram/.test(n)) return 'malappuram';
   return '';
 }
@@ -604,7 +612,7 @@ function addReel_(g, report) {
   var defPage = 'malappuram';
   while (lines.length && /^\s*(page|post_to)\s*:/i.test(lines[0])) {
     var v = lines.shift().split(':')[1].toLowerCase();
-    defPage = /both|\+/.test(v) ? 'both' : (/manjeri/.test(v) ? 'manjeri' : 'malappuram');
+    defPage = /both|\+/.test(v) ? 'both' : (/manjeri/.test(v) ? 'manjeri' : (/kondotty/.test(v) ? 'kondotty' : 'malappuram'));
   }
   var cap = lines.map(function (l) { return l.replace(/^\s*#{1,6}\s+(?=\S)/, '').replace(/\*\*|__/g, ''); }).join('\n').trim();
   if (!cap) { report.push('NOT ADDED ' + g.name + ': the .md caption file is empty'); return; }
@@ -626,7 +634,8 @@ function addRow_(vid, page, cap, head, groupName, report) {
   var no = nextStoryNo_(sh) + 1, id = 'MP-' + no;
   var url = uploadVideo_(vid, id);
   var row = new Array(NCOLS).fill('');
-  var to = page === 'both' ? 'Malappuram 360 (collab: Manjeri 360)' : (page === 'manjeri' ? 'Manjeri 360 (collab: Malappuram 360)' : 'Malappuram 360');
+  var to = page === 'both' ? 'Malappuram 360 (collab: Manjeri 360)' : (page === 'manjeri' ? 'Manjeri 360 (collab: Malappuram 360)' :
+           (page === 'kondotty' ? 'Kondotty 360 (collab: Malappuram 360)' : 'Malappuram 360'));
   row[C.story_id - 1] = id;
   row[C.researched - 1] = "'" + nowIst_(); row[C.published - 1] = "'" + nowIst_();
   row[C.headline_ml - 1] = head; row[C.headline_en - 1] = '';
@@ -881,6 +890,8 @@ function newsTab_() {
     Object.keys(C).forEach(function (k) { head[C[k] - 1] = k; });
     sh.appendRow(head);
     sh.setFrozenRows(1);
+  } else if (!sh.getRange(1, NCOLS).getValue()) {
+    sh.getRange(1, NCOLS).setValue(Object.keys(C).filter(function (k) { return C[k] === NCOLS; })[0]);   // a column added later gets its header
   }
   return sh;
 }
@@ -930,7 +941,8 @@ function postedRows_() {
     if (!r.story_id || (st.indexOf('posted') !== 0 && st.indexOf('partly') !== 0)) continue;
     out.push({ story_id: r.story_id, researched: r.researched, published: r.published, headline_ml: r.headline_ml, headline_en: r.headline_en,
                category: r.category, location: r.location, source: r.source, caption: r.caption, reel_script: r.reel_script,
-               images: r.images, reel_link: r.reel_link, malappuram_link: r.malappuram_link, manjeri_link: r.manjeri_link });
+               images: r.images, reel_link: r.reel_link, malappuram_link: r.malappuram_link, manjeri_link: r.manjeri_link,
+               kondotty_link: r.kondotty_link });
   }
   return out;
 }

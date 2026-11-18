@@ -995,6 +995,28 @@ class FollowerSelection(unittest.TestCase):      # owner 11 Nov: topics are chos
         self.assertTrue(allnews.other_district("ആലപ്പുഴയിൽ നാളെ വൈദ്യുതി മുടങ്ങും"))
 
 
+class KondottyPage(unittest.TestCase):
+    """owner 12 Nov: third page Kondotty 360 - its news must stay on Malappuram 360 until the account id is in config.json"""
+
+    def tearDown(self):
+        allnews._KONDOTTY_LIVE.clear()
+
+    def test_kondotty_news_waits_for_the_account(self):
+        allnews._KONDOTTY_LIVE[:] = [False]
+        self.assertEqual("N", allnews.area_of_story("കരിപ്പൂരിൽ സ്വർണം പിടികൂടി", ""))
+        allnews._KONDOTTY_LIVE[:] = [True]
+        self.assertEqual("K", allnews.area_of_story("കരിപ്പൂരിൽ സ്വർണം പിടികൂടി", ""))
+        self.assertEqual("K", allnews.area_of_story("കൊണ്ടോട്ടിയിൽ ബൈക്ക് അപകടം", ""))
+        self.assertEqual("R", allnews.area_of_story("മഞ്ചേരിയിൽ മോഷണം", ""))
+        self.assertEqual("N", allnews.area_of_story("തിരൂരിൽ തീപിടിത്തം", ""))
+
+    def test_kondotty_post_invites_malappuram(self):
+        row = {"post_to": "Kondotty 360 (collab: Malappuram 360)"}
+        self.assertEqual(["kondotty"], post.pages_of(row))
+        self.assertEqual("malappuram", post.collab_page(row, "kondotty"))
+        self.assertEqual("", post.collab_page({"post_to": "Malappuram 360"}, "malappuram"))
+
+
 if __name__ == "__main__":
     unittest.main()
 

@@ -156,22 +156,32 @@ def is_shutdown(row):
     return bool(freshness.SHUT.search(freshness.norm_ml(cat))) or "shutdown" in cat.lower()
 
 
-LABEL = {"manjeri": "മഞ്ചേരി 360", "malappuram": "മലപ്പുറം 360"}
+LABEL = {"manjeri": "മഞ്ചേരി 360", "malappuram": "മലപ്പുറം 360", "kondotty": "കൊണ്ടോട്ടി 360"}
+TOWN_ML = {"manjeri": "മഞ്ചേരി", "malappuram": "മലപ്പുറം", "kondotty": "കൊണ്ടോട്ടി"}      # the page name in the spoken follow line
+TAGS = {"manjeri": "#Manjeri360", "malappuram": "#Malappuram360", "kondotty": "#Kondotty360"}
+NAME_EN = {"manjeri": "Manjeri 360", "malappuram": "Malappuram 360", "kondotty": "Kondotty 360"}
+
+
+def live_pages():
+    """pages that post: Kondotty 360 only once its account id is in config.json ig_user_ids"""
+    return [p for p in LABEL if p != "kondotty" or str((CONFIG.get("ig_user_ids") or {}).get("kondotty", "")).strip()]
 
 
 def pages_of(row):
     """the ONE page that posts this story (its logo, follow line and account) = the first page named in post_to:
-    "Manjeri 360 (collab: Malappuram 360)" -> manjeri; "Malappuram 360 (collab: Manjeri 360)" / "Malappuram 360" -> malappuram.
-    Older rows ("Manjeri 360 + Malappuram 360") follow the same rule."""
+    "Manjeri 360 (collab: Malappuram 360)" -> manjeri; "Kondotty 360 (collab: Malappuram 360)" -> kondotty;
+    "Malappuram 360 (collab: Manjeri 360)" / "Malappuram 360" -> malappuram. Older rows ("Manjeri 360 + Malappuram 360") follow the same rule."""
     t = (row.get("post_to") or "").lower()
-    pos = {p: t.find(p) for p in ("malappuram", "manjeri") if p in t}
+    pos = {p: t.find(p) for p in ("malappuram", "manjeri", "kondotty") if p in t}
     return [min(pos, key=pos.get)] if pos else ["malappuram"]
 
 
 def collab_page(row, page):
-    """the other page, invited as collaborator, when post_to names it (Manjeri news always invites Malappuram 360)"""
-    other = "malappuram" if page == "manjeri" else "manjeri"
-    return other if (other in (row.get("post_to") or "").lower() or page == "manjeri") else ""
+    """the other page, invited as collaborator: Manjeri / Kondotty news always invites Malappuram 360;
+    district-wide Malappuram news invites Manjeri 360 when post_to names it"""
+    if page != "malappuram":
+        return "malappuram"
+    return "manjeri" if "manjeri" in (row.get("post_to") or "").lower() else ""
 
 
 def page_done(row, page):
@@ -607,7 +617,7 @@ def reel_spec(row, spec, images):
     if len(sentences) < 3:
         raise RuntimeError(f"{row['story_id']}: reel script needs at least 3 sentences")
     # every reel ends with the same follow line (spoken in English by the system)
-    STD = "കൂടുതൽ വാർത്തകൾക്ക് " + ("മഞ്ചേരി" if PAGE == "manjeri" else "മലപ്പുറം") + " ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ."
+    STD = "കൂടുതൽ വാർത്തകൾക്ക് " + TOWN_ML[PAGE] + " ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ."
     if "ഫോളോ ചെയ്യ" in sentences[-1] or "Follow" in sentences[-1]:
         sentences = sentences[:-1]
     sentences.append(STD)
@@ -659,7 +669,7 @@ def upload(path, kind):
 
 def cache_key(row, spec, caption):
     import hashlib
-    raw = json.dumps([row.get("reel_script"), row.get("slides_spec"), caption, row.get("images"), spec.get("date"), row.get("post_to")] + (["manjeri"] if PAGE == "manjeri" else [])
+    raw = json.dumps([row.get("reel_script"), row.get("slides_spec"), caption, row.get("images"), spec.get("date"), row.get("post_to")] + ([PAGE] if PAGE != "malappuram" else [])
                      + ["reel-r2"], ensure_ascii=False)      # r2 (27 Oct): reels built before the <b>-tag fix are made again
     return hashlib.sha1(raw.encode()).hexdigest()[:16]
 
@@ -766,7 +776,7 @@ COLLAB = ""      # page invited as collaborator for the story being posted (set 
 
 
 def collab_user():
-    """the account invited as collaborator: Malappuram 360 on Manjeri 360 posts, Manjeri 360 on district-wide Malappuram 360 posts"""
+    """the account invited as collaborator: Malappuram 360 on Manjeri 360 / Kondotty 360 posts, Manjeri 360 on district-wide Malappuram 360 posts"""
     if COLLAB == "manjeri":
         return CONFIG.get("collab_username", "manjeri.360")
     return CONFIG.get("collab_malappuram_username", "malappuram.360.official")
@@ -922,7 +932,7 @@ def still_needed(sid, page, kind):
         except Exception:
             pass
         IG_RECENT.clear()
-        for pg in ("malappuram", "manjeri"):      # a Manjeri post shows on Malappuram 360 too (collab): both feeds are checked
+        for pg in live_pages():      # a Manjeri / Kondotty post shows on Malappuram 360 too (collab): every feed is checked
             if r.get(pg + "_link") or LABEL[pg] in (r.get("reel_link") or ""):
                 continue      # this story's own earlier post on that page is not a duplicate
             dup = ig_duplicate(r, pg)
@@ -1107,6 +1117,9 @@ def run_story(row):
     for pg in pages_of(row):
         if page_done(row, pg):
             continue
+        if pg not in live_pages():
+            log("WAIT:", row.get("story_id"), "is for", LABEL[pg], "- that page has no account id in config.json ig_user_ids yet")
+            continue
         try:
             owner_reel = bool(json.loads(row.get("slides_spec") or "{}").get("ready_reel"))
         except Exception:
@@ -1140,7 +1153,7 @@ def run_ready_reel(row, page):
     global PAGE, LOGO, TAG
     PAGE = page
     LOGO = KIT / f"logo_{PAGE}.png"
-    TAG = "#Manjeri360" if PAGE == "manjeri" else "#Malappuram360"
+    TAG = TAGS[PAGE]
     sid = row["story_id"]
     if PREBUILD:
         return []
@@ -1271,7 +1284,7 @@ def run_story_page(row, page):
             log("checked text not saved:", e)
     PAGE = page
     LOGO = KIT / f"logo_{PAGE}.png"
-    TAG = "#Manjeri360" if PAGE == "manjeri" else "#Malappuram360"
+    TAG = TAGS[PAGE]
     os.environ["PAGE_KEY"] = PAGE
     global COLLAB
     COLLAB = collab_page(row, PAGE)
@@ -1397,7 +1410,7 @@ def run_story_page(row, page):
                 log("carousel no longer needed (sheet changed) - not publishing", sid, PAGE)
             else:
                 token = bridge_get("token", page=PAGE)["token"]
-                mid, link, collab_ok, why = publish_carousel(token, urls, caption, collab, (row.get('headline_en') or '')[:200] + (' - Manjeri 360 news' if PAGE == 'manjeri' else ' - Malappuram 360 news'))
+                mid, link, collab_ok, why = publish_carousel(token, urls, caption, collab, (row.get('headline_en') or '')[:200] + ' - ' + NAME_EN[PAGE] + ' news')
                 log("carousel posted", sid, link)
                 USED[PAGE] = USED.get(PAGE, 0) + 1
                 first_comment(token, mid, sid, 0)
@@ -1607,14 +1620,14 @@ def main():
                     f.write(f"ready={1 if n else 0}\n")
                     f.write("matrix=" + json.dumps({"include": [{"story": i, "slot": 0} for i in ids]}) + "\n")
                 else:
-                    full = {p for p in ("malappuram", "manjeri") if n and limit_reached(p)}
+                    full = {p for p in live_pages() if n and limit_reached(p)}
                     if full:
                         log("Instagram 24-hour limit reached for", sorted(full), "- their stories wait (nothing is dropped)")
                     left = {p: TOTAL[p] - USED[p] for p in TOTAL if p in USED}      # posts this page may still make in the 24-hour window
                     ids, waiting = [], []
                     paced = {}      # page -> why it may not post now (gap / daily maximum); one reel per page per run
                     for r in (pick_all(rows) if n else []):
-                        pg = [p for p in pages_of(r) if not page_done(r, p) and p not in full and left.get(p, 1) > 0]
+                        pg = [p for p in pages_of(r) if not page_done(r, p) and p not in full and left.get(p, 1) > 0 and p in live_pages()]
                         why = prime_wait(r)
                         for p in pg:
                             if not why:

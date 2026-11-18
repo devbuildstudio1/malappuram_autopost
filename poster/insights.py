@@ -46,7 +46,7 @@ def main():
         hist = json.load(open(HIST, encoding="utf-8"))
     except Exception:
         hist = {}
-    for page in ("manjeri", "malappuram"):
+    for page in post.live_pages():
         try:
             tok = post.bridge_get("token", page=page)["token"]
             uid, _ = post.ig_account(tok)
@@ -75,7 +75,7 @@ def main():
     rows = [h for h in rows if (datetime.datetime.now(datetime.timezone.utc) - datetime.datetime.fromisoformat(
         h["t"].replace("+0000", "+00:00"))).total_seconds() > 24 * 3600]      # under a day old: likes still coming in
     # compare within a page (the two pages have very different audiences): relative score = post score / that page's median
-    for pg in ("manjeri", "malappuram"):
+    for pg in post.live_pages():
         sc = [score(h) for h in rows if h["page"] == pg]
         med = statistics.median(sc) if sc else 1
         for h in rows:

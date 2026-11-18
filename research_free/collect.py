@@ -18,6 +18,7 @@ SET_NEWS = int(os.environ.get("SET_NEWS_COUNT", "0") or 0) or _slot_count()
 MAX_MANJERI = int(os.environ.get("MAX_MANJERI", "0") or 0) or SET_NEWS     # Manjeri page: the same count per round, as far as local news exists
 CAROUSEL_EVERY = int(os.environ.get("CAROUSEL_EVERY", "5"))   # 1 carousel (best story) per 5 stories, all others reel only
 MAX_MALAPPURAM = int(os.environ.get("MAX_MALAPPURAM", "0") or 0) or SET_NEWS       # Malappuram page: district news, same count per round
+MAX_KONDOTTY = int(os.environ.get("MAX_KONDOTTY", "0") or 0) or SET_NEWS     # Kondotty page (once live): the same count per round
 ARCHIVE = HERE / "archive"
 DRY = "--dry" in sys.argv
 IMG_BUDGET = int(os.environ.get("IMG_BUDGET_MIN", "22")) * 60
@@ -393,9 +394,9 @@ def open_article(n):
 
 
 def local_score(n, text=""):
-    """priority: real local news first (Manjeri, a district place in the headline), then topic interest, outlets and freshness"""
+    """priority: real local news first (Manjeri / Kondotty, a district place in the headline), then topic interest, outlets and freshness"""
     s = score(n)
-    if n.get("area") == "R":
+    if n.get("area") in ("R", "K"):
         s += 4
     if allnews.has_place(n.get("title", "")):
         s += 3
@@ -514,7 +515,7 @@ PRIORITY_ONLY = [False]
 
 def assign_carousel(group):
     """reels carry the reach; a carousel only for the most promising story in every CAROUSEL_EVERY per area (High importance always gets one)"""
-    for a in ("R", "N"):
+    for a in ("R", "N", "K"):
         grp = sorted([x for x in group if x.get("_area") == a], key=lambda x: -x["_score"])
         top = max(1, -(-len(grp) // CAROUSEL_EVERY)) if grp else 0
         for i, x in enumerate(grp):
@@ -857,7 +858,7 @@ def instagram_recent(log=None):
     try:
         sys.path.insert(0, str(HERE.parent / "poster"))
         import post
-        for page in ("manjeri", "malappuram"):
+        for page in ("manjeri", "malappuram") + (("kondotty",) if allnews.kondotty_live() else ()):
             try:
                 tok = post.bridge_get("token", page=page)["token"]
                 uid, _ = post.ig_account(tok)
@@ -872,7 +873,7 @@ def instagram_recent(log=None):
         if log is not None:
             log.append(f"instagram check unavailable: {str(e)[:120]}")
     if log is not None:
-        log.append(f"instagram check: {len(rows)} recent posts read from both pages")
+        log.append(f"instagram check: {len(rows)} recent posts read from all pages")
     return rows
 
 
@@ -927,7 +928,7 @@ def main():
                         "query": "manual", "snippet": "", "outlets": ["manual link"], "alts": [mu], "mentions": 3,
                         "area": "N", "score": 999, "status": "collected", "story": "", "manual": True})
         log.append(f"manual link added: {mu}")
-    queues = {"R": [], "N": []}
+    queues = {"R": [], "N": [], "K": []}
     rechecks = 0
     for n in sorted(news, key=lambda x: -x["score"]):
         if n["status"] == "collected" and (allnews.other_district(n["title"]) or (n["area"] == "N" and allnews.outside_district(n["title"], n.get("via", "")))):
@@ -945,7 +946,7 @@ def main():
             queues[n["area"]].append(n)
         elif n["status"] == "collected":
             n["status"] = "old"
-    for a_ in ("R", "N"):      # links given by hand go first, before any time is used up
+    for a_ in ("R", "N", "K"):      # links given by hand go first, before any time is used up
         queues[a_] = [q for q in queues[a_] if q.get("manual")] + [q for q in queues[a_] if not q.get("manual")]
     if os.environ.get("TOWN_NEAR", "0") == "1" and not PRIORITY_ONLY[0] and len(queues["R"]) < MAX_MANJERI:
         # off by default (only real Manjeri news goes to Manjeri 360; all other district news to Malappuram 360)
@@ -955,29 +956,30 @@ def main():
         log.append(f"Manjeri short of news: {len(near[:MAX_MANJERI])} items from nearby places added to its list")
     from collections import Counter
     log.append("candidate filter: " + ", ".join(f"{k.split(':')[0][:40]}={v}" for k, v in Counter(n["status"] for n in news).most_common()))
-    log.append(f"to write: {len(queues['R'])} Manjeri + {len(queues['N'])} other district candidates (max {MAX_MANJERI} + {MAX_MALAPPURAM} stories)")
-    target, done, tried = {"R": MAX_MANJERI, "N": MAX_MALAPPURAM}, {"R": 0, "N": 0}, {"R": 0, "N": 0}
+    log.append(f"to write: {len(queues['R'])} Manjeri + {len(queues['K'])} Kondotty + {len(queues['N'])} other district candidates "
+               f"(max {MAX_MANJERI} + {MAX_KONDOTTY} + {MAX_MALAPPURAM} stories)")
+    target, done, tried = {"R": MAX_MANJERI, "N": MAX_MALAPPURAM, "K": MAX_KONDOTTY}, {"R": 0, "N": 0, "K": 0}, {"R": 0, "N": 0, "K": 0}
     if TODAY[0] >= DAILY_CAP:
         log.append(f"daily cap: {TODAY[0]} stories already written today (cap {DAILY_CAP}) - only main / important news is written now")
     if os.environ.get("WRITE_STORIES", "1") == "0" or TODAY[0] >= DAILY_CAP:      # archive-only round: collect and store everything, write nothing, send no email
         # priority scan: only a really urgent local story (accident / death / fire / blast / murder / flood / power shutdown, or reported by 3+
         # outlets) is written between the three normal rounds; if the writer rates it High it is filed and its images-needed email goes at once
         PRIO = ("മരിച്ചു", "മരണം", "അപകട", "സ്ഫോടന", "കൊല", "തീപിടിത്ത", "വൈദ്യുതി മുടങ്ങും", "വൈദ്യുതി മുടക്കം", "വെള്ളപ്പൊക്ക", "ഉരുൾപൊട്ട", "ആത്മഹത്യ", "അറസ്റ്റ്")
-        target = {"R": 1, "N": 2}
-        for a_ in ("R", "N"):
+        target = {"R": 1, "N": 2, "K": 1}
+        for a_ in ("R", "N", "K"):
             queues[a_] = [q for q in queues[a_] if q["mentions"] >= 3 or any(w in q["title"] for w in PRIO)][:4]
         PRIORITY_ONLY[0] = True
         log.append("archive round: priority scan only (urgent local news, if any)")
     if MODE == "collect":
         try:
-            verify_candidates(queues["R"] + queues["N"], state, log)
+            verify_candidates(queues["R"] + queues["N"] + queues["K"], state, log)
         except Exception as e:
             log.append(f"checking at collection failed (the writer checks each news instead): {str(e)[:120]}")
-        target = {"R": 0, "N": 0}
+        target = {"R": 0, "N": 0, "K": 0}
         log.append("collect round: nothing is written now - the writer job takes the queue by priority and posts each story at once")
-    # Manjeri news -> ONE post on Manjeri 360 with Malappuram 360 invited as collaborator; every other district news -> Malappuram 360
-    tries_cap = {"R": MAX_MANJERI * 10, "N": MAX_MALAPPURAM * 10}
-    log.append(f"candidates waiting: {len(queues['R'])} Manjeri, {len(queues['N'])} Malappuram; time left {int((DEADLINE - time.time()) / 60)} min")
+    # Manjeri / Kondotty news -> ONE post on that town's page with Malappuram 360 invited as collaborator; every other district news -> Malappuram 360
+    tries_cap = {"R": MAX_MANJERI * 10, "N": MAX_MALAPPURAM * 10, "K": MAX_KONDOTTY * 10}
+    log.append(f"candidates waiting: {len(queues['R'])} Manjeri, {len(queues['K'])} Kondotty, {len(queues['N'])} Malappuram; time left {int((DEADLINE - time.time()) / 60)} min")
 
     def prepare(n, area):
         """worker thread: open the article, check it, write the story and its image brief. Never raises; returns a result dict."""
@@ -1027,7 +1029,7 @@ def main():
         dup = "" if n.get("manual") else same_event_filed(art, recent)
         if dup:      # the same event from another outlet under another headline is not written again
             return {"skip": "already filed", "s": "dup", "log": f"skip ({area}) same event as {dup}: {art['title'][:50]}"}
-        area = allnews.area_of_story(art["title"], art["text"])      # Manjeri page only for Manjeri and the villages around it
+        area = allnews.area_of_story(art["title"], art["text"])      # Manjeri / Kondotty page only for that town and the villages around it
         art["interest"] = interest(art)
         print(f"writing [{area}]: {art['title'][:60]}", flush=True)
         try:
@@ -1042,13 +1044,13 @@ def main():
                 print("image brief failed, using the writer's scenes:", str(e)[:120], flush=True)
         return {"art": art, "res": res, "scenes": scenes, "area": area}
 
-    for a_ in ("R", "N"):      # owner 26 Oct: ONE priority order (highest first) across both pages; links given by hand first
+    for a_ in ("R", "N", "K"):      # owner 26 Oct: ONE priority order (highest first) across both pages; links given by hand first
         queues[a_].sort(key=lambda q: (not q.get("manual"), not q.get("verified"), -q.get("score", 0)))
 
     def next_item():
         """the highest-priority waiting news of either page; the same event already filed this round is never written again"""
         while True:
-            open_ = [a for a in ("R", "N") if queues[a] and done[a] < target[a] and tried[a] < tries_cap[a]]
+            open_ = [a for a in ("R", "N", "K") if queues[a] and done[a] < target[a] and tried[a] < tries_cap[a]]
             if not open_:
                 return None
             area = max(open_, key=lambda a: (queues[a][0].get("manual", False), bool(queues[a][0].get("verified")), queues[a][0].get("score", 0)))
@@ -1098,11 +1100,13 @@ def main():
                 n["status"] = "checked: not urgent, left for the next normal round"
                 log.append(f"not urgent ({area}) {art['title'][:50]}")
                 continue
-            # Manjeri news: Manjeri 360 post (Manjeri logo), Malappuram 360 invited as collaborator.
+            # Manjeri news: Manjeri 360 post (Manjeri logo), Malappuram 360 invited as collaborator. Kondotty news: the same on Kondotty 360.
             # District-wide news (Collector / government announcements, district jobs, schemes, camps, holidays ...): Malappuram 360 post
             # (Malappuram logo), Manjeri 360 invited as collaborator - people in Manjeri need it too. Every other district news: Malappuram 360 only.
             if area == "R":
                 story["post_to"] = "Manjeri 360 (collab: Malappuram 360)"
+            elif area == "K":
+                story["post_to"] = "Kondotty 360 (collab: Malappuram 360)"
             elif district_wide(story):
                 story["post_to"] = "Malappuram 360 (collab: Manjeri 360)"
             else:
@@ -1122,9 +1126,9 @@ def main():
                 else:
                     unsent.append(story)
     pool.shutdown(wait=False, cancel_futures=True)
-    log.append(f"candidate loop ended: left R={len(queues['R'])} N={len(queues['N'])}, tried={tried}, done={done}, time left {int((DEADLINE - time.time()) / 60)} min")
+    log.append(f"candidate loop ended: left R={len(queues['R'])} K={len(queues['K'])} N={len(queues['N'])}, tried={tried}, done={done}, time left {int((DEADLINE - time.time()) / 60)} min")
     log.append(f"carousel for {sum(1 for x in out if x['slides_spec'].get('carousel'))} of {len(out)} stories, the rest reel only")
-    log.append(f"filed: {done['R']} Manjeri + {done['N']} Malappuram (targets {MAX_MANJERI} + {MAX_MALAPPURAM})")
+    log.append(f"filed: {done['R']} Manjeri + {done['K']} Kondotty + {done['N']} Malappuram (targets {MAX_MANJERI} + {MAX_KONDOTTY} + {MAX_MALAPPURAM})")
     # the queue: every eligible news not written yet (new, not tried this round, or a try that can be repeated) - highest priority first
     # owner 26 Oct: ONLY news that was opened and checked (real Malappuram-district news that can be written) goes into the queue.
     # A link that could not be opened is not queued - the next collection finds it again and checks it then.
@@ -1150,7 +1154,7 @@ def main():
     # Other-district, old and already posted items are dropped silently (they used to fill the "All News" tab: 24,000 rows in 5 days).
     NOT_ELIGIBLE = ("old", "not Malappuram", "already filed", "checked earlier", "duplicate of a story filed")
     news = [n for n in news if not str(n["status"]).startswith(NOT_ELIGIBLE)]
-    rows = [{"source": ", ".join(n["outlets"])[:80], "area": "Manjeri" if n["area"] == "R" else "Malappuram district", "url": n["url"], "title": n["title"],
+    rows = [{"source": ", ".join(n["outlets"])[:80], "area": {"R": "Manjeri", "K": "Kondotty"}.get(n["area"], "Malappuram district"), "url": n["url"], "title": n["title"],
              "published": n["published"][:16].replace("T", " "), "mentions": n["mentions"], "score": n["score"], "status": n["status"], "story": n["story"]} for n in news]
     try:
         import csv

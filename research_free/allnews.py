@@ -1,5 +1,5 @@
 """Collect EVERY Malappuram-district news item from many outlets (the papers' Malappuram district pages + Google News + Bing News RSS,
-any extra listing pages in sources.json), tag each one Manjeri ('R' = the town page) or rest-of-district ('N' = the district page), merge
+any extra listing pages in sources.json), tag each one Manjeri ('R' = the town page), Kondotty ('K') or rest-of-district ('N' = the district page), merge
 duplicates reported by several outlets, and give the owner a full list to analyse. Nothing here writes posts; collect.py ranks and writes
 the best ones. Every request is wrapped so one broken outlet never stops the others."""
 import datetime, difflib, email.utils, html, json, re, time, urllib.parse
@@ -48,8 +48,13 @@ def stem(w):
 
 # Manjeri town + the villages and panchayats around it -> posted on Manjeri 360 (Malappuram 360 invited as collaborator)
 TOWN_AREA = ["മഞ്ചേരി", "പാണ്ടിക്കാട്", "എടവണ്ണ", "അരീക്കോട്", "കീഴുപറമ്പ്", "തൃക്കലങ്ങോട്", "ആനക്കയം", "പുൽപ്പറ്റ", "പയ്യനാട്",
-             "നെല്ലിക്കുത്ത്", "കാവനൂർ", "ഏറനാട്", "എളങ്കൂർ", "ചെരണി", "ഊർങ്ങാട്ടിരി", "കുഴിമണ്ണ",
+             "നെല്ലിക്കുത്ത്", "കാവനൂർ", "ഏറനാട്", "എളങ്കൂർ", "ചെരണി", "ഊർങ്ങാട്ടിരി",
              "Manjeri", "Pandikkad", "Edavanna", "Areekode", "Eranad", "Ernad"]
+# Kondotty town + Karipur airport + the panchayats of Kondotty taluk -> Kondotty 360 (Malappuram 360 invited as collaborator),
+# only once the Kondotty account id is in poster/config.json ig_user_ids (kondotty_live); until then this news stays on Malappuram 360
+KONDOTTY_AREA = ["കൊണ്ടോട്ടി", "കരിപ്പൂർ", "കോഴിക്കോട് വിമാനത്താവള", "പുളിക്കൽ", "കുഴിമണ്ണ", "ചെറുകാവ്", "വാഴയൂർ", "മുതുവല്ലൂർ",
+                 "പള്ളിക്കൽ", "നെടിയിരുപ്പ്", "മൊറയൂർ", "വാഴക്കാട്", "ചീക്കോട്", "ഐക്കരപ്പടി", "ചേലേമ്പ്ര", "ഒളവട്ടൂർ", "മുസ്ലിയാരങ്ങാടി",
+                 "Kondotty", "Karipur", "Calicut airport", "Kozhikode airport", "Pulikkal", "Kuzhimanna", "Vazhakkad", "Cherukavu"]
 # searches that cover the whole district (every taluk and big town)
 QUERIES = ["മലപ്പുറം", "മഞ്ചേരി", "തിരൂർ", "പെരിന്തൽമണ്ണ", "പൊന്നാനി", "നിലമ്പൂർ", "കോട്ടക്കൽ", "കൊണ്ടോട്ടി", "തിരൂരങ്ങാടി",
            "വളാഞ്ചേരി", "താനൂർ", "പരപ്പനങ്ങാടി", "വേങ്ങര", "എടപ്പാൾ", "അരീക്കോട്", "വണ്ടൂർ", "കരിപ്പൂർ", "മലപ്പുറം ജില്ല",
@@ -276,18 +281,40 @@ def outside_district(text, via=""):
     return any(w in text for w in OUTSIDE_WORDS)
 
 
+_KONDOTTY_LIVE = []
+
+
+def kondotty_live():
+    """Kondotty 360 gets its own news only once its Instagram account id is in poster/config.json ig_user_ids"""
+    if not _KONDOTTY_LIVE:
+        try:
+            ids = json.loads((HERE.parent / "poster" / "config.json").read_text(encoding="utf-8")).get("ig_user_ids") or {}
+            _KONDOTTY_LIVE.append(bool(str(ids.get("kondotty", "")).strip()))
+        except Exception:
+            _KONDOTTY_LIVE.append(False)
+    return _KONDOTTY_LIVE[0]
+
+
+def _names(t, low, places):
+    return any(any(f in t for f in _forms(k)) if not k.isascii() else (k.lower() in low) for k in places)
+
+
 def area_of(text, default="N"):
-    """'R' (Manjeri 360) when the text names Manjeri or a place around it, else the default ('N' = Malappuram 360)"""
+    """'R' (Manjeri 360) when the text names Manjeri or a place around it, 'K' (Kondotty 360) for Kondotty and its taluk,
+    else the default ('N' = Malappuram 360)"""
     t = norm(text)
     low = t.lower()
-    return "R" if any(any(f in t for f in _forms(k)) if not k.isascii() else (k.lower() in low) for k in TOWN_AREA + NEAR_TOWN) else default
+    if _names(t, low, TOWN_AREA + NEAR_TOWN):
+        return "R"
+    return "K" if kondotty_live() and _names(t, low, KONDOTTY_AREA) else default
 
 
 def area_of_story(title, lead):
-    """Manjeri page when the HEADLINE names Manjeri or a place around it, or (headline names no place) the opening lines do.
+    """Manjeri / Kondotty page when the HEADLINE names that town or a place around it, or (headline names no place) the opening lines do.
     District-wide news ("മലപ്പുറം ജില്ലയിൽ ...") that only lists Manjeri among the towns stays on the Malappuram page."""
-    if area_of(title or "") == "R":
-        return "R"
+    head = area_of(title or "")
+    if head in ("R", "K"):
+        return head
     if "ജില്ല" in norm(title) or has_place(title or ""):
         return "N"
     return area_of((lead or "")[:250])
@@ -418,7 +445,7 @@ def collect(log):
         m["mentions"] = len(m["outlets"])
         m["area"] = area_of(m["title"] + " " + m.get("snippet", ""))
         m["outlets"] = sorted(m["outlets"])
-    log.append(f"all sources: {len(items)} items -> {len(merged)} different news ({sum(1 for m in merged if m['area'] == 'R')} Manjeri)")
+    log.append(f"all sources: {len(items)} items -> {len(merged)} different news ({sum(1 for m in merged if m['area'] == 'R')} Manjeri, {sum(1 for m in merged if m['area'] == 'K')} Kondotty)")
     return merged
 
 

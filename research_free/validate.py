@@ -12,7 +12,7 @@ OUTLETS = ["മാതൃഭൂമി", "മനോരമ", "മാധ്യമം
 LAST = "കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ."
 FOLLOW = "പ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏"
 FULL = "പൂർണ വിവരം"      # the caption block that carries the whole story ("📰 പൂർണ വിവരം:")
-PAGES = ("Malappuram 360", "Manjeri 360")
+PAGES = ("Malappuram 360", "Manjeri 360", "Kondotty 360")
 ML = "\u0D00-\u0D7F"
 KEYS = ["malayalam_headline", "english_headline", "category", "location", "importance", "post_to", "slides_spec", "reel_script", "caption", "scenes"]
 
@@ -257,7 +257,7 @@ def validate(d, article, today_digits=("2026",)):
     if d.get("importance") not in ("High", "Medium", "Low"):
         p.append("importance must be High, Medium or Low")
     if not (d["post_to"].startswith(PAGES)):
-        p.append("post_to must start with 'Malappuram 360' or 'Manjeri 360'")
+        p.append("post_to must start with 'Malappuram 360', 'Manjeri 360' or 'Kondotty 360'")
     blob = json.dumps(d, ensure_ascii=False).lower()
     hits = [o for o in OUTLETS if o.lower() in blob]
     if hits:

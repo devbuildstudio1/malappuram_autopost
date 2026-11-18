@@ -5,7 +5,7 @@ import post
 
 out = {}
 METRICS = ["reach", "views", "saved", "shares", "likes", "comments", "total_interactions", "ig_reels_avg_watch_time", "ig_reels_video_view_total_time", "plays"]
-for page in ("manjeri", "malappuram"):
+for page in post.live_pages():
     r = out[page] = {}
     try:
         tok = post.bridge_get("token", page=page)["token"]

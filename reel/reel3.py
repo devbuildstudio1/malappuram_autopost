@@ -133,7 +133,7 @@ def plan_shots(n_img, content_end, snaps):
 
 def build_html(spec, shots, sents, caps, hook_end, end_t, total, page):
     logo = f"file://{R.KIT.resolve() / page['logo']}"
-    foot_key = "manjeri" if "manjeri" in page["logo"].lower() else "malappuram"
+    foot_key = next((k for k in ("manjeri", "kondotty") if k in page["logo"].lower()), "malappuram")
     foot = f"file://{(Path(__file__).resolve().parent / 'assets' / ('footer_' + foot_key + '.png')).as_posix()}"
     imgs = "".join(f'<img class="pic" id="p{i}" src="file://{Path(p).resolve()}">' for i, p in enumerate(spec["images"]))
     acc = accent_for(spec.get("cat", ""))

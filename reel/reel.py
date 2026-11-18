@@ -21,6 +21,8 @@ PAGES = {
                 "ticker": "മഞ്ചേരി 360  •  മഞ്ചേരി • പരിസര വാർത്തകൾ  •  Follow ചെയ്യൂ"},
     "malappuram": {"logo": "logo_malappuram.png", "name": "മലപ്പുറം 360", "handle": "malappuram.360.official", "tagline": "നമ്മുടെ മലപ്പുറം വാർത്തകൾ", "follow": "മലപ്പുറം ജില്ലാ<br>വാർത്തകൾക്ക്",
                    "ticker": "മലപ്പുറം 360  •  മലപ്പുറം ജില്ലാ വാർത്തകൾ  •  Follow ചെയ്യൂ"},
+    "kondotty": {"logo": "logo_kondotty.png", "name": "കൊണ്ടോട്ടി 360", "handle": "kondotty.360", "tagline": "നമ്മുടെ കൊണ്ടോട്ടി വാർത്തകൾ", "follow": "കൊണ്ടോട്ടി<br>പ്രാദേശിക വാർത്തകൾക്ക്",
+                 "ticker": "കൊണ്ടോട്ടി 360  •  കൊണ്ടോട്ടി • പരിസര വാർത്തകൾ  •  Follow ചെയ്യൂ"},
 }
 PAGE = PAGES["malappuram"]
 LOGO = KIT / PAGE["logo"]
