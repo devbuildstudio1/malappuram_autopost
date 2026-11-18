@@ -12,19 +12,30 @@ MIN_PER_TOPIC, MIN_POSTS = 3, 12
 IST = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
 
 
-def metrics(mid, tok):
-    out = {}
+SKIP_REL, SKIP_MIN = 0.5, 4      # a topic whose median post gets at most half the page's median score (over 4+ posts) is not written
+
+
+def metrics(mid, tok, blocked):
+    """private Reel insights; the app has no instagram_manage_insights permission yet (error #10), then only public likes/comments count"""
+    out = {m: None for m in MET}
+    if blocked.get("x"):
+        return out
     for m in MET:
         try:
             v = (post.ig("GET", f"{mid}/insights", tok, metric=m).get("data") or [{}])[0].get("values") or [{}]
             out[m] = v[0].get("value")
-        except Exception:
-            out[m] = None
+        except Exception as e:
+            if "(#10)" in str(e) or "permission" in str(e).lower():
+                blocked["x"] = True
+                return out
     return out
 
 
 def score(h):
-    """what we want people to do: watch it through, save it, share it, react. Weighted per reach so big pages don't drown the small one."""
+    """what we want people to do: watch it through, save it, share it, react. Weighted per reach so big pages don't drown the small one.
+    Without insights (no reach): public likes + comments (a comment is worth 4 likes)."""
+    if not h.get("reach"):
+        return (h.get("likes") or 0) + 4 * (h.get("comments") or 0)
     reach = max(h.get("reach") or 0, 1)
     return (10 * (h.get("shares") or 0) + 6 * (h.get("saved") or 0) + 2 * (h.get("total_interactions") or 0)) / reach * 100 \
         + (h.get("ig_reels_avg_watch_time") or 0) / 1000.0
@@ -39,7 +50,9 @@ def main():
         try:
             tok = post.bridge_get("token", page=page)["token"]
             uid, _ = post.ig_account(tok)
-            items = post.ig("GET", f"{uid}/media", tok, fields="id,caption,timestamp,media_product_type", limit=50).get("data", [])
+            blocked = {}
+            items = post.ig("GET", f"{uid}/media", tok, fields="id,caption,timestamp,media_product_type,like_count,comments_count",
+                            limit=100).get("data", [])
         except Exception as e:
             print(page, "read failed:", str(e)[:200]); continue
         for i in items:
@@ -48,23 +61,26 @@ def main():
             cap = i.get("caption") or ""
             age_h = (datetime.datetime.now(datetime.timezone.utc) - datetime.datetime.fromisoformat(i["timestamp"].replace("+0000", "+00:00"))).total_seconds() / 3600
             old = hist.get(i["id"])
-            if old and old.get("final"):
+            if old and old.get("final") and "likes" in old:
                 continue
-            row = {"page": page, "t": i["timestamp"], "caption": cap[:400], "topic": learned.topic(cap)}
-            row.update(metrics(i["id"], tok))
-            row["final"] = age_h > 72            # numbers settle after ~3 days
+            row = {"page": page, "t": i["timestamp"], "caption": cap[:400], "topic": learned.topic(cap),
+                   "likes": i.get("like_count"), "comments": i.get("comments_count")}
+            row.update(metrics(i["id"], tok, blocked))
+            row["final"] = age_h > 7 * 24        # likes keep coming for a few days
             hist[i["id"]] = row
     os.makedirs(os.path.dirname(HIST), exist_ok=True)
     json.dump(hist, open(HIST, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
-    rows = [h for h in hist.values() if h.get("reach") is not None and (h.get("reach") or 0) > 0]
+    rows = [h for h in hist.values() if (h.get("reach") or 0) > 0 or h.get("likes") is not None]
+    rows = [h for h in rows if (datetime.datetime.now(datetime.timezone.utc) - datetime.datetime.fromisoformat(
+        h["t"].replace("+0000", "+00:00"))).total_seconds() > 24 * 3600]      # under a day old: likes still coming in
     # compare within a page (the two pages have very different audiences): relative score = post score / that page's median
     for pg in ("manjeri", "malappuram"):
         sc = [score(h) for h in rows if h["page"] == pg]
         med = statistics.median(sc) if sc else 1
         for h in rows:
             if h["page"] == pg:
-                h["rel"] = score(h) / (med or 1)
+                h["rel"] = (score(h) + 1) / (med + 1)      # +1: most posts of the small page have 0-2 likes
     out = {"updated": datetime.datetime.now(IST).isoformat(timespec="minutes"), "posts_measured": len(rows)}
     if len(rows) >= MIN_POSTS:
         tw, by = {}, {}
@@ -87,6 +103,9 @@ def main():
         out["avg_watch_s"] = round(statistics.mean(aw) / 1000, 1) if aw else None
         out["best_topics"] = sorted(tw, key=lambda k: -tw[k])[:3]
         out["weak_topics"] = sorted(tw, key=lambda k: tw[k])[:2]
+        # owner 18 Nov: post only the kinds of news that perform; collect.low_interest() does not write these topics
+        out["skip_topics"] = sorted(t for t, v in by.items() if t != "other" and len(v) >= SKIP_MIN and statistics.median(v) <= SKIP_REL)
+        out["topic_median_rel"] = {t: [round(statistics.median(v), 2), len(v)] for t, v in sorted(by.items())}
     json.dump(out, open(os.path.join(HERE, "..", "research_free", "learned.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(json.dumps(out, ensure_ascii=False)[:1500])
 

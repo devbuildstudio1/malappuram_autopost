@@ -189,10 +189,29 @@ def _selection():
         return {}
 
 
+# owner 18 Nov: post only the kinds of reels that performed. poster/insights.py measures each topic against the page median and lists
+# the weak ones in learned.json skip_topics; those are not written. Safety news (power cuts, weather alerts) is always written.
+ALWAYS_TOPICS = {"power_cut", "weather"}
+
+
+def _weak_topic(title):
+    try:
+        import learned
+        t = learned.topic(title)
+        return t if t not in ALWAYS_TOPICS and t in (learned.load().get("skip_topics") or []) else ""
+    except Exception:
+        return ""
+
+
 def low_interest(title, url=""):
     """'' = worth writing; else why Malappuram viewers would not watch it"""
     t, u = allnews.norm(title or ""), url or ""
-    if not _selection().get("skip_low_interest", True) or NEVER_LOW.search(t):
+    if not _selection().get("skip_low_interest", True):
+        return ""
+    weak = _weak_topic(t)
+    if weak:
+        return f"'{weak}' reels perform poorly on our pages (insights)"
+    if NEVER_LOW.search(t):
         return ""
     if LOW_EDITORIAL_URL.search(u):
         return "editorial / opinion, not news"

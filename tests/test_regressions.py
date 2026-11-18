@@ -941,6 +941,29 @@ class PortLeftovers(unittest.TestCase):
 
 
 class FollowerSelection(unittest.TestCase):      # owner 11 Nov: topics are chosen for new followers
+    def setUp(self):
+        import learned
+        self._load = learned.load
+        learned.load = lambda: {}      # the daily insights data must not change these results
+
+    def tearDown(self):
+        import learned
+        learned.load = self._load
+
+    def test_weak_topics_from_insights_skipped(self):      # owner 18 Nov: post only the kinds of reels that performed
+        import learned
+        learned.load = lambda: {"skip_topics": ["education", "temple", "weather"]}
+        self.assertTrue(collect.low_interest("മഞ്ചേരി കോളജിൽ വിദ്യാർഥികൾക്ക് ലീഡർഷിപ് ക്യാമ്പ്"))
+        self.assertTrue(collect.low_interest("കുന്നിന്മേൽ ക്ഷേത്രത്തിൽ ആനയൂട്ട്"))
+        self.assertEqual("", collect.low_interest("കൊണ്ടോട്ടിയിൽ 3.64 ലക്ഷം രൂപയുടെ അടയ്ക്ക മോഷണം"))
+        self.assertEqual("", collect.low_interest("മലപ്പുറം ജില്ലയിൽ നാളെ ഓറഞ്ച് അലർട്ട്, കനത്ത മഴ"))      # safety news always written
+        self.assertEqual("", collect.low_interest("നാളെ കോട്ടക്കലിൽ വൈദ്യുതി മുടങ്ങും"))
+
+    def test_insights_public_score(self):
+        src = (Path(__file__).parent.parent / "poster" / "insights.py").read_text(encoding="utf-8")
+        self.assertIn("like_count,comments_count", src)
+        self.assertIn('"skip_topics"', src)
+
     def test_low_interest_skipped(self):
         for h in ("കുറ്റിപ്പുറത്ത് സഹകരണ സൊസൈറ്റി കെട്ടിടം ഉദ്ഘാടനം ചെയ്തു", "പാണ്ടിക്കാട്ടിലെ കലാകാരന്മാർക്ക് പുരസ്കാരം",
                   "അബു അരീക്കോടിന്റെ ചരമവാർഷികം", "മഞ്ചേരി പോസ്റ്റ് ഓഫീസിനു മുന്നിൽ പ്രതിഷേധ ധർണ",
