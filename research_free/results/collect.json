@@ -25,18 +25,20 @@
   "try (N) manual=False: പ്രായപൂർത്തിയാകാത്തവരുടെ ഡ്രൈവിങ്: പിടിയിലായവരിൽ പകുതിയോളം മ",
   "NOT filed (N) പ്രായപൂർത്തിയാകാത്തവരുടെ ഡ്രൈവിങ്: പിടിയിലായവരിൽ പ: all free models failed: no usable answer from the models",
   "NOT filed (N) വിവിധ ജില്ലകളിലായി വാടകവീടെടുത്ത് താമസിക്കും, പിന്: all free models failed: no usable answer from the models",
-  "NOT filed (N) ‘ടൂറിസം എന്റെ പാഷൻ, ബേപ്പൂരിൽ മത്സരിച്ചത് തോറ്റാൽ : all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 10, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)",
-  "queue: 10 news waiting to be written",
+  "auto images: 1 of 1 stories ({'pollinations': 4})",
+  "posting job started at once",
+  "candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 10, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 25 min",
+  "carousel for 0 of 1 stories, the rest reel only",
+  "filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)",
+  "queue: 9 news waiting to be written",
+  "write_stories.yml started",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":10}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
@@ -48,23 +50,91 @@
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
   "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
   "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
   "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
-  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min"
+  "ok gemini/gemini-3.6-flash (51s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_gener",
+  "ok groq/qwen/qwen3.8-27b (5s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m",
+  "switching away from groq/qwen/qwen3.8-27b for 10 min",
+  "ok groq/openai/gpt-oss-120b (3s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok groq/openai/gpt-oss-120b (3s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "KTDC ചെയർമാൻ സ്ഥാനം യുഡിഎഫിനോട് ആവശ്യപ്പെട്ടതായി പി.വി. അൻവർ സ്ഥിരീകരിച്ചു",
+   "english_headline": "PV Anvar confirms requesting KTDC Chairman post from UDF leadership",
+   "category": "Government & Services",
+   "location": "Malappuram district",
+   "importance": "Medium",
+   "scope": "district",
+   "post_to": "Malappuram 360 (collab: Manjeri 360)",
+   "slides_spec": {
+    "v": 3,
+    "cat": "രാഷ്ട്രീയം",
+    "loc": "മലപ്പുറം",
+    "hl1": "KTDC ചെയർമാൻ സ്ഥാനം",
+    "hl2": "ആവശ്യപ്പെട്ട് പി.വി. അൻവർ",
+    "slides": [
+     {
+      "title": "പോസ്റ്റ്",
+      "lines": [
+       "<b>KTDC</b> ചെയർമാൻ സ്ഥാനം ആവശ്യപ്പെട്ടു",
+       "യുഡിഎഫ് നേതൃത്വത്തിന് കത്ത് നൽകിയെന്ന് <b>അൻവർ</b>"
+      ]
+     },
+     {
+      "title": "ഉപാധി",
+      "lines": [
+       "ബേപ്പൂരിൽ തോറ്റാൽ പദവി വേണമെന്ന് ഉപാധി",
+       "വ്യക്തമായ ഉറപ്പ് ലഭിച്ചിരുന്നെന്ന് ഫെയ്സ്ബുക്ക് പോസ്റ്റ്",
+       "ടൂറിസം തന്റെ <b>പാഷൻ</b> ആണെന്ന് വിശദീകരണം"
+      ]
+     },
+     {
+      "title": "വിശദീകരണം",
+      "lines": [
+       "ടൂറിസം സംരംഭങ്ങൾ നടത്തി പരിചയമുണ്ട്",
+       "യുഡിഎഫ് അസോസിയേറ്റ് കക്ഷിയായി പ്രവർത്തിക്കുന്നു",
+       "പോരാട്ടങ്ങളിൽ പങ്കാളിയായതിനാൽ അർഹതയുണ്ട്"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "കെടിഡിസി ചെയർമാൻ സ്ഥാനം യുഡിഎഫിനോട് ആവശ്യപ്പെട്ടതായി പി വി അൻവർ. ബേപ്പൂരിൽ തോറ്റാൽ കെടിഡിസി ചെയർമാനാക്കണമെന്ന ഉപാധിയോടെയാണ് മത്സരിച്ചതെന്ന് അൻവർ ഫെയ്സ്ബുക്കിൽ കുറിച്ചു. ഇതിൽ യുഡിഎഫ് നേതൃത്വത്തിൽ നിന്ന് ഉറപ്പ് ലഭിച്ചിരുന്നെന്നും അദ്ദേഹം പറയുന്നു. ടൂറിസം തന്റെ പാഷൻ ആയതുകൊണ്ടാണ് ഈ പദവി ആവശ്യപ്പെട്ടത്. ടൂറിസം സംരംഭങ്ങൾ നടത്തി പരിചയമുണ്ടെന്നും സാമ്പത്തിക ബാധ്യതയില്ലാതെ പദ്ധതികൾ നടപ്പാക്കുമെന്നും അൻവർ വ്യക്തമാക്കുന്നു. യുഡിഎഫ് അസോസിയേറ്റ് അംഗമായ തനിക്ക് കത്ത് നൽകാൻ അവകാശമുണ്ടെന്നും അദ്ദേഹം കൂട്ടിച്ചേർത്തു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "📌 KTDC ചെയർമാൻ സ്ഥാനം ആവശ്യപ്പെട്ട് യുഡിഎഫിന് കത്തുനൽകിയെന്ന് സ്ഥിരീകരിച്ച് പി.വി. അൻവർ\n\n📰 പൂർണ വിവരം:\nകെടിഡിസി ചെയർമാൻ സ്ഥാനത്തേക്ക് പരിഗണിക്കണമെന്ന് ആവശ്യപ്പെട്ട് യുഡിഎഫ് നേതൃത്വത്തിന് കത്തുകൊടുത്തിട്ടുണ്ടെന്ന് പി.വി. അൻവർ സ്ഥിരീകരിച്ചു. ബേപ്പൂരിൽ പരാജയപ്പെട്ടാൽ കെടിഡിസി ചെയർമാൻ സ്ഥാനത്തേക്ക് പരിഗണിക്കുമെന്ന ഉപാധിയോടെയാണ് മത്സരിച്ചതെന്നും ഇതിൽ വ്യക്തമായ ഉറപ്പു ലഭിച്ചിരുന്നെന്നും അദ്ദേഹം ഫെയ്സ്ബുക്ക് പോസ്റ്റിൽ വ്യക്തമാക്കി. ടൂറിസം തന്റെ പാഷനാണെന്നും ദീർഘകാലം ടൂറിസം സംരംഭങ്ങൾ നടത്തിയ പരിചയമുണ്ടെന്നും അൻവർ കുറിച്ചു. സർക്കാരിന് സാമ്പത്തിക ബാധ്യതയില്ലാതെ ടൂറിസം പദ്ധതികൾ നടപ്പാക്കാൻ വ്യക്തമായ ബോധ്യമുണ്ട്. യുഡിഎഫിന്റെ അസോസിയേറ്റ് കക്ഷിയായതിനാൽ കത്തുനൽകാൻ അവകാശമുണ്ടെന്നും നിലമ്പൂർ എംഎൽഎ സ്ഥാനം രാജിവെച്ചും കേസും ജയിൽവാസവും സഹിച്ചും പോരാട്ടം നടത്തിയ തനിക്ക് പദവിക്ക് അർഹതയുണ്ടെന്നും അൻവർ പറയുന്നു.\n📍 സ്ഥലം: മലപ്പുറം\nℹ️ ശ്രദ്ധിക്കുക: പി.വി. അൻവറിന്റെ ഫെയ്സ്ബുക്ക് കുറിപ്പ്\n\nPV Anvar confirms requesting KTDC Chairman position from UDF leadership | Malappuram news\n📍 മലപ്പുറം | 18 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #PVAnvar #UDF #MalappuramNews",
+   "prompts": "PV Anvar hands a sealed envelope to a UDF representative, the main action of the political request; the scene is set inside a modest town office in Beypore, identifiable by laterite walls and a simple wooden desk; two men are seen from behind – one in a white shirt with mundu, the other in khaki police‑style uniform – standing near the desk; the envelope, a pen, and a laptop displaying a Facebook post are on the table; daylight streams through a small window, casting soft shadows; the camera is positioned at eye level, 35 mm, capturing the gesture without showing faces. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide establishing shot shows the bustling main road of Beypore, a coastal town in Malappuram district, with a red‑tiled KTDC office building visible on the left and coconut palms lining the street; a KSRTC bus and a few autorickshaws pass by, while a small group of politicians in shirts and khaki walk away from the camera; the road surface is wet from recent rain, reflecting the late‑afternoon golden light; distant hills of the Western Ghats rise faintly; the camera is placed low on the curb, 35 mm lens, framing the town’s character and the KTDC building that frames the political story. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close‑up focuses on the sealed envelope that PV Anvar delivered, the key object of the story; the envelope rests on a dark wooden table beside a brass pen, its flap sealed with a red wax stamp bearing an indistinct emblem; the background shows blurred edges of the office wall with a plaster finish; the lighting is soft indoor illumination, highlighting the texture of the paper and wax; the camera is positioned at a shallow angle, 35 mm, capturing the detail of the seal and the pen without any readable text or faces. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.mathrubhumi.com/news/kerala/pv-anvar-confirms-letter-to-udf-demanding-ktdc-chairman-role-dkn9hac4",
+   "published": "2026-11-18T09:59:41+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: stray Malayalam sign 'െ' after 'ി' in «ം രാജിെവെച»; caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 102 ('2026 ലെ നിയമസഭാ തിരഞ്ഞെടുപ്പിന്റെ ഫലപ്രഖ്യാപനം വന്നപ്പോൾ 102'); നിലമ്പൂർ ('2026 ലെ നിയമസഭാ തിരഞ്ഞെടുപ്പിന്റെ ഫലപ്രഖ്യാപനം വന്നപ്പോൾ 102')",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 2 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 9.0,
+   "images": [
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794996948/news360/fzturvebmhs9wzeasswu.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794997024/news360/pji5obntbhiijqmuplo0.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1794997089/news360/m2u7vufs7cphwt5hymxh.jpg"
+   ]
+  }
+ ]
 }
