@@ -49,7 +49,9 @@ def stem(w):
 # Manjeri town + the villages and panchayats around it -> posted on Manjeri 360 (Malappuram 360 invited as collaborator)
 TOWN_AREA = ["മഞ്ചേരി", "പാണ്ടിക്കാട്", "എടവണ്ണ", "അരീക്കോട്", "കീഴുപറമ്പ്", "തൃക്കലങ്ങോട്", "ആനക്കയം", "പുൽപ്പറ്റ", "പയ്യനാട്",
              "നെല്ലിക്കുത്ത്", "കാവനൂർ", "ഏറനാട്", "എളങ്കൂർ", "ചെരണി", "ഊർങ്ങാട്ടിരി",
-             "Manjeri", "Pandikkad", "Edavanna", "Areekode", "Eranad", "Ernad"]
+             # owner 18 Nov: more reels for Manjeri 360 - the towns next to Manjeri (10-15 km) are Manjeri-page news too
+             "വണ്ടൂർ", "കാരക്കുന്ന്", "പൂക്കോട്ടൂർ", "മങ്കട", "തിരുവാലി", "പോരൂർ", "വള്ളുവമ്പ്രം",
+             "Manjeri", "Pandikkad", "Edavanna", "Areekode", "Eranad", "Ernad", "Wandoor", "Pookkottur", "Mankada"]
 # Kondotty town + Karipur airport + the panchayats of Kondotty taluk -> Kondotty 360 (Malappuram 360 invited as collaborator),
 # only once the Kondotty account id is in poster/config.json ig_user_ids (kondotty_live); until then this news stays on Malappuram 360
 KONDOTTY_AREA = ["കൊണ്ടോട്ടി", "കരിപ്പൂർ", "കോഴിക്കോട് വിമാനത്താവള", "പുളിക്കൽ", "കുഴിമണ്ണ", "ചെറുകാവ്", "വാഴയൂർ", "മുതുവല്ലൂർ",
@@ -66,7 +68,11 @@ QUERIES = ["മലപ്പുറം", "മഞ്ചേരി", "തിരൂർ
            "സെക്ഷൻ പരിധിയിൽ വൈദ്യുതി മുടങ്ങും മലപ്പുറം", "വൈദ്യുതി നിയന്ത്രണം കെഎസ്ഇബി", "ലോഡ് ഷെഡ്ഡിങ് കേരളം", "KSEB power restriction",
            "മലപ്പുറം കളക്ടർ", "മലപ്പുറം ജില്ലാ ഭരണകൂടം", "മലപ്പുറം തൊഴിൽ മേള", "മലപ്പുറം നിയമനം", "മലപ്പുറം അവധി",
            "Malappuram", "Manjeri", "Tirur", "Perinthalmanna", "Nilambur", "Ponnani", "Kondotty", "Malappuram collector",
-           "Malappuram power outage"]
+           "Malappuram power outage",
+           # owner 18 Nov: more Manjeri 360 reels - the places around Manjeri, and Manjeri news of the kinds our reels do best with
+           # (crime, accidents, the medical college / hospitals; poster/insights.py -> learned.json best_topics)
+           "പാണ്ടിക്കാട്", "എടവണ്ണ", "ആനക്കയം", "തൃക്കലങ്ങോട്", "കാവനൂർ", "പൂക്കോട്ടൂർ", "കാരക്കുന്ന്", "മങ്കട",
+           "മഞ്ചേരി പോലീസ്", "മഞ്ചേരി അപകടം", "മഞ്ചേരി മെഡിക്കൽ കോളജ്", "മഞ്ചേരി നഗരസഭ", "Pandikkad", "Edavanna"]
 # every outlet is also searched on its own (so a channel like MediaOne or Twentyfour is never missed)
 SITES = {"മാതൃഭൂമി": "mathrubhumi.com", "മനോരമ": "manoramaonline.com", "മാധ്യമം": "madhyamam.com", "ദേശാഭിമാനി": "deshabhimani.com",
          "കേരള കൗമുദി": "keralakaumudi.com", "സുപ്രഭാതം": "suprabhaatham.com", "ചന്ദ്രിക": "chandrikadaily.com", "സിറാജ്": "sirajlive.com",
@@ -230,7 +236,7 @@ WEATHER_FORECAST = ["മഴ മുന്നറിയിപ്പ്", "യെല
 
 
 # places next to Manjeri: used for the Manjeri page only when Manjeri itself has less than a round's worth of news (env TOWN_NEAR=1)
-TOWN_NEAR = ["വണ്ടൂർ", "കാരക്കുന്ന്", "മലപ്പുറം", "കൊണ്ടോട്ടി", "മങ്കട"]
+TOWN_NEAR = ["കരുവാരക്കുണ്ട്", "കാളികാവ്", "മക്കരപ്പറമ്പ്", "കൂട്ടിലങ്ങാടി"]      # never Malappuram town / Kondotty (their own pages)
 
 
 # Malayalam joins a place name to its ending (മലപ്പുറം -> മലപ്പുറത്ത്, തിരൂർ -> തിരൂരിൽ), so match the stems too

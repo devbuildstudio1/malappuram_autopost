@@ -1008,6 +1008,9 @@ class KondottyPage(unittest.TestCase):
         self.assertEqual("K", allnews.area_of_story("കരിപ്പൂരിൽ സ്വർണം പിടികൂടി", ""))
         self.assertEqual("K", allnews.area_of_story("കൊണ്ടോട്ടിയിൽ ബൈക്ക് അപകടം", ""))
         self.assertEqual("R", allnews.area_of_story("മഞ്ചേരിയിൽ മോഷണം", ""))
+        for h in ("വണ്ടൂരിൽ ബൈക്ക് അപകടം", "പൂക്കോട്ടൂരിൽ എംഡിഎംഎ പിടികൂടി", "മങ്കടയിൽ തീപിടിത്തം"):      # owner 18 Nov: towns next to Manjeri
+            self.assertEqual("R", allnews.area_of_story(h, ""), h)
+        self.assertEqual("N", allnews.area_of_story("മലപ്പുറത്ത് മോഷണം", ""))
         self.assertEqual("N", allnews.area_of_story("തിരൂരിൽ തീപിടിത്തം", ""))
 
     def test_kondotty_post_invites_malappuram(self):
