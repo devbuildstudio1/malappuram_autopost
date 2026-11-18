@@ -12,7 +12,7 @@ MIN_PER_TOPIC, MIN_POSTS = 3, 12
 IST = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
 
 
-SKIP_REL, SKIP_MIN = 0.5, 4      # a topic whose median post gets at most half the page's median score (over 4+ posts) is not written
+SKIP_REL, SKIP_MIN = 0.8, 4      # owner 18 Nov 'post viral reels': a topic whose median reel scores at most 0.8x the page median (4+ reels) is not written
 
 
 def metrics(mid, tok, blocked):

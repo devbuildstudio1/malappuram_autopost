@@ -959,6 +959,20 @@ class FollowerSelection(unittest.TestCase):      # owner 11 Nov: topics are chos
         self.assertEqual("", collect.low_interest("മലപ്പുറം ജില്ലയിൽ നാളെ ഓറഞ്ച് അലർട്ട്, കനത്ത മഴ"))      # safety news always written
         self.assertEqual("", collect.low_interest("നാളെ കോട്ടക്കലിൽ വൈദ്യുതി മുടങ്ങും"))
 
+    def test_poster_skips_flop_topics_and_posts_best_first(self):      # owner 18 Nov: post viral reels
+        import learned
+        learned.load = lambda: {"skip_topics": ["education", "politics"], "topic_weight": {"crime": 1.5, "civic": 0.0}}
+        real = (post.ready, post.set_started)
+        post.ready, post.set_started = (lambda r: True), (lambda r: True)
+        try:
+            rows = [{"story_id": "A", "headline_ml": "കാലിക്കറ്റ് സർവകലാശാല ഹോസ്റ്റൽ ചുമരുകൾ വൃത്തിയാക്കി", "importance": "Medium", "researched": ""},
+                    {"story_id": "B", "headline_ml": "തലപ്പാറയിൽ സർവീസ് റോഡ് കൈയേറ്റം", "importance": "Medium", "researched": ""},
+                    {"story_id": "C", "headline_ml": "കൊണ്ടോട്ടിയിൽ അടയ്ക്ക മോഷണം; 5 പേർ അറസ്റ്റിൽ", "importance": "Medium", "researched": ""},
+                    {"story_id": "D", "headline_ml": "പെൻഷൻ: മന്ത്രി പ്രഖ്യാപിച്ചു", "importance": "High", "researched": ""}]
+            self.assertEqual(["D", "C", "B"], [r["story_id"] for r in post.pick_all(rows)])      # urgent, then crime, civic; education never
+        finally:
+            post.ready, post.set_started = real
+
     def test_insights_public_score(self):
         src = (Path(__file__).parent.parent / "poster" / "insights.py").read_text(encoding="utf-8")
         self.assertIn("like_count,comments_count", src)

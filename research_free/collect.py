@@ -270,7 +270,9 @@ def score(n):
     s += 2 if m >= 3 else (1 if m == 2 else 0)
     try:
         import learned
-        s += learned.boost(n.get("title", ""))        # topics our own Instagram insights show people watch / save / share
+        # topics our own Instagram insights show people watch / like / share. x4 (owner 18 Nov 'post viral reels'): the measured
+        # weight (-0.5 .. +1.5) must outweigh the hand-made INTEREST order, where crime (3-4) and accidents (4-5) sat below school news (7)
+        s += 4 * learned.boost(n.get("title", ""))
     except Exception:
         pass
     try:

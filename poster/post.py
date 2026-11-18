@@ -238,7 +238,7 @@ def skip_reason(row):
     f = filed_at(row)
     same_day = bool(f and f.date() == datetime.now(IST).date())      # filed today: it goes out today, whatever the clock says
     nd = freshness.news_date(row.get("published"), row.get("source"), f)
-    manual = "manual" in " ".join(str(row.get(k) or "") for k in ("notes", "batch", "review", "source")).lower()
+    manual = is_manual(row)
     if nd and not manual and (datetime.now(IST).date() - nd).days > 1:      # owner: only today's or yesterday's news is posted
         return f"stale: published {nd:%d %b}, older than yesterday"      # (27 Oct: a 25 Oct story went out two days late)
     why = freshness.power_cut_over(row.get("headline_ml") or "", row.get("headline_en") or "", row.get("published") or (nd.isoformat() if nd else ""))
@@ -403,10 +403,34 @@ def is_urgent(row):
     return is_shutdown(row) or (row.get("importance") or "").strip() == "High"
 
 
+def is_manual(row):
+    return "manual" in " ".join(str(row.get(k) or "") for k in ("notes", "batch", "review", "source")).lower()
+
+
+SAFETY_TOPICS = ("power_cut", "weather")
+
+
+def perf(row):
+    """how well reels of this story's topic did on our pages (research_free/learned.json from poster/insights.py): the topic weight,
+    or None when the topic is in skip_topics (its reels flop; owner 18 Nov: post only reels that can go viral)"""
+    try:
+        sys.path.insert(0, str(ROOT / "research_free"))
+        import learned
+        h = row.get("headline_ml") or ""
+        t = learned.topic(h)
+        if t in (learned.load().get("skip_topics") or []) and t not in SAFETY_TOPICS:
+            return None
+        return learned.boost(h)
+    except Exception:
+        return 0.0
+
+
 def pick_all(rows):
-    """every ready story whose set has started (urgent ones always), urgent first, then the rest oldest first"""
-    c = [r for r in rows if ready(r) and (set_started(r) or is_urgent(r))]
-    c.sort(key=lambda r: (IMPORTANCE.get((r.get("importance") or "").strip(), 1), -age_hours(r)))
+    """every ready story whose set has started (urgent ones always): urgent first, then the topics our reels do best with, then oldest first.
+    A story of a topic that flops (perf None) is not posted, unless it is urgent, a power cut or a link given by hand."""
+    c = [r for r in rows if ready(r) and (set_started(r) or is_urgent(r))
+         and (perf(r) is not None or is_urgent(r) or is_shutdown(r) or is_manual(r))]
+    c.sort(key=lambda r: (0 if is_urgent(r) else 1, -(perf(r) or 0), IMPORTANCE.get((r.get("importance") or "").strip(), 1), -age_hours(r)))
     return c
 
 
@@ -1651,7 +1675,8 @@ def main():
                     inc = [{"story": i, "slot": k * 6, "prebuild": ""} for k, i in enumerate(ids)]
                     # stories whose set has not started yet: make the carousel/reel ahead, so they go out the moment it starts
                     urgent = set(ids)
-                    pre = [r["story_id"] for r in rows if ready(r) and r["story_id"] not in urgent and (not set_started(r) or r["story_id"] in waiting) and not all(cache_path(r["story_id"], p).exists() for p in pages_of(r) if not page_done(r, p))][:12]      # waiting reels are made ahead, so they go out the minute prime time starts
+                    pick_ids = {x["story_id"] for x in pick_all(rows)}      # a flop topic is not made ahead either
+                    pre = [r["story_id"] for r in rows if ready(r) and r["story_id"] in pick_ids and r["story_id"] not in urgent and (not set_started(r) or r["story_id"] in waiting) and not all(cache_path(r["story_id"], p).exists() for p in pages_of(r) if not page_done(r, p))][:12]      # waiting reels are made ahead, so they go out the minute prime time starts
                     inc += [{"story": i, "slot": 0, "prebuild": "1"} for i in pre]
                     if pre:
                         log("prebuilding ahead of the set start:", pre)
