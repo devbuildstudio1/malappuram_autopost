@@ -1,17 +1,13 @@
-writing [R]: മഞ്ഞപ്പിത്തം: മഞ്ചേരിയിൽ പ്രതിരോധപ്രവർത്തനങ്ങൾ ഊർജിതമാക്കും
-writing [N]: എടപ്പാളിൽ കുരുക്കഴിയാൻ ഇനിയെന്തുചെയ്യും
-writing [N]: പശുക്കൾക്കായി ഇതാ ഹോസ്റ്റൽ
+writing [R]: പകൽമാന്യനായ കള്ളൻ കുടുങ്ങി; മഞ്ചേരിയിലെ മോഷണ പരമ്പരകൾക്ക് തി
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [N]: മലപ്പുറത്ത് തെരുവുനായയുടെ ആക്രമണം;  2 സ്ത്രീകൾക്ക് ഗുരുതര പര
+writing [N]: മലയോരം  
+നിശ്ചലമാകും
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -27,92 +23,325 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.7-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please chefail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
-
-dead for this round: gemini/gemini-3.6-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 400: {"errors":[{"message":"AiError: AiError: {\"error\":{\"message\
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (36s)
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
+poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
+poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (43s)
+attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (33s)
+attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 4 problems
+  reel_script has 43 words; need 45-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  stray Malayalam sign 'ാ' after '-' in «ലെ 15-ാം വ»
+  stray Malayalam sign 'ാ' after '-' in «സഭ 15-ാം വ»
+  stray Malayalam sign 'ാ' after '-' in «സഭ 15-ാം വ»
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (52s)
 attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 34 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 6
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
-poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
-poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
-poor answer - skipped for 30 min: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (41s)
+attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
+  reel_script has 34 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 100
+  not grounded: location 'നഗരം' is not in the article
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (32s)
+attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
+  stray Malayalam sign 'ാ' after '-' in «ലെ 15-ാം വ»
+  stray Malayalam sign 'ാ' after '-' in «ലെ 15-ാം വ»
+  stray Malayalam sign 'ാ' after '-' in «സഭ 15-ാം വ»
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (44s)
+attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
+  numbers not found in the article: 6
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): എടക്കര ('എടക്കര, മൂത്തേടം, ചുങ്കത്തറ, പോത്തുകല്ല്, വഴിക്കടവ്, കരുളായി')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (45s)
+attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
+  not grounded: location 'നഗരം' is not in the article
+  known issue card_cut_mid_phrase: card cut off mid-phrase ('ജില്ലാ പൊലിസ് മേധാവിയുടെ') - rewrite so it does not happen again
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (37s)
+attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 4 problems
+  stray Malayalam sign 'ാ' after '-' in «സഭ 15-ാം വ»
+  stray Malayalam sign 'ാ' after '-' in «സഭ 15-ാം വ»
+  stray Malayalam sign 'ാ' after '-' in «സഭ 15-ാം വ»
+  stray Malayalam sign 'ാ' after '-' in «സഭ 15-ാം വ»
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (33s)
+attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 42 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)
+attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  stray Malayalam sign 'ാ' after '-' in «ലെ 15-ാം വ»
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (46s)
+attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
+  reel_script has 53 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 6
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (32s)
+attempt 5 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 4 problems
+  reel_script has 39 words; need 45-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  stray Malayalam sign 'ാ' after '-' in «ലെ 15-ാം വ»
+  stray Malayalam sign 'ാ' after '-' in «സഭ 15-ാം വ»
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 74 ('മണ്ണാർക്കുണ്ട് സ്വദേശികളായ പി കെ റൂഖിയ (74), പി കെ സാജിറ (39'); 39 ('മണ്ണാർക്കുണ്ട് സ്വദേശികളായ പി കെ റൂഖിയ (74), പി കെ സാജിറ (39')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (47s)
+attempt 5 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
+  reel_script has 51 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 100
+  not grounded: location 'നഗരം' is not in the article
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (47s)
+attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  numbers not found in the article: 6
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (35s)
+attempt 6 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
+  stray Malayalam sign 'ാ' after '-' in «സഭ 15-ാം വ»
+  stray Malayalam sign 'ാ' after '-' in «സഭ 15-ാം വ»
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (45s)
+attempt 6 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
+  reel_script has 51 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 100
+  not grounded: location 'നഗരം' is not in the article
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (44s)
+attempt 5 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
+  reel_script has 44 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 6
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (38s)
+attempt 7 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 4 problems
+  stray Malayalam sign 'ാ' after '-' in «സഭ 15-ാം വ»
+  stray Malayalam sign 'ാ' after '-' in «സഭ 15-ാം വ»
+  stray Malayalam sign 'ാ' after '-' in «സഭ 15-ാം വ»
+  stray Malayalam sign 'ാ' after '-' in «സഭ 15-ാം വ»
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (41s)
+attempt 7 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  not grounded: location 'നഗരം' is not in the article
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (47s)
+attempt 6 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  numbers not found in the article: 6
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (39s)
+attempt 8 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  stray Malayalam sign 'ാ' after '-' in «ലെ 15-ാം വ»
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (38s)
+attempt 8 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
+  reel_script has 38 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 100
+  not grounded: location 'നഗരം' is not in the article
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)
+attempt 9 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
+  stray Malayalam sign 'ാ' after '-' in «ലെ 15-ാം വ»
+  stray Malayalam sign 'ാ' after '-' in «ലെ 15-ാം വ»
+  stray Malayalam sign 'ാ' after '-' in «സഭ 15-ാം വ»
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (42s)
+attempt 7 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
+  reel_script has 54 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 6
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (41s)
+attempt 9 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
+  reel_script has 43 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  not grounded: location 'നഗരം' is not in the article
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)
+attempt 10 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
+  stray Malayalam sign 'ാ' after '-' in «ിൽ 15-ാം വ»
+  stray Malayalam sign 'ാ' after '-' in «ലെ 15-ാം വ»
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChBPGUATk4mScX9u64uDR"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (47s)
+attempt 8 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  numbers not found in the article: 6
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (42s)
+attempt 10 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
+  reel_script has 43 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 100
+  not grounded: location 'നഗരം' is not in the article
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChBPKJDkpShk1VgyufznF"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (39s)
+proofread rejected (4 problems)
+  hl2 longer than 28 characters
+  reel_script must have no English letters (write English words and abbreviations in Malayalam script)
+  stray Malayalam sign 'ാ' after '-' in «ലെ 15-ാം വ»
+  known issue english_in_voice: voice script has English words the voice skips (Share) - rewrite so it does not happen again
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (12s)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (47s)
+attempt 9 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
+  reel_script has 41 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 6
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 11 ('ജില്ലയിലെ 11 വില്ലേജുകളിലാണ് കേന്ദ്ര വനം പരിസ്ഥിതി മന്ത്രാലയ')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (36s)
+proofread by cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 3 for 'Two women seriously injured in dog attac'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261119-0633","first":"MP-326"}
+posting job started at once
+writing [N]: വല്ലാത്തൊരു പണി!
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (13s)
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (44s)
+attempt 10 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  numbers not found in the article: 6
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChBPQryPijJ7DHtQ9pVJn"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+image match check unavailable: gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout
+images made: 1 for 'Daylight burglar arrested in Manjeri; en'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261119-0634","first":"MP-327"}
+writing [R]: ആരോഗ്യത്തിൽ അവഗണന
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (48s)
+attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
+  reel_script has 43 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  not grounded: location 'പാലം' is not in the article
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (48s)
+proofread rejected (3 problems)
+  reel_script must end with exactly: കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.
+  numbers not found in the article: 6
+  not grounded: place word 'മലപ്പുറം' is not in the article
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (42s)
 attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 29 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  reel_script has 42 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (43s)
+attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  not grounded: location 'പാലം' is not in the article
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (14s)
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 1 for 'Malappuram district to observe hartal on'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261119-0635","first":"MP-328"}
+writing [N]: കതിർക്കാറ്റുകാത്ത് കോൾനിലങ്ങൾ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChBNUXw9Z8xxvMr8qJmdt"}
-proofread skipped: free models not efficient (4 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChBNUu6d9jdpCq43qbWfx"}
-proofread skipped: free models not efficient (5 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match: False The image shows a standard street scene with pseudo-script/foreign signage and light traffic, which does not match Edapp
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (72s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok groq/openai/gpt-oss-120b (5s)
-factcheck by groq/openai/gpt-oss-120b: 1 problems
-  Reel script omits the article’s key fact that Chairman K. Sadanandan announced the specific facilities (modern dairy centres, value‑added product units, training and recreation centres, etc.) to be set up
-attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  fact-check: Reel script omits the article’s key fact that Chairman K. Sadanandan announced the specific facilities (modern dairy centres, value‑added product units, training and recreation centres, etc.) to be set up
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChBPXPJBmixmSQWzunQik"}
+writing [N]: ശ്വാസം നിലയ്ക്കുന്നു 
+ചരിത്രം മിടിക്കുന്പോൾ
+free models unavailable: free models not efficient (5 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChBPXVuJoqMwZ3vEaKKeS"}
+writing [N]: സാഫ് കപ്പിലെ  
+മലപ്പുറം പാസ്
+free models unavailable: free models not efficient (5 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChBPXYPe3euo75rmEsD61"}
+writing [N]: തീമുനയിലും 
+രക്ഷകരായി മാലാഖമാർ
+free models unavailable: free models not efficient (5 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChBPXcXAjkmJB8SiGVUUg"}
+writing [N]: ഭാസ്കരൻ പഠിക്കും, ഇനിയുമിനിയും
+free models unavailable: free models not efficient (5 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChBPXggTTu9G4DGHaBtNc"}
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (38s)
+attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 48 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChBPXo1TYp7JatStTtvzL"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (33s)
+attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 40 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChBNWNvj4GVZY347TJktE"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChBPXuNTCzGQdd4XXBFhZ"}
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 ok groq/openai/gpt-oss-120b (6s)
@@ -122,85 +351,66 @@ proofread rejected (3 problems)
   missing key: scenes
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Traffic congestion in Edappal town worse'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261119-0622","first":"MP-323"}
-posting job started at once
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
 ok groq/openai/gpt-oss-120b (3s)
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-switching away from groq/openai/gpt-oss-120b for 10 min
-ok groq/qwen/qwen3.8-27b (1s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Manjeri intensifies measures to prevent '
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261119-0623","first":"MP-324"}
-writing [N]: വല്ലാത്തൊരു പണി!
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+ok groq/qwen/qwen3.8-27b (3s)
+proofread by groq/qwen/qwen3.8-27b: 1 problems
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChBNaDnR5g6nWo9LHSmPa"}
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+switching away from groq/qwen/qwen3.8-27b for 10 min
+ok groq/openai/gpt-oss-120b (2s)
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 3 for 'No residence for doctors at Manjeri Medi'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261119-0637","first":"MP-329"}
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 3 for 'State-wide launch of Goshala Cow Hostel '
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261119-0623","first":"MP-325"}
+images made: 3 for 'Vehicles struggle to cross Kallamoola br'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261119-0640","first":"MP-330"}
 write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 73 recent posts read from all pages
-write round: 13 news waiting in the queue (written in priority order)
-candidate filter: collected=13
-to write: 3 Manjeri + 0 Kondotty + 10 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 3 Manjeri, 0 Kondotty, 10 Malappuram; time left 29 min
-try (R) manual=False: മഞ്ഞപ്പിത്തം: മഞ്ചേരിയിൽ പ്രതിരോധപ്രവർത്തനങ്ങൾ ഊർജിതമാക്കും
+write round: 10 news waiting in the queue (written in priority order)
+candidate filter: collected=10
+to write: 2 Manjeri + 0 Kondotty + 8 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 2 Manjeri, 0 Kondotty, 8 Malappuram; time left 29 min
 try (N) manual=False: മലപ്പുറത്ത് തെരുവുനായയുടെ ആക്രമണം;  2 സ്ത്രീകൾക്ക് ഗുരുതര പര
-try (N) manual=False: എടപ്പാളിൽ കുരുക്കഴിയാൻ ഇനിയെന്തുചെയ്യും
-skip (N) could not open: മലപ്പുറത്ത് തെരുവുനായയുടെ ആക്രമണം;  2 സ്ത്രീകൾക്ക് [https://www.deshabhimani.com/district-news/-73594/aaq22-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
 try (N) manual=False: മലയോരം  
 നിശ്ചലമാകും
-skip (N) could not open: മലയോരം  
-നിശ്ചലമാകും [https://www.deshabhimani.com/district-news/-73594/2211as-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
-try (N) manual=False: പശുക്കൾക്കായി ഇതാ ഹോസ്റ്റൽ
-auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})
-posting job started at once
 try (R) manual=False: പകൽമാന്യനായ കള്ളൻ കുടുങ്ങി; മഞ്ചേരിയിലെ മോഷണ പരമ്പരകൾക്ക് തി
-auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 9})
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 3})
+posting job started at once
 try (N) manual=False: വല്ലാത്തൊരു പണി!
-skip (R) could not open: പകൽമാന്യനായ കള്ളൻ കുടുങ്ങി; മഞ്ചേരിയിലെ മോഷണ പരമ്പ [https://www.deepika.com/kerala/daytime-thief-arrested-manche] 403 Client Error: Forbidden for url: https://www.deepika.com/kerala/daytime-thie
-auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 12})
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 4})
 try (R) manual=False: ആരോഗ്യത്തിൽ അവഗണന
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})
 try (N) manual=False: കതിർക്കാറ്റുകാത്ത് കോൾനിലങ്ങൾ
-NOT filed (N) വല്ലാത്തൊരു പണി!: all free models failed: no usable answer from the models
-try (N) manual=False: സാഫ് കപ്പിലെ  
-മലപ്പുറം പാസ്
-skip (N) could not open: സാഫ് കപ്പിലെ  
-മലപ്പുറം പാസ് [https://www.deshabhimani.com/district-news/-73594/ssw31-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+NOT filed (N) കതിർക്കാറ്റുകാത്ത് കോൾനിലങ്ങൾ: all free models failed: no usable answer from the models
 try (N) manual=False: ശ്വാസം നിലയ്ക്കുന്നു 
 ചരിത്രം മിടിക്കുന്പോൾ
-skip (N) could not open: കതിർക്കാറ്റുകാത്ത് കോൾനിലങ്ങൾ [https://www.deshabhimani.com/district-news/-73594/aaqwwe22-f] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+NOT filed (N) ശ്വാസം നിലയ്ക്കുന്നു 
+ചരിത്രം മിടിക്കുന്പോൾ: all free models failed: no usable answer from the models
+try (N) manual=False: സാഫ് കപ്പിലെ  
+മലപ്പുറം പാസ്
+NOT filed (N) സാഫ് കപ്പിലെ  
+മലപ്പുറം പാസ്: all free models failed: no usable answer from the models
 try (N) manual=False: തീമുനയിലും 
 രക്ഷകരായി മാലാഖമാർ
-skip (R) could not open: ആരോഗ്യത്തിൽ അവഗണന [https://www.deshabhimani.com/district-news/-73594/qe331-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+NOT filed (N) തീമുനയിലും 
+രക്ഷകരായി മാലാഖമാർ: all free models failed: no usable answer from the models
 try (N) manual=False: ഭാസ്കരൻ പഠിക്കും, ഇനിയുമിനിയും
-skip (N) could not open: ശ്വാസം നിലയ്ക്കുന്നു 
-ചരിത്രം മിടിക്കുന്പോൾ [https://www.deshabhimani.com/district-news/-73594/aasdq12-fy] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
-skip (N) could not open: തീമുനയിലും 
-രക്ഷകരായി മാലാഖമാർ [https://www.deshabhimani.com/district-news/-73594/aaaa123-fy] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
-skip (N) could not open: ഭാസ്കരൻ പഠിക്കും, ഇനിയുമിനിയും [https://www.deshabhimani.com/News/kerala/vazhuthanayil-bhask] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/News/kerala/va
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 3, 'N': 10, 'K': 0}, done={'R': 1, 'N': 2, 'K': 0}, time left 25 min
-carousel for 0 of 3 stories, the rest reel only
-filed: 1 Manjeri + 0 Kondotty + 2 Malappuram (targets 200 + 200 + 200)
-queue: 10 news waiting to be written
+NOT filed (N) ഭാസ്കരൻ പഠിക്കും, ഇനിയുമിനിയും: all free models failed: no usable answer from the models
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5, 'pollinations': 3})
+auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5, 'pollinations': 6})
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 2, 'N': 8, 'K': 0}, done={'R': 2, 'N': 3, 'K': 0}, time left 13 min
+carousel for 0 of 5 stories, the rest reel only
+filed: 2 Manjeri + 0 Kondotty + 3 Malappuram (targets 200 + 200 + 200)
+queue: 5 news waiting to be written
 write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":13} 
-stories: 3
+All News sheet: {"ok":true,"added":0,"updated":10} 
+stories: 5
