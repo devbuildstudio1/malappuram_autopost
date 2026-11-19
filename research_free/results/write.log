@@ -1,28 +1,57 @@
+writing [N]: എടപ്പാളിൽ കുരുക്കഴിയാൻ ഇനിയെന്തുചെയ്യും
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChBTqvb63e33oVdR9iWc6"}
 earlier stories still waiting for images: []
 instagram check: 74 recent posts read from all pages
 write round: 5 news waiting in the queue (written in priority order)
-candidate filter: collected=5
-to write: 0 Manjeri + 0 Kondotty + 5 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Kondotty, 5 Malappuram; time left 29 min
-try (N) manual=False: കതിർക്കാറ്റുകാത്ത് കോൾനിലങ്ങൾ
-try (N) manual=False: ശ്വാസം നിലയ്ക്കുന്നു 
-ചരിത്രം മിടിക്കുന്പോൾ
-try (N) manual=False: സാഫ് കപ്പിലെ  
-മലപ്പുറം പാസ്
-skip (N) could not open: കതിർക്കാറ്റുകാത്ത് കോൾനിലങ്ങൾ [https://www.deshabhimani.com/district-news/-73594/aaqwwe22-f] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
-try (N) manual=False: തീമുനയിലും 
-രക്ഷകരായി മാലാഖമാർ
-skip (N) could not open: സാഫ് കപ്പിലെ  
-മലപ്പുറം പാസ് [https://www.deshabhimani.com/district-news/-73594/ssw31-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
-try (N) manual=False: ഭാസ്കരൻ പഠിക്കും, ഇനിയുമിനിയും
-skip (N) could not open: ശ്വാസം നിലയ്ക്കുന്നു 
-ചരിത്രം മിടിക്കുന്പോൾ [https://www.deshabhimani.com/district-news/-73594/aasdq12-fy] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
-skip (N) could not open: തീമുനയിലും 
-രക്ഷകരായി മാലാഖമാർ [https://www.deshabhimani.com/district-news/-73594/aaaa123-fy] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
-skip (N) could not open: ഭാസ്കരൻ പഠിക്കും, ഇനിയുമിനിയും [https://www.deshabhimani.com/News/kerala/vazhuthanayil-bhask] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/News/kerala/va
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 5, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+candidate filter: collected=4, already filed=1
+to write: 1 Manjeri + 0 Kondotty + 3 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 1 Manjeri, 0 Kondotty, 3 Malappuram; time left 29 min
+try (R) manual=False: ഗതാഗതക്കുരുക്ക്:
+പഴയ പാലം പൊളിച്ചു പണിയണമെന്ന
+ആവശ്യം ശക്തം
+try (N) manual=False: എടപ്പാളിൽ കുരുക്കഴിയാൻ ഇനിയെന്തുചെയ്യും
+try (N) manual=False: ബേപ്പൂരിൽ മത്സരിച്ചത്  
+ഉപാധിയോടെ:അൻവർ
+skip (R) could not open: ഗതാഗതക്കുരുക്ക്:
+പഴയ പാലം പൊളിച്ചു പണിയണമെന്ന
+ആവ [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
+try (N) manual=False: കലോത്സവ വേദിയിൽ 
+കൂട്ടത്തല്ല്
+skip (N) could not open: ബേപ്പൂരിൽ മത്സരിച്ചത്  
+ഉപാധിയോടെ:അൻവർ [https://www.keralakaumudi.com/kerala/politics/pv-anvar-18278] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/politi
+skip (N) could not open: കലോത്സവ വേദിയിൽ 
+കൂട്ടത്തല്ല് [https://www.keralakaumudi.com/kerala/general/a-1827914] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera
+NOT filed (N) എടപ്പാളിൽ കുരുക്കഴിയാൻ ഇനിയെന്തുചെയ്യും: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 3, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 5 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":5} 
+queue: 4 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":4} 
 stories: 0
