@@ -1,16 +1,16 @@
-writing [N]: സംസ്ഥാന സ്കൂൾ കായിക മേള; ഹാട്രിക് കിരീടം സ്വന്തമാക്കി മലപ്പു
-writing [N]: ‘കൊലപാതകം യാദൃച്ഛികമല്ല, നിയമപോരാട്ടം തുടരും’; വിധിപ്പകർപ്പ്
+writing [N]: നാടുകാണി ചുരത്തിൽ പ്ലാസ്റ്റിക് ചെക്ക് പോസ്റ്റ് സ്ഥാപിച്ചു | 
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: ലൈസൻസില്ല, 18 വയസുമായില്ല; പ്രായപൂർത്തിയാകാതെ വാഹനമോടിക്കുന്
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-writing [N]: കരിപ്പൂരിൽ തുടർച്ചയായ രണ്ടാം ദിവസവും സ്വർണവേട്ട; ഒന്നര കിലോയ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: മലപ്പുറം ജില്ലയിലെ ബാങ്ക് നിക്ഷേപം 59,209 കോടിയായി; വായ്പയിൽ
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high d
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -21,25 +21,6 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-ok gemini/gemini-3.6-flash (19s)
-attempt 1 gemini/gemini-3.6-flash: 1 problems
-  reel_script has 48 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -52,111 +33,57 @@ dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-ok gemini/gemini-3.6-flash (25s)
-attempt 1 gemini/gemini-3.6-flash: 5 problems
-  reel_script has 48 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  stray Malayalam sign 'ാ' after '-' in «ായി 3-ാം ത»
-  stray Malayalam sign 'ാ' after '-' in «ായി 5-ാം ത»
-  stray Malayalam sign 'ാ' after '-' in «ായി 5-ാം ത»
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 800 ('കായിക മേളയിലെ ആദ്യ ട്രിപ്പിൾ പാലക്കാടിന്റെ നിവേദ്യക്ക്; നേട്'); 4 ('സംസ്ഥാന സ്കൂൾ അത്ലറ്റിക്സ്; സീനിയർ പെൺകുട്ടികളുടെ 4x100 റിലേ'); 100 ('സംസ്ഥാന സ്കൂൾ അത്ലറ്റിക്സ്; സീനിയർ പെൺകുട്ടികളുടെ 4x100 റിലേ')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+switching away from gemini/gemini-3.8-flash for 10 min
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCFGQiRCP13pksGHwPtW"}
-proofread skipped: free models not efficient (4 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCFzjRyzZSH7XWags17R"}
+writing [N]: പ്രായപൂർത്തിയാകാത്ത മകളെ പീഡിപ്പിച്ച് ഗർഭിണിയാക്കി; പിതാവിന്
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCFzo9Dq8M2g61VhC7Qf"}
+writing [N]: ബ്രസീലിയൻ ഗോളടി യന്ത്രത്തെ റാഞ്ചി; മലപ്പുറം എഫ്.സി ഇനി ട്രിപ
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCFzthbEp5Ek5biMVShV"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCFGt8Bn1uB4Znbg8izV"}
-proofread skipped: free models not efficient (5 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCG1jM3F3X2AqEt9wNna"}
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCFH9VukiPYkbNhVdpJ3"}
-image match: False The image shows an empty wooden interior room and does not feature PK Kunhalikutty, any press conference, or any people 
-image match: False The photo shows an empty, blurry room with no people, press conference, or any visible connection to PK Kunhalikutty or 
-image match check unavailable: gemini-3.5-flash: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Shukkoor murder case: PK Kunhalikutty sa'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261119-1732","first":"MP-333"}
-posting job started at once
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-writing [N]: 'CU IS LEFT'; ഏഴ് ലക്ഷം മുടക്കി പെയിന്റ് ചെയ്തതിന് പിന്നാലെ 
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCFdjRtdW5z8RRK8FdwB"}
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Malappuram wins athletics hat-trick titl'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261119-1736","first":"MP-334"}
-writing [N]: സ്മാർട്ട് വാച്ചിന് വാറൻറി നിഷേധിച്ചു; ഉപഭോക്താവിന് 58999 രൂപ
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCFw9wzjwrx7DUGT3jpK"}
-writing [N]: ലൈസൻസില്ല, 18 വയസുമായില്ല; പ്രായപൂർത്തിയാകാതെ വാഹനമോടിക്കുന്
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-writing [N]: നാടുകാണി ചുരത്തിൽ പ്ലാസ്റ്റിക് ചെക്ക് പോസ്റ്റ് സ്ഥാപിച്ചു | 
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCFwB6DjNcPxHeHbMVpy"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCFwBE9s2JzHPiFoVq51"}
-writing [N]: പ്രായപൂർത്തിയാകാത്ത മകളെ പീഡിപ്പിച്ച് ഗർഭിണിയാക്കി; പിതാവിന്
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCFwE1aZ6FtUorvtHLVT"}
-writing [N]: ബ്രസീലിയൻ ഗോളടി യന്ത്രത്തെ റാഞ്ചി; മലപ്പുറം എഫ്.സി ഇനി ട്രിപ
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCFwGaNEPwgKCFaqDd6V"}
-writing [N]: മലപ്പുറം ജില്ലയിലെ ബാങ്ക് നിക്ഷേപം 59,209 കോടിയായി; വായ്പയിൽ
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCFwHHY1Cx9tmieU4e5z"}
-write_stories.yml started
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCG3ocKwirFqD8JMzb53"}
 earlier stories still waiting for images: []
 instagram check: 76 recent posts read from all pages
-write round: 12 news waiting in the queue (written in priority order)
-candidate filter: collected=12
-to write: 0 Manjeri + 0 Kondotty + 12 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Kondotty, 12 Malappuram; time left 29 min
-try (N) manual=False: ‘കൊലപാതകം യാദൃച്ഛികമല്ല, നിയമപോരാട്ടം തുടരും’; വിധിപ്പകർപ്പ്
-try (N) manual=False: കരിപ്പൂരിൽ തുടർച്ചയായ രണ്ടാം ദിവസവും സ്വർണവേട്ട; ഒന്നര കിലോയ
-try (N) manual=False: സംസ്ഥാന സ്കൂൾ കായിക മേള; ഹാട്രിക് കിരീടം സ്വന്തമാക്കി മലപ്പു
-auto images: 1 of 1 stories ({'pollinations': 5})
-posting job started at once
-try (N) manual=False: 'CU IS LEFT'; ഏഴ് ലക്ഷം മുടക്കി പെയിന്റ് ചെയ്തതിന് പിന്നാലെ 
-auto images: 1 of 1 stories ({'pollinations': 9})
-NOT filed (N) കരിപ്പൂരിൽ തുടർച്ചയായ രണ്ടാം ദിവസവും സ്വർണവേട്ട; ഒ: all free models failed: no usable answer from the models
-try (N) manual=False: സ്മാർട്ട് വാച്ചിന് വാറൻറി നിഷേധിച്ചു; ഉപഭോക്താവിന് 58999 രൂപ
+write round: 10 news waiting in the queue (written in priority order)
+candidate filter: collected=7, checked earlier=3
+to write: 0 Manjeri + 0 Kondotty + 7 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 0 Manjeri, 0 Kondotty, 7 Malappuram; time left 29 min
 try (N) manual=False: മലപ്പുറം ജില്ലയിലെ ബാങ്ക് നിക്ഷേപം 59,209 കോടിയായി; വായ്പയിൽ
-NOT filed (N) 'CU IS LEFT'; ഏഴ് ലക്ഷം മുടക്കി പെയിന്റ് ചെയ്തതിന്: all free models failed: no usable answer from the models
 try (N) manual=False: നാടുകാണി ചുരത്തിൽ പ്ലാസ്റ്റിക് ചെക്ക് പോസ്റ്റ് സ്ഥാപിച്ചു | 
-NOT filed (N) സ്മാർട്ട് വാച്ചിന് വാറൻറി നിഷേധിച്ചു; ഉപഭോക്താവിന്: all free models failed: no usable answer from the models
 try (N) manual=False: ലൈസൻസില്ല, 18 വയസുമായില്ല; പ്രായപൂർത്തിയാകാതെ വാഹനമോടിക്കുന്
-NOT filed (N) ലൈസൻസില്ല, 18 വയസുമായില്ല; പ്രായപൂർത്തിയാകാതെ വാഹന: all free models failed: no usable answer from the models
+NOT filed (N) മലപ്പുറം ജില്ലയിലെ ബാങ്ക് നിക്ഷേപം 59,209 കോടിയായി: all free models failed: no usable answer from the models
 try (N) manual=False: വിദ്യാർത്ഥികളെ മർദ്ദിച്ചു,   അദ്ധ്യാപികയെ കൈയേറ്റം ചെയ്തു:  
-NOT filed (N) നാടുകാണി ചുരത്തിൽ പ്ലാസ്റ്റിക് ചെക്ക് പോസ്റ്റ് സ്ഥ: all free models failed: no usable answer from the models
-try (N) manual=False: പ്രായപൂർത്തിയാകാത്ത മകളെ പീഡിപ്പിച്ച് ഗർഭിണിയാക്കി; പിതാവിന്
 skip (N) could not open: വിദ്യാർത്ഥികളെ മർദ്ദിച്ചു,   അദ്ധ്യാപികയെ കൈയേറ്റം [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
-try (N) manual=False: ബ്രസീലിയൻ ഗോളടി യന്ത്രത്തെ റാഞ്ചി; മലപ്പുറം എഫ്.സി ഇനി ട്രിപ
+try (N) manual=False: പ്രായപൂർത്തിയാകാത്ത മകളെ പീഡിപ്പിച്ച് ഗർഭിണിയാക്കി; പിതാവിന്
 NOT filed (N) പ്രായപൂർത്തിയാകാത്ത മകളെ പീഡിപ്പിച്ച് ഗർഭിണിയാക്കി: all free models failed: no usable answer from the models
+try (N) manual=False: ബ്രസീലിയൻ ഗോളടി യന്ത്രത്തെ റാഞ്ചി; മലപ്പുറം എഫ്.സി ഇനി ട്രിപ
+NOT filed (N) ബ്രസീലിയൻ ഗോളടി യന്ത്രത്തെ റാഞ്ചി; മലപ്പുറം എഫ്.സി: all free models failed: no usable answer from the models
 try (N) manual=False: Malappuram Obituary | മലപ്പുറം ചരമ വാർത്ത | Kerala Kaumudi
 skip (N) could not open: Malappuram Obituary | മലപ്പുറം ചരമ വാർത്ത | Kerala [https://www.keralakaumudi.com/news/sub-section.php?cid=10&si] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/news/sub-sect
-NOT filed (N) ബ്രസീലിയൻ ഗോളടി യന്ത്രത്തെ റാഞ്ചി; മലപ്പുറം എഫ്.സി: all free models failed: no usable answer from the models
-NOT filed (N) മലപ്പുറം ജില്ലയിലെ ബാങ്ക് നിക്ഷേപം 59,209 കോടിയായി: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 12, 'K': 0}, done={'R': 0, 'N': 2, 'K': 0}, time left 20 min
-carousel for 0 of 2 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 2 Malappuram (targets 200 + 200 + 200)
-queue: 10 news waiting to be written
-write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":12} 
-stories: 2
+NOT filed (N) ലൈസൻസില്ല, 18 വയസുമായില്ല; പ്രായപൂർത്തിയാകാതെ വാഹന: all free models failed: no usable answer from the models
+NOT filed (N) നാടുകാണി ചുരത്തിൽ പ്ലാസ്റ്റിക് ചെക്ക് പോസ്റ്റ് സ്ഥ: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 7, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 28 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
+queue: 7 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":7} 
+stories: 0
