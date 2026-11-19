@@ -8,6 +8,10 @@ import json, sys, os, re, html
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
+HERE_ = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE_))
+import themes
+
 HERE = Path(__file__).resolve().parent
 NM = HERE / "node_modules"
 FS = NM / "@fontsource"
@@ -111,7 +115,7 @@ def render_page(s, total, i):
     inner = re.sub(r'<i data-ic="([a-z0-9-]+)"></i>', lambda m: icon(m.group(1)), s["html"])
     light = s.get("light", False)
     deco = "" if light else '<div class="slash"></div><div class="slash s2"></div>'
-    return f"""<!doctype html><html lang="ml"><head><meta charset="utf-8"><style>{CSS}</style></head>
+    return f"""<!doctype html><html lang="ml"><head><meta charset="utf-8"><style>{CSS}{themes.css("follow")}</style></head>
 <body class="{'light' if light else ''}"><div class="bg"></div>{deco}<div class="layer">{inner}</div><div class="logozone"></div>
 <script>{FIT_JS}</script></body></html>"""
 

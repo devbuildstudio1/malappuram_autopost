@@ -21,6 +21,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import reel as R
 import reel3 as V3
 from digits import to_digits
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "kit"))
+import themes
 
 def E(s):
     """on-screen text: drop the <b>..</b> marks the writer puts for the carousel (27 Oct: '<b>90,703</b>' showed in a reel)"""
@@ -488,13 +490,16 @@ def build_html(spec, shots, sents, caps, hook_end, end_t, total, page):
                        "caps": [{"a": g["a"], "b": g["b"], "w": [[x[1], x[2]] for x in g["words"]]} for g in caps],
                        "hook_end": hook_end, "end_t": end_t, "total": total, "n": len(spec["images"]),
                        "sum_a": (sents[-2]["a"] if len(sents) > 5 else sents[-1]["a"]) if len(sents) > 3 else end_t, "rows": len(rows) if summary else 0})
-    style = (os.environ.get("REEL_STYLE") or spec.get("style") or "A").upper()
-    return f"""<!doctype html><html><head><meta charset="utf-8"><style>{CSS}{STYLES.get(style, "")}</style></head><body style="--acc:{acc}">
+    try:
+        cfg_style = json.loads((Path(__file__).resolve().parent.parent / "poster" / "config.json").read_text()).get("reel_style")
+    except Exception:
+        cfg_style = None
+    style = (os.environ.get("REEL_STYLE") or spec.get("style") or cfg_style or themes.current()).upper()      # A/B/C here, D/E/F: kit/themes.py
+    return f"""<!doctype html><html><head><meta charset="utf-8"><style>{CSS}{STYLES.get(style) or themes.css("reel", style)}</style></head><body style="--acc:{acc}">
 <div id="stage">{imgs}</div><div id="shade"></div><div id="flash"></div>
 <img id="plogo" src="{logo}">
 <div id="hdr"><div><div class="nm">{page['name']}</div>
 <div class="sub"><span class="tag">{E(spec.get('cat', ''))}</span><span>{E(spec['date'])}</span></div></div></div>
-<img id="foot" src="{foot}">
 <div id="pin">{R.icon('location-dot')}<span>{E(spec.get('location', ''))}</span></div>
 <div id="hook"><div class="h1">{E(hook[0])}</div><div class="h2">{E(hook[1])}</div></div>
 <div id="mini">{E(mini)}</div>

@@ -15,6 +15,7 @@ from playwright.sync_api import sync_playwright
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import render_v2 as R2  # fonts, icons, the follow slide
+import themes
 
 E = html.escape
 
@@ -93,7 +94,7 @@ AI_CHIP = '<div class="ai">AI പ്രതീകാത്മക ചിത്ര�
 
 def page(inner, light=False):
     inner = re.sub(r'<i data-ic="([a-z0-9-]+)"></i>', lambda m: R2.icon(m.group(1)), inner)
-    return f"""<!doctype html><html lang="ml"><head><meta charset="utf-8"><style>{CSS}</style></head>
+    return f"""<!doctype html><html lang="ml"><head><meta charset="utf-8"><style>{CSS}{themes.css("photo")}</style></head>
 <body><div class="layer" style="z-index:1">{inner}</div><script>{FIT}</script></body></html>"""
 
 def follow_slide(date):

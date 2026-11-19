@@ -657,7 +657,7 @@ def reel_spec(row, spec, images):
         st = _stems(sent)
         for j, ln in enumerate(pool):
             sc = len(st & _stems(ln))
-            if j not in used and sc > bs and len(ln) <= (60 if CONFIG.get("reel_design") == "v4" else 48):
+            if j not in used and sc > bs and len(ln) <= (60 if CONFIG.get("reel_design") in ("v4", "v5", "v6", "v7", "v8") else 48):
                 best, bs, bj = ln, sc, j
         if best and i >= 1:
             used.add(bj)
@@ -677,7 +677,7 @@ def render_reel(row, spec, images, work, voice_file=None):
     if voice_file:
         env["VOICE_FILE"] = str(voice_file)
     mp4 = work / f"{row['story_id']}_reel.mp4"
-    design = "reel4.py" if CONFIG.get("reel_design") == "v4" else "reel3.py"      # v4: full-detail design (safe zone, 5W cards, summary, send CTA)
+    design = {"v4": "reel4.py", "v5": "reel5.py", "v6": "reel6.py", "v7": "reel7.py", "v8": "reel8.py"}.get(CONFIG.get("reel_design"), "reel3.py")      # v8: photo board (clear photos + highlighted key points); v7: chat design; v6: "Impact" high-retention design (owner 19 Nov 2026); v5: phone notification; v4: full-detail design
     subprocess.run([sys.executable, str(REEL / design), str(work / "reel.json"), str(mp4), PAGE], check=True, env=env)
     return mp4
 
