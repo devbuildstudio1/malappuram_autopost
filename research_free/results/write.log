@@ -1,17 +1,14 @@
-writing [N]: കരിപ്പൂരിൽ തുടർച്ചയായ രണ്ടാം ദിവസവും സ്വർണവേട്ട; ഒന്നര കിലോയ
+writing [N]: ഇ.എസ്.എ. കരട് വിജ്ഞാപനം; മലയോര സംരക്ഷണസമിതിയുടെ ഹർത്താൽ പൂർണ
+writing [N]: കരതൊടാതെ പൊന്നാനി മറൈൻ മ്യൂസിയം പദ്ധതി
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-writing [N]: മലബാർ വീരസംഗമം 28ന്
-writing [N]: അടിയന്തര സാഹചര്യങ്ങളിൽ പ്രാഥമിക ശുശ്രൂഷക്ക് മലപ്പുറം പ്രസ് ക
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -22,19 +19,6 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -45,69 +29,93 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+writing [N]: വ്യത്യസ്ത ആശയങ്ങൾ, കഴിവുകൾ; സംസ്ഥാന സ്കൂൾ ശാസ്ത്രമേളയിൽ ഞെട്
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChD7F5ixshjN6onrHxjB1"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-ok gemini/gemini-3.6-flash (32s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+writing [N]: കരിപ്പൂരിൽ തുടർച്ചയായ രണ്ടാം ദിവസവും സ്വർണവേട്ട; ഒന്നര കിലോയ
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChD7F8VAD3tpbD9KSkKcu"}
+writing [N]: കടവല്ലൂർ അന്യോന്യം: മികവു പുലർത്തി തൃശ്ശൂർ യോഗവും തിരുനാവായ 
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChD7F9Y9qYEF587R6NU1C"}
+writing [N]: കാടും വള്ളിപ്പടർപ്പുകളും വെട്ടിമാറ്റി കെ.എസ്.ഇ.ബി.
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChD7FAQEz5WSPbwAwQNGv"}
+writing [N]: അടിയന്തര സാഹചര്യങ്ങളിൽ പ്രാഥമിക ശുശ്രൂഷക്ക് മലപ്പുറം പ്രസ് ക
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChD7FFw89bCVsz1B5AnMJ"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChD3ujpGDwFY8CGx51oik"}
-ok groq/openai/gpt-oss-120b (3s)
-factcheck by groq/openai/gpt-oss-120b: 3 problems
-  Draft adds the month “November” (നവംബർ) to the event date, which is not stated in the article
-  Reel script omits the key fact that the event is organized by H.Q. Kerala and Karnataka Sub Area
-  Slides also specify “November 28” even though the article only mentions the day 28 without a month
-attempt 1 gemini/gemini-3.6-flash: 3 problems
-  fact-check: Draft adds the month “November” (നവംബർ) to the event date, which is not stated in the article
-  fact-check: Reel script omits the key fact that the event is organized by H.Q. Kerala and Karnataka Sub Area
-  fact-check: Slides also specify “November 28” even though the article only mentions the day 28 without a month
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChD3v2vujMS1xWqFazF8i"}
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok groq/openai/gpt-oss-120b (6s)
-proofread rejected (3 problems)
-  missing key: reel_script
-  missing key: caption
-  missing key: scenes
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok groq/openai/gpt-oss-120b (3s)
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-switching away from gemini/gemini-3.6-flash for 10 min
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChD3w6KLW2W77knMLfpvn"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChD7GE7XJqNc5khi2KqKv"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChD7GLqqL3nbj3FGRHgGx"}
 earlier stories still waiting for images: []
 instagram check: 76 recent posts read from all pages
-write round: 3 news waiting in the queue (written in priority order)
-candidate filter: collected=3
-to write: 0 Manjeri + 0 Kondotty + 3 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Kondotty, 3 Malappuram; time left 29 min
+write round: 20 news waiting in the queue (written in priority order)
+candidate filter: collected=18, already filed=2
+to write: 3 Manjeri + 0 Kondotty + 15 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 3 Manjeri, 0 Kondotty, 15 Malappuram; time left 29 min
+try (R) manual=False: മഞ്ഞപ്പിത്ത പ്രതിരോധം ശക്തമാക്കാൻ മഞ്ചേരിയിൽ അടിയന്തര യോഗം
+try (N) manual=False: ഇ.എസ്.എ. കരട് വിജ്ഞാപനം; മലയോര സംരക്ഷണസമിതിയുടെ ഹർത്താൽ പൂർണ
+try (N) manual=False: കരതൊടാതെ പൊന്നാനി മറൈൻ മ്യൂസിയം പദ്ധതി
+skip (R) could not open: മഞ്ഞപ്പിത്ത പ്രതിരോധം ശക്തമാക്കാൻ മഞ്ചേരിയിൽ അടിയ [https://www.mangalam.com/news/detail/882195-news-details.htm] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882195
+try (N) manual=False: സംസ്ഥാന സ്കൂൾ ശാസ്ത്രോത്സവത്തിന് തുടക്കം; മലപ്പുറം മുന്നിൽ
+skip (N) similar to a filed story: സംസ്ഥാന സ്കൂൾ ശാസ്ത്രോത്സവത്തിന് തുടക്കം; മലപ്പുറ
+try (N) manual=False: വ്യത്യസ്ത ആശയങ്ങൾ, കഴിവുകൾ; സംസ്ഥാന സ്കൂൾ ശാസ്ത്രമേളയിൽ ഞെട്
+NOT filed (N) വ്യത്യസ്ത ആശയങ്ങൾ, കഴിവുകൾ; സംസ്ഥാന സ്കൂൾ ശാസ്ത്രമ: all free models failed: no usable answer from the models
+try (R) manual=False: എംആർഐ മെഷീനുണ്ട്, പക്ഷേ ഉപയോഗിക്കില്ല
+skip (R) could not open: എംആർഐ മെഷീനുണ്ട്, പക്ഷേ ഉപയോഗിക്കില്ല [https://www.deshabhimani.com/district-news/-73594/manjeri-me] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+try (N) manual=False: താളമിടാൻ ജുനൈദില്ല, കൂടെയുള്ളത് ഓർമകൾ
+skip (N) could not open: താളമിടാൻ ജുനൈദില്ല, കൂടെയുള്ളത് ഓർമകൾ [https://www.deshabhimani.com/district-news/-73594/junaid-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
 try (N) manual=False: കരിപ്പൂരിൽ തുടർച്ചയായ രണ്ടാം ദിവസവും സ്വർണവേട്ട; ഒന്നര കിലോയ
-try (N) manual=False: അടിയന്തര സാഹചര്യങ്ങളിൽ പ്രാഥമിക ശുശ്രൂഷക്ക് മലപ്പുറം പ്രസ് ക
-try (N) manual=False: മലബാർ വീരസംഗമം 28ന്
-NOT filed (N) അടിയന്തര സാഹചര്യങ്ങളിൽ പ്രാഥമിക ശുശ്രൂഷക്ക് മലപ്പു: all free models failed: no usable answer from the models
-NOT filed (N) മലബാർ വീരസംഗമം 28ന്: not Malappuram district news (the story's first lines name another place and no Malappuram place)
 NOT filed (N) കരിപ്പൂരിൽ തുടർച്ചയായ രണ്ടാം ദിവസവും സ്വർണവേട്ട; ഒ: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 3, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 28 min
+try (N) manual=False: ഇനി ശാസ്ത്ര ദിനങ്ങൾ
+skip (N) could not open: ഇനി ശാസ്ത്ര ദിനങ്ങൾ [https://www.deshabhimani.com/district-news/-14120/samstana-s] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+try (N) manual=False: കടവല്ലൂർ അന്യോന്യം: മികവു പുലർത്തി തൃശ്ശൂർ യോഗവും തിരുനാവായ 
+NOT filed (N) കടവല്ലൂർ അന്യോന്യം: മികവു പുലർത്തി തൃശ്ശൂർ യോഗവും : all free models failed: no usable answer from the models
+try (N) manual=False: കാടും വള്ളിപ്പടർപ്പുകളും വെട്ടിമാറ്റി കെ.എസ്.ഇ.ബി.
+NOT filed (N) കാടും വള്ളിപ്പടർപ്പുകളും വെട്ടിമാറ്റി കെ.എസ്.ഇ.ബി.: all free models failed: no usable answer from the models
+try (R) manual=False: പാണ്ടിക്കാട് അനധികൃത മരംമുറി; ലക്ഷങ്ങളുടെ അഴിമതി
+skip (R) could not open: പാണ്ടിക്കാട് അനധികൃത മരംമുറി; ലക്ഷങ്ങളുടെ അഴിമതി [https://www.deshabhimani.com/district-news/-73594/tree-cut-f] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+try (N) manual=False: തീമുനയിലും 
+രക്ഷകരായി മാലാഖമാർ
+skip (N) could not open: തീമുനയിലും 
+രക്ഷകരായി മാലാഖമാർ [https://www.deshabhimani.com/district-news/-73594/aaaa123-fy] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+try (N) manual=False: അടിയന്തര സാഹചര്യങ്ങളിൽ പ്രാഥമിക ശുശ്രൂഷക്ക് മലപ്പുറം പ്രസ് ക
+NOT filed (N) അടിയന്തര സാഹചര്യങ്ങളിൽ പ്രാഥമിക ശുശ്രൂഷക്ക് മലപ്പു: all free models failed: no usable answer from the models
+try (N) manual=False: വസന്തൻ പൊന്നാനി സ്മൃതിസന്ധ്യയും ഹ്രസ്വചിത്രമേളയും ശ്രദ്ധേയമാ
+skip (N) could not open: വസന്തൻ പൊന്നാനി സ്മൃതിസന്ധ്യയും ഹ്രസ്വചിത്രമേളയും  [https://www.mangalam.com/news/detail/882269-pravasi-news.htm] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882269
+try (N) manual=False: ഭിന്നശേഷി കലോത്സവം സംഘടിപ്പിച്ചു
+skip (N) could not open: ഭിന്നശേഷി കലോത്സവം സംഘടിപ്പിച്ചു [https://www.mangalam.com/news/detail/882199-news-details.htm] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882199
+try (N) manual=False: ജില്ലാ വികസന സമിതി യോഗം 28ന്
+skip (N) could not open: ജില്ലാ വികസന സമിതി യോഗം 28ന് [https://www.mangalam.com/news/detail/882196-news-details.htm] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882196
+try (N) manual=False: മലബാർ വീരസംഗമം 28ന്
+skip (N) could not open: മലബാർ വീരസംഗമം 28ന് [https://www.mangalam.com/news/detail/882193-details.html] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882193
+NOT filed (N) കരതൊടാതെ പൊന്നാനി മറൈൻ മ്യൂസിയം പദ്ധതി: all free models failed: no usable answer from the models
+NOT filed (N) ഇ.എസ്.എ. കരട് വിജ്ഞാപനം; മലയോര സംരക്ഷണസമിതിയുടെ ഹർ: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 3, 'N': 15, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 3 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":3} 
+queue: 17 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":17} 
 stories: 0
