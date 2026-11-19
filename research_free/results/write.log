@@ -1,6 +1,6 @@
 writing [N]: എടപ്പാളിൽ കുരുക്കഴിയാൻ ഇനിയെന്തുചെയ്യും
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
 poor answer - skipped for 30 min: gemini/gemini-3.8-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
@@ -23,32 +23,26 @@ fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChBiyMn6gXqgwtSdnf4qV"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChBmzby1MzpHBpVjLcV77"}
 earlier stories still waiting for images: []
 instagram check: 76 recent posts read from all pages
 write round: 4 news waiting in the queue (written in priority order)
-candidate filter: collected=4
-to write: 1 Manjeri + 0 Kondotty + 3 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 1 Manjeri, 0 Kondotty, 3 Malappuram; time left 29 min
-try (R) manual=False: ഗതാഗതക്കുരുക്ക്:
-പഴയ പാലം പൊളിച്ചു പണിയണമെന്ന
-ആവശ്യം ശക്തം
+candidate filter: collected=3, checked earlier=1
+to write: 0 Manjeri + 0 Kondotty + 3 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 0 Manjeri, 0 Kondotty, 3 Malappuram; time left 29 min
 try (N) manual=False: എടപ്പാളിൽ കുരുക്കഴിയാൻ ഇനിയെന്തുചെയ്യും
 try (N) manual=False: ബേപ്പൂരിൽ മത്സരിച്ചത്  
 ഉപാധിയോടെ:അൻവർ
-skip (N) could not open: ബേപ്പൂരിൽ മത്സരിച്ചത്  
-ഉപാധിയോടെ:അൻവർ [https://www.keralakaumudi.com/kerala/politics/pv-anvar-18278] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/politi
 try (N) manual=False: കലോത്സവ വേദിയിൽ 
 കൂട്ടത്തല്ല്
-skip (R) could not open: ഗതാഗതക്കുരുക്ക്:
-പഴയ പാലം പൊളിച്ചു പണിയണമെന്ന
-ആവ [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
 skip (N) could not open: കലോത്സവ വേദിയിൽ 
 കൂട്ടത്തല്ല് [https://www.keralakaumudi.com/kerala/general/a-1827914] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera
+skip (N) could not open: ബേപ്പൂരിൽ മത്സരിച്ചത്  
+ഉപാധിയോടെ:അൻവർ [https://www.keralakaumudi.com/kerala/politics/pv-anvar-18278] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/politi
 NOT filed (N) എടപ്പാളിൽ കുരുക്കഴിയാൻ ഇനിയെന്തുചെയ്യും: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 3, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 28 min
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 3, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 4 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":4} 
+queue: 3 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":3} 
 stories: 0
