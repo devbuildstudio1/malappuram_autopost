@@ -1,31 +1,19 @@
 writing [N]: രോഗികൾ ചോദിക്കുന്നു, ‘പറ്റിയ ക്ലിനിക്കൽ ട്രയൽസ് ഉണ്ടോ?’; കാൻ
-writing [N]: മലപ്പുറം ജില്ലയിലെ ബാങ്ക് നിക്ഷേപം 59,209 കോടിയായി; വായ്പയിൽ
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [N]: മലപ്പുറം ജില്ലയിലെ ബാങ്ക് നിക്ഷേപം 59,209 കോടിയായി; വായ്പയിൽ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -41,17 +29,17 @@ fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCeJy3bUKfUWGUgnuZ1U"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCgEW31PNHMUgmNcNXjU"}
 fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
 poor answer - skipped for 30 min: gemini/gemini-3.8-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCeLsz3GFYmgwjCkWvXe"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCgHfkjVUfnVpDghdZNJ"}
 earlier stories still waiting for images: []
 instagram check: 76 recent posts read from all pages
-write round: 5 news waiting in the queue (written in priority order)
-candidate filter: checked earlier=3, collected=2
+write round: 2 news waiting in the queue (written in priority order)
+candidate filter: collected=2
 to write: 0 Manjeri + 0 Kondotty + 2 other district candidates (max 200 + 200 + 200 stories)
 candidates waiting: 0 Manjeri, 0 Kondotty, 2 Malappuram; time left 29 min
 try (N) manual=False: രോഗികൾ ചോദിക്കുന്നു, ‘പറ്റിയ ക്ലിനിക്കൽ ട്രയൽസ് ഉണ്ടോ?’; കാൻ
