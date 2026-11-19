@@ -1,7 +1,7 @@
 writing [N]: ലൈസൻസില്ല, 18 വയസുമായില്ല; പ്രായപൂർത്തിയാകാതെ വാഹനമോടിക്കുന്
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-writing [N]: രോഗികൾ ചോദിക്കുന്നു, ‘പറ്റിയ ക്ലിനിക്കൽ ട്രയൽസ് ഉണ്ടോ?’; കാൻ
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20bwriting [N]: രോഗികൾ ചോദിക്കുന്നു, ‘പറ്റിയ ക്ലിനിക്കൽ ട്രയൽസ് ഉണ്ടോ?’; കാൻ
+
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
@@ -40,26 +40,37 @@ fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Requ
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+writing [N]: മലപ്പുറം ജില്ലയിലെ ബാങ്ക് നിക്ഷേപം 59,209 കോടിയായി; വായ്പയിൽ
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCS4BVt2tkXznxPxN7FW"}
+writing [N]: വിദ്യാർത്ഥികളെ മർദ്ദിച്ചു,   അദ്ധ്യാപികയെ കൈയേറ്റം ചെയ്തു:  
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCS4F4ghedbxXUJxiqoi"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 writing [N]: പ്രായപൂർത്തിയാകാത്ത മകളെ പീഡിപ്പിച്ച് ഗർഭിണിയാക്കി; പിതാവിന്
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCP1Em9iJvqHS5ukeJQD"}
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCS4HmAHsBNVJgxvuhSg"}
+writing [N]: Malappuram Obituary | മലപ്പുറം ചരമ വാർത്ത | Kerala Kaumudi
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCS4Y2uhAU8Ju1R2vFC7"}
 writing [N]: ബ്രസീലിയൻ ഗോളടി യന്ത്രത്തെ റാഞ്ചി; മലപ്പുറം എഫ്.സി ഇനി ട്രിപ
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCP1KomMDqHQfHpe9R8Q"}
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCS4dvcLnS3pKEZtCt6y"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCP1zHXavShfohaEmwCr"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCS5Gpe65WuCLGPoPXbz"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCP28PT8NdreZW3ydqdd"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCS5QchX7skaEQeSNL3i"}
 earlier stories still waiting for images: []
 instagram check: 76 recent posts read from all pages
 write round: 7 news waiting in the queue (written in priority order)
@@ -69,13 +80,13 @@ candidates waiting: 0 Manjeri, 0 Kondotty, 7 Malappuram; time left 29 min
 try (N) manual=False: രോഗികൾ ചോദിക്കുന്നു, ‘പറ്റിയ ക്ലിനിക്കൽ ട്രയൽസ് ഉണ്ടോ?’; കാൻ
 try (N) manual=False: മലപ്പുറം ജില്ലയിലെ ബാങ്ക് നിക്ഷേപം 59,209 കോടിയായി; വായ്പയിൽ
 try (N) manual=False: ലൈസൻസില്ല, 18 വയസുമായില്ല; പ്രായപൂർത്തിയാകാതെ വാഹനമോടിക്കുന്
-skip (N) could not open: മലപ്പുറം ജില്ലയിലെ ബാങ്ക് നിക്ഷേപം 59,209 കോടിയായി [https://timeskerala.com/kerala/malappuram-bank-deposits-sept] Response ended prematurely
+NOT filed (N) മലപ്പുറം ജില്ലയിലെ ബാങ്ക് നിക്ഷേപം 59,209 കോടിയായി: all free models failed: no usable answer from the models
 try (N) manual=False: വിദ്യാർത്ഥികളെ മർദ്ദിച്ചു,   അദ്ധ്യാപികയെ കൈയേറ്റം ചെയ്തു:  
-skip (N) could not open: വിദ്യാർത്ഥികളെ മർദ്ദിച്ചു,   അദ്ധ്യാപികയെ കൈയേറ്റം [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
+NOT filed (N) വിദ്യാർത്ഥികളെ മർദ്ദിച്ചു,   അദ്ധ്യാപികയെ കൈയേറ്റം: all free models failed: no usable answer from the models
 try (N) manual=False: പ്രായപൂർത്തിയാകാത്ത മകളെ പീഡിപ്പിച്ച് ഗർഭിണിയാക്കി; പിതാവിന്
 NOT filed (N) പ്രായപൂർത്തിയാകാത്ത മകളെ പീഡിപ്പിച്ച് ഗർഭിണിയാക്കി: all free models failed: no usable answer from the models
 try (N) manual=False: Malappuram Obituary | മലപ്പുറം ചരമ വാർത്ത | Kerala Kaumudi
-skip (N) could not open: Malappuram Obituary | മലപ്പുറം ചരമ വാർത്ത | Kerala [https://www.keralakaumudi.com/news/sub-section.php?cid=10&si] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/news/sub-sect
+NOT filed (N) Malappuram Obituary | മലപ്പുറം ചരമ വാർത്ത | Kerala: all free models failed: no usable answer from the models
 try (N) manual=False: ബ്രസീലിയൻ ഗോളടി യന്ത്രത്തെ റാഞ്ചി; മലപ്പുറം എഫ്.സി ഇനി ട്രിപ
 NOT filed (N) ബ്രസീലിയൻ ഗോളടി യന്ത്രത്തെ റാഞ്ചി; മലപ്പുറം എഫ്.സി: all free models failed: no usable answer from the models
 NOT filed (N) ലൈസൻസില്ല, 18 വയസുമായില്ല; പ്രായപൂർത്തിയാകാതെ വാഹന: all free models failed: no usable answer from the models
