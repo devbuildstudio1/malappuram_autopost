@@ -1,32 +1,39 @@
 writing [N]: കരിപ്പൂരിൽ തുടർച്ചയായ രണ്ടാം ദിവസവും സ്വർണവേട്ട; ഒന്നര കിലോയ
+writing [N]: യാദൃച്ഛികമായി സംഭവിച്ച കൊലപാതകമല്ല; നിയമപരമായി അവസാനംവരെ പോര
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 writing [N]: രോഗികൾ ചോദിക്കുന്നു, ‘പറ്റിയ ക്ലിനിക്കൽ ട്രയൽസ് ഉണ്ടോ?’; കാൻ
-writing [N]: അടിയന്തര സാഹചര്യങ്ങളിൽ പ്രാഥമിക ശുശ്രൂഷക്ക് മലപ്പുറം പ്രസ് ക
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+ok gemini/gemini-3.6-flash (57s)
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
+fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.7-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
@@ -41,20 +48,51 @@ fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mis
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCwoLpnNqceCQibEJq73"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCwoTVPM7eTunGNvz1ZS"}
-fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+ok groq/openai/gpt-oss-120b (5s)
+factcheck by groq/openai/gpt-oss-120b: 1 problems
+  Slide 2 claims the cancer registry data is from EMSI/ARSI, but the article says the registry is from Malabar Cancer Center and Thiruvananthapuram Regional Cancer Center
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  fact-check: Slide 2 claims the cancer registry data is from EMSI/ARSI, but the article says the registry is from Malabar Cancer Center and Thiruvananthapuram Regional Cancer Center
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCwrXSMG4G7u4JTqDxTL"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCzvoBLtpET91qqdcePy"}
+writing [N]: അടിയന്തര സാഹചര്യങ്ങളിൽ പ്രാഥമിക ശുശ്രൂഷക്ക് മലപ്പുറം പ്രസ് ക
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCzvsYH6PBwM1iundku2"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCzvv55por9v4bx58NEX"}
+writing [N]: വസന്തൻ പൊന്നാനി സ്മൃതിസന്ധ്യയും ഹ്രസ്വചിത്രമേളയും ശ്രദ്ധേയമാ
+free models unavailable: free models not efficient (5 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCzvwYPRf9o5K9DnYzZL"}
+writing [N]: മലബാർ വീരസംഗമം 28ന്
+free models unavailable: free models not efficient (5 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCzvzTkZrruwaVWRkguj"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChCzw7rWY3dusfcw4zxFj"}
+proofread skipped: free models not efficient (6 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+image match: False The photo shows the exterior of a modern building and does not depict any news event, statistics, people, or context rel
+image match: True The photo shows the Malabar Cancer Centre (MCC) building in Thalassery, which conducted and released the cancer registry
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 4 for 'Cancer registry study shows rise in lung'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261120-0303","first":"MP-335"}
+posting job started at once
+write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 76 recent posts read from all pages
 write round: 6 news waiting in the queue (written in priority order)
@@ -64,18 +102,20 @@ candidates waiting: 0 Manjeri, 0 Kondotty, 6 Malappuram; time left 29 min
 try (N) manual=False: കരിപ്പൂരിൽ തുടർച്ചയായ രണ്ടാം ദിവസവും സ്വർണവേട്ട; ഒന്നര കിലോയ
 try (N) manual=False: യാദൃച്ഛികമായി സംഭവിച്ച കൊലപാതകമല്ല; നിയമപരമായി അവസാനംവരെ പോര
 try (N) manual=False: രോഗികൾ ചോദിക്കുന്നു, ‘പറ്റിയ ക്ലിനിക്കൽ ട്രയൽസ് ഉണ്ടോ?’; കാൻ
-skip (N) could not open: യാദൃച്ഛികമായി സംഭവിച്ച കൊലപാതകമല്ല; നിയമപരമായി അവസ [https://www.deepika.com/kerala/p-k-kunhalikutty-says-he-will] 403 Client Error: Forbidden for url: https://www.deepika.com/kerala/p-k-kunhalik
+NOT filed (N) കരിപ്പൂരിൽ തുടർച്ചയായ രണ്ടാം ദിവസവും സ്വർണവേട്ട; ഒ: all free models failed: no usable answer from the models
 try (N) manual=False: അടിയന്തര സാഹചര്യങ്ങളിൽ പ്രാഥമിക ശുശ്രൂഷക്ക് മലപ്പുറം പ്രസ് ക
 NOT filed (N) അടിയന്തര സാഹചര്യങ്ങളിൽ പ്രാഥമിക ശുശ്രൂഷക്ക് മലപ്പു: all free models failed: no usable answer from the models
 try (N) manual=False: വസന്തൻ പൊന്നാനി സ്മൃതിസന്ധ്യയും ഹ്രസ്വചിത്രമേളയും ശ്രദ്ധേയമാ
-skip (N) could not open: വസന്തൻ പൊന്നാനി സ്മൃതിസന്ധ്യയും ഹ്രസ്വചിത്രമേളയും  [https://www.mangalam.com/news/detail/882269-gulf-pravasi-new] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882269
+NOT filed (N) യാദൃച്ഛികമായി സംഭവിച്ച കൊലപാതകമല്ല; നിയമപരമായി അവസ: all free models failed: no usable answer from the models
 try (N) manual=False: മലബാർ വീരസംഗമം 28ന്
-skip (N) could not open: മലബാർ വീരസംഗമം 28ന് [https://www.mangalam.com/news/detail/882193-details.html] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882193
-NOT filed (N) രോഗികൾ ചോദിക്കുന്നു, ‘പറ്റിയ ക്ലിനിക്കൽ ട്രയൽസ് ഉണ: all free models failed: no usable answer from the models
-NOT filed (N) കരിപ്പൂരിൽ തുടർച്ചയായ രണ്ടാം ദിവസവും സ്വർണവേട്ട; ഒ: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 6, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 28 min
-carousel for 0 of 0 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 6 news waiting to be written
+NOT filed (N) വസന്തൻ പൊന്നാനി സ്മൃതിസന്ധ്യയും ഹ്രസ്വചിത്രമേളയും : all free models failed: no usable answer from the models
+NOT filed (N) മലബാർ വീരസംഗമം 28ന്: all free models failed: no usable answer from the models
+auto images: 1 of 1 stories ({'pollinations': 5})
+posting job started at once
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 6, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 25 min
+carousel for 0 of 1 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)
+queue: 5 news waiting to be written
+write_stories.yml started
 All News sheet: {"ok":true,"added":0,"updated":6} 
-stories: 0
+stories: 1
