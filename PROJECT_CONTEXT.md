@@ -82,6 +82,9 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-19 | `a4cafeb` | Reel v5 phone-notification design live; add v6-v8 and photo themes |
+| 2026-11-18 | `f11f62c` | Heartbeat |
+| 2026-11-18 | `cba4db8` | Heartbeat |
 | 2026-11-18 | `f8d19b2` | Post the reel types that go viral first, never the flops |
 | 2026-11-18 | `93c0004` | ig probe output |
 | 2026-11-18 | `a917423` | More Manjeri 360 reels: nearby towns and Manjeri searches |
@@ -90,6 +93,4 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 | 2026-11-18 | `047ad85` | ig probe output |
 | 2026-11-17 | `07f506f` | Heartbeat |
 | 2026-11-17 | `5abe623` | Heartbeat |
-| 2026-11-16 | `f9fd0fa` | Heartbeat |
-| 2026-11-16 | `25bc529` | Heartbeat |
 <!-- recent-changes:end -->
