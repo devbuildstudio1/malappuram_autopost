@@ -1,6 +1,6 @@
 writing [N]: വീണ്ടും ഇടിഞ്ഞ് സ്വർണം! പവന് 95,840തിലേക്ക്; പോക്ക് എങ്ങോട്ട
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -26,24 +26,22 @@ fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDsaCrVXrmBq4aPH9iAs"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDvFJHEvP1Eo7WXJCNiL"}
 earlier stories still waiting for images: []
 instagram check: 78 recent posts read from all pages
 write round: 4 news waiting in the queue (written in priority order)
-candidate filter: collected=4
-to write: 1 Manjeri + 0 Kondotty + 3 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 1 Manjeri, 0 Kondotty, 3 Malappuram; time left 29 min
+candidate filter: collected=3, checked earlier=1
+to write: 0 Manjeri + 0 Kondotty + 3 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 0 Manjeri, 0 Kondotty, 3 Malappuram; time left 29 min
 try (N) manual=False: ഇടിഞ്ഞിടിഞ്ഞ് എങ്ങോട്ട്? സ്വർണവില വീണ്ടും വീണു; ഒറ്റയടിക്ക് 
-try (R) manual=False: മഞ്ഞപ്പിത്ത പ്രതിരോധം ശക്തമാക്കാൻ മഞ്ചേരിയിൽ അടിയന്തര യോഗം
 try (N) manual=False: പൾസ് പോളിയോ; 12.92 ലക്ഷം കുഞ്ഞുങ്ങൾക്ക് തുള്ളിമരുന്ന് നൽകും
-skip (N) could not open: പൾസ് പോളിയോ; 12.92 ലക്ഷം കുഞ്ഞുങ്ങൾക്ക് തുള്ളിമരുന [https://www.deshabhimani.com/News/kerala/pulse-polio-drive-t] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/News/kerala/pu
 try (N) manual=False: വീണ്ടും ഇടിഞ്ഞ് സ്വർണം! പവന് 95,840തിലേക്ക്; പോക്ക് എങ്ങോട്ട
+skip (N) could not open: പൾസ് പോളിയോ; 12.92 ലക്ഷം കുഞ്ഞുങ്ങൾക്ക് തുള്ളിമരുന [https://www.deshabhimani.com/News/kerala/pulse-polio-drive-t] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/News/kerala/pu
 skip (N) could not open: ഇടിഞ്ഞിടിഞ്ഞ് എങ്ങോട്ട്? സ്വർണവില വീണ്ടും വീണു; ഒറ [https://www.deepika.com/business/gold-rate-today-217661] 403 Client Error: Forbidden for url: https://www.deepika.com/business/gold-rate-
-skip (R) could not open: മഞ്ഞപ്പിത്ത പ്രതിരോധം ശക്തമാക്കാൻ മഞ്ചേരിയിൽ അടിയ [https://www.mangalam.com/news/detail/882195-news-details.htm] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882195
 NOT filed (N) വീണ്ടും ഇടിഞ്ഞ് സ്വർണം! പവന് 95,840തിലേക്ക്; പോക്ക: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 3, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 3, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 4 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":4} 
+queue: 3 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":3} 
 stories: 0
