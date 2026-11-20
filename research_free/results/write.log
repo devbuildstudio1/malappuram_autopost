@@ -1,114 +1,153 @@
 writing [N]: ഇതെന്ത് മറിമായം ! സ്വർണവില ഒറ്റയടിക്ക് 3760 രൂപ കുറഞ്ഞു; പവൻ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
+writing [N]: കുത്തനെ ഇടിഞ്ഞ് സംസ്ഥാനത്തെ സ്വർണവില: പവന് ഇന്ന് ഒറ്റയടിക്ക്
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 writing [N]: സ്വർണവിലയിൽ വൻ ഇടിവ്; പവന് 3,760 രൂപ കുറഞ്ഞു, രണ്ടാഴ്ച കൊണ്ട
-free models unavailable: free models not efficient (3 failures in a row): using Claude
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+ok gemini/gemini-3.6-flash (53s)
+attempt 1 gemini/gemini-3.6-flash: 2 problems
+  numbers not found in the article: 6
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 385 ('18 കാരറ്റ് സ്വർണത്തിന് ഗ്രാമിന് 385 രൂപ കുറഞ്ഞ് 9,420 രൂപയും'); 300 ('14 കാരറ്റ് സ്വർണത്തിന് ഗ്രാമിന് 300 രൂപ കുറഞ്ഞ് 7,375 രൂപയും'); 10 ('വെള്ളിക്ക് ഗ്രാമിന് 175 രൂപയും 10 ഗ്രാമിന് 1,750 രൂപയുമാണ് ന'); 1,750 ('വെള്ളിക്ക് ഗ്രാമിന് 175 രൂപയും 10 ഗ്രാമിന് 1,750 രൂപയുമാണ് ന'); 3,530 ('അന്താരാഷ്ട്ര വിപണിയിൽ സ്വർണവില 3,530 ഡോളറിലേക്ക് ഇടിഞ്ഞതാണ് '); 97,720 ('സ്വർണവിലയിൽ വൻ ഇടിവ് തുടരുന്നു; പവന് 2,040 രൂപ കുറഞ്ഞ് 97,72')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDneALTzoHKzRv8RnMwm"}
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-writing [N]: സ്വർണവില തുടർച്ചയായ അഞ്ചാം ദിവസവും താഴോട്ട്; സംസ്ഥാനത്ത് പവൻ
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDneDP27W4sfLvJJyWR5"}
-writing [N]: സ്വർണം ഏറ്റവും താഴ്ന്ന നിരക്കിൽ; 80,000-ലേക്കോ? നവംബർ 20-ലെ 
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDneEbCWgojkjgg3sWAF"}
-writing [N]: സംസ്ഥാനത്ത് സ്വർണവില വീണ്ടും ഇടിഞ്ഞു; പവന് 95,840 രൂപ
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDneJNepHzNs63QriRFH"}
-writing [N]: ദുബായിൽ സ്വർണവില കുറഞ്ഞു; ഇന്നത്തെ 22K, 24K നിരക്കുകളും രൂപയ
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDneKcZftPrm6MHyfFeK"}
-writing [N]: സ്വർണവില കൂപ്പുകുത്തുന്നു; ഒറ്റയടിക്ക് പവന് കുറഞ്ഞത് 1,880 ര
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDneQjdfdN4yZV7Gdek3"}
-writing [N]: സ്വർണ വില 90,000ത്തിൽ താഴെയെത്തുമോ? ഇന്ന് കുറഞ്ഞത് 3760 രൂപ,
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDneSKPs8tqAA4CC6CpN"}
-writing [N]: TODAY'S GOLD RATE|ഇടിവ് തുടർന്ന് സ്വർണവില; പവന് കുറഞ്ഞത് 376
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDneWTgFJfj6QB63XXzb"}
-writing [N]: സ്വർണവില ഇടിഞ്ഞ് താഴുന്നു; പവന് കുറഞ്ഞത് 35000 രൂപ, ഗ്രാം വി
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDneXVhGTQ2stk5viyuA"}
-writing [N]: സ്വർണവിലയിൽ വൻ ഇടിവ്
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDnebur6PcrFmiywudrZ"}
-writing [N]: ഇടിവോട് ഇടിവ്; സംസ്ഥാനത്ത് ഇന്നും സ്വർണവില  ലക്ഷത്തിന് താഴെ
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDnegpXPoRjtMLJW4igB"}
-writing [N]: എന്റെ പൊന്നെടാവ്വേ നിനക്ക് വയ്യേ! നവംബർ 19-ലെ കേരളത്തിലെ സ്വ
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDnemkSVDFP3sp5n6CWq"}
-writing [N]: കുത്തനെ ഇടിഞ്ഞ് സംസ്ഥാനത്തെ സ്വർണവില: പവന് ഇന്ന് ഒറ്റയടിക്ക്
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-writing [N]: സ്വർണവില ഇന്നും ദേ കിടക്കുന്നു മൂക്കുംകുത്തി താഴെ;ഒറ്റയടിക്ക
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDnenogiZvFd8dJbJNKM"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDneo2L62QXkFcq9RS3T"}
-writing [N]: സംസ്ഥാനത്ത് വീണ്ടും ഇടിഞ്ഞുതാഴ്ന്ന് സ്വർണവില. 22 കാരറ്റ് സ്വ
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDnepbqqjSnGpSBH2eVL"}
-writing [N]: സ്വർണവില പിടിവിട്ട് താഴോട്ട്; ഇന്നും കുത്തനെ കുറഞ്ഞു; രണ്ടാ
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDneqQSzK5NZiVANS5QB"}
-writing [N]: സ്വർണവില വീണ്ടും ഒരു ലക്ഷത്തിന് താഴെ; രണ്ടാഴ്ചയ്ക്കിടെ കുറഞ്
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDnetitS5WwFuJg2h9Wp"}
-writing [N]: സ്വർണ വില വീണ്ടും താഴേക്ക്; കേരളത്തിൽ വില 90,000ത്തിലേക്ക്? 
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-writing [N]: സ്വർണവിലയിൽ വമ്പൻ തകർച്ച; 2025 ഡിസംബറിലെ നിരക്കിലേക്ക് ഇടിഞ്
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDnex44Ggho7DKGubRVj"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDnexWMAgYzW618FTkBC"}
-writing [N]: താഴോട്ട് തന്നെ ; സ്വർണവിലയിൽ ഇടിവ് തുടരുന്നു
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDnf1JmefKiCipt9Nmvn"}
-writing [N]: മാധ്യമം ഹെൽത്ത് കെയറിലേക്ക് സഹായവുമായി വിദ്യാർഥികൾ | Madhyam
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDnf2E5rmcqqSGASVUJo"}
-writing [N]: പി.സി.ഡബ്ല്യു.എഫ് സിറ്റി മേഖല ജനറൽ ബോഡി | Madhyamam
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-writing [N]: വടക്കുകിഴക്കൻ കാലവർഷം ചതിച്ചു; സംസ്ഥാനത്ത് ഏറ്റവും കുറവ് മഴ 
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDnf4VWP5EY3ZVcTuh1a"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDnf4ahzQc58dVKhhYzx"}
-writing [N]: വീണ്ടും ഇടിഞ്ഞ് സ്വർണം! പവന് 95,840തിലേക്ക്; പോക്ക് എങ്ങോട്ട
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDnf7ECyuF6xY4bDsSoE"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDnfLbsgdrTqbe7XzX4o"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDqtqyRRo79Gx69eP1Lc"}
+writing [N]: സ്വർണവില തുടർച്ചയായ അഞ്ചാം ദിവസവും താഴോട്ട്; സംസ്ഥാനത്ത് പവൻ
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDqtrujfHBaGNyXTaPBG"}
+writing [N]: സ്വർണം ഏറ്റവും താഴ്ന്ന നിരക്കിൽ; 80,000-ലേക്കോ? നവംബർ 20-ലെ 
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDqtsuWJjRMdmkV5rj2s"}
+writing [N]: സംസ്ഥാനത്ത് സ്വർണവില വീണ്ടും ഇടിഞ്ഞു; പവന് 95,840 രൂപ
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDqtwPcBjexXBQhG1nxZ"}
+writing [N]: ദുബായിൽ സ്വർണവില കുറഞ്ഞു; ഇന്നത്തെ 22K, 24K നിരക്കുകളും രൂപയ
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDqtxWa8irBWdaWa9J8J"}
+writing [N]: സ്വർണവില കൂപ്പുകുത്തുന്നു; ഒറ്റയടിക്ക് പവന് കുറഞ്ഞത് 1,880 ര
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDqu2BLQ3LiUkA2dup91"}
+writing [N]: സ്വർണ വില 90,000ത്തിൽ താഴെയെത്തുമോ? ഇന്ന് കുറഞ്ഞത് 3760 രൂപ,
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDqu47RZXJvfGyEEv44b"}
+writing [N]: TODAY'S GOLD RATE|ഇടിവ് തുടർന്ന് സ്വർണവില; പവന് കുറഞ്ഞത് 376
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDqu8KvPKRKnvWnvZvMg"}
+writing [N]: സ്വർണവില ഇടിഞ്ഞ് താഴുന്നു; പവന് കുറഞ്ഞത് 35000 രൂപ, ഗ്രാം വി
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDquAc6nPsFojRrAvywA"}
+writing [N]: സ്വർണവിലയിൽ വൻ ഇടിവ്
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDquEvJHxmS9ygu62h1a"}
+writing [N]: ഇടിവോട് ഇടിവ്; സംസ്ഥാനത്ത് ഇന്നും സ്വർണവില  ലക്ഷത്തിന് താഴെ
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDquG2HeSkoUNT1q2pWk"}
+writing [N]: എന്റെ പൊന്നെടാവ്വേ നിനക്ക് വയ്യേ! നവംബർ 19-ലെ കേരളത്തിലെ സ്വ
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDquNfsuNqymGHnjun3s"}
+writing [N]: സ്വർണവില ഇന്നും ദേ കിടക്കുന്നു മൂക്കുംകുത്തി താഴെ;ഒറ്റയടിക്ക
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDquQtageJuDdVu3vzF4"}
+writing [N]: സ്വർണവില പിടിവിട്ട് താഴോട്ട്; ഇന്നും കുത്തനെ കുറഞ്ഞു; രണ്ടാ
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDquUAHD8ejosNFgd38S"}
+writing [N]: സംസ്ഥാനത്ത് വീണ്ടും ഇടിഞ്ഞുതാഴ്ന്ന് സ്വർണവില. 22 കാരറ്റ് സ്വ
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDquVGWgJUEbRy4RUm8R"}
+writing [N]: സ്വർണവില വീണ്ടും ഒരു ലക്ഷത്തിന് താഴെ; രണ്ടാഴ്ചയ്ക്കിടെ കുറഞ്
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDquZZj1UwuUS7d4Edc1"}
+writing [N]: സ്വർണവിലയിൽ വമ്പൻ തകർച്ച; 2025 ഡിസംബറിലെ നിരക്കിലേക്ക് ഇടിഞ്
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDqub137scp3XTitvjqn"}
+writing [N]: സ്വർണ വില വീണ്ടും താഴേക്ക്; കേരളത്തിൽ വില 90,000ത്തിലേക്ക്? 
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDquebb3dra33WznL6Qk"}
+writing [N]: താഴോട്ട് തന്നെ ; സ്വർണവിലയിൽ ഇടിവ് തുടരുന്നു
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDqui4wnFrnaDA87q6Xy"}
+writing [N]: വടക്കുകിഴക്കൻ കാലവർഷം ചതിച്ചു; സംസ്ഥാനത്ത് ഏറ്റവും കുറവ് മഴ 
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDqunqw91rbR7d6Sikdt"}
+writing [N]: മാധ്യമം ഹെൽത്ത് കെയറിലേക്ക് സഹായവുമായി വിദ്യാർഥികൾ | Madhyam
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDquq1ujz6DpKr8Ab6LM"}
+writing [N]: പി.സി.ഡബ്ല്യു.എഫ് സിറ്റി മേഖല ജനറൽ ബോഡി | Madhyamam
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDqutCPgHo4mVnyFgyfW"}
+writing [N]: വീണ്ടും ഇടിഞ്ഞ് സ്വർണം! പവന് 95,840തിലേക്ക്; പോക്ക് എങ്ങോട്ട
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDquwhEjHVPbz7XcAVNK"}
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDquywBsva2dJLez3qPF"}
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDqweBbHyvW3ySQ4WSdi"}
+proofread skipped: free models not efficient (13 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+image match check unavailable: gemini-3.5-flash: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models
+image match check unavailable: gemini-3.5-flash: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models
+image match: False The image shows an abstract close-up of an illuminated frame or display panel and does not depict gold prices, text, or 
+image match check unavailable: gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout
+image match: False The image shows an interior hallway with a lit display board and showcase, which does not depict the news story about go
+images made: 4 for 'Gold price drops sharply by Rs 3,760 per'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261120-1349","first":"MP-347"}
+posting job started at once
+write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 78 recent posts read from all pages
-write round: 34 news waiting in the queue (written in priority order)
-candidate filter: collected=30, already filed=3, not written=1
-to write: 1 Manjeri + 0 Kondotty + 29 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 1 Manjeri, 0 Kondotty, 29 Malappuram; time left 29 min
+write round: 29 news waiting in the queue (written in priority order)
+candidate filter: collected=28, checked earlier=1
+to write: 1 Manjeri + 0 Kondotty + 27 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 1 Manjeri, 0 Kondotty, 27 Malappuram; time left 29 min
 try (N) manual=False: സ്വർണവിലയിൽ വൻ ഇടിവ്; പവന് 3,760 രൂപ കുറഞ്ഞു, രണ്ടാഴ്ച കൊണ്ട
 try (N) manual=False: കുത്തനെ ഇടിഞ്ഞ് സംസ്ഥാനത്തെ സ്വർണവില: പവന് ഇന്ന് ഒറ്റയടിക്ക്
 try (N) manual=False: ഇതെന്ത് മറിമായം ! സ്വർണവില ഒറ്റയടിക്ക് 3760 രൂപ കുറഞ്ഞു; പവൻ
-NOT filed (N) സ്വർണവിലയിൽ വൻ ഇടിവ്; പവന് 3,760 രൂപ കുറഞ്ഞു, രണ്ട: all free models failed: no usable answer from the models
+NOT filed (N) കുത്തനെ ഇടിഞ്ഞ് സംസ്ഥാനത്തെ സ്വർണവില: പവന് ഇന്ന് ഒ: all free models failed: no usable answer from the models
 try (N) manual=False: സ്വർണവില തുടർച്ചയായ അഞ്ചാം ദിവസവും താഴോട്ട്; സംസ്ഥാനത്ത് പവൻ
 NOT filed (N) സ്വർണവില തുടർച്ചയായ അഞ്ചാം ദിവസവും താഴോട്ട്; സംസ്ഥ: all free models failed: no usable answer from the models
 try (N) manual=False: സ്വർണം ഏറ്റവും താഴ്ന്ന നിരക്കിൽ; 80,000-ലേക്കോ? നവംബർ 20-ലെ 
@@ -127,47 +166,45 @@ try (N) manual=False: സ്വർണവില ഇടിഞ്ഞ് താഴ�
 NOT filed (N) സ്വർണവില ഇടിഞ്ഞ് താഴുന്നു; പവന് കുറഞ്ഞത് 35000 രൂപ: all free models failed: no usable answer from the models
 try (N) manual=False: സ്വർണവിലയിൽ വൻ ഇടിവ്
 NOT filed (N) സ്വർണവിലയിൽ വൻ ഇടിവ്: all free models failed: no usable answer from the models
-try (N) manual=False: ഇ.എസ്.എ. കരട് വിജ്ഞാപനം; മലയോര സംരക്ഷണസമിതിയുടെ ഹർത്താൽ പൂർണ
-skip (N) similar to a filed story: ഇ.എസ്.എ. കരട് വിജ്ഞാപനം; മലയോര സംരക്ഷണസമിതിയുടെ ഹർ
 try (N) manual=False: ഇടിവോട് ഇടിവ്; സംസ്ഥാനത്ത് ഇന്നും സ്വർണവില  ലക്ഷത്തിന് താഴെ
 NOT filed (N) ഇടിവോട് ഇടിവ്; സംസ്ഥാനത്ത് ഇന്നും സ്വർണവില  ലക്ഷത്: all free models failed: no usable answer from the models
 try (N) manual=False: എന്റെ പൊന്നെടാവ്വേ നിനക്ക് വയ്യേ! നവംബർ 19-ലെ കേരളത്തിലെ സ്വ
 NOT filed (N) എന്റെ പൊന്നെടാവ്വേ നിനക്ക് വയ്യേ! നവംബർ 19-ലെ കേരള: all free models failed: no usable answer from the models
 try (N) manual=False: സ്വർണവില ഇന്നും ദേ കിടക്കുന്നു മൂക്കുംകുത്തി താഴെ;ഒറ്റയടിക്ക
-NOT filed (N) കുത്തനെ ഇടിഞ്ഞ് സംസ്ഥാനത്തെ സ്വർണവില: പവന് ഇന്ന് ഒ: all free models failed: no usable answer from the models
-try (N) manual=False: ഇടിഞ്ഞിടിഞ്ഞ് എങ്ങോട്ട്? സ്വർണവില വീണ്ടും വീണു; ഒറ്റയടിക്ക് 
 NOT filed (N) സ്വർണവില ഇന്നും ദേ കിടക്കുന്നു മൂക്കുംകുത്തി താഴെ;: all free models failed: no usable answer from the models
-try (N) manual=False: സ്വർണവില പിടിവിട്ട് താഴോട്ട്; ഇന്നും കുത്തനെ കുറഞ്ഞു; രണ്ടാ
+try (N) manual=False: ഇടിഞ്ഞിടിഞ്ഞ് എങ്ങോട്ട്? സ്വർണവില വീണ്ടും വീണു; ഒറ്റയടിക്ക് 
 skip (N) could not open: ഇടിഞ്ഞിടിഞ്ഞ് എങ്ങോട്ട്? സ്വർണവില വീണ്ടും വീണു; ഒറ [https://www.deepika.com/business/gold-rate-today-217661] 403 Client Error: Forbidden for url: https://www.deepika.com/business/gold-rate-
+try (N) manual=False: സ്വർണവില പിടിവിട്ട് താഴോട്ട്; ഇന്നും കുത്തനെ കുറഞ്ഞു; രണ്ടാ
+NOT filed (N) സ്വർണവില പിടിവിട്ട് താഴോട്ട്; ഇന്നും കുത്തനെ കുറഞ: all free models failed: no usable answer from the models
 try (N) manual=False: സംസ്ഥാനത്ത് വീണ്ടും ഇടിഞ്ഞുതാഴ്ന്ന് സ്വർണവില. 22 കാരറ്റ് സ്വ
 NOT filed (N) സംസ്ഥാനത്ത് വീണ്ടും ഇടിഞ്ഞുതാഴ്ന്ന് സ്വർണവില. 22 ക: all free models failed: no usable answer from the models
 try (N) manual=False: സ്വർണവില വീണ്ടും ഒരു ലക്ഷത്തിന് താഴെ; രണ്ടാഴ്ചയ്ക്കിടെ കുറഞ്
-NOT filed (N) സ്വർണവില പിടിവിട്ട് താഴോട്ട്; ഇന്നും കുത്തനെ കുറഞ: all free models failed: no usable answer from the models
-try (N) manual=False: സ്വർണവിലയിൽ വമ്പൻ തകർച്ച; 2025 ഡിസംബറിലെ നിരക്കിലേക്ക് ഇടിഞ്
 NOT filed (N) സ്വർണവില വീണ്ടും ഒരു ലക്ഷത്തിന് താഴെ; രണ്ടാഴ്ചയ്ക്: all free models failed: no usable answer from the models
+try (N) manual=False: സ്വർണവിലയിൽ വമ്പൻ തകർച്ച; 2025 ഡിസംബറിലെ നിരക്കിലേക്ക് ഇടിഞ്
+NOT filed (N) സ്വർണവിലയിൽ വമ്പൻ തകർച്ച; 2025 ഡിസംബറിലെ നിരക്കിലേ: all free models failed: no usable answer from the models
 try (N) manual=False: സ്വർണ വില വീണ്ടും താഴേക്ക്; കേരളത്തിൽ വില 90,000ത്തിലേക്ക്? 
 NOT filed (N) സ്വർണ വില വീണ്ടും താഴേക്ക്; കേരളത്തിൽ വില 90,000ത്: all free models failed: no usable answer from the models
 try (N) manual=False: താഴോട്ട് തന്നെ ; സ്വർണവിലയിൽ ഇടിവ് തുടരുന്നു
-NOT filed (N) സ്വർണവിലയിൽ വമ്പൻ തകർച്ച; 2025 ഡിസംബറിലെ നിരക്കിലേ: all free models failed: no usable answer from the models
-try (N) manual=False: വടക്കുകിഴക്കൻ കാലവർഷം ചതിച്ചു; സംസ്ഥാനത്ത് ഏറ്റവും കുറവ് മഴ 
 NOT filed (N) താഴോട്ട് തന്നെ ; സ്വർണവിലയിൽ ഇടിവ് തുടരുന്നു: all free models failed: no usable answer from the models
+try (N) manual=False: വടക്കുകിഴക്കൻ കാലവർഷം ചതിച്ചു; സംസ്ഥാനത്ത് ഏറ്റവും കുറവ് മഴ 
+NOT filed (N) വടക്കുകിഴക്കൻ കാലവർഷം ചതിച്ചു; സംസ്ഥാനത്ത് ഏറ്റവും: all free models failed: no usable answer from the models
 try (N) manual=False: മാധ്യമം ഹെൽത്ത് കെയറിലേക്ക് സഹായവുമായി വിദ്യാർഥികൾ | Madhyam
 NOT filed (N) മാധ്യമം ഹെൽത്ത് കെയറിലേക്ക് സഹായവുമായി വിദ്യാർഥികൾ: all free models failed: no usable answer from the models
 try (R) manual=False: മഞ്ഞപ്പിത്ത പ്രതിരോധം ശക്തമാക്കാൻ മഞ്ചേരിയിൽ അടിയന്തര യോഗം
 skip (R) could not open: മഞ്ഞപ്പിത്ത പ്രതിരോധം ശക്തമാക്കാൻ മഞ്ചേരിയിൽ അടിയ [https://www.mangalam.com/news/detail/882195-news-details.htm] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882195
 try (N) manual=False: പൾസ് പോളിയോ; 12.92 ലക്ഷം കുഞ്ഞുങ്ങൾക്ക് തുള്ളിമരുന്ന് നൽകും
 skip (N) could not open: പൾസ് പോളിയോ; 12.92 ലക്ഷം കുഞ്ഞുങ്ങൾക്ക് തുള്ളിമരുന [https://www.deshabhimani.com/News/kerala/pulse-polio-drive-t] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/News/kerala/pu
-try (N) manual=False: ESA Notification: Hartal Begins in Malappuram
-skip (N) could not open: ESA Notification: Hartal Begins in Malappuram [https://www.deshabhimani.com/deshabhimani-english-/kerala-ne] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/deshabhimani-e
 try (N) manual=False: പി.സി.ഡബ്ല്യു.എഫ് സിറ്റി മേഖല ജനറൽ ബോഡി | Madhyamam
 NOT filed (N) പി.സി.ഡബ്ല്യു.എഫ് സിറ്റി മേഖല ജനറൽ ബോഡി | Madhyama: all free models failed: no usable answer from the models
 try (N) manual=False: വീണ്ടും ഇടിഞ്ഞ് സ്വർണം! പവന് 95,840തിലേക്ക്; പോക്ക് എങ്ങോട്ട
-NOT filed (N) വടക്കുകിഴക്കൻ കാലവർഷം ചതിച്ചു; സംസ്ഥാനത്ത് ഏറ്റവും: all free models failed: no usable answer from the models
 NOT filed (N) വീണ്ടും ഇടിഞ്ഞ് സ്വർണം! പവന് 95,840തിലേക്ക്; പോക്ക: all free models failed: no usable answer from the models
 NOT filed (N) ഇതെന്ത് മറിമായം ! സ്വർണവില ഒറ്റയടിക്ക് 3760 രൂപ കു: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 29, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
-carousel for 0 of 0 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 29 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":30} 
-stories: 0
+auto images: 1 of 1 stories ({'pollinations': 5})
+posting job started at once
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 27, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 19 min
+carousel for 0 of 1 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)
+queue: 27 news waiting to be written
+write_stories.yml started
+All News sheet: {"ok":true,"added":0,"updated":28} 
+stories: 1
