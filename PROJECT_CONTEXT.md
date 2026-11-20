@@ -82,6 +82,7 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-20 | `017f10e` | Stop same-event repeat reels; post one gold-rate reel a day |
 | 2026-11-20 | `fe3e54c` | Tag reels by headline, not caption body; hartal/closure news is its own topic |
 | 2026-11-20 | `1b5e46a` | ig probe output |
 | 2026-11-19 | `0f8b9d3` | Heartbeat |
