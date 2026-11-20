@@ -2,14 +2,12 @@
  "log": [
   "earlier stories still waiting for images: []",
   "instagram check: 76 recent posts read from all pages",
-  "write round: 17 news waiting in the queue (written in priority order)",
-  "candidate filter: collected=13, already filed=4",
-  "to write: 4 Manjeri + 0 Kondotty + 9 other district candidates (max 200 + 200 + 200 stories)",
-  "candidates waiting: 4 Manjeri, 0 Kondotty, 9 Malappuram; time left 29 min",
-  "try (N) manual=False: ഇ.എസ്.എ. കരട് വിജ്ഞാപനം; മലയോര സംരക്ഷണസമിതിയുടെ ഹർത്താൽ പൂർണ",
+  "write round: 12 news waiting in the queue (written in priority order)",
+  "candidate filter: collected=12",
+  "to write: 4 Manjeri + 0 Kondotty + 8 other district candidates (max 200 + 200 + 200 stories)",
+  "candidates waiting: 4 Manjeri, 0 Kondotty, 8 Malappuram; time left 29 min",
   "try (R) manual=False: മഞ്ഞപ്പിത്തം: ആരോഗ്യവിഭാഗം മഞ്ചേരിയിൽ പരിശോധന തുടങ്ങി",
   "try (R) manual=False: മഞ്ഞപ്പിത്ത പ്രതിരോധം ശക്തമാക്കാൻ മഞ്ചേരിയിൽ അടിയന്തര യോഗം",
-  "skip (N) similar to a filed story: ഇ.എസ്.എ. കരട് വിജ്ഞാപനം; മലയോര സംരക്ഷണസമിതിയുടെ ഹർ",
   "try (N) manual=False: ജീവനക്കാരുടെ ജീവൻരക്ഷാ പദ്ധതി പുതുക്കി; തുകയിൽ ഭേദഗതി വരുത്ത",
   "skip (R) could not open: മഞ്ഞപ്പിത്ത പ്രതിരോധം ശക്തമാക്കാൻ മഞ്ചേരിയിൽ അടിയ [https://www.mangalam.com/news/detail/882195-news-details.htm] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882195",
   "try (R) manual=False: എംആർഐ മെഷീനുണ്ട്, പക്ഷേ ഉപയോഗിക്കില്ല",
@@ -30,23 +28,43 @@
   "skip (N) could not open: ഭിന്നശേഷി കലോത്സവം സംഘടിപ്പിച്ചു [https://www.mangalam.com/news/detail/882199-news-details.htm] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882199",
   "try (N) manual=False: ജില്ലാ വികസന സമിതി യോഗം 28ന്",
   "skip (N) could not open: ജില്ലാ വികസന സമിതി യോഗം 28ന് [https://www.mangalam.com/news/detail/882196-news-details.htm] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882196",
+  "auto images: 1 of 1 stories ({'pollinations': 6})",
+  "posting job started at once",
   "NOT filed (N) ജീവനക്കാരുടെ ജീവൻരക്ഷാ പദ്ധതി പുതുക്കി; തുകയിൽ ഭേദ: all free models failed: no usable answer from the models",
-  "NOT filed (R) മഞ്ഞപ്പിത്തം: ആരോഗ്യവിഭാഗം മഞ്ചേരിയിൽ പരിശോധന തുടങ: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 K=0 N=0, tried={'R': 4, 'N': 9, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)",
-  "queue: 12 news waiting to be written",
+  "candidate loop ended: left R=0 K=0 N=0, tried={'R': 4, 'N': 8, 'K': 0}, done={'R': 1, 'N': 0, 'K': 0}, time left 23 min",
+  "carousel for 0 of 1 stories, the rest reel only",
+  "filed: 1 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)",
+  "queue: 11 news waiting to be written",
+  "write_stories.yml started",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":12}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.8-flash",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.8-flash",
+  "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.8-flash",
+  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
+  "ok gemini/gemini-3.6-flash (16s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok gemini/gemini-3.6-flash (4s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
+  "ok groq/openai/gpt-oss-120b (6s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok groq/openai/gpt-oss-120b (3s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.7-flash",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
@@ -57,5 +75,64 @@
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "മഞ്ചേരിയിൽ ജലസുരക്ഷാ പരിശോധന: ഓടയിലേക്ക് മലിനജലം തള്ളിയ 5 സ്ഥാപനങ്ങൾക്ക് പിഴ",
+   "english_headline": "Jaundice prevention drive: Manjeri health squad fines 5 eateries for releasing waste into drains",
+   "category": "Health",
+   "location": "Kacheripadi & Rajiv Gandhi Bypass, Manjeri, Malappuram district",
+   "importance": "Medium",
+   "scope": "local",
+   "post_to": "Manjeri 360 (collab: Malappuram 360)",
+   "slides_spec": {
+    "v": 3,
+    "cat": "ആരോഗ്യം",
+    "loc": "മഞ്ചേരി",
+    "hl1": "മഞ്ചേരിയിൽ പരിശോധന ശക്തമാക്കി",
+    "hl2": "5 സ്ഥാപനങ്ങൾക്ക് പിഴ ചുമത്തി",
+    "slides": [
+     {
+      "title": "പരിശോധന",
+      "lines": [
+       "മഞ്ചേരിയിൽ ജലസുരക്ഷാ പരിശോധന തുടങ്ങി",
+       "വ്യാഴാഴ്ച രാവിലെ രണ്ട് സ്ക്വാഡുകളായി",
+       "ഐജിബിടി ബസ് സ്റ്റാൻഡ്, ബൈപ്പാസ് ഭാഗത്ത്"
+      ]
+     },
+     {
+      "title": "നടപടി",
+      "lines": [
+       "കച്ചേരിപ്പടിയിൽ <b>5</b> സ്ഥാപനങ്ങൾക്ക് പിഴ",
+       "ഓടകളിലേക്ക് മലിനജലം തള്ളിയതിന് നടപടി",
+       "പൈപ്പുകൾ ശുചീകരണ വിഭാഗം അടച്ചു"
+      ]
+     },
+     {
+      "title": "അറിയിപ്പ്",
+      "lines": [
+       "ഓടകളിലെ കെട്ടിക്കിടന്ന മലിനജലം നീക്കി",
+       "വരുംദിവസങ്ങളിലും പരിശോധന ശക്തമാക്കും",
+       "നഗരസഭാ സെക്രട്ടറി വൈ.പി. മുഹമ്മദ് അഷ്റഫ്"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "മഞ്ചേരിയിൽ ഓടയിലേക്ക് മലിനജലം തള്ളിയ 5 സ്ഥാപനങ്ങൾക്ക് പിഴ ചുമത്തി. മഞ്ഞപ്പിത്ത പ്രതിരോധത്തിന്റെ ഭാഗമായി ആരോഗ്യവകുപ്പും നഗരസഭയും ചേർന്നാണ് ജലസുരക്ഷാ പരിശോധന നടത്തുന്നത്. വ്യാഴാഴ്ച രാവിലെ കച്ചേരിപ്പടി ഐജിബിടി ബസ് സ്റ്റാൻഡ് പരിസരത്തും രാജീവ് ഗാന്ധി ബൈപ്പാസിലുമാണ് പരിശോധന നടന്നത്. 2 സ്ക്വാഡുകളായി തിരിഞ്ഞായിരുന്നു വ്യാപാരസ്ഥാപനങ്ങളിൽ പരിശോധന. ഓടകളിലേക്ക് മലിനജലം ഒഴുക്കിവിട്ട പൈപ്പുകൾ ജീവനക്കാർ അടച്ചുപൂട്ടി. വരുംദിവസങ്ങളിലും പരിശോധന ശക്തമാക്കുമെന്ന് നഗരസഭാ സെക്രട്ടറി അറിയിച്ചു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🦠 മഞ്ചേരിയിൽ ജലസുരക്ഷാ പരിശോധന: ഓടയിലേക്ക് മലിനജലം ഒഴുക്കിയ 5 സ്ഥാപനങ്ങൾക്ക് പിഴ\n\n📰 പൂർണ വിവരം:\nമഞ്ചേരി നഗരസഭാപരിധിയിൽ മഞ്ഞപ്പിത്ത പ്രതിരോധത്തിന്റെ ഭാഗമായി ജലസുരക്ഷ ഉറപ്പാക്കാൻ ആരോഗ്യവകുപ്പും നഗരസഭാ ആരോഗ്യവിഭാഗവും കർശന പരിശോധന ആരംഭിച്ചു. വ്യാഴാഴ്ച രാവിലെ മുതൽ കച്ചേരിപ്പടി ഐ.ജി.ബി.ടി. ബസ് സ്റ്റാൻഡ് പരിസരത്തും രാജീവ് ഗാന്ധി ബൈപ്പാസിൽ ചാലിക്കത്തോടിനു സമീപവും രണ്ട് സ്ക്വാഡുകളായി തിരിഞ്ഞാണ് വ്യാപാരസ്ഥാപനങ്ങളിൽ പരിശോധന നടത്തിയത്. കച്ചേരിപ്പടിയിലെ ഭക്ഷണശാലകളിൽ നിന്ന് ഓടയിലേക്ക് മലിനജലം തള്ളിയ അഞ്ച് സ്ഥാപനങ്ങൾക്ക് പിഴ ചുമത്തി. മലിനജലം ഒഴുക്കിവിടുന്ന പൈപ്പുകൾ നഗരസഭാ ശുചീകരണവിഭാഗം ജീവനക്കാർ അടച്ചു. ഓടകളിൽ കെട്ടിക്കിടക്കുന്ന മലിനജലവും നീക്കം ചെയ്തിട്ടുണ്ട്. വരുംദിവസങ്ങളിലും പരിശോധന ശക്തമാക്കുമെന്ന് നഗരസഭാ സെക്രട്ടറി വൈ.പി. മുഹമ്മദ് അഷ്റഫ് അറിയിച്ചു.\n📍 സ്ഥലം: കച്ചേരിപ്പടി, രാജീവ് ഗാന്ധി ബൈപ്പാസ്, മഞ്ചേരി\n🕘 സമയം: വ്യാഴാഴ്ച രാവിലെ മുതൽ\n👮 നടപടി: 5 സ്ഥാപനങ്ങൾക്ക് പിഴ ചുമത്തി, പൈപ്പുകൾ അടച്ചു\nമഞ്ചേരി ഭാഗത്തുള്ളവർക്ക് Share ചെയ്യൂ\n\nManjeri municipal health squad jaundice inspection fine eateries | Malappuram news\n📍 മഞ്ചേരി, മലപ്പുറം | 20 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Manjeri #Health #MalappuramNews",
+   "prompts": "Health officials hand fine notices to five eateries for dumping waste; the action takes place at the Kacheripadi IGBT bus‑stand area, a concrete‑paved bus stand surrounded by coconut palms and a narrow drainage channel. From behind, about nine khaki‑clad officials – a cleanliness manager, senior public health inspectors and several public health inspectors – stand beside the shop fronts while the shop owners receive the notices; a KSRTC bus is parked nearby and a couple of two‑wheelers line the curb. The scene is in bright morning light with a clear sky, typical of a Thursday. Shot from a low eye‑level angle with a 35 mm lens, capturing the officials, the eateries and the drain pipe in the foreground. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide establishing view shows the Rajiv Gandhi Bypass near Chalikathodu, a six‑lane tar road flanked by rubber trees and laterite walls, with a concrete drainage culvert running alongside. Two‑wheelers and a KSRTC bus travel the bypass while a group of about nine health officials in khaki walk along the curb, inspecting the sealed drain pipes that municipal workers have closed; the five eateries are visible as small shop fronts lining the roadside. The photograph is taken in mid‑morning, soft daylight, slight overcast, giving even illumination. Captured with a 35 mm lens from a slight elevated position to include the road, trees, officials and the drainage system. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose‑up of a sealed drainage pipe on the Kacheripadi bypass, the metal cover bolted shut and a bright orange “Closed” tag pinned to it; beside the pipe lies a crisp fine notice with the health department’s seal, partially visible but without legible text. A pair of khaki‑clad health officials’ gloved hands are seen from behind, holding the notice as they place it on the pipe. The background shows the gray concrete of the bypass and a hint of coconut fronds. The shot is taken in clear daylight, the sun low enough to cast soft shadows, using a 35 mm lens at a tight angle that isolates the pipe, tag and notice while keeping faces out of view. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.mathrubhumi.com/amp/malappuram/news/localnews-malappuram-vkycf6ll",
+   "published": "2026-11-20T03:08+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 0 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "R",
+   "_score": 10.0,
+   "images": [
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795149294/news360/p5p2nn4uhfrtjivrpsq5.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795149433/news360/zbfmnidomlifz6no82zb.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795149484/news360/dmblyttkqqidfgsbax3w.jpg"
+   ]
+  }
+ ]
 }
