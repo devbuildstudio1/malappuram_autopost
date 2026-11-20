@@ -407,7 +407,7 @@ def is_manual(row):
     return "manual" in " ".join(str(row.get(k) or "") for k in ("notes", "batch", "review", "source")).lower()
 
 
-SAFETY_TOPICS = ("power_cut", "weather")
+SAFETY_TOPICS = ("power_cut", "weather", "public_alert")
 
 
 def perf(row):

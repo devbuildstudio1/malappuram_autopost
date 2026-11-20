@@ -63,7 +63,7 @@ def main():
             old = hist.get(i["id"])
             if old and old.get("final") and "likes" in old:
                 continue
-            row = {"page": page, "t": i["timestamp"], "caption": cap[:400], "topic": learned.topic(cap),
+            row = {"page": page, "t": i["timestamp"], "caption": cap[:400], "topic": learned.topic(learned.headline(cap)),
                    "likes": i.get("like_count"), "comments": i.get("comments_count")}
             row.update(metrics(i["id"], tok, blocked))
             row["final"] = age_h > 7 * 24        # likes keep coming for a few days
@@ -85,7 +85,7 @@ def main():
     if len(rows) >= MIN_POSTS:
         tw, by = {}, {}
         for h in rows:
-            h["topic"] = learned.topic(h["caption"])      # topics of older posts follow the current topic list (28 Oct: power_cut, jobs split out)
+            h["topic"] = learned.topic(learned.headline(h["caption"]))      # topics of older posts follow the current topic list (28 Oct: power_cut, jobs split out)
             by.setdefault(h["topic"], []).append(h["rel"])
         for t, v in by.items():
             if t != "other" and len(v) >= MIN_PER_TOPIC:

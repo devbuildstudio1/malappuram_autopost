@@ -85,6 +85,10 @@ class LearnedPriority(unittest.TestCase):
         self.assertEqual("power_cut", learned.topic("നാളെ കോട്ടക്കൽ ഉൾപ്പെടെ 9 പ്രദേശങ്ങളിൽ വൈദ്യുതി മുടങ്ങും: റോഡ് പണി"))
         self.assertEqual("jobs", learned.topic("മലപ്പുറത്ത് 23ന് സ്വകാര്യ തൊഴിൽ മേള"))
         self.assertEqual("education", learned.topic("എസ്എസ്എൽസി പരീക്ഷയ്ക്ക് സൗജന്യ പരിശീലനം"))
+        # 20 Nov: hartal / closure notices are their own never-skipped topic, and posted reels are tagged by headline, not caption body
+        self.assertEqual("public_alert", learned.topic("മലപ്പുറം മലയോര മേഖലയിൽ നവംബർ 19ന് ഹർത്താൽ"))
+        cap = "🚨 കരിപ്പൂരിൽ 2 കോടിയുടെ സ്വർണം പൊലീസ് പിടികൂടി\n\n📰 പൂർണ വിവരം:\nവിപണി വില 2 കോടി; കർഷക"
+        self.assertEqual("crime", learned.topic(learned.headline(cap)))
         real = learned.load
         learned.load = lambda: {"topic_weight": {"civic": -0.5, "education": -0.5}}      # not measured yet: the starting weight is used
         try:

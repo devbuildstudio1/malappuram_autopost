@@ -25,10 +25,21 @@ TOPICS = {
 FIRST = {
     "power_cut": ["വൈദ്യുതി മുടങ്ങും", "വൈദ്യുതി മുടക്കം", "വൈദ്യുതി മുടങ്ങി", "വൈദ്യുതി തടസ്സ", "വൈദ്യുതി വിതരണം തടസ്സ", "പവർകട്ട്",
                   "ലോഡ് ഷെഡ്ഡിങ്", "power cut", "power outage", "power shutdown"],
+    # owner 20 Nov: the hartal notice (15 Nov) was our most liked reel by far and brought the biggest follower jump; news that changes
+    # everyone's day (hartal, strike, road / water closure, school holiday) gets its own topic so it is measured and never skipped.
+    "public_alert": ["ഹർത്താൽ", "പണിമുടക്ക്", "ബസ് സമരം", "ഗതാഗതം നിരോധി", "ഗതാഗത നിയന്ത്രണ", "വഴിതിരിച്ചു", "കുടിവെള്ളം മുടങ്ങ",
+                     "ജലവിതരണം മുടങ്ങ", "ജലവിതരണം തടസ്സ", "സ്കൂളുകൾക്ക് അവധി", "വിദ്യാഭ്യാസ സ്ഥാപനങ്ങൾക്ക് അവധി", "അവധി പ്രഖ്യാപി"],
     "jobs": ["തൊഴിൽ മേള", "ജോലി ഒഴിവ്", "ഒഴിവുകൾ", "ഒഴിവ്", "നിയമനം", "അഭിമുഖം", "റിക്രൂട്ട്", "job fair", "recruitment", "vacanc"],
 }
 # starting weight until insights has measured MIN_PER_TOPIC posts of the topic (then the measured weight is used)
-PRIOR = {"power_cut": 1.0, "jobs": 1.0}
+PRIOR = {"power_cut": 1.0, "jobs": 1.0, "public_alert": 1.5}
+
+
+def headline(caption):
+    """the headline of a posted caption (its first line). Topics are judged on the headline only: the collector and the poster only ever
+    see the headline, and the body's background words ('വില' in a gold-smuggling story, 'മന്ത്രി' quoted in a road story) put 60 of
+    157 measured reels in the wrong topic, so the hartal reel counted as poultry_agri and politics was skipped (20 Nov)."""
+    return (caption or "").strip().split("\n")[0]
 
 
 def topic(text):
