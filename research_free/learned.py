@@ -29,10 +29,12 @@ FIRST = {
     # everyone's day (hartal, strike, road / water closure, school holiday) gets its own topic so it is measured and never skipped.
     "public_alert": ["ഹർത്താൽ", "പണിമുടക്ക്", "ബസ് സമരം", "ഗതാഗതം നിരോധി", "ഗതാഗത നിയന്ത്രണ", "വഴിതിരിച്ചു", "കുടിവെള്ളം മുടങ്ങ",
                      "ജലവിതരണം മുടങ്ങ", "ജലവിതരണം തടസ്സ", "സ്കൂളുകൾക്ക് അവധി", "വിദ്യാഭ്യാസ സ്ഥാപനങ്ങൾക്ക് അവധി", "അവധി പ്രഖ്യാപി"],
+    # owner 20 Nov: one gold-rate reel a day ('വില' alone put it in poultry_agri, a skipped topic, so it never went out)
+    "gold_price": ["സ്വർണവില", "സ്വർണ വില", "സ്വർണം വില", "gold rate", "gold price"],
     "jobs": ["തൊഴിൽ മേള", "ജോലി ഒഴിവ്", "ഒഴിവുകൾ", "ഒഴിവ്", "നിയമനം", "അഭിമുഖം", "റിക്രൂട്ട്", "job fair", "recruitment", "vacanc"],
 }
 # starting weight until insights has measured MIN_PER_TOPIC posts of the topic (then the measured weight is used)
-PRIOR = {"power_cut": 1.0, "jobs": 1.0, "public_alert": 1.5}
+PRIOR = {"power_cut": 1.0, "jobs": 1.0, "public_alert": 1.5, "gold_price": 1.5}
 
 
 def headline(caption):

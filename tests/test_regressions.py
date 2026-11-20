@@ -89,6 +89,22 @@ class LearnedPriority(unittest.TestCase):
         self.assertEqual("public_alert", learned.topic("മലപ്പുറം മലയോര മേഖലയിൽ നവംബർ 19ന് ഹർത്താൽ"))
         cap = "🚨 കരിപ്പൂരിൽ 2 കോടിയുടെ സ്വർണം പൊലീസ് പിടികൂടി\n\n📰 പൂർണ വിവരം:\nവിപണി വില 2 കോടി; കർഷക"
         self.assertEqual("crime", learned.topic(learned.headline(cap)))
+        # 20 Nov: one gold-rate reel a day - its own never-skipped topic, and state-wide gold rate passes the district gate
+        import allnews
+        self.assertEqual("gold_price", learned.topic("സംസ്ഥാനത്ത് സ്വർണവില പവന് 600 രൂപ കുറഞ്ഞു"))
+        self.assertFalse(allnews.other_district("സംസ്ഥാനത്ത് സ്വർണവില പവന് 600 രൂപ കുറഞ്ഞു"))
+        self.assertFalse(allnews.kerala_gold_rate("കരിപ്പൂരിൽ 2 കോടിയുടെ സ്വർണം പിടികൂടി"))
+        # 20 Nov: the same event in new words gets one second reel (4 h+ later), never a third in 48 h unless a new development
+        import freshness
+        df, n = {}, 200
+        a = ("2026-11-15T13:31:00+0000", "തിരൂരങ്ങാടി ചെറുമുക്കിൽ വയലിൽ ഷോക്കേറ്റ് 14 വയസ്സുകാരൻ മരിച്ചു")
+        b = ("2026-11-15T14:51:00+0000", "തിരൂരങ്ങാടിയിൽ കെഎസ്ഇബി കമ്പിയിൽ നിന്ന് ഷോക്കേറ്റ് 14 വയസ്സുകാരൻ മരിച്ചു")
+        new = "മലപ്പുറം തിരൂരങ്ങാടിയിൽ 14കാരൻ ഷോക്കേറ്റ് മരിച്ച സംഭവം; അന്വേഷണം"
+        t = lambda s: freshness._ts(s)
+        self.assertTrue(freshness.repeat_of(new, [a, b], df, n, now=t("2026-11-15T22:00:00+0000")))       # third
+        self.assertTrue(freshness.repeat_of(new, [a], df, n, now=t("2026-11-15T14:00:00+0000")))          # second, too soon
+        self.assertEqual("", freshness.repeat_of(new, [a], df, n, now=t("2026-11-15T19:00:00+0000")))     # second, 4 h+ later
+        self.assertEqual("", freshness.repeat_of("കൊണ്ടോട്ടിയിൽ അടയ്ക്ക മോഷണം", [a, b], df, n))            # other event
         real = learned.load
         learned.load = lambda: {"topic_weight": {"civic": -0.5, "education": -0.5}}      # not measured yet: the starting weight is used
         try:

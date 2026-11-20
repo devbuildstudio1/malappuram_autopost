@@ -69,6 +69,8 @@ QUERIES = ["മലപ്പുറം", "മഞ്ചേരി", "തിരൂർ
            "മലപ്പുറം കളക്ടർ", "മലപ്പുറം ജില്ലാ ഭരണകൂടം", "മലപ്പുറം തൊഴിൽ മേള", "മലപ്പുറം നിയമനം", "മലപ്പുറം അവധി",
            "Malappuram", "Manjeri", "Tirur", "Perinthalmanna", "Nilambur", "Ponnani", "Kondotty", "Malappuram collector",
            "Malappuram power outage",
+           # owner 20 Nov: one gold-rate reel a day (allnews.kerala_gold_rate)
+           "ഇന്നത്തെ സ്വർണവില", "സ്വർണവില പവന്", "Kerala gold rate today",
            # owner 18 Nov: more Manjeri 360 reels - the places around Manjeri, and Manjeri news of the kinds our reels do best with
            # (crime, accidents, the medical college / hospitals; poster/insights.py -> learned.json best_topics)
            "പാണ്ടിക്കാട്", "എടവണ്ണ", "ആനക്കയം", "തൃക്കലങ്ങോട്", "കാവനൂർ", "പൂക്കോട്ടൂർ", "കാരക്കുന്ന്", "മങ്കട",
@@ -199,9 +201,22 @@ POWER_RESTRICTION = re.compile(r"വൈദ്യുതി\s*നിയന്ത�
 STATE_WORD = re.compile(r"സംസ്ഥാന|കേരള|\bKerala\b|\bstate\b", re.I)
 
 
-def kerala_power_alert(title, text=""):
-    """True for state-wide KSEB power-restriction / load-shedding news that also applies to Malappuram district"""
+# owner 20 Nov: one gold-rate reel a day. The Kerala gold rate is one state-wide price (the same in every Malappuram jewellery shop) and a
+# headline never names a Malappuram town, so the district filter dropped it. A gold RATE headline (not gold smuggling) counts as local.
+GOLD_RATE = re.compile(r"സ്വർണ\s*(?:ം\s*)?വില|സ്വർണവില|പവന്\s*\d|ഗ്രാമിന്\s*\d|gold\s*(?:rate|price)", re.I)
+
+
+def kerala_gold_rate(title):
     t = norm(title or "")
+    return bool(GOLD_RATE.search(t)) and not any(f in t for w in OTHER_PLACES for f in _forms(w))
+
+
+def kerala_power_alert(title, text=""):
+    """True for state-wide KSEB power-restriction / load-shedding news that also applies to Malappuram district - and for the day's
+    Kerala gold rate (kerala_gold_rate), the other state-wide news our viewers act on; every district gate already calls this one"""
+    t = norm(title or "")
+    if kerala_gold_rate(t):
+        return True
     if not POWER_RESTRICTION.search(t):
         return False
     lead = re.sub(r"^\s*[^\s:]{2,25}\s*:\s*", "", norm(text or ""))[:400]      # drop the dateline ("തിരുവനന്തപുരം: ...")

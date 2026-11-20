@@ -407,7 +407,7 @@ def is_manual(row):
     return "manual" in " ".join(str(row.get(k) or "") for k in ("notes", "batch", "review", "source")).lower()
 
 
-SAFETY_TOPICS = ("power_cut", "weather", "public_alert")
+SAFETY_TOPICS = ("power_cut", "weather", "public_alert", "gold_price")
 
 
 def perf(row):
@@ -959,7 +959,7 @@ def still_needed(sid, page, kind):
         for pg in live_pages():      # a Manjeri / Kondotty post shows on Malappuram 360 too (collab): every feed is checked
             if r.get(pg + "_link") or LABEL[pg] in (r.get("reel_link") or ""):
                 continue      # this story's own earlier post on that page is not a duplicate
-            dup = ig_duplicate(r, pg)
+            dup = ig_duplicate(r, pg) or (ig_repeat(r, pg) if pg == page else "")
             if dup:
                 log(f"same news already on {LABEL[pg]} ({dup}) - not publishing", sid)
                 return False
@@ -1117,11 +1117,36 @@ def ig_duplicate(row, page):
         mine = (row.get("caption") or "").strip()
         if len(mine) > 80 and len(cap.strip()) > 80:
             def stems(t):
-                return {w[:5] for w in re.findall(r"[\u0B80-\u0BFF]{3,}", t)[:40]}
+                return {w[:5] for w in re.findall(r"[\u0D00-\u0D7F]{3,}", t)[:40]}
             a, b = stems(mine), stems(cap)
             if a and b and len(a & b) / min(len(a), len(b)) >= 0.7 and not freshness.different_numbers(ta or mine[:120], head):
                 return ts
     return ""
+
+
+_HEAD_DF = None
+
+
+def ig_repeat(row, page, hours=48):
+    """the time of this page's post from the last 48 h about the same event in other words (freshness.repeat_of), else ''"""
+    import collections, freshness
+    global _HEAD_DF
+    head = (row.get("headline_ml") or "").strip()
+    if not head or freshness.recur_topic(head, row.get("headline_en")):
+        return ""      # the daily gold / rubber / fuel rate is new news every day (one a day: freshness.same_day_recurring)
+    now = datetime.now(IST)
+    recent = [(ts, cap.strip().split("\n")[0]) for ts, cap in ig_recent(page)
+              if _ig_time(ts) and (now - _ig_time(ts)).total_seconds() < hours * 3600]
+    if not recent:
+        return ""
+    if _HEAD_DF is None:
+        heads = [o.get("headline_ml") or "" for o in ALL_ROWS] + [c.strip().split("\n")[0] for p in live_pages() for _, c in ig_recent(p)]
+        df = collections.Counter()
+        for h in heads:
+            df.update(freshness.event_stems(h))
+        _HEAD_DF = (df, len(heads))
+    ts = freshness.repeat_of(head, recent, *_HEAD_DF)
+    return f"{ts} (same event, other words)" if ts else ""
 
 
 def dup_reason(row, pg):
@@ -1132,7 +1157,7 @@ def dup_reason(row, pg):
         owner_reel = False
     if owner_reel or row.get(pg + "_link") or row.get("reel_link"):
         return ""
-    return ig_duplicate(row, pg) or ig_duplicate(row, "manjeri" if pg == "malappuram" else "malappuram")
+    return ig_duplicate(row, pg) or ig_repeat(row, pg) or ig_duplicate(row, "manjeri" if pg == "malappuram" else "malappuram")
 
 
 def run_story(row):

@@ -192,7 +192,7 @@ def _selection():
 
 # owner 18 Nov: post only the kinds of reels that performed. poster/insights.py measures each topic against the page median and lists
 # the weak ones in learned.json skip_topics; those are not written. Safety news (power cuts, weather alerts) is always written.
-ALWAYS_TOPICS = {"power_cut", "weather", "public_alert"}
+ALWAYS_TOPICS = {"power_cut", "weather", "public_alert", "gold_price"}
 
 
 def _weak_topic(title):

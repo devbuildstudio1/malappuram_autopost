@@ -345,6 +345,47 @@ def _event_stems(t):
     return {w[:5] for w in re.findall(r"[\u0D00-\u0D7F]{5,}", t)} | set(re.findall(r"\d{2,}", t))
 
 
+# owner 20 Nov: the same event went out again and again in new words (Shigella ~10 reels in a week, the Tirurangadi electrocution 7,
+# the Nilambur 9.95 lakh robbery 3, the hartal notice 3) - each repeat took the slot of a story that could go viral. Two headlines are the
+# same event when they share 2+ RARE words (place, key noun) or a decimal number like 9.95; common words never count.
+EVENT_STOP = {"മലപ്പു", "ജില്ല", "ജില്ലയ", "സ്ഥിരീ", "പോലീസ", "പൊലീസ", "പിടിയ", "അറസ്റ", "മരിച്", "കേസിൽ", "പേർക്", "ലക്ഷം", "കോടി",
+              "രൂപയു", "നടന്ന", "സംഭവ", "സംഭവം", "ദേശീയ", "കാലിക", "സർവകല", "വർഷം", "ചെയ്യ", "ഒരാൾ", "വിദ്യ", "വീണ്ട", "കൂടുത",
+              "സംസ്ഥ", "ആവശ്യ", "പ്രതി", "നാട്ടു"}
+
+
+def _ts(ts):
+    try:
+        return datetime.datetime.strptime(ts, "%Y-%m-%dT%H:%M:%S%z")
+    except (ValueError, TypeError):
+        return None
+
+
+def event_stems(head):
+    t = norm_ml(head)
+    return {w[:5] for w in re.findall(r"[\u0D00-\u0D7F]{4,}", t)} | set(re.findall(r"\d+\.\d+|\d{2,}", t))
+
+
+def repeat_of(head, recent, df, n, now=None, gap_h=4):
+    """recent = [(time, headline)] of the page's posts in the last 48 h; df/n = how many of n known headlines use each stem.
+    Returns the time of the earlier post of the same event when this one must not go out, else ''.
+    An event gets ONE second reel, at least gap_h hours after the first: the hartal notice flopped at 10:51 (9 likes) and the same news at
+    17:41 was our most viral reel ever (465). A third reel within 48 h is never posted, except a real development (arrest, verdict,
+    death ...) that none of the earlier posts reported."""
+    lim = max(3, n * 0.04)
+    rare = lambda h: {x for x in event_stems(h) if df.get(x, 0) <= lim and x not in EVENT_STOP}
+    mine = rare(head)
+    hits = [(ts, h) for ts, h in recent if sum(2 if "." in x else 1 for x in mine & rare(h)) >= 2]
+    if not hits:
+        return ""
+    when = [_ts(ts) for ts, _ in hits]
+    now = now or datetime.datetime.now(IST)
+    if len(hits) == 1 and when[0] and (now - when[0]).total_seconds() >= gap_h * 3600:
+        return ""
+    if FOLLOW.search(norm_ml(head)) and not any(FOLLOW.search(norm_ml(h)) for _, h in hits):
+        return ""
+    return hits[0][0]
+
+
 def event_df(scripts):
     import collections
     df = collections.Counter()
