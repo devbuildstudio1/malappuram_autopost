@@ -82,15 +82,11 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-20 | `fe3e54c` | Tag reels by headline, not caption body; hartal/closure news is its own topic |
+| 2026-11-20 | `1b5e46a` | ig probe output |
+| 2026-11-19 | `0f8b9d3` | Heartbeat |
+| 2026-11-19 | `1636eee` | Heartbeat |
 | 2026-11-19 | `a4cafeb` | Reel v5 phone-notification design live; add v6-v8 and photo themes |
 | 2026-11-18 | `f11f62c` | Heartbeat |
 | 2026-11-18 | `cba4db8` | Heartbeat |
-| 2026-11-18 | `f8d19b2` | Post the reel types that go viral first, never the flops |
-| 2026-11-18 | `93c0004` | ig probe output |
-| 2026-11-18 | `a917423` | More Manjeri 360 reels: nearby towns and Manjeri searches |
-| 2026-11-18 | `2820496` | Add Kondotty 360 support and related features |
-| 2026-11-18 | `b03920f` | Write only the kinds of reels that perform |
-| 2026-11-18 | `047ad85` | ig probe output |
-| 2026-11-17 | `07f506f` | Heartbeat |
-| 2026-11-17 | `5abe623` | Heartbeat |
 <!-- recent-changes:end -->
