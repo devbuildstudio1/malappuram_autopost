@@ -1,4 +1,10 @@
-writing [N]: വീണ്ടും ഇടിഞ്ഞ് സ്വർണം! പവന് 95,840തിലേക്ക്; പോക്ക് എങ്ങോട്ട
+writing [R]: പള്ളിയിൽനിന്ന് മൊബൈൽ ഫോണും 12,000 രൂപയും കവർന്ന കേസ്: പ്രതിക
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [R]: വണ്ടൂർ ഉപജില്ലാ സ്കൂൾ കലോത്സവം: ഗവ. വിഎംസി ഹയർസെക്കൻഡറി സ്കൂ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [R]: ചാർജ് ചെയ്യാൻ വെച്ചിരുന്ന ഫോൺ അടക്കം കൊണ്ടുപോയി, ജുമാ മസ്ജി
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
@@ -11,37 +17,114 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDvFJHEvP1Eo7WXJCNiL"}
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
+poor answer - skipped for 30 min: mistral/mistral-small-latest
+free models unavailable: no free model answered: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEL9vzEFDkgg9SdZfELr"}
+writing [N]: എസ്എൽകെ: സെമി ഉറപ്പിച്ച് കാലിക്കറ്റും മലപ്പുറവും, പൊരുതി കൊച
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEL9xu4oxFA7GtQUjRwe"}
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+writing [N]: പ്രായപൂർത്തിയാകാത്ത പെൺകുട്ടിയെ പീഡിപ്പിച്ച കേസ്, അറസ്റ്റിലാ
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEL9zRMpKMuL9eJjrWfC"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEL9zmgX7qtMwsWZTMos"}
+writing [N]: വിദേശനാണ്യ വിനിമയ ചട്ടലംഘനം, ഹവാല, സ്വർണക്കടത്ത് ഇടപാടുകളുമാ
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChELA2uRZck3XWBkBTCyt"}
+writing [N]: ജീവകാരുണ്യത്തിന്റെ പേരിൽ വീടുകയറിയുള്ള അനധികൃത പണപ്പിരിവ്; അ
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
+poor answer - skipped for 30 min: mistral/mistral-small-latest
+free models unavailable: no free model answered: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChELA3zQg2HNsymWryDEJ"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChELA4FHUawmo9DYFxr23"}
+writing [N]: ‘പ്രിയപ്പെട്ട കേരളമേ, എനിക്കൊരു നല്ല പാവാട വേണം; പുസ്തകങ്ങളു
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChELA9b1Zzbr7byox3JWN"}
+writing [N]: വാഗൺ ദുരന്തസ്മരണക്ക് 105 വയസ് | Madhyamam
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChELAAX52eSruer5mPtiM"}
+writing [N]: ചികിത്സാ സഹായത്തിന്റെയും ട്രസ്റ്റുകളുടെയും പേരിൽ വീടുകൾ കയറി
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChELABc4Un8rks6uAdbWP"}
+writing [N]: വീണ്ടും ഇടിഞ്ഞ് സ്വർണം! പവന് 95,840തിലേക്ക്; പോക്ക് എങ്ങോട്ട
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChELAGK4ynx7Ey1kxwUsz"}
+writing [N]: നായ്ക്കളുടെ ഭക്ഷണം എത്തിച്ചില്ല; മലപ്പുറത്തെ കടയുടമക്ക് 19,5
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChELAdzZDSk9KCCuKLvn9"}
+writing [N]: ബാലവേല തടയാൻ കർശന പരിശോധന | Madhyamam
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChELAgeYJUZLMSTh1KptY"}
 earlier stories still waiting for images: []
 instagram check: 78 recent posts read from all pages
-write round: 4 news waiting in the queue (written in priority order)
-candidate filter: collected=3, checked earlier=1
-to write: 0 Manjeri + 0 Kondotty + 3 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Kondotty, 3 Malappuram; time left 29 min
-try (N) manual=False: ഇടിഞ്ഞിടിഞ്ഞ് എങ്ങോട്ട്? സ്വർണവില വീണ്ടും വീണു; ഒറ്റയടിക്ക് 
-try (N) manual=False: പൾസ് പോളിയോ; 12.92 ലക്ഷം കുഞ്ഞുങ്ങൾക്ക് തുള്ളിമരുന്ന് നൽകും
+write round: 18 news waiting in the queue (written in priority order)
+candidate filter: collected=17, already filed=1
+to write: 3 Manjeri + 0 Kondotty + 14 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 3 Manjeri, 0 Kondotty, 14 Malappuram; time left 29 min
+try (R) manual=False: പള്ളിയിൽനിന്ന് മൊബൈൽ ഫോണും 12,000 രൂപയും കവർന്ന കേസ്: പ്രതിക
+try (N) manual=False: സ്വർണവില വീണ്ടും ഇടിഞ്ഞു… പവന് 92,080 താഴെ
+try (N) manual=False: സ്വർണവില ഇന്നും ദേ കിടക്കുന്നു മൂക്കുംകുത്തി താഴെ;ഒറ്റയടിക്ക
+skip (N) similar to a filed story: സ്വർണവില വീണ്ടും ഇടിഞ്ഞു… പവന് 92,080 താഴെ
+try (N) manual=False: എന്റെ പൊന്നോ, വമ്പൻ വീഴ്ച! സ്വർണവില ഒറ്റയടിക്ക് 3,760 രൂപ കു
+skip (N) today's price is already filed: സ്വർണവില ഇന്നും ദേ കിടക്കുന്നു മൂക്കുംകുത്തി താഴെ;
+try (N) manual=False: സ്വർണവിലയിൽ മാറ്റം; നവംബർ 19-ലെ നിരക്കുകൾ ഇങ്ങനെ, വാങ്ങുന്നത
+skip (N) today's price is already filed: സ്വർണവിലയിൽ മാറ്റം; നവംബർ 19-ലെ നിരക്കുകൾ ഇങ്ങനെ, 
+try (R) manual=False: വണ്ടൂർ ഉപജില്ലാ സ്കൂൾ കലോത്സവം: ഗവ. വിഎംസി ഹയർസെക്കൻഡറി സ്കൂ
+skip (N) today's price is already filed: എന്റെ പൊന്നോ, വമ്പൻ വീഴ്ച! സ്വർണവില ഒറ്റയടിക്ക് 3,
+try (R) manual=False: ചാർജ് ചെയ്യാൻ വെച്ചിരുന്ന ഫോൺ അടക്കം കൊണ്ടുപോയി, ജുമാ മസ്ജി
+NOT filed (R) പള്ളിയിൽനിന്ന് മൊബൈൽ ഫോണും 12,000 രൂപയും കവർന്ന കേ: all free models failed: no usable answer from the models
+try (N) manual=False: എസ്എൽകെ: സെമി ഉറപ്പിച്ച് കാലിക്കറ്റും മലപ്പുറവും, പൊരുതി കൊച
+NOT filed (N) എസ്എൽകെ: സെമി ഉറപ്പിച്ച് കാലിക്കറ്റും മലപ്പുറവും, : all free models failed: no usable answer from the models
+try (N) manual=False: പ്രായപൂർത്തിയാകാത്ത പെൺകുട്ടിയെ പീഡിപ്പിച്ച കേസ്, അറസ്റ്റിലാ
+NOT filed (N) പ്രായപൂർത്തിയാകാത്ത പെൺകുട്ടിയെ പീഡിപ്പിച്ച കേസ്, : all free models failed: no usable answer from the models
+try (N) manual=False: വിദേശനാണ്യ വിനിമയ ചട്ടലംഘനം, ഹവാല, സ്വർണക്കടത്ത് ഇടപാടുകളുമാ
+NOT filed (R) ചാർജ് ചെയ്യാൻ വെച്ചിരുന്ന ഫോൺ അടക്കം കൊണ്ടുപോയി, : all free models failed: no usable answer from the models
+try (N) manual=False: നായ്ക്കളുടെ ഭക്ഷണം എത്തിച്ചില്ല; മലപ്പുറത്തെ കടയുടമക്ക് 19,5
+NOT filed (N) വിദേശനാണ്യ വിനിമയ ചട്ടലംഘനം, ഹവാല, സ്വർണക്കടത്ത് ഇ: all free models failed: no usable answer from the models
+try (N) manual=False: ജീവകാരുണ്യത്തിന്റെ പേരിൽ വീടുകയറിയുള്ള അനധികൃത പണപ്പിരിവ്; അ
+NOT filed (N) ജീവകാരുണ്യത്തിന്റെ പേരിൽ വീടുകയറിയുള്ള അനധികൃത പണപ: all free models failed: no usable answer from the models
+try (N) manual=False: ‘പ്രിയപ്പെട്ട കേരളമേ, എനിക്കൊരു നല്ല പാവാട വേണം; പുസ്തകങ്ങളു
+NOT filed (R) വണ്ടൂർ ഉപജില്ലാ സ്കൂൾ കലോത്സവം: ഗവ. വിഎംസി ഹയർസെക്: all free models failed: no usable answer from the models
+try (N) manual=False: ബാലവേല തടയാൻ കർശന പരിശോധന | Madhyamam
+NOT filed (N) ‘പ്രിയപ്പെട്ട കേരളമേ, എനിക്കൊരു നല്ല പാവാട വേണം; പ: all free models failed: no usable answer from the models
+try (N) manual=False: വാഗൺ ദുരന്തസ്മരണക്ക് 105 വയസ് | Madhyamam
+NOT filed (N) വാഗൺ ദുരന്തസ്മരണക്ക് 105 വയസ് | Madhyamam: all free models failed: no usable answer from the models
+try (N) manual=False: ചികിത്സാ സഹായത്തിന്റെയും ട്രസ്റ്റുകളുടെയും പേരിൽ വീടുകൾ കയറി
+NOT filed (N) ചികിത്സാ സഹായത്തിന്റെയും ട്രസ്റ്റുകളുടെയും പേരിൽ വ: all free models failed: no usable answer from the models
 try (N) manual=False: വീണ്ടും ഇടിഞ്ഞ് സ്വർണം! പവന് 95,840തിലേക്ക്; പോക്ക് എങ്ങോട്ട
-skip (N) could not open: പൾസ് പോളിയോ; 12.92 ലക്ഷം കുഞ്ഞുങ്ങൾക്ക് തുള്ളിമരുന [https://www.deshabhimani.com/News/kerala/pulse-polio-drive-t] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/News/kerala/pu
-skip (N) could not open: ഇടിഞ്ഞിടിഞ്ഞ് എങ്ങോട്ട്? സ്വർണവില വീണ്ടും വീണു; ഒറ [https://www.deepika.com/business/gold-rate-today-217661] 403 Client Error: Forbidden for url: https://www.deepika.com/business/gold-rate-
 NOT filed (N) വീണ്ടും ഇടിഞ്ഞ് സ്വർണം! പവന് 95,840തിലേക്ക്; പോക്ക: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 3, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+NOT filed (N) നായ്ക്കളുടെ ഭക്ഷണം എത്തിച്ചില്ല; മലപ്പുറത്തെ കടയുട: all free models failed: no usable answer from the models
+NOT filed (N) ബാലവേല തടയാൻ കർശന പരിശോധന | Madhyamam: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 3, 'N': 14, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 3 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":3} 
+queue: 13 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":13} 
 stories: 0
