@@ -1,41 +1,16 @@
-writing [N]: ഇ.എസ്.എ. കരട് വിജ്ഞാപനം; മലയോര സംരക്ഷണസമിതിയുടെ ഹർത്താൽ പൂർണ
-writing [N]: കടവല്ലൂർ അന്യോന്യം: മികവു പുലർത്തി തൃശ്ശൂർ യോഗവും തിരുനാവായ 
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: കാടും വള്ളിപ്പടർപ്പുകളും വെട്ടിമാറ്റി കെ.എസ്.ഇ.ബി.
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-writing [N]: കുടിവെള്ള ശുദ്ധജല പ്ലാന്റ് സ്ഥാപിച്ചു
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.8-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.7-flash
-ok gemini/gemini-3.6-flash (12s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok gemini/gemini-3.6-flash (2s)
-factcheck by gemini/gemini-3.6-flash: 0 problems
-attempt 1 gemini/gemini-3.6-flash: 0 problems
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok gemini/gemini-3.6-flash (20s)
-attempt 1 gemini/gemini-3.6-flash: 1 problems
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 7 ('ഋഗ്വേദാർച്ചന 6.00, ശീവേലി 7.00, കലശമെഴുന്നള്ളിപ്പ്, ഉപനിഷദ് '); 10 ('ഋഗ്വേദാർച്ചന 6.00, ശീവേലി 7.00, കലശമെഴുന്നള്ളിപ്പ്, ഉപനിഷദ് ')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -43,240 +18,74 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-ok gemini/gemini-3.6-flash (12s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok groq/openai/gpt-oss-120b (2s)
-factcheck by groq/openai/gpt-oss-120b: 1 problems
-  Slide 3 line "കേരള ക്ഷേത്രസംരക്ഷണ സമിതി ദേവസ്വം" incorrectly states the committee is the Devaswam, which differs from the article’s description of the Kerala Temple Conservation Committee being under the Devaswam’s leadership
-proofread rejected (1 problems)
-  fact-check: Slide 3 line "കേരള ക്ഷേത്രസംരക്ഷണ സമിതി ദേവസ്വം" incorrectly states the committee is the Devaswam, which differs from the article’s description of the Kerala Temple Conservation Committee being under the Devaswam’s leadership
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok groq/openai/gpt-oss-120b (2s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-image match: True The image shows workers installing a stainless steel drinking water purification unit outside a traditional temple struc
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.7-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 400: {"errors":[{"message":"AiError: AiError: {\"error\":{\"message\
-image match: True The photo shows a drinking water purification plant (stainless steel tanks) installed outside a traditional Kerala-style
-images made: 3 for 'Drinking water purification plant instal'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261120-0721","first":"MP-338"}
-posting job started at once
-writing [N]: കാടും വള്ളിപ്പടർപ്പുകളും വെട്ടിമാറ്റി കെ.എസ്.ഇ.ബി.
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDLrUDnjsfZ8cYvVsMn1"}
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (50s)
-attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 50 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 6
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
 poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (38s)
-attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 43 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (52s)
-attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 52 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 6
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (48s)
-attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 41 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)
+attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 42 words; need 45-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (51s)
-attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  numbers not found in the article: 10, 6
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (35s)
+attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  reel_script has 43 words; need 45-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (36s)
+attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)
 attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 7 ('ഋഗ്വേദാർച്ചന 6.00, ശീവേലി 7.00, കലശമെഴുന്നള്ളിപ്പ്, ഉപനിഷദ് '); 10 ('ഋഗ്വേദാർച്ചന 6.00, ശീവേലി 7.00, കലശമെഴുന്നള്ളിപ്പ്, ഉപനിഷദ് '); 30, ('ഋഗ്വേദാർച്ചന 6.00, ശീവേലി 7.00, കലശമെഴുന്നള്ളിപ്പ്, ഉപനിഷദ് '); 5 ('ഋഗ്വേദാർച്ചന 6.00, ശീവേലി 7.00, കലശമെഴുന്നള്ളിപ്പ്, ഉപനിഷദ് '); 30, ('(തൃശ്ശൂർ യോഗം), രണ്ടാം വാരം ആലമ്പിള്ളി നാരായണൻ നമ്പൂതിരി (തി'); 8 ('(തൃശ്ശൂർ യോഗം), രണ്ടാം വാരം ആലമ്പിള്ളി നാരായണൻ നമ്പൂതിരി (തി')
+  reel_script has 36 words; need 45-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (38s)
-attempt 5 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 40 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 8 ('(തൃശ്ശൂർ യോഗം), രണ്ടാം വാരം ആലമ്പിള്ളി നാരായണൻ നമ്പൂതിരി (തി')
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDMy8f8785cmAi78i9ZW"}
+proofread skipped: free models not efficient (5 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (56s)
-attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 53 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 6
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (45s)
-attempt 6 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 54 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 30, ('(തൃശ്ശൂർ യോഗം), രണ്ടാം വാരം ആലമ്പിള്ളി നാരായണൻ നമ്പൂതിരി (തി'); 8 ('(തൃശ്ശൂർ യോഗം), രണ്ടാം വാരം ആലമ്പിള്ളി നാരായണൻ നമ്പൂതിരി (തി'); 30 ('(തൃശ്ശൂർ യോഗം), രണ്ടാം വാരം ആലമ്പിള്ളി നാരായണൻ നമ്പൂതിരി (തി')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (49s)
-attempt 5 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  numbers not found in the article: 6
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (45s)
-attempt 7 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 51 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (53s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (7s)
-factcheck by cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 8 problems
-  The headline and reel_script say the hartal was from 6 AM to 5 PM, but the article says it was from 6 AM to 5:30 PM.
-  The reel_script says the hartal affected government and quasi-government institutions, but the article does not mention quasi-government institutions.
-  The reel_script says the hartal affected schools, colleges, and KSRTC services, but the article does not mention schools being closed, only that classes were not held because students did not come.
-  The reel_script and slides_spec do not mention that private buses, autos, and taxis stopped their services, only that they were stopped by protesters.
-  The reel_script does not mention that the hartal was called by the Malayor Development Committee to protest the eviction of Malayali people in the name of Western Ghats protection.
-  The reel_script does not mention that the hartal affected multiple towns and panchayats, not just Nilambur municipality and panchayats.
-  The reel_script does not mention that shops reopened in the evening.
-  The reel_script does not mention that the hartal was supported by various organizations.
-attempt 6 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 8 problems
-  fact-check: The headline and reel_script say the hartal was from 6 AM to 5 PM, but the article says it was from 6 AM to 5:30 PM.
-  fact-check: The reel_script says the hartal affected government and quasi-government institutions, but the article does not mention quasi-government institutions.
-  fact-check: The reel_script says the hartal affected schools, colleges, and KSRTC services, but the article does not mention schools being closed, only that classes were not held because students did not come.
-  fact-check: The reel_script and slides_spec do not mention that private buses, autos, and taxis stopped their services, only that they were stopped by protesters.
-  fact-check: The reel_script does not mention that the hartal was called by the Malayor Development Committee to protest the eviction of Malayali people in the name of Western Ghats protection.
-  fact-check: The reel_script does not mention that the hartal affected multiple towns and panchayats, not just Nilambur municipality and panchayats.
-  fact-check: The reel_script does not mention that shops reopened in the evening.
-  fact-check: The reel_script does not mention that the hartal was supported by various organizations.
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (49s)
-attempt 8 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 45 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 30, ('(തൃശ്ശൂർ യോഗം), രണ്ടാം വാരം ആലമ്പിള്ളി നാരായണൻ നമ്പൂതിരി (തി'); 8 ('(തൃശ്ശൂർ യോഗം), രണ്ടാം വാരം ആലമ്പിള്ളി നാരായണൻ നമ്പൂതിരി (തി'); 30 ('(തൃശ്ശൂർ യോഗം), രണ്ടാം വാരം ആലമ്പിള്ളി നാരായണൻ നമ്പൂതിരി (തി')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (57s)
-attempt 7 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 45 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 30, 6
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (38s)
-attempt 9 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 48 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (46s)
-attempt 8 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 51 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 6
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (36s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (9s)
-factcheck by cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 10 problems
-  The article says that പുലിയന്നൂർ ജയന്തൻ നമ്പൂതിരി was the second to perform in the തൃശ്ശൂർ യോഗം, not the first
-  The article does not say that the തൃശ്ശൂർ യോഗം performed on Wednesday morning at 6 AM
-  The article does not say that രഥം ചൊല്ലി means that കല്ലാനിക്കാട് ശങ്കർദത്ത്, ഊരേങ്കര ഹരീശ്വർ performed on a chariot
-  The article does not mention a കലശമെഴുന്നള്ളിപ്പ്, a തിമില പഞ്ചാരി, or a ദീപാരാധന
-  The article does not say that അന്യോന്യം മൂന്നാം ദിവസം is a police action
-  The article says that കോതമംഗലം വാസുദേവൻ നമ്പൂതിരി, നാറാസ് നാരായണൻ നമ്പൂതിരി helped ഏർക്കര സജിത് നമ്പൂതിരി, not തിരുത്തുമുക്ക് പരമേശ്വരൻ നമ്പൂതിരി, മേപ്പൊയിലം കുമാരസ്വാമി നമ്പൂതിരി
-  The article does not say that നാറാസ് ഇട്ടിരവി നമ്പൂതിരി, നാറാസ് പരമേശ്വരൻ നമ്പൂതിരി helped കല്ലാനിക്കാട് ശങ്കർദത്ത്, ഊരേങ്കര ഹരീശ്വർ
-  The article does not mention a 10:00 AM ഉപനിഷദ് ജ്ഞാനയജ്ഞം
-  The article does not mention a 6:30 PM അന്യോന്യം വാരമിരിക്കൽ
-  The article does not mention an 8:30 PM അന്യോന്യം ജട
-attempt 10 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 10 problems
-  fact-check: The article says that പുലിയന്നൂർ ജയന്തൻ നമ്പൂതിരി was the second to perform in the തൃശ്ശൂർ യോഗം, not the first
-  fact-check: The article does not say that the തൃശ്ശൂർ യോഗം performed on Wednesday morning at 6 AM
-  fact-check: The article does not say that രഥം ചൊല്ലി means that കല്ലാനിക്കാട് ശങ്കർദത്ത്, ഊരേങ്കര ഹരീശ്വർ performed on a chariot
-  fact-check: The article does not mention a കലശമെഴുന്നള്ളിപ്പ്, a തിമില പഞ്ചാരി, or a ദീപാരാധന
-  fact-check: The article does not say that അന്യോന്യം മൂന്നാം ദിവസം is a police action
-  fact-check: The article says that കോതമംഗലം വാസുദേവൻ നമ്പൂതിരി, നാറാസ് നാരായണൻ നമ്പൂതിരി helped ഏർക്കര സജിത് നമ്പൂതിരി, not തിരുത്തുമുക്ക് പരമേശ്വരൻ നമ്പൂതിരി, മേപ്പൊയിലം കുമാരസ്വാമി നമ്പൂതിരി
-  fact-check: The article does not say that നാറാസ് ഇട്ടിരവി നമ്പൂതിരി, നാറാസ് പരമേശ്വരൻ നമ്പൂതിരി helped കല്ലാനിക്കാട് ശങ്കർദത്ത്, ഊരേങ്കര ഹരീശ്വർ
-  fact-check: The article does not mention a 10:00 AM ഉപനിഷദ് ജ്ഞാനയജ്ഞം
-  fact-check: The article does not mention a 6:30 PM അന്യോന്യം വാരമിരിക്കൽ
-  fact-check: The article does not mention an 8:30 PM അന്യോന്യം ജട
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDMNggEAYkW1KQMLEP5y"}
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (46s)
-attempt 9 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 40 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 6
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (45s)
-proofread rejected (3 problems)
-  reel_script must have no English letters (write English words and abbreviations in Malayalam script)
-  reel_script has 54 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  known issue english_in_voice: voice script has English words the voice skips (Share) - rewrite so it does not happen again
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (25s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (13s)
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (57s)
-attempt 10 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  numbers not found in the article: 6
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDMVefdGyjaX2RKjzt8u"}
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-image match: False The image is AI-generated and does not show the Kerala-style architecture of Kadavallur Sri Ramaswami Temple or the trad
-image match: False The image shows a temple with North Indian/Deccan style architecture and people wearing kurtas and caps, whereas Kadaval
-image match: False The photo shows a white Dravidian-style gopuram temple with buses on a street, whereas Sri Ramaswami Temple in Kadavallu
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (51s)
-proofread rejected (2 problems)
-  caption must contain the exact follow line
-  numbers not found in the article: 6
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+image match: False The photo shows a vehicle driving down a forested road, not KSEB workers cutting down trees or creepers around an electr
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 3 for 'Third day of Kadavallur Anynyam at Sri R'
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (12s)
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261120-0731","first":"MP-339"}
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 4 for 'KSEB cuts down trees and creepers around'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261120-0739","first":"MP-341"}
 posting job started at once
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 1 for 'Total shutdown in Nilambur and nearby to'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261120-0731","first":"MP-340"}
 write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 76 recent posts read from all pages
-write round: 7 news waiting in the queue (written in priority order)
-candidate filter: collected=7
-to write: 0 Manjeri + 0 Kondotty + 7 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Kondotty, 7 Malappuram; time left 29 min
-try (N) manual=False: ഇ.എസ്.എ. കരട് വിജ്ഞാപനം; മലയോര സംരക്ഷണസമിതിയുടെ ഹർത്താൽ പൂർണ
-try (N) manual=False: കടവല്ലൂർ അന്യോന്യം: മികവു പുലർത്തി തൃശ്ശൂർ യോഗവും തിരുനാവായ 
-try (N) manual=False: കുടിവെള്ള ശുദ്ധജല പ്ലാന്റ് സ്ഥാപിച്ചു
-auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 3})
-posting job started at once
+write round: 4 news waiting in the queue (written in priority order)
+candidate filter: collected=4
+to write: 0 Manjeri + 0 Kondotty + 4 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 0 Manjeri, 0 Kondotty, 4 Malappuram; time left 29 min
 try (N) manual=False: കാടും വള്ളിപ്പടർപ്പുകളും വെട്ടിമാറ്റി കെ.എസ്.ഇ.ബി.
-NOT filed (N) കാടും വള്ളിപ്പടർപ്പുകളും വെട്ടിമാറ്റി കെ.എസ്.ഇ.ബി.: all free models failed: no usable answer from the models
 try (N) manual=False: ഇരയുടെ പിതാവിനെ ഭീഷണിപ്പെടുത്തി: 
 പോക്സോ പ്രതിയുടെ പിതാവ്
-skip (N) could not open: ഇരയുടെ പിതാവിനെ ഭീഷണിപ്പെടുത്തി: 
-പോക്സോ പ്രതിയ [https://www.keralakaumudi.com/case-diary/kerala/kerala-18282] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/case-diary/ke
 try (N) manual=False: പൾസ് പോളിയോ ഇമ്മ്യൂണൈസേഷൻ 22ന്
 skip (N) could not open: പൾസ് പോളിയോ ഇമ്മ്യൂണൈസേഷൻ 22ന് [https://www.keralakaumudi.com/kerala/general/a-1828175] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera
 try (N) manual=False: News Archives | Page 467 of 469 | Kairali News Online
+skip (N) could not open: ഇരയുടെ പിതാവിനെ ഭീഷണിപ്പെടുത്തി: 
+പോക്സോ പ്രതിയ [https://www.keralakaumudi.com/case-diary/kerala/kerala-18282] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/case-diary/ke
 skip (N) could not open: News Archives | Page 467 of 469 | Kairali News Onl [https://www.kairalinewsonline.com/ml/news/page/467/] 403 Client Error: Forbidden for url: https://www.kairalinewsonline.com/ml/news/p
-auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 8})
+auto images: 1 of 1 stories ({'pollinations': 5})
 posting job started at once
-auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 9})
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 7, 'K': 0}, done={'R': 0, 'N': 3, 'K': 0}, time left 17 min
-carousel for 0 of 3 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 3 Malappuram (targets 200 + 200 + 200)
-queue: 4 news waiting to be written
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 4, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 22 min
+carousel for 0 of 1 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)
+queue: 3 news waiting to be written
 write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":7} 
-stories: 3
+All News sheet: {"ok":true,"added":0,"updated":4} 
+stories: 1
