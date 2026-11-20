@@ -2,117 +2,112 @@
  "log": [
   "earlier stories still waiting for images: []",
   "instagram check: 76 recent posts read from all pages",
-  "write round: 4 news waiting in the queue (written in priority order)",
-  "candidate filter: collected=4",
-  "to write: 0 Manjeri + 0 Kondotty + 4 other district candidates (max 200 + 200 + 200 stories)",
-  "candidates waiting: 0 Manjeri, 0 Kondotty, 4 Malappuram; time left 29 min",
-  "try (N) manual=False: കാടും വള്ളിപ്പടർപ്പുകളും വെട്ടിമാറ്റി കെ.എസ്.ഇ.ബി.",
+  "write round: 3 news waiting in the queue (written in priority order)",
+  "candidate filter: collected=3",
+  "to write: 0 Manjeri + 0 Kondotty + 3 other district candidates (max 200 + 200 + 200 stories)",
+  "candidates waiting: 0 Manjeri, 0 Kondotty, 3 Malappuram; time left 29 min",
   "try (N) manual=False: ഇരയുടെ പിതാവിനെ ഭീഷണിപ്പെടുത്തി: \r\nപോക്സോ പ്രതിയുടെ പിതാവ്",
   "try (N) manual=False: പൾസ് പോളിയോ ഇമ്മ്യൂണൈസേഷൻ 22ന്",
-  "skip (N) could not open: പൾസ് പോളിയോ ഇമ്മ്യൂണൈസേഷൻ 22ന് [https://www.keralakaumudi.com/kerala/general/a-1828175] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera",
   "try (N) manual=False: News Archives | Page 467 of 469 | Kairali News Online",
-  "skip (N) could not open: ഇരയുടെ പിതാവിനെ ഭീഷണിപ്പെടുത്തി: \r\nപോക്സോ പ്രതിയ [https://www.keralakaumudi.com/case-diary/kerala/kerala-18282] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/case-diary/ke",
-  "skip (N) could not open: News Archives | Page 467 of 469 | Kairali News Onl [https://www.kairalinewsonline.com/ml/news/page/467/] 403 Client Error: Forbidden for url: https://www.kairalinewsonline.com/ml/news/p",
-  "auto images: 1 of 1 stories ({'pollinations': 5})",
+  "skip (N) no Malappuram place in article: News Archives | Page 467 of 469 | Kairali News Onl",
+  "auto images: 1 of 1 stories ({'pollinations': 6})",
   "posting job started at once",
-  "candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 4, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 22 min",
+  "NOT filed (N) പൾസ് പോളിയോ ഇമ്മ്യൂണൈസേഷൻ 22ന്: all free models failed: no usable answer from the models",
+  "candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 3, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 24 min",
   "carousel for 0 of 1 stories, the rest reel only",
   "filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)",
-  "queue: 3 news waiting to be written",
+  "queue: 1 news waiting to be written",
   "write_stories.yml started",
-  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":4}"
+  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":2}"
  ],
  "llm": [
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.8-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
+  "ok gemini/gemini-3.6-flash (13s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
   "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)",
-  "poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (35s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (36s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
+  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
   "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
   "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash"
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.7-flash",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6"
  ],
  "stories": [
   {
-   "malayalam_headline": "കുറുമ്പത്തൂർ വൈദ്യുതി തൂണിൽ കാടും വള്ളിപ്പടർപ്പുകളും വെട്ടിമാറ്റി കെ.എസ്.ഇ.ബി.",
-   "english_headline": "KSEB cuts down trees and creepers around electricity pole at Kurumbathur",
-   "category": "Government & Services",
-   "location": "Kurumbathur, Thuvvakkad electrical section, Malappuram district",
+   "malayalam_headline": "പോക്സോ ഇരയുടെ പിതാവിനെ ഭീഷണിപ്പെടുത്തി: പൊന്നാനി സ്വദേശി അറസ്റ്റിൽ",
+   "english_headline": "Ponnani native arrested for threatening POSCO victim's father at Paravur court",
+   "category": "Crime & Safety",
+   "location": "Paravur court, Ernakulam & Ponnani, Malappuram district",
    "importance": "Medium",
    "scope": "local",
    "post_to": "Malappuram 360",
    "slides_spec": {
     "v": 3,
-    "cat": "വൈദ്യുതി",
-    "loc": "കുറുമ്പത്തൂർ, തുവ്വക്കാട്",
-    "hl1": "കുറുമ്പത്തൂർ വൈദ്യുതി തൂണിൽ",
-    "hl2": "കാടും വെട്ടിമാറ്റി",
+    "cat": "അറസ്റ്റ്",
+    "loc": "പൊന്നാനി / പറവൂർ",
+    "hl1": "ഇരയുടെ പിതാവിനെ ഭീഷണിപ്പെടുത്തി",
+    "hl2": "പൊന്നാനി സ്വദേശി അറസ്റ്റിൽ",
     "slides": [
      {
       "title": "എന്ത്, എവിടെ?",
       "lines": [
-       "വൈദ്യുതി തൂണിൽ കാടും വെട്ടിമാറ്റി",
-       "തുവ്വക്കാട് വൈദ്യുതി സെക്ഷനിലെ കുറുമ്പത്തൂർ"
+       "പോക്സോ കേസിലെ ഇരയുടെ പിതാവിനെ ഭീഷണിപ്പെടുത്തി",
+       "പറവൂർ പോക്സോ കോടതിയിൽ വെച്ചാണ് സംഭവം"
       ]
      },
      {
-      "title": "എപ്പോൾ, എങ്ങനെ?",
+      "title": "സംഭവം ഇങ്ങനെ",
       "lines": [
-       "വ്യാഴാഴ്ച അധികൃതർ എത്തി",
-       "വള്ളിപ്പടർപ്പുകൾ മുറിച്ചുമാറ്റി",
-       "മാസങ്ങളായി കാടു മൂടിക്കിടന്നിരുന്നു"
+       "നവംബർ <b>18</b>ന് രാവിലെയായിരുന്നു സംഭവം",
+       "മകനെ രക്ഷിക്കണമെന്ന് പ്രതിയുടെ പിതാവ് ആവശ്യപ്പെട്ടു",
+       "നിരസിച്ചതോടെ ഭീഷണിപ്പെടുത്തുകയും അസഭ്യം പറയുകയും ചെയ്തു"
       ]
      },
      {
-      "title": "ആവശ്യമുള്ളവർക്ക്",
+      "title": "നടപടി",
       "lines": [
-       "വൈദ്യുതി ലൈനുകൾ കടന്നുപോകുന്ന ഭാഗം",
-       "സ്കൂൾ വാഹനങ്ങളും കാൽനടക്കാരും കടന്നുപോകുന്ന റോഡ്",
-       "കാടുമൂടി നാട്ടുകാർ പ്രയാസത്തിലായിരുന്നു"
+       "മലപ്പുറം പൊന്നാനി സ്വദേശിയായ <b>55</b> വയസ്സുകാരൻ അറസ്റ്റിൽ",
+       "പറവൂർ പോലീസ് അറസ്റ്റ് ചെയ്ത് റിമാൻഡ് ചെയ്തു",
+       "ബിനാനിപുരം പോലീസ് എടുത്ത കേസിൽ വിചാരണ നടക്കുകയാണ്"
       ]
      }
     ],
     "carousel": false
    },
-   "reel_script": "തുവ്വക്കാട് വൈദ്യുതി സെക്ഷനിലെ കുറുമ്പത്തൂർ വൈദ്യുതി തൂണിൽ കാടും വെട്ടിമാറ്റി. വ്യാഴാഴ്ച അധികൃതർ എത്തി വള്ളിപ്പടർപ്പുകൾ മുറിച്ചുമാറ്റി. മാസങ്ങളായി കാടു മൂടിക്കിടന്നിരുന്നു. വൈദ്യുതി ലൈനുകൾ കടന്നുപോകുന്ന ഭാഗം. സ്കൂൾ വാഹനങ്ങളും കാൽനടക്കാരും കടന്നുപോകുന്ന റോഡ്. കാടുമൂടി നാട്ടുകാർ പ്രയാസത്തിലായിരുന്നു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
-   "caption": "🌳 തുവ്വക്കാട് വൈദ്യുതി സെക്ഷനിലെ കുറുമ്പത്തൂർ വൈദ്യുതി തൂണിൽ കാടും വെട്ടിമാറ്റി കെ.എസ്.ഇ.ബി.\n\n📰 പൂർണ വിവരം:\nതുവ്വക്കാട് വൈദ്യുതി സെക്ഷനിലെ കുറുമ്പത്തൂർ കാട്ടാംകുന്ന് വലിയ കുന്നാരത്തുപറമ്പ് റോഡിലെ വൈദ്യുതിത്തൂണിൽ കാടും വള്ളിപ്പടർപ്പുകളും വെട്ടിമാറ്റി. മാസങ്ങളായി കാടു മൂടിക്കിടന്നിരുന്നു. വ്യാഴാഴ്ച അധികൃതർ എത്തി വള്ളിപ്പടർപ്പുകൾ മുറിച്ചുമാറ്റി. വൈദ്യുതി ലൈനുകൾ കടന്നുപോകുന്നതിനാൽ വഴിയിലേക്ക് പന്തലിച്ചുനിൽക്കുന്ന പൊന്തക്കാടുകൾ വെട്ടിമാറ്റാനാകാതെ നാട്ടുകാരും പ്രയാസത്തിലായിരുന്നു. സ്കൂൾ വാഹനങ്ങളും വിദ്യാർഥികളുൾപ്പെടെയുള്ള കാൽനടക്കാരും നിരന്തരം കടന്നുപോകുന്ന റോഡിനുസമീപത്തായിരുന്നു ഇത്തരത്തിൽ കാടുമൂടി കിടന്നിരുന്നത്.\n📍 സ്ഥലം: കുറുമ്പത്തൂർ, തുവ്വക്കാട് വൈദ്യുതി സെക്ഷൻ\n🗓️ തീയതി: വ്യാഴാഴ്ച\n🕘 സമയം: വ്യാഴാഴ്ച\n\nKurumbathur KSEB cuts down trees and creepers around electricity pole | Malappuram news\n📍 കുറുമ്പത്തൂർ, തുവ്വക്കാട് വൈദ്യുതി സെക്ഷൻ, മലപ്പുറം | 20 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Kurumbathur #GovernmentServices #MalappuramNews",
-   "prompts": "A tall electricity pole with thick creepers and small trees growing around it on a quiet road at Kurumbathur near Thuvvakkad in the morning, a small school bus and a few schoolchildren seen from behind walking past, a KSEB work vehicle parked nearby. Same bright morning light and green colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA KSEB work team in safety helmets and uniforms cutting down small trees and creepers around the electricity pole, a few local people watching from a distance, a small crowd of schoolchildren walking past. Same bright morning light and green colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close view of the electricity pole with the creepers and small trees cut and lying on the ground, the KSEB work team seen from behind, a few local people watching. Same bright morning light and green colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide view of the road at Kurumbathur with the electricity pole in the distance, a few schoolchildren walking past, a KSEB work vehicle parked nearby. Same bright morning light and green colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.mathrubhumi.com/malappuram/news/localnews-malappuram-rbsqldhq",
-   "published": "2026-11-20T03:07:55+05:30",
-   "verification": "FREE-MODEL DRAFT (cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct) - not checked by Claude yet; validator problems: reel_script has 36 words; need 45-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)",
-   "note": "free-model draft cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct, 4 attempt(s), 1 validator problem(s)",
+   "reel_script": "പോക്സോ കേസിലെ ഇരയുടെ പിതാവിനെ ഭീഷണിപ്പെടുത്തിയ പൊന്നാനി സ്വദേശി അറസ്റ്റിൽ. കഴിഞ്ഞ 18ന് രാവിലെ പറവൂർ പോക്സോ കോടതിയിലാണ് സംഭവം നടക്കുന്നത്. പോക്സോ കേസ് പ്രതിയുടെ 55 വയസ്സുള്ള പിതാവാണ് പിടിയിലായത്. കേസിൽ മകനെ രക്ഷിക്കണമെന്ന് ഇയാൾ ഇരയുടെ പിതാവിനോട് ആവശ്യപ്പെടുകയായിരുന്നു. കുറ്റം ചെയ്തയാൾ ശിക്ഷിക്കപ്പെടണമെന്ന് പറഞ്ഞതോടെ പ്രകോപിതനായി ഭീഷണിപ്പെടുത്തുകയായിരുന്നു. പറവൂർ പോലീസ് അറസ്റ്റ് ചെയ്ത ഇയാളെ കോടതി റിമാൻഡ് ചെയ്തു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🚨 പോക്സോ കേസിലെ ഇരയുടെ പിതാവിനെ ഭീഷണിപ്പെടുത്തിയ സംഭവത്തിൽ പൊന്നാനി സ്വദേശിയായ 55 വയസ്സുകാരൻ അറസ്റ്റിൽ\n\n📰 പൂർണ വിവരം:\nപറവൂർ പോക്സോ കോടതിയിൽ വെച്ച് പോക്സോ കേസിലെ ഇരയായ പെൺകുട്ടിയുടെ പിതാവിനെ ഭീഷണിപ്പെടുത്തിയ സംഭവത്തിൽ മലപ്പുറം പൊന്നാനി ആലിങ്കൽ സ്വദേശിയായ 55 വയസ്സുള്ള ഹനീഫയെ പറവൂർ പോലീസ് അറസ്റ്റ് ചെയ്തു. കഴിഞ്ഞ 18ന് രാവിലെയായിരുന്നു സംഭവം. പരാതിക്കാരൻ കൂടിയായ ഇരയുടെ പിതാവിനോട് മകനെ രക്ഷിക്കണമെന്ന് ഹനീഫ ആവശ്യപ്പെട്ടു. കുറ്റം ചെയ്തയാൾ ശിക്ഷിക്കപ്പെടണമെന്ന് പറഞ്ഞതോടെ പ്രകോപിതനായ ഹനീഫ ഭീഷണിപ്പെടുത്തുകയും അസഭ്യം പറയുകയും ചെയ്തെന്നാണ് പരാതി. ബിനാനിപുരം പോലീസ് രജിസ്റ്റർ ചെയ്ത പോക്സോ കേസിന്റെ വിചാരണ പറവൂർ കോടതിയിൽ നടക്കുന്നതിനിടെയാണ് സംഭവം. കോടതിയിൽ ഹാജരാക്കിയ പ്രതിയെ റിമാൻഡ് ചെയ്തു.\n\n📍 സ്ഥലം: പറവൂർ പോക്സോ കോടതി (പ്രതി പൊന്നാനി സ്വദേശി)\n🗓️ തീയതി: നവംബർ 18\n👮 നടപടി: പറവൂർ പോലീസ് അറസ്റ്റ് ചെയ്ത് കോടതി റിമാൻഡ് ചെയ്തു\n\nPonnani native arrested for threatening POSCO victim father in Paravur court | Malappuram news\n📍 പൊന്നാനി, മലപ്പുറം | 20 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Ponnani #CrimeNews #MalappuramNews",
+   "prompts": "Exterior view of a Kerala court premises in daylight, a traditional official building with boundary wall, green trees around, parked vehicles in the courtyard. Neutral lighting tone. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA quiet corridor inside a court complex in Kerala, high ceiling, wooden benches placed along the wall, soft daylight streaming through arched openings. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA Kerala Police jeep parked outside a police station in daytime with blue and red lights on top, viewed from behind. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nEntrance gate of a sub-jail complex in Kerala with iron bars, coconut trees visible in the background under daylight. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.keralakaumudi.com/case-diary/kerala/kerala-1828263",
+   "published": "2026-11-20T02:00:05+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: reel_script has 52 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block); caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 25 ('സംഭവത്തിൽ വരന്തരപ്പിള്ളി സ്വദേശി ഹരിഗോവിന്ദിനെ (25) പൊലീസ് അ'); 37 ('പ്രായപൂർത്തിയാകാത്ത ആൺകുട്ടിയെ ലൈംഗികാതിക്രമത്തിന് ഇരയാക്കിയ'); 2,00,000 ('പ്രായപൂർത്തിയാകാത്ത ആൺകുട്ടിയെ ലൈംഗികാതിക്രമത്തിന് ഇരയാക്കിയ'); 17 ('തേങ്ങകൊണ്ട് തലയ്ക്കടിച്ച് വീഴ്ത്തിയ ശേഷം അഭിറാമിനെ കൊലപ്പെടു')",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 2 validator problem(s)",
    "post_time": "right after your reply, same day",
    "_area": "N",
-   "_score": 5.0,
+   "_score": 3.0,
    "images": [
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795140441/news360/zttsixwvn1mh46unfetu.jpg",
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795140489/news360/xc9fjj7jsulsko6yhbpr.jpg",
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795140584/news360/tn51dl113fbiixc1kelk.jpg",
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795140538/news360/xyrqszslptohgmgmpci7.jpg"
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795140669/news360/sxiawjmewqsr28db9h4c.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795140907/news360/isnzjnyz03nd9rpjaxna.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795140841/news360/styyw6hgckul7t0ebyvo.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795140958/news360/ct23p1xcewskbkxappls.jpg"
    ]
   }
  ]

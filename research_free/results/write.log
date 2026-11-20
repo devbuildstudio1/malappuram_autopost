@@ -1,6 +1,15 @@
-writing [N]: കാടും വള്ളിപ്പടർപ്പുകളും വെട്ടിമാറ്റി കെ.എസ്.ഇ.ബി.
+writing [N]: പൾസ് പോളിയോ ഇമ്മ്യൂണൈസേഷൻ 22ന്
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: ഇരയുടെ പിതാവിനെ ഭീഷണിപ്പെടുത്തി: 
+പോക്സോ പ്രതിയുടെ പിതാവ്
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -11,6 +20,12 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
+ok gemini/gemini-3.6-flash (13s)
+attempt 1 gemini/gemini-3.6-flash: 2 problems
+  reel_script has 52 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 25 ('സംഭവത്തിൽ വരന്തരപ്പിള്ളി സ്വദേശി ഹരിഗോവിന്ദിനെ (25) പൊലീസ് അ'); 37 ('പ്രായപൂർത്തിയാകാത്ത ആൺകുട്ടിയെ ലൈംഗികാതിക്രമത്തിന് ഇരയാക്കിയ'); 2,00,000 ('പ്രായപൂർത്തിയാകാത്ത ആൺകുട്ടിയെ ലൈംഗികാതിക്രമത്തിന് ഇരയാക്കിയ'); 17 ('തേങ്ങകൊണ്ട് തലയ്ക്കടിച്ച് വീഴ്ത്തിയ ശേഷം അഭിറാമിനെ കൊലപ്പെടു')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -18,74 +33,54 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
-poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)
-attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 42 words; need 45-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (35s)
-attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 43 words; need 45-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (36s)
-attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
-  missing key: reel_script
-  missing key: caption
-  missing key: scenes
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)
-attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 36 words; need 45-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDMy8f8785cmAi78i9ZW"}
-proofread skipped: free models not efficient (5 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDNKdpcq5rEv1R6Q7Erv"}
+proofread skipped: free models not efficient (7 failures in a row): using Claude
 image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
 image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
 imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-image match: False The photo shows a vehicle driving down a forested road, not KSEB workers cutting down trees or creepers around an electr
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDNMrMEj6cJ5Z19bPx1r"}
+image match: False The image depicts a generic empty corridor with arched windows and ceiling, and does not show the court, event, or indiv
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match: False The image shows an empty building entrance with palm trees and no people or news event taking place.
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'KSEB cuts down trees and creepers around'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261120-0739","first":"MP-341"}
+image match: False The photo shows a entrance gate of a heritage site/campus (likely Santiniketan), not Paravur court or any court/arrest e
+images made: 4 for 'Ponnani native arrested for threatening '
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261120-0746","first":"MP-342"}
 posting job started at once
 write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 76 recent posts read from all pages
-write round: 4 news waiting in the queue (written in priority order)
-candidate filter: collected=4
-to write: 0 Manjeri + 0 Kondotty + 4 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Kondotty, 4 Malappuram; time left 29 min
-try (N) manual=False: കാടും വള്ളിപ്പടർപ്പുകളും വെട്ടിമാറ്റി കെ.എസ്.ഇ.ബി.
+write round: 3 news waiting in the queue (written in priority order)
+candidate filter: collected=3
+to write: 0 Manjeri + 0 Kondotty + 3 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 0 Manjeri, 0 Kondotty, 3 Malappuram; time left 29 min
 try (N) manual=False: ഇരയുടെ പിതാവിനെ ഭീഷണിപ്പെടുത്തി: 
 പോക്സോ പ്രതിയുടെ പിതാവ്
 try (N) manual=False: പൾസ് പോളിയോ ഇമ്മ്യൂണൈസേഷൻ 22ന്
-skip (N) could not open: പൾസ് പോളിയോ ഇമ്മ്യൂണൈസേഷൻ 22ന് [https://www.keralakaumudi.com/kerala/general/a-1828175] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera
 try (N) manual=False: News Archives | Page 467 of 469 | Kairali News Online
-skip (N) could not open: ഇരയുടെ പിതാവിനെ ഭീഷണിപ്പെടുത്തി: 
-പോക്സോ പ്രതിയ [https://www.keralakaumudi.com/case-diary/kerala/kerala-18282] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/case-diary/ke
-skip (N) could not open: News Archives | Page 467 of 469 | Kairali News Onl [https://www.kairalinewsonline.com/ml/news/page/467/] 403 Client Error: Forbidden for url: https://www.kairalinewsonline.com/ml/news/p
-auto images: 1 of 1 stories ({'pollinations': 5})
+skip (N) no Malappuram place in article: News Archives | Page 467 of 469 | Kairali News Onl
+auto images: 1 of 1 stories ({'pollinations': 6})
 posting job started at once
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 4, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 22 min
+NOT filed (N) പൾസ് പോളിയോ ഇമ്മ്യൂണൈസേഷൻ 22ന്: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 3, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 24 min
 carousel for 0 of 1 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)
-queue: 3 news waiting to be written
+queue: 1 news waiting to be written
 write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":4} 
+All News sheet: {"ok":true,"added":0,"updated":2} 
 stories: 1
