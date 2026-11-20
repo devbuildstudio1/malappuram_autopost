@@ -1,17 +1,25 @@
 writing [R]: ചാർജ് ചെയ്യാൻ വെച്ചിരുന്ന ഫോൺ അടക്കം കൊണ്ടുപോയി, ജുമാ മസ്ജി
 writing [R]: വണ്ടൂർ ഉപജില്ലാ സ്കൂൾ കലോത്സവം: ഗവ. വിഎംസി ഹയർസെക്കൻഡറി സ്കൂ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: എസ്എൽകെ: സെമി ഉറപ്പിച്ച് കാലിക്കറ്റും മലപ്പുറവും, പൊരുതി കൊച
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-writing [N]: വിദേശനാണ്യ വിനിമയ ചട്ടലംഘനം, ഹവാല, സ്വർണക്കടത്ത് ഇടപാടുകളുമാ
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -22,6 +30,17 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
+ok gemini/gemini-3.6-flash (20s)
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 1 ('വിഭാഗങ്ങൾ തിരിച്ചുള്ള ജേതാക്കൾ ഹയർസെക്കൻഡറി ജനറൽ: 1.വണ്ടൂർ ഗ'); 2 ('വിഎംസി എച്ച്എസ്എസ് 2.അടയ്ക്കാക്കുണ്ട് ക്രസന്റ് എച്ച്എസ്എസ് 3'); 3 ('വിഎംസി എച്ച്എസ്എസ് 2.അടയ്ക്കാക്കുണ്ട് ക്രസന്റ് എച്ച്എസ്എസ് 3'); 1 ('1.അടയ്ക്കാക്കുണ്ട് ക്രസന്റ് എച്ച്എസ്എസ് 2.വണ്ടൂർ ഗവ.വിഎംസി എ'); 2 ('1.അടയ്ക്കാക്കുണ്ട് ക്രസന്റ് എച്ച്എസ്എസ് 2.വണ്ടൂർ ഗവ.വിഎംസി എ'); 3 ('1.അടയ്ക്കാക്കുണ്ട് ക്രസന്റ് എച്ച്എസ്എസ് 2.വണ്ടൂർ ഗവ.വിഎംസി എ')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -34,105 +53,83 @@ dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEbtGeLeTd9taWvp2M93"}
-writing [N]: എസ്എൽകെ: സെമി ഉറപ്പിച്ച് കാലിക്കറ്റും മലപ്പുറവും, പൊരുതി കൊച
-free models unavailable: free models not efficient (11 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEbtHoHmbvRsuex6Pgvr"}
-writing [N]: നായ്ക്കളുടെ ഭക്ഷണം എത്തിച്ചില്ല; മലപ്പുറത്തെ കടയുടമക്ക് 19,5
-free models unavailable: free models not efficient (11 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEbtLCPvS9TteWf3yhMj"}
-writing [N]: ചികിത്സാ സഹായത്തിന്റെയും ജീവകാരുണ്യത്തിന്റെയും പേരിൽ അനധികൃത
-free models unavailable: free models not efficient (11 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEbtQwQTLZXpVg2BCewb"}
-writing [N]: വാഗൺ ദുരന്തസ്മരണക്ക് 105 വയസ് | Madhyamam
-free models unavailable: free models not efficient (11 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEbtRqjBpo1wzBPCgvYQ"}
-writing [N]: ചികിത്സാ സഹായത്തിന്റെയും ട്രസ്റ്റുകളുടെയും പേരിൽ വീടുകൾ കയറി
-free models unavailable: free models not efficient (11 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEbtSzvjSoGso77ELqpb"}
-writing [N]: ‘പ്രിയപ്പെട്ട കേരളമേ, എനിക്കൊരു നല്ല പാവാട വേണം; പുസ്തകങ്ങളു
-free models unavailable: free models not efficient (11 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEbtU5BArkP3vsHiKZXT"}
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEbtZcnszju85rQ77NiX"}
-ok gemini/gemini-3.6-flash (23s)
-attempt 1 gemini/gemini-3.6-flash: 2 problems
-  numbers not found in the article: 10
-  not grounded: location 'ഉൾപ്പെടെ' is not in the article
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEbtr3mVtaBThdMERVQQ"}
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok groq/openai/gpt-oss-120b (6s)
-proofread rejected (3 problems)
-  missing key: reel_script
-  missing key: caption
-  missing key: scenes
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok groq/openai/gpt-oss-120b (3s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-ok groq/openai/gpt-oss-120b (7s)
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEcLREFFLN8vi3v8qRFX"}
+proofread skipped: free models not efficient (13 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
 imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-image match: False The image appears to be AI-generated and does not depict Enforcement Directorate (ED) officials or Kerala police conduct
-image match: False The image depicts military-style figures in an interior corridor and appears AI-generated/unrelated to Enforcement Direc
-image match: False The photo depicts a quiet street scene with a person walking and shows no signs of law enforcement officers, raids, or n
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEcMRXsrDYVti52UPXrw"}
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEcPSzEpLNvwJkNh9t5x"}
+image match: False The image shows a doll or figure on a stage with a painted backdrop, not the Wandoor sub-district school arts festival.
+image match: False The image shows an empty generic stage background without any people, banners, trophies, or evidence of an arts festival
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 3 for 'ED raids 10 locations across 5 Kerala di'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261120-2323","first":"MP-354"}
+image match: False The image is an AI-generated rendering of a hall with distorted figures and artifacts, not a real photo of the Wandoor s
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 4 for 'Wandoor sub-district school arts festiva'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261120-2331","first":"MP-355"}
 posting job started at once
+writing [N]: നായ്ക്കളുടെ ഭക്ഷണം എത്തിച്ചില്ല; മലപ്പുറത്തെ കടയുടമക്ക് 19,5
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+writing [N]: വാഗൺ ദുരന്തസ്മരണക്ക് 105 വയസ് | Madhyamam
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEcpHKmsVym8GQ4c4DXD"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEcpHMkY1nAmofBQXbZy"}
+writing [N]: ചികിത്സാ സഹായത്തിന്റെയും ജീവകാരുണ്യത്തിന്റെയും പേരിൽ അനധികൃത
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+writing [N]: ചികിത്സാ സഹായത്തിന്റെയും ട്രസ്റ്റുകളുടെയും പേരിൽ വീടുകൾ കയറി
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEcpJd9T6hbfSF2mWbhB"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEcpJoKJgTnWNhj2yGv1"}
+writing [N]: ‘പ്രിയപ്പെട്ട കേരളമേ, എനിക്കൊരു നല്ല പാവാട വേണം; പുസ്തകങ്ങളു
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEcpKRn1UJB4KjrwNB1Y"}
 write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 79 recent posts read from all pages
-write round: 10 news waiting in the queue (written in priority order)
-candidate filter: collected=9, checked earlier=1
-to write: 2 Manjeri + 0 Kondotty + 7 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 2 Manjeri, 0 Kondotty, 7 Malappuram; time left 29 min
+write round: 8 news waiting in the queue (written in priority order)
+candidate filter: collected=8
+to write: 2 Manjeri + 0 Kondotty + 6 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 2 Manjeri, 0 Kondotty, 6 Malappuram; time left 29 min
 try (R) manual=False: വണ്ടൂർ ഉപജില്ലാ സ്കൂൾ കലോത്സവം: ഗവ. വിഎംസി ഹയർസെക്കൻഡറി സ്കൂ
 try (R) manual=False: ചാർജ് ചെയ്യാൻ വെച്ചിരുന്ന ഫോൺ അടക്കം കൊണ്ടുപോയി, ജുമാ മസ്ജി
-try (N) manual=False: വിദേശനാണ്യ വിനിമയ ചട്ടലംഘനം, ഹവാല, സ്വർണക്കടത്ത് ഇടപാടുകളുമാ
-NOT filed (R) ചാർജ് ചെയ്യാൻ വെച്ചിരുന്ന ഫോൺ അടക്കം കൊണ്ടുപോയി, : all free models failed: no usable answer from the models
 try (N) manual=False: എസ്എൽകെ: സെമി ഉറപ്പിച്ച് കാലിക്കറ്റും മലപ്പുറവും, പൊരുതി കൊച
-NOT filed (N) എസ്എൽകെ: സെമി ഉറപ്പിച്ച് കാലിക്കറ്റും മലപ്പുറവും, : all free models failed: no usable answer from the models
-try (N) manual=False: നായ്ക്കളുടെ ഭക്ഷണം എത്തിച്ചില്ല; മലപ്പുറത്തെ കടയുടമക്ക് 19,5
-NOT filed (N) നായ്ക്കളുടെ ഭക്ഷണം എത്തിച്ചില്ല; മലപ്പുറത്തെ കടയുട: all free models failed: no usable answer from the models
-try (N) manual=False: ചികിത്സാ സഹായത്തിന്റെയും ജീവകാരുണ്യത്തിന്റെയും പേരിൽ അനധികൃത
-NOT filed (N) ചികിത്സാ സഹായത്തിന്റെയും ജീവകാരുണ്യത്തിന്റെയും പേര: all free models failed: no usable answer from the models
-try (N) manual=False: വാഗൺ ദുരന്തസ്മരണക്ക് 105 വയസ് | Madhyamam
-NOT filed (N) വാഗൺ ദുരന്തസ്മരണക്ക് 105 വയസ് | Madhyamam: all free models failed: no usable answer from the models
-try (N) manual=False: ചികിത്സാ സഹായത്തിന്റെയും ട്രസ്റ്റുകളുടെയും പേരിൽ വീടുകൾ കയറി
-NOT filed (N) ചികിത്സാ സഹായത്തിന്റെയും ട്രസ്റ്റുകളുടെയും പേരിൽ വ: all free models failed: no usable answer from the models
-try (N) manual=False: ‘പ്രിയപ്പെട്ട കേരളമേ, എനിക്കൊരു നല്ല പാവാട വേണം; പുസ്തകങ്ങളു
-NOT filed (N) ‘പ്രിയപ്പെട്ട കേരളമേ, എനിക്കൊരു നല്ല പാവാട വേണം; പ: all free models failed: no usable answer from the models
-NOT filed (R) വണ്ടൂർ ഉപജില്ലാ സ്കൂൾ കലോത്സവം: ഗവ. വിഎംസി ഹയർസെക്: all free models failed: no usable answer from the models
-auto images: 1 of 1 stories ({'pollinations': 5})
+auto images: 1 of 1 stories ({'pollinations': 7})
 posting job started at once
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 2, 'N': 7, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 25 min
+try (N) manual=False: നായ്ക്കളുടെ ഭക്ഷണം എത്തിച്ചില്ല; മലപ്പുറത്തെ കടയുടമക്ക് 19,5
+NOT filed (R) ചാർജ് ചെയ്യാൻ വെച്ചിരുന്ന ഫോൺ അടക്കം കൊണ്ടുപോയി, : all free models failed: no usable answer from the models
+NOT filed (N) എസ്എൽകെ: സെമി ഉറപ്പിച്ച് കാലിക്കറ്റും മലപ്പുറവും, : all free models failed: no usable answer from the models
+try (N) manual=False: ചികിത്സാ സഹായത്തിന്റെയും ജീവകാരുണ്യത്തിന്റെയും പേരിൽ അനധികൃത
+try (N) manual=False: വാഗൺ ദുരന്തസ്മരണക്ക് 105 വയസ് | Madhyamam
+NOT filed (N) നായ്ക്കളുടെ ഭക്ഷണം എത്തിച്ചില്ല; മലപ്പുറത്തെ കടയുട: all free models failed: no usable answer from the models
+try (N) manual=False: ചികിത്സാ സഹായത്തിന്റെയും ട്രസ്റ്റുകളുടെയും പേരിൽ വീടുകൾ കയറി
+NOT filed (N) വാഗൺ ദുരന്തസ്മരണക്ക് 105 വയസ് | Madhyamam: all free models failed: no usable answer from the models
+try (N) manual=False: ‘പ്രിയപ്പെട്ട കേരളമേ, എനിക്കൊരു നല്ല പാവാട വേണം; പുസ്തകങ്ങളു
+NOT filed (N) ചികിത്സാ സഹായത്തിന്റെയും ജീവകാരുണ്യത്തിന്റെയും പേര: all free models failed: no usable answer from the models
+NOT filed (N) ചികിത്സാ സഹായത്തിന്റെയും ട്രസ്റ്റുകളുടെയും പേരിൽ വ: all free models failed: no usable answer from the models
+NOT filed (N) ‘പ്രിയപ്പെട്ട കേരളമേ, എനിക്കൊരു നല്ല പാവാട വേണം; പ: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 2, 'N': 6, 'K': 0}, done={'R': 1, 'N': 0, 'K': 0}, time left 22 min
 carousel for 0 of 1 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)
-queue: 8 news waiting to be written
+filed: 1 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
+queue: 7 news waiting to be written
 write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":9} 
+All News sheet: {"ok":true,"added":0,"updated":8} 
 stories: 1
