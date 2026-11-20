@@ -1,43 +1,38 @@
-writing [N]: Gold Rate Today: കാത്തിരിപ്പ് അവസാനിപ്പിക്കാറായോ ? ; അറിയാം 
-writing [N]: ദുബായിൽ സ്വർണവില കുറഞ്ഞു; ഇന്നത്തെ 22K, 24K നിരക്കുകളും രൂപയ
-writing [N]: 46 വർഷത്തിനിടയിലെ ഏറ്റവും വലിയ സ്വർണവിലയിടിവ്; 1980-ലെ സാഹചര
+writing [N]: ആറുവരിപ്പാതയിലേക്ക് ചാഞ്ഞ അപകടച്ചില്ലകൾ നീക്കിത്തുടങ്ങി
+writing [N]: മലപ്പുറം നഗരസഭ മലിനജല ട്രീറ്റ്മെന്റ് പ്ലാന്റ്; തുക അനുവദിച്ച
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [N]: പൊതുജലാശയങ്ങളിലെ മാലിന്യം നടപടികളുമായി ഗ്രാമപ്പഞ്ചായത്ത്
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-ok gemini/gemini-3.6-flash (20s)
-attempt 1 gemini/gemini-3.6-flash: 1 problems
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 15 ('കാരറ്റ്ദിർഹം/ഗ്രാംഏകദേശ രൂപ/ഗ്രാം 24K425.75₹10,806 22K394.25'); 4 ('വാറ്റ് തുകയുടെ 85 ശതമാനം റീഫണ്ടായി ലഭിക്കും (ഓരോ ടാഗിനും 4.8'); 80 ('വാറ്റ് തുകയുടെ 85 ശതമാനം റീഫണ്ടായി ലഭിക്കും (ഓരോ ടാഗിനും 4.8')
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+ok gemini/gemini-3.6-flash (14s)
+attempt 1 gemini/gemini-3.6-flash: 2 problems
+  reel_script has 49 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  source/outlet name or link appears: mangalam
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3.6-flash (16s)
+attempt 1 gemini/gemini-3.6-flash: 2 problems
+  reel_script has 52 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 000, 20000
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
@@ -52,129 +47,161 @@ dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+ok gemini/gemini-3.6-flash (18s)
+attempt 1 gemini/gemini-3.6-flash: 3 problems
+  reel_script has 52 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  stray Malayalam sign 'ാ' after '-' in «ു. 16-ാം ധ»
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 20 ('ഹോട്ടലുകളിൽനിന്നുള്ള മലിനജലവും പ്ലാന്റിനോടനുബന്ധിച്ചു സ്ഥാപി')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEwJjPYQzJd6MnJrYDMv"}
-proofread skipped: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChExWtFnvpNUJAMwv712H"}
+proofread skipped: free models not efficient (4 failures in a row): using Claude
 image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-writing [N]: സ്വർണവില തിരിച്ചുകയറുന്നു; അന്താരാഷ്ട്ര വിപണിയിൽ 69 ഡോളർ കൂട
-free models unavailable: free models not efficient (7 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEwJnGSWgWNYMaWEsqzb"}
-writing [N]: സ്വർണവില ഇടിഞ്ഞ് താഴുന്നു; പവന് കുറഞ്ഞത് 35000 രൂപ, ഗ്രാം വി
-free models unavailable: free models not efficient (7 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEwJuBen2BUATN7KmCtx"}
-writing [N]: ആറുവരിപ്പാതയിലേക്ക് ചാഞ്ഞ അപകടച്ചില്ലകൾ നീക്കിത്തുടങ്ങി
-free models unavailable: free models not efficient (7 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEwJw1YwEf8U8utBAGJD"}
-writing [N]: ചാത്തല്ലൂരിൽ തെരുവുനായശല്യം
-free models unavailable: free models not efficient (7 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEwJwpuAWMPzEzaZw3vN"}
-writing [N]: എസ്എൽകെ: സെമി ഉറപ്പിച്ച് കാലിക്കറ്റും മലപ്പുറവും, പൊരുതി കൊച
-free models unavailable: free models not efficient (7 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEwK12tXYcWngmoD3jnJ"}
-writing [N]: ‘ഞങ്ങളുടെ കൂടെ വന്ന എല്ലാവരേയും സംരക്ഷിക്കും ഒരു വേട്ടയാടലും
-free models unavailable: free models not efficient (7 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEwK1xD9KAwV31BACvRW"}
-writing [N]: ബാലവേല തടയാൻ കർശന പരിശോധന | Madhyamam
-free models unavailable: free models not efficient (7 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEwK49fBsNsWcgZv1NHM"}
-writing [N]: വാഗൺ ദുരന്തസ്മരണക്ക് 105 വയസ് | Madhyamam
-free models unavailable: free models not efficient (7 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEwK6NrtrU6Xwv11vYw9"}
-ok gemini/gemini-3.6-flash (34s)
-attempt 1 gemini/gemini-3.6-flash: 4 problems
-  reel_script has 54 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 418, 573, 9
-  not grounded: location 'കേരളം' is not in the article
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 8 ('ഇതെല്ലാം പൊന്നിന്റെ ആവശ്യകതയും നിരക്കും ഒരുപോലെ വർധിപ്പിക്കു'); 20 ('വാങ്ങുന്ന സ്വർണത്തിന്റെ തരവും രാജ്യത്തെ നികുതി നിയമങ്ങളും, ന'); 8 ('വാങ്ങുന്ന സ്വർണത്തിന്റെ തരവും രാജ്യത്തെ നികുതി നിയമങ്ങളും, ന')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEwKzMyoppocDNA8VjNt"}
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok gemini/gemini-3.6-flash (38s)
-attempt 1 gemini/gemini-3.6-flash: 1 problems
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 1976 ('1976 മുതൽ 1980 സെപ്റ്റംബർ വരെയുള്ള കാലയളവിൽ അന്താരാഷ്ട്ര സ്വ'); 541 ('1976 മുതൽ 1980 സെപ്റ്റംബർ വരെയുള്ള കാലയളവിൽ അന്താരാഷ്ട്ര സ്വ'); 667 ('1976 മുതൽ 1980 സെപ്റ്റംബർ വരെയുള്ള കാലയളവിൽ അന്താരാഷ്ട്ര സ്വ'); 1982 ('1982 ജൂണിൽ സ്വർണവില 318 ഡോളറിലേക്ക് താഴ്ന്നു.'); 318 ('1982 ജൂണിൽ സ്വർണവില 318 ഡോളറിലേക്ക് താഴ്ന്നു.')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEwLABaV1cDp5nTXnvni"}
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok groq/openai/gpt-oss-120b (6s)
-proofread rejected (3 problems)
-  missing key: reel_script
-  missing key: caption
-  missing key: scenes
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-ok groq/openai/gpt-oss-120b (6s)
-proofread rejected (3 problems)
-  missing key: reel_script
-  missing key: caption
-  missing key: scenes
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-switching away from groq/openai/gpt-oss-120b for 10 min
-ok groq/qwen/qwen3.8-27b (1s)
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
 imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-switching away from groq/openai/gpt-oss-120b for 10 min
-ok groq/qwen/qwen3.8-27b (1s)
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChExX1WcttHdpM4XHoifa"}
+proofread skipped: free models not efficient (5 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+ok gemini/gemini-3.6-flash (20s)
+attempt 2 gemini/gemini-3.6-flash: 1 problems
+  source/outlet name or link appears: mangalam
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChExX5zEppaofAJRxvnma"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+ok groq/openai/gpt-oss-120b (4s)
+proofread rejected (1 problems)
+  missing key: scenes
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok groq/openai/gpt-oss-120b (2s)
+image match: False The image shows a pristine natural waterfall in a lush jungle with no people, waste dumping, or official inspection visi
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match: False The image shows a pristine, scenic forest stream with lush greenery and no signs of waste dumping, inspection activities
+image match: False The photo shows a peaceful, pristine forest stream with lush greenery, with no signs of waste dumping, inspection activi
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 3 for 'Gold Rate Today in Kerala: 22k gold at R'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261121-0336","first":"MP-356"}
+images made: 4 for 'Kodur Panchayat inspects water bodies af'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261121-0354","first":"MP-357"}
 posting job started at once
+writing [N]: ചാത്തല്ലൂരിൽ തെരുവുനായശല്യം
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChExqMJjMmKfDnigycCZg"}
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 3 for 'Overgrown bushes and grass along Ponnani'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261121-0356","first":"MP-358"}
+writing [N]: ‘ഞങ്ങളുടെ കൂടെ വന്ന എല്ലാവരേയും സംരക്ഷിക്കും ഒരു വേട്ടയാടലും
+writing [N]: എസ്എൽകെ: സെമി ഉറപ്പിച്ച് കാലിക്കറ്റും മലപ്പുറവും, പൊരുതി കൊച
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: വീണ്ടും കൊടുങ്കാറ്റ്; രണ്ടാഴ്ച്ച കൊണ്ട് പവന് 15000 രൂപയുടെ ഇ
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEy1ikcTBpCbRQJUR5NJ"}
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+writing [N]: ദേശീയ സരസ് മേള; ഭക്ഷണക്കമ്മിറ്റി യോഗം ചേർന്നു
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEy1jay3UZnkHzesQs4a"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEy1jbhjBVPQTuk4vbmz"}
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEy1k4VCNyzEfCd4uzmt"}
+writing [R]: ഫെയർനെസ് ക്രീമിൽ അമിത അളവിൽ മെർക്കുറി; 17കാരിയുടെ വൃക്ക തകരാ
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+writing [N]: ബാലവേല തടയാൻ കർശന പരിശോധന | Madhyamam
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEy1n7mYy1wmYKB2HZqq"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEy1nHvedp7ASimGucF6"}
+writing [N]: വാഗൺ ദുരന്തസ്മരണക്ക് 105 വയസ് | Madhyamam
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEy1pLiYaaW4LxNUVcG5"}
+writing [N]: ചികിത്സാ സഹായത്തിന്റെയും ജീവകാരുണ്യത്തിന്റെയും പേരിൽ അനധികൃത
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChEy1qZP9JZ3i8N2F2cUY"}
 write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 79 recent posts read from all pages
-write round: 14 news waiting in the queue (written in priority order)
-candidate filter: collected=13, already filed=1
-to write: 0 Manjeri + 0 Kondotty + 13 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Kondotty, 13 Malappuram; time left 29 min
-try (N) manual=False: Gold Rate Today: കാത്തിരിപ്പ് അവസാനിപ്പിക്കാറായോ ? ; അറിയാം 
+write round: 23 news waiting in the queue (written in priority order)
+candidate filter: collected=22, already filed=1
+to write: 1 Manjeri + 0 Kondotty + 21 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 1 Manjeri, 0 Kondotty, 21 Malappuram; time left 29 min
+try (N) manual=False: സ്വർണ വില കൂപ്പുകുത്തി; ഇന്നു കുറഞ്ഞത് 3760 രൂപ; ഇനി 90,000 
+try (N) manual=False: സ്വർണം ഏറ്റവും താഴ്ന്ന നിരക്കിൽ; 80,000-ലേക്കോ? നവംബർ 20-ലെ 
 try (N) manual=False: 46 വർഷത്തിനിടയിലെ ഏറ്റവും വലിയ സ്വർണവിലയിടിവ്; 1980-ലെ സാഹചര
-try (N) manual=False: ദുബായിൽ സ്വർണവില കുറഞ്ഞു; ഇന്നത്തെ 22K, 24K നിരക്കുകളും രൂപയ
-NOT filed (N) ദുബായിൽ സ്വർണവില കുറഞ്ഞു; ഇന്നത്തെ 22K, 24K നിരക്ക: stale: price news from 20 Nov, not today
+skip (N) today's price is already filed: സ്വർണം ഏറ്റവും താഴ്ന്ന നിരക്കിൽ; 80,000-ലേക്കോ? നവ
 try (N) manual=False: സ്വർണവില തിരിച്ചുകയറുന്നു; അന്താരാഷ്ട്ര വിപണിയിൽ 69 ഡോളർ കൂട
-NOT filed (N) സ്വർണവില തിരിച്ചുകയറുന്നു; അന്താരാഷ്ട്ര വിപണിയിൽ 6: all free models failed: no usable answer from the models
+skip (N) today's price is already filed: സ്വർണവില തിരിച്ചുകയറുന്നു; അന്താരാഷ്ട്ര വിപണിയിൽ 6
+try (N) manual=False: സംസ്ഥാനത്ത് ഇന്നും സ്വർണവിലയിൽ വൻ ഇടിവ്... പവന് 3760 രൂപയുടെ
+skip (N) today's price is already filed: 46 വർഷത്തിനിടയിലെ ഏറ്റവും വലിയ സ്വർണവിലയിടിവ്; 198
+try (N) manual=False: സ്വർണ വിലയിൽ അസാധാരണ ഇടിവ്: 3,760 രൂപ കുറഞ്ഞ് പവന് 92,080 രൂ
+skip (N) similar to a filed story: സംസ്ഥാനത്ത് ഇന്നും സ്വർണവിലയിൽ വൻ ഇടിവ്... പവന് 37
+try (N) manual=False: ദുബായിൽ സ്വർണവില കുറഞ്ഞു; ഇന്നത്തെ 22K, 24K നിരക്കുകളും രൂപയ
+skip (N) similar to a filed story: സ്വർണ വിലയിൽ അസാധാരണ ഇടിവ്: 3,760 രൂപ കുറഞ്ഞ് പവന്
 try (N) manual=False: കുത്തനെ ഇടിഞ്ഞ് സംസ്ഥാനത്തെ സ്വർണവില: പവന് ഇന്ന് ഒറ്റയടിക്ക്
-skip (N) similar to a filed story: കുത്തനെ ഇടിഞ്ഞ് സംസ്ഥാനത്തെ സ്വർണവില: പവന് ഇന്ന് ഒ
+skip (N) today's price is already filed: ദുബായിൽ സ്വർണവില കുറഞ്ഞു; ഇന്നത്തെ 22K, 24K നിരക്ക
 try (N) manual=False: സ്വർണവില ഇടിഞ്ഞ് താഴുന്നു; പവന് കുറഞ്ഞത് 35000 രൂപ, ഗ്രാം വി
-NOT filed (N) സ്വർണവില ഇടിഞ്ഞ് താഴുന്നു; പവന് കുറഞ്ഞത് 35000 രൂപ: all free models failed: no usable answer from the models
+skip (N) today's price is already filed: സ്വർണവില ഇടിഞ്ഞ് താഴുന്നു; പവന് കുറഞ്ഞത് 35000 രൂപ
 try (N) manual=False: സ്വർണ വില 90,000ത്തിൽ താഴെയെത്തുമോ? ഇന്ന് കുറഞ്ഞത് 3760 രൂപ,
-skip (N) similar to a filed story: സ്വർണ വില 90,000ത്തിൽ താഴെയെത്തുമോ? ഇന്ന് കുറഞ്ഞത്
+skip (N) today's price is already filed: സ്വർണ വില കൂപ്പുകുത്തി; ഇന്നു കുറഞ്ഞത് 3760 രൂപ; ഇ
 try (N) manual=False: ആറുവരിപ്പാതയിലേക്ക് ചാഞ്ഞ അപകടച്ചില്ലകൾ നീക്കിത്തുടങ്ങി
-NOT filed (N) ആറുവരിപ്പാതയിലേക്ക് ചാഞ്ഞ അപകടച്ചില്ലകൾ നീക്കിത്തു: all free models failed: no usable answer from the models
+skip (N) similar to a filed story: സ്വർണ വില 90,000ത്തിൽ താഴെയെത്തുമോ? ഇന്ന് കുറഞ്ഞത്
+try (N) manual=False: മലപ്പുറം നഗരസഭ മലിനജല ട്രീറ്റ്മെന്റ് പ്ലാന്റ്; തുക അനുവദിച്ച
+skip (N) similar to a filed story: കുത്തനെ ഇടിഞ്ഞ് സംസ്ഥാനത്തെ സ്വർണവില: പവന് ഇന്ന് ഒ
+try (N) manual=False: പൊതുജലാശയങ്ങളിലെ മാലിന്യം നടപടികളുമായി ഗ്രാമപ്പഞ്ചായത്ത്
+auto images: 1 of 1 stories ({'pollinations': 6})
+posting job started at once
 try (N) manual=False: ചാത്തല്ലൂരിൽ തെരുവുനായശല്യം
-NOT filed (N) ചാത്തല്ലൂരിൽ തെരുവുനായശല്യം: all free models failed: no usable answer from the models
+NOT filed (N) മലപ്പുറം നഗരസഭ മലിനജല ട്രീറ്റ്മെന്റ് പ്ലാന്റ്; തുക: old event: the story is about 04 Jan 2020, nothing in it happened in the last days
+auto images: 1 of 1 stories ({'pollinations': 9})
+try (N) manual=False: വീണ്ടും കൊടുങ്കാറ്റ്; രണ്ടാഴ്ച്ച കൊണ്ട് പവന് 15000 രൂപയുടെ ഇ
 try (N) manual=False: എസ്എൽകെ: സെമി ഉറപ്പിച്ച് കാലിക്കറ്റും മലപ്പുറവും, പൊരുതി കൊച
-NOT filed (N) എസ്എൽകെ: സെമി ഉറപ്പിച്ച് കാലിക്കറ്റും മലപ്പുറവും, : all free models failed: no usable answer from the models
+NOT filed (N) ചാത്തല്ലൂരിൽ തെരുവുനായശല്യം: all free models failed: no usable answer from the models
 try (N) manual=False: ‘ഞങ്ങളുടെ കൂടെ വന്ന എല്ലാവരേയും സംരക്ഷിക്കും ഒരു വേട്ടയാടലും
 NOT filed (N) ‘ഞങ്ങളുടെ കൂടെ വന്ന എല്ലാവരേയും സംരക്ഷിക്കും ഒരു വ: all free models failed: no usable answer from the models
+try (N) manual=False: ദേശീയ സരസ് മേള; ഭക്ഷണക്കമ്മിറ്റി യോഗം ചേർന്നു
+NOT filed (N) ദേശീയ സരസ് മേള; ഭക്ഷണക്കമ്മിറ്റി യോഗം ചേർന്നു: all free models failed: no usable answer from the models
+try (R) manual=False: ഫെയർനെസ് ക്രീമിൽ അമിത അളവിൽ മെർക്കുറി; 17കാരിയുടെ വൃക്ക തകരാ
+NOT filed (N) എസ്എൽകെ: സെമി ഉറപ്പിച്ച് കാലിക്കറ്റും മലപ്പുറവും, : all free models failed: no usable answer from the models
+try (N) manual=False: ചികിത്സാ സഹായത്തിന്റെയും ജീവകാരുണ്യത്തിന്റെയും പേരിൽ അനധികൃത
+NOT filed (N) വീണ്ടും കൊടുങ്കാറ്റ്; രണ്ടാഴ്ച്ച കൊണ്ട് പവന് 15000: all free models failed: no usable answer from the models
 try (N) manual=False: ബാലവേല തടയാൻ കർശന പരിശോധന | Madhyamam
-NOT filed (N) ബാലവേല തടയാൻ കർശന പരിശോധന | Madhyamam: all free models failed: no usable answer from the models
+NOT filed (R) ഫെയർനെസ് ക്രീമിൽ അമിത അളവിൽ മെർക്കുറി; 17കാരിയുടെ : all free models failed: no usable answer from the models
 try (N) manual=False: വാഗൺ ദുരന്തസ്മരണക്ക് 105 വയസ് | Madhyamam
+NOT filed (N) ബാലവേല തടയാൻ കർശന പരിശോധന | Madhyamam: all free models failed: no usable answer from the models
 NOT filed (N) വാഗൺ ദുരന്തസ്മരണക്ക് 105 വയസ് | Madhyamam: all free models failed: no usable answer from the models
-auto images: 1 of 1 stories ({'pollinations': 3})
-posting job started at once
-NOT filed (N) 46 വർഷത്തിനിടയിലെ ഏറ്റവും വലിയ സ്വർണവിലയിടിവ്; 198: stale: price news from 20 Nov, not today
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 13, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 26 min
-carousel for 0 of 1 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)
+NOT filed (N) ചികിത്സാ സഹായത്തിന്റെയും ജീവകാരുണ്യത്തിന്റെയും പേര: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 21, 'K': 0}, done={'R': 0, 'N': 2, 'K': 0}, time left 21 min
+carousel for 0 of 2 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 2 Malappuram (targets 200 + 200 + 200)
 queue: 10 news waiting to be written
 write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":11} 
-stories: 1
+All News sheet: {"ok":true,"added":0,"updated":12} 
+stories: 2
