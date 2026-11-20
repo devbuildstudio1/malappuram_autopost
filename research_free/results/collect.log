@@ -1,6 +1,8 @@
 writing [N]: മലപ്പുറം അങ്ങാടിപ്പുറത്ത് ബാങ്കിൽ നിന്ന് പണം പിൻവലിച്ചവരെ ആക
+hand-written story 2026-11-20-angadipuram-robbery-attempt.json: 1 problems
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): അമരമ്പലം ('സൈബർ തട്ടിപ്പിലൂടെയുള്ള പണമാണ് കവർച്ചയ്ക്ക് ഇരയായ അമരമ്പലം സ')
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -16,8 +18,20 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
+ok groq/openai/gpt-oss-120b (2s)
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 3 for 'Robbery bid on bank customers who withdr'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261120-1508","first":"MP-351"}
+posting job started at once
+writing [N]: പ്രായപൂർത്തിയാകാത്ത പെൺകുട്ടിയെ പീഡിപ്പിച്ച കേസ്, അറസ്റ്റിലാ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
@@ -26,28 +40,22 @@ fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDwQJgfHmiKidoCStZiP"}
-writing [N]: മലപ്പുറം അങ്ങാടിപ്പുറത്ത് ബാങ്കിൽ നിന്ന് പണം പിൻവലിച്ചവരെ ആക
-free models unavailable: free models not efficient (9 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDwTpzQ21FqMgKP4kVcL"}
-writing [N]: പ്രായപൂർത്തിയാകാത്ത പെൺകുട്ടിയെ പീഡിപ്പിച്ച കേസ്, അറസ്റ്റിലാ
-free models unavailable: free models not efficient (9 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDwUEqMY7W6czKMyBETd"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDxVJmP56EwsAAhVgm1o"}
+writing [N]: ‘പ്രിയപ്പെട്ട കേരളമേ, എനിക്കൊരു നല്ല പാവാട വേണം; പുസ്തകങ്ങളു
+free models unavailable: free models not efficient (6 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDxVWqf7u1Et3F5R25fc"}
 writing [N]: ബാലവേല തടയാൻ കർശന പരിശോധന | Madhyamam
-free models unavailable: free models not efficient (9 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDwXDaGpfR5z6Vmg2raZ"}
+free models unavailable: free models not efficient (6 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDxVgUM61V5B1xmBVUxN"}
 writing [R]: തോടിന് സമീപം മലിനജലം ഒഴുക്കിവിട്ട സ്ഥാപനം; എടവണ്ണപ്പാറയിലെ ക
-free models unavailable: free models not efficient (9 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDwXSMEEXzuraePRS3nk"}
-writing [N]: വീണ്ടും ഇടിഞ്ഞ് സ്വർണം! പവന് 95,840തിലേക്ക്; പോക്ക് എങ്ങോട്ട
-free models unavailable: free models not efficient (9 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDwZFKG4rGEF1ZXHUzyr"}
+free models unavailable: free models not efficient (6 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDxWdP6AAfav4yF6R5LW"}
 writing [N]: ബാലവേല തടയാൻ കർശന പരിശോധന | Madhyamam
-free models unavailable: free models not efficient (9 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDwaojBvUzMwPJgDQVd6"}
+free models unavailable: free models not efficient (6 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDxXd6kJhYWjXuEHg3ox"}
 writing [N]: വാഗൺ ദുരന്തസ്മരണക്ക് 105 വയസ് | Madhyamam
-free models unavailable: free models not efficient (9 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDwaqEivsgt63GkHRcAf"}
+free models unavailable: free models not efficient (6 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDxXfkkWwdriKD8yf7N8"}
 earlier stories still waiting for images: []
 instagram check: 78 recent posts read from all pages
 source district list: 24 items
@@ -61,7 +69,7 @@ source google 'പെരിന്തൽമണ്ണ': 3 items
 source bing 'പെരിന്തൽമണ്ണ': 12 items
 source google 'പൊന്നാനി': 7 items
 source bing 'പൊന്നാനി': 12 items
-source google 'നിലമ്പൂർ': 7 items
+source google 'നിലമ്പൂർ': 8 items
 source bing 'നിലമ്പൂർ': 12 items
 source google 'കോട്ടക്കൽ': 5 items
 source bing 'കോട്ടക്കൽ': 12 items
@@ -73,7 +81,7 @@ source google 'വളാഞ്ചേരി': 2 items
 source bing 'വളാഞ്ചേരി': 12 items
 source google 'താനൂർ': 7 items
 source bing 'താനൂർ': 11 items
-source google 'പരപ്പനങ്ങാടി': 4 items
+source google 'പരപ്പനങ്ങാടി': 3 items
 source bing 'പരപ്പനങ്ങാടി': 12 items
 source google 'വേങ്ങര': 3 items
 source bing 'വേങ്ങര': 11 items
@@ -125,11 +133,11 @@ source google 'മലപ്പുറം ജില്ലാ ഭരണകൂടം
 source bing 'മലപ്പുറം ജില്ലാ ഭരണകൂടം': 4 items
 source google 'മലപ്പുറം തൊഴിൽ മേള': 0 items
 source bing 'മലപ്പുറം തൊഴിൽ മേള': 0 items
-source google 'മലപ്പുറം നിയമനം': 2 items
+source google 'മലപ്പുറം നിയമനം': 3 items
 source bing 'മലപ്പുറം നിയമനം': 12 items
 source google 'മലപ്പുറം അവധി': 0 items
 source bing 'മലപ്പുറം അവധി': 12 items
-source google 'Malappuram': 41 items
+source google 'Malappuram': 39 items
 source bing 'Malappuram': 12 items
 source google 'Manjeri': 6 items
 source bing 'Manjeri': 11 items
@@ -141,17 +149,17 @@ source google 'Nilambur': 10 items
 source bing 'Nilambur': 12 items
 source google 'Ponnani': 5 items
 source bing 'Ponnani': 12 items
-source google 'Kondotty': 9 items
+source google 'Kondotty': 10 items
 source bing 'Kondotty': 11 items
 source google 'Malappuram collector': 1 items
 source bing 'Malappuram collector': 11 items
 source google 'Malappuram power outage': 0 items
 source bing 'Malappuram power outage': 2 items
-source google 'ഇന്നത്തെ സ്വർണവില': 19 items
+source google 'ഇന്നത്തെ സ്വർണവില': 18 items
 source bing 'ഇന്നത്തെ സ്വർണവില': 12 items
-source google 'സ്വർണവില പവന്': 21 items
+source google 'സ്വർണവില പവന്': 20 items
 source bing 'സ്വർണവില പവന്': 12 items
-source google 'Kerala gold rate today': 31 items
+source google 'Kerala gold rate today' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Kerala%20gold%20rate%20today%20when%3A
 source bing 'Kerala gold rate today': 12 items
 source google 'പാണ്ടിക്കാട്': 1 items
 source bing 'പാണ്ടിക്കാട്': 5 items
@@ -165,13 +173,13 @@ source google 'കാവനൂർ': 1 items
 source bing 'കാവനൂർ': 2 items
 source google 'പൂക്കോട്ടൂർ': 0 items
 source bing 'പൂക്കോട്ടൂർ': 8 items
-source google 'കാരക്കുന്ന്': 0 items
+source google 'കാരക്കുന്ന്' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E0%B4%95%E0%B4%BE%E0%B4%B0%E0%B4%95%E
 source bing 'കാരക്കുന്ന്': 0 items
 source google 'മങ്കട': 1 items
 source bing 'മങ്കട': 11 items
 source google 'മഞ്ചേരി പോലീസ്': 0 items
 source bing 'മഞ്ചേരി പോലീസ്': 5 items
-source google 'മഞ്ചേരി അപകടം': 0 items
+source google 'മഞ്ചേരി അപകടം' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A%E
 source bing 'മഞ്ചേരി അപകടം': 4 items
 source google 'മഞ്ചേരി മെഡിക്കൽ കോളജ്': 5 items
 source bing 'മഞ്ചേരി മെഡിക്കൽ കോളജ്': 2 items
@@ -181,25 +189,25 @@ source google 'Pandikkad': 0 items
 source bing 'Pandikkad': 9 items
 source google 'Edavanna': 0 items
 source bing 'Edavanna': 9 items
-source google മാതൃഭൂമി 'മലപ്പുറം': 100 items
+source google മാതൃഭൂമി 'മലപ്പുറം' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D%E
 source bing മാതൃഭൂമി 'മലപ്പുറം': 12 items
-source google മാതൃഭൂമി 'മഞ്ചേരി': 5 items
+source google മാതൃഭൂമി 'മഞ്ചേരി': 4 items
 source bing മാതൃഭൂമി 'മഞ്ചേരി': 12 items
-source google മാതൃഭൂമി 'തിരൂർ': 15 items
+source google മാതൃഭൂമി 'തിരൂർ': 16 items
 source bing മാതൃഭൂമി 'തിരൂർ': 12 items
-source google മാതൃഭൂമി 'Malappuram': 100 items
+source google മാതൃഭൂമി 'Malappuram' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Malappuram%20site%3Amathrubhumi.com%20
 source bing മാതൃഭൂമി 'Malappuram': 12 items
 source google മനോരമ 'മലപ്പുറം': 100 items
 source bing മനോരമ 'മലപ്പുറം': 12 items
 source google മനോരമ 'മഞ്ചേരി': 4 items
 source bing മനോരമ 'മഞ്ചേരി': 8 items
-source google മനോരമ 'തിരൂർ': 2 items
+source google മനോരമ 'തിരൂർ' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82%E
 source bing മനോരമ 'തിരൂർ': 3 items
 source google മനോരമ 'Malappuram': 100 items
 source bing മനോരമ 'Malappuram': 12 items
 source google മാധ്യമം 'മലപ്പുറം': 100 items
 source bing മാധ്യമം 'മലപ്പുറം': 12 items
-source google മാധ്യമം 'മഞ്ചേരി': 2 items
+source google മാധ്യമം 'മഞ്ചേരി' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A%E
 source bing മാധ്യമം 'മഞ്ചേരി': 9 items
 source google മാധ്യമം 'തിരൂർ': 1 items
 source bing മാധ്യമം 'തിരൂർ': 11 items
@@ -217,23 +225,23 @@ source google കേരള കൗമുദി 'മലപ്പുറം': 100 it
 source bing കേരള കൗമുദി 'മലപ്പുറം': 12 items
 source google കേരള കൗമുദി 'മഞ്ചേരി': 17 items
 source bing കേരള കൗമുദി 'മഞ്ചേരി': 2 items
-source google കേരള കൗമുദി 'തിരൂർ': 31 items
+source google കേരള കൗമുദി 'തിരൂർ' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82%E
 source bing കേരള കൗമുദി 'തിരൂർ': 12 items
 source google കേരള കൗമുദി 'Malappuram': 100 items
 source bing കേരള കൗമുദി 'Malappuram': 12 items
-source google സുപ്രഭാതം 'മലപ്പുറം': 61 items
+source google സുപ്രഭാതം 'മലപ്പുറം' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D%E
 source bing സുപ്രഭാതം 'മലപ്പുറം': 12 items
 source google സുപ്രഭാതം 'മഞ്ചേരി': 0 items
 source bing സുപ്രഭാതം 'മഞ്ചേരി': 1 items
-source google സുപ്രഭാതം 'തിരൂർ': 2 items
+source google സുപ്രഭാതം 'തിരൂർ' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82%E
 source bing സുപ്രഭാതം 'തിരൂർ': 3 items
-source google സുപ്രഭാതം 'Malappuram': 61 items
+source google സുപ്രഭാതം 'Malappuram' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Malappuram%20site%3Asuprabhaatham.com%
 source bing സുപ്രഭാതം 'Malappuram': 8 items
-source google ചന്ദ്രിക 'മലപ്പുറം': 0 items
+source google ചന്ദ്രിക 'മലപ്പുറം' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D%E
 source bing ചന്ദ്രിക 'മലപ്പുറം': 0 items
 source google ചന്ദ്രിക 'മഞ്ചേരി': 0 items
 source bing ചന്ദ്രിക 'മഞ്ചേരി': 0 items
-source google ചന്ദ്രിക 'തിരൂർ': 0 items
+source google ചന്ദ്രിക 'തിരൂർ' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%82%E
 source bing ചന്ദ്രിക 'തിരൂർ': 0 items
 source google ചന്ദ്രിക 'Malappuram': 0 items
 source bing ചന്ദ്രിക 'Malappuram': 0 items
@@ -247,27 +255,27 @@ source google സിറാജ് 'Malappuram': 100 items
 source bing സിറാജ് 'Malappuram': 0 items
 source google ഏഷ്യാനെറ്റ് ന്യൂസ് 'മലപ്പുറം': 7 items
 source bing ഏഷ്യാനെറ്റ് ന്യൂസ് 'മലപ്പുറം': 12 items
-source google ഏഷ്യാനെറ്റ് ന്യൂസ് 'മഞ്ചേരി': 3 items
+source google ഏഷ്യാനെറ്റ് ന്യൂസ് 'മഞ്ചേരി' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A%E
 source bing ഏഷ്യാനെറ്റ് ന്യൂസ് 'മഞ്ചേരി': 2 items
 source google ഏഷ്യാനെറ്റ് ന്യൂസ് 'തിരൂർ': 1 items
 source bing ഏഷ്യാനെറ്റ് ന്യൂസ് 'തിരൂർ': 3 items
 source google ഏഷ്യാനെറ്റ് ന്യൂസ് 'Malappuram': 7 items
 source bing ഏഷ്യാനെറ്റ് ന്യൂസ് 'Malappuram': 12 items
-source google മീഡിയവൺ 'മലപ്പുറം': 9 items
+source google മീഡിയവൺ 'മലപ്പുറം': 10 items
 source bing മീഡിയവൺ 'മലപ്പുറം': 12 items
 source google മീഡിയവൺ 'മഞ്ചേരി': 2 items
 source bing മീഡിയവൺ 'മഞ്ചേരി': 3 items
 source google മീഡിയവൺ 'തിരൂർ': 11 items
 source bing മീഡിയവൺ 'തിരൂർ': 2 items
-source google മീഡിയവൺ 'Malappuram': 9 items
+source google മീഡിയവൺ 'Malappuram': 10 items
 source bing മീഡിയവൺ 'Malappuram': 6 items
 source google ട്വന്റിഫോർ 'മലപ്പുറം': 12 items
 source bing ട്വന്റിഫോർ 'മലപ്പുറം': 0 items
-source google ട്വന്റിഫോർ 'മഞ്ചേരി': 0 items
+source google ട്വന്റിഫോർ 'മഞ്ചേരി' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9A%E
 source bing ട്വന്റിഫോർ 'മഞ്ചേരി': 0 items
 source google ട്വന്റിഫോർ 'തിരൂർ': 0 items
 source bing ട്വന്റിഫോർ 'തിരൂർ': 0 items
-source google ട്വന്റിഫോർ 'Malappuram': 13 items
+source google ട്വന്റിഫോർ 'Malappuram': 12 items
 source bing ട്വന്റിഫോർ 'Malappuram': 0 items
 source google റിപ്പോർട്ടർ 'മലപ്പുറം': 100 items
 source bing റിപ്പോർട്ടർ 'മലപ്പുറം': 8 items
@@ -275,7 +283,7 @@ source google റിപ്പോർട്ടർ 'മഞ്ചേരി': 0 items
 source bing റിപ്പോർട്ടർ 'മഞ്ചേരി': 0 items
 source google റിപ്പോർട്ടർ 'തിരൂർ': 0 items
 source bing റിപ്പോർട്ടർ 'തിരൂർ': 0 items
-source google റിപ്പോർട്ടർ 'Malappuram': 100 items
+source google റിപ്പോർട്ടർ 'Malappuram' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Malappuram%20site%3Areporterlive.com%2
 source bing റിപ്പോർട്ടർ 'Malappuram': 7 items
 source google ജനയുഗം 'മലപ്പുറം': 59 items
 source bing ജനയുഗം 'മലപ്പുറം': 11 items
@@ -283,7 +291,7 @@ source google ജനയുഗം 'മഞ്ചേരി': 0 items
 source bing ജനയുഗം 'മഞ്ചേരി': 2 items
 source google ജനയുഗം 'തിരൂർ': 0 items
 source bing ജനയുഗം 'തിരൂർ': 1 items
-source google ജനയുഗം 'Malappuram': 58 items
+source google ജനയുഗം 'Malappuram' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Malappuram%20site%3Ajanayugomonline.co
 source bing ജനയുഗം 'Malappuram': 8 items
 source google സമകാലിക മലയാളം 'മലപ്പുറം': 4 items
 source bing സമകാലിക മലയാളം 'മലപ്പുറം': 12 items
@@ -298,11 +306,11 @@ source bing ന്യൂസ്18 മലയാളം 'മലപ്പുറം': 
 source google ന്യൂസ്18 മലയാളം 'മഞ്ചേരി': 1 items
 source bing ന്യൂസ്18 മലയാളം 'മഞ്ചേരി': 4 items
 source google ന്യൂസ്18 മലയാളം 'തിരൂർ': 2 items
-source bing ന്യൂസ്18 മലയാളം 'തിരൂർ': 5 items
+source bing ന്യൂസ്18 മലയാളം 'തിരൂർ': 0 items
 source google ന്യൂസ്18 മലയാളം 'Malappuram': 100 items
 source bing ന്യൂസ്18 മലയാളം 'Malappuram': 8 items
 source google സമയം മലയാളം 'മലപ്പുറം': 1 items
-source bing സമയം മലയാളം 'മലപ്പുറം': 7 items
+source bing സമയം മലയാളം 'മലപ്പുറം': 0 items
 source google സമയം മലയാളം 'മഞ്ചേരി': 0 items
 source bing സമയം മലയാളം 'മഞ്ചേരി': 1 items
 source google സമയം മലയാളം 'തിരൂർ': 0 items
@@ -323,23 +331,23 @@ source google മംഗളം 'മഞ്ചേരി': 1 items
 source bing മംഗളം 'മഞ്ചേരി': 0 items
 source google മംഗളം 'തിരൂർ': 0 items
 source bing മംഗളം 'തിരൂർ': 0 items
-source google മംഗളം 'Malappuram' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Malappuram%20site%3Amangalam.com%20whe
+source google മംഗളം 'Malappuram': 100 items
 source bing മംഗളം 'Malappuram': 0 items
-source google ദീപിക 'മലപ്പുറം': 4 items
+source google ദീപിക 'മലപ്പുറം' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E0%B4%AE%E0%B4%B2%E0%B4%AA%E0%B5%8D%E
 source bing ദീപിക 'മലപ്പുറം': 2 items
 source google ദീപിക 'മഞ്ചേരി': 0 items
 source bing ദീപിക 'മഞ്ചേരി': 0 items
 source google ദീപിക 'തിരൂർ': 0 items
 source bing ദീപിക 'തിരൂർ': 1 items
 source google ദീപിക 'Malappuram': 4 items
-source bing ദീപിക 'Malappuram': 1 items
+source bing ദീപിക 'Malappuram': 0 items
 source google കൈരളി 'മലപ്പുറം': 1 items
 source bing കൈരളി 'മലപ്പുറം': 6 items
 source google കൈരളി 'മഞ്ചേരി': 0 items
 source bing കൈരളി 'മഞ്ചേരി': 0 items
 source google കൈരളി 'തിരൂർ': 0 items
 source bing കൈരളി 'തിരൂർ': 1 items
-source google കൈരളി 'Malappuram': 1 items
+source google കൈരളി 'Malappuram' FAILED: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Malappuram%20site%3Akairalinewsonline.
 source bing കൈരളി 'Malappuram': 3 items
 source google The Hindu 'മലപ്പുറം': 0 items
 source bing The Hindu 'മലപ്പുറം': 0 items
@@ -377,346 +385,170 @@ source മാധ്യമം മലപ്പുറം: 11 items
 source ട്വന്റിഫോർ മലപ്പുറം: 15 items
 source സമകാലിക മലയാളം മലപ്പുറം: 5 items
 source ജനയുഗം മലപ്പുറം: 16 items
-all sources: 3289 items -> 1646 different news (52 Manjeri, 0 Kondotty)
+all sources: 2819 items -> 1474 different news (51 Manjeri, 0 Kondotty)
 manual link added: https://www.mediaoneonline.com/kerala/malappuram-angadipuram-robbery-attempt-bank-customers-344441
-candidate filter: checked earlier=481, not Malappuram district news (state-wide=351, old=230, collected=160, already filed=94, checked earlier=69, checked earlier=65, checked earlier=57, not written=32, not written=20, checked earlier=12, not written=9, not written=9, not written=7, not written=7, not written=6, not written=4, not written=4, not written=3, checked earlier=2, not written=2, not written=2, not written=2, not written=2, not written=2, not written=2, not written=2, not written=2, not written=1, not written=1, not written=1, not written=1, not written=1, not written=1, not written=1, not written=1, not written=1
-to write: 3 Manjeri + 0 Kondotty + 157 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 3 Manjeri, 0 Kondotty, 157 Malappuram; time left 48 min
+candidate filter: checked earlier=433, not Malappuram district news (state-wide=314, old=220, already filed=93, collected=76, checked earlier=74, checked earlier=66, checked earlier=57, not written=26, checked earlier=26, not written=19, not written=10, not written=7, not written=7, not written=6, not written=5, not written=4, not written=3, checked earlier=2, not written=2, not written=2, not written=2, not written=2, not written=2, not written=2, not written=2, not written=2, not written=2, not written=1, not written=1, not written=1, not written=1, not written=1, not written=1, not written=1, not written=1, not written=1
+to write: 1 Manjeri + 0 Kondotty + 75 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 1 Manjeri, 0 Kondotty, 75 Malappuram; time left 49 min
 try (N) manual=True: https://www.mediaoneonline.com/kerala/malappuram-angadipuram
 try (N) manual=False: എന്റെ പൊന്നെടാവേ നിനക്കെന്താ? സ്വർണവില ഒറ്റയടിക്ക് 3760 രൂപ 
-try (N) manual=False: ദുബായിൽ സ്വർണവില കുറഞ്ഞു; ഇന്നത്തെ 22K, 24K നിരക്കുകളും രൂപയ
-skip (N) could not open: എന്റെ പൊന്നെടാവേ നിനക്കെന്താ? സ്വർണവില ഒറ്റയടിക്ക് [https://janmabhumi.in/3687023/what-you-want-my-gold-price-su] 403 Client Error: Forbidden for url: https://janmabhumi.in/3687023/what-you-want
 try (N) manual=False: Kerala Goldrate : സ്വർണവില വീണ്ടും ഇടിഞ്ഞു; പവന് ഇന്ന് കുറഞ്
-skip (N) today's price is already filed: ദുബായിൽ സ്വർണവില കുറഞ്ഞു; ഇന്നത്തെ 22K, 24K നിരക്ക
-try (N) manual=False: കുത്തനെ ഇടിഞ്ഞ് സംസ്ഥാനത്തെ സ്വർണവില: പവന് ഇന്ന് ഒറ്റയടിക്ക്
+skip (N) could not open: എന്റെ പൊന്നെടാവേ നിനക്കെന്താ? സ്വർണവില ഒറ്റയടിക്ക് [https://janmabhumi.in/3687023/what-you-want-my-gold-price-su] 403 Client Error: Forbidden for url: https://janmabhumi.in/3687023/what-you-want
+try (N) manual=False: അരിയിൽ ഷുക്കൂർ വധക്കേസ്: പി ജയരാജനും ടി വി രാജേഷും കുറ്റവിമു
 skip (N) could not open: Kerala Goldrate : സ്വർണവില വീണ്ടും ഇടിഞ്ഞു; പവന് ഇ [https://malayalam.news18.com/news/money/kerala-gold-rate-see] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/money/ker
-try (N) manual=False: ഇതെന്ത് മറിമായം ! സ്വർണവില ഒറ്റയടിക്ക് 3760 രൂപ കുറഞ്ഞു; പവൻ
-skip (N) no Malappuram place in article: Wayanad News Today | Reporter Live Kerala District
 try (N) manual=False: സ്വർണവില വീണ്ടും ഇടി‌ഞ്ഞു; കേരളത്തിൽ ഇന്ന് ഒരു പവന് വില എത്ര
-skip (N) similar to a filed story: കുത്തനെ ഇടിഞ്ഞ് സംസ്ഥാനത്തെ സ്വർണവില: പവന് ഇന്ന് ഒ
-try (N) manual=False: തുടർച്ചയായ മൂന്നാം ദിവസവും സ്വർണവില താഴോട്ട്; പവന് 92,080 രൂ
-NOT filed (N) മലപ്പുറം അങ്ങാടിപ്പുറത്ത് ബാങ്കിൽ നിന്ന് പണം പിൻവല: all free models failed: no usable answer from the models
+auto images: 1 of 1 stories ({'pollinations': 3})
+posting job started at once
 try (N) manual=False: Gold Rate | നവംബർ 20 ലെ സ്വർണ വില | November 20 gold rate
-skip (N) similar to a filed story: സ്വർണവില തുടർച്ചയായ അഞ്ചാം ദിവസവും താഴോട്ട്; സംസ്ഥ
-try (N) manual=False: സ്വർണവിലയിൽ വീണ്ടും വർദ്ധന, ഇന്നത്തെ നിരക്കറിയാം - NEWS 360 
+skip (N) no Malappuram place in article: അരിയിൽ ഷുക്കൂർ വധക്കേസ്: പി ജയരാജനും  ടി വി രാജേഷു
 skip (N) today's price is already filed: സ്വർണവില വീണ്ടും ഇടിഞ്ഞു; കേരളത്തിൽ ഇന്ന് ഒരു പവന്
-try (N) manual=False: കേരളത്തിൽ സ്വർണവില വീണ്ടും കുറഞ്ഞു ; പവന് ഇന്നത്തെ വില 97,71
-skip (N) today's price is already filed: ഇടിച്ചിറങ്ങി സ്വർണവില….; അറിയാം ഇന്നത്തെ നിരക്ക്
-try (N) manual=False: സ്വർണവില 90,000ത്തിൽ താഴെയെത്തുമോ? ഇന്ന് കുറഞ്ഞത് 3760 രൂപ, 
-skip (N) today's price is already filed: സംസ്ഥാനത്ത് സ്വർണവില വീണ്ടും ഇടിഞ്ഞു; പവന് 95,840 
-try (N) manual=False: TODAY'S GOLD RATE|ഇടിവ് തുടര്‍ന്ന് സ്വര്‍ണവില; പവന് കുറഞ്ഞത്
-skip (N) similar to a filed story: സ്വർണ വില 90,000ത്തിൽ താഴെയെത്തുമോ? ഇന്ന് കുറഞ്ഞത്
-try (N) manual=False: സ്വർണവിലയിൽ വൻ ഇടിവ്
-skip (N) too old (2026-09-22T10:47:53+05:30): സ്വർണവിലയിൽ വീണ്ടും വർദ്ധന, ഇന്നത്തെ നിരക്കറിയാം
+try (N) manual=False: സ്വർണവില വീണ്ടും ഇടിഞ്ഞു… പവന് 92,080 താഴെ
+try (N) manual=False: അരിയില്‍ ഷുക്കൂര്‍ വധക്കേസ്: ഏഴ് പ്രതികള്‍ക്ക് ജീവപര്യന്തം ശ
+skip (N) no Malappuram place in article: അരിയിൽ ഷുക്കൂർ വധക്കേസ്: ഏഴ് പ്രതികൾക്ക് ജീവപര്യന്
 try (N) manual=False: കരിപ്പൂരിൽ കസ്റ്റംസിനെ വെട്ടിച്ച് കടത്തിയ സ്വർണം പൊലീസ് പിടി
-skip (N) similar to a filed story: TODAY'S GOLD RATE|ഇടിവ് തുടർന്ന് സ്വർണവില; പവന് കു
+skip (N) similar to a filed story: സ്വർണവില വീണ്ടും ഇടിഞ്ഞു… പവന് 92,080 താഴെ
 try (N) manual=False: Gold Price Today| സ്വർണവില 2025 ഡിസംബറിലെ നിരക്കിൽ; സർവകാല റ
-skip (N) today's price is already filed: സ്വർണവിലയിൽ വൻ ഇടിവ്
+skip (N) today's price is already filed: ഇടിച്ചിറങ്ങി സ്വർണവില….; അറിയാം ഇന്നത്തെ നിരക്ക്
 try (N) manual=False: Gold Rate Today: ഇപ്പോള്‍ വാങ്ങണോ, കാത്തിരിക്കണോ ? ; അറിയാം 
 skip (N) could not open: Gold Price Today| സ്വർണവില 2025 ഡിസംബറിലെ നിരക്കിൽ [https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTGZ6eGJ] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/money/gol
-try (N) manual=False: ഇടിവോട് ഇടിവ്; സംസ്ഥാനത്ത് ഇന്നും സ്വര്‍ണവില ലക്ഷത്തിന് താഴെ
-skip (N) today's price is already filed: Gold Rate Today: ഇപ്പോൾ വാങ്ങണോ, കാത്തിരിക്കണോ ? ;
-try (N) manual=False: Kerala Gold Rate: പൊന്ന് വാങ്ങാൻ മടിക്കേണ്ട, വൻ ഇടിവാണേ… നവം
-skip (N) already filed: കരിപ്പൂരിൽ കസ്റ്റംസിനെ വെട്ടിച്ച് കടത്തിയ സ്വർണം പ
-try (N) manual=False: Gold Price | ഇന്നത്തെ സ്വർണവില അറിയാം | kerala gold price to
-skip (N) similar to a filed story: ഇടിവോട് ഇടിവ്; സംസ്ഥാനത്ത് ഇന്നും സ്വർണവില  ലക്ഷത്
 try (N) manual=False: സംസ്ഥാനത്ത് സ്വർണവില വീണ്ടും കുറഞ്ഞു; ഇന്ന് മാത്രം രണ്ടായിരത
-skip (N) today's price is already filed: സ്വർണം ഏറ്റവും താഴ്ന്ന നിരക്കിൽ; 80,000-ലേക്കോ? നവ
-try (N) manual=False: എന്റെ പൊന്നെടാവ്വേ നിനക്ക് വയ്യേ! നവംബര്‍ 19-ലെ കേരളത്തിലെ സ
-skip (N) no Malappuram place in article: അടിപതറി സ്വർണം; ആഭരണപ്രേമികൾക്ക് ആനന്ദം, ഇന്നും വൻ
+skip (N) today's price is already filed: Gold Rate Today: ഇപ്പോൾ വാങ്ങണോ, കാത്തിരിക്കണോ ? ;
 try (N) manual=False: സ്വർണവിലയിൽ അടിക്കടി മാറ്റം എന്തുകൊണ്ട്‌?സ്വർണപ്രിയരായ ...
 skip (N) could not open: സ്വർണവിലയിൽ അടിക്കടി മാറ്റം എന്തുകൊണ്ട്‌?സ്വർണപ്രി [https://www.deshabhimani.com/News/kerala/---glitter-and-gamb] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/News/kerala/--
 try (N) manual=False: സ്വർണവില തുടർച്ചയായ അഞ്ചാം ദിവസവും താഴോട്ട്; സംസ്ഥാനത്ത് പവൻ
-skip (N) similar to a filed story: സ്വർണവില തുടർച്ചയായ അഞ്ചാം ദിവസവും താഴോട്ട്; സംസ്ഥ
-try (N) manual=False: ഇടിച്ചിറങ്ങി സ്വർണവില….; അറിയാം ഇന്നത്തെ നിരക്ക്
 skip (N) similar to a filed story: സംസ്ഥാനത്ത് സ്വർണവില വീണ്ടും കുറഞ്ഞു; ഇന്ന് മാത്രം
+try (N) manual=False: ഇടിച്ചിറങ്ങി സ്വർണവില….; അറിയാം ഇന്നത്തെ നിരക്ക്
+skip (N) similar to a filed story: സ്വർണവില തുടർച്ചയായ അഞ്ചാം ദിവസവും താഴോട്ട്; സംസ്ഥ
 try (N) manual=False: Kerala Gold Rate: സ്വർണം ഏറ്റവും താഴ്ന്ന നിരക്കിൽ; 80,000-ലേ
 skip (N) today's price is already filed: സ്വർണം ഏറ്റവും താഴ്ന്ന നിരക്കിൽ; 80,000-ലേക്കോ? നവ
-try (N) manual=False: സ്വർണവില കൂപ്പുകുത്തുന്നു; ഒറ്റയടിക്ക് പവന് കുറഞ്ഞത് 1,880 ര
-skip (N) today's price is already filed: ഇടിച്ചിറങ്ങി സ്വർണവില….; അറിയാം ഇന്നത്തെ നിരക്ക്
 try (N) manual=False: എന്റെ പൊന്നേ എങ്ങോട്ടാണീ പോക്ക്! വീണ്ടും തകർന്നടിഞ്ഞ് സ്വർണ 
-skip (N) today's price is already filed: എന്റെ പൊന്നെടാവ്വേ നിനക്ക് വയ്യേ! നവംബർ 19-ലെ കേരള
-try (N) manual=False: ഇടിഞ്ഞിടിഞ്ഞ് എങ്ങോട്ട്? സ്വർണവില വീണ്ടും വീണു; ഒറ്റയടിക്ക് 
 skip (N) could not open: എന്റെ പൊന്നേ എങ്ങോട്ടാണീ പോക്ക്! വീണ്ടും തകർന്നടിഞ [https://janmabhumi.in/3686609/my-gold-going-prices-crash/] 403 Client Error: Forbidden for url: https://janmabhumi.in/3686609/my-gold-going
-try (N) manual=False: സ്വർണവില പിടിവിട്ട് താഴോട്ട്; ഇന്നും കുത്തനെ കുറഞ്ഞു; രണ്ടാ
-skip (N) today's price is already filed: സ്വർണവില കൂപ്പുകുത്തുന്നു; ഒറ്റയടിക്ക് പവന് കുറഞ്ഞ
-try (N) manual=False: സ്വർണവില ഇടിഞ്ഞ് താഴുന്നു; പവന് കുറഞ്ഞത് 35000 രൂപ, ഗ്രാം വി
-skip (N) today's price is already filed: സ്വർണവില ഇടിഞ്ഞ് താഴുന്നു; പവന് കുറഞ്ഞത് 35000 രൂപ
-try (N) manual=False: സംസ്ഥാനത്ത് വീണ്ടും ഇടിഞ്ഞുതാഴ്ന്ന് സ്വർണവില. 22 കാരറ്റ് സ്വ
-skip (N) could not open: ഇടിഞ്ഞിടിഞ്ഞ് എങ്ങോട്ട്? സ്വർണവില വീണ്ടും വീണു; ഒറ [https://news.google.com/rss/articles/CBMiZkFVX3lxTE95YjZZS3l] 403 Client Error: Forbidden for url: https://www.deepika.com/business/gold-rate-
-try (N) manual=False: സ്വർണവില വീണ്ടും ഒരു ലക്ഷത്തിന് താഴെ; രണ്ടാഴ്ചയ്ക്കിടെ കുറഞ്
-skip (N) today's price is already filed: സ്വർണവില പിടിവിട്ട് താഴോട്ട്; ഇന്നും കുത്തനെ കുറഞ
+try (N) manual=False: ഇടിഞ്ഞിടിഞ്ഞ് എങ്ങോട്ട്? സ്വർണവില വീണ്ടും വീണു; ഒറ്റയടിക്ക് 
+skip (N) today's price is already filed: ഇടിച്ചിറങ്ങി സ്വർണവില….; അറിയാം ഇന്നത്തെ നിരക്ക്
 try (N) manual=False: 'സ്വർണവില ഇനിയൊരു 10,000 രൂപ കൂടി ഇടിയണം'; വ്യാപാരികൾ പറയുന്
 skip (N) today's price is already filed: 'സ്വർണവില ഇനിയൊരു 10,000 രൂപ കൂടി ഇടിയണം'; വ്യാപാര
 try (N) manual=False: സ്വർണവിലയിൽ വമ്പൻ തകർച്ച; 2025 ഡിസംബറിലെ നിരക്കിലേക്ക് ഇടിഞ്
-skip (N) today's price is already filed: സംസ്ഥാനത്ത് വീണ്ടും ഇടിഞ്ഞുതാഴ്ന്ന് സ്വർണവില. 22 ക
-try (N) manual=False: സ്വര്‍ണ വിലയെ താഴേക്ക് എത്തിച്ചത് ഇക്കൂട്ടര്‍; കേരളത്തില്‍ വ
-skip (N) today's price is already filed: സ്വർണവിലയിൽ വമ്പൻ തകർച്ച; 2025 ഡിസംബറിലെ നിരക്കിലേ
-try (N) manual=False: താഴോട്ട് തന്നെ ; സ്വർണവിലയിൽ ഇടിവ് തുടരുന്നു
-skip (N) today's price is already filed: സ്വർണവില വീണ്ടും ഒരു ലക്ഷത്തിന് താഴെ; രണ്ടാഴ്ചയ്ക്
+skip (N) could not open: ഇടിഞ്ഞിടിഞ്ഞ് എങ്ങോട്ട്? സ്വർണവില വീണ്ടും വീണു; ഒറ [https://news.google.com/rss/articles/CBMiZkFVX3lxTE95YjZZS3l] 403 Client Error: Forbidden for url: https://www.deepika.com/business/gold-rate-
 try (N) manual=False: കാറിടിച്ച് കടുവയ്ക്ക് ഗുരുതര പരിക്ക്; രക്ഷപ്പെടാനാകാതെ കുറ്റ
-skip (N) today's price is already filed: സ്വർണ വില വീണ്ടും താഴേക്ക്; കേരളത്തിൽ വില 90,000ത്
-try (N) manual=False: ക്ഷേമ പെൻഷൻ തട്ടിയെടുക്കാൻ മുത്തശ്ശിയെ കൊന്ന് ചാക്കിലിട്ട് ഉ
+skip (N) today's price is already filed: സ്വർണവിലയിൽ വമ്പൻ തകർച്ച; 2025 ഡിസംബറിലെ നിരക്കിലേ
+try (N) manual=False: 'നിയോഗം വലുതാണെങ്കിൽ നിങ്ങൾക്കുള്ള പരീക്ഷണവും വലുതായിരിക്കും
 skip (N) could not open: കാറിടിച്ച് കടുവയ്ക്ക് ഗുരുതര പരിക്ക്; രക്ഷപ്പെടാനാ [https://news.google.com/rss/articles/CBMi-gFBVV95cUxPc0Z1Wmx] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882508
-try (N) manual=False: ‘നിറയെ മദ്യക്കുപ്പികൾ’: മദ്യപിച്ച് കാറോടിച്ച് സിപിഒ, വിദ്യാർ
-skip (N) today's price is already filed: താഴോട്ട് തന്നെ ; സ്വർണവിലയിൽ ഇടിവ് തുടരുന്നു
-try (N) manual=False: ണ്ണാർക്കാട് നടക്കുന്ന സംസ്ഥാന ശാസ്ത്രോത്സവത്തിൽ ഡി.എച്ച്.എസ്
-skip (N) no Malappuram place in article: ക്ഷേമ പെൻഷൻ തട്ടിയെടുക്കാൻ മുത്തശ്ശിയെ കൊന്ന് ചാക്
-try (N) manual=False: വയലിനിസ്റ്റ് ബാലഭാസ്‌കറിന്റെ മരണം: സിബിഐ പുനരന്വേഷണം തുടങ്ങി
-skip (N) no Malappuram place in article: ‘നിറയെ മദ്യക്കുപ്പികൾ’: മദ്യപിച്ച് കാറോടിച്ച് സിപി
-try (N) manual=False: ബസ്സുകളെ ആശ്രയിക്കുന്ന പ്രവാസികളുടെ ശ്രദ്ധയ്ക്ക്, 7 മേഖലകളിൽ
-skip (N) no Malappuram place in article: ണ്ണാർക്കാട് നടക്കുന്ന സംസ്ഥാന ശാസ്ത്രോത്സവത്തിൽ ഡി
-try (N) manual=False: സ്കൂട്ടറിനു പിന്നിൽ ട്രക്ക് ഇടിച്ച് അപകടം, ടയർ ശരീരത്തിലൂടെ 
-skip (N) no Malappuram place in article: വയലിനിസ്റ്റ് ബാലഭാസ്കറിന്റെ മരണം: സിബിഐ പുനരന്വേഷണ
-try (N) manual=False: മലപ്പുറം അങ്ങാടിപ്പുറത്ത് ബാങ്കില്‍ നിന്ന് പണം പിന്‍വലിച്ചവര
-skip (N) no Malappuram place in article: ബസ്സുകളെ ആശ്രയിക്കുന്ന പ്രവാസികളുടെ ശ്രദ്ധയ്ക്ക്, 
-try (N) manual=False: 'സ്വർഗ്ഗീയനാദം' ലൈവ് സ്ട്രീമിങ് സംഗീത പരിപാടിയുടെ 51-ാം പതിപ
-skip (N) no Malappuram place in article: 'സ്വർഗ്ഗീയനാദം' ലൈവ് സ്ട്രീമിങ് സംഗീത പരിപാടിയുടെ 
 try (N) manual=False: നഗരസഭയുടെ കെട്ടിടത്തില്‍നിന്ന്‌ ശുചിമുറി മാലിന്യം പുറത്തേക്ക
-skip (N) no Malappuram place in article: സ്കൂട്ടറിനു പിന്നിൽ ട്രക്ക് ഇടിച്ച് അപകടം, ടയർ ശരീ
-try (N) manual=False: ഐക്യദാർഢ്യം - LOCAL - MALAPPURAM
-NOT filed (N) മലപ്പുറം അങ്ങാടിപ്പുറത്ത് ബാങ്കിൽ നിന്ന് പണം പിൻവല: all free models failed: no usable answer from the models
-try (N) manual=False: പ്രപഞ്ചത്തെ അവസാനിപ്പിക്കുമോ ഒരു ക്വാണ്ടം കുമിള? ഭൗതികശാസ്ത്
-skip (N) could not open: നഗരസഭയുടെ കെട്ടിടത്തില്‍നിന്ന്‌ ശുചിമുറി മാലിന്യം  [https://news.google.com/rss/articles/CBMimgFBVV95cUxPOWZFUHk] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882450
-try (N) manual=False: മദ്യവിൽപ്പന: ഒരാൾ പിടിയിൽ
-skip (N) too old (2023-10-25T01:08:38+05:30): ഐക്യദാർഢ്യം
+skip (N) could not open: 'നിയോഗം വലുതാണെങ്കിൽ നിങ്ങൾക്കുള്ള പരീക്ഷണവും വലുത [https://news.google.com/rss/articles/CBMirgFBVV95cUxPRUF6aGV] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/kerala/ar
 try (N) manual=False: 'അരിയിൽ ഷുക്കൂർ വധക്കേസിൽ പി ജയരാജനായി കുഞ്ഞാലിക്കുട്ടി ഇടപെ
-skip (N) no Malappuram place in article: പ്രപഞ്ചത്തെ അവസാനിപ്പിക്കുമോ ഒരു ക്വാണ്ടം കുമിള?  
+skip (N) could not open: നഗരസഭയുടെ കെട്ടിടത്തില്‍നിന്ന്‌ ശുചിമുറി മാലിന്യം  [https://news.google.com/rss/articles/CBMimgFBVV95cUxPOWZFUHk] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882450
 try (N) manual=False: പ്രായപൂര്‍ത്തിയാകാത്ത പെണ്‍കുട്ടിയെ പീഡിപ്പിച്ച കേസ്, അറസ്റ്
-skip (N) no Malappuram place in article: മദ്യവിൽപ്പന: ഒരാൾ പിടിയിൽ
-try (N) manual=False: നവജാതശിശുവിനെ കഴുത്തുഞെരിച്ച് കൊലപ്പെടുത്തിയ ശേഷം ഉപേക്ഷിച്ച
 skip (N) could not open: 'അരിയിൽ ഷുക്കൂർ വധക്കേസിൽ പി ജയരാജനായി കുഞ്ഞാലിക്ക [https://news.google.com/rss/articles/CBMi7gFBVV95cUxPekJza3J] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/kerala/ku
-try (N) manual=False: മട്ടാഞ്ചേരി സബ് ജയിലിൽ എംഡിഎംഎ പിടികൂടി; കണ്ടെത്തിയത് പ്രതിയ
-NOT filed (N) പ്രായപൂർത്തിയാകാത്ത പെൺകുട്ടിയെ പീഡിപ്പിച്ച കേസ്, : all free models failed: no usable answer from the models
+try (N) manual=False: നാലുവർഷ ബിരുദത്തിൽ 40% ഓൺലൈൻ കോഴ്സാവാം, പരീക്ഷയിൽ ബൗദ്ധികശേഷ
+skip (N) no Malappuram place in article: നാലുവർഷ  ബിരുദത്തിൽ   40% ഓൺലൈൻ കോഴ്സാവാം,  
+ പരീ
 try (N) manual=False: ആളുകൾ നോക്കിനിൽക്കെ വനിതാ പോലീസ് ഓഫീസറെയും ട്രാഫിക് പോലീസിനെ
-skip (N) no Malappuram place in article: മട്ടാഞ്ചേരി സബ് ജയിലിൽ എംഡിഎംഎ പിടികൂടി; കണ്ടെത്തി
-try (N) manual=False: അമ്മ അനുവദിച്ചത് ഓരോ ടാറ്റൂ മാത്രം; ഇപ്പോൾ ശരീരത്തിന്റെ 70 ശ
-skip (N) no Malappuram place in article: നവജാതശിശുവിനെ കഴുത്തുഞെരിച്ച് കൊലപ്പെടുത്തിയ ശേഷം 
-try (R) manual=False: മഞ്ചേരിയിലെ കുഴൽപ്പണം കവർച്ച: മുഖ്യപ്രതി കീഴടങ്ങി - LOCAL - 
 skip (N) could not open: ആളുകൾ നോക്കിനിൽക്കെ വനിതാ പോലീസ് ഓഫീസറെയും ട്രാഫിക [https://news.google.com/rss/articles/CBMi5wFBVV95cUxPQjYxY3c] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/crime/man
-try (N) manual=False: സ്‌പ്ളാഷ് വിദ്യാഭ്യാസ പദ്ധതി സമർപ്പിച്ചു - LOCAL - MALAPPURA
+try (N) manual=False: അമ്മ അനുവദിച്ചത് ഓരോ ടാറ്റൂ മാത്രം; ഇപ്പോൾ ശരീരത്തിന്റെ 70 ശ
 skip (N) could not open: അമ്മ അനുവദിച്ചത് ഓരോ ടാറ്റൂ മാത്രം; ഇപ്പോൾ ശരീരത്ത [https://news.google.com/rss/articles/CBMi4wFBVV95cUxNb3g3bnE] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882518
 try (N) manual=False: കരതൊടാതെ പൊന്നാനി മറൈൻ മ്യൂസിയം പദ്ധതി
-skip (R) too old (2022-07-19T01:18:34+05:30): മഞ്ചേരിയിലെ കുഴൽപ്പണം കവർച്ച: മുഖ്യപ്രതി കീഴടങ്ങി
+skip (N) already filed: കരതൊടാതെ പൊന്നാനി മറൈൻ മ്യൂസിയം പദ്ധതി
 try (N) manual=False: ദേശീയ സിവിൽ സർവീസ് ഫുട്ബോൾ: കേരളത്തിന് രണ്ടാം ജയം
 skip (N) could not open: ദേശീയ സിവിൽ സർവീസ് ഫുട്ബോൾ: കേരളത്തിന് രണ്ടാം ജയം [https://malabarinews.com/news/national-civil-services-footba] 403 Client Error: Forbidden for url: https://malabarinews.com/news/national-civi
-try (N) manual=False: Gold Price Crash Today (November 20, 2026): 24K Plunges ₹5,1
-skip (N) too old (2026-09-01T01:51:16+05:30): സ്പ്ളാഷ് 
-വിദ്യാഭ്യാസ പദ്ധതി സമർപ്പിച്ചു
-try (N) manual=False: ഐടി പാർക്കുകളിലെ മദ്യശാല; പുതിയ മദ്യനയത്തിന് ശേഷം തീരുമാനമെട
-skip (N) already filed: കരതൊടാതെ പൊന്നാനി മറൈൻ മ്യൂസിയം പദ്ധതി
-try (N) manual=False: പോക്സോ കേസ്: പ്രതിക്ക് 37 വർഷം തടവ്
-skip (N) only a headline, 0 words of text: Gold Price Crash Today (November 20, 2026): 24K Pl [https://www.flickonclick.com/gold-price-crash-today-november]
-try (N) manual=False: ഇ.പി.എഫിൽ കാതലായ മാറ്റം: ഗഡുക്കളായി വാങ്ങാം; പെൻഷൻപോലെ
-skip (N) no Malappuram place in article: ഐടി പാർക്കുകളിലെ മദ്യശാല; പുതിയ മദ്യനയത്തിന് ശേഷം 
-try (N) manual=False: 'ചിറകുകൾ വിരിച്ച് ആകാശം തൊടാം'; വിദ്യാർത്ഥിനികളോട് മനസ് തുറന
-skip (N) no Malappuram place in article: ഇ.പി.എഫിൽ കാതലായ മാറ്റം:  ഗഡുക്കളായി വാങ്ങാം;
-പെൻ
-try (N) manual=False: എസ്ഡിപിഐ നേതാവ് ഷാന്‍ വധക്കേസ്; വിചാരണ ഇന്ന് ആരംഭിക്കും
-skip (N) no Malappuram place in article: പോക്സോ കേസ്: പ്രതിക്ക് 37 വർഷം തടവ്
+try (N) manual=False: Gold price crashes again in Keralam; sovereign falls to Rs 9
+skip (N) not a Malayalam article: Gold price crashes again in Keralam; sovereign fal [https://madhyamamonline.com/business/gold-price-crashes-agai]
+try (N) manual=False: ക്രിമിനൽ കേസ്: പ്രതിസ്ഥാനത്ത് 847 പൊലിസുകാർ; ശിക്ഷിക്കപ്പെട്
+skip (N) already filed: കരിപ്പൂരിൽ കസ്റ്റംസിനെ വെട്ടിച്ച് കടത്തിയ സ്വർണം പ
 try (N) manual=False: Nammude Run Calicut 2026| ഫിറ്റ്നസ് നിലനിർത്തണോ? ഇന്നുതന്നെ 
-skip (N) could not open: Nammude Run Calicut 2026| ഫിറ്റ്നസ് നിലനിർത്തണോ? ഇ [https://news.google.com/rss/articles/CBMi6AFBVV95cUxNSFA0X3c] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/life/namm
+skip (N) no Malappuram place in article: ക്രിമിനൽ കേസ്: പ്രതിസ്ഥാനത്ത് 847 പൊലിസുകാർ; ശിക്ഷ
 try (N) manual=False: ആണ്‍സുഹൃത്തുമായുള്ള ബന്ധമെതിർത്ത ഭർത്താവിനെ കൊലപ്പെടുത്തി നി
-skip (N) no Malappuram place in article: 'ചിറകുകൾ വിരിച്ച് ആകാശം തൊടാം'; വിദ്യാർത്ഥിനികളോട
+skip (N) could not open: Nammude Run Calicut 2026| ഫിറ്റ്നസ് നിലനിർത്തണോ? ഇ [https://news.google.com/rss/articles/CBMi6AFBVV95cUxNSFA0X3c] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/life/namm
 try (R) manual=False: തോടിന് സമീപം മലിനജലം ഒഴുക്കിവിട്ട സ്ഥാപനം; എടവണ്ണപ്പാറയിലെ .
-skip (N) no Malappuram place in article: എസ്ഡിപിഐ നേതാവ് ഷാൻ വധക്കേസ്; വിചാരണ ഇന്ന് ആരംഭിക്
-try (N) manual=False: അനങ്ങാതെ കെ.എസ്.ആർ.ടി.സി; ഓടിക്കിതച്ച് ആരോഗ്യപ്രവർത്തകർ - LO
 skip (N) could not open: ആണ്‍സുഹൃത്തുമായുള്ള ബന്ധമെതിർത്ത ഭർത്താവിനെ കൊലപ്പ [https://news.google.com/rss/articles/CBMihAJBVV95cUxOZjYyQ04] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/kerala/ja
 try (N) manual=False: റെയിൽവേ ഗ്രൂപ്പ് ടിക്കറ്റ് ബുക്കിംഗ് നിയമങ്ങൾ പരിഷ്കരിച്ചു; 
-skip (N) too old (2021-05-10T00:01:00+05:30): അനങ്ങാതെ കെ.എസ്.ആർ.ടി.സി;
-ഓടിക്കിതച്ച് ആരോഗ്യപ്രവ
+skip (N) could not open: റെയിൽവേ ഗ്രൂപ്പ് ടിക്കറ്റ് ബുക്കിംഗ് നിയമങ്ങൾ പരിഷ [https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWG0zV2x] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/india/ind
 try (N) manual=False: പൾസ് പോളിയോ; 12.92 ലക്ഷം കുഞ്ഞുങ്ങൾക്ക്‌ തുള്ളിമരുന്ന്‌ നൽകു
 skip (N) could not open: പൾസ് പോളിയോ; 12.92 ലക്ഷം കുഞ്ഞുങ്ങൾക്ക്‌ തുള്ളിമരു [https://www.deshabhimani.com/News/kerala/pulse-polio-drive-t] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/News/kerala/pu
 try (N) manual=False: ആഷിക്ക് ഉസ്മാൻ -ഡിനോയ് പൗലോസ് ചിത്രം ‘ ഹലോ ഡിയർ’ ; പുതിയ പോസ
 skip (N) could not open: ആഷിക്ക് ഉസ്മാൻ -ഡിനോയ് പൗലോസ് ചിത്രം ‘ ഹലോ ഡിയർ’ ; [https://janmabhumi.in/3686657/aashiq-usman-dinoy-paulos-film] 403 Client Error: Forbidden for url: https://janmabhumi.in/3686657/aashiq-usman-
-try (R) manual=False: മഞ്ചേരി പയ്യനാട് സ്റ്റേഡിയം സബ് കമ്മിറ്റി സന്ദർശിച്ചു - LOCA
-skip (N) could not open: റെയിൽവേ ഗ്രൂപ്പ് ടിക്കറ്റ് ബുക്കിംഗ് നിയമങ്ങൾ പരിഷ [https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWG0zV2x] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/india/ind
 try (N) manual=False: കുതിപ്പ് തുടര്‍ന്ന് മലപ്പുറം രണ്ടാമത് കണ്ണൂര്‍
 skip (N) could not open: കുതിപ്പ് തുടര്‍ന്ന് മലപ്പുറം രണ്ടാമത് കണ്ണൂര്‍ [https://janmabhumi.in/3686867/malappuram-follows-jump-follow] 403 Client Error: Forbidden for url: https://janmabhumi.in/3686867/malappuram-fo
-try (N) manual=False: പൾസ് പോളിയോ ഇമ്മ്യൂണൈസേഷൻ നവംബർ 22ന്; അറിഞ്ഞിരിക്കേണ്ട കാര്യ
-skip (N) no Malappuram place in article: പൾസ് പോളിയോ ഇമ്മ്യൂണൈസേഷൻ നവംബർ 22ന്; അറിഞ്ഞിരിക്ക
-try (N) manual=False: ഹലോ ഡിയർ പുതിയ ലുക്കിൽ പോസ്റ്റർ എത്തി
-skip (N) no Malappuram place in article: ഹലോ ഡിയർ  പുതിയ ലുക്കിൽ പോസ്റ്റർ എത്തി
 try (N) manual=False: മലപ്പുറത്ത് ബാങ്കില്‍ നിന്നും പണം പിന്‍വലിച്ചിറങ്ങിയ ആളുകളില
-skip (R) too old (2022-03-27T23:19:26+05:30): മഞ്ചേരി പയ്യനാട് സ്റ്റേഡിയം സബ് കമ്മിറ്റി സന്ദർശിച
-try (N) manual=False: വേൾഡ് യൂത്ത് മൂവത്തായ് ചാമ്പ്യൻഷിപ്പ്: വസുദേവ് അരവിന്ദിന് ഇര
+NOT filed (N) പ്രായപൂർത്തിയാകാത്ത പെൺകുട്ടിയെ പീഡിപ്പിച്ച കേസ്, : all free models failed: no usable answer from the models
+try (N) manual=False: ദുരാത്മാവിന്റെ നിഗൂഢതകൾക്ക് ഉത്തരം തേടി ഫാദർ ഡൊമിനിക്ക് എത്ത
 skip (N) could not open: മലപ്പുറത്ത് ബാങ്കില്‍ നിന്നും പണം പിന്‍വലിച്ചിറങ്ങ [https://news.google.com/rss/articles/CBMixwFBVV95cUxOWkdWV0h] 403 Client Error: Forbidden for url: https://pathanamthittamedia.com/attempt-to-
-try (N) manual=False: കാണുന്നവരുടെ മനസ്സിലാണ് സൗന്ദര്യം! കഥ വായിച്ചോളൂ....
-skip (N) no Malappuram place in article: വേൾഡ് യൂത്ത് മൂവത്തായ് ചാമ്പ്യൻഷിപ്പ്: വസുദേവ് അരവ
-try (N) manual=False: ഹോണ്ടയുടെ നെക്‌സ്റ്റ് ജെൻ ഹൈബ്രിഡ് സിസ്റ്റവുമായി Avancier വര
-skip (N) no Malappuram place in article: കാണുന്നവരുടെ മനസ്സിലാണ് സൗന്ദര്യം! കഥ വായിച്ചോളൂ..
-try (N) manual=False: അന്റാർട്ടിക്കയിൽ മഞ്ഞുരുകുമ്പോൾ നമ്മുടെ മൺസൂണും മാറുന്നു- മൺ
-skip (N) no Malappuram place in article: ഹോണ്ടയുടെ നെക്സ്റ്റ് ജെൻ ഹൈബ്രിഡ് സിസ്റ്റവുമായി Av
-try (N) manual=False: ആധാർകാർഡ് തിരുത്തി 20 വയസാക്കി; കുട്ടിയെ കോവളത്തെത്തിച്ചത് ഗ
-skip (N) no Malappuram place in article: അന്റാർട്ടിക്കയിൽ മഞ്ഞുരുകുമ്പോൾ നമ്മുടെ മൺസൂണും മാ
-try (N) manual=False: മനുഷ്യനെ കൊന്നതിന് ന്യായീകരണം പറയുന്നത് മാർക്സിസമോ ഇടതുപക്ഷന
-skip (N) no Malappuram place in article: ആധാർകാർഡ് തിരുത്തി 20 വയസാക്കി, കുട്ടിയെ കോവളത്തെത
-try (N) manual=False: പഴയ സുഹൃത്തുക്കളുമായി നിങ്ങൾ സ്വയം താരതമ്യം ചെയ്യാറുണ്ടോ? എങ
-skip (N) no Malappuram place in article: മനുഷ്യനെ കൊന്നതിന് ന്യായീകരണം പറയുന്നത് മാർക്സിസമോ
-try (N) manual=False: വിദേശ മെഡിക്കൽ ബിരുദധാരികൾക്കും തുല്യ സ്റ്റൈപ്പൻഡ്; അഞ്ച് പ്
-skip (N) no Malappuram place in article: പഴയ സുഹൃത്തുക്കളുമായി നിങ്ങൾ സ്വയം താരതമ്യം ചെയ്യാ
-try (N) manual=False: പി.ജെ. ജോസഫ് കാർഷിക വികസന സമിതി ചെയർമാനാകും, മാണി സി. കാപ്പൻ
-skip (N) no Malappuram place in article: വിദേശ മെഡിക്കൽ ബിരുദധാരികൾക്കും തുല്യ സ്റ്റൈപ്പൻഡ്
-try (N) manual=False: പുതിയ സെക്രട്ടറിമാരിൽ 50% പിന്നാക്കവിഭാഗക്കാർ, ശരാശരി പ്രായം
-skip (N) no Malappuram place in article: പി.ജെ. ജോസഫ് കാർഷിക വികസന സമിതി ചെയർമാനാകും, മാണി 
-try (N) manual=False: ‘ഈ സിനിമ ഞങ്ങൾ ചെയ്യുന്നു എന്നതിലപ്പുറം മറ്റൊന്നുമില്ലായിരുന
-skip (N) no Malappuram place in article: പുതിയ സെക്രട്ടറിമാരിൽ 50% പിന്നാക്കവിഭാഗക്കാർ, ശരാ
-try (N) manual=False: കുറുക്കത്തിയും കരടിയമ്മയും | മിന്നാമിന്നിക്കഥകൾ | Bedtime St
-skip (N) no Malappuram place in article: ‘ഈ സിനിമ ഞങ്ങൾ ചെയ്യുന്നു എന്നതിലപ്പുറം മറ്റൊന്നുമ
-try (N) manual=False: 'ടൈം 100 നെക്സ്റ്റ്: പട്ടികയിൽ തിളങ്ങി ദുൽഖർ, പാർവതി, കനി
-skip (N) no Malappuram place in article: കുറുക്കത്തിയും കരടിയമ്മയും | മിന്നാമിന്നിക്കഥകൾ | 
-try (N) manual=False: ഒരു മാസം ഒരു കോടി ! 21 പിഎസ്‌സി അംഗങ്ങളുടെ ശമ്പളം, ആനുകൂല്യങ
-skip (N) no Malappuram place in article: 'ടൈം 100 നെക്സ്റ്റ്: പട്ടികയിൽ തിളങ്ങി ദുൽഖർ, പാർവ
-try (N) manual=False: ‘ജോണി വാക്കറി’ലെ ഷെല്ലി; നടൻ റോബിൻ വർഗീസ് അന്തരിച്ചു
-skip (N) no Malappuram place in article: ഒരു മാസം ഒരു കോടി ! 21 പിഎസ്സി അംഗങ്ങളുടെ ശമ്പളം, 
-try (N) manual=False: ബന്ധം എതിർത്തതിന്റെ വിരോധം; ഗൃഹനാഥനെ കൊന്നകേസിൽ ഭാര്യയ്ക്കും
-skip (N) no Malappuram place in article: ‘ജോണി വാക്കറി’ലെ ഷെല്ലി; നടൻ റോബിൻ വർഗീസ് അന്തരിച്
-try (N) manual=False: ‘സിനിമയിൽ അഭിനയിപ്പിക്കാൻ കൊണ്ടുവന്ന നോട്ടുകൾ’; 26 കോടിയുടെ 
-skip (N) no Malappuram place in article: ബന്ധം എതിർത്തതിന്റെ വിരോധം; ഗൃഹനാഥനെ കൊന്നകേസിൽ ഭാ
-try (N) manual=False: Death
-skip (N) no Malappuram place in article: ‘സിനിമയിൽ അഭിനയിപ്പിക്കാൻ കൊണ്ടുവന്ന നോട്ടുകൾ’; 26
+try (N) manual=False: ‘പ്രിയപ്പെട്ട കേരളമേ, എനിക്കൊരു നല്ല പാവാട വേണം; പുസ്തകങ്ങളു
+skip (N) no Malappuram place in article: ദുരാത്മാവിന്റെ നിഗൂഢതകൾക്ക് ഉത്തരം തേടി ഫാദർ ഡൊമിന
 try (N) manual=False: ബാലവേല തടയാൻ കർശന പരിശോധന | Madhyamam
-skip (N) no Malappuram place in article: Death
-try (N) manual=False: 'മെക്സിക്കോ ജനസംഖ്യയോളം വരുന്ന 13 കോടി പേരെ വോട്ടർ പട്ടികയിൽ
+NOT filed (N) ‘പ്രിയപ്പെട്ട കേരളമേ, എനിക്കൊരു നല്ല പാവാട വേണം; പ: all free models failed: no usable answer from the models
+try (N) manual=False: പ്രീമിയർ ഷോയിൽ ഗംഭീര പ്രേക്ഷക പ്രതികരണം നേടി ദുൽഖർ സൽമാന്റെ 
 NOT filed (N) ബാലവേല തടയാൻ കർശന പരിശോധന | Madhyamam: all free models failed: no usable answer from the models
-try (N) manual=False: അ​റു​തി​യി​ല്ലാ​തെ കൊ​ള്ള: തേ​ക്ക​ടി​യി​ൽ ബോ​ട്ട് ടി​ക്ക​റ്റ
-skip (N) no Malappuram place in article: 'മെക്സിക്കോ ജനസംഖ്യയോളം വരുന്ന 13 കോടി പേരെ വോട്ടർ
-try (N) manual=False: പഞ്ചാബ് പി.സി.എസ് നിയമനത്തിന് ഹൈകോടതി സ്റ്റേ; സി.ബി.ഐ അന്വേഷ
-skip (N) no Malappuram place in article: അറുതിയില്ലാതെ കൊള്ള: തേക്കടിയിൽ ബോട്ട് ടിക്കറ്റ് ക
-try (N) manual=False: ‘നികുതിയിളവ് നൽകിയിട്ടും ശമ്പള വർധനയും തൊഴിൽ നിയമനങ്ങളും എവി
-skip (N) no Malappuram place in article: പഞ്ചാബ് പി.സി.എസ് നിയമനത്തിന് ഹൈകോടതി സ്റ്റേ; സി.ബ
-try (N) manual=False: ‘ചക്കക്കൊമ്പ’ന്റെ നീക്കങ്ങൾ ഇനി നിരീക്ഷണത്തിൽ; മയക്കുവെടിവെച
-NOT filed (R) തോടിന് സമീപം മലിനജലം ഒഴുക്കിവിട്ട സ്ഥാപനം; എടവണ്ണപ: all free models failed: no usable answer from the models
-try (N) manual=False: ചീഫ് ജസ്റ്റിസിനെതിരായ വിവാദപോസ്റ്റ്: നിരുപാധികം മാപ്പുപറഞ്ഞ്
-skip (N) no Malappuram place in article: ‘നികുതിയിളവ് നൽകിയിട്ടും ശമ്പള വർധനയും തൊഴിൽ നിയമന
-try (N) manual=False: 2014ലെ തെരഞ്ഞെടുപ്പിൽ എന്തോ തെറ്റ് സംഭവിച്ചതായി വിശ്വസിച്ചിര
-skip (N) no Malappuram place in article: ചക്കക്കൊമ്പന് ഇനി രക്ഷയില്ല? മയക്കുവെടിവെച്ച് റേഡി
-try (N) manual=False: ‘പറഞ്ഞ രണ്ട് നുണകൾ തിരുത്തി മാപ്പ് പറയണം, ആദ്യം ബൂത്തുകളിൽ പ
-skip (N) no Malappuram place in article: ചീഫ് ജസ്റ്റിസിനെതിരായ വിവാദപോസ്റ്റ്: നിരുപാധികം മാ
-try (N) manual=False: നായാട്ട് കേസിൽ കാപ്പ പ്രതി അറസ്റ്റിൽ - LOCAL - MALAPPURAM
-skip (N) no Malappuram place in article: 2014ലെ തെരഞ്ഞെടുപ്പിൽ എന്തോ തെറ്റ് സംഭവിച്ചതായി വി
-try (N) manual=False: സ്റ്റഡി സെന്റർ പ്രവർത്തനമാരംഭിച്ചു - LOCAL - MALAPPURAM
-skip (N) no Malappuram place in article: ‘പറഞ്ഞ രണ്ട് നുണകൾ തിരുത്തി മാപ്പ് പറയണം, ആദ്യം ബൂ
-try (N) manual=False: പഞ്ചരത്ന കീർത്തനലാപനം
-skip (N) too old (2025-03-27T23:48:11+05:30): നായാട്ട് കേസിൽ കാപ്പ 
-പ്രതി അറസ്റ്റിൽ
-try (N) manual=False: ശിശുദിനവാരാഘോഷത്തിന്റെ സമാപനം...
-skip (N) too old (2023-05-12T01:19:11+05:30): സ്റ്റഡി സെന്റർ പ്രവർത്തനമാരംഭിച്ചു
-try (N) manual=False: 'സ്‌പോട്ട് ബുക്കിംഗ് പുനഃസ്ഥാപിക്കണം, വെർച്വൽ ക്യൂ സമയപരിധിയ
-skip (N) no Malappuram place in article: പഞ്ചരത്ന കീർത്തനലാപനം
-try (N) manual=False: പ്രതിസന്ധികളിൽ വളർന്ന ആറ്റപ്പൂ
-skip (N) no Malappuram place in article: ശിശുദിനവാരാഘോഷത്തിന്റെ സമാപനം...
-try (N) manual=False: പൊലീസ് ജലപീരങ്കി ഉപയോഗിക്കുന്നു.....
-skip (N) no Malappuram place in article: 'സ്പോട്ട് ബുക്കിംഗ് പുനഃസ്ഥാപിക്കണം, വെർച്വൽ ക്യൂ 
-try (N) manual=False: പെൺകുട്ടികൾക്ക് സരസ്വതി സ്‌കോളർഷിപ്പ്
-skip (N) too old (2022-03-07T04:06:00+05:30): പ്രതിസന്ധികളിൽ 
-വളർന്ന ആറ്റപ്പൂ
-try (N) manual=False: ജോലിയോടൊപ്പം പഠനം; ഐ ഐ എം ലക്നോ വിളിക്കുന്നു എം ബി എ ചെയ്യാൻ
-skip (N) no Malappuram place in article: പൊലീസ് ജലപീരങ്കി ഉപയോഗിക്കുന്നു.....
-try (N) manual=False: ഗംഭീറും ഗില്ലും എല്ലാം മറക്കുകയാണോ? മുഹമ്മദ് സിറാജിന്റെ ഭാവി
-skip (N) no Malappuram place in article: പെൺകുട്ടികൾക്ക് സരസ്വതി സ്കോളർഷിപ്പ് | Sirajlive.c
-try (N) manual=False: പത്മജ കോണ്‍ഗ്രസിലേക്ക് തന്നെ; പദവി വാഗ്ദാനം ചെയ്യാതെ തിരികെയ
-skip (N) no Malappuram place in article: ഗംഭീറും ഗില്ലും എല്ലാം മറക്കുകയാണോ? മുഹമ്മദ് സിറാജ
-try (N) manual=False: പോഷൺ ആപ്പ് പ്രതിസന്ധി: അങ്കണവാടി ജീവനക്കാർക്ക് 35,291 ഫോണുകൾ
-skip (N) no Malappuram place in article: ജോലിയോടൊപ്പം പഠനം; ഐ ഐ എം ലക്നോ വിളിക്കുന്നു എം ബി
-try (N) manual=False: 11രൂപ അല്ല; 12.55 രൂപ; വിഇഎച്ച് ഗ്ലോബലില്‍ നിന്ന് വൈദ്യതി വാ
-skip (N) no Malappuram place in article: 11രൂപ അല്ല; 12.55 രൂപ; വിഇഎച്ച് ഗ്ലോബലിൽ നിന്ന് വൈ
-try (N) manual=False: മലേഷ്യയിലേക്ക് ഇനി എളുപ്പത്തിൽ പോകാൻ കഴിയില്ല;വിസ വേണം;പുതിയ
-skip (N) no Malappuram place in article: പോഷൺ ആപ്പ് പ്രതിസന്ധി: അങ്കണവാടി ജീവനക്കാർക്ക് 35,
-try (N) manual=False: സമരം കടുപ്പിച്ച് എൽപിഎസ്ടി ഉദ്യോ​ഗാർഥികൾ; തല മുണ്ഡനം ചെയ്ത് 
-skip (N) no Malappuram place in article: പത്മജ കോൺഗ്രസിലേക്ക് തന്നെ; പദവി വാഗ്ദാനം ചെയ്യാതെ
+try (N) manual=False: ക്യാമ്പസ് സൗഹൃദവും പ്രണയവും ആഘോഷമാക്കി 'മെറി ബോയ്സ്'; ട്രെയി
+skip (N) no Malappuram place in article: പ്രീമിയർ ഷോയിൽ ഗംഭീര പ്രേക്ഷക പ്രതികരണം നേടി ദുൽഖർ
+try (N) manual=False: ബംഗ്ലാദേശിൽ സംഘർഷം രൂക്ഷം; മുഹമ്മദ് യൂനുസിന്റെ തറവാട് വീടിന്
+skip (N) no Malappuram place in article: ക്യാമ്പസ് സൗഹൃദവും പ്രണയവും ആഘോഷമാക്കി 'മെറി ബോയ്സ
 try (N) manual=False: പന്ത് ചുരണ്ടൽ വിവാദത്തിൽ സഹതാരങ്ങളെ ഒറ്റിക്കൊടുത്തു; ഉസ്മാൻ 
-skip (N) no Malappuram place in article: മലേഷ്യയിലേക്ക് ഇനി എളുപ്പത്തിൽ പോകാൻ കഴിയില്ല;വിസ 
+skip (N) could not open: ബംഗ്ലാദേശിൽ സംഘർഷം രൂക്ഷം; മുഹമ്മദ് യൂനുസിന്റെ തറവ [https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOHY2ZGx] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/world/muh
 try (N) manual=False: അച്ഛനും മകനും നേർക്കുനേർ; തിയേറ്ററുകളിൽ ഇരട്ടവിരുന്നുമായി മമ
 skip (N) could not open: പന്ത് ചുരണ്ടൽ വിവാദത്തിൽ സഹതാരങ്ങളെ ഒറ്റിക്കൊടുത്ത [https://news.google.com/rss/articles/CBMi_AFBVV95cUxPOVZIczN] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/sports/us
 try (N) manual=False: ഇനി വെറുതെ ഇളക്കണ്ട;കടല വറുക്കാൻ യന്ത്രം കണ്ടുപിടിച്ച് കച്ചവ
-skip (N) no Malappuram place in article: സമരം കടുപ്പിച്ച് എൽപിഎസ്ടി ഉദ്യോഗാർഥികൾ; തല മുണ്ഡന
-try (N) manual=False: പട്ടിണി മൂലം കുട്ടികൾ ഉറങ്ങുന്നത് വെറുംവയറോടെ; എന്തുചെയ്യണമെ
 skip (N) could not open: അച്ഛനും മകനും നേർക്കുനേർ; തിയേറ്ററുകളിൽ ഇരട്ടവിരുന [https://news.google.com/rss/articles/CBMigAJBVV95cUxNeDVLYjM] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/film/mamm
-try (N) manual=False: രാത്രി ഒരു മണിവരെ ജോലി ചെയ്തു; പിറ്റേന്ന് വൈകി എത്തിയാൽ മതിയ
+try (N) manual=False: പട്ടിണി മൂലം കുട്ടികൾ ഉറങ്ങുന്നത് വെറുംവയറോടെ; എന്തുചെയ്യണമെ
 skip (N) could not open: ഇനി വെറുതെ ഇളക്കണ്ട;കടല വറുക്കാൻ യന്ത്രം കണ്ടുപിടി [https://news.google.com/rss/articles/CBMirgFBVV95cUxQS3ctNzV] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/kerala/tr
-try (N) manual=False: വിവാഹനിശ്ചയം വരെ എത്തി, ഒടുവിൽ വിവാഹം മുടങ്ങി; യുവതിയുടെ സർക
+try (N) manual=False: രാത്രി ഒരു മണിവരെ ജോലി ചെയ്തു; പിറ്റേന്ന് വൈകി എത്തിയാൽ മതിയ
 skip (N) could not open: പട്ടിണി മൂലം കുട്ടികൾ ഉറങ്ങുന്നത് വെറുംവയറോടെ; എന് [https://news.google.com/rss/articles/CBMixwFBVV95cUxNbEZFMTh] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/world/fou
-try (N) manual=False: മാതാവ് അവിവാഹിതയെങ്കില്‍ കുട്ടിയുടെ അവകാശം അമ്മയ്ക്ക് ; ജര്‍
+try (N) manual=False: വിവാഹനിശ്ചയം വരെ എത്തി, ഒടുവിൽ വിവാഹം മുടങ്ങി; യുവതിയുടെ സർക
 skip (N) could not open: രാത്രി ഒരു മണിവരെ ജോലി ചെയ്തു; പിറ്റേന്ന് വൈകി എത് [https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQ3I5Nmd] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882502
-try (N) manual=False: വീണ്ടും ഇടിഞ്ഞ് സ്വര്‍ണം! പവന് 95,840തിലേക്ക്; പോക്ക് എങ്ങോട
+try (N) manual=False: മധുര തിരുപ്പറങ്കുന്ദ്രം കുന്നിലുള്ള 'ദീപത്തൂണി'ൽ ഒരുതവണ കാർത
 skip (N) could not open: വിവാഹനിശ്ചയം വരെ എത്തി, ഒടുവിൽ വിവാഹം മുടങ്ങി; യുവ [https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaWdGVnd] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882510
-try (N) manual=False: ‘‘രഘുപതി രാഘവ രാജാറാം’ പാടി അച്ഛന്റെകൂടെ നടന്നവരാണ് ഞാനും മു
+try (N) manual=False: മാതാവ് അവിവാഹിതയെങ്കില്‍ കുട്ടിയുടെ അവകാശം അമ്മയ്ക്ക് ; ജര്‍
+skip (N) could not open: മധുര തിരുപ്പറങ്കുന്ദ്രം കുന്നിലുള്ള 'ദീപത്തൂണി'ൽ ഒ [https://news.google.com/rss/articles/CBMihgJBVV95cUxOdFhDenJ] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882528
+try (N) manual=False: Used Hyundai Ioniq P Cars in Nilambur
+skip (N) only a headline, 0 words of text: Used Hyundai Ioniq P in Nilambur - 1353 Second Han [https://www.zigwheels.com/used-car/used-Hyundai-Ioniq-P-in-N]
+try (N) manual=False: Eatouts
 skip (N) could not open: മാതാവ് അവിവാഹിതയെങ്കില്‍ കുട്ടിയുടെ അവകാശം അമ്മയ്ക [https://news.google.com/rss/articles/CBMiswFBVV95cUxNTHJ3OWx] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882507
-try (N) manual=False: പുല്പള്ളിയിൽ വനിതാസംഗമം
-skip (N) no Malappuram place in article: പുല്പള്ളിയിൽ വനിതാസംഗമം
-try (N) manual=False: വല്ലാത്തൊരു പണി!
-skip (N) no Malappuram place in article: ‘‘രഘുപതി രാഘവ രാജാറാം’ പാടി അച്ഛന്റെകൂടെ നടന്നവരാണ
-try (N) manual=False: പത്മജ ബി.ജെ.പി വിട്ടു; ‘മീനിനെ പിടിച്ച് കരയിൽ ഇട്ടതുപോലെയായി
-NOT filed (N) വീണ്ടും ഇടിഞ്ഞ് സ്വർണം! പവന് 95,840തിലേക്ക്; പോക്ക: all free models failed: no usable answer from the models
-try (N) manual=False: നരേന്ദ്ര മോദി ട്രംപിന് സമ്മാനിച്ച 'ഗോൾഡൻ പിച്ചവായ്' വെറുമൊരു
-skip (N) already filed: വല്ലാത്തൊരു പണി!
 try (N) manual=False: ഐപിഒയിൽ ചരിത്രം കുറിച്ച് ആന്ത്രോപിക്ക്; 81 ബില്ല്യൺ ഡോളറിലധി
-skip (N) no Malappuram place in article: പത്മജ ബി.ജെ.പി വിട്ടു; ‘മീനിനെ പിടിച്ച് കരയിൽ ഇട്ട
-try (N) manual=False: മദ്യപിച്ച് ഡ്രൈവിംഗ് അനുശ്രീ പിടിക്കും , ശ്രദ്ധേയം 10-ാം ക്ല
-skip (N) no Malappuram place in article: നരേന്ദ്ര മോദി ട്രംപിന് സമ്മാനിച്ച 'ഗോൾഡൻ പിച്ചവായ്
-try (N) manual=False: സംഗീതിന്റെ ഡിയർ ആയി മമിത, ഹലോ ഡിയർ പുതിയ പോസ്റ്റർ - CINEMA -
-skip (N) no Malappuram place in article: മദ്യപിച്ച് ഡ്രൈവിംഗ്   അനുശ്രീ പിടിക്കും , ശ്രദ്ധേ
-try (N) manual=False: ബച്ചന്റെ കുടുംബത്തിൽ സ്വത്തുതർക്കം 100 കോടിയുടെ 'ജൽസ' ആരുടേത
-skip (N) no Malappuram place in article: സംഗീതിന്റെ ഡിയർ ആയി  മമിത,  ഹലോ ഡിയർ പുതിയ പോസ്റ്
-try (N) manual=False: കസ്റ്റഡി മർദ്ദനം, സുജിത്തിന് 50,000 രൂപ നഷ്ടപരിഹാരം നൽകണം
-skip (N) no Malappuram place in article: ബച്ചന്റെ കുടുംബത്തിൽ
-സ്വത്തുതർക്കം
-
- 100 കോടിയു
-try (N) manual=False: രണ്ടു ദീർഘകാല കരാറുകൾക്ക് അനുമതി തേടി കെ.എസ്.ഇ.ബി
-skip (N) no Malappuram place in article: കസ്റ്റഡി മർദ്ദനം,  സുജിത്തിന് 50,000 രൂപ
-നഷ്ടപരിഹ
-try (N) manual=False: നായകൻ ചന്തുനാഥ്, ഹൊറർ പടവുമായി വീണ്ടും രാജസേനൻ - CINEMA - NE
-skip (N) no Malappuram place in article: രണ്ടു ദീർഘകാല കരാറുകൾക്ക് 
-അനുമതി തേടി കെ.എസ്.ഇ.ബ
-try (N) manual=False: 'പന്ത് ചുരണ്ടൽ പാകിസ്ഥാൻ ക്രിക്കറ്റിലുമുണ്ടായിട്ടുണ്ട്, ഇത്ര
+NOT filed (R) തോടിന് സമീപം മലിനജലം ഒഴുക്കിവിട്ട സ്ഥാപനം; എടവണ്ണപ: all free models failed: no usable answer from the models
+try (N) manual=False: മമ്മൂട്ടിയും ദുൽഖറും നേർക്കുനേർ - CINEMA - NEWS
 skip (N) could not open: ഐപിഒയിൽ ചരിത്രം കുറിച്ച് ആന്ത്രോപിക്ക്; 81 ബില്ല്യ [https://news.google.com/rss/articles/CBMiugFBVV95cUxNNnJKcnN] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/money-business
-try (N) manual=False: ഹെയ്ൽ മേരിയുടെ പാട്ടിൽ സുരാജും അക്ഷരയും - CINEMA - NEWS
-skip (N) too old (2026-10-30T06:08:00+05:30): നായകൻ ചന്തുനാഥ്, ഹൊറർ പടവുമായി വീണ്ടും രാജസേനൻ
-try (N) manual=False: മാതാപിതാക്കൾക്കൊപ്പം സ്കൂട്ടർ വാങ്ങാനെത്തിയ വീഡിയോ കണ്ടത് 13
-skip (N) no Malappuram place in article: 'പന്ത് ചുരണ്ടൽ പാകിസ്ഥാൻ ക്രിക്കറ്റിലുമുണ്ടായിട്ടു
+try (N) manual=False: പിടിച്ചുപറിയും വധശ്രമവും; രണ്ടുപേർ അറസ്റ്റിൽ
+skip (N) no Malappuram place in article: Eatouts
+try (N) manual=False: സഹോദരങ്ങളെ വെട്ടിപ്പരിക്കൽപ്പിച്ച സംഭവം: ഒളിവിൽ കഴിഞ്ഞ പ്രതി
+skip (N) no Malappuram place in article: മമ്മൂട്ടിയും ദുൽഖറും   നേർക്കുനേർ
+try (N) manual=False: ഐ.ടി പാർക്കിൽ ബാർ തുടങ്ങാൻ ചട്ടത്തിൽ ഇളവ്: എതിർപ്പിനെ തുടർന്
+skip (N) no Malappuram place in article: പിടിച്ചുപറിയും വധശ്രമവും; രണ്ടുപേർ അറസ്റ്റിൽ
+try (N) manual=False: വലിയ വിമാനങ്ങളുടെ സർവ്വീസ് പുനരാരംഭിക്കണം - LOCAL - MALAPPUR
+skip (N) no Malappuram place in article: സഹോദരങ്ങളെ വെട്ടിപ്പരിക്കൽപ്പിച്ച സംഭവം:
+ഒളിവിൽ ക
+try (N) manual=False: മുന്‍ ഭാര്യയെ കാണാനെത്തിയ യുവാവിന് കുത്തേറ്റു; പങ്കാളി അറസ്റ
+skip (N) no Malappuram place in article: ഐ.ടി പാർക്കിൽ ബാർ തുടങ്ങാൻ ചട്ടത്തിൽ ഇളവ്:
+എതിർപ്
+try (N) manual=False: ടൂറിസ്റ്റ് ബസുകൾ ഇനി 'കളറാകും'; വെള്ളനിറം നിര്‍ബന്ധമാക്കിയ ഉ
+skip (N) too old (2021-12-18T00:03:00+05:30): വലിയ വിമാനങ്ങളുടെ സർവ്വീസ്  പുനരാരംഭിക്കണം
 try (N) manual=False: ഇടപാടുകൾ ഇല്ല, ‌ഒടിപിയും കൊടുത്തില്ല; ടെക്കിക്ക് ക്രെഡിറ്റ് 
-skip (N) no Malappuram place in article: ഹെയ്ൽ മേരിയുടെ  പാട്ടിൽ   സുരാജും അക്ഷരയും
+skip (N) no Malappuram place in article: മുൻ ഭാര്യയെ കാണാനെത്തിയ യുവാവിന് കുത്തേറ്റു; പങ്കാ
+try (N) manual=False: നെടുമുടി വേണുവും പി.ബാലചന്ദ്രനും അവസാനമായി ഒരുമിച്ച 'ഓറഞ്ച് 
+skip (N) could not open: ടൂറിസ്റ്റ് ബസുകൾ ഇനി 'കളറാകും'; വെള്ളനിറം നിര്‍ബന് [https://news.google.com/rss/articles/CBMi8gFBVV95cUxNMGZ4ekd] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/kerala/to
 try (N) manual=False: വെജ് ബർഗറിന് പകരം നോൺ-വെജ്; ബർഗർ കിംഗും സ്വിഗ്ഗിയും 72,000 ര
 skip (N) could not open: ഇടപാടുകൾ ഇല്ല, ‌ഒടിപിയും കൊടുത്തില്ല; ടെക്കിക്ക് ക [https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNDA0cXV] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/india/cre
 try (N) manual=False: 'കിരീടം – വിൽക്കപ്പെട്ട സ്വപ്നങ്ങൾ' ഡിസംബർ 14 മുതൽ ജിയോ ഹോട്
-skip (N) could not open: വെജ് ബർഗറിന് പകരം നോൺ-വെജ്; ബർഗർ കിംഗും സ്വിഗ്ഗിയു [https://news.google.com/rss/articles/CBMi-wFBVV95cUxNRDhFSXp] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/india/bur
+skip (N) could not open: നെടുമുടി വേണുവും പി.ബാലചന്ദ്രനും അവസാനമായി ഒരുമിച് [https://news.google.com/rss/articles/CBMizgFBVV95cUxNMkVGUFd] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/film/nedu
 try (N) manual=False: പി ജി ഡോക്ടർമാരോട് വിവാഹം നീട്ടിവെക്കാൻ നിർദേശിച്ച ആസാം മെഡി
-skip (N) could not open: 'കിരീടം – വിൽക്കപ്പെട്ട സ്വപ്നങ്ങൾ' ഡിസംബർ 14 മുതൽ [https://news.google.com/rss/articles/CBMiywFBVV95cUxOU1pUNGR] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/film/kire
+skip (N) could not open: വെജ് ബർഗറിന് പകരം നോൺ-വെജ്; ബർഗർ കിംഗും സ്വിഗ്ഗിയു [https://news.google.com/rss/articles/CBMi-wFBVV95cUxNRDhFSXp] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/india/bur
 try (N) manual=False: EFPO വിരമിച്ചവർക്ക് ഇനി പിഎഫ് തുക പ്രതിമാസം പിൻവലിക്കാം; ഇപി
-skip (N) could not open: പി ജി ഡോക്ടർമാരോട് വിവാഹം നീട്ടിവെക്കാൻ നിർദേശിച്ച [https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeG1DN2F] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/india/ass
+skip (N) could not open: 'കിരീടം – വിൽക്കപ്പെട്ട സ്വപ്നങ്ങൾ' ഡിസംബർ 14 മുതൽ [https://news.google.com/rss/articles/CBMiywFBVV95cUxOU1pUNGR] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/film/kire
 try (N) manual=False: വാഹന മലിനീകരണ നിയന്ത്രണ സർട്ടിഫിക്കറ്റ് നിയമങ്ങളിൽ മാറ്റം
-skip (N) could not open: EFPO വിരമിച്ചവർക്ക് ഇനി പിഎഫ് തുക പ്രതിമാസം പിൻവലി [https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdjk5M25] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/money/ret
+skip (N) could not open: പി ജി ഡോക്ടർമാരോട് വിവാഹം നീട്ടിവെക്കാൻ നിർദേശിച്ച [https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeG1DN2F] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/india/ass
 try (N) manual=False: കാരണം വ്യക്തിപരം; പിന്തുണയ്ക്ക് നന്ദി: പത്മജാ വേണുഗോപാലിന്റെ
-skip (N) could not open: മാതാപിതാക്കൾക്കൊപ്പം സ്കൂട്ടർ വാങ്ങാനെത്തിയ വീഡിയോ [https://news.google.com/rss/articles/CBMi7AFBVV95cUxObUljWmR] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/buzz/137-
-try (N) manual=False: 'കോൺഗ്രസിനെ തേടിയെത്തുന്നതിന് പിന്നിൽ അധികാര കൊതി മാത്രം' പത
+skip (N) could not open: EFPO വിരമിച്ചവർക്ക് ഇനി പിഎഫ് തുക പ്രതിമാസം പിൻവലി [https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdjk5M25] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/money/ret
+try (N) manual=False: ചരിത്രം കുറിച്ച് സൈമണ്‍ ഹാര്‍മര്‍; തകര്‍ത്തത് 130 വര്‍ഷം പഴക
 skip (N) could not open: വാഹന മലിനീകരണ നിയന്ത്രണ സർട്ടിഫിക്കറ്റ് നിയമങ്ങളിൽ [https://news.google.com/rss/articles/CBMi5wFBVV95cUxOSmlLTDV] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/india/ext
-try (N) manual=False: Leopard scare keeps Malappuram's Randampadam on the edge for
-skip (N) not a Malayalam article: Leopard scare keeps Malappuram's Randampadam on th [https://www.onmanorama.com/news/kerala/2026/11/20/suspected-]
-try (N) manual=False: Kizhisseri KDS All-India Sevens football tournament begins i
-skip (N) not a Malayalam article: Kizhisseri KDS All-India Sevens football tournamen [https://www.onmanorama.com/news/kerala/2026/11/20/kizhisseri]
 try (N) manual=False: https://www.madhyamam.com/kerala/local-news/malappuram/stric
 NOT filed (N) ബാലവേല തടയാൻ കർശന പരിശോധന | Madhyamam: all free models failed: no usable answer from the models
 try (N) manual=False: https://www.madhyamam.com/kerala/local-news/malappuram/wagon
-skip (N) could not open: കാരണം വ്യക്തിപരം; പിന്തുണയ്ക്ക് നന്ദി: പത്മജാ വേണു [https://news.google.com/rss/articles/CBMiygFBVV95cUxNMk5ZaU1] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/kerala/pa
-try (N) manual=False: https://www.twentyfournews.com/2026/11/20/housing-protesters
 NOT filed (N) വാഗൺ ദുരന്തസ്മരണക്ക് 105 വയസ് | Madhyamam: all free models failed: no usable answer from the models
-try (N) manual=False: https://www.twentyfournews.com/2026/11/20/allegations-that-i
-skip (N) no Malappuram place in article: ‘ഈ സർക്കാരും സർക്കാർ സംവിധാനങ്ങളും നുണയൻമാരാണ്’ ; 
-try (N) manual=False: https://www.twentyfournews.com/2026/11/20/v-v-rajesh-on-mana
-skip (N) no Malappuram place in article: തമിഴ്നാട്ടിലെത്തേണ്ട നിക്ഷേപങ്ങൾ ആന്ധ്രാപ്രദേശിലേക
-try (N) manual=False: https://www.twentyfournews.com/2026/11/20/yogi-adithyanath-m
-skip (N) could not open: 'കോൺഗ്രസിനെ തേടിയെത്തുന്നതിന് പിന്നിൽ അധികാര കൊതി  [https://news.google.com/rss/articles/CBMiswFBVV95cUxOWVVqNFN] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/kerala/ji
-try (N) manual=False: https://www.twentyfournews.com/2026/11/20/clean-kerala-green
-skip (N) no Malappuram place in article: ക്ലീൻ കേരളം ഗ്രീൻ കേരളം: പദ്ധതിയ്ക്ക് പിന്തുണയുമായ
-skip (N) no Malappuram place in article: മാനവിയം വീഥി നഗരസഭയുടെ ഉടമസ്ഥതയിലുള്ള സ്ഥലമല്ല, നട
-skip (N) no Malappuram place in article: യുപി മുഖ്യമന്ത്രി യോഗി ആദിത്യനാഥിന്റെ മാതാവ് അന്തര
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 3, 'N': 157, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 45 min
-carousel for 0 of 0 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
+skip (N) could not open: കാരണം വ്യക്തിപരം; പിന്തുണയ്ക്ക് നന്ദി: പത്മജാ വേണു [https://news.google.com/rss/articles/CBMiygFBVV95cUxNMk5ZaU1] 403 Client Error: Forbidden for url: https://malayalam.news18.com/news/kerala/pa
+skip (N) could not open: ചരിത്രം കുറിച്ച് സൈമണ്‍ ഹാര്‍മര്‍; തകര്‍ത്തത് 130  [https://news.google.com/rss/articles/CBMirAFBVV95cUxQMlRsMDB] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882310
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 74, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 45 min
+carousel for 0 of 1 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)
 queue: 0 news waiting to be written
-All News sheet: {"ok":true,"added":10,"updated":50}
-All News sheet: {"ok":true,"added":9,"updated":51}
-All News sheet: {"ok":true,"added":16,"updated":37} 
-stories: 0
+All News sheet: {"ok":true,"added":3,"updated":57}
+All News sheet: {"ok":true,"added":2,"updated":58}
+All News sheet: {"ok":true,"added":5,"updated":38} 
+stories: 1
