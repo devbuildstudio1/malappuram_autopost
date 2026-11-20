@@ -1,204 +1,49 @@
-writing [N]: മാധ്യമം ഹെൽത്ത് കെയറിലേക്ക് സഹായവുമായി വിദ്യാർഥികൾ | Madhyam
+writing [N]: വീണ്ടും ഇടിഞ്ഞ് സ്വർണം! പവന് 95,840തിലേക്ക്; പോക്ക് എങ്ങോട്ട
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-writing [N]: വടക്കുകിഴക്കൻ കാലവർഷം ചതിച്ചു; സംസ്ഥാനത്ത് ഏറ്റവും കുറവ് മഴ 
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-writing [N]: പി.സി.ഡബ്ല്യു.എഫ് സിറ്റി മേഖല ജനറൽ ബോഡി | Madhyamam
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.8-flash
-ok gemini/gemini-3.6-flash (19s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok gemini/gemini-3.6-flash (9s)
-factcheck by gemini/gemini-3.6-flash: 0 problems
-attempt 1 gemini/gemini-3.6-flash: 0 problems
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok gemini/gemini-3.6-flash (19s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok gemini/gemini-3.6-flash (34s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok gemini/gemini-3.6-flash (15s)
-factcheck by gemini/gemini-3.6-flash: 0 problems
-attempt 1 gemini/gemini-3.6-flash: 0 problems
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-ok gemini/gemini-3.6-flash (8s)
-factcheck by gemini/gemini-3.6-flash: 0 problems
-attempt 1 gemini/gemini-3.6-flash: 0 problems
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok groq/openai/gpt-oss-120b (6s)
-proofread rejected (3 problems)
-  reel_script has 49 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  caption must contain the exact follow line
-  caption has no "📰 പൂർണ വിവരം:" block - put the whole story (every fact) in the caption
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok groq/openai/gpt-oss-120b (3s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-ok groq/openai/gpt-oss-120b (6s)
-proofread rejected (3 problems)
-  missing key: reel_script
-  missing key: caption
-  missing key: scenes
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-ok gemini/gemini-3.6-flash (33s)
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-switching away from groq/openai/gpt-oss-120b for 10 min
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-switching away from groq/openai/gpt-oss-120b for 10 min
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-switching away from groq/openai/gpt-oss-120b for 10 min
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-ok groq/qwen/qwen3.8-27b (1s)
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-ok groq/qwen/qwen3.8-27b (1s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-switching away from groq/qwen/qwen3.8-27b for 10 min
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-switching away from groq/qwen/qwen3.8-27b for 10 min
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-image match: False The image shows a lush green field with a generic/AI-generated depiction of a person in a hat, which does not represent 
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
-free fact-check unavailable, using Claude: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit ex
-factcheck unavailable: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDrfwdVvGKE5YJ67s9C1"}
-proofread rejected (1 problems)
-  fact-check: could not be run
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 3 for 'Malappuram records highest monsoon rainf'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261120-1355","first":"MP-348"}
-posting job started at once
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-writing [N]: വീണ്ടും ഇടിഞ്ഞ് സ്വർണം! പവന് 95,840തിലേക്ക്; പോക്ക് എങ്ങോട്ട
-free models unavailable: free models not efficient (9 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDrtnJ39kmPJV3dsk6x6"}
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match: False The photo shows a blurry close-up of a person's arm reaching towards a window or shade, which does not depict Madrassah 
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Madrassah students in Kolathur donate fu'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261120-1359","first":"MP-349"}
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'PCWF Kuwait chapter City zone general bo'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261120-1403","first":"MP-350"}
-write_stories.yml started
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChDsaCrVXrmBq4aPH9iAs"}
 earlier stories still waiting for images: []
 instagram check: 78 recent posts read from all pages
-write round: 27 news waiting in the queue (written in priority order)
-candidate filter: collected=27
-to write: 1 Manjeri + 0 Kondotty + 26 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 1 Manjeri, 0 Kondotty, 26 Malappuram; time left 29 min
-try (N) manual=False: കുത്തനെ ഇടിഞ്ഞ് സംസ്ഥാനത്തെ സ്വർണവില: പവന് ഇന്ന് ഒറ്റയടിക്ക്
-try (N) manual=False: ഇതെന്ത് മറിമായം ! സ്വർണവില ഒറ്റയടിക്ക് 3760 രൂപ കുറഞ്ഞു; പവൻ
-try (N) manual=False: സ്വർണവില തുടർച്ചയായ അഞ്ചാം ദിവസവും താഴോട്ട്; സംസ്ഥാനത്ത് പവൻ
-skip (N) today's price is already filed: സ്വർണവില തുടർച്ചയായ അഞ്ചാം ദിവസവും താഴോട്ട്; സംസ്ഥ
-try (N) manual=False: സംസ്ഥാനത്ത് സ്വർണവില വീണ്ടും ഇടിഞ്ഞു; പവന് 95,840 രൂപ
-skip (N) today's price is already filed: സംസ്ഥാനത്ത് സ്വർണവില വീണ്ടും ഇടിഞ്ഞു; പവന് 95,840 
-try (N) manual=False: സ്വർണം ഏറ്റവും താഴ്ന്ന നിരക്കിൽ; 80,000-ലേക്കോ? നവംബർ 20-ലെ 
-skip (N) today's price is already filed: സ്വർണം ഏറ്റവും താഴ്ന്ന നിരക്കിൽ; 80,000-ലേക്കോ? നവ
-try (N) manual=False: ദുബായിൽ സ്വർണവില കുറഞ്ഞു; ഇന്നത്തെ 22K, 24K നിരക്കുകളും രൂപയ
-skip (N) today's price is already filed: ദുബായിൽ സ്വർണവില കുറഞ്ഞു; ഇന്നത്തെ 22K, 24K നിരക്ക
-try (N) manual=False: സ്വർണവില കൂപ്പുകുത്തുന്നു; ഒറ്റയടിക്ക് പവന് കുറഞ്ഞത് 1,880 ര
-skip (N) today's price is already filed: ഇതെന്ത് മറിമായം ! സ്വർണവില ഒറ്റയടിക്ക് 3760 രൂപ കു
-try (N) manual=False: സ്വർണ വില 90,000ത്തിൽ താഴെയെത്തുമോ? ഇന്ന് കുറഞ്ഞത് 3760 രൂപ,
-skip (N) similar to a filed story: സ്വർണ വില 90,000ത്തിൽ താഴെയെത്തുമോ? ഇന്ന് കുറഞ്ഞത്
-try (N) manual=False: TODAY'S GOLD RATE|ഇടിവ് തുടർന്ന് സ്വർണവില; പവന് കുറഞ്ഞത് 376
-skip (N) today's price is already filed: സ്വർണവില കൂപ്പുകുത്തുന്നു; ഒറ്റയടിക്ക് പവന് കുറഞ്ഞ
-try (N) manual=False: സ്വർണവില ഇടിഞ്ഞ് താഴുന്നു; പവന് കുറഞ്ഞത് 35000 രൂപ, ഗ്രാം വി
-skip (N) today's price is already filed: സ്വർണവില ഇടിഞ്ഞ് താഴുന്നു; പവന് കുറഞ്ഞത് 35000 രൂപ
-try (N) manual=False: സ്വർണവിലയിൽ വൻ ഇടിവ്
-skip (N) similar to a filed story: TODAY'S GOLD RATE|ഇടിവ് തുടർന്ന് സ്വർണവില; പവന് കു
-try (N) manual=False: ഇടിവോട് ഇടിവ്; സംസ്ഥാനത്ത് ഇന്നും സ്വർണവില  ലക്ഷത്തിന് താഴെ
-skip (N) today's price is already filed: ഇടിവോട് ഇടിവ്; സംസ്ഥാനത്ത് ഇന്നും സ്വർണവില  ലക്ഷത്
-try (N) manual=False: എന്റെ പൊന്നെടാവ്വേ നിനക്ക് വയ്യേ! നവംബർ 19-ലെ കേരളത്തിലെ സ്വ
-skip (N) today's price is already filed: എന്റെ പൊന്നെടാവ്വേ നിനക്ക് വയ്യേ! നവംബർ 19-ലെ കേരള
-try (N) manual=False: സ്വർണവില ഇന്നും ദേ കിടക്കുന്നു മൂക്കുംകുത്തി താഴെ;ഒറ്റയടിക്ക
-skip (N) today's price is already filed: സ്വർണവില ഇന്നും ദേ കിടക്കുന്നു മൂക്കുംകുത്തി താഴെ;
+write round: 4 news waiting in the queue (written in priority order)
+candidate filter: collected=4
+to write: 1 Manjeri + 0 Kondotty + 3 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 1 Manjeri, 0 Kondotty, 3 Malappuram; time left 29 min
 try (N) manual=False: ഇടിഞ്ഞിടിഞ്ഞ് എങ്ങോട്ട്? സ്വർണവില വീണ്ടും വീണു; ഒറ്റയടിക്ക് 
-skip (N) today's price is already filed: സ്വർണവിലയിൽ വൻ ഇടിവ്
-try (N) manual=False: സ്വർണവില പിടിവിട്ട് താഴോട്ട്; ഇന്നും കുത്തനെ കുറഞ്ഞു; രണ്ടാ
-skip (N) could not open: ഇടിഞ്ഞിടിഞ്ഞ് എങ്ങോട്ട്? സ്വർണവില വീണ്ടും വീണു; ഒറ [https://www.deepika.com/business/gold-rate-today-217661] 403 Client Error: Forbidden for url: https://www.deepika.com/business/gold-rate-
-try (N) manual=False: സംസ്ഥാനത്ത് വീണ്ടും ഇടിഞ്ഞുതാഴ്ന്ന് സ്വർണവില. 22 കാരറ്റ് സ്വ
-skip (N) today's price is already filed: സ്വർണവില പിടിവിട്ട് താഴോട്ട്; ഇന്നും കുത്തനെ കുറഞ
-try (N) manual=False: സ്വർണവില വീണ്ടും ഒരു ലക്ഷത്തിന് താഴെ; രണ്ടാഴ്ചയ്ക്കിടെ കുറഞ്
-skip (N) today's price is already filed: സംസ്ഥാനത്ത് വീണ്ടും ഇടിഞ്ഞുതാഴ്ന്ന് സ്വർണവില. 22 ക
-try (N) manual=False: സ്വർണവിലയിൽ വമ്പൻ തകർച്ച; 2025 ഡിസംബറിലെ നിരക്കിലേക്ക് ഇടിഞ്
-skip (N) today's price is already filed: സ്വർണവിലയിൽ വമ്പൻ തകർച്ച; 2025 ഡിസംബറിലെ നിരക്കിലേ
-try (N) manual=False: സ്വർണ വില വീണ്ടും താഴേക്ക്; കേരളത്തിൽ വില 90,000ത്തിലേക്ക്? 
-skip (N) today's price is already filed: സ്വർണവില വീണ്ടും ഒരു ലക്ഷത്തിന് താഴെ; രണ്ടാഴ്ചയ്ക്
-try (N) manual=False: താഴോട്ട് തന്നെ ; സ്വർണവിലയിൽ ഇടിവ് തുടരുന്നു
-skip (N) today's price is already filed: സ്വർണ വില വീണ്ടും താഴേക്ക്; കേരളത്തിൽ വില 90,000ത്
-try (N) manual=False: വടക്കുകിഴക്കൻ കാലവർഷം ചതിച്ചു; സംസ്ഥാനത്ത് ഏറ്റവും കുറവ് മഴ 
-skip (N) today's price is already filed: താഴോട്ട് തന്നെ ; സ്വർണവിലയിൽ ഇടിവ് തുടരുന്നു
-try (N) manual=False: മാധ്യമം ഹെൽത്ത് കെയറിലേക്ക് സഹായവുമായി വിദ്യാർഥികൾ | Madhyam
-skip (N) similar to a filed story: കുത്തനെ ഇടിഞ്ഞ് സംസ്ഥാനത്തെ സ്വർണവില: പവന് ഇന്ന് ഒ
 try (R) manual=False: മഞ്ഞപ്പിത്ത പ്രതിരോധം ശക്തമാക്കാൻ മഞ്ചേരിയിൽ അടിയന്തര യോഗം
-skip (R) could not open: മഞ്ഞപ്പിത്ത പ്രതിരോധം ശക്തമാക്കാൻ മഞ്ചേരിയിൽ അടിയ [https://www.mangalam.com/news/detail/882195-news-details.htm] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882195
 try (N) manual=False: പൾസ് പോളിയോ; 12.92 ലക്ഷം കുഞ്ഞുങ്ങൾക്ക് തുള്ളിമരുന്ന് നൽകും
 skip (N) could not open: പൾസ് പോളിയോ; 12.92 ലക്ഷം കുഞ്ഞുങ്ങൾക്ക് തുള്ളിമരുന [https://www.deshabhimani.com/News/kerala/pulse-polio-drive-t] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/News/kerala/pu
-try (N) manual=False: പി.സി.ഡബ്ല്യു.എഫ് സിറ്റി മേഖല ജനറൽ ബോഡി | Madhyamam
-auto images: 1 of 1 stories ({'pollinations': 4})
-posting job started at once
 try (N) manual=False: വീണ്ടും ഇടിഞ്ഞ് സ്വർണം! പവന് 95,840തിലേക്ക്; പോക്ക് എങ്ങോട്ട
-auto images: 1 of 1 stories ({'pollinations': 9})
-auto images: 1 of 1 stories ({'pollinations': 13})
+skip (N) could not open: ഇടിഞ്ഞിടിഞ്ഞ് എങ്ങോട്ട്? സ്വർണവില വീണ്ടും വീണു; ഒറ [https://www.deepika.com/business/gold-rate-today-217661] 403 Client Error: Forbidden for url: https://www.deepika.com/business/gold-rate-
+skip (R) could not open: മഞ്ഞപ്പിത്ത പ്രതിരോധം ശക്തമാക്കാൻ മഞ്ചേരിയിൽ അടിയ [https://www.mangalam.com/news/detail/882195-news-details.htm] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882195
 NOT filed (N) വീണ്ടും ഇടിഞ്ഞ് സ്വർണം! പവന് 95,840തിലേക്ക്; പോക്ക: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 26, 'K': 0}, done={'R': 0, 'N': 3, 'K': 0}, time left 16 min
-carousel for 0 of 3 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 3 Malappuram (targets 200 + 200 + 200)
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 3, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
 queue: 4 news waiting to be written
-write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":7} 
-stories: 3
+All News sheet: {"ok":true,"added":0,"updated":4} 
+stories: 0
