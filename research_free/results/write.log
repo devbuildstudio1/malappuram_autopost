@@ -1,205 +1,88 @@
-writing [R]: സ്മൈൽ പദ്ധതി; ഭിക്ഷാടനത്തിന് വിട, ഇനി പുതുജീവിതം | Madhyamam
-writing [N]: ഇൻസ്റ്റഗ്രാമിൽ വിദ്യാർഥികളുടെ പോർവിളി; ഉപജില്ല കലോത്സവ നഗരിയ
+writing [N]: നായ്ക്കളുടെ ഭക്ഷണം എത്തിച്ചില്ല; മലപ്പുറത്തെ കടയുടമക്ക് 19,5
+writing [N]: ദേശീയ സരസ് മേള; ഭക്ഷണക്കമ്മിറ്റി യോഗം ചേർന്നു
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-writing [N]: ഫെയർനെസ് ക്രീമിൽ 1.25% മെർക്കുറി; 17കാരിയുടെ വൃക്കകളുടെ പ്രവ
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-switching away from gemini/gemini-3.8-flash for 10 min
-fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.8-flash
-fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.7-flash
-ok gemini/gemini-3.6-flash (34s)
-attempt 1 gemini/gemini-3.6-flash: 7 problems
-  reel_script has 54 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 7, 8
-  stray Malayalam sign 'ാ' after '-' in «ടി: 7-ാം ക»
-  stray Malayalam sign 'ാ' after '-' in «ള്ള 7-ാം ക»
-  stray Malayalam sign 'ാ' after '-' in «ടി; 7-ാം ക»
-  stray Malayalam sign 'ാ' after '-' in «ള്ള 7-ാം ക»
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): പുറത്തൂർ ('പുറത്തൂരിൽ കലോത്സവത്തിന് മുന്നോടിയായി സംഘർഷസാധ്യത ഒഴിവാക്കാൻ')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high d
-fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.7-flash
-fail gemini/gemini-3.6-flash: Expecting ',' delimiter: line 1 column 1147 (char 1146)
-poor answer - skipped for 30 min: gemini/gemini-3.6-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-ok gemini/gemini-3.6-flash (18s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok groq/openai/gpt-oss-120b (4s)
-factcheck by groq/openai/gpt-oss-120b: 3 problems
-  Ungrammatical/incorrect symptom description "കൈകാലുകളിൽ നീർ" (and similar phrasing in slides and caption) does not match article’s "കൈകാലുകളിലും മുഖത്തും നീരുണ്ടായി"
-  Reel script omits the seller’s claim that the cream contained no mercury and only natural ingredients, which is an important fact from the article
-  Repeated inaccurate symptom phrasing "കൈകാലുകളിൽ നീർ" in slides_spec and caption is not supported by the article
-attempt 1 gemini/gemini-3.6-flash: 3 problems
-  fact-check: Ungrammatical/incorrect symptom description "കൈകാലുകളിൽ നീർ" (and similar phrasing in slides and caption) does not match article’s "കൈകാലുകളിലും മുഖത്തും നീരുണ്ടായി"
-  fact-check: Reel script omits the seller’s claim that the cream contained no mercury and only natural ingredients, which is an important fact from the article
-  fact-check: Repeated inaccurate symptom phrasing "കൈകാലുകളിൽ നീർ" in slides_spec and caption is not supported by the article
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChFmxA6E5U98prMznDAyk"}
-proofread skipped: free models not efficient (4 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChFo48fvENfUxHdUF2kCb"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChFmxbRDQwfyjHjp7e21F"}
-proofread skipped: free models not efficient (5 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-ok gemini/gemini-3.6-flash (40s)
-attempt 1 gemini/gemini-3.6-flash: 3 problems
-  reel_script has 53 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 9961177333
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 99611 ('ഭിക്ഷാടനത്തിൽ ഏർപ്പെടുന്നവരെ ശ്രദ്ധയിൽപ്പെട്ടാൽ 9961177133, '); 77333 ('ഭിക്ഷാടനത്തിൽ ഏർപ്പെടുന്നവരെ ശ്രദ്ധയിൽപ്പെട്ടാൽ 9961177133, ')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChFmxiPuwcvRupDTQaQyM"}
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok groq/openai/gpt-oss-120b (6s)
-proofread rejected (3 problems)
-  missing key: reel_script
-  missing key: caption
-  missing key: scenes
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok groq/openai/gpt-oss-120b (3s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-image match: False The photo shows a calm, tree-lined path leading toward a distant structure, with no students, crowds, or evidence of a c
-image match: False The photo shows a scenic river or canal covered in green algae, which is completely unrelated to a student clash at a yo
-image match: False The image shows an olive-green military vehicle on a street, with no indication of a student clash or a school festival 
-image match: False The photo shows an empty courtyard with fallen leaves and no students, crowd, or event visible.
-image match: False The image shows a vehicle parked outdoors and does not depict a student clash, a school festival (Kalolsavam), or any in
-image match check unavailable: gemini-3.5-flash: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models
-image match check unavailable: gemini-3.5-flash: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models
-images made: 4 for 'Student clash at Tirur sub-district Kalo'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261121-1418","first":"MP-368"}
-posting job started at once
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok groq/openai/gpt-oss-120b (3s)
-image match check unavailable: gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout
-image match: False The photo shows a narrow outdoor alleyway between buildings, which is completely unrelated to a news story about a fairn
-image match: False The image depicts glasses containing white liquid and a small bottle on a table, which is completely unrelated to a news
-image match: False The image depicts an empty narrow alleyway between buildings and has no relation to fairness cream, medical condition, o
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 3 for 'Fairness cream with 1.25% mercury causes'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261121-1423","first":"MP-369"}
-image match check unavailable: gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 3 for 'SMILE scheme rehabilitates 4 beggars in '
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261121-1425","first":"MP-370"}
-writing [N]: നായ്ക്കളുടെ ഭക്ഷണം എത്തിച്ചില്ല; മലപ്പുറത്തെ കടയുടമക്ക് 19,5
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-writing [N]: ദേശീയ സരസ് മേള; ഭക്ഷണക്കമ്മിറ്റി യോഗം ചേർന്നു
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChFnyYns6mBqKRfJ8dgay"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChFnyerEb4koGrxJnPKS3"}
-write_stories.yml started
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChFo5961boP8HAC3vRDBb"}
 earlier stories still waiting for images: []
 instagram check: 81 recent posts read from all pages
-write round: 16 news waiting in the queue (written in priority order)
-candidate filter: collected=16
-to write: 2 Manjeri + 0 Kondotty + 14 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 2 Manjeri, 0 Kondotty, 14 Malappuram; time left 29 min
-try (N) manual=False: ഫെയർനെസ് ക്രീമിൽ 1.25% മെർക്കുറി; 17കാരിയുടെ വൃക്കകളുടെ പ്രവ
+write round: 10 news waiting in the queue (written in priority order)
+candidate filter: collected=9, checked earlier=1
+to write: 0 Manjeri + 0 Kondotty + 9 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 0 Manjeri, 0 Kondotty, 9 Malappuram; time left 29 min
 try (N) manual=False: മൂന്നംഗ സംഘത്തിലെ ഒരാൾ മരിച്ചു;  2 പേർ കസ്റ്റഡിയിൽ
-try (R) manual=False: സ്മൈൽ പദ്ധതി; ഭിക്ഷാടനത്തിന് വിട, ഇനി പുതുജീവിതം | Madhyamam
-skip (N) could not open: മൂന്നംഗ സംഘത്തിലെ ഒരാൾ മരിച്ചു;  2 പേർ കസ്റ്റഡിയിൽ [https://www.deshabhimani.com/district-news/-73594/aa121aa-fy] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
-try (N) manual=False: ഇൻസ്റ്റഗ്രാമിൽ വിദ്യാർഥികളുടെ പോർവിളി; ഉപജില്ല കലോത്സവ നഗരിയ
-auto images: 1 of 1 stories ({'pollinations': 7})
-posting job started at once
 try (N) manual=False: പെരിന്തൽമണ്ണയിൽ എംഡിഎംഎയുമായി   മൂന്ന് പേർ പിടിയിൽ  | Deepik
-auto images: 1 of 1 stories ({'pollinations': 12})
-auto images: 1 of 1 stories ({'pollinations': 15})
-try (R) manual=False: കൃത്രിമ അവയവ നിർമാണ കേന്ദ്രം വൈകുന്നു
 try (N) manual=False: മുണ്ടേരി ഫാമിന് വികസനക്കുതിപ്പ്; സമഗ്ര മാസ്റ്റർ പ്ലാൻ നടപ്പാ
-skip (N) could not open: പെരിന്തൽമണ്ണയിൽ എംഡിഎംഎയുമായി   മൂന്ന് പേർ പിടിയിൽ [https://www.deepika.com/district-news/three-arrested-with-md] 403 Client Error: Forbidden for url: https://www.deepika.com/district-news/three
-try (N) manual=False: കൈക്കരുത്തിൽ കലിക്കറ്റ്
-skip (N) could not open: കൈക്കരുത്തിൽ കലിക്കറ്റ് [https://www.deshabhimani.com/district-news/-73594/aa131-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
-try (N) manual=False: നായ്ക്കളുടെ ഭക്ഷണം എത്തിച്ചില്ല; മലപ്പുറത്തെ കടയുടമക്ക് 19,5
-skip (R) could not open: കൃത്രിമ അവയവ നിർമാണ കേന്ദ്രം വൈകുന്നു [https://www.deshabhimani.com/district-news/-73594/aas13-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
-try (N) manual=False: ഫെയർനെസ് ക്രീമിൽ അമിത അളവിൽ മെർക്കുറി: ഗുരുതര വൃക്കരോഗം ബാധി
 skip (N) could not open: മുണ്ടേരി ഫാമിന് വികസനക്കുതിപ്പ്; സമഗ്ര മാസ്റ്റർ പ് [https://www.mangalam.com/news/detail/882605-development-boos] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882605
-try (N) manual=False: ജീവനെടുക്കുന്ന ക്രീമുകൾ; മലപ്പുറത്ത് ഫേസ് ക്രീം ഉപയോഗിച്ച പത
-skip (N) similar to a filed story: ജീവനെടുക്കുന്ന ക്രീമുകൾ; മലപ്പുറത്ത് ഫേസ് ക്രീം ഉപ
+try (N) manual=False: കൈക്കരുത്തിൽ കലിക്കറ്റ്
+skip (N) could not open: മൂന്നംഗ സംഘത്തിലെ ഒരാൾ മരിച്ചു;  2 പേർ കസ്റ്റഡിയിൽ [https://www.deshabhimani.com/district-news/-73594/aa121aa-fy] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+try (N) manual=False: നായ്ക്കളുടെ ഭക്ഷണം എത്തിച്ചില്ല; മലപ്പുറത്തെ കടയുടമക്ക് 19,5
+skip (N) could not open: പെരിന്തൽമണ്ണയിൽ എംഡിഎംഎയുമായി   മൂന്ന് പേർ പിടിയിൽ [https://www.deepika.com/district-news/three-arrested-with-md] 403 Client Error: Forbidden for url: https://www.deepika.com/district-news/three
 try (N) manual=False: സെമി ഉറപ്പിച്ച് മലപ്പുറം; കൊമ്പൻസിന് നിർണായകം
-skip (N) could not open: സെമി ഉറപ്പിച്ച് മലപ്പുറം; കൊമ്പൻസിന് നിർണായകം [https://www.deshabhimani.com/district-news/-73594/aas111-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+skip (N) could not open: കൈക്കരുത്തിൽ കലിക്കറ്റ് [https://www.deshabhimani.com/district-news/-73594/aa131-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
 try (N) manual=False: വിവാദങ്ങളുണ്ടാക്കുകയാണ് സതീശൻ സർക്കാരിന്റെ നയം: വി അബ്ദുറഹിമ
-skip (N) could not open: വിവാദങ്ങളുണ്ടാക്കുകയാണ് സതീശൻ സർക്കാരിന്റെ നയം: വി [https://www.deshabhimani.com/district-news/-73594/aas1-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
-try (N) manual=False: ആദ്യബോട്ടിൽ ഉപയോഗിച്ചപ്പോൾ ഫലപ്രദം, പിന്നാലെ വന്നത് വൃക്ക രോ
-skip (N) similar to a filed story: ആദ്യബോട്ടിൽ ഉപയോഗിച്ചപ്പോൾ ഫലപ്രദം, പിന്നാലെ വന്നത
+skip (N) could not open: സെമി ഉറപ്പിച്ച് മലപ്പുറം; കൊമ്പൻസിന് നിർണായകം [https://www.deshabhimani.com/district-news/-73594/aas111-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
 try (N) manual=False: വേട്ടക്കാർക്ക് താക്കീത്
-skip (N) could not open: വേട്ടക്കാർക്ക് താക്കീത് [https://www.deshabhimani.com/district-news/-73594/tirur121-f] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+skip (N) could not open: വിവാദങ്ങളുണ്ടാക്കുകയാണ് സതീശൻ സർക്കാരിന്റെ നയം: വി [https://www.deshabhimani.com/district-news/-73594/aas1-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
 try (N) manual=False: ദേശീയ സരസ് മേള; ഭക്ഷണക്കമ്മിറ്റി യോഗം ചേർന്നു
-skip (N) similar to a filed story: ഫെയർനെസ് ക്രീമിൽ അമിത അളവിൽ മെർക്കുറി: ഗുരുതര വൃക്
+skip (N) could not open: വേട്ടക്കാർക്ക് താക്കീത് [https://www.deshabhimani.com/district-news/-73594/tirur121-f] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
 NOT filed (N) നായ്ക്കളുടെ ഭക്ഷണം എത്തിച്ചില്ല; മലപ്പുറത്തെ കടയുട: all free models failed: no usable answer from the models
 NOT filed (N) ദേശീയ സരസ് മേള; ഭക്ഷണക്കമ്മിറ്റി യോഗം ചേർന്നു: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 2, 'N': 14, 'K': 0}, done={'R': 1, 'N': 2, 'K': 0}, time left 13 min
-carousel for 0 of 3 stories, the rest reel only
-filed: 1 Manjeri + 0 Kondotty + 2 Malappuram (targets 200 + 200 + 200)
-queue: 10 news waiting to be written
-write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":13} 
-stories: 3
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 9, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
+queue: 9 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":9} 
+stories: 0
