@@ -1,5 +1,11 @@
 writing [N]: ജയിൽ നിറയ്ക്കൽ പ്രക്ഷോഭം: ജാഥ പ്രയാണം തുടരുന്നു
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: മദ്യ ലഹരിയിൽ ബ്സ ജീവനക്കാർക്ക് നേരെ ആക്രമണം; രണ്ട് യുവാക്കൾ 
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [N]: തിരുവനന്തപുരത്തെ കെട്ടുകെട്ടിച്ച് മലപ്പുറം; എസ്എൽകെ സെമി ചിത
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
@@ -11,37 +17,61 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-writing [N]: മദ്യ ലഹരിയിൽ ബ്സ ജീവനക്കാർക്ക് നേരെ ആക്രമണം; രണ്ട് യുവാക്കൾ 
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-writing [N]: തിരുവനന്തപുരത്തെ കെട്ടുകെട്ടിച്ച് മലപ്പുറം; എസ്എൽകെ സെമി ചിത
-free models unavailable: free models not efficient (5 failures in a row): using Claude
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGVfMLoW85F3KADvbMuh"}
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGVfMpL6f6g8MceX2p3Q"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-writing [N]: തിരുവനന്തപുരം കൊമ്പൻസിന്റെ കൊമ്പൊടിച്ച് മലപ്പുറം
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-writing [N]: മലപ്പുറത്തെ ഹർഷപുളകിതമാക്കി എസ് വൈ എസ് യൂത്ത് മാർച്ച് | Sira
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGVfRttqBNUdA1Nv3N3s"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGVfS5Ze2t1znsLSy2ws"}
-writing [N]: ഐ.വി.എഫ്. ചികിത്സ മുതൽ പ്രസവാനന്തരം വരെ; അമ്മയ്ക്കും കുഞ്ഞിന
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGVfSrSYT9CMD3m74NtR"}
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGVh3d1EXEtEdUkqUgbR"}
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGYAAzFFgoV9NBy1BxzD"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGYABDea78LvP18PAMVy"}
+writing [N]: മലപ്പുറത്തെ ഹർഷപുളകിതമാക്കി എസ് വൈ എസ് യൂത്ത് മാർച്ച് | Sira
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGYAFZLSjRjHSUGAiBhU"}
+writing [N]: തിരുവനന്തപുരം കൊമ്പൻസിന്റെ കൊമ്പൊടിച്ച് മലപ്പുറം
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGYAG8ZtqfQnpN5Xq3vp"}
+writing [N]: ഐ.വി.എഫ്. ചികിത്സ മുതൽ പ്രസവാനന്തരം വരെ; അമ്മയ്ക്കും കുഞ്ഞിന
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGYAGoVTojNqqTerPnbp"}
+writing [N]: എം.ഇ.എസ് സ്റ്റേറ്റ് ഖൊ-ഖൊ ടൂർണമെന്റ്: താനൂർ എം.ഇ.എസ്. സെൻട
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGYALt4tD2cvTNfCHR99"}
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGYBD7mch8o5u48RALmg"}
 earlier stories still waiting for images: []
 instagram check: 82 recent posts read from all pages
 write round: 8 news waiting in the queue (written in priority order)
@@ -51,22 +81,22 @@ candidates waiting: 0 Manjeri, 0 Kondotty, 8 Malappuram; time left 29 min
 try (N) manual=False: മദ്യ ലഹരിയിൽ ബ്സ ജീവനക്കാർക്ക് നേരെ ആക്രമണം; രണ്ട് യുവാക്കൾ 
 try (N) manual=False: മലപ്പുറത്ത് എംഡിഎംഎ പിടികൂടിയ കേസ് ; ലഹരിമാഫിയ തലവൻ നൈജീരിയക
 try (N) manual=False: ജയിൽ നിറയ്ക്കൽ പ്രക്ഷോഭം: ജാഥ പ്രയാണം തുടരുന്നു
-skip (N) could not open: മലപ്പുറത്ത് എംഡിഎംഎ പിടികൂടിയ കേസ് ; ലഹരിമാഫിയ തലവ [https://www.mangalam.com/news/detail/882724-latest-news-Kond] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882724
+skip (N) similar to a filed story: മലപ്പുറത്ത് എംഡിഎംഎ പിടികൂടിയ കേസ് ; ലഹരിമാഫിയ തലവ
 try (N) manual=False: തിരുവനന്തപുരത്തെ കെട്ടുകെട്ടിച്ച് മലപ്പുറം; എസ്എൽകെ സെമി ചിത
-NOT filed (N) മദ്യ ലഹരിയിൽ ബ്സ ജീവനക്കാർക്ക് നേരെ ആക്രമണം; രണ്ട്: all free models failed: no usable answer from the models
-try (N) manual=False: തിരുവനന്തപുരം കൊമ്പൻസിന്റെ കൊമ്പൊടിച്ച് മലപ്പുറം
 NOT filed (N) തിരുവനന്തപുരത്തെ കെട്ടുകെട്ടിച്ച് മലപ്പുറം; എസ്എൽക: all free models failed: no usable answer from the models
-try (N) manual=False: മലപ്പുറത്തെ ഹർഷപുളകിതമാക്കി എസ് വൈ എസ് യൂത്ത് മാർച്ച് | Sira
-NOT filed (N) തിരുവനന്തപുരം കൊമ്പൻസിന്റെ കൊമ്പൊടിച്ച് മലപ്പുറം: all free models failed: no usable answer from the models
-try (N) manual=False: ഐ.വി.എഫ്. ചികിത്സ മുതൽ പ്രസവാനന്തരം വരെ; അമ്മയ്ക്കും കുഞ്ഞിന
-NOT filed (N) മലപ്പുറത്തെ ഹർഷപുളകിതമാക്കി എസ് വൈ എസ് യൂത്ത് മാർച: all free models failed: no usable answer from the models
-try (N) manual=False: എം.ഇ.എസ് സ്റ്റേറ്റ് ഖൊ-ഖൊ ടൂർണമെന്റ്: താനൂർ എം.ഇ.എസ്. സെൻട
-skip (N) could not open: എം.ഇ.എസ് സ്റ്റേറ്റ് ഖൊ-ഖൊ ടൂർണമെന്റ്: താനൂർ എം.ഇ [https://www.mangalam.com/news/detail/882601-details.html] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882601
-NOT filed (N) ഐ.വി.എഫ്. ചികിത്സ മുതൽ പ്രസവാനന്തരം വരെ; അമ്മയ്ക്ക: all free models failed: no usable answer from the models
+try (N) manual=False: തിരുവനന്തപുരം കൊമ്പൻസിന്റെ കൊമ്പൊടിച്ച് മലപ്പുറം
 NOT filed (N) ജയിൽ നിറയ്ക്കൽ പ്രക്ഷോഭം: ജാഥ പ്രയാണം തുടരുന്നു: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 8, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+try (N) manual=False: മലപ്പുറത്തെ ഹർഷപുളകിതമാക്കി എസ് വൈ എസ് യൂത്ത് മാർച്ച് | Sira
+NOT filed (N) മലപ്പുറത്തെ ഹർഷപുളകിതമാക്കി എസ് വൈ എസ് യൂത്ത് മാർച: all free models failed: no usable answer from the models
+try (N) manual=False: ഐ.വി.എഫ്. ചികിത്സ മുതൽ പ്രസവാനന്തരം വരെ; അമ്മയ്ക്കും കുഞ്ഞിന
+NOT filed (N) തിരുവനന്തപുരം കൊമ്പൻസിന്റെ കൊമ്പൊടിച്ച് മലപ്പുറം: all free models failed: no usable answer from the models
+try (N) manual=False: എം.ഇ.എസ് സ്റ്റേറ്റ് ഖൊ-ഖൊ ടൂർണമെന്റ്: താനൂർ എം.ഇ.എസ്. സെൻട
+NOT filed (N) ഐ.വി.എഫ്. ചികിത്സ മുതൽ പ്രസവാനന്തരം വരെ; അമ്മയ്ക്ക: all free models failed: no usable answer from the models
+NOT filed (N) എം.ഇ.എസ് സ്റ്റേറ്റ് ഖൊ-ഖൊ ടൂർണമെന്റ്: താനൂർ എം.ഇ: all free models failed: no usable answer from the models
+NOT filed (N) മദ്യ ലഹരിയിൽ ബ്സ ജീവനക്കാർക്ക് നേരെ ആക്രമണം; രണ്ട്: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 8, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 8 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":8} 
+queue: 7 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":7} 
 stories: 0
