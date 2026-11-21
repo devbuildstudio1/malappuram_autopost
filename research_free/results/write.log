@@ -1,79 +1,161 @@
-writing [N]: നായ്ക്കളുടെ ഭക്ഷണം എത്തിച്ചില്ല; മലപ്പുറത്തെ കടയുടമക്ക് 19,5
+writing [N]: ദേശീയപാതയിൽ ഓടിക്കൊണ്ടിരുന്ന കാറിന് തീപിടിച്ചു; യാത്രക്കാരുട
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: പൊതുജലാശയങ്ങളിലെ മാലിന്യം നടപടികളുമായി ഗ്രാമപ്പഞ്ചായത്ത്
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [R]: മഞ്ഞപ്പിത്തം: ആരോഗ്യവിഭാഗം മഞ്ചേരിയിൽ പരിശോധന തുടങ്ങി
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChFwAzsExWF6yZerxbbi4"}
+writing [R]: ചാർജ് ചെയ്യാൻ വെച്ചിരുന്ന ഫോൺ അടക്കം കൊണ്ടുപോയി, ജുമാ മസ്ജി
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChFwB33TvNh3K3AVFyYGV"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChFwB43jjiRqM7Fdo5z8n"}
+writing [N]: ഐ.വി.എഫ്. ചികിത്സ മുതൽ പ്രസവാനന്തരം വരെ; അമ്മയ്ക്കും കുഞ്ഞിന
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChFwB5rt9NmSdiwHgk31S"}
 writing [N]: ദേശീയ സരസ് മേള; ഭക്ഷണക്കമ്മിറ്റി യോഗം ചേർന്നു
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-writing [N]: മുണ്ടേരി ഫാമിന് വികസനക്കുതിപ്പ്; സമഗ്ര മാസ്റ്റർ പ്ലാൻ നടപ്പാ
-free models unavailable: free models not efficient (3 failures in a row): using Claude
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChFtb7QEDGqjTuZEqqCbZ"}
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+free models unavailable: free models not efficient (18 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChFwB72pXHGgYGRVWji2u"}
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChFtcNfXE7rpRNNUiWLNU"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChFtcY7YBCLgnV8QbSxdY"}
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChFwDvhKAtQjDUWTrsp5Z"}
 earlier stories still waiting for images: []
 instagram check: 82 recent posts read from all pages
-write round: 3 news waiting in the queue (written in priority order)
-candidate filter: collected=3
-to write: 0 Manjeri + 0 Kondotty + 3 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Kondotty, 3 Malappuram; time left 29 min
-try (N) manual=False: മുണ്ടേരി ഫാമിന് വികസനക്കുതിപ്പ്; സമഗ്ര മാസ്റ്റർ പ്ലാൻ നടപ്പാ
-try (N) manual=False: നായ്ക്കളുടെ ഭക്ഷണം എത്തിച്ചില്ല; മലപ്പുറത്തെ കടയുടമക്ക് 19,5
+write round: 36 news waiting in the queue (written in priority order)
+candidate filter: collected=33, already filed=3
+to write: 2 Manjeri + 0 Kondotty + 31 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 2 Manjeri, 0 Kondotty, 31 Malappuram; time left 29 min
+try (N) manual=False: സ്വർണവിലയിൽ വൻ ഇടിവ്; ഇന്ന് പവന് ₹3,760 കുറഞ്ഞു; ഒരു വർഷത്തെ
+try (N) manual=False: സ്വർണവില ഇടിവ് ആശ്വാസമോ ആശങ്കയോ?  46 വർഷത്തിനിടയിലെ വലിയ ഇടി
+try (N) manual=False: സ്വർണവില ഇടിഞ്ഞ് താഴും; പവൻ 50,000ത്തിലേക്ക് പോകാം..മേരി ജോർ
+skip (N) today's price is already filed: സ്വർണവില ഇടിഞ്ഞ് താഴും; പവൻ 50,000ത്തിലേക്ക് പോകാം
+try (N) manual=False: സ്വർണവിലയിൽ ഇന്നും ഇടിവ്; നവംബറിലെ ഏറ്റവും കുറഞ്ഞ നിരക്കിൽ, 
+skip (N) similar to a filed story: സ്വർണവിലയിൽ വൻ ഇടിവ്; ഇന്ന് പവന് ₹3,760 കുറഞ്ഞു; ഒ
+try (N) manual=False: സ്വർണവില വീണ്ടും താഴേക്ക്; 10 മാസത്തിനിടെ പവന് കുറഞ്ഞത് 40,0
+skip (N) today's price is already filed: സ്വർണവില ഇടിവ് ആശ്വാസമോ ആശങ്കയോ?  46 വർഷത്തിനിടയില
+try (N) manual=False: സ്വർണത്തിന് തണുത്ത് വിറക്കുന്നു....! ഒരു ലക്ഷത്തിന് താഴെ തന്
+skip (N) today's price is already filed: സ്വർണവില വീണ്ടും താഴേക്ക്; 10 മാസത്തിനിടെ പവന് കുറ
+try (N) manual=False: സ്വർണവില വീണ്ടും കുറഞ്ഞു; പവൻ 91,000 റേഞ്ചിൽ, തിരിച്ചുകയറുമെ
+skip (N) today's price is already filed: സ്വർണവില വീണ്ടും കുറഞ്ഞു; പവൻ 91,000 റേഞ്ചിൽ, തിരി
+try (N) manual=False: സ്വർണവില ഇന്നും കുറഞ്ഞു; പവന് കുറഞ്ഞത് 360 രൂപ – Kannur Visi
+skip (N) today's price is already filed: സ്വർണത്തിന് തണുത്ത് വിറക്കുന്നു....! ഒരു ലക്ഷത്തിന
+try (N) manual=False: കേരളത്തിലെ സ്വർണവില താഴേയ്ക്ക് തന്നെ: പവന് ഇന്ന് 360 രൂപ കുറ
+skip (N) similar to a filed story: സ്വർണവിലയിൽ ഇന്നും ഇടിവ്; നവംബറിലെ ഏറ്റവും കുറഞ്ഞ 
+try (N) manual=False: സ്വർണവില ഒരു വർഷത്തെ താഴ്ന്ന നിരക്കിൽ; പവന് ₹91,720!
+skip (N) today's price is already filed: സ്വർണവില ഒരു വർഷത്തെ താഴ്ന്ന നിരക്കിൽ; പവന് ₹91,72
+try (N) manual=False: ദുബായിൽ സ്വർണവിലയിൽ വൻ ഇടിവ്; 13 മാസത്തെ ഏറ്റവും താഴ്ന്ന വില
+skip (N) today's price is already filed: ദുബായിൽ സ്വർണവിലയിൽ വൻ ഇടിവ്; 13 മാസത്തെ ഏറ്റവും ത
+try (N) manual=False: ഇടിവ് തുടർന്ന് സ്വർണവില; നിരക്കറിയാം!
+skip (N) today's price is already filed: ഇടിവ് തുടർന്ന് സ്വർണവില; നിരക്കറിയാം!
+try (N) manual=False: എന്നാലുമെന്റെ പൊന്നേ... സ്വർണ വിലയിടിവിന് കാരണമെന്ത്? അറിയാം
+skip (N) today's price is already filed: എന്നാലുമെന്റെ പൊന്നേ... സ്വർണ വിലയിടിവിന് കാരണമെന്
+try (N) manual=False: പൊന്നിൽ അൽപം കരുതിയിരിക്കാം; നവംബർ 21-ലെ സ്വർണവില അറിഞ്ഞോളൂ 
+skip (N) today's price is already filed: പൊന്നിൽ അൽപം കരുതിയിരിക്കാം; നവംബർ 21-ലെ സ്വർണവില 
+try (N) manual=False: ആഘോഷിക്കാം; ഇന്നും സ്വർണവിലയിൽ ഇടിവ്
+skip (N) today's price is already filed: സ്വർണവില ഇന്നും കുറഞ്ഞു; പവന് കുറഞ്ഞത് 360 രൂപ – K
+try (N) manual=False: സംസ്ഥാനത്ത് സ്വർണവിലയിൽ ഇന്ന് അസാധാരണ ഇടിവ്; കുറഞ്ഞത് 3760 ര
+skip (N) could not open: ആഘോഷിക്കാം; ഇന്നും സ്വർണവിലയിൽ ഇടിവ് [https://www.kairalinewsonline.com/ml/business/gold-rate-kera] 403 Client Error: Forbidden for url: https://www.kairalinewsonline.com/ml/busine
+try (N) manual=False: സ്വർണവില കൂപ്പുകുത്തി; ഈ വർഷത്തെ  ഏറ്റവും താഴ്ന്ന നിരക്കിൽ, 
+skip (N) today's price is already filed: സ്വർണവില കൂപ്പുകുത്തി; ഈ വർഷത്തെ  ഏറ്റവും താഴ്ന്ന 
+try (N) manual=False: സംസ്ഥാനത്ത് സ്വർണവില വീണ്ടും കുറഞ്ഞു; പവന് 360 രൂപയുടെ ഇടിവ്
+skip (N) today's price is already filed: സംസ്ഥാനത്ത് സ്വർണവില വീണ്ടും കുറഞ്ഞു; പവന് 360 രൂപ
+try (N) manual=False: ദുബായിൽ സ്വർണവിലയിൽ മാറ്റം; ഇന്നത്തെ 22K, 24K നിരക്കുകളും ഇന
+skip (N) today's price is already filed: കേരളത്തിലെ സ്വർണവില താഴേയ്ക്ക് തന്നെ: പവന് ഇന്ന് 3
+try (N) manual=False: സ്വർണം വാങ്ങാൻ പ്ലാനുണ്ടോ? ഇന്നത്തെ സ്വർണവിലയും നഗരങ്ങളിലെ മ
+skip (N) similar to a filed story: സ്വർണം വാങ്ങാൻ പ്ലാനുണ്ടോ? ഇന്നത്തെ സ്വർണവിലയും നഗ
+try (N) manual=False: ഈവർഷത്തെ ഏറ്റവും താഴ്ന്നനിലയിൽ സ്വർണവില; അഞ്ചുദിവസംകൊണ്ട് പവ
+skip (N) today's price is already filed: ദുബായിൽ സ്വർണവിലയിൽ മാറ്റം; ഇന്നത്തെ 22K, 24K നിരക
+try (N) manual=False: വലിയ വിലയ്ക്ക് സ്വർണം വാങ്ങിയവർക്ക് വിലയിടിവ് കനത്ത നഷ്ടമുണ്
+skip (N) similar to a filed story: ഈവർഷത്തെ ഏറ്റവും താഴ്ന്നനിലയിൽ സ്വർണവില; അഞ്ചുദിവസ
+try (N) manual=False: ദേശീയപാതയിൽ ഓടിക്കൊണ്ടിരുന്ന കാറിന് തീപിടിച്ചു; യാത്രക്കാരുട
+skip (N) similar to a filed story: സംസ്ഥാനത്ത് സ്വർണവിലയിൽ ഇന്ന് അസാധാരണ ഇടിവ്; കുറഞ്
+try (N) manual=False: പൊതുജലാശയങ്ങളിലെ മാലിന്യം നടപടികളുമായി ഗ്രാമപ്പഞ്ചായത്ത്
+skip (N) today's price is already filed: വലിയ വിലയ്ക്ക് സ്വർണം വാങ്ങിയവർക്ക് വിലയിടിവ് കനത്
+try (R) manual=False: മഞ്ഞപ്പിത്തം: ആരോഗ്യവിഭാഗം മഞ്ചേരിയിൽ പരിശോധന തുടങ്ങി
+NOT filed (N) ദേശീയപാതയിൽ ഓടിക്കൊണ്ടിരുന്ന കാറിന് തീപിടിച്ചു; യാ: all free models failed: no usable answer from the models
+try (N) manual=False: സ്വർണക്കടത്തിന് ഹവാല
+മലബാറിൽ പത്തിടങ്ങളിൽ 
+ഇ.ഡി റെയ്ഡ്
+skip (N) could not open: സ്വർണക്കടത്തിന് ഹവാല
+മലബാറിൽ പത്തിടങ്ങളിൽ 
+ഇ.ഡി  [https://www.keralakaumudi.com/kerala/general/kerala-1828587] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera
+try (R) manual=False: ചാർജ് ചെയ്യാൻ വെച്ചിരുന്ന ഫോൺ അടക്കം കൊണ്ടുപോയി, ജുമാ മസ്ജി
+NOT filed (R) ചാർജ് ചെയ്യാൻ വെച്ചിരുന്ന ഫോൺ അടക്കം കൊണ്ടുപോയി, : all free models failed: no usable answer from the models
+try (N) manual=False: ജീവനെടുക്കുന്ന ക്രീമുകൾ; മലപ്പുറത്ത് ഫേസ് ക്രീം ഉപയോഗിച്ച പത
+NOT filed (R) മഞ്ഞപ്പിത്തം: ആരോഗ്യവിഭാഗം മഞ്ചേരിയിൽ പരിശോധന തുടങ: all free models failed: no usable answer from the models
+try (N) manual=False: ഇൻസ്റ്റഗ്രാം വഴി ഫെയർനെസ് ക്രീം വാങ്ങി, 17കാരിക്ക് ഗുരുതര വൃ
+skip (N) similar to a filed story: ജീവനെടുക്കുന്ന ക്രീമുകൾ; മലപ്പുറത്ത് ഫേസ് ക്രീം ഉപ
+try (N) manual=False: ഐ.വി.എഫ്. ചികിത്സ മുതൽ പ്രസവാനന്തരം വരെ; അമ്മയ്ക്കും കുഞ്ഞിന
+skip (N) similar to a filed story: ഇൻസ്റ്റഗ്രാം വഴി ഫെയർനെസ് ക്രീം വാങ്ങി, 17കാരിക്ക്
+try (N) manual=False: ആദ്യബോട്ടിൽ ഉപയോഗിച്ചപ്പോൾ ഫലപ്രദം, പിന്നാലെ വന്നത് വൃക്ക രോ
+skip (N) similar to a filed story: ആദ്യബോട്ടിൽ ഉപയോഗിച്ചപ്പോൾ ഫലപ്രദം, പിന്നാലെ വന്നത
+try (N) manual=False: ‘വെളുത്ത് പാറാൻ ഫെയർനസ് ക്രീം’;മലപ്പുറത്ത് 17 കാരിയ്ക്ക് ഗുര
+NOT filed (N) ഐ.വി.എഫ്. ചികിത്സ മുതൽ പ്രസവാനന്തരം വരെ; അമ്മയ്ക്ക: all free models failed: no usable answer from the models
 try (N) manual=False: ദേശീയ സരസ് മേള; ഭക്ഷണക്കമ്മിറ്റി യോഗം ചേർന്നു
-NOT filed (N) മുണ്ടേരി ഫാമിന് വികസനക്കുതിപ്പ്; സമഗ്ര മാസ്റ്റർ പ്: all free models failed: no usable answer from the models
-NOT filed (N) നായ്ക്കളുടെ ഭക്ഷണം എത്തിച്ചില്ല; മലപ്പുറത്തെ കടയുട: all free models failed: no usable answer from the models
+skip (N) could not open: ‘വെളുത്ത് പാറാൻ ഫെയർനസ് ക്രീം’;മലപ്പുറത്ത് 17 കാരി [https://www.twentyfournews.com/2026/11/21/17-year-old-girl-i] 403 Client Error: Forbidden for url: https://www.twentyfournews.com/2026/11/21/1
 NOT filed (N) ദേശീയ സരസ് മേള; ഭക്ഷണക്കമ്മിറ്റി യോഗം ചേർന്നു: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 3, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+NOT filed (N) പൊതുജലാശയങ്ങളിലെ മാലിന്യം നടപടികളുമായി ഗ്രാമപ്പഞ്ച: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 2, 'N': 31, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 3 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":3} 
+queue: 9 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":9} 
 stories: 0
