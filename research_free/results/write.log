@@ -1,6 +1,14 @@
 writing [N]: തിരുവനന്തപുരത്തെ കെട്ടുകെട്ടിച്ച് മലപ്പുറം; എസ്എൽകെ സെമി ചിത
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: തിരുവനന്തപുരം കൊമ്പൻസിന്റെ കൊമ്പൊടിച്ച് മലപ്പുറം
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -11,34 +19,52 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+writing [N]: മദ്യ ലഹരിയിൽ ബ്സ ജീവനക്കാർക്ക് നേരെ ആക്രമണം; രണ്ട് യുവാക്കൾ 
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGkAQn7ZxqJNywZKEwA8"}
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-writing [N]: തിരുവനന്തപുരം കൊമ്പൻസിന്റെ കൊമ്പൊടിച്ച് മലപ്പുറം
-free models unavailable: free models not efficient (6 failures in a row): using Claude
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGh79Mk9jgz8SDccKYgW"}
-writing [N]: മദ്യ ലഹരിയിൽ ബ്സ ജീവനക്കാർക്ക് നേരെ ആക്രമണം; രണ്ട് യുവാക്കൾ 
-free models unavailable: free models not efficient (7 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGh7A8sS38Z4f5se11K3"}
-writing [N]: ഐ.വി.എഫ്. ചികിത്സ മുതൽ പ്രസവാനന്തരം വരെ; അമ്മയ്ക്കും കുഞ്ഞിന
-free models unavailable: free models not efficient (7 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGh7BuHRYNQf8KYy1nJs"}
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 writing [N]: മലപ്പുറത്തെ ഹർഷപുളകിതമാക്കി എസ് വൈ എസ് യൂത്ത് മാർച്ച് | Sira
-free models unavailable: free models not efficient (7 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGh7DmepXt87AuE1BJuT"}
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGkAUxtH5ern7qeWdZNG"}
+writing [N]: ഐ.വി.എഫ്. ചികിത്സ മുതൽ പ്രസവാനന്തരം വരെ; അമ്മയ്ക്കും കുഞ്ഞിന
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGkAW2PKsvwbCbZfXfmt"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGh8Ug7xAcb2AUYNn5gh"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGkBcHCXZj7oQsDB49JK"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGkBjBRketxekWovvXyY"}
 earlier stories still waiting for images: []
 instagram check: 82 recent posts read from all pages
 write round: 6 news waiting in the queue (written in priority order)
@@ -48,15 +74,15 @@ candidates waiting: 0 Manjeri, 0 Kondotty, 6 Malappuram; time left 29 min
 try (N) manual=False: മദ്യ ലഹരിയിൽ ബ്സ ജീവനക്കാർക്ക് നേരെ ആക്രമണം; രണ്ട് യുവാക്കൾ 
 try (N) manual=False: തിരുവനന്തപുരത്തെ കെട്ടുകെട്ടിച്ച് മലപ്പുറം; എസ്എൽകെ സെമി ചിത
 try (N) manual=False: തിരുവനന്തപുരം കൊമ്പൻസിന്റെ കൊമ്പൊടിച്ച് മലപ്പുറം
-NOT filed (N) തിരുവനന്തപുരം കൊമ്പൻസിന്റെ കൊമ്പൊടിച്ച് മലപ്പുറം: all free models failed: no usable answer from the models
-try (N) manual=False: മലപ്പുറത്തെ ഹർഷപുളകിതമാക്കി എസ് വൈ എസ് യൂത്ത് മാർച്ച് | Sira
 NOT filed (N) മദ്യ ലഹരിയിൽ ബ്സ ജീവനക്കാർക്ക് നേരെ ആക്രമണം; രണ്ട്: all free models failed: no usable answer from the models
+try (N) manual=False: മലപ്പുറത്തെ ഹർഷപുളകിതമാക്കി എസ് വൈ എസ് യൂത്ത് മാർച്ച് | Sira
+NOT filed (N) മലപ്പുറത്തെ ഹർഷപുളകിതമാക്കി എസ് വൈ എസ് യൂത്ത് മാർച: all free models failed: no usable answer from the models
 try (N) manual=False: ഐ.വി.എഫ്. ചികിത്സ മുതൽ പ്രസവാനന്തരം വരെ; അമ്മയ്ക്കും കുഞ്ഞിന
 NOT filed (N) ഐ.വി.എഫ്. ചികിത്സ മുതൽ പ്രസവാനന്തരം വരെ; അമ്മയ്ക്ക: all free models failed: no usable answer from the models
 try (N) manual=False: എം.ഇ.എസ് സ്റ്റേറ്റ് ഖൊ-ഖൊ ടൂർണമെന്റ്: താനൂർ എം.ഇ.എസ്. സെൻട
 skip (N) could not open: എം.ഇ.എസ് സ്റ്റേറ്റ് ഖൊ-ഖൊ ടൂർണമെന്റ്: താനൂർ എം.ഇ [https://www.mangalam.com/news/detail/882601-details.html] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882601
-NOT filed (N) മലപ്പുറത്തെ ഹർഷപുളകിതമാക്കി എസ് വൈ എസ് യൂത്ത് മാർച: all free models failed: no usable answer from the models
 NOT filed (N) തിരുവനന്തപുരത്തെ കെട്ടുകെട്ടിച്ച് മലപ്പുറം; എസ്എൽക: all free models failed: no usable answer from the models
+NOT filed (N) തിരുവനന്തപുരം കൊമ്പൻസിന്റെ കൊമ്പൊടിച്ച് മലപ്പുറം: all free models failed: no usable answer from the models
 candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 6, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
