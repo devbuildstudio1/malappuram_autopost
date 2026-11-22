@@ -1,154 +1,74 @@
-writing [N]: എഫ് ട്യൂൺ ഫെയർനെസ് ക്രീമിനെതിരേ പരാതിയുമായി മുന്നോട്ടുപോകും;
+writing [N]: ‘പൈസയ്ക്ക് വേണ്ടി എന്തും ചെയ്യുന്ന ആളല്ല ഞാൻ, കരുവാളിപ്പ് മാ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-writing [N]: കേരള ഫുട്ബോളിന്റെ ശക്തി കേന്ദ്രമാണ് മലപ്പുറം: ഇവാൻ വുകോമനോവി
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-writing [R]: "പത്തുവയസുകാരിയെ 70-കാരൻ ലൈംഗികമായി പീഡിപ്പിക്കുന്ന ദൃശ്യങ്ങ
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [R]: ‘പണം വാങ്ങി എന്തും ചെയ്യുന്നവളല്ല; ഞാൻ ഉപയോഗിച്ചു, റിസൽട്ടും
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-ok gemini/gemini-3.6-flash (28s)
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok gemini/gemini-3.6-flash (28s)
-attempt 1 gemini/gemini-3.6-flash: 1 problems
-  numbers not found in the article: 17
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok gemini/gemini-3.6-flash (25s)
-attempt 1 gemini/gemini-3.6-flash: 2 problems
-  numbers not found in the article: 6
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 22 ('2021-22 ഇന്ത്യൻ സൂപ്പർ ലീഗ് സീസണിൽ ബ്ലാസ്റ്റേഴ്സ് സ്വപ്നതുല്')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
+writing [R]: "പത്തുവയസുകാരിയെ 70-കാരൻ ലൈംഗികമായി പീഡിപ്പിക്കുന്ന ദൃശ്യങ്ങ
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJWg246frb4jbXvWTF4b"}
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+writing [N]: 'എഫ് ട്യൂൺ എന്ന ക്രീമാണ് ഉപയോഗിച്ചിരുന്നത്; ഈ ക്രീമിനെക്കുറി
+free models unavailable: free models not efficient (5 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJWg3EnNKJ8H3VW7QfPs"}
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+writing [N]: താനാളൂരിൽ കേരളോത്സവ വിളംബര ജാഥ സംഘടിപ്പിച്ചു
+free models unavailable: free models not efficient (12 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJWg7ZjcCgy463bcMfxF"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJVw3KYGeeYgWGeMsmZ3"}
-proofread skipped: free models not efficient (7 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-ok gemini/gemini-3.6-flash (39s)
-factcheck by gemini/gemini-3.6-flash: 1 problems
-  The reel script specifies 'November 11' (നവംബർ 11ന്), but the article only mentions '11th of this month' (ഈ മാസം 11ന്) without specifying the month.
-attempt 1 gemini/gemini-3.6-flash: 1 problems
-  fact-check: The reel script specifies 'November 11' (നവംബർ 11ന്), but the article only mentions '11th of this month' (ഈ മാസം 11ന്) without specifying the month.
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok gemini/gemini-3.6-flash (26s)
-attempt 2 gemini/gemini-3.6-flash: 3 problems
-  numbers not found in the article: 17
-  letters of another script inside Malayalam words: ર શ ી - write every word only in Malayalam letters
-  known issue foreign_script: caption has letters of another script (શરી) - rewrite so it does not happen again
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJVwLYdokB451nggHhog"}
-proofread skipped: free models not efficient (3 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJVwMuzCtNSfyXHkNvw1"}
-proofread skipped: free models not efficient (4 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Malappuram is the powerhouse of Kerala f'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261123-0048","first":"MP-402"}
-posting job started at once
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-writing [N]: ‘പൈസയ്ക്ക് വേണ്ടി എന്തും ചെയ്യുന്ന ആളല്ല ഞാൻ, കരുവാളിപ്പ് മാ
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJWFxf39r8bGsqTk3j92"}
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match: False The photo shows an office desk with a computer monitor and framed documents on the wall, containing no elements related 
-imagegen: pollinations 503: {"status":503,"success":false,"error":{"code":"SERVICE_UNAVAILABLE","message":"The Classic API is at its limit right now. Retry after 10s, or get full access to every model with a pollen key at https:
-imagegen: black-forest-labs/flux.1-schnell 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":96166}]}
-imagegen: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":96166}]}
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images NOT made for '17-year-old girl suffers kidney damage a': all image models failed: all image models failed: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":96166}]}
-bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261123-0052","first":"MP-403"}
-writing [R]: ‘പണം വാങ്ങി എന്തും ചെയ്യുന്നവളല്ല; ഞാൻ ഉപയോഗിച്ചു, റിസൽട്ടും
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJWcG9JThrrMrD5aw2zD"}
-writing [N]: 'എഫ് ട്യൂൺ എന്ന ക്രീമാണ് ഉപയോഗിച്ചിരുന്നത്; ഈ ക്രീമിനെക്കുറി
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJWcHVffQY3nhpdbsEvo"}
-write_stories.yml started
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJWhDd9PtVSZfZRYxHeo"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJWhLpF2CjHbFuW3bh6p"}
 earlier stories still waiting for images: []
 instagram check: 85 recent posts read from all pages
-write round: 7 news waiting in the queue (written in priority order)
-candidate filter: collected=7
-to write: 2 Manjeri + 0 Kondotty + 5 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 2 Manjeri, 0 Kondotty, 5 Malappuram; time left 29 min
+write round: 5 news waiting in the queue (written in priority order)
+candidate filter: collected=5
+to write: 2 Manjeri + 0 Kondotty + 3 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 2 Manjeri, 0 Kondotty, 3 Malappuram; time left 29 min
 try (R) manual=False: "പത്തുവയസുകാരിയെ 70-കാരൻ ലൈംഗികമായി പീഡിപ്പിക്കുന്ന ദൃശ്യങ്ങ
-try (N) manual=False: കേരള ഫുട്ബോളിന്റെ ശക്തി കേന്ദ്രമാണ് മലപ്പുറം: ഇവാൻ വുകോമനോവി
-try (N) manual=False: എഫ് ട്യൂൺ ഫെയർനെസ് ക്രീമിനെതിരേ പരാതിയുമായി മുന്നോട്ടുപോകും;
-auto images: 1 of 1 stories ({'pollinations': 4})
-posting job started at once
 try (N) manual=False: ‘പൈസയ്ക്ക് വേണ്ടി എന്തും ചെയ്യുന്ന ആളല്ല ഞാൻ, കരുവാളിപ്പ് മാ
-NOT filed (R) "പത്തുവയസുകാരിയെ 70-കാരൻ ലൈംഗികമായി പീഡിപ്പിക്കുന്: duplicate after write
-auto images failed for '17-year-old girl suffers kidney damage a': all image models failed: all image models failed: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden" -> images-needed email
-auto images: 0 of 1 stories ({'pollinations': 8})
 try (R) manual=False: ‘പണം വാങ്ങി എന്തും ചെയ്യുന്നവളല്ല; ഞാൻ ഉപയോഗിച്ചു, റിസൽട്ടും
+NOT filed (R) "പത്തുവയസുകാരിയെ 70-കാരൻ ലൈംഗികമായി പീഡിപ്പിക്കുന്: all free models failed: no usable answer from the models
 try (N) manual=False: 'എഫ് ട്യൂൺ എന്ന ക്രീമാണ് ഉപയോഗിച്ചിരുന്നത്; ഈ ക്രീമിനെക്കുറി
-NOT filed (N) ‘പൈസയ്ക്ക് വേണ്ടി എന്തും ചെയ്യുന്ന ആളല്ല ഞാൻ, കരുവ: all free models failed: no usable answer from the models
-try (N) manual=False: താനാളൂരിൽ കേരളോത്സവ വിളംബര ജാഥ സംഘടിപ്പിച്ചു
-skip (N) could not open: താനാളൂരിൽ കേരളോത്സവ വിളംബര ജാഥ സംഘടിപ്പിച്ചു [https://www.mangalam.com/news/detail/882865-news-details.htm] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882865
-NOT filed (R) ‘പണം വാങ്ങി എന്തും ചെയ്യുന്നവളല്ല; ഞാൻ ഉപയോഗിച്ചു,: all free models failed: no usable answer from the models
 NOT filed (N) 'എഫ് ട്യൂൺ എന്ന ക്രീമാണ് ഉപയോഗിച്ചിരുന്നത്; ഈ ക്രീ: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 2, 'N': 5, 'K': 0}, done={'R': 0, 'N': 2, 'K': 0}, time left 19 min
-carousel for 0 of 2 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 2 Malappuram (targets 200 + 200 + 200)
+try (N) manual=False: താനാളൂരിൽ കേരളോത്സവ വിളംബര ജാഥ സംഘടിപ്പിച്ചു
+NOT filed (N) താനാളൂരിൽ കേരളോത്സവ വിളംബര ജാഥ സംഘടിപ്പിച്ചു: all free models failed: no usable answer from the models
+NOT filed (N) ‘പൈസയ്ക്ക് വേണ്ടി എന്തും ചെയ്യുന്ന ആളല്ല ഞാൻ, കരുവ: all free models failed: no usable answer from the models
+NOT filed (R) ‘പണം വാങ്ങി എന്തും ചെയ്യുന്നവളല്ല; ഞാൻ ഉപയോഗിച്ചു,: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 2, 'N': 3, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
 queue: 5 news waiting to be written
-write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":7} 
-stories: 2
+All News sheet: {"ok":true,"added":0,"updated":5} 
+stories: 0
