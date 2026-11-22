@@ -1,11 +1,19 @@
-writing [N]: പിൻഭാഗത്ത് നിന്ന് പുക ഉയർന്നു, നിമിഷങ്ങൾക്കകം തീ ആളിപ്പടർന്ന
+writing [N]: തിങ്കളാഴ്ച സ്വർണവില കുതിക്കും, വാങ്ങുന്നെങ്കിൽ ഇന്ന് വാങ്ങാം
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [N]: സ്വർണവില വീണ്ടും താഴേക്ക്; 10 മാസത്തിനിടെ പവന് കുറഞ്ഞത് 40,0
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -16,49 +24,100 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
+writing [N]: സ്വർണവില ഇന്ന് (22 നവംബർ 2026): മാറ്റമില്ല; ഒരു പവന് ₹91,720
+free models unavailable: free models not efficient (4 failures in a row): using Claude
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 400: {"errors":[{"message":"AiError: AiError: {\"error\":{\"message\
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (29s)
-attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 38 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHY5AEULThJkn1sY8dJR"}
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+writing [N]: സ്വർണവില കൂപ്പുകുത്തി; പണയം വെച്ചവർ നെട്ടോട്ടത്തിൽ, ബാങ്കുകള
+free models unavailable: free models not efficient (10 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHY5BU8vhjLx7yXPSeVf"}
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+writing [N]: ബെംഗളൂരു കെഎസ്ആർടിസി നിലമ്പൂർ ഡിപ്പോയിൽ നിന്ന്; സമയക്രമം അറി
+free models unavailable: free models not efficient (12 failures in a row): using Claude
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHY5D498GE8xCFXoi3AM"}
+writing [N]: റിയാദിൽ മലപ്പുറം സ്വദേശി ഹൃദയാഘാതം മൂലം മരിച്ചു | Madhyamam
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHY5DvyeSJPQFenfA6qs"}
+writing [N]: മകന്റെ വിവാഹ ദിനത്തിൽ വീണുകിട്ടിയ പൊൻമോതിരം 10 വർഷം സുബൈദ ഉട
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHY5FopzR1h2MEAkuYgE"}
+writing [N]: അനുശോചന യോഗം | Madhyamam
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHY5MRRSHKugXxoaCSqa"}
+writing [N]: ഫെയ്സ് ക്രീമിന് ഇരയായി ഗായകനും, ഗുരുതര വൃക്കരോഗം ബാധിച്ചെന്ന
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHY5PFZCuPwyuBCBM7sy"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+writing [N]: ‘ഒരാഴ്ച കൊണ്ട് വെളുത്തു, പക്ഷേ...; കണ്ണിനും കാലിനും നീര്, പെ
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHY5ar4ZAHHHLXQZFBxY"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHH9RkVfdZEKCwvZer8W"}
-proofread skipped: free models not efficient (6 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Car completely burnt in fire on NH 66 at'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261122-0918","first":"MP-389"}
-posting job started at once
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHY6LZc1Y6EkwcVcLTLP"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHY6gk49ehqR9gS4xgYv"}
 earlier stories still waiting for images: []
 instagram check: 83 recent posts read from all pages
-write round: 1 news waiting in the queue (written in priority order)
-candidate filter: collected=1
-to write: 0 Manjeri + 0 Kondotty + 1 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Kondotty, 1 Malappuram; time left 29 min
-try (N) manual=False: പിൻഭാഗത്ത് നിന്ന് പുക ഉയർന്നു, നിമിഷങ്ങൾക്കകം തീ ആളിപ്പടർന്ന
-auto images: 1 of 1 stories ({'pollinations': 4})
-posting job started at once
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 1, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 26 min
-carousel for 0 of 1 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)
-queue: 0 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":1} 
-stories: 1
+write round: 21 news waiting in the queue (written in priority order)
+candidate filter: collected=18, already filed=3
+to write: 1 Manjeri + 0 Kondotty + 17 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 1 Manjeri, 0 Kondotty, 17 Malappuram; time left 29 min
+try (N) manual=False: സ്വർണവില ഇന്ന് (22 നവംബർ 2026): മാറ്റമില്ല; ഒരു പവന് ₹91,720
+try (N) manual=False: തിങ്കളാഴ്ച സ്വർണവില കുതിക്കും, വാങ്ങുന്നെങ്കിൽ ഇന്ന് വാങ്ങാം
+try (N) manual=False: സ്വർണവില വീണ്ടും താഴേക്ക്; 10 മാസത്തിനിടെ പവന് കുറഞ്ഞത് 40,0
+NOT filed (N) സ്വർണവില ഇന്ന് (22 നവംബർ 2026): മാറ്റമില്ല; ഒരു പവ: all free models failed: no usable answer from the models
+try (N) manual=False: സ്വർണവില കൂപ്പുകുത്തി; പണയം വെച്ചവർ നെട്ടോട്ടത്തിൽ, ബാങ്കുകള
+NOT filed (N) സ്വർണവില കൂപ്പുകുത്തി; പണയം വെച്ചവർ നെട്ടോട്ടത്തിൽ: all free models failed: no usable answer from the models
+try (N) manual=False: സ്വർണവിലയിൽ വൻ മാറ്റം, ഇന്ന് വാങ്ങുന്നവർ ശ്രദ്ധിക്കുക: പ്രധാ
+skip (N) similar to a filed story: സ്വർണവിലയിൽ വൻ മാറ്റം, ഇന്ന് വാങ്ങുന്നവർ ശ്രദ്ധിക്
+try (N) manual=False: ബെംഗളൂരു കെഎസ്ആർടിസി നിലമ്പൂർ ഡിപ്പോയിൽ നിന്ന്; സമയക്രമം അറി
+NOT filed (N) ബെംഗളൂരു കെഎസ്ആർടിസി നിലമ്പൂർ ഡിപ്പോയിൽ നിന്ന്; സമ: all free models failed: no usable answer from the models
+try (N) manual=False: റിയാദിൽ മലപ്പുറം സ്വദേശി ഹൃദയാഘാതം മൂലം മരിച്ചു | Madhyamam
+NOT filed (N) റിയാദിൽ മലപ്പുറം സ്വദേശി ഹൃദയാഘാതം മൂലം മരിച്ചു | : all free models failed: no usable answer from the models
+try (N) manual=False: മകന്റെ വിവാഹ ദിനത്തിൽ വീണുകിട്ടിയ പൊൻമോതിരം 10 വർഷം സുബൈദ ഉട
+NOT filed (N) മകന്റെ വിവാഹ ദിനത്തിൽ വീണുകിട്ടിയ പൊൻമോതിരം 10 വർഷ: all free models failed: no usable answer from the models
+try (N) manual=False: 'ഭർത്താവ് ലഹരിക്കടത്തിലെ കാരിയർ, പണമിടപാടുകൾ ഭാര്യയുടെ അക്കൗ
+skip (N) similar to a filed story: 'ഭർത്താവ് ലഹരിക്കടത്തിലെ കാരിയർ, പണമിടപാടുകൾ ഭാര്യ
+try (N) manual=False: അനുശോചന യോഗം | Madhyamam
+NOT filed (N) അനുശോചന യോഗം | Madhyamam: all free models failed: no usable answer from the models
+try (N) manual=False: ഫെയ്സ് ക്രീമിന് ഇരയായി ഗായകനും, ഗുരുതര വൃക്കരോഗം ബാധിച്ചെന്ന
+NOT filed (N) ഫെയ്സ് ക്രീമിന് ഇരയായി ഗായകനും, ഗുരുതര വൃക്കരോഗം ബ: all free models failed: no usable answer from the models
+try (N) manual=False: ഫെയർനസ് ക്രീം ഉപയോഗിച്ച് വൃക്കരോഗം ബാധിച്ച സംഭവം; 17കാരിയുടെ
+skip (N) similar to a filed story: ഫെയർനസ് ക്രീം ഉപയോഗിച്ച് വൃക്കരോഗം ബാധിച്ച സംഭവം; 
+try (N) manual=False: വെളുക്കാൻ തേച്ച്  ജീവൻ കളയല്ലേ,   ഫെയർനസ് ക്രീമിൽ അമിത മെർക്
+skip (N) similar to a filed story: വെളുക്കാൻ തേച്ച്  ജീവൻ കളയല്ലേ,   ഫെയർനസ് ക്രീമിൽ 
+try (N) manual=False: ‘ഒരാഴ്ച കൊണ്ട് വെളുത്തു, പക്ഷേ...; കണ്ണിനും കാലിനും നീര്, പെ
+NOT filed (N) ‘ഒരാഴ്ച കൊണ്ട് വെളുത്തു, പക്ഷേ...; കണ്ണിനും കാലിനു: all free models failed: no usable answer from the models
+try (N) manual=False: ഫെയർനെസ് ക്രീമിന് ഇരയായി പ്രമുഖ മാപ്പിളപ്പാട്ട് ഗായകൻ സലീം ക
+skip (N) similar to a filed story: ഫെയർനെസ് ക്രീമിന് ഇരയായി പ്രമുഖ മാപ്പിളപ്പാട്ട് ഗാ
+try (R) manual=False: ഫെയർനെസ് ക്രീം ഉപയോഗിച്ച് 17കാരിക്ക് വൃക്കരോഗം ബാധിച്ച സംഭവം
+skip (R) similar to a filed story: ഫെയർനെസ് ക്രീം ഉപയോഗിച്ച് 17കാരിക്ക് വൃക്കരോഗം ബാധ
+try (N) manual=False: ഫേസ് ക്രീം ഉപയോഗിച്ച 17കാരിക്ക് ഗുരുതര വൃക്കരോഗം; അന്വേഷണത്ത
+skip (N) similar to a filed story: ഫേസ് ക്രീം ഉപയോഗിച്ച 17കാരിക്ക് ഗുരുതര വൃക്കരോഗം; 
+try (N) manual=False: ഫെയർനെസ് ക്രീം ഉപയോഗിച്ച 17കാരിക്ക് വൃക്കരോഗം: ക്രീമിന്റെ വി
+skip (N) similar to a filed story: ഫെയർനെസ് ക്രീം ഉപയോഗിച്ച 17കാരിക്ക് വൃക്കരോഗം: ക്ര
+NOT filed (N) സ്വർണവില വീണ്ടും താഴേക്ക്; 10 മാസത്തിനിടെ പവന് കുറ: all free models failed: no usable answer from the models
+NOT filed (N) തിങ്കളാഴ്ച സ്വർണവില കുതിക്കും, വാങ്ങുന്നെങ്കിൽ ഇന്: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 17, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
+queue: 10 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":10} 
+stories: 0
