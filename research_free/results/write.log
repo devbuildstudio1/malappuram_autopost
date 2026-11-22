@@ -1,6 +1,14 @@
 writing [N]: സ്വർണവിലയിൽ 39,000 രൂപയുടെ ഇടിവ്..ഇപ്പോൾ തന്നെ വാങ്ങിക്കോളൂ,
+writing [N]: ഭിന്നശേഷി സൗഹൃദത്തിന് ഒരു മലപ്പുറം മാതൃക
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -11,83 +19,96 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-writing [N]: ആശ്വസിക്കാൻ വരട്ടെ; സ്വർണവില 1.47 ലക്ഷത്തിലേക്ക്? വൻ കുതിപ്പ
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: free models not efficient (5 failures in a row): using Claude
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+writing [N]: ആശ്വസിക്കാൻ വരട്ടെ; സ്വർണവില 1.47 ലക്ഷത്തിലേക്ക്? വൻ കുതിപ്പ
+free models unavailable: free models not efficient (10 failures in a row): using Claude
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGytLEhyTREzcDWMprDz"}
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH2wcEZQWHJTXG6LZvdU"}
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-writing [N]: ഭിന്നശേഷി സൗഹൃദത്തിന് ഒരു മലപ്പുറം മാതൃക
-free models unavailable: free models not efficient (7 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGytMCFguPbVS7ZoKvXY"}
-writing [N]: ആഘോഷിക്കാം; ഇന്നും സ്വർണവിലയിൽ ഇടിവ്
-free models unavailable: free models not efficient (7 failures in a row): using Claude
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 writing [N]: പൊതുജലാശയങ്ങളിലെ മാലിന്യം നടപടികളുമായി ഗ്രാമപ്പഞ്ചായത്ത്
-free models unavailable: free models not efficient (7 failures in a row): using Claude
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGytMx8qobuzHUojW4tU"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGytN3LwnyeFL9PQjK9c"}
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH2wd4fqFKNSNaZGubsL"}
 writing [N]: നന്ദിപറയാൻ ഒന്നാംറാങ്കുകാരി മന്ത്രി കുഞ്ഞാലിക്കുട്ടിയുടെ വീട
-free models unavailable: free models not efficient (8 failures in a row): using Claude
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH2wdyELwmEzWXQggPDY"}
 writing [R]: ചോലക്കുളം-എടയാറ്റൂർ-ചൂരക്കാവ് റോഡുപണി വീണ്ടും തുടങ്ങുന്നു
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGytNwRWigPCZBVY3p5r"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGytP3sCT22ZoRLNeyVE"}
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH2weuntJVVu4Lkgun7d"}
 writing [R]: ഫെയ്സ് ക്രീം ഉപയോഗത്തെ തുടർന്ന് വൃക്കരോഗമെന്ന പരാതി: അന്വേഷണ
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGytQHYDMjfNNRev1BXp"}
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH2wgXXFgdbjUx5V4W1f"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 writing [N]: മലപ്പുറത്തെ ഹർഷപുളകിതമാക്കി എസ് വൈ എസ് യൂത്ത് മാർച്ച് | Sira
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGytUPbGJaoCsPExUL71"}
-writing [R]: മഞ്ചേരിയിൽ ഓറഞ്ച് കൊടുങ്കാറ്റ്; കൊമ്പന്റെ കൊമ്പൊടിച്ച് മലപ്പ
-free models unavailable: free models not efficient (8 failures in a row): using Claude
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH2wki3xXAVUZ56ZaMxr"}
 writing [N]: നടുവട്ടം വികസനം; കൈയേറ്റം തിരിച്ചുപിടിക്കാൻ നടപടി തുടങ്ങി
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGytV51pBgKoNR5xMBuN"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGytVVaDHAS4VA1gzQp8"}
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH2wnbeHUZB9j6ZJmn2U"}
+writing [R]: മഞ്ചേരിയിൽ ഓറഞ്ച് കൊടുങ്കാറ്റ്; കൊമ്പന്റെ കൊമ്പൊടിച്ച് മലപ്പ
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH2wtXqsFV4YQWYFSY8v"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChGyukcvoainkRiALX64u"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH2xqgDEFFNPrxgcDHDU"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH2yPiYfhgqpcFojB28M"}
 earlier stories still waiting for images: []
 instagram check: 82 recent posts read from all pages
 write round: 11 news waiting in the queue (written in priority order)
-candidate filter: collected=11
-to write: 3 Manjeri + 0 Kondotty + 8 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 3 Manjeri, 0 Kondotty, 8 Malappuram; time left 29 min
+candidate filter: collected=10, checked earlier=1
+to write: 3 Manjeri + 0 Kondotty + 7 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 3 Manjeri, 0 Kondotty, 7 Malappuram; time left 29 min
 try (N) manual=False: ആശ്വസിക്കാൻ വരട്ടെ; സ്വർണവില 1.47 ലക്ഷത്തിലേക്ക്? വൻ കുതിപ്പ
-try (N) manual=False: ആഘോഷിക്കാം; ഇന്നും സ്വർണവിലയിൽ ഇടിവ്
 try (N) manual=False: സ്വർണവിലയിൽ 39,000 രൂപയുടെ ഇടിവ്..ഇപ്പോൾ തന്നെ വാങ്ങിക്കോളൂ,
-NOT filed (N) ആശ്വസിക്കാൻ വരട്ടെ; സ്വർണവില 1.47 ലക്ഷത്തിലേക്ക്? : all free models failed: no usable answer from the models
 try (N) manual=False: ഭിന്നശേഷി സൗഹൃദത്തിന് ഒരു മലപ്പുറം മാതൃക
-NOT filed (N) ഭിന്നശേഷി സൗഹൃദത്തിന് ഒരു മലപ്പുറം മാതൃക: all free models failed: no usable answer from the models
+NOT filed (N) ആശ്വസിക്കാൻ വരട്ടെ; സ്വർണവില 1.47 ലക്ഷത്തിലേക്ക്? : all free models failed: no usable answer from the models
 try (N) manual=False: പൊതുജലാശയങ്ങളിലെ മാലിന്യം നടപടികളുമായി ഗ്രാമപ്പഞ്ചായത്ത്
-NOT filed (N) ആഘോഷിക്കാം; ഇന്നും സ്വർണവിലയിൽ ഇടിവ്: all free models failed: no usable answer from the models
-try (N) manual=False: നന്ദിപറയാൻ ഒന്നാംറാങ്കുകാരി മന്ത്രി കുഞ്ഞാലിക്കുട്ടിയുടെ വീട
 NOT filed (N) പൊതുജലാശയങ്ങളിലെ മാലിന്യം നടപടികളുമായി ഗ്രാമപ്പഞ്ച: all free models failed: no usable answer from the models
-try (R) manual=False: ചോലക്കുളം-എടയാറ്റൂർ-ചൂരക്കാവ് റോഡുപണി വീണ്ടും തുടങ്ങുന്നു
+try (N) manual=False: നന്ദിപറയാൻ ഒന്നാംറാങ്കുകാരി മന്ത്രി കുഞ്ഞാലിക്കുട്ടിയുടെ വീട
 NOT filed (N) നന്ദിപറയാൻ ഒന്നാംറാങ്കുകാരി മന്ത്രി കുഞ്ഞാലിക്കുട്: all free models failed: no usable answer from the models
-try (R) manual=False: ഫെയ്സ് ക്രീം ഉപയോഗത്തെ തുടർന്ന് വൃക്കരോഗമെന്ന പരാതി: അന്വേഷണ
+try (R) manual=False: ചോലക്കുളം-എടയാറ്റൂർ-ചൂരക്കാവ് റോഡുപണി വീണ്ടും തുടങ്ങുന്നു
 NOT filed (R) ചോലക്കുളം-എടയാറ്റൂർ-ചൂരക്കാവ് റോഡുപണി വീണ്ടും തുടങ: all free models failed: no usable answer from the models
-try (R) manual=False: മഞ്ചേരിയിൽ ഓറഞ്ച് കൊടുങ്കാറ്റ്; കൊമ്പന്റെ കൊമ്പൊടിച്ച് മലപ്പ
+try (R) manual=False: ഫെയ്സ് ക്രീം ഉപയോഗത്തെ തുടർന്ന് വൃക്കരോഗമെന്ന പരാതി: അന്വേഷണ
 NOT filed (R) ഫെയ്സ് ക്രീം ഉപയോഗത്തെ തുടർന്ന് വൃക്കരോഗമെന്ന പരാത: all free models failed: no usable answer from the models
 try (N) manual=False: മലപ്പുറത്തെ ഹർഷപുളകിതമാക്കി എസ് വൈ എസ് യൂത്ത് മാർച്ച് | Sira
 NOT filed (N) മലപ്പുറത്തെ ഹർഷപുളകിതമാക്കി എസ് വൈ എസ് യൂത്ത് മാർച: all free models failed: no usable answer from the models
 try (N) manual=False: നടുവട്ടം വികസനം; കൈയേറ്റം തിരിച്ചുപിടിക്കാൻ നടപടി തുടങ്ങി
-NOT filed (R) മഞ്ചേരിയിൽ ഓറഞ്ച് കൊടുങ്കാറ്റ്; കൊമ്പന്റെ കൊമ്പൊടി: all free models failed: no usable answer from the models
 NOT filed (N) നടുവട്ടം വികസനം; കൈയേറ്റം തിരിച്ചുപിടിക്കാൻ നടപടി : all free models failed: no usable answer from the models
+try (R) manual=False: മഞ്ചേരിയിൽ ഓറഞ്ച് കൊടുങ്കാറ്റ്; കൊമ്പന്റെ കൊമ്പൊടിച്ച് മലപ്പ
+NOT filed (R) മഞ്ചേരിയിൽ ഓറഞ്ച് കൊടുങ്കാറ്റ്; കൊമ്പന്റെ കൊമ്പൊടി: all free models failed: no usable answer from the models
 NOT filed (N) സ്വർണവിലയിൽ 39,000 രൂപയുടെ ഇടിവ്..ഇപ്പോൾ തന്നെ വാങ: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 3, 'N': 8, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+NOT filed (N) ഭിന്നശേഷി സൗഹൃദത്തിന് ഒരു മലപ്പുറം മാതൃക: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 3, 'N': 7, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 11 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":11} 
+queue: 10 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":10} 
 stories: 0
