@@ -5,12 +5,12 @@ gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 writing [N]: മകന്റെ വിവാഹ ദിനത്തിൽ വീണുകിട്ടിയ പൊൻമോതിരം 10 വർഷം സുബൈദ ഉട
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
@@ -27,46 +27,47 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHgmYVir1zpsmYsgaiqe"}
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHgmZBQ5kTceUeLa3H9G"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHjP1SujQZ6sUMvb7PaF"}
 writing [N]: ‘ഒരാഴ്ച കൊണ്ട് വെളുത്തു, പക്ഷേ...; കണ്ണിനും കാലിനും നീര്, പെ
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHgmZp6tM7BaFudkc2Hj"}
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHjP2SSnEFrCVbFbrjPL"}
 writing [N]: മാസ് മലപ്പുറം! അവസാന ഹോം മാച്ചിൽ തിരുവനന്തപുരത്തെ 3–0ന് തോൽപ
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHgmbhTdxX9HRi8jKnem"}
-fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHjP3o3vuLUQdaetd6PM"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHjP8MeeRUZWJnQ5zd4F"}
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHgpmsyDSaVFGrRLXeUY"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHjSFwP4WeeAJVh9ND9g"}
 earlier stories still waiting for images: []
 instagram check: 83 recent posts read from all pages
-write round: 6 news waiting in the queue (written in priority order)
-candidate filter: collected=5, already filed=1
+write round: 5 news waiting in the queue (written in priority order)
+candidate filter: collected=5
 to write: 0 Manjeri + 0 Kondotty + 5 other district candidates (max 200 + 200 + 200 stories)
 candidates waiting: 0 Manjeri, 0 Kondotty, 5 Malappuram; time left 29 min
 try (N) manual=False: മകന്റെ വിവാഹ ദിനത്തിൽ വീണുകിട്ടിയ പൊൻമോതിരം 10 വർഷം സുബൈദ ഉട
@@ -74,11 +75,11 @@ try (N) manual=False: അനുശോചന യോഗം | Madhyamam
 try (N) manual=False: ഫെയ്സ് ക്രീമിന് ഇരയായി ഗായകനും, ഗുരുതര വൃക്കരോഗം ബാധിച്ചെന്ന
 NOT filed (N) ഫെയ്സ് ക്രീമിന് ഇരയായി ഗായകനും, ഗുരുതര വൃക്കരോഗം ബ: all free models failed: no usable answer from the models
 try (N) manual=False: ‘ഒരാഴ്ച കൊണ്ട് വെളുത്തു, പക്ഷേ...; കണ്ണിനും കാലിനും നീര്, പെ
-NOT filed (N) അനുശോചന യോഗം | Madhyamam: all free models failed: no usable answer from the models
-try (N) manual=False: മാസ് മലപ്പുറം! അവസാന ഹോം മാച്ചിൽ തിരുവനന്തപുരത്തെ 3–0ന് തോൽപ
 NOT filed (N) ‘ഒരാഴ്ച കൊണ്ട് വെളുത്തു, പക്ഷേ...; കണ്ണിനും കാലിനു: all free models failed: no usable answer from the models
+try (N) manual=False: മാസ് മലപ്പുറം! അവസാന ഹോം മാച്ചിൽ തിരുവനന്തപുരത്തെ 3–0ന് തോൽപ
 NOT filed (N) മാസ് മലപ്പുറം! അവസാന ഹോം മാച്ചിൽ തിരുവനന്തപുരത്തെ : all free models failed: no usable answer from the models
 NOT filed (N) മകന്റെ വിവാഹ ദിനത്തിൽ വീണുകിട്ടിയ പൊൻമോതിരം 10 വർഷ: all free models failed: no usable answer from the models
+NOT filed (N) അനുശോചന യോഗം | Madhyamam: all free models failed: no usable answer from the models
 candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 5, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
