@@ -1,9 +1,10 @@
-writing [R]: വണ്ടൂരിൽ പത്തുവയസ്സുകാരിയെ 70-കാരൻ ലൈംഗികമായി പീഡിപ്പിക്കുന്
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-writing [N]: മകന്റെ വിവാഹ ദിനത്തിൽ വീണുകിട്ടിയ പൊൻമോതിരം 10 വർഷം സുബൈദ ഉടgroq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-
 writing [N]: ഓപറേഷൻ ജലസുരക്ഷ; ജില്ലയിൽ 436 നിയമലംഘനങ്ങൾ കണ്ടെത്തി | Madhy
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: മകന്റെ വിവാഹ ദിനത്തിൽ വീണുകിട്ടിയ പൊൻമോതിരം 10 വർഷം സുബൈദ ഉട
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: മദ്യ ലഹരിയിൽ ബ്സ ജീവനക്കാർക്ക് നേരെ ആക്രമണം; രണ്ട് യുവാക്കൾ 
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
@@ -11,21 +12,6 @@ fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -43,91 +29,70 @@ dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-ok gemini/gemini-3.6-flash (30s)
-attempt 1 gemini/gemini-3.6-flash: 1 problems
-  reel_script has 51 words; need 53-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-ok gemini/gemini-3.6-flash (37s)
-attempt 1 gemini/gemini-3.6-flash: 1 problems
-  numbers not found in the article: 10
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHy6uyCZpRciPgb7DQJG"}
-writing [N]: മദ്യ ലഹരിയിൽ ബ്സ ജീവനക്കാർക്ക് നേരെ ആക്രമണം; രണ്ട് യുവാക്കൾ 
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHy6yAgFxpifUZRgz7qF"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHyZhen9s3SaeGXXgV3r"}
 writing [N]: വാഹനങ്ങളിൽ അമിതഭാരം: 1,08,000 രൂപ പിഴ ഈടാക്കി | Madhyamam
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHy71BiwMpErG2yuHvnW"}
-writing [N]: പ്രവാസ ജീവിതം തുടങ്ങിയിട്ട് 25 വർഷത്തിലധികമായി; പലചരക്ക് സാധ
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHy71suRY2fMYEvF9wch"}
+free models unavailable: free models not efficient (10 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHyZjpkhGWcUmpZ4Hf3s"}
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHyZmxFKWDobu9jbBcJz"}
 writing [N]: ‘ഈ ക്രീമിനെക്കുറിച്ച് എന്റെ ക്ലാസിലെ കുട്ടികളിൽനിന്നാണ് അറിഞ
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHy72hGMk3rJd8BmT7DT"}
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+writing [N]: പ്രവാസ ജീവിതം തുടങ്ങിയിട്ട് 25 വർഷത്തിലധികമായി; പലചരക്ക് സാധ
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHyZnvYUJdVeaQNsMsdj"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHyZoHN5PNMP1D3LoG38"}
 writing [N]: നിയമപോരാട്ടം ശക്തമാക്കുമെന്ന് ഫേസ്ക്രീമിലെ വിഷബാധയേറ്റ് വൃക്
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHy73Ki3g9zTFpj6bqxo"}
-writing [N]: 'എഫ്ട്യൂൺ ക്രീം ആരെങ്കിലും ഉപയോഗിക്കുന്നുണ്ടെങ്കിൽ നിർത്തണം,
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHy73uSmo2purLwZtqTL"}
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHyZot65PaD5CXq3Crdj"}
 writing [N]: ഫെയ്സ് ക്രീമിന് ഇരയായി ഗായകനും, ഗുരുതര വൃക്കരോഗം ബാധിച്ചെന്ന
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHy74pVzsjE9qsZ4iajZ"}
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHyZppPeTRQY65S3VpXN"}
+writing [N]: 'എഫ്ട്യൂൺ ക്രീം ആരെങ്കിലും ഉപയോഗിക്കുന്നുണ്ടെങ്കിൽ നിർത്തണം,
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHyZsKDBtxqfctjQS3VM"}
 writing [N]: ‘ഒരാഴ്ച കൊണ്ട് വെളുത്തു, പക്ഷേ...; കണ്ണിനും കാലിനും നീര്, പെ
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHy76xVWiNxbpQd4nKLf"}
+free models unavailable: free models not efficient (13 failures in a row): using Claude
 writing [N]: തിരുവനന്തപുരത്തെ കെട്ടുകെട്ടിച്ച് മലപ്പുറം; എസ്എൽകെ സെമി ചിത
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHy77cvUYjbCF4nBfz8D"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHy7HWVM96R1oxGDKPbF"}
-proofread skipped: free models not efficient (5 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHy7mRX6ALfad2t7oydZ"}
-proofread skipped: free models not efficient (6 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-image match: False The image shows a large house with a vintage white car parked in front, not an arrest or crime scene involving child abu
-image match: False The image shows a white vehicle parked near trees and a building; it does not show any person, arrest, or event related 
-image match: False The photo depicts a tranquil forest pathway, showing no people, arrests, or news-related event.
-image match: False The photo only depicts an interior wall and a frosted glass door, showing no people, arrest scene, or relevant context m
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Man arrested in Wandoor for secretly fil'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261122-1804","first":"MP-396"}
-posting job started at once
-write_stories.yml started
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHyZsx9aDgagui5wiEmy"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHyZtKEU8BF8ZfKGpuyd"}
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChHyc6ocuu8nvDzWFzfgw"}
 earlier stories still waiting for images: []
 instagram check: 83 recent posts read from all pages
-write round: 24 news waiting in the queue (written in priority order)
-candidate filter: collected=24
-to write: 4 Manjeri + 0 Kondotty + 20 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 4 Manjeri, 0 Kondotty, 20 Malappuram; time left 29 min
+write round: 23 news waiting in the queue (written in priority order)
+candidate filter: collected=23
+to write: 3 Manjeri + 0 Kondotty + 20 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 3 Manjeri, 0 Kondotty, 20 Malappuram; time left 29 min
 try (N) manual=False: ഓപറേഷൻ ജലസുരക്ഷ; ജില്ലയിൽ 436 നിയമലംഘനങ്ങൾ കണ്ടെത്തി | Madhy
 try (N) manual=False: കരിപ്പൂർ വഴിയുള്ള സ്വർണക്കടത്ത് കൂടുന്നു
-try (R) manual=False: വണ്ടൂരിൽ പത്തുവയസ്സുകാരിയെ 70-കാരൻ ലൈംഗികമായി പീഡിപ്പിക്കുന്
-skip (N) could not open: കരിപ്പൂർ വഴിയുള്ള സ്വർണക്കടത്ത് കൂടുന്നു [https://www.deshabhimani.com/district-news/-73594/gold--fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
 try (N) manual=False: മകന്റെ വിവാഹ ദിനത്തിൽ വീണുകിട്ടിയ പൊൻമോതിരം 10 വർഷം സുബൈദ ഉട
-NOT filed (N) ഓപറേഷൻ ജലസുരക്ഷ; ജില്ലയിൽ 436 നിയമലംഘനങ്ങൾ കണ്ടെത്: all free models failed: no usable answer from the models
+skip (N) could not open: കരിപ്പൂർ വഴിയുള്ള സ്വർണക്കടത്ത് കൂടുന്നു [https://www.deshabhimani.com/district-news/-73594/gold--fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
 try (R) manual=False: മഞ്ചേരിയിൽ കൃത്രിമ അവയവ നിർമാണ കേന്ദ്രം വൈകുന്നു
 skip (R) could not open: മഞ്ചേരിയിൽ കൃത്രിമ അവയവ നിർമാണ കേന്ദ്രം വൈകുന്നു [https://www.deshabhimani.com/News/kerala/manjeri-medical-col] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/News/kerala/ma
 try (N) manual=False: കലോത്സവത്തിനിടയിലെ സംഘർഷം; പരിക്കേറ്റ ഏഴാംക്ലാസുകാരന് അടിയന്
@@ -147,7 +112,7 @@ skip (N) could not open: വേങ്ങര ബ്ലോക്ക് പഞ�
 try (N) manual=False: വാഹനങ്ങളിൽ അമിതഭാരം: 1,08,000 രൂപ പിഴ ഈടാക്കി | Madhyamam
 NOT filed (N) വാഹനങ്ങളിൽ അമിതഭാരം: 1,08,000 രൂപ പിഴ ഈടാക്കി | Ma: all free models failed: no usable answer from the models
 try (N) manual=False: പ്രവാസ ജീവിതം തുടങ്ങിയിട്ട് 25 വർഷത്തിലധികമായി; പലചരക്ക് സാധ
-NOT filed (N) പ്രവാസ ജീവിതം തുടങ്ങിയിട്ട് 25 വർഷത്തിലധികമായി; പല: all free models failed: no usable answer from the models
+NOT filed (N) മകന്റെ വിവാഹ ദിനത്തിൽ വീണുകിട്ടിയ പൊൻമോതിരം 10 വർഷ: all free models failed: no usable answer from the models
 try (N) manual=False: ആക്റ്റ് നാടക മേള സമാപിച്ചു
 skip (N) could not open: ആക്റ്റ് നാടക മേള സമാപിച്ചു [https://www.deshabhimani.com/district-news/-73594/dram123-fy] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
 try (N) manual=False: ദേ, ചന്ദ്രനും ശനിയും
@@ -155,9 +120,9 @@ skip (N) could not open: ദേ, ചന്ദ്രനും ശനിയും 
 try (N) manual=False: ‘ഈ ക്രീമിനെക്കുറിച്ച് എന്റെ ക്ലാസിലെ കുട്ടികളിൽനിന്നാണ് അറിഞ
 NOT filed (N) ‘ഈ ക്രീമിനെക്കുറിച്ച് എന്റെ ക്ലാസിലെ കുട്ടികളിൽനിന: all free models failed: no usable answer from the models
 try (N) manual=False: നിയമപോരാട്ടം ശക്തമാക്കുമെന്ന് ഫേസ്ക്രീമിലെ വിഷബാധയേറ്റ് വൃക്
-NOT filed (N) നിയമപോരാട്ടം ശക്തമാക്കുമെന്ന് ഫേസ്ക്രീമിലെ വിഷബാധയ: all free models failed: no usable answer from the models
+NOT filed (N) പ്രവാസ ജീവിതം തുടങ്ങിയിട്ട് 25 വർഷത്തിലധികമായി; പല: all free models failed: no usable answer from the models
 try (N) manual=False: 'എഫ്ട്യൂൺ ക്രീം ആരെങ്കിലും ഉപയോഗിക്കുന്നുണ്ടെങ്കിൽ നിർത്തണം,
-NOT filed (N) 'എഫ്ട്യൂൺ ക്രീം ആരെങ്കിലും ഉപയോഗിക്കുന്നുണ്ടെങ്കിൽ: all free models failed: no usable answer from the models
+NOT filed (N) നിയമപോരാട്ടം ശക്തമാക്കുമെന്ന് ഫേസ്ക്രീമിലെ വിഷബാധയ: all free models failed: no usable answer from the models
 try (N) manual=False: ഫെയ്സ് ക്രീമിന് ഇരയായി ഗായകനും, ഗുരുതര വൃക്കരോഗം ബാധിച്ചെന്ന
 NOT filed (N) ഫെയ്സ് ക്രീമിന് ഇരയായി ഗായകനും, ഗുരുതര വൃക്കരോഗം ബ: all free models failed: no usable answer from the models
 try (R) manual=False: മഞ്ചേരിയിലും കൊയിലാണ്ടിയിലും ഇ.ഡി.
@@ -169,18 +134,16 @@ skip (R) could not open: കൊമ്പനെ തുരത്തിയോ
 try (N) manual=False: ദുരിതപ്പടികൾക്ക് വിട; തിരൂർക്കാട് പോസ്റ്റ് ഓഫീസ് ഇനി പുതിയ 
 skip (N) could not open: ദുരിതപ്പടികൾക്ക് വിട; തിരൂർക്കാട് പോസ്റ്റ് ഓഫീസ്  [https://www.mangalam.com/news/detail/882604-news-details.htm] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882604
 try (N) manual=False: ‘ഒരാഴ്ച കൊണ്ട് വെളുത്തു, പക്ഷേ...; കണ്ണിനും കാലിനും നീര്, പെ
-NOT filed (N) ‘ഒരാഴ്ച കൊണ്ട് വെളുത്തു, പക്ഷേ...; കണ്ണിനും കാലിനു: all free models failed: no usable answer from the models
+NOT filed (N) 'എഫ്ട്യൂൺ ക്രീം ആരെങ്കിലും ഉപയോഗിക്കുന്നുണ്ടെങ്കിൽ: all free models failed: no usable answer from the models
 try (N) manual=False: ഉറക്കം പോലും കിട്ടാത്ത അവസ്ഥ ; ഫെയർനെസ് ക്രീം ഉപയോഗിച്ചു ; ശ
 skip (N) could not open: ഉറക്കം പോലും കിട്ടാത്ത അവസ്ഥ ; ഫെയർനെസ് ക്രീം ഉപയോ [https://www.mangalam.com/news/detail/882893-latest-news-Sale] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882893
 try (N) manual=False: തിരുവനന്തപുരത്തെ കെട്ടുകെട്ടിച്ച് മലപ്പുറം; എസ്എൽകെ സെമി ചിത
+NOT filed (N) ‘ഒരാഴ്ച കൊണ്ട് വെളുത്തു, പക്ഷേ...; കണ്ണിനും കാലിനു: all free models failed: no usable answer from the models
 NOT filed (N) തിരുവനന്തപുരത്തെ കെട്ടുകെട്ടിച്ച് മലപ്പുറം; എസ്എൽക: all free models failed: no usable answer from the models
-NOT filed (N) മകന്റെ വിവാഹ ദിനത്തിൽ വീണുകിട്ടിയ പൊൻമോതിരം 10 വർഷ: old event: the story is about 26 Aug 2016, nothing in it happened in the last days
-auto images: 1 of 1 stories ({'pollinations': 7})
-posting job started at once
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 4, 'N': 20, 'K': 0}, done={'R': 1, 'N': 0, 'K': 0}, time left 24 min
-carousel for 0 of 1 stories, the rest reel only
-filed: 1 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
+NOT filed (N) ഓപറേഷൻ ജലസുരക്ഷ; ജില്ലയിൽ 436 നിയമലംഘനങ്ങൾ കണ്ടെത്: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 3, 'N': 20, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
 queue: 23 news waiting to be written
-write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":24} 
-stories: 1
+All News sheet: {"ok":true,"added":0,"updated":23} 
+stories: 0
