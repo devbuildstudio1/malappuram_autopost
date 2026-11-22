@@ -15,55 +15,191 @@
   "try (N) manual=False: നടുവട്ടം വികസനം; കൈയേറ്റം തിരിച്ചുപിടിക്കാൻ നടപടി തുടങ്ങി",
   "NOT filed (N) നടുവട്ടം വികസനം; കൈയേറ്റം തിരിച്ചുപിടിക്കാൻ നടപടി : all free models failed: no usable answer from the models",
   "try (N) manual=False: പിൻഭാഗത്ത് നിന്ന് പുക ഉയർന്നു, നിമിഷങ്ങൾക്കകം തീ ആളിപ്പടർന്ന",
-  "NOT filed (N) മെർക്കുറി ക്രീമുകൾ വ്യാപിച്ചത് സർക്കാർ മൗനം മുതലെട: all free models failed: no usable answer from the models",
-  "NOT filed (N) ഭിന്നശേഷി സൗഹൃദത്തിന് ഒരു മലപ്പുറം മാതൃക: all free models failed: no usable answer from the models",
   "NOT filed (N) പിൻഭാഗത്ത് നിന്ന് പുക ഉയർന്നു, നിമിഷങ്ങൾക്കകം തീ ആ: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 6, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)",
-  "queue: 6 news waiting to be written",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 5})",
+  "posting job started at once",
+  "auto images: 1 of 1 stories ({'black-forest-labs/flux-1-schnell': 7, 'pollinations': 2})",
+  "candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 6, 'K': 0}, done={'R': 0, 'N': 2, 'K': 0}, time left 22 min",
+  "carousel for 0 of 2 stories, the rest reel only",
+  "filed: 0 Manjeri + 0 Kondotty + 2 Malappuram (targets 200 + 200 + 200)",
+  "queue: 4 news waiting to be written",
+  "write_stories.yml started",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":6}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.8-flash",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.6-flash",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
+  "switching away from gemini/gemini-3.8-flash for 10 min",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 400: {\"errors\":[{\"message\":\"AiError: AiError: {\\\"error\\\":{\\\"message\\",
+  "fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "poor answer - skipped for 30 min: gemini/gemini-3.8-flash",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (48s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)",
+  "poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (60s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
-  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
-  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
-  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
-  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
-  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)",
+  "poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)",
+  "poor answer - skipped for 30 min: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
+  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (52s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
+  "ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (36s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
   "switching away from mistral/mistral-small-latest for 10 min",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min"
+  "switching away from mistral/mistral-small-latest for 10 min",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "മെർക്കുറി അടങ്ങിയ മുഖകാന്തി ക്രീമുകൾ ബാധകമാകുന്നു",
+   "english_headline": "Mercury-laced skin-lightening creams pose health risks in Malappuram",
+   "category": "Health",
+   "location": "Malappuram district",
+   "importance": "High",
+   "scope": "district",
+   "post_to": "Malappuram 360 (collab: Manjeri 360)",
+   "slides_spec": {
+    "v": 3,
+    "cat": "ആരോഗ്യം",
+    "loc": "മലപ്പുറം",
+    "hl1": "മെർക്കുറി ക്രീമുകൾ വിപണിയിൽ",
+    "hl2": "സർക്കാർ മൗനം",
+    "slides": [
+     {
+      "title": "എന്ത്, എവിടെ?",
+      "lines": [
+       "മെർക്കുറി അടങ്ങിയ മുഖകാന്തി ക്രീമുകൾ",
+       "മലപ്പുറം ജില്ലയിൽ വിപണിയിൽ"
+      ]
+     },
+     {
+      "title": "എങ്ങനെ?",
+      "lines": [
+       "അമിതമായ മെർക്കുറി, ലെഡ്, സ്റ്റിറോയിഡുകൾ",
+       "അനുവദനീയ അളവ് കൂടുതലായി",
+       "സി.ഡി.എസ്.ഇ.ഒ മുന്നറിയിപ്പ്"
+      ]
+     },
+     {
+      "title": "ശ്രദ്ധിക്കുക",
+      "lines": [
+       "ചർമരോഗങ്ങൾ, വൃക്ക തകരാർ, നാഡീവ്യവസ്ഥ ബാധ",
+       "ഓൺലൈനിൽ വാങ്ങുന്ന ക്രീമുകൾ ഒഴിവാക്കുക",
+       "ചർമരോഗ വിദഗ്ധന്റെ നിർദ്ദേശപ്രകാരം മാത്രം"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "മലപ്പുറം ജില്ലയിൽ മെർക്കുറി ക്രീമുകൾ വിപണിയിൽ. സർക്കാർ നടപടി ഇല്ല. സി ഡി എസ് ഇ ഒ മുന്നറിയിപ്പ്. ക്രീമുകളിൽ മെർക്കുറി, ലെഡ്, സ്റ്റിറോയിഡുകൾ കൂടുതലായി. ചർമരോഗങ്ങൾ, വൃക്ക തകരാർ, നാഡീവ്യവസ്ഥ ബാധ. ഓൺലൈനിൽ വാങ്ങുന്ന ക്രീമുകൾ ഒഴിവാക്കുക. ചർമരോഗ വിദഗ്ധന്റെ നിർദ്ദേശപ്രകാരം മാത്രം. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "💊 മലപ്പുറം ജില്ലയിൽ മെർക്കുറി അടങ്ങിയ മുഖകാന്തി ക്രീമുകൾ വിപണിയിൽ\n\n📰 പൂർണ വിവരം:\nമെർക്കുറി അടങ്ങിയ മുഖകാന്തി ക്രീമുകൾ വിപണിയിൽ സുലഭമാവാൻ കാരണമാകുന്നതാണ് സർക്കാർ കർശന നടപടി എടുക്കാത്തതെന്ന് ചൂണ്ടിക്കാണിക്കപ്പെടുന്നു. സെൻട്രൽ ഡ്രഗ്സ് കൺട്രോൾ ഓർഗനൈസേഷന്റെ (സി.ഡി.എസ്.ഇ.ഒ) മുന്നറിയിപ്പ്. ക്രീമുകളിൽ അമിതമായ അളവിൽ മെർക്കുറി, ലെഡ് തുടങ്ങിയ ഘനലോഹങ്ങളും സ്റ്റിറോയിഡുകളും അടങ്ങിയിട്ടുണ്ട്. ചർമരോഗങ്ങൾ ഭേദമാക്കുമെന്ന തരത്തിലുള്ള തെറ്റായ പരസ്യങ്ങൾ നൽകുന്നതിന് കോസ്മെറ്റിക്സ് ചട്ടപ്രകാരം കർശന വിലക്കുണ്ട്. ചർമത്തിലൂടെ രക്തത്തിൽ കലരുന്ന മെർക്കുറി വൃക്കകളുടെ പ്രവർത്തനത്തെ തകരാറിലാക്കാനും നാഡീവ്യവസ്ഥയെ ബാധിച്ച് വിറയൽ, ഓർമക്കുറവ്, ക്ഷീണം എന്നിവ ഉണ്ടാക്കാനും കാരണമാകും. ഇത്തരം ക്രീമുകളിലെ ശക്തിയേറിയ സ്റ്റിറോയിഡുകൾ ചർമത്തെ നേർത്തതാക്കുകയും ഞരമ്പുകൾ തെളിഞ്ഞുകാണാൻ ഇടയാക്കുകയും ചെയ്യുന്നു. ദീർഘകാലം ഉപയോഗിക്കുന്നത് ചർമത്തിൽ നീല കലർന്ന കറുത്ത പാടുകൾ സ്ഥിരമായി വീഴാൻ കാരണമാകും. ചർമത്തിന്റെ സ്വാഭാവിക സംരക്ഷണ പാളി നശിക്കുന്നതിനാൽ വെയിലേൽക്കുമ്പോൾ വേഗത്തിൽ പൊള്ളലേൽക്കാനും ചർമരോഗങ്ങൾ വരാനും സാധ്യത കൂടും. സൗന്ദര്യവർധക ഉൽപന്നങ്ങളിൽ മെർക്കുറി ഉപയോഗിക്കുന്നത് പ്രധാനമായും ചർമത്തിലെ മെലാനിൻ ഉൽപാദനം കുറക്കുന്നതിനും അതിലൂടെ ചർമം വെളുപ്പിക്കുന്നതിനുമാണ്. ലോകാരോഗ്യ സംഘടന മുന്നറിയിപ്പ്. ചേരുവകൾ വ്യക്തമായി രേഖപ്പെടുത്താത്തതോ ഓൺലൈനിലൂടെയും അല്ലാതെയും പ്രാദേശികമായി നിർമിച്ച് വിൽക്കുന്നതോ ആയ ക്രീമുകൾ ഒഴിവാക്കുക. മുഖത്തെ കറുത്ത പാടുകളോ നിറവ്യത്യാസമോ മാറ്റാൻ ചർമരോഗ വിദഗ്ധന്റെ നിർദേശപ്രകാരം മാത്രം മരുന്നുകളോ ക്രീമുകളോ ഉപയോഗിക്കുക. ചർമത്തിന്റെ സ്വാഭാവിക തിളക്കം നിലനിർത്താൻ സൺസ്ക്രീൻ, മോയിസ്ചറൈസർ എന്നിവ ഉപയോഗിക്കുന്നതും ധാരാളം വെള്ളം കുടിക്കുന്നതുമാണ് സുരക്ഷിതമായ മാർഗം. ബാലാവകാശ കമീഷൻ കേസെടുത്തു. മെർക്കുറി വിഷബാധയേറ്റ് 17 വയസ്സുകാരിക്ക് ഗുരുതര വൃക്കരോഗം ബാധിച്ചെന്ന വാർത്തയിൽ സംസ്ഥാന ബാലാവകാശ സംരക്ഷണ കമീഷൻ സ്വമേധയാ കേസെടുത്തു. ഓൺലൈൻ വഴി വാങ്ങിയ ലേപനം ഒരു വർഷത്തോളം ഉപയോഗിച്ചതിനെ തുടർന്നുണ്ടായ ശാരീരിക അസ്വസ്ഥതകളോടെയാണ് കുട്ടി ആശുപത്രിയിൽ ചികിത്സ തേടിയത്. പരിശോധനയിൽ ശരീരത്തിലെ മെർക്കുറിയുടെ അളവ് അപകടകരമായ നിലയിൽ ഉയർന്നതായി കണ്ടെത്തുകയായിരുന്നു. ലബോറട്ടറി പരിശോധനയിൽ ലേപനത്തിൽ മെർക്കുറിയുടെ അളവ് അമിതമാണെന്ന് സ്ഥിരീകരിച്ചിട്ടുണ്ട്. സംഭവത്തിൽ ആരോഗ്യവകുപ്പ് ഡയറക്ടർ, സംസ്ഥാന പൊലീസ് മേധാവി, ഔഷധ നിയന്ത്രണ വിഭാഗം മേധാവി, കേന്ദ്ര ഉപഭോക്തൃ സംരക്ഷണ അതോറിറ്റി, ആശുപത്രി സൂപ്രണ്ട് എന്നിവരോട് ബാലാവകാശ കമീഷൻ വിശദീകരണം തേടി.\n📍 സ്ഥലം: മലപ്പുറം ജില്ല\n📜 വിഷയം: മെർക്കുറി ക്രീമുകൾ\n👮 നടപടി: ബാലാവകാശ കമീഷൻ കേസെടുത്തു\nℹ️ ശ്രദ്ധിക്കുക: ചർമരോഗ വിദഗ്ധന്റെ നിർദ്ദേശപ്രകാരം മാത്രം ക്രീമുകൾ ഉപയോഗിക്കുക\nആരോഗ്യം സംരക്ഷിക്കാൻ Share ചെയ്യൂ\n\nMercury creams in Malappuram | Malappuram news\n📍 മലപ്പുറം ജില്ല | 22 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Health #Mercury #MalappuramNews",
+   "prompts": "A row of skin-lightening cream tubes in a shop in Malappuram town, Kerala, with bright lighting and a red and white signboard in the background, a shopkeeper seen from behind. Same bright light and colour mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up of a skin-lightening cream tube in a shop in Malappuram town, Kerala, with a warning label in Malayalam, a shopkeeper seen from behind. Same bright light and colour mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA Kerala Police jeep parked beside a road in Malappuram town, Kerala, with two policemen in khaki seen from behind, a shop in the background. Same bright light and colour mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA doctor in a white coat seen from behind in a hospital in Malappuram town, Kerala, with a patient sitting on a chair, a medical chart in the doctor's hand. Same bright light and colour mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.madhyamam.com/kerala/mercury-creams-spread-amid-government-silence-1574551",
+   "published": "2026-11-22T07:15:51+05:30",
+   "verification": "FREE-MODEL DRAFT (cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct) - not checked by Claude yet; validator problems: reel_script has 40 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)",
+   "note": "free-model draft cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct, 3 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 11.0,
+   "images": [
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795318327/news360/hq5wswug3hp6djtabsy5.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795318366/news360/jaefnruew4huodttxzei.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795318412/news360/oqo6b3433toeoj7zn8j2.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795318368/news360/pvk02c6uhzfgdso5fyvx.jpg"
+   ]
+  },
+  {
+   "malayalam_headline": "മലപ്പുറം നഗരസഭ ഭിന്നശേഷി സൗഹൃദ പദ്ധതി ആരംഭിച്ചു",
+   "english_headline": "Malappuram municipality starts disability inclusion project",
+   "category": "Government & Services",
+   "location": "Malappuram municipality, Malappuram district",
+   "importance": "Medium",
+   "scope": "district",
+   "post_to": "Malappuram 360 (collab: Manjeri 360)",
+   "slides_spec": {
+    "v": 3,
+    "cat": "ഭിന്നശേഷി",
+    "loc": "മലപ്പുറം നഗരസഭ",
+    "hl1": "ഭിന്നശേഷി പദ്ധതി ആരംഭിച്ചു",
+    "hl2": "45 വാർഡുകളിൽ വിവരങ്ങൾ",
+    "slides": [
+     {
+      "title": "എന്ത്, എവിടെ?",
+      "lines": [
+       "ഭിന്നശേഷി സൗഹൃദ പദ്ധതി ആരംഭിച്ചു",
+       "മലപ്പുറം നഗരസഭ 45 വാർഡുകളിൽ"
+      ]
+     },
+     {
+      "title": "എങ്ങനെ?",
+      "lines": [
+       "<b>1237</b> ഭിന്നശേഷിക്കാരുടെ വിവരങ്ങൾ ശേഖരിച്ചു",
+       "20 മിനിറ്റ് നീളുന്ന സർവേ",
+       "വിവരങ്ങൾ എം-സഹജീവനം ആപ്പിൽ ചേർക്കും"
+      ]
+     },
+     {
+      "title": "ആവശ്യമുള്ളവർക്ക്",
+      "lines": [
+       "സഹായങ്ങൾ ആവശ്യമുള്ളവരെ കണ്ടെത്താനും",
+       "സഹായം എത്തിക്കാനും സാധിക്കും",
+       "വൊളന്റിയർമാരും നേതൃത്വം നൽകും"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "മലപ്പുറം നഗരസഭ ഭിന്നശേഷി പദ്ധതി ആരംഭിച്ചു. ശനിയാഴ്ച 45 വാർഡുകളിലായി 1237 ഭിന്നശേഷിക്കാരുടെ വിവരങ്ങൾ ശേഖരിച്ചു. 20 മിനിറ്റ് നീളുന്ന സർവേ നടത്തി. സർവേയിൽ വ്യക്തിഗത വിവരങ്ങൾ, വിദ്യാഭ്യാസയോഗ്യത, ജോലിയുമായി ബന്ധപ്പെട്ട വിവരങ്ങൾ, ഭിന്നശേഷി ശതമാനം, ഭിന്നശേഷി കാർഡ്/ഐ ഡി കാർഡ്/ഹെൽത്ത് കാർഡുകൾ ഉണ്ടോ, ആനുകൂല്യങ്ങൾ, പെൻഷൻ ലഭിക്കുന്നുണ്ടോ/ആവശ്യമുണ്ടോ തുടങ്ങിയ വിവരങ്ങൾ ശേഖരിച്ചു. സഹായങ്ങൾ ആവശ്യമുള്ളവരെ കണ്ടെത്താനും സഹായം എത്തിക്കാനും സാധിക്കും. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "📢 മലപ്പുറം നഗരസഭ ഭിന്നശേഷി സൗഹൃദ പദ്ധതി ആരംഭിച്ചു\n\n📰 പൂർണ വിവരം:\nമലപ്പുറം നഗരസഭ ഭിന്നശേഷി സൗഹൃദ സമൂഹത്തിലേക്കുള്ള ആദ്യചുവട് എന്ന നിലയിലാണ് വിവരശേഖരണം നടത്തുന്നത്. ശനിയാഴ്ച 45 വാർഡുകളിലായി 1237 ഭിന്നശേഷിക്കാരുടെ വിവരങ്ങൾ ശേഖരിച്ചു. 20 മിനിറ്റ് നീളുന്ന വിവര സർവേയിൽ വ്യക്തിഗത വിവരങ്ങൾ, വിദ്യാഭ്യാസയോഗ്യത, ജോലിയുമായി ബന്ധപ്പെട്ട വിവരങ്ങൾ, ഭിന്നശേഷി ശതമാനം, ഭിന്നശേഷി കാർഡ്/ഐ.ഡി. കാർഡ്/ഹെൽത്ത് കാർഡുകൾ ഉണ്ടോ, ഏതെങ്കിലും ആനുകൂല്യങ്ങൾ, പെൻഷൻ ലഭിക്കുന്നുണ്ടോ/ആവശ്യമുണ്ടോ തുടങ്ങിയ വിവരങ്ങൾ ശേഖരിച്ചു. ഇതുവഴി സഹായങ്ങൾ ആവശ്യമുള്ളവരെ കണ്ടെത്താനും സഹായം എത്തിക്കാനും സാധിക്കും. സർവേയെടുക്കുന്ന ഓരോരുത്തരുടെയും ലൊക്കേഷനും ജിയോ മാപ്പിങ് സംവിധാനം വഴി രേഖപ്പെടുത്തുന്നുണ്ട്. 2024-ൽ മലപ്പുറം കേന്ദ്രീകരിച്ചു തുടങ്ങിയ സംഘടനയായ ആക്സസ് മലപ്പുറമാണ് ആശയത്തിനു പിന്നിൽ. ഭിന്നശേഷിക്കാരായ ഒൻപതുപേരാണ് സംഘടനയിലുള്ളത്. ഇവരുടെ നിർദേശപ്രകാരം ജില്ലാ ഭരണകൂടവും സാമൂഹികനീതി വകുപ്പും ചേർന്ന് ആവിഷ്കരിച്ച എം-സഹജീവനം ആപ്പിലേക്കാണ് ഈ വിവരങ്ങൾ ചേർക്കുക. പരിശീലനം ലഭിച്ച വൊളന്റിയർമാരെ വിവരശേഖരണത്തിനു നിയോഗിച്ചിട്ടുണ്ട്. മലപ്പുറത്ത് ഡോട്ട് അക്കാദമിയിലെ 120 വിദ്യാർഥികളാണ് ഇതു ചെയ്യുന്നത്. ഒപ്പം വാർഡ് കൗൺസിലർമാരും ആശ പ്രവർത്തകരും അങ്കണവാടി പ്രവർത്തകരും നേതൃത്വംനൽകും.\n📍 സ്ഥലം: മലപ്പുറം നഗരസഭ\n📅 തീയതി: നവംബർ 22, ശനി\n👥 ശേഖരിച്ചവർ: <b>1237</b> ഭിന്നശേഷിക്കാരുടെ വിവരങ്ങൾ\n📞 ബന്ധപ്പെടാൻ: മലപ്പുറം നഗരസഭ\nആവശ്യമുള്ളവർക്ക് Share ചെയ്യൂ\n\nMalappuram municipality starts disability inclusion project | Malappuram news\n📍 മലപ്പുറം നഗരസഭ, മലപ്പുറം | 22 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #MalappuramMunicipality #GovernmentServices #MalappuramNews",
+   "prompts": "A wide view of a Malappuram municipality ward with a group of volunteers in blue T-shirts and face masks seen from behind, carrying tablets and forms, talking to a person in a wheelchair, a municipal office building in the background on a bright sunny day. Same bright sunny mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose view of a volunteer in a blue T-shirt and face mask filling out a form on a tablet, a person in a wheelchair beside them, a municipal office building in the background. Same bright sunny mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA group of volunteers in blue T-shirts and face masks seen from behind, sitting in a circle on the ground under a tree, discussing with a municipal official, tablets and forms on the ground. Same bright sunny mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide view of the Malappuram municipality office building on a bright sunny day, a group of volunteers in blue T-shirts and face masks seen from behind, walking towards the building, carrying tablets and forms. Same bright sunny mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.mathrubhumi.com/amp/malappuram/news/localnews-malappuram-g8sxawjq",
+   "published": "2026-11-22T02:55+05:30",
+   "verification": "FREE-MODEL DRAFT (cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct) - not checked by Claude yet; validator problems: reel_script has 52 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block); caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): കോട്ടക്കുന്ന് ('ശനിയാഴ്ച ചിത്രകാരനായ ജസ്ഫർ കോട്ടക്കുന്നിന്റെ വിവരങ്ങൾ ശേഖരിച'); 21 ('നിലവിൽ 21 ഭിന്നശേഷി വിഭാഗങ്ങളിലുള്ള കാർഡുള്ളവരുടെ വിവരങ്ങൾ മ')",
+   "note": "free-model draft cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct, 1 attempt(s), 2 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 8.0,
+   "images": [
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795318450/news360/vvhievpe0cz05jy1kqro.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795318456/news360/gapjovoejlbcohsgtj3b.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795318504/news360/txstfoqek9eexzk8z20b.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795318461/news360/emwkieguf0jufadwb3e0.jpg"
+   ]
+  }
+ ]
 }
