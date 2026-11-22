@@ -1,132 +1,124 @@
-writing [N]: ഭിന്നശേഷി സൗഹൃദത്തിന് ഒരു മലപ്പുറം മാതൃക
-writing [N]: സ്വർണവിലയിൽ 39,000 രൂപയുടെ ഇടിവ്..ഇപ്പോൾ തന്നെ വാങ്ങിക്കോളൂ,
+writing [N]: നന്ദിപറയാൻ ഒന്നാംറാങ്കുകാരി മന്ത്രി കുഞ്ഞാലിക്കുട്ടിയുടെ വീട
+writing [R]: ചോലക്കുളം-എടയാറ്റൂർ-ചൂരക്കാവ് റോഡുപണി വീണ്ടും തുടങ്ങുന്നു
+writing [R]: ഫെയ്സ് ക്രീം ഉപയോഗത്തെ തുടർന്ന് വൃക്കരോഗമെന്ന പരാതി: അന്വേഷണ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-writing [N]: ആശ്വസിക്കാൻ വരട്ടെ; സ്വർണവില 1.47 ലക്ഷത്തിലേക്ക്? വൻ കുതിപ്പ
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-switching away from gemini/gemini-3.8-flash for 10 min
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-ok gemini/gemini-3.6-flash (17s)
-attempt 1 gemini/gemini-3.6-flash: 2 problems
-  numbers not found in the article: 237
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 20 ('20 മിനിറ്റ് നീളുന്ന വിവര സർവേയിൽ വ്യക്തിഗത വിവരങ്ങൾ, വിദ്യാഭ')
+ok gemini/gemini-3.6-flash (15s)
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  reel_script has 48 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3.6-flash (22s)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
+ok groq/openai/gpt-oss-120b (5s)
+factcheck by groq/openai/gpt-oss-120b: 4 problems
+  The draft says the Rs 8.60 crore was spent (ചെലവഴിച്ചാണ്) while the article only says it was allocated (അനുവദിച്ചിട്ടുള്ളത്)
+  Caption gives a specific start date “Nov 22” for the traffic ban, which is not mentioned in the article
+  Reel script and slides omit the article’s important fact that the road work has been delayed and was originally to be completed by Dec 2025
+  Slides spec headline misnames the road as “ചോലക്കുളം-ചൂരക്കാവ്” omitting “എടയാറ്റൂർ”, which does not match the article’s road name
+attempt 2 gemini/gemini-3.6-flash: 4 problems
+  fact-check: The draft says the Rs 8.60 crore was spent (ചെലവഴിച്ചാണ്) while the article only says it was allocated (അനുവദിച്ചിട്ടുള്ളത്)
+  fact-check: Caption gives a specific start date “Nov 22” for the traffic ban, which is not mentioned in the article
+  fact-check: Reel script and slides omit the article’s important fact that the road work has been delayed and was originally to be completed by Dec 2025
+  fact-check: Slides spec headline misnames the road as “ചോലക്കുളം-ചൂരക്കാവ്” omitting “എടയാറ്റൂർ”, which does not match the article’s road name
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH6487RWiyj9RZM1no4E"}
-proofread skipped: free models not efficient (7 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
 fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
 poor answer - skipped for 30 min: gemini/gemini-3.8-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH64FF3yn5No6hqtGAQB"}
-fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.7-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH64LFgKTMk3NhFE6otJ"}
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH6WAXzspCArjxkyHjBz"}
+proofread skipped: free models not efficient (14 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-image match: False The image shows an AI-generated portrait of a woman sitting outdoors and is unrelated to a municipal data collection eve
-image match: False The image displays a digital portrait of a young girl in a tropical indoor setting, which is completely unrelated to dat
-image match: False The image shows a person holding a smartphone with settings displayed on the screen, which does not depict Malappuram Mu
-image match: False The photo displays an illegible/AI-generated document form on a tablet screen, showing no connection to Malappuram Munic
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH6XAq8e4zvqUPpb3uwW"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH6XHmMBugS3ByHomkrU"}
+image match: False The photo depicts a peaceful, misty road surrounded by palm trees without any visible tarring work, construction machine
+image match: False The image shows a vehicle driving on a paved road surrounded by palm trees, with no signs of active road tarring work, c
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
 image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Malappuram Municipality collects data of'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261122-0654","first":"MP-381"}
+image match: False The photo shows an empty rural road with no visible tarring work, construction machinery, workers, or traffic restrictio
+image match: False The photo shows a quiet, empty road through a forest with no ongoing tarring work, construction machinery, workers, or t
+images made: 4 for 'Tarring work resumes on Cholakkulam-Eday'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261122-0700","first":"MP-382"}
 posting job started at once
-writing [R]: ചോലക്കുളം-എടയാറ്റൂർ-ചൂരക്കാവ് റോഡുപണി വീണ്ടും തുടങ്ങുന്നു
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-writing [N]: നന്ദിപറയാൻ ഒന്നാംറാങ്കുകാരി മന്ത്രി കുഞ്ഞാലിക്കുട്ടിയുടെ വീട
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH6NisDYMSLsZFgvZEs9"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH6NiyQfp6DS1Q2fWyLw"}
-writing [N]: പൊതുജലാശയങ്ങളിലെ മാലിന്യം നടപടികളുമായി ഗ്രാമപ്പഞ്ചായത്ത്
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH6NjrFXQqikJmf4hGyf"}
 writing [N]: നടുവട്ടം വികസനം; കൈയേറ്റം തിരിച്ചുപിടിക്കാൻ നടപടി തുടങ്ങി
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-writing [R]: ഫെയ്സ് ക്രീം ഉപയോഗത്തെ തുടർന്ന് വൃക്കരോഗമെന്ന പരാതി: അന്വേഷണ
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH6NkoYYE9fPKndN1TxJ"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH6Nm3vVzssFjFTAL8Do"}
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH6rdtr3aeQNhTXiukT9"}
 writing [N]: മലപ്പുറത്തെ ഹർഷപുളകിതമാക്കി എസ് വൈ എസ് യൂത്ത് മാർച്ച് | Sira
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH6NoG8XvKu9SPLVvA1m"}
+free models unavailable: free models not efficient (16 failures in a row): using Claude
 writing [R]: മഞ്ചേരിയിൽ ഓറഞ്ച് കൊടുങ്കാറ്റ്; കൊമ്പന്റെ കൊമ്പൊടിച്ച് മലപ്പ
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH6NqseQ8NXjZ7xY4cvY"}
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH6riebxrkuFDrjdcFZC"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChH6rijZ3LUE1KJiUS1Ti"}
 write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 82 recent posts read from all pages
-write round: 10 news waiting in the queue (written in priority order)
-candidate filter: collected=10
-to write: 3 Manjeri + 0 Kondotty + 7 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 3 Manjeri, 0 Kondotty, 7 Malappuram; time left 29 min
-try (N) manual=False: ആശ്വസിക്കാൻ വരട്ടെ; സ്വർണവില 1.47 ലക്ഷത്തിലേക്ക്? വൻ കുതിപ്പ
-try (N) manual=False: സ്വർണവിലയിൽ 39,000 രൂപയുടെ ഇടിവ്..ഇപ്പോൾ തന്നെ വാങ്ങിക്കോളൂ,
-try (N) manual=False: ഭിന്നശേഷി സൗഹൃദത്തിന് ഒരു മലപ്പുറം മാതൃക
-auto images: 1 of 1 stories ({'pollinations': 6})
-posting job started at once
-try (N) manual=False: പൊതുജലാശയങ്ങളിലെ മാലിന്യം നടപടികളുമായി ഗ്രാമപ്പഞ്ചായത്ത്
-NOT filed (N) സ്വർണവിലയിൽ 39,000 രൂപയുടെ ഇടിവ്..ഇപ്പോൾ തന്നെ വാങ: all free models failed: no usable answer from the models
-NOT filed (N) ആശ്വസിക്കാൻ വരട്ടെ; സ്വർണവില 1.47 ലക്ഷത്തിലേക്ക്? : all free models failed: no usable answer from the models
+write round: 9 news waiting in the queue (written in priority order)
+candidate filter: collected=6, checked earlier=3
+to write: 3 Manjeri + 0 Kondotty + 3 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 3 Manjeri, 0 Kondotty, 3 Malappuram; time left 29 min
 try (N) manual=False: നന്ദിപറയാൻ ഒന്നാംറാങ്കുകാരി മന്ത്രി കുഞ്ഞാലിക്കുട്ടിയുടെ വീട
 try (R) manual=False: ചോലക്കുളം-എടയാറ്റൂർ-ചൂരക്കാവ് റോഡുപണി വീണ്ടും തുടങ്ങുന്നു
-NOT filed (R) ചോലക്കുളം-എടയാറ്റൂർ-ചൂരക്കാവ് റോഡുപണി വീണ്ടും തുടങ: all free models failed: no usable answer from the models
 try (R) manual=False: ഫെയ്സ് ക്രീം ഉപയോഗത്തെ തുടർന്ന് വൃക്കരോഗമെന്ന പരാതി: അന്വേഷണ
-NOT filed (N) നന്ദിപറയാൻ ഒന്നാംറാങ്കുകാരി മന്ത്രി കുഞ്ഞാലിക്കുട്: all free models failed: no usable answer from the models
+auto images: 1 of 1 stories ({'pollinations': 6})
+posting job started at once
 try (N) manual=False: മലപ്പുറത്തെ ഹർഷപുളകിതമാക്കി എസ് വൈ എസ് യൂത്ത് മാർച്ച് | Sira
-NOT filed (N) പൊതുജലാശയങ്ങളിലെ മാലിന്യം നടപടികളുമായി ഗ്രാമപ്പഞ്ച: all free models failed: no usable answer from the models
-try (N) manual=False: നടുവട്ടം വികസനം; കൈയേറ്റം തിരിച്ചുപിടിക്കാൻ നടപടി തുടങ്ങി
-NOT filed (N) നടുവട്ടം വികസനം; കൈയേറ്റം തിരിച്ചുപിടിക്കാൻ നടപടി : all free models failed: no usable answer from the models
-try (R) manual=False: മഞ്ചേരിയിൽ ഓറഞ്ച് കൊടുങ്കാറ്റ്; കൊമ്പന്റെ കൊമ്പൊടിച്ച് മലപ്പ
+NOT filed (N) നന്ദിപറയാൻ ഒന്നാംറാങ്കുകാരി മന്ത്രി കുഞ്ഞാലിക്കുട്: all free models failed: no usable answer from the models
 NOT filed (R) ഫെയ്സ് ക്രീം ഉപയോഗത്തെ തുടർന്ന് വൃക്കരോഗമെന്ന പരാത: all free models failed: no usable answer from the models
+try (N) manual=False: നടുവട്ടം വികസനം; കൈയേറ്റം തിരിച്ചുപിടിക്കാൻ നടപടി തുടങ്ങി
+try (R) manual=False: മഞ്ചേരിയിൽ ഓറഞ്ച് കൊടുങ്കാറ്റ്; കൊമ്പന്റെ കൊമ്പൊടിച്ച് മലപ്പ
+NOT filed (N) നടുവട്ടം വികസനം; കൈയേറ്റം തിരിച്ചുപിടിക്കാൻ നടപടി : all free models failed: no usable answer from the models
 NOT filed (N) മലപ്പുറത്തെ ഹർഷപുളകിതമാക്കി എസ് വൈ എസ് യൂത്ത് മാർച: all free models failed: no usable answer from the models
 NOT filed (R) മഞ്ചേരിയിൽ ഓറഞ്ച് കൊടുങ്കാറ്റ്; കൊമ്പന്റെ കൊമ്പൊടി: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 3, 'N': 7, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 24 min
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 3, 'N': 3, 'K': 0}, done={'R': 1, 'N': 0, 'K': 0}, time left 24 min
 carousel for 0 of 1 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)
-queue: 9 news waiting to be written
+filed: 1 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
+queue: 5 news waiting to be written
 write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":10} 
+All News sheet: {"ok":true,"added":0,"updated":6} 
 stories: 1
