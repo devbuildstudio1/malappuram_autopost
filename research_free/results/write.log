@@ -1,16 +1,51 @@
-writing [N]: സൗന്ദര്യം തേടി വാങ്ങുന്നത് കൊടുംവിഷമോ? 17കാരിക്ക് വൃക്കരോഗം 
+writing [N]: ചീക്കോട് കടുക്കംകുഴി മലയിൽ വൻ തീപിടിത്തം
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [R]: മങ്കടയിൽ ബസ് ഇടിച്ച് സ്കൂട്ടർ യാത്രികൻ  മരിച്ചു
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [N]: സൗന്ദര്യവർധക ക്രീം തേച്ചാലൊന്നും സൗന്ദര്യം ഉണ്ടാകില്ല, വിൽപ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+ok gemini/gemini-3.6-flash (22s)
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  numbers not found in the article: 17
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.7-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -24,94 +59,136 @@ dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-writing [N]: അംഗീകാരമില്ലാത്ത സൗന്ദര്യവർധക വസ്തുക്കളും പ്രോട്ടീൻ പൊടികളു
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMHGzLeEECTSjGDFECj"}
-writing [R]: ‘മറ്റുള്ളവരെങ്കിലും രക്ഷപ്പെടണമെന്നു കരുതിയാണ് തുറന്നുപറഞ്ഞത
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMHMMGmyrR8sMKVrYUm"}
-writing [R]: കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Madhyamam
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMHP1VHupPukhvnrYrC"}
-writing [N]: മിനി മാരത്തണുമായി ശിശുദിനവാരാഘോഷത്തിന് സമാപനം
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-writing [N]: “പശു വിശുദ്ധവും മനുഷ്യർ അവിശുദ്ധവുമായ സമൂഹത്തിലാണ് നാം ജീവിക
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMHPzmQUwT1528XAz52"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMHQUHctCeeb5fJRzDf"}
+fail gemini/gemini-3.6-flash: Expecting ',' delimiter: line 1 column 1127 (char 1126)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+ok gemini/gemini-3.6-flash (31s)
+attempt 2 gemini/gemini-3.6-flash: 1 problems
+  reel_script has 51 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMJLxjaKd9gNHh7haQg"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMSWiLhKx5VssciBChY"}
+writing [N]: മോഷണക്കേസിൽ അറസ്റ്റ്
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMSahCUiVsfUhtEiiQV"}
+writing [N]: സൗന്ദര്യം തേടി വാങ്ങുന്നത് കൊടുംവിഷമോ? 17കാരിക്ക് വൃക്കരോഗം 
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMScnxZZ5r9N8dsXEXB"}
+writing [N]: അംഗീകാരമില്ലാത്ത സൗന്ദര്യവർധക വസ്തുക്കളും പ്രോട്ടീൻ പൊടികളു
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMShbgGvk6Mseu5oqxD"}
+writing [R]: ‘മറ്റുള്ളവരെങ്കിലും രക്ഷപ്പെടണമെന്നു കരുതിയാണ് തുറന്നുപറഞ്ഞത
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMSjfCk6heCRexsntLJ"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMTA9rR5Rgo5Kk3nTN2"}
+writing [N]: മാഡ്രിഡിൽ നിറഞ്ഞ് 
+മലപ്പുറം ശബ്ദം
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMTDTY87j9dAmp3enQg"}
+writing [N]: എടപ്പാളിൽ അഖിലകേരള  പ്രൊഫഷണൽ നാടകമേളക്ക് തുടക്കം
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMTFX4kvbxWeyFKV6JC"}
+writing [R]: കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Madhyamam
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMTHAXM3SViFKLbjqQ8"}
+writing [N]: ഇ എം രാധ ഏലംകുളത്തിന്റെ മകൾ
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMTHdJjFNLxv6o6Wk78"}
+writing [N]: 4 ലക്ഷം  കുരുന്നുകൾ
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMTKNVM9GuauD7LnBBy"}
+writing [N]: മിനി മാരത്തണുമായി ശിശുദിനവാരാഘോഷത്തിന് സമാപനം
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMTLVTYTieMcJtoaotd"}
+writing [N]: ഉറക്കം പോലും കിട്ടാത്ത അവസ്ഥ ; ഫെയർനെസ് ക്രീം ഉപയോഗിച്ചു ; ശ
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMTPtqn5oVooEoqT7Dd"}
+writing [N]: “പശു വിശുദ്ധവും മനുഷ്യർ അവിശുദ്ധവുമായ സമൂഹത്തിലാണ് നാം ജീവിക
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+writing [N]: ഉപാസനാ യാത്രയുടെ ആരംഭം; 
+പ്രഭാഷണം നടത്തി
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMTQoet1RPPDxtSgxiA"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMTQrPaBLPYnjSrXR8d"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKMTSVNBQw2CCZ7v6fha"}
+proofread skipped: free models not efficient (5 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+image match: False The image is a generic stock photo showing a blurred interior scene with a basin and a plant, and does not depict any ne
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+imagegen: pollinations 402: {"status":402,"success":false,"error":{"code":"FREE_LIMIT","message":"Free limit reached: 1 image every 45 seconds per IP. Retry after 45s, or get unlimited images with a pollen key at https://enter.p
+imagegen: black-forest-labs/flux.1-schnell 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":610615}]}
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=90) 504 timeout
+images NOT made for 'Health department initiates action after': all image models failed: all image models failed: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=90)
+bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261123-1140","first":"MP-410"}
+posting job started at once
+write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 86 recent posts read from all pages
-write round: 31 news waiting in the queue (written in priority order)
-candidate filter: collected=28, already filed=2, not written=1
-to write: 3 Manjeri + 0 Kondotty + 25 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 3 Manjeri, 0 Kondotty, 25 Malappuram; time left 29 min
+write round: 18 news waiting in the queue (written in priority order)
+candidate filter: collected=17, checked earlier=1
+to write: 3 Manjeri + 0 Kondotty + 14 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 3 Manjeri, 0 Kondotty, 14 Malappuram; time left 29 min
 try (N) manual=False: സൗന്ദര്യവർധക ക്രീം തേച്ചാലൊന്നും സൗന്ദര്യം ഉണ്ടാകില്ല, വിൽപ
 try (R) manual=False: മങ്കടയിൽ ബസ് ഇടിച്ച് സ്കൂട്ടർ യാത്രികൻ  മരിച്ചു
 try (N) manual=False: ചീക്കോട് കടുക്കംകുഴി മലയിൽ വൻ തീപിടിത്തം
-skip (N) could not open: സൗന്ദര്യവർധക ക്രീം തേച്ചാലൊന്നും സൗന്ദര്യം ഉണ്ടാക [https://www.mangalam.com/news/detail/882973-keralam-news-det] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882973
-try (N) manual=False: തിരിച്ചുകയറി സ്വർണവില, ഒറ്റയടിക്ക് 1080 രൂപയുടെ വർധന; 93,000
-skip (R) could not open: മങ്കടയിൽ ബസ് ഇടിച്ച് സ്കൂട്ടർ യാത്രികൻ  മരിച്ചു [https://www.deshabhimani.com/News/kerala/58-year-old-scooter] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/News/kerala/58
+NOT filed (R) മങ്കടയിൽ ബസ് ഇടിച്ച് സ്കൂട്ടർ യാത്രികൻ  മരിച്ചു: all free models failed: no usable answer from the models
 try (N) manual=False: മോഷണക്കേസിൽ അറസ്റ്റ്
-skip (N) could not open: ചീക്കോട് കടുക്കംകുഴി മലയിൽ വൻ തീപിടിത്തം [https://www.deshabhimani.com/district-news/-73594/fire121-fy] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
-try (N) manual=False: സ്വർണവില വീണ്ടും ഉയരുന്നു; ഇനി വില തിരിച്ചുകയറുമോ? ഇന്നത്തെ 
-skip (N) could not open: മോഷണക്കേസിൽ അറസ്റ്റ് [https://www.mangalam.com/news/detail/882863-news-details.htm] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882863
-try (N) manual=False: ഇടിവിന് ശേഷമുള്ള കുതിപ്പ്; പവന് 1,080 രൂപ കൂടി, സ്വർണവില 92,
-skip (N) today's price is already filed: തിരിച്ചുകയറി സ്വർണവില, ഒറ്റയടിക്ക് 1080 രൂപയുടെ വർ
+NOT filed (N) മോഷണക്കേസിൽ അറസ്റ്റ്: all free models failed: no usable answer from the models
 try (N) manual=False: സൗന്ദര്യം തേടി വാങ്ങുന്നത് കൊടുംവിഷമോ? 17കാരിക്ക് വൃക്കരോഗം 
-skip (N) similar to a filed story: സ്വർണവില വീണ്ടും ഉയരുന്നു; ഇനി വില തിരിച്ചുകയറുമോ?
-try (N) manual=False: ബാങ്കിനുമുന്നിലെ കവർച്ചാശ്രമം:  പ്രതികൾ റിമാൻഡിൽ
-skip (N) could not open: ബാങ്കിനുമുന്നിലെ കവർച്ചാശ്രമം:  പ്രതികൾ റിമാൻഡിൽ [https://www.deshabhimani.com/district-news/-73594/aa12112-fy] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
-try (N) manual=False: സ്വർണം വൻ തിരിച്ചുവരവിൽ; സ്വർണവില കുതിച്ചുയർന്നു, വിപണിയിൽ ട
-skip (N) today's price is already filed: സ്വർണം വൻ തിരിച്ചുവരവിൽ; സ്വർണവില കുതിച്ചുയർന്നു, 
-try (N) manual=False: ആശ്വാസത്തിന് വിരാമം, സ്വർണവില വീണ്ടും കുതിക്കുന്നു! ഒറ്റയടിക
-skip (N) similar to a filed story: ഇടിവിന് ശേഷമുള്ള കുതിപ്പ്; പവന് 1,080 രൂപ കൂടി, സ്
-try (N) manual=False: പ്രതീക്ഷ തകർത്ത് സ്വർണം, വീണ്ടും കുതിപ്പ്! നവംബർ 23-ലെ വില |
-skip (N) today's price is already filed: പ്രതീക്ഷ തകർത്ത് സ്വർണം, വീണ്ടും കുതിപ്പ്! നവംബർ 2
-try (N) manual=False: സ്വർണവില തകർന്നടിഞ്ഞ് താഴെ; ഇനി പവൻ വില 85000ത്തിലേക്ക്..ഗ്ര
-skip (N) today's price is already filed: സ്വർണവില തകർന്നടിഞ്ഞ് താഴെ; ഇനി പവൻ വില 85000ത്തില
-try (N) manual=False: സ്വർണവില വീണ്ടും മേലോട്ട്; കേരളത്തിലും തിരിച്ചുകയറ്റം, കളത്ത
-skip (N) today's price is already filed: സ്വർണവില വീണ്ടും മേലോട്ട്; കേരളത്തിലും തിരിച്ചുകയറ
-try (N) manual=False: സൗദിയിലും ബഹ്റൈനിലും പുത്തൻ ആക്രമണം; ഇടിഞ്ഞ് എണ്ണ, സ്വർണവില 
-skip (N) today's price is already filed: സൗദിയിലും ബഹ്റൈനിലും പുത്തൻ ആക്രമണം; ഇടിഞ്ഞ് എണ്ണ,
+NOT filed (N) സൗന്ദര്യം തേടി വാങ്ങുന്നത് കൊടുംവിഷമോ? 17കാരിക്ക് : all free models failed: no usable answer from the models
 try (N) manual=False: അംഗീകാരമില്ലാത്ത സൗന്ദര്യവർധക വസ്തുക്കളും പ്രോട്ടീൻ പൊടികളു
 NOT filed (N) അംഗീകാരമില്ലാത്ത സൗന്ദര്യവർധക വസ്തുക്കളും പ്രോട്ട: all free models failed: no usable answer from the models
-try (N) manual=False: സ്വർണവില ഇന്ന് (23 നവംബർ 2026): പവന് ₹1,080 കൂടി; ഒരു പവന് ₹
-skip (N) similar to a filed story: ആശ്വാസത്തിന് വിരാമം, സ്വർണവില വീണ്ടും കുതിക്കുന്നു
 try (R) manual=False: ‘മറ്റുള്ളവരെങ്കിലും രക്ഷപ്പെടണമെന്നു കരുതിയാണ് തുറന്നുപറഞ്ഞത
-skip (N) today's price is already filed: സ്വർണവില ഇന്ന് (23 നവംബർ 2026): പവന് ₹1,080 കൂടി; 
-try (R) manual=False: കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Madhyamam
 NOT filed (R) ‘മറ്റുള്ളവരെങ്കിലും രക്ഷപ്പെടണമെന്നു കരുതിയാണ് തുറ: all free models failed: no usable answer from the models
+try (R) manual=False: കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Madhyamam
+NOT filed (N) ചീക്കോട് കടുക്കംകുഴി മലയിൽ വൻ തീപിടിത്തം: all free models failed: no usable answer from the models
 try (N) manual=False: മാഡ്രിഡിൽ നിറഞ്ഞ് 
 മലപ്പുറം ശബ്ദം
-skip (N) could not open: മാഡ്രിഡിൽ നിറഞ്ഞ് 
-മലപ്പുറം ശബ്ദം [https://www.deshabhimani.com/district-news/-73594/asd121-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+NOT filed (N) മാഡ്രിഡിൽ നിറഞ്ഞ് 
+മലപ്പുറം ശബ്ദം: all free models failed: no usable answer from the models
 try (N) manual=False: എടപ്പാളിൽ അഖിലകേരള  പ്രൊഫഷണൽ നാടകമേളക്ക് തുടക്കം
-skip (N) could not open: എടപ്പാളിൽ അഖിലകേരള  പ്രൊഫഷണൽ നാടകമേളക്ക് തുടക്കം [https://www.deshabhimani.com/district-news/-73594/drama123-f] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+NOT filed (N) എടപ്പാളിൽ അഖിലകേരള  പ്രൊഫഷണൽ നാടകമേളക്ക് തുടക്കം: all free models failed: no usable answer from the models
 try (N) manual=False: ഇ എം രാധ ഏലംകുളത്തിന്റെ മകൾ
-skip (N) could not open: ഇ എം രാധ ഏലംകുളത്തിന്റെ മകൾ [https://www.deshabhimani.com/district-news/-73594/aasa1-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
-try (N) manual=False: 4 ലക്ഷം  കുരുന്നുകൾ
-skip (N) could not open: 4 ലക്ഷം  കുരുന്നുകൾ [https://www.deshabhimani.com/district-news/-73594/aas1121-fy] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
-try (N) manual=False: കാപ്പ നിയമം ലംഘിച്ച 19കാരൻ പൊന്നാനിയിൽ അറസ്റ്റിൽ | Deepika |
-skip (N) could not open: കാപ്പ നിയമം ലംഘിച്ച 19കാരൻ പൊന്നാനിയിൽ അറസ്റ്റിൽ | [https://www.deepika.com/district-news/19-year-old-arrested-i] 403 Client Error: Forbidden for url: https://www.deepika.com/district-news/19-ye
-try (N) manual=False: മിനി മാരത്തണുമായി ശിശുദിനവാരാഘോഷത്തിന് സമാപനം
 NOT filed (R) കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Ma: all free models failed: no usable answer from the models
+try (N) manual=False: 4 ലക്ഷം  കുരുന്നുകൾ
+NOT filed (N) ഇ എം രാധ ഏലംകുളത്തിന്റെ മകൾ: all free models failed: no usable answer from the models
+try (N) manual=False: കാപ്പ നിയമം ലംഘിച്ച 19കാരൻ പൊന്നാനിയിൽ അറസ്റ്റിൽ | Deepika |
+NOT filed (N) 4 ലക്ഷം  കുരുന്നുകൾ: all free models failed: no usable answer from the models
+try (N) manual=False: മിനി മാരത്തണുമായി ശിശുദിനവാരാഘോഷത്തിന് സമാപനം
+skip (N) similar to a filed story: കാപ്പ നിയമം ലംഘിച്ച 19കാരൻ പൊന്നാനിയിൽ അറസ്റ്റിൽ |
 try (N) manual=False: ഉറക്കം പോലും കിട്ടാത്ത അവസ്ഥ ; ഫെയർനെസ് ക്രീം ഉപയോഗിച്ചു ; ശ
-skip (N) could not open: ഉറക്കം പോലും കിട്ടാത്ത അവസ്ഥ ; ഫെയർനെസ് ക്രീം ഉപയോ [https://www.mangalam.com/news/detail/882893-saleem-kodavatho] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882893
+NOT filed (N) മിനി മാരത്തണുമായി ശിശുദിനവാരാഘോഷത്തിന് സമാപനം: all free models failed: no usable answer from the models
 try (N) manual=False: ഉപാസനാ യാത്രയുടെ ആരംഭം; 
 പ്രഭാഷണം നടത്തി
-skip (N) could not open: ഉപാസനാ യാത്രയുടെ ആരംഭം; 
-പ്രഭാഷണം നടത്തി [https://www.mangalam.com/news/detail/882861-news-details.htm] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882861
+NOT filed (N) ഉറക്കം പോലും കിട്ടാത്ത അവസ്ഥ ; ഫെയർനെസ് ക്രീം ഉപയോ: all free models failed: no usable answer from the models
 try (N) manual=False: “പശു വിശുദ്ധവും മനുഷ്യർ അവിശുദ്ധവുമായ സമൂഹത്തിലാണ് നാം ജീവിക
-NOT filed (N) മിനി മാരത്തണുമായി ശിശുദിനവാരാഘോഷത്തിന് സമാപനം: all free models failed: no usable answer from the models
 NOT filed (N) “പശു വിശുദ്ധവും മനുഷ്യർ അവിശുദ്ധവുമായ സമൂഹത്തിലാണ്: all free models failed: no usable answer from the models
-NOT filed (N) സൗന്ദര്യം തേടി വാങ്ങുന്നത് കൊടുംവിഷമോ? 17കാരിക്ക് : all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 3, 'N': 25, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
-carousel for 0 of 0 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 18 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":19} 
-stories: 0
+NOT filed (N) ഉപാസനാ യാത്രയുടെ ആരംഭം; 
+പ്രഭാഷണം നടത്തി: all free models failed: no usable answer from the models
+auto images failed for 'Health department initiates action after': all image models failed: all image models failed: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed ou -> images-needed email
+auto images: 0 of 1 stories ({'pollinations': 4})
+posting job started at once
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 3, 'N': 14, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 21 min
+carousel for 0 of 1 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)
+queue: 15 news waiting to be written
+write_stories.yml started
+All News sheet: {"ok":true,"added":0,"updated":16} 
+stories: 1
