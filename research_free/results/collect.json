@@ -2,76 +2,189 @@
  "log": [
   "earlier stories still waiting for images: []",
   "instagram check: 87 recent posts read from all pages",
-  "write round: 8 news waiting in the queue (written in priority order)",
-  "candidate filter: collected=5, checked earlier=3",
+  "write round: 5 news waiting in the queue (written in priority order)",
+  "candidate filter: collected=5",
   "to write: 1 Manjeri + 0 Kondotty + 4 other district candidates (max 200 + 200 + 200 stories)",
   "candidates waiting: 1 Manjeri, 0 Kondotty, 4 Malappuram; time left 29 min",
   "try (N) manual=False: മോഷണക്കേസിൽ അറസ്റ്റ്",
   "try (R) manual=False: കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Madhyamam",
   "try (N) manual=False: മിനി മാരത്തണുമായി ശിശുദിനവാരാഘോഷത്തിന് സമാപനം",
-  "skip (N) could not open: മോഷണക്കേസിൽ അറസ്റ്റ് [https://www.mangalam.com/news/detail/882863-news-details.htm] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882863",
-  "try (N) manual=False: ഉറക്കം പോലും കിട്ടാത്ത അവസ്ഥ ; ഫെയർനെസ് ക്രീം ഉപയോഗിച്ചു ; ശ",
-  "skip (N) could not open: ഉറക്കം പോലും കിട്ടാത്ത അവസ്ഥ ; ഫെയർനെസ് ക്രീം ഉപയോ [https://www.mangalam.com/news/detail/882893-saleem-kodavatho] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882893",
-  "try (N) manual=False: “പശു വിശുദ്ധവും മനുഷ്യർ അവിശുദ്ധവുമായ സമൂഹത്തിലാണ് നാം ജീവിക",
   "NOT filed (R) കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Ma: all free models failed: no usable answer from the models",
+  "try (N) manual=False: ഉറക്കം പോലും കിട്ടാത്ത അവസ്ഥ ; ഫെയർനെസ് ക്രീം ഉപയോഗിച്ചു ; ശ",
+  "NOT filed (N) ഉറക്കം പോലും കിട്ടാത്ത അവസ്ഥ ; ഫെയർനെസ് ക്രീം ഉപയോ: all free models failed: no usable answer from the models",
+  "try (N) manual=False: “പശു വിശുദ്ധവും മനുഷ്യർ അവിശുദ്ധവുമായ സമൂഹത്തിലാണ് നാം ജീവിക",
   "NOT filed (N) “പശു വിശുദ്ധവും മനുഷ്യർ അവിശുദ്ധവുമായ സമൂഹത്തിലാണ്: all free models failed: no usable answer from the models",
-  "NOT filed (N) മിനി മാരത്തണുമായി ശിശുദിനവാരാഘോഷത്തിന് സമാപനം: all free models failed: no usable answer from the models",
-  "candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 4, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)",
-  "queue: 5 news waiting to be written",
+  "auto images: 1 of 1 stories ({'pollinations': 5})",
+  "posting job started at once",
+  "auto images: 1 of 1 stories ({'pollinations': 8})",
+  "candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 4, 'K': 0}, done={'R': 0, 'N': 2, 'K': 0}, time left 23 min",
+  "carousel for 0 of 2 stories, the rest reel only",
+  "filed: 0 Manjeri + 0 Kondotty + 2 Malappuram (targets 200 + 200 + 200)",
+  "queue: 3 news waiting to be written",
+  "write_stories.yml started",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":5}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.8-flash",
+  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.7-flash",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
+  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
+  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
+  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
+  "switching away from mistral/mistral-small-latest for 10 min",
+  "ok gemini/gemini-3.6-flash (18s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.8-flash",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.8-flash",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.8-flash",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.7-flash",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.7-flash",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.7-flash",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "ok gemini/gemini-3.6-flash (29s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
-  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
-  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
-  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
-  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
-  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min"
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
+  "ok groq/openai/gpt-oss-120b (6s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
+  "ok groq/openai/gpt-oss-120b (2s)"
  ],
- "stories": []
+ "stories": [
+  {
+   "malayalam_headline": "മലപ്പുറത്ത് ശിശുദിനവാരാഘോഷത്തിന്റെ ഭാഗമായി മിനി മാരത്തൺ നടത്തി",
+   "english_headline": "Mini marathon organized in Malappuram to mark Children's Day week celebrations",
+   "category": "Government & Services",
+   "location": "Malappuram town, Malappuram district",
+   "importance": "Medium",
+   "scope": "district",
+   "post_to": "Malappuram 360 (collab: Manjeri 360)",
+   "slides_spec": {
+    "v": 3,
+    "cat": "ശിശുദിനം",
+    "loc": "മലപ്പുറം",
+    "hl1": "മലപ്പുറത്ത് മിനി മാരത്തൺ നടത്തി",
+    "hl2": "ശിശുദിനവാരാഘോഷ സമാപനം",
+    "slides": [
+     {
+      "title": "പരിപാടി",
+      "lines": [
+       "മലപ്പുറത്ത് മിനി മാരത്തൺ സംഘടിപ്പിച്ചു",
+       "<b>ഗവ. കോളേജ്</b> മുതൽ <b>കുന്നുമ്മൽ</b> വരെ",
+       "<b>100ഓളം</b> ആളുകൾ പങ്കെടുത്തു"
+      ]
+     },
+     {
+      "title": "ലക്ഷ്യം",
+      "lines": [
+       "കുട്ടികളുടെ സംരക്ഷണവും ക്ഷേമവും സന്ദേശം",
+       "ബാലാവകാശ സംരക്ഷണ കമ്മിഷന്റെ മുൻകൈ",
+       "ചൈൽഡ് പ്രൊട്ടക്ഷൻ യൂണിറ്റും ഒപ്പം"
+      ]
+     },
+     {
+      "title": "ചടങ്ങുകൾ",
+      "lines": [
+       "മന്ത്രി എ.പി. അനിൽകുമാർ ടീ ഷർട്ട് പ്രകാശനം ചെയ്തു",
+       "ഡി.വൈ.എസ്.പി. ഫ്ലാഗ് ഓഫ് ചെയ്തു",
+       "ഷാജേഷ് ഭാസ്കർ ഉദ്ഘാടനം ചെയ്തു"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "മലപ്പുറത്ത് 100ഓളം പേർ പങ്കെടുത്ത മിനി മാരത്തൺ നടന്നു. ശിശുദിനവാരാഘോഷത്തിന്റെ ഭാഗമായാണ് പരിപാടി സംഘടിപ്പിച്ചത്. മലപ്പുറം ഗവ. കോളേജ് മുതൽ കുന്നുമ്മൽ വരെയായിരുന്നു മാരത്തൺ. കുട്ടികളുടെ അവകാശസംരക്ഷണം ലക്ഷ്യമിട്ട് ബാലാവകാശ കമ്മീഷനും ജില്ലാ ചൈൽഡ് പ്രൊട്ടക്ഷൻ യൂണിറ്റും ചേർന്നാണ് ഇത് നടത്തിയത്. റവന്യൂമന്ത്രി എ പി അനിൽകുമാർ ടീ ഷർട്ട് പ്രകാശനം ചെയ്തു. സമാപന സമ്മേളനം ഷാജേഷ് ഭാസ്കർ ഉദ്ഘാടനം ചെയ്തു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🏃🏻♂️ മലപ്പുറത്ത് ശിശുദിനവാരാഘോഷത്തിന്റെ ഭാഗമായി മിനി മാരത്തൺ നടത്തി\n\n📰 പൂർണ വിവരം:\nശിശുദിനവാരാഘോഷത്തിന്റെ ഭാഗമായി സംസ്ഥാന ബാലാവകാശ സംരക്ഷണ കമ്മിഷനും ജില്ലാ ചൈൽഡ് പ്രൊട്ടക്ഷൻ യൂണിറ്റും ചേർന്ന് മിനി മാരത്തൺ നടത്തി. മലപ്പുറം ഗവ. കോളേജ് മുതൽ കുന്നുമ്മൽ വരെ നടന്ന മാരത്തണിൽ നൂറോളം പേർ പങ്കെടുത്തു. കുട്ടികളുടെ സംരക്ഷണവും ക്ഷേമവും സമൂഹത്തിന്റെ കൂട്ടായ ഉത്തരവാദിത്വമാണെന്ന സന്ദേശം പ്രചരിപ്പിക്കാനാണ് പരിപാടി സംഘടിപ്പിച്ചത്. ടീ ഷർട്ട് റവന്യൂമന്ത്രി എ.പി. അനിൽകുമാർ പ്രകാശനം ചെയ്തു. സി ബ്രാഞ്ച് ആൻഡ് സ്പെഷ്യൽ ജുവനൈൽ പോലീസ് യൂണിറ്റ് നോഡൽ ഓഫീസർ ഡി.വൈ.എസ്.പി. മുഹമ്മദ് ഹനീഫ ഫ്ലാഗ് ഓഫ് ചെയ്തു. സമാപന സമ്മേളനം സംസ്ഥാന ബാലാവകാശ സംരക്ഷണ കമ്മിഷൻ അംഗം അഡ്വ. പി. ഷാജേഷ് ഭാസ്കർ ഉദ്ഘാടനം ചെയ്തു.\n📍 സ്ഥലം: ഗവ. കോളേജ് മുതൽ കുന്നുമ്മൽ വരെ, മലപ്പുറം\n👥 പങ്കാളിത്തം: നൂറോളം പേർ\nℹ️ സംഘാടകർ: ബാലാവകാശ സംരക്ഷണ കമ്മിഷൻ, ജില്ലാ ചൈൽഡ് പ്രൊട്ടക്ഷൻ യൂണിറ്റ്\nവിവരങ്ങൾ അറിയാൻ Share ചെയ്യൂ\n\nChildrens Day week mini marathon in Malappuram town | Malappuram news\n📍 മലപ്പുറം | 23 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #MalappuramTown #ChildrensDay #MalappuramNews",
+   "prompts": "A vibrant morning scene in Malappuram town near Government College: participants in matching event t-shirts starting a mini marathon along the tree-lined paved road towards Kunnummal, bright clear morning sunlight. Same realistic daylight mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nWide view of the mini marathon runners passing through Malappuram town road towards Kunnummal, flags and banners seen along the roadside, official vehicles in the background. Same realistic daylight mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA gathering at the end point in Kunnummal, Malappuram: officials on a modest open backdrop stage conducting the concluding ceremony of Children's Day week, audience watching from front. Same realistic daylight mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose symbolic view of a colourful Children's Day week banner and event t-shirt displayed neatly outdoors in Malappuram with tropical greenery in the soft blurred background. Same realistic daylight mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.mathrubhumi.com/malappuram/news/localnews-malappuram-qfezwawp",
+   "published": "2026-11-23T01:25:08+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: reel_script has 52 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block); numbers not found in the article: 100",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 2 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 2.0,
+   "images": [
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795424979/news360/hlmf8t3ch9peer3ef8te.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795425220/news360/h8sacftb1pe8tpapdqzd.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795425072/news360/jkqb4khnnnzyijpcsd3g.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795425153/news360/smudwu7f3qfkqdsf3pjm.jpg"
+   ]
+  },
+  {
+   "malayalam_headline": "തിരൂരിൽ വീടുപണി നടക്കുന്ന സ്ഥലത്തുനിന്ന് കേബിളുകളും കമ്പികളും മോഷ്ടിച്ചയാൾ അറസ്റ്റിൽ",
+   "english_headline": "Man arrested in Tirur for stealing electrical wires and copper cables from house construction site",
+   "category": "Crime & Safety",
+   "location": "Mangalam Kavanchery, Tirur, Malappuram district",
+   "importance": "Medium",
+   "scope": "local",
+   "post_to": "Malappuram 360",
+   "slides_spec": {
+    "v": 3,
+    "cat": "അറസ്റ്റ്",
+    "loc": "മംഗലം കാവഞ്ചേരി, തിരൂർ",
+    "hl1": "തിരൂരിൽ വീടുപണി നടക്കുന്നേടത്ത് മോഷണം",
+    "hl2": "കേബിൾ മോഷ്ടിച്ചയാൾ അറസ്റ്റിൽ",
+    "slides": [
+     {
+      "title": "സംഭവം",
+      "lines": [
+       "വീടുപണി നടക്കുന്നേടത്തുനിന്ന് മോഷണം",
+       "ഇലക്ട്രിക് വയറുകളും ചെമ്പ് കമ്പികളും കവർന്നു",
+       "തിരൂർ പോലീസ് അന്വേഷണം നടത്തി അറസ്റ്റ് ചെയ്തു"
+      ]
+     },
+     {
+      "title": "അറസ്റ്റ്",
+      "lines": [
+       "മംഗലം കാവഞ്ചേരിയിലെ നിർമാണത്തിലുള്ള വീട്ടിലാണ് മോഷണം",
+       "വീടുപണി നടത്തുന്ന എൻജിനീയർ പരാതി നൽകി",
+       "<b>46</b> വയസ്സുള്ള പ്രതിയെ തിരൂർ കോടതി റിമാൻഡ് ചെയ്തു"
+      ]
+     },
+     {
+      "title": "പോലീസ് കേസ്",
+      "lines": [
+       "ഇതേ വീട്ടിൽ മുൻപ് വെൽഡിങ് ജോലി ചെയ്തയാൾ",
+       "വാടകയ്ക്കെടുത്ത വെൽഡിങ് സാധനങ്ങൾ മറിച്ച് വിൽക്കുന്ന സ്വഭാവം",
+       "തിരൂർ ഇൻസ്പെക്ടറുടെ നേതൃത്വത്തിലാണ് അറസ്റ്റ്"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "തിരൂരിൽ നിർമാണത്തിലിരുന്ന വീട്ടിൽ മോഷണം നടത്തിയയാൾ അറസ്റ്റിൽ. മംഗലം കാവഞ്ചേരിയിലെ വീട്ടിൽ നിന്ന് ഇലക്ട്രിക് വയറുകളും ചെമ്പ് കമ്പികളും മോഷ്ടിച്ച കേസാണിത്. 46 വയസ്സുള്ള കാവഞ്ചേരി സ്വദേശിയെയാണ് തിരൂർ പോലീസ് പിടികൂടിയത്. വീടുപണി നടത്തുന്ന എൻജിനീയറുടെ പരാതിയിലാണ് പോലീസ് നടപടി. മുൻപ് ഇതേ വീട്ടിൽ വെൽഡിങ് ജോലി ചെയ്തയാളാണ് മോഷ്ടിച്ചത്. പ്രതിയെ തിരൂർ കോടതി റിമാൻഡ് ചെയ്തു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🚨 തിരൂരിൽ നിർമാണത്തിലിരുന്ന വീട്ടിൽ മോഷണം: 46 വയസ്സുകാരനെ തിരൂർ പോലീസ് അറസ്റ്റ് ചെയ്തു\n\n📰 പൂർണ വിവരം:\nവീട് പണി നടക്കുന്ന ആളില്ലാത്ത വീടുകളിൽ നിന്ന് ഇലക്ട്രിക്കൽ വയറിങ്ങിന്റെ വയറുകളും കേബിളുകളും മോഷ്ടിക്കുന്നയാളെ തിരൂർ പോലീസ് അറസ്റ്റ് ചെയ്തു. മംഗലം കാവഞ്ചേരിയിലെ വീട് പണി നടക്കുന്ന വീട്ടിൽ നിന്നാണ് ഇലക്ട്രിക് വയറുകളും ചെമ്പ് കമ്പികളും മോഷ്ടിച്ചത്. വീടുപണി നടത്തുന്ന എൻജിനീയറുടെ പരാതി പ്രകാരം നടത്തിയ അന്വേഷണത്തിലാണ് മംഗലം കാവഞ്ചേരി സ്വദേശിയായ 46 വയസ്സുള്ളയാളെ അറസ്റ്റ് ചെയ്തത്. ഇയാൾ ഇതേ വീട്ടിൽ മുൻപ് വെൽഡിങ് ജോലി ചെയ്തിരുന്നു. വാടകയ്ക്ക് വെൽഡിങ് സാധനങ്ങൾ എടുത്ത് മറിച്ച് വിൽക്കുന്ന സ്വഭാവവും ഇയാൾക്കുണ്ടെന്ന് പോലീസ് പറഞ്ഞു. പ്രതിയെ തിരൂർ കോടതി റിമാൻഡ് ചെയ്തു. തിരൂർ പോലീസ് സ്റ്റേഷൻ ഇൻസ്പെക്ടർ ജലീൽ കറുത്തേടത്തിന്റെ നിർദ്ദേശപ്രകാരം സബ് ഇൻസ്പെക്ടർമാരായ മിഥുൻ, നസീർ തിരൂർക്കാട് എന്നിവരടങ്ങുന്ന സംഘമാണ് അറസ്റ്റ് ചെയ്തത്.\n📍 സ്ഥലം: മംഗലം കാവഞ്ചേരി, തിരൂർ\n👮 നടപടി: പ്രതിയെ തിരൂർ കോടതി റിമാൻഡ് ചെയ്തു\n\nTirur house construction wire theft arrest | Malappuram news\n📍 തിരൂർ, മലപ്പുറം | 22 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Tirur #Crime #MalappuramNews",
+   "prompts": "Cover: Police officers in khaki uniforms handcuff the 46‑year‑old suspect as he is led away from the pile of coiled copper cables and stripped electrical wires at a house construction site; the site is a typical Mangalam Kavanchery building plot with a half‑erected concrete frame, scattered sand, and a few palm trees; the police team of six stands behind the suspect, the engineer watches from a distance, all wearing shirts and mundu; the visible objects are the copper cables, electrical wires, and a set of welding tools left on the ground; daylight, clear sky, typical Kerala heat; shot from a low angle, 35 mm lens. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nWide establishing shot: A broad view of the Mangalam Kavanchery construction area showing the half‑built house with red‑tiled scaffolding, laterite walls, coconut palms and a narrow tar road; in the foreground a group of six police officers in khaki uniforms and the engineer are positioned near the site entrance while the suspect, hands bound, stands apart; scattered copper cables and electrical wires lie on the dusty ground, alongside a metal welding machine; late morning light casts soft shadows, slight overcast typical of Kerala; captured from a medium height, 35 mm lens. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nDetail: Close‑up of a tangled heap of copper cables and stripped electrical wires lying on the dusty ground of the construction site, with a rusted welding torch and a metal pipe placed beside them; the background shows a fragment of the house’s concrete frame and a glimpse of a palm leaf; no faces are visible, only the stolen materials and tools; the scene is illuminated by bright daylight, highlighting the metallic sheen of the copper; shot from a ground‑level angle, 35 mm lens. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.mangalam.com/news/detail/882863-news-details.html",
+   "published": "2026-11-22T08:42:00+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: reel_script has 49 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block); source/outlet name or link appears: mangalam",
+   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 2 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 10.0,
+   "images": [
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795425266/news360/cf5doc7ciewlbqfnlnc2.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795425359/news360/obfibd7rgzjopievvv8b.jpg",
+    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795425311/news360/inu8vw2q0widzhipgl1l.jpg"
+   ]
+  }
+ ]
 }
