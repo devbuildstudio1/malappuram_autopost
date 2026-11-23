@@ -1,24 +1,22 @@
-writing [N]: അംഗീകാരമില്ലാത്ത സൗന്ദര്യവർധക വസ്തുക്കളും പ്രോട്ടീൻ പൊടികളു
+writing [R]: കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Madhyamam
+writing [N]: മിനി മാരത്തണുമായി ശിശുദിനവാരാഘോഷത്തിന് സമാപനം
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-writing [R]: ‘മറ്റുള്ളവരെങ്കിലും രക്ഷപ്പെടണമെന്നു കരുതിയാണ് തുറന്നുപറഞ്ഞത
-writing [N]: സൗന്ദര്യം തേടി വാങ്ങുന്നത് കൊടുംവിഷമോ? 17കാരിക്ക് വൃക്കരോഗം gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: “പശു വിശുദ്ധവും മനുഷ്യർ അവിശുദ്ധവുമായ സമൂഹത്തിലാണ് നാം ജീവിക
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -29,159 +27,81 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
-switching away from gemini/gemini-3.8-flash for 10 min
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-switching away from gemini/gemini-3.8-flash for 10 min
-ok gemini/gemini-3.6-flash (25s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-ok gemini/gemini-3.6-flash (26s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok gemini/gemini-3.6-flash (26s)
-attempt 1 gemini/gemini-3.6-flash: 1 problems
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): തേഞ്ഞിപ്പലം ('വ്യാജനെ പിടിക്കാൻ ലാബില്ല തേഞ്ഞിപ്പലം ∙ വ്യാജവും ഗുണമേന്മ ഇല')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-ok groq/openai/gpt-oss-120b (5s)
-factcheck by groq/openai/gpt-oss-120b: 2 problems
-  Reel script uses mixed-language term "ആരോഗ്യ министр" which is ungrammatical Malayalam
-  Reel script omits the important fact that the state drug controller was tasked to investigate and a special committee will be formed on Monday
-attempt 1 gemini/gemini-3.6-flash: 2 problems
-  fact-check: Reel script uses mixed-language term "ആരോഗ്യ министр" which is ungrammatical Malayalam
-  fact-check: Reel script omits the important fact that the state drug controller was tasked to investigate and a special committee will be formed on Monday
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-ok groq/openai/gpt-oss-120b (6s)
-factcheck by groq/openai/gpt-oss-120b: 3 problems
-  Caption includes a specific date (23 നവംബർ 2026) that is not mentioned in the article
-  Slide 1 line mixes two locations ('അരീക്കോട് ഉഗ്രപുരം') incorrectly, conflating facts
-  Reel script omits the health minister’s order for a statewide investigation of fake beauty products, an important fact from the article
-attempt 1 gemini/gemini-3.6-flash: 3 problems
-  fact-check: Caption includes a specific date (23 നവംബർ 2026) that is not mentioned in the article
-  fact-check: Slide 1 line mixes two locations ('അരീക്കോട് ഉഗ്രപുരം') incorrectly, conflating facts
-  fact-check: Reel script omits the health minister’s order for a statewide investigation of fake beauty products, an important fact from the article
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKXRGde82WPA58NpEiZv"}
-proofread skipped: free models not efficient (4 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKYbRiEY63CZ5wE47ZTq"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKXRUyYtaj1ykbiFA1PV"}
-proofread skipped: free models not efficient (5 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKYbYWXDon3ijhYmS5qw"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKXRfEgNy7p4q7HTjYxS"}
-proofread skipped: free models not efficient (6 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image match: False The photo shows a multi-story building/tower structure, not a 17-year-old girl, cosmetic cream, or details related to th
-image match: False The image shows a blue vehicle parked in front of a building surrounded by trees, which is entirely unrelated to a news 
-image match: False The image displays the entrance of a building or resort surrounded by palm trees, which has no connection to a police ca
-image match: False The photo displays generic glass bottles containing liquids on a table and does not depict the police investigation, the
-image match: False The image shows a building entrance with steps and pillars, but contains no news event, police station signage, individu
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Police case registered in Areekode after'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261123-1350","first":"MP-412"}
-posting job started at once
-writing [R]: കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Madhyamam
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKXtjp2XvA5Rct15wUJf"}
-image match: False The image shows a plain room interior with furniture and does not portray any raids, protein powders, cosmetics, or news
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Widespread raids ordered against unappro'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261123-1354","first":"MP-413"}
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match: False The photo displays a minimalist studio setup of a generic glass jar with liquid and a small cylinder, with no depiction 
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Police case registered in Areekode after'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261123-1358","first":"MP-414"}
-posting job started at once
-writing [N]: മിനി മാരത്തണുമായി ശിശുദിനവാരാഘോഷത്തിന് സമാപനം
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-claude rewrite failed: writing [N]: “പശു വിശുദ്ധവും മനുഷ്യർ അവിശുദ്ധവുമായ സമൂഹത്തിലാണ് നാം ജീവിക
-anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKYX69e6PgAVDKjdeur3"}
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKYX6aS7H6eurnZuvoGB"}
-write_stories.yml started
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKYbfL2iFGpVUqtyuqQZ"}
 earlier stories still waiting for images: []
-instagram check: 86 recent posts read from all pages
-write round: 14 news waiting in the queue (written in priority order)
-candidate filter: collected=11, checked earlier=3
-to write: 2 Manjeri + 0 Kondotty + 9 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 2 Manjeri, 0 Kondotty, 9 Malappuram; time left 29 min
+instagram check: 87 recent posts read from all pages
+write round: 8 news waiting in the queue (written in priority order)
+candidate filter: collected=5, checked earlier=3
+to write: 1 Manjeri + 0 Kondotty + 4 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 1 Manjeri, 0 Kondotty, 4 Malappuram; time left 29 min
 try (N) manual=False: മോഷണക്കേസിൽ അറസ്റ്റ്
-try (N) manual=False: സൗന്ദര്യം തേടി വാങ്ങുന്നത് കൊടുംവിഷമോ? 17കാരിക്ക് വൃക്കരോഗം 
-try (N) manual=False: അംഗീകാരമില്ലാത്ത സൗന്ദര്യവർധക വസ്തുക്കളും പ്രോട്ടീൻ പൊടികളു
-skip (N) could not open: മോഷണക്കേസിൽ അറസ്റ്റ് [https://www.mangalam.com/news/detail/882863-news-details.htm] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882863
-try (R) manual=False: ‘മറ്റുള്ളവരെങ്കിലും രക്ഷപ്പെടണമെന്നു കരുതിയാണ് തുറന്നുപറഞ്ഞത
-auto images: 1 of 1 stories ({'pollinations': 7})
-posting job started at once
 try (R) manual=False: കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Madhyamam
-auto images: 1 of 1 stories ({'pollinations': 12})
-auto images: 1 of 1 stories ({'pollinations': 17})
-posting job started at once
-try (N) manual=False: ഇ എം രാധ ഏലംകുളത്തിന്റെ മകൾ
-try (N) manual=False: 4 ലക്ഷം  കുരുന്നുകൾ
-NOT filed (R) കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Ma: all free models failed: no usable answer from the models
 try (N) manual=False: മിനി മാരത്തണുമായി ശിശുദിനവാരാഘോഷത്തിന് സമാപനം
-skip (N) could not open: 4 ലക്ഷം  കുരുന്നുകൾ [https://www.deshabhimani.com/district-news/-73594/aas1121-fy] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+skip (N) could not open: മോഷണക്കേസിൽ അറസ്റ്റ് [https://www.mangalam.com/news/detail/882863-news-details.htm] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882863
 try (N) manual=False: ഉറക്കം പോലും കിട്ടാത്ത അവസ്ഥ ; ഫെയർനെസ് ക്രീം ഉപയോഗിച്ചു ; ശ
-skip (N) could not open: ഇ എം രാധ ഏലംകുളത്തിന്റെ മകൾ [https://www.deshabhimani.com/district-news/-73594/aasa1-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
-try (N) manual=False: ഉപാസനാ യാത്രയുടെ ആരംഭം; 
-പ്രഭാഷണം നടത്തി
-skip (N) could not open: ഉപാസനാ യാത്രയുടെ ആരംഭം; 
-പ്രഭാഷണം നടത്തി [https://www.mangalam.com/news/detail/882861-news-details.htm] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882861
-try (N) manual=False: “പശു വിശുദ്ധവും മനുഷ്യർ അവിശുദ്ധവുമായ സമൂഹത്തിലാണ് നാം ജീവിക
 skip (N) could not open: ഉറക്കം പോലും കിട്ടാത്ത അവസ്ഥ ; ഫെയർനെസ് ക്രീം ഉപയോ [https://www.mangalam.com/news/detail/882893-saleem-kodavatho] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/882893
-NOT filed (N) മിനി മാരത്തണുമായി ശിശുദിനവാരാഘോഷത്തിന് സമാപനം: all free models failed: no usable answer from the models
+try (N) manual=False: “പശു വിശുദ്ധവും മനുഷ്യർ അവിശുദ്ധവുമായ സമൂഹത്തിലാണ് നാം ജീവിക
+NOT filed (R) കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Ma: all free models failed: no usable answer from the models
 NOT filed (N) “പശു വിശുദ്ധവും മനുഷ്യർ അവിശുദ്ധവുമായ സമൂഹത്തിലാണ്: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 2, 'N': 9, 'K': 0}, done={'R': 1, 'N': 2, 'K': 0}, time left 14 min
-carousel for 0 of 3 stories, the rest reel only
-filed: 1 Manjeri + 0 Kondotty + 2 Malappuram (targets 200 + 200 + 200)
-queue: 8 news waiting to be written
-write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":11} 
-stories: 3
+NOT filed (N) മിനി മാരത്തണുമായി ശിശുദിനവാരാഘോഷത്തിന് സമാപനം: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 4, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
+queue: 5 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":5} 
+stories: 0
