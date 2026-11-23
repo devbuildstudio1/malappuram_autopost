@@ -1,18 +1,21 @@
 writing [R]: കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Madhyamam
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+writing [N]: ‘എഫ് ട്യൂൺ മാത്രമല്ല, ഒരേ ക്രീം തന്നെ പല പേരിൽ വിൽക്കപ്പെടുന
 writing [N]: യാത്രക്കാരിക്ക് വയറുവേദന; ആശുപത്രിയിലെത്തിച്ച് കെ.എസ്.ആർ.ടി.
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please chefail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
+
 dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
@@ -29,42 +32,76 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-writing [N]: ‘എഫ് ട്യൂൺ മാത്രമല്ല, ഒരേ ക്രീം തന്നെ പല പേരിൽ വിൽക്കപ്പെടുന
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKuxXiRfQWwamBxZMizA"}
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-writing [N]: ഇ എം രാധ ഏലംകുളത്തിന്റെ മകൾ
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKuxatBHP4NF1M3MAnCk"}
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high d
-writing [R]: ‘മറ്റുള്ളവരെങ്കിലും രക്ഷപ്പെടണമെന്നു കരുതിയാണ് തുറന്നുപറഞ്ഞത
-free models unavailable: free models not efficient (11 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKuxiRMNouZhWxiWSJR3"}
-writing [N]: വാഹനങ്ങളിൽ അമിതഭാരം: 1,08,000 രൂപ പിഴ ഈടാക്കി | Madhyamam
-free models unavailable: free models not efficient (11 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKuxozU43fSdwuG1LFNE"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKuyhkwePFrNCzrQspKC"}
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKy2xEmUDVgomdgexM9V"}
+writing [R]: ‘മറ്റുള്ളവരെങ്കിലും രക്ഷപ്പെടണമെന്നു കരുതിയാണ് തുറന്നുപറഞ്ഞത
+free models unavailable: free models not efficient (12 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKy31tHkFcu91fSGPvQG"}
+writing [N]: Latest Malappuram District News | Kerala Kaumudi  | മലപ്പുറം
+free models unavailable: free models not efficient (12 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKy35hUoFwawKC6wU4Gr"}
+writing [N]: ശിശുദിന വാരാഘോഷത്തിന് സമാപനം
+free models unavailable: free models not efficient (12 failures in a row): using Claude
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
+dead for this round: gemini/gemini-3.8-flash
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKy37ojKASGJpjLsoxME"}
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKuypWjgrzswX4ZfiPPL"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKy392AVXQHjPLCASkSp"}
+writing [N]: ഫൈസ, എഫ് ട്യൂൺ, ഗോറി..ഒരേ ക്രീം, പല പേര്; എല്ലാം ഒന്നുതന്നെയ
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKy3AAczDKwqDsYkDwxm"}
+writing [N]: വാഹനങ്ങളിൽ അമിതഭാരം: 1,08,000 രൂപ പിഴ ഈടാക്കി | Madhyamam
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKy3B2hy9j5p6xyUQAp1"}
+writing [N]: രണ്ടുകോടി രൂപ ലഭിച്ചു; മെസിയുടെ കരാറും പണം തന്നതും തമ്മിൽ ബന
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKy3FNuDz3FRswKUR52g"}
+ok gemini/gemini-3.6-flash (58s)
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  numbers not found in the article: 6
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKy69Cu9DVidpcpBAj2d"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok groq/openai/gpt-oss-120b (6s)
+proofread rejected (3 problems)
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok groq/openai/gpt-oss-120b (2s)
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 3 for 'KSRTC bus crew rushes sick passenger to '
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261123-1922","first":"MP-420"}
+posting job started at once
+write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 88 recent posts read from all pages
 write round: 10 news waiting in the queue (written in priority order)
@@ -76,24 +113,26 @@ try (N) manual=False: യാത്രക്കാരിക്ക് വയറു
 try (N) manual=False: ‘എഫ് ട്യൂൺ മാത്രമല്ല, ഒരേ ക്രീം തന്നെ പല പേരിൽ വിൽക്കപ്പെടുന
 NOT filed (N) ‘എഫ് ട്യൂൺ മാത്രമല്ല, ഒരേ ക്രീം തന്നെ പല പേരിൽ വിൽ: all free models failed: no usable answer from the models
 try (N) manual=False: ഇ എം രാധ ഏലംകുളത്തിന്റെ മകൾ
-NOT filed (N) ഇ എം രാധ ഏലംകുളത്തിന്റെ മകൾ: all free models failed: no usable answer from the models
+skip (N) could not open: ഇ എം രാധ ഏലംകുളത്തിന്റെ മകൾ [https://www.deshabhimani.com/district-news/-73594/aasa1-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
 try (R) manual=False: ‘മറ്റുള്ളവരെങ്കിലും രക്ഷപ്പെടണമെന്നു കരുതിയാണ് തുറന്നുപറഞ്ഞത
 NOT filed (R) ‘മറ്റുള്ളവരെങ്കിലും രക്ഷപ്പെടണമെന്നു കരുതിയാണ് തുറ: all free models failed: no usable answer from the models
 try (N) manual=False: Latest Malappuram District News | Kerala Kaumudi  | മലപ്പുറം
-skip (N) could not open: Latest Malappuram District News | Kerala Kaumudi   [https://www.keralakaumudi.com/news/sub-section.php?cid=11&si] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/news/sub-sect
+NOT filed (N) Latest Malappuram District News | Kerala Kaumudi  : all free models failed: no usable answer from the models
 try (N) manual=False: ശിശുദിന വാരാഘോഷത്തിന് സമാപനം
-skip (N) could not open: ശിശുദിന വാരാഘോഷത്തിന് സമാപനം [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
+NOT filed (N) ശിശുദിന വാരാഘോഷത്തിന് സമാപനം: all free models failed: no usable answer from the models
 try (N) manual=False: ഫൈസ, എഫ് ട്യൂൺ, ഗോറി..ഒരേ ക്രീം, പല പേര്; എല്ലാം ഒന്നുതന്നെയ
-skip (N) could not open: ഫൈസ, എഫ് ട്യൂൺ, ഗോറി..ഒരേ ക്രീം, പല പേര്; എല്ലാം ഒ [https://www.twentyfournews.com/2026/11/23/faiza-f-tune-gory-] 403 Client Error: Forbidden for url: https://www.twentyfournews.com/2026/11/23/f
+NOT filed (R) കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Ma: all free models failed: no usable answer from the models
 try (N) manual=False: രണ്ടുകോടി രൂപ ലഭിച്ചു; മെസിയുടെ കരാറും പണം തന്നതും തമ്മിൽ ബന
-skip (N) could not open: രണ്ടുകോടി രൂപ ലഭിച്ചു; മെസിയുടെ കരാറും പണം തന്നതും [https://www.twentyfournews.com/2026/11/22/u-sharafali-confir] 403 Client Error: Forbidden for url: https://www.twentyfournews.com/2026/11/22/u
+NOT filed (N) ഫൈസ, എഫ് ട്യൂൺ, ഗോറി..ഒരേ ക്രീം, പല പേര്; എല്ലാം ഒ: all free models failed: no usable answer from the models
 try (N) manual=False: വാഹനങ്ങളിൽ അമിതഭാരം: 1,08,000 രൂപ പിഴ ഈടാക്കി | Madhyamam
 NOT filed (N) വാഹനങ്ങളിൽ അമിതഭാരം: 1,08,000 രൂപ പിഴ ഈടാക്കി | Ma: all free models failed: no usable answer from the models
-NOT filed (R) കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Ma: all free models failed: no usable answer from the models
-NOT filed (N) യാത്രക്കാരിക്ക് വയറുവേദന; ആശുപത്രിയിലെത്തിച്ച് കെ.: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 2, 'N': 8, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
-carousel for 0 of 0 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 10 news waiting to be written
+NOT filed (N) രണ്ടുകോടി രൂപ ലഭിച്ചു; മെസിയുടെ കരാറും പണം തന്നതും: all free models failed: no usable answer from the models
+auto images: 1 of 1 stories ({'pollinations': 3})
+posting job started at once
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 2, 'N': 8, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 26 min
+carousel for 0 of 1 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)
+queue: 9 news waiting to be written
+write_stories.yml started
 All News sheet: {"ok":true,"added":0,"updated":10} 
-stories: 0
+stories: 1
