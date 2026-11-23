@@ -1,12 +1,5 @@
 writing [R]: എഫ് ട്യൂൺ ക്രീം നിർമാതാക്കൾക്കെതിരെ കേസ്; പ്രചരിപ്പിച്ച വ്ലോ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-writing [R]: കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Madhyamam
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
@@ -18,39 +11,6 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-writing [N]: യാത്രക്കാരിക്ക് വയറുവേദന; ആശുപത്രിയിലെത്തിച്ച് കെ.എസ്.ആർ.ടി.
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkEjU915qWmUdyHCi1C"}
-writing [N]: Latest Malappuram District News | Kerala Kaumudi  | മലപ്പുറം
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkEmdMukycm3ggyWuVA"}
-writing [N]: ‘എഫ് ട്യൂൺ മാത്രമല്ല, ഒരേ ക്രീം തന്നെ പല പേരിൽ വിൽക്കപ്പെടുന
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkEnVD5E26JV3DCFpdK"}
-writing [R]: ‘മറ്റുള്ളവരെങ്കിലും രക്ഷപ്പെടണമെന്നു കരുതിയാണ് തുറന്നുപറഞ്ഞത
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkEvsyu3UUgvBPq6xBE"}
-writing [N]: ശിശുദിന വാരാഘോഷത്തിന് സമാപനം
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkEy2y7NZ7w8WKWcKy4"}
-writing [N]: ഫൈസ, എഫ് ട്യൂൺ, ഗോറി..ഒരേ ക്രീം, പല പേര്; എല്ലാം ഒന്നുതന്നെയ
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkF1DvgLiLUbVfhuxNG"}
-writing [N]: രണ്ടുകോടി രൂപ ലഭിച്ചു; മെസിയുടെ കരാറും പണം തന്നതും തമ്മിൽ ബന
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkF6VBo9GBrqoaxgXat"}
-writing [N]: വാഹനങ്ങളിൽ അമിതഭാരം: 1,08,000 രൂപ പിഴ ഈടാക്കി | Madhyamam
-free models unavailable: free models not efficient (4 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkF8aSVRJN8VUqozJsk"}
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -62,78 +22,62 @@ fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/ll
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.6-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkKvAhqrYpsWJu839uA"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkL31xXmvnE2fRsH2aE"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkQ639ff55HcjqUrsSU"}
+writing [N]: യാത്രക്കാരിക്ക് വയറുവേദന; ആശുപത്രിയിലെത്തിച്ച് കെ.എസ്.ആർ.ടി.
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkQ7xFBkHJADjjV5Mf6"}
+writing [R]: കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Madhyamam
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkQ9prkpZJQcz7jhL5S"}
+writing [N]: Latest Malappuram District News | Kerala Kaumudi  | മലപ്പുറം
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkQBWZHstMW3kJDh9KN"}
+writing [N]: ‘എഫ് ട്യൂൺ മാത്രമല്ല, ഒരേ ക്രീം തന്നെ പല പേരിൽ വിൽക്കപ്പെടുന
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkQCAVUSp4iv6MqEXY1"}
+writing [R]: ‘മറ്റുള്ളവരെങ്കിലും രക്ഷപ്പെടണമെന്നു കരുതിയാണ് തുറന്നുപറഞ്ഞത
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkQJSWsNJCoG4P3i2gz"}
+writing [N]: ശിശുദിന വാരാഘോഷത്തിന് സമാപനം
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkQL7yT814EAUsDL94U"}
+writing [N]: ഫൈസ, എഫ് ട്യൂൺ, ഗോറി..ഒരേ ക്രീം, പല പേര്; എല്ലാം ഒന്നുതന്നെയ
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkQM2YJGWJLZ2AWx3XE"}
+writing [N]: രണ്ടുകോടി രൂപ ലഭിച്ചു; മെസിയുടെ കരാറും പണം തന്നതും തമ്മിൽ ബന
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkQRccpsdN4Wi2Gpb6Y"}
+writing [N]: വാഹനങ്ങളിൽ അമിതഭാരം: 1,08,000 രൂപ പിഴ ഈടാക്കി | Madhyamam
+free models unavailable: free models not efficient (9 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKkQTRG8f8eqzCDsS2y1"}
 earlier stories still waiting for images: []
 instagram check: 87 recent posts read from all pages
-write round: 37 news waiting in the queue (written in priority order)
-candidate filter: collected=33, already filed=3, not written=1
-to write: 5 Manjeri + 0 Kondotty + 28 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 5 Manjeri, 0 Kondotty, 28 Malappuram; time left 29 min
-try (N) manual=False: കേരളത്തിലേക്ക് എംഡിഎംഎ കടത്ത്; മുംബൈയിൽ കൊണ്ടോട്ടി പൊലീസിന്റ
-try (R) manual=False: ഫെയർനെസ് ക്രീം കമ്പനിക്കെതിരെ കേസ്; ‘കുറച്ചുകൂടി കഴിഞ്ഞിരുന്
+write round: 16 news waiting in the queue (written in priority order)
+candidate filter: collected=16
+to write: 4 Manjeri + 0 Kondotty + 12 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 4 Manjeri, 0 Kondotty, 12 Malappuram; time left 29 min
 try (R) manual=False: എഫ് ട്യൂൺ ക്രീം നിർമാതാക്കൾക്കെതിരെ കേസ്; പ്രചരിപ്പിച്ച വ്ലോ
-skip (N) similar to a filed story: കേരളത്തിലേക്ക് എംഡിഎംഎ കടത്ത്; മുംബൈയിൽ കൊണ്ടോട്ടി
-try (N) manual=False: കേരളത്തിലേക്ക് MDMA കടത്ത്; മുംബൈയിൽ കൊണ്ടോട്ടി പോലീസ് നടത്ത
-skip (N) similar to a filed story: കേരളത്തിലേക്ക് MDMA കടത്ത്; മുംബൈയിൽ കൊണ്ടോട്ടി പോ
-try (N) manual=False: ഇടിവിന് ശേഷമുള്ള കുതിപ്പ്; പവന് 1,080 രൂപ കൂടി, സ്വർണവില 92,
-skip (R) similar to a filed story: ഫെയർനെസ് ക്രീം കമ്പനിക്കെതിരെ കേസ്; ‘കുറച്ചുകൂടി ക
 try (R) manual=False: പീഡന ദൃശ്യങ്ങൾ മൊബൈലിൽ പകർത്തി; യുവാവ് അറസ്റ്റിൽ | Deepika |
-skip (R) could not open: പീഡന ദൃശ്യങ്ങൾ മൊബൈലിൽ പകർത്തി; യുവാവ് അറസ്റ്റിൽ | [https://www.deepika.com/district-news/malappuram/man-arreste] 403 Client Error: Forbidden for url: https://www.deepika.com/district-news/malap
-try (N) manual=False: സ്വർണവില വീണ്ടും ഉയരുന്നു; ഇനി വില തിരിച്ചുകയറുമോ? ഇന്നത്തെ 
-skip (N) similar to a filed story: സ്വർണവില വീണ്ടും ഉയരുന്നു; ഇനി വില തിരിച്ചുകയറുമോ?
-try (N) manual=False: പ്രതീക്ഷ തകർത്ത് സ്വർണം, വീണ്ടും കുതിപ്പ്! നവംബർ 23-ലെ വില |
-skip (N) today's price is already filed: പ്രതീക്ഷ തകർത്ത് സ്വർണം, വീണ്ടും കുതിപ്പ്! നവംബർ 2
 try (N) manual=False: തുടർച്ചയായ ഇടിവിന് ശേഷം സ്വർണവിലയിൽ നേരിയ വർധന ; പവന് 92,800
-skip (N) could not open: തുടർച്ചയായ ഇടിവിന് ശേഷം സ്വർണവിലയിൽ നേരിയ വർധന ; പ [https://www.deshabhimani.com/money-business/news-80965/gold-] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/money-business
+skip (R) could not open: പീഡന ദൃശ്യങ്ങൾ മൊബൈലിൽ പകർത്തി; യുവാവ് അറസ്റ്റിൽ | [https://www.deepika.com/district-news/malappuram/man-arreste] 403 Client Error: Forbidden for url: https://www.deepika.com/district-news/malap
 try (N) manual=False: സഹ. മേഖലയെ കൈപ്പിടിയിലാക്കാനുള്ള കേന്ദ്രനീക്കം ചെറുക്കണം: എം
-skip (N) could not open: സഹ. മേഖലയെ കൈപ്പിടിയിലാക്കാനുള്ള കേന്ദ്രനീക്കം ചെറ [https://www.deepika.com/district-news/malappuram/control-ove] 403 Client Error: Forbidden for url: https://www.deepika.com/district-news/malap
-try (N) manual=False: ആശ്വാസത്തിന് വിരാമം, സ്വർണവില വീണ്ടും കുതിക്കുന്നു! ഒറ്റയടിക
-skip (N) similar to a filed story: ആശ്വാസത്തിന് വിരാമം, സ്വർണവില വീണ്ടും കുതിക്കുന്നു
-try (N) manual=False: രണ്ടാഴ്ചയ്ക്കുശേഷം സ്വർണവില കൂടി; പവന് 1080 രൂപ
-skip (N) today's price is already filed: രണ്ടാഴ്ചയ്ക്കുശേഷം സ്വർണവില കൂടി; പവന് 1080 രൂപ
+skip (N) could not open: തുടർച്ചയായ ഇടിവിന് ശേഷം സ്വർണവിലയിൽ നേരിയ വർധന ; പ [https://www.deshabhimani.com/money-business/news-80965/gold-] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/money-business
 try (N) manual=False: വീണ്ടും കുതിച്ചുയർന്ന് സംസ്ഥാനത്തെ സ്വർണ്ണവില: പവന് ഒറ്റയടിക
-skip (N) similar to a filed story: ഇടിവിന് ശേഷമുള്ള കുതിപ്പ്; പവന് 1,080 രൂപ കൂടി, സ്
-try (N) manual=False: സ്വർണവില ഇന്ന് (23 നവംബർ 2026): പവന് ₹1,080 കൂടി; ഒരു പവന് ₹
-skip (N) today's price is already filed: സ്വർണവില ഇന്ന് (23 നവംബർ 2026): പവന് ₹1,080 കൂടി; 
-try (N) manual=False: തിരിച്ചുകയറി സ്വർണവില, ഒറ്റയടിക്ക് 1080 രൂപയുടെ വർധന; 93,000
-skip (N) today's price is already filed: തിരിച്ചുകയറി സ്വർണവില, ഒറ്റയടിക്ക് 1080 രൂപയുടെ വർ
-try (N) manual=False: സ്വർണം വൻ തിരിച്ചുവരവിൽ; സ്വർണവില കുതിച്ചുയർന്നു, വിപണിയിൽ ട
-skip (N) today's price is already filed: സ്വർണം വൻ തിരിച്ചുവരവിൽ; സ്വർണവില കുതിച്ചുയർന്നു, 
-try (N) manual=False: രണ്ടുദിവസത്തെ ഇടിവിന് പിന്നാലെ സ്വർണവിലയിൽ വീണ്ടും കുതിപ്പ്
-skip (N) today's price is already filed: രണ്ടുദിവസത്തെ ഇടിവിന് പിന്നാലെ സ്വർണവിലയിൽ വീണ്ടും
-try (N) manual=False: സംസ്ഥാനത്ത് സ്വർണവില ഉയർന്നു
-skip (N) today's price is already filed: സംസ്ഥാനത്ത് സ്വർണവില ഉയർന്നു
-try (N) manual=False: സ്വർണവില തകർന്നടിഞ്ഞ് താഴെ; ഇനി പവൻ വില 85000ത്തിലേക്ക്..ഗ്ര
-skip (N) today's price is already filed: സ്വർണവില തകർന്നടിഞ്ഞ് താഴെ; ഇനി പവൻ വില 85000ത്തില
-try (N) manual=False: സ്വർണവില വീണ്ടും മേലോട്ട്; കേരളത്തിലും തിരിച്ചുകയറ്റം, കളത്ത
-skip (N) today's price is already filed: സ്വർണവില വീണ്ടും മേലോട്ട്; കേരളത്തിലും തിരിച്ചുകയറ
+skip (N) could not open: സഹ. മേഖലയെ കൈപ്പിടിയിലാക്കാനുള്ള കേന്ദ്രനീക്കം ചെറ [https://www.deepika.com/district-news/malappuram/control-ove] 403 Client Error: Forbidden for url: https://www.deepika.com/district-news/malap
 try (N) manual=False: വാരാന്ത്യത്തിൽ സംസ്ഥാനത്തെ സ്വർണ്ണവിലയിൽ മാറ്റമില്ല: ഇടിവിൽ 
-skip (N) could not open: വീണ്ടും കുതിച്ചുയർന്ന് സംസ്ഥാനത്തെ സ്വർണ്ണവില: പവന [https://timeskerala.com/kerala/gold-price-surges-in-kerala-t] HTTPSConnectionPool(host='timeskerala.com', port=443): Read timed out. (read tim
-try (N) manual=False: സ്വർണ വിലയിടിവിലെ മോദിയുടെ അവകാശവാദം; നന്ദി പറഞ്ഞ് ചേംബർ ഓഫ്
-skip (N) today's price is already filed: സ്വർണ വിലയിടിവിലെ മോദിയുടെ അവകാശവാദം; നന്ദി പറഞ്ഞ്
-try (R) manual=False: കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Madhyamam
-skip (N) could not open: വാരാന്ത്യത്തിൽ സംസ്ഥാനത്തെ സ്വർണ്ണവിലയിൽ മാറ്റമില് [https://timeskerala.com/kerala/kerala-gold-price-today-remai] HTTPSConnectionPool(host='timeskerala.com', port=443): Read timed out. (read tim
+NOT filed (R) എഫ് ട്യൂൺ ക്രീം നിർമാതാക്കൾക്കെതിരെ കേസ്; പ്രചരിപ്: all free models failed: no usable answer from the models
 try (N) manual=False: യാത്രക്കാരിക്ക് വയറുവേദന; ആശുപത്രിയിലെത്തിച്ച് കെ.എസ്.ആർ.ടി.
 NOT filed (N) യാത്രക്കാരിക്ക് വയറുവേദന; ആശുപത്രിയിലെത്തിച്ച് കെ.: all free models failed: no usable answer from the models
+try (R) manual=False: കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Madhyamam
+NOT filed (R) കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Ma: all free models failed: no usable answer from the models
 try (N) manual=False: Latest Malappuram District News | Kerala Kaumudi  | മലപ്പുറം
 NOT filed (N) Latest Malappuram District News | Kerala Kaumudi  : all free models failed: no usable answer from the models
 try (N) manual=False: ‘എഫ് ട്യൂൺ മാത്രമല്ല, ഒരേ ക്രീം തന്നെ പല പേരിൽ വിൽക്കപ്പെടുന
 NOT filed (N) ‘എഫ് ട്യൂൺ മാത്രമല്ല, ഒരേ ക്രീം തന്നെ പല പേരിൽ വിൽ: all free models failed: no usable answer from the models
-try (N) manual=False: വെളുക്കാൻ തേച്ച്  ജീവൻ കളയല്ലേ,   ഫെയർനസ് ക്രീമിൽ അമിത മെർക്
-skip (N) similar to a filed story: വെളുക്കാൻ തേച്ച്  ജീവൻ കളയല്ലേ,   ഫെയർനസ് ക്രീമിൽ 
 try (N) manual=False: ഇ എം രാധ ഏലംകുളത്തിന്റെ മകൾ
 skip (N) could not open: ഇ എം രാധ ഏലംകുളത്തിന്റെ മകൾ [https://www.deshabhimani.com/district-news/-73594/aasa1-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
 try (R) manual=False: ‘മറ്റുള്ളവരെങ്കിലും രക്ഷപ്പെടണമെന്നു കരുതിയാണ് തുറന്നുപറഞ്ഞത
@@ -146,11 +90,11 @@ try (N) manual=False: രണ്ടുകോടി രൂപ ലഭിച്ച�
 NOT filed (N) രണ്ടുകോടി രൂപ ലഭിച്ചു; മെസിയുടെ കരാറും പണം തന്നതും: all free models failed: no usable answer from the models
 try (N) manual=False: വാഹനങ്ങളിൽ അമിതഭാരം: 1,08,000 രൂപ പിഴ ഈടാക്കി | Madhyamam
 NOT filed (N) വാഹനങ്ങളിൽ അമിതഭാരം: 1,08,000 രൂപ പിഴ ഈടാക്കി | Ma: all free models failed: no usable answer from the models
-NOT filed (R) കെ.എം.സി.സി മങ്കട മണ്ഡലം സംഗമവും യാത്രയയപ്പും | Ma: all free models failed: no usable answer from the models
-NOT filed (R) എഫ് ട്യൂൺ ക്രീം നിർമാതാക്കൾക്കെതിരെ കേസ്; പ്രചരിപ്: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 5, 'N': 28, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 27 min
+skip (N) could not open: വാരാന്ത്യത്തിൽ സംസ്ഥാനത്തെ സ്വർണ്ണവിലയിൽ മാറ്റമില് [https://timeskerala.com/kerala/kerala-gold-price-today-remai] HTTPSConnectionPool(host='timeskerala.com', port=443): Read timed out. (read tim
+skip (N) could not open: വീണ്ടും കുതിച്ചുയർന്ന് സംസ്ഥാനത്തെ സ്വർണ്ണവില: പവന [https://timeskerala.com/kerala/gold-price-surges-in-kerala-t] HTTPSConnectionPool(host='timeskerala.com', port=443): Read timed out. (read tim
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 4, 'N': 12, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
 queue: 16 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":17} 
+All News sheet: {"ok":true,"added":0,"updated":16} 
 stories: 0
