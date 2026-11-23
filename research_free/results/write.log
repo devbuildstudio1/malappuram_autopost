@@ -1,24 +1,61 @@
 writing [N]: പ്രതീക്ഷ തകർത്ത് സ്വർണം, വീണ്ടും കുതിപ്പ്! നവംബർ 23-ലെ വില |
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-writing [N]: സ്വർണവില ഇനി 1 ലക്ഷത്തിന് മുകളിൽ പോകില്ല; കാരണം പറഞ്ഞ് സാമ്പ
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+writing [N]: എംഎസ്പി എച്ച്എസ്എസിന് കിരീടം
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+writing [N]: സൂപ്പർ ലീഗ് വിടുമോ മലപ്പുറം എഫ്സി? പുതിയ മോഹങ്ങൾക്ക് കലണ്ടർ 
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+switching away from gemini/gemini-3.8-flash for 10 min
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+switching away from gemini/gemini-3.7-flash for 10 min
+ok gemini/gemini-3.6-flash (16s)
+attempt 1 gemini/gemini-3.6-flash: 2 problems
+  reel_script has 51 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 503, 629
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
+ok gemini/gemini-3.6-flash (15s)
+attempt 1 gemini/gemini-3.6-flash: 2 problems
+  reel_script has 52 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 3 ('സൂപ്പർ ലീഗ് കേരളാ സീസണ് ശേഷമാണ് ഐ- ലീഗ് 3 ആരംഭിച്ചത് എന്നതിന')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -31,68 +68,151 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-writing [N]: സൂപ്പർ ലീഗ് വിടുമോ മലപ്പുറം എഫ്സി? പുതിയ മോഹങ്ങൾക്ക് കലണ്ടർ 
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLYZDm6YC2Ff7QzpDeNe"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+ok gemini/gemini-3.6-flash (27s)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLbf4zWTHKQV4GGxj8oN"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok groq/openai/gpt-oss-120b (5s)
+factcheck by groq/openai/gpt-oss-120b: 4 problems
+  Reel script omits the organizer of the tournament (കോയമ്പത്തൂർ ശ്രീനാരായണഗുരു കോളേജ്), which is an important fact from the article
+  Reel script contains ungrammatical/unclear Malayalam phrase "ക്വാർട്ടറിൽ കൂട്ടായിയെ 1-0നും" (incorrect word and meaning)
+  Reel script mixes two separate match results (quarter‑final and semi‑final) into one sentence, violating the rule against mixing facts
+  Slides spec repeats the unclear opponent name "കൂട്ടായിയെ", which does not appear in the article and is ambiguous
+attempt 1 gemini/gemini-3.6-flash: 4 problems
+  fact-check: Reel script omits the organizer of the tournament (കോയമ്പത്തൂർ ശ്രീനാരായണഗുരു കോളേജ്), which is an important fact from the article
+  fact-check: Reel script contains ungrammatical/unclear Malayalam phrase "ക്വാർട്ടറിൽ കൂട്ടായിയെ 1-0നും" (incorrect word and meaning)
+  fact-check: Reel script mixes two separate match results (quarter‑final and semi‑final) into one sentence, violating the rule against mixing facts
+  fact-check: Slides spec repeats the unclear opponent name "കൂട്ടായിയെ", which does not appear in the article and is ambiguous
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLbf9RAP8eEaFRmWzd4e"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLbfCKoEZipz37yQCLWb"}
+proofread skipped: free models not efficient (3 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+writing [N]: സ്വർണവില ഇനി 1 ലക്ഷത്തിന് മുകളിൽ പോകില്ല; കാരണം പറഞ്ഞ് സാമ്പ
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLbfDhtEhmuM979gREnf"}
 writing [N]: സ്വർണവില കൂടി; തിരിച്ചുകയറ്റം രണ്ടാഴ്ചക്ക് ശേഷം | Madhyamam
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLYZGH9NkLEtmLEqLRNq"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLbfGJukYV66veoNv3eW"}
+writing [N]: തൃക്കാർത്തിക മഹോത്സവം സംഗീതാർച്ചന
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLbfKfZaFeC4ZpiCnKy1"}
+writing [N]: കലക്ടർക്കുമുന്നിൽ പരാതിയുമായി മാറഞ്ചേരിയിലെ കുടുംബങ്ങൾ
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLbfRTZqJrWcqRHurock"}
+writing [N]: പൊന്നാനി എയിംസ് ആർച്ചറി അക്കാദമിക്ക് കിരീടം
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLbfUgYFMsFTjBwyAxpX"}
+writing [N]: എടപ്പാളിൽ അഖിലകേരള  പ്രൊഫഷണൽ നാടകമേളക്ക് തുടക്കം
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLbfX2RjXypusVZz5FVy"}
+writing [N]: ആളൊഴിഞ്ഞ് ഗെെനക്കോളജി വിഭാഗം
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLbfZLqMDTz6Sb6dV2TV"}
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
+ok groq/openai/gpt-oss-120b (5s)
+proofread by groq/openai/gpt-oss-120b: 1 problems
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 writing [N]: കോട്ടക്കൽ ഫാർമേഴ്സ് കോ -ഓപ്പറേറ്റീവ് സൊസൈറ്റി പന്ത്രണ്ടാമത് 
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLYZRDB4HfG1vg2yXYNy"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLYaKpFwfKdM1DPTcybY"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLYaSrBAJigLjVY3CbhY"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLbfizm5AeWuzqR1fbYz"}
+writing [N]: ഡോക്ടർമാരുടെ അഭാവം; താലൂക്ക് ആശുപത്രിയിൽ പ്രസവനിരക്ക് കുറഞ്ഞ
+free models unavailable: free models not efficient (3 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLbfqGHjDSVaqUF5jrt4"}
+ok groq/qwen/qwen3.8-27b (5s)
+proofread by groq/qwen/qwen3.8-27b: 2 problems
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+ok groq/openai/gpt-oss-120b (2s)
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+ok groq/qwen/qwen3.8-27b (2s)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+image match: False The image appears to be AI-generated or composite, depicting a massive stadium with twin towers in the background rather
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+switching away from groq/qwen/qwen3.8-27b for 10 min
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+ok groq/openai/gpt-oss-120b (3s)
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match: False The image shows a generic or AI-generated soccer trophy and does not depict the actual event, team, or location mentione
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 2 for 'Malappuram MSP HSS wins inter-school foo'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261124-0323","first":"MP-425"}
+posting job started at once
+image match: False The image depicts a blurry indoor meeting or study session with no signs of a sports press conference, football team bra
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match: False The image shows a person writing on a paper document or ledger, which is completely unrelated to football, Malappuram FC
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 3 for 'Malappuram FC aims for Indian Football L'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261124-0327","first":"MP-426"}
+write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 88 recent posts read from all pages
 write round: 12 news waiting in the queue (written in priority order)
 candidate filter: collected=12
 to write: 0 Manjeri + 0 Kondotty + 12 other district candidates (max 200 + 200 + 200 stories)
 candidates waiting: 0 Manjeri, 0 Kondotty, 12 Malappuram; time left 29 min
-try (N) manual=False: സൂപ്പർ ലീഗ് വിടുമോ മലപ്പുറം എഫ്സി? പുതിയ മോഹങ്ങൾക്ക് കലണ്ടർ 
 try (N) manual=False: എംഎസ്പി എച്ച്എസ്എസിന് കിരീടം
+try (N) manual=False: സൂപ്പർ ലീഗ് വിടുമോ മലപ്പുറം എഫ്സി? പുതിയ മോഹങ്ങൾക്ക് കലണ്ടർ 
 try (N) manual=False: പ്രതീക്ഷ തകർത്ത് സ്വർണം, വീണ്ടും കുതിപ്പ്! നവംബർ 23-ലെ വില |
-skip (N) could not open: എംഎസ്പി എച്ച്എസ്എസിന് കിരീടം [https://www.deshabhimani.com/district-news/-73594/foot21-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+NOT filed (N) പ്രതീക്ഷ തകർത്ത് സ്വർണം, വീണ്ടും കുതിപ്പ്! നവംബർ 2: stale: price news from 23 Nov, not today
 try (N) manual=False: സ്വർണവില ഇനി 1 ലക്ഷത്തിന് മുകളിൽ പോകില്ല; കാരണം പറഞ്ഞ് സാമ്പ
-NOT filed (N) സൂപ്പർ ലീഗ് വിടുമോ മലപ്പുറം എഫ്സി? പുതിയ മോഹങ്ങൾക്: all free models failed: no usable answer from the models
+NOT filed (N) സ്വർണവില ഇനി 1 ലക്ഷത്തിന് മുകളിൽ പോകില്ല; കാരണം പറ: all free models failed: no usable answer from the models
 try (N) manual=False: സ്വർണവില കൂടി; തിരിച്ചുകയറ്റം രണ്ടാഴ്ചക്ക് ശേഷം | Madhyamam
 NOT filed (N) സ്വർണവില കൂടി; തിരിച്ചുകയറ്റം രണ്ടാഴ്ചക്ക് ശേഷം | : all free models failed: no usable answer from the models
 try (N) manual=False: തൃക്കാർത്തിക മഹോത്സവം സംഗീതാർച്ചന
-skip (N) could not open: തൃക്കാർത്തിക മഹോത്സവം സംഗീതാർച്ചന [https://www.deshabhimani.com/district-news/-73594/asd112-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+NOT filed (N) തൃക്കാർത്തിക മഹോത്സവം സംഗീതാർച്ചന: all free models failed: no usable answer from the models
 try (N) manual=False: കലക്ടർക്കുമുന്നിൽ പരാതിയുമായി മാറഞ്ചേരിയിലെ കുടുംബങ്ങൾ
-skip (N) could not open: കലക്ടർക്കുമുന്നിൽ പരാതിയുമായി മാറഞ്ചേരിയിലെ കുടുംബ [https://www.deshabhimani.com/district-news/-73594/ad223-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+NOT filed (N) കലക്ടർക്കുമുന്നിൽ പരാതിയുമായി മാറഞ്ചേരിയിലെ കുടുംബ: all free models failed: no usable answer from the models
 try (N) manual=False: പൊന്നാനി എയിംസ് ആർച്ചറി അക്കാദമിക്ക് കിരീടം
-skip (N) could not open: പൊന്നാനി എയിംസ് ആർച്ചറി അക്കാദമിക്ക് കിരീടം [https://www.deshabhimani.com/district-news/-73594/championsh] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+NOT filed (N) പൊന്നാനി എയിംസ് ആർച്ചറി അക്കാദമിക്ക് കിരീടം: all free models failed: no usable answer from the models
 try (N) manual=False: എടപ്പാളിൽ അഖിലകേരള  പ്രൊഫഷണൽ നാടകമേളക്ക് തുടക്കം
-skip (N) could not open: എടപ്പാളിൽ അഖിലകേരള  പ്രൊഫഷണൽ നാടകമേളക്ക് തുടക്കം [https://www.deshabhimani.com/district-news/-73594/drama123-f] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+NOT filed (N) എടപ്പാളിൽ അഖിലകേരള  പ്രൊഫഷണൽ നാടകമേളക്ക് തുടക്കം: all free models failed: no usable answer from the models
 try (N) manual=False: ആളൊഴിഞ്ഞ് ഗെെനക്കോളജി വിഭാഗം
-skip (N) could not open: ആളൊഴിഞ്ഞ് ഗെെനക്കോളജി വിഭാഗം [https://www.deshabhimani.com/district-news/-73594/qedq112-fy] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
+NOT filed (N) ആളൊഴിഞ്ഞ് ഗെെനക്കോളജി വിഭാഗം: all free models failed: no usable answer from the models
 try (N) manual=False: കോട്ടക്കൽ ഫാർമേഴ്സ് കോ -ഓപ്പറേറ്റീവ് സൊസൈറ്റി പന്ത്രണ്ടാമത് 
 NOT filed (N) കോട്ടക്കൽ ഫാർമേഴ്സ് കോ -ഓപ്പറേറ്റീവ് സൊസൈറ്റി പന്ത: all free models failed: no usable answer from the models
 try (N) manual=False: ഡോക്ടർമാരുടെ അഭാവം; താലൂക്ക് ആശുപത്രിയിൽ പ്രസവനിരക്ക് കുറഞ്ഞ
-skip (N) could not open: ഡോക്ടർമാരുടെ അഭാവം; താലൂക്ക് ആശുപത്രിയിൽ പ്രസവനിരക [https://www.deshabhimani.com/News/kerala/malappuram-taluk-ho] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/News/kerala/ma
-NOT filed (N) പ്രതീക്ഷ തകർത്ത് സ്വർണം, വീണ്ടും കുതിപ്പ്! നവംബർ 2: all free models failed: no usable answer from the models
-NOT filed (N) സ്വർണവില ഇനി 1 ലക്ഷത്തിന് മുകളിൽ പോകില്ല; കാരണം പറ: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 12, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
-carousel for 0 of 0 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 12 news waiting to be written
+NOT filed (N) ഡോക്ടർമാരുടെ അഭാവം; താലൂക്ക് ആശുപത്രിയിൽ പ്രസവനിരക: all free models failed: no usable answer from the models
+auto images: 1 of 1 stories ({'pollinations': 4})
+posting job started at once
+auto images: 1 of 1 stories ({'pollinations': 9})
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 12, 'K': 0}, done={'R': 0, 'N': 2, 'K': 0}, time left 21 min
+carousel for 0 of 2 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 2 Malappuram (targets 200 + 200 + 200)
+queue: 10 news waiting to be written
+write_stories.yml started
 All News sheet: {"ok":true,"added":0,"updated":12} 
-stories: 0
+stories: 2
