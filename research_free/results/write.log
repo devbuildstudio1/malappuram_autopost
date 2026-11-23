@@ -1,20 +1,32 @@
 writing [N]: സ്വർണവില കുറഞ്ഞു: പണയം വെച്ചവരും പണം നൽകിയവരും നെട്ടോട്ടത്തി
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-ok gemini/gemini-3.6-flash (36s)
-attempt 1 gemini/gemini-3.6-flash: 2 problems
-  letters of another script inside Malayalam words: न य ि - write every word only in Malayalam letters
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 3 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 60 ('റീട്ടെയിൽ വായ്പാ മേഖലയിൽ 60.6 ശതമാനം വാർഷിക വളർച്ചയോടെ സ്വർണ')
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+ok gemini/gemini-3.6-flash (15s)
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 80 ('ആഗോള രാഷ്ട്രീയ അനിശ്ചിതത്വങ്ങളെത്തുടർന്ന് കഴിഞ്ഞ ഒരു വർഷത്തി'); 31 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 180 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 1 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 3 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 6 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok gemini/gemini-3.6-flash (17s)
+attempt 2 gemini/gemini-3.6-flash: 1 problems
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 100 ('മുൻപ് 100 ശതമാനം ഇടപാടുകാരും പ്രതിമാസ തിരിച്ചടവ് നടത്തിയിരുന')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3.6-flash (20s)
+attempt 3 gemini/gemini-3.6-flash: 1 problems
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 180 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 60 ('റീട്ടെയിൽ വായ്പാ മേഖലയിൽ 60.6 ശതമാനം വാർഷിക വളർച്ചയോടെ സ്വർണ')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+ok gemini/gemini-3.6-flash (21s)
+attempt 4 gemini/gemini-3.6-flash: 1 problems
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 80 ('ആഗോള രാഷ്ട്രീയ അനിശ്ചിതത്വങ്ങളെത്തുടർന്ന് കഴിഞ്ഞ ഒരു വർഷത്തി'); 100 ('മുൻപ് 100 ശതമാനം ഇടപാടുകാരും പ്രതിമാസ തിരിച്ചടവ് നടത്തിയിരുന')
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
@@ -25,64 +37,52 @@ dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 400: {"errors":[{"message":"AiError: AiError: {\"error\":{\"message\
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (32s)
-attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 39 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 80 ('ആഗോള രാഷ്ട്രീയ അനിശ്ചിതത്വങ്ങളെത്തുടർന്ന് കഴിഞ്ഞ ഒരു വർഷത്തി'); 25 ('എന്നാൽ ജനുവരി-ഫെബ്രുവരി മാസങ്ങളിലെ ഉയർന്ന നിരക്കിൽ നിന്ന് ഒന')
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (46s)
+attempt 5 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
+  reel_script has 50 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 31 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 180 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 3 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 31 ('31 മുതൽ 90 ദിവസം വരെയുള്ള കുടിശ്ശിക അനുപാതം 0.9 ശതമാനത്തിൽ ന'); 90 ('31 മുതൽ 90 ദിവസം വരെയുള്ള കുടിശ്ശിക അനുപാതം 0.9 ശതമാനത്തിൽ ന'); 9 ('31 മുതൽ 90 ദിവസം വരെയുള്ള കുടിശ്ശിക അനുപാതം 0.9 ശതമാനത്തിൽ ന')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (36s)
+attempt 6 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
+  reel_script has 47 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 12 ('റ്റ് റീപേയ്മെന്റ് സ്വർണ്ണ വായ്പകളുടെ കാലാവധി 12 മാസമായി റിസർ'); 80 ('ആഗോള രാഷ്ട്രീയ അനിശ്ചിതത്വങ്ങളെത്തുടർന്ന് കഴിഞ്ഞ ഒരു വർഷത്തി'); 12 ('ഇതിനുപുറമെ, ബുള്ളറ്റ് റീപേയ്മെന്റ് സ്വർണ്ണ വായ്പകളുടെ കാലാവധ')
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)
-attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 12 ('റ്റ് റീപേയ്മെന്റ് സ്വർണ്ണ വായ്പകളുടെ കാലാവധി 12 മാസമായി റിസർ'); 31 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 180 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 1 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 3 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 6 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും')
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (32s)
+attempt 7 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 31 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 180 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 3 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 6 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 60 ('റീട്ടെയിൽ വായ്പാ മേഖലയിൽ 60.6 ശതമാനം വാർഷിക വളർച്ചയോടെ സ്വർണ'); 6 ('റീട്ടെയിൽ വായ്പാ മേഖലയിൽ 60.6 ശതമാനം വാർഷിക വളർച്ചയോടെ സ്വർണ')
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (39s)
-attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 38 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 80 ('ആഗോള രാഷ്ട്രീയ അനിശ്ചിതത്വങ്ങളെത്തുടർന്ന് കഴിഞ്ഞ ഒരു വർഷത്തി'); 25 ('എന്നാൽ ജനുവരി-ഫെബ്രുവരി മാസങ്ങളിലെ ഉയർന്ന നിരക്കിൽ നിന്ന് ഒന'); 60 ('റീട്ടെയിൽ വായ്പാ മേഖലയിൽ 60.6 ശതമാനം വാർഷിക വളർച്ചയോടെ സ്വർണ')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (43s)
-attempt 5 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  numbers not found in the article: 26
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 31 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 180 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 1 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 3 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (37s)
-attempt 6 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 46 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 12 ('റ്റ് റീപേയ്മെന്റ് സ്വർണ്ണ വായ്പകളുടെ കാലാവധി 12 മാസമായി റിസർ'); 80 ('ആഗോള രാഷ്ട്രീയ അനിശ്ചിതത്വങ്ങളെത്തുടർന്ന് കഴിഞ്ഞ ഒരു വർഷത്തി'); 12 ('ഇതിനുപുറമെ, ബുള്ളറ്റ് റീപേയ്മെന്റ് സ്വർണ്ണ വായ്പകളുടെ കാലാവധ')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (51s)
-attempt 7 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  reel_script has 54 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)
 attempt 8 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 12 ('റ്റ് റീപേയ്മെന്റ് സ്വർണ്ണ വായ്പകളുടെ കാലാവധി 12 മാസമായി റിസർ'); 80 ('ആഗോള രാഷ്ട്രീയ അനിശ്ചിതത്വങ്ങളെത്തുടർന്ന് കഴിഞ്ഞ ഒരു വർഷത്തി'); 25 ('എന്നാൽ ജനുവരി-ഫെബ്രുവരി മാസങ്ങളിലെ ഉയർന്ന നിരക്കിൽ നിന്ന് ഒന'); 31 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 180 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 1 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും')
-  known issue repeated_words: the same sentence is read twice - rewrite so it does not happen again
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (54s)
-attempt 9 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 53 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 15 ('നിലവിലെ നിരക്കിൽ നിന്ന് സ്വർണ്ണവില 15 ശതമാനത്തിലധികം ഇനിയും ')
+  reel_script has 45 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 12 ('റ്റ് റീപേയ്മെന്റ് സ്വർണ്ണ വായ്പകളുടെ കാലാവധി 12 മാസമായി റിസർ'); 80 ('ആഗോള രാഷ്ട്രീയ അനിശ്ചിതത്വങ്ങളെത്തുടർന്ന് കഴിഞ്ഞ ഒരു വർഷത്തി'); 25 ('എന്നാൽ ജനുവരി-ഫെബ്രുവരി മാസങ്ങളിലെ ഉയർന്ന നിരക്കിൽ നിന്ന് ഒന'); 12 ('ഇതിനുപുറമെ, ബുള്ളറ്റ് റീപേയ്മെന്റ് സ്വർണ്ണ വായ്പകളുടെ കാലാവധ'); 100 ('മുൻപ് 100 ശതമാനം ഇടപാടുകാരും പ്രതിമാസ തിരിച്ചടവ് നടത്തിയിരുന')
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
-poor answer - skipped for 30 min: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 400: {"errors":[{"message":"AiError: AiError: {\"error\":{\"message\
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKE7sfKJtBYsMR17RmgK"}
-proofread skipped: free models not efficient (6 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (40s)
+attempt 9 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 31 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 180 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 3 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 6 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 60 ('റീട്ടെയിൽ വായ്പാ മേഖലയിൽ 60.6 ശതമാനം വാർഷിക വളർച്ചയോടെ സ്വർണ'); 6 ('റീട്ടെയിൽ വായ്പാ മേഖലയിൽ 60.6 ശതമാനം വാർഷിക വളർച്ചയോടെ സ്വർണ')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (45s)
+attempt 10 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 3 problems
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKHAiRswFqgJrZJdrMy9"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (40s)
+proofread rejected (2 problems)
+  slide 3 line 2 longer than 60 characters
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 31 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 180 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 3 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 6 ('ക്രെഡിറ്റ് ബ്യൂറോയായ സി.ആർ.ഐ.എഫ് (CRIF) പുറത്തുവിട്ട ഏറ്റവും'); 60 ('റീട്ടെയിൽ വായ്പാ മേഖലയിൽ 60.6 ശതമാനം വാർഷിക വളർച്ചയോടെ സ്വർണ'); 6 ('റീട്ടെയിൽ വായ്പാ മേഖലയിൽ 60.6 ശതമാനം വാർഷിക വളർച്ചയോടെ സ്വർണ')
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (6s)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (7s)
 earlier stories still waiting for images: []
 instagram check: 86 recent posts read from all pages
 write round: 1 news waiting in the queue (written in priority order)
