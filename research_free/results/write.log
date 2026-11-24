@@ -1,28 +1,23 @@
-writing [N]: സ്വർണ വിലയിടിവ് : വാങ്ങാൻ തിരക്കേറെ,
-സ്വർണപ്പണയക്കാർക്ക് നോ
 writing [N]: ‘കർമ റോഡ്’ തിരികെ വരുമോ
 writing [N]: കേസ് അന്വേഷണത്തിനിടെ പോലീസുകാരെ കാർ ഇടിപ്പിച്ച് അപായപ്പെടുത്
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: സ്വർണ വിലയിടിവ് : വാങ്ങാൻ തിരക്കേറെ,
+സ്വർണപ്പണയക്കാർക്ക് നോ
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -43,6 +38,7 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -53,112 +49,104 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM1iSumR5guLHbW7dNf9"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM4KbaNW1aYQgNqUWw49"}
 writing [N]: ഇൻഡക്ഷൻ പ്രോഗ്രാം സംഘടിപ്പിച്ചു
 free models unavailable: free models not efficient (22 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM1iTPXoUi4UzEVZAVVn"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM4KeZhdDnRgBCCodofK"}
 writing [N]: പ്രതീക്ഷ തകർത്ത് സ്വർണം, വീണ്ടും കുതിപ്പ്! നവംബർ 23-ലെ വില |
 free models unavailable: free models not efficient (22 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM1iTyGFTVYu8BSfiWAC"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM4KfegaiZNahmVeJGWE"}
 writing [N]: സ്വർണം വിലക്കുറവ്: പണയവായ്പാമേഖല പ്രതിസന്ധിയിൽ | Gold Price 
 free models unavailable: free models not efficient (22 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM1iUV2FMLGWmqP9aeot"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM4KgX2EqUDXG46VWCx6"}
+writing [N]: അധിനിവേശപൂർവകാലത്തെ മുളയെഴുത്തുകൾ കണ്ടെത്തി
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM4KhNNng3tzYsuHBwt3"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM1iaCJeABE4n6p6wthg"}
-writing [N]: അധിനിവേശപൂർവകാലത്തെ മുളയെഴുത്തുകൾ കണ്ടെത്തി
-free models unavailable: free models not efficient (23 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM1iam3jhLwSrNoezcYA"}
 writing [N]: സ്വർണവിലയിൽ വൻ മാറ്റം, വെള്ളിക്ക് റെക്കോർഡ് വില; നവംബർ 24-ലെ
 free models unavailable: free models not efficient (23 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM4Ki6GxLY5wBai8xexg"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM4KiQ8LVu9qemXe9dHW"}
 writing [N]: സ്വർണവില ഇനി 1 ലക്ഷത്തിന് മുകളിൽ പോകില്ല; കാരണം പറഞ്ഞ് സാമ്പ
 free models unavailable: free models not efficient (23 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM1ibYRcoDevput2JCqy"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM1ibdddWumYeDaeYv8K"}
 writing [N]: വളവന്നൂരപ്പൻ മഹാദേവക്ഷേത്രത്തിൽ തിരു ആറാട്ട് മഹോത്സവത്തിന് ക
 free models unavailable: free models not efficient (23 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM1ic79kFjz7kVW3dYHb"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM4KjCkkPyvnKNM8biyZ"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM4KjQubvp5SqPf2gwjf"}
+writing [N]: ശിശുദിന വാരാഘോഷത്തിന് സമാപനം
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM4KmURwrdMfLi65rLin"}
 writing [N]: ഫേസ്ക്രീം വിപണനം,  വ്യാജന്മാരെ പൂട്ടാൻ
 നിയമം മാറ്റും
 free models unavailable: free models not efficient (23 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM1icXCpcq34Yu925UAF"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM4KnJ35xNFvEDEJgMZW"}
 writing [N]: ഇടിയാനെനിക്ക് മനസില്ല; തകർച്ചയ്ക്കിടയിൽ പൊന്നിന്റെ ട്വിസ്റ്റ
 free models unavailable: free models not efficient (23 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM1id6wAYt1V1znnauUj"}
-writing [N]: ശിശുദിന വാരാഘോഷത്തിന് സമാപനം
-free models unavailable: free models not efficient (23 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM1idm7f2XoenyWb2CEC"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM4KopKM4ng7GhYnTcMc"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM1igzqcBh3p62rfdFNm"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChM4KpuJVprTRg4EAHp8X"}
 earlier stories still waiting for images: []
 instagram check: 89 recent posts read from all pages
-write round: 17 news waiting in the queue (written in priority order)
-candidate filter: collected=16, not written=1
-to write: 1 Manjeri + 0 Kondotty + 15 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 1 Manjeri, 0 Kondotty, 15 Malappuram; time left 29 min
+write round: 13 news waiting in the queue (written in priority order)
+candidate filter: collected=13
+to write: 0 Manjeri + 0 Kondotty + 13 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 0 Manjeri, 0 Kondotty, 13 Malappuram; time left 29 min
 try (N) manual=False: ‘കർമ റോഡ്’ തിരികെ വരുമോ
 try (N) manual=False: സ്വർണ വിലയിടിവ് : വാങ്ങാൻ തിരക്കേറെ,
 സ്വർണപ്പണയക്കാർക്ക് നോ
 try (N) manual=False: കേസ് അന്വേഷണത്തിനിടെ പോലീസുകാരെ കാർ ഇടിപ്പിച്ച് അപായപ്പെടുത്
-NOT filed (N) കേസ് അന്വേഷണത്തിനിടെ പോലീസുകാരെ കാർ ഇടിപ്പിച്ച് അപ: all free models failed: no usable answer from the models
+NOT filed (N) ‘കർമ റോഡ്’ തിരികെ വരുമോ: all free models failed: no usable answer from the models
 try (N) manual=False: ഇൻഡക്ഷൻ പ്രോഗ്രാം സംഘടിപ്പിച്ചു
 NOT filed (N) ഇൻഡക്ഷൻ പ്രോഗ്രാം സംഘടിപ്പിച്ചു: all free models failed: no usable answer from the models
 try (N) manual=False: പ്രതീക്ഷ തകർത്ത് സ്വർണം, വീണ്ടും കുതിപ്പ്! നവംബർ 23-ലെ വില |
 NOT filed (N) പ്രതീക്ഷ തകർത്ത് സ്വർണം, വീണ്ടും കുതിപ്പ്! നവംബർ 2: all free models failed: no usable answer from the models
 try (N) manual=False: സ്വർണം വിലക്കുറവ്: പണയവായ്പാമേഖല പ്രതിസന്ധിയിൽ | Gold Price 
 NOT filed (N) സ്വർണം വിലക്കുറവ്: പണയവായ്പാമേഖല പ്രതിസന്ധിയിൽ | G: all free models failed: no usable answer from the models
-try (N) manual=False: Gold Rate Today: തിരിച്ചുകയറുന്നോ ? ; അറിയാം ഇന്നത്തെ സ്വർണവ
-skip (N) similar to a filed story: Gold Rate Today: തിരിച്ചുകയറുന്നോ ? ; അറിയാം ഇന്നത
-try (R) manual=False: പത്തുവയസ്സുകാരി പീഡനത്തിനിരയായ ദൃശ്യങ്ങൾ ഫോണിൽ സൂക്ഷിച്ചു; ത
-NOT filed (N) സ്വർണ വിലയിടിവ് : വാങ്ങാൻ തിരക്കേറെ,
-സ്വർണപ്പണയക്: all free models failed: no usable answer from the models
 try (N) manual=False: അധിനിവേശപൂർവകാലത്തെ മുളയെഴുത്തുകൾ കണ്ടെത്തി
-skip (R) similar to a filed story: പത്തുവയസ്സുകാരി പീഡനത്തിനിരയായ ദൃശ്യങ്ങൾ ഫോണിൽ സൂക
-try (N) manual=False: സ്വർണവിലയിൽ വൻ മാറ്റം, വെള്ളിക്ക് റെക്കോർഡ് വില; നവംബർ 24-ലെ
 NOT filed (N) അധിനിവേശപൂർവകാലത്തെ മുളയെഴുത്തുകൾ കണ്ടെത്തി: all free models failed: no usable answer from the models
+try (N) manual=False: സ്വർണവിലയിൽ വൻ മാറ്റം, വെള്ളിക്ക് റെക്കോർഡ് വില; നവംബർ 24-ലെ
+NOT filed (N) കേസ് അന്വേഷണത്തിനിടെ പോലീസുകാരെ കാർ ഇടിപ്പിച്ച് അപ: all free models failed: no usable answer from the models
 try (N) manual=False: സ്വർണവില ഇനി 1 ലക്ഷത്തിന് മുകളിൽ പോകില്ല; കാരണം പറഞ്ഞ് സാമ്പ
 NOT filed (N) സ്വർണവിലയിൽ വൻ മാറ്റം, വെള്ളിക്ക് റെക്കോർഡ് വില; ന: all free models failed: no usable answer from the models
 try (N) manual=False: വളവന്നൂരപ്പൻ മഹാദേവക്ഷേത്രത്തിൽ തിരു ആറാട്ട് മഹോത്സവത്തിന് ക
 NOT filed (N) സ്വർണവില ഇനി 1 ലക്ഷത്തിന് മുകളിൽ പോകില്ല; കാരണം പറ: all free models failed: no usable answer from the models
-try (N) manual=False: പൊലീസ് കേസെടുത്തിട്ടും വിവാദ ഫെയർനെസ് ക്രീം എഫ്ട്യൂൺ ഓൺലൈനിൽ
-skip (N) similar to a filed story: പൊലീസ് കേസെടുത്തിട്ടും വിവാദ ഫെയർനെസ് ക്രീം എഫ്ട്യ
 try (N) manual=False: ഫേസ്ക്രീം വിപണനം,  വ്യാജന്മാരെ പൂട്ടാൻ
 നിയമം മാറ്റും
 NOT filed (N) വളവന്നൂരപ്പൻ മഹാദേവക്ഷേത്രത്തിൽ തിരു ആറാട്ട് മഹോത്: all free models failed: no usable answer from the models
 try (N) manual=False: ശിശുദിന വാരാഘോഷത്തിന് സമാപനം
+NOT filed (N) ശിശുദിന വാരാഘോഷത്തിന് സമാപനം: all free models failed: no usable answer from the models
+try (N) manual=False: ഇടിയാനെനിക്ക് മനസില്ല; തകർച്ചയ്ക്കിടയിൽ പൊന്നിന്റെ ട്വിസ്റ്റ
 NOT filed (N) ഫേസ്ക്രീം വിപണനം,  വ്യാജന്മാരെ പൂട്ടാൻ
 നിയമം മാറ്: all free models failed: no usable answer from the models
-try (N) manual=False: ഇടിയാനെനിക്ക് മനസില്ല; തകർച്ചയ്ക്കിടയിൽ പൊന്നിന്റെ ട്വിസ്റ്റ
 NOT filed (N) ഇടിയാനെനിക്ക് മനസില്ല; തകർച്ചയ്ക്കിടയിൽ പൊന്നിന്റെ: all free models failed: no usable answer from the models
-NOT filed (N) ശിശുദിന വാരാഘോഷത്തിന് സമാപനം: all free models failed: no usable answer from the models
-NOT filed (N) ‘കർമ റോഡ്’ തിരികെ വരുമോ: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 15, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+NOT filed (N) സ്വർണ വിലയിടിവ് : വാങ്ങാൻ തിരക്കേറെ,
+സ്വർണപ്പണയക്: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 13, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
 queue: 13 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":14} 
+All News sheet: {"ok":true,"added":0,"updated":13} 
 stories: 0
