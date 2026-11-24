@@ -11,54 +11,63 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
+writing [N]: ‘ഞാനും ഉപയോഗിച്ചിട്ടുണ്ട്; കാരണം നിങ്ങളാണ്! ഇനി കുരുമുളക് മാ
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-writing [N]: അന്താരാഷ്ട്ര എംഡിഎംഎ കടത്ത് കേസ്; നൈജീരിയൻ പൗരനു പിന്നാലെ പു
-free models unavailable: free models not efficient (6 failures in a row): using Claude
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChNKdXWHcor2ce7C3ETgj"}
-writing [N]: ‘ഞാനും ഉപയോഗിച്ചിട്ടുണ്ട്; കാരണം നിങ്ങളാണ്! ഇനി കുരുമുളക് മാ
-free models unavailable: free models not efficient (7 failures in a row): using Claude
-writing [N]: 'ഞാനും തേച്ചിട്ടുണ്ട്, കുരുമുളക് മാത്രമേ ഇനി ബാക്കിയുള്ളൂ, എ
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+writing [N]: അന്താരാഷ്ട്ര എംഡിഎംഎ കടത്ത് കേസ്; നൈജീരിയൻ പൗരനു പിന്നാലെ പു
+free models unavailable: free models not efficient (11 failures in a row): using Claude
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChNKdYQNKVGXE4UkK27nm"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChNKdYjDXv9Qv9vu4Ynk5"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChNLeAwRnXc5SmPCCUM2u"}
+writing [N]: 'ഞാനും തേച്ചിട്ടുണ്ട്, കുരുമുളക് മാത്രമേ ഇനി ബാക്കിയുള്ളൂ, എ
+free models unavailable: free models not efficient (12 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChNLeC49rjy29GcVQYc4b"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChNKeg1oL7wfpKfJKjQZP"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChNLfJb62u12ERbcpSTNE"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChNLfTKx4D8AFKPBcddyQ"}
 earlier stories still waiting for images: []
 instagram check: 90 recent posts read from all pages
-write round: 9 news waiting in the queue (written in priority order)
-candidate filter: collected=7, not written=1, already filed=1
-to write: 1 Manjeri + 0 Kondotty + 6 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 1 Manjeri, 0 Kondotty, 6 Malappuram; time left 29 min
+write round: 6 news waiting in the queue (written in priority order)
+candidate filter: collected=6
+to write: 1 Manjeri + 0 Kondotty + 5 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 1 Manjeri, 0 Kondotty, 5 Malappuram; time left 29 min
 try (R) manual=False: വണ്ടൂർ ബൈപ്പാസ് പദ്ധതി: ടോപ്പോഗ്രാഫിക് സർവേയ്ക്ക് തുടക്കം | 
 try (N) manual=False: അന്താരാഷ്ട്ര എംഡിഎംഎ കടത്ത് കേസ്; നൈജീരിയൻ പൗരനു പിന്നാലെ പു
-try (N) manual=False: പത്തുവയസ്സുകാരിക്ക് നേരെ ലൈംഗികാതിക്രമം; തടയാതെ ദൃശ്യങ്ങൾ മൊ
-skip (R) could not open: വണ്ടൂർ ബൈപ്പാസ് പദ്ധതി: ടോപ്പോഗ്രാഫിക് സർവേയ്ക്ക്  [https://www.deepika.com/district-news/malappuram/wandoor-byp] 403 Client Error: Forbidden for url: https://www.deepika.com/district-news/malap
 try (N) manual=False: സ്വർണവില വീണ്ടും ഉയർന്നു; പവൻ വില 94,000 ത്തിലേക്ക്!
-skip (N) similar to a filed story: പത്തുവയസ്സുകാരിക്ക് നേരെ ലൈംഗികാതിക്രമം; തടയാതെ ദൃ
+skip (R) could not open: വണ്ടൂർ ബൈപ്പാസ് പദ്ധതി: ടോപ്പോഗ്രാഫിക് സർവേയ്ക്ക്  [https://www.deepika.com/district-news/malappuram/wandoor-byp] 403 Client Error: Forbidden for url: https://www.deepika.com/district-news/malap
 try (N) manual=False: 10 വയസ്സുകാരനെ പീഡിപ്പിച്ച 61കാരന് 54 വർഷം കഠിനതടവും പിഴയും
 skip (N) could not open: 10 വയസ്സുകാരനെ പീഡിപ്പിച്ച 61കാരന് 54 വർഷം കഠിനതടവ [https://www.deshabhimani.com/News/kerala/man-gets-54-years-r] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/News/kerala/ma
 try (N) manual=False: ‘ഞാനും ഉപയോഗിച്ചിട്ടുണ്ട്; കാരണം നിങ്ങളാണ്! ഇനി കുരുമുളക് മാ
 NOT filed (N) അന്താരാഷ്ട്ര എംഡിഎംഎ കടത്ത് കേസ്; നൈജീരിയൻ പൗരനു പ: all free models failed: no usable answer from the models
 try (N) manual=False: 'ഞാനും തേച്ചിട്ടുണ്ട്, കുരുമുളക് മാത്രമേ ഇനി ബാക്കിയുള്ളൂ, എ
-NOT filed (N) ‘ഞാനും ഉപയോഗിച്ചിട്ടുണ്ട്; കാരണം നിങ്ങളാണ്! ഇനി കു: all free models failed: no usable answer from the models
 NOT filed (N) 'ഞാനും തേച്ചിട്ടുണ്ട്, കുരുമുളക് മാത്രമേ ഇനി ബാക്ക: all free models failed: no usable answer from the models
 NOT filed (N) സ്വർണവില വീണ്ടും ഉയർന്നു; പവൻ വില 94,000 ത്തിലേക്ക: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 6, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+NOT filed (N) ‘ഞാനും ഉപയോഗിച്ചിട്ടുണ്ട്; കാരണം നിങ്ങളാണ്! ഇനി കു: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 5, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
 queue: 6 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":7} 
+All News sheet: {"ok":true,"added":0,"updated":6} 
 stories: 0
