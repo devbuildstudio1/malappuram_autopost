@@ -1,6 +1,17 @@
+writing [N]: ‘കറുപ്പിന് ഭംഗിയില്ലെന്ന് കുഞ്ഞിലേ പഠിപ്പിച്ചത് നിങ്ങളാണ്, വ
 writing [N]: പൊലീസ് അധികാരികളേ, ആ സ്ഥലം വിട്ടുനൽകൂ, നഗരസഭ അത് ബ്യൂട്ടി സ്
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -11,11 +22,20 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
+    "code": 503,
+    "message": "This model is currently experiencing high d
+switching away from gemini/gemini-3.8-flash for 10 min
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+switching away from gemini/gemini-3.6-flash for 10 min
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 dead for this round: groq/openai/gpt-oss-120b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
@@ -24,68 +44,55 @@ dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-writing [N]: ‘കറുപ്പിന് ഭംഗിയില്ലെന്ന് കുഞ്ഞിലേ പഠിപ്പിച്ചത് നിങ്ങളാണ്, വ
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMnVsQ33YeLfizUfaJxk"}
-writing [N]: ഫേസ്ക്രീം വിപണനം,  വ്യാജന്മാരെ പൂട്ടാൻ
-നിയമം മാറ്റും
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMnVtRZY6LHf2KWq4DWN"}
+ok gemini/gemini-3.6-flash (28s)
+attempt 1 gemini/gemini-3.6-flash: 2 problems
+  reel_script has 51 words; need 52-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  numbers not found in the article: 30
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMnWpHnNfo5gp4Rvitzp"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMnckSXdr7a1vVD6eeta"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMndcGS6vctB9VaomJRy"}
+proofread skipped: free models not efficient (4 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match: False The image is an AI-generated scene rather than an authentic photograph of Kottappadi junction in Malappuram, Kerala, Ind
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images made: 4 for 'Malappuram Municipality seeks land at Ko'
+bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261124-1828","first":"MP-444"}
+posting job started at once
+write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 90 recent posts read from all pages
-write round: 22 news waiting in the queue (written in priority order)
-candidate filter: collected=20, not written=1, not written=1
-to write: 0 Manjeri + 0 Kondotty + 20 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Kondotty, 20 Malappuram; time left 29 min
-try (N) manual=False: ചാലക്കുടി പൊലിസ് സ്റ്റേഷൻ വളപ്പിൽ തീപിടിത്തം; തൊണ്ടിമുതലായി 
-try (N) manual=False: സ്വർണവില മുകളിലോട്ട് തന്നെ; അറിയാം ഇന്നത്തെ നിരക്ക്
+write round: 3 news waiting in the queue (written in priority order)
+candidate filter: collected=3
+to write: 0 Manjeri + 0 Kondotty + 3 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 0 Manjeri, 0 Kondotty, 3 Malappuram; time left 29 min
 try (N) manual=False: പൊലീസ് അധികാരികളേ, ആ സ്ഥലം വിട്ടുനൽകൂ, നഗരസഭ അത് ബ്യൂട്ടി സ്
-skip (N) similar to a filed story: ചാലക്കുടി പൊലിസ് സ്റ്റേഷൻ വളപ്പിൽ തീപിടിത്തം; തൊണ്
-try (N) manual=False: Kerala Gold Rate: വീണ്ടും തീപിടിച്ച് സ്വർണവില; രണ്ടു ദിവസത്ത
-skip (N) today's price is already filed: Kerala Gold Rate: വീണ്ടും തീപിടിച്ച് സ്വർണവില; രണ്
-try (N) manual=False: അന്താരാഷ്ട്ര എംഡിഎംഎ കടത്ത് കേസ്; നൈജീരിയൻ പൗരനു പിന്നാലെ പു
-skip (N) similar to a filed story: സ്വർണവില മുകളിലോട്ട് തന്നെ; അറിയാം ഇന്നത്തെ നിരക്ക
-try (N) manual=False: സംസ്ഥാനത്ത് സ്വർണവിലയിൽ വൻ കുതിപ്പ്: പവന് ഇന്ന് ഒറ്റയടിക്ക് 
-skip (N) similar to a filed story: അന്താരാഷ്ട്ര എംഡിഎംഎ കടത്ത് കേസ്; നൈജീരിയൻ പൗരനു പ
-try (N) manual=False: സ്വർണവില ഇന്ന് (24 നവംബർ 2026): പവന് ₹920 കൂടി; ഒരു പവന് ₹93
-skip (N) today's price is already filed: സംസ്ഥാനത്ത് സ്വർണവിലയിൽ വൻ കുതിപ്പ്: പവന് ഇന്ന് ഒറ
-try (N) manual=False: താഴ്ന്ന നിരക്കിൽ നിന്ന് കുതിച്ചുയർന്ന് സ്വർണവില; പവൻ വീണ്ടും
-skip (N) today's price is already filed: സ്വർണവില ഇന്ന് (24 നവംബർ 2026): പവന് ₹920 കൂടി; ഒര
-try (N) manual=False: സ്വർണവില വീണ്ടും കുതിക്കുന്നു; പവന് ഒറ്റയടിക്ക് 920 രൂപ വർധി
-skip (N) today's price is already filed: താഴ്ന്ന നിരക്കിൽ നിന്ന് കുതിച്ചുയർന്ന് സ്വർണവില; പ
-try (N) manual=False: സ്വർണവില ഇന്നും കുതിച്ചു; സ്വർണം വീണ്ടും തിളങ്ങാൻ തുടങ്ങി, ഇ
-skip (N) today's price is already filed: സ്വർണവില ഇന്നും കുതിച്ചു; സ്വർണം വീണ്ടും തിളങ്ങാൻ 
-try (N) manual=False: സ്വർണമോഹങ്ങൾക്ക് തിരിച്ചടി, പൊന്ന് കുതിക്കുന്നു; നവംബർ 24-ലെ
-skip (N) today's price is already filed: സ്വർണമോഹങ്ങൾക്ക് തിരിച്ചടി, പൊന്ന് കുതിക്കുന്നു; ന
-try (N) manual=False: സ്വർണ വില തുടർച്ചയായ രണ്ടാം ദിവസവും ഉയർന്നു; കേരളത്തിൽ ഇന്ന്
-skip (N) today's price is already filed: സ്വർണ വില തുടർച്ചയായ രണ്ടാം ദിവസവും ഉയർന്നു; കേരളത
-try (N) manual=False: ഇന്നും കുതിച്ചുകയറി സ്വർണവില; അമേരിക്കയിലെ ആ റിപ്പോർട്ട് വന്
-skip (N) today's price is already filed: ഇന്നും കുതിച്ചുകയറി സ്വർണവില; അമേരിക്കയിലെ ആ റിപ്പ
-try (N) manual=False: സംസ്ഥാനത്ത് സ്വർണവില തുടർച്ചയായ രണ്ടാം ദിവസവും ഉയർന്നു; പവന്
-skip (N) today's price is already filed: സ്വർണവില വീണ്ടും കുതിക്കുന്നു; പവന് ഒറ്റയടിക്ക് 92
-try (N) manual=False: രണ്ടാം ദിവസവും കുതിച്ച് സ്വർണവില, നിർണായക പ്രവചനം പുറത്ത്; മ
-skip (N) today's price is already filed: സംസ്ഥാനത്ത് സ്വർണവില തുടർച്ചയായ രണ്ടാം ദിവസവും ഉയർ
-try (N) manual=False: വെപ്രാളം കാണിക്കല്ലേ...സ്വർണവില വീണ്ടും മാറിമറിയും; ഈ മൂന്ന്
-skip (N) today's price is already filed: വെപ്രാളം കാണിക്കല്ലേ...സ്വർണവില വീണ്ടും മാറിമറിയും
-try (N) manual=False: സ്വർണവില 90000ത്തിനും താഴേക്ക്? 'രാജ്യാന്തര വിപണിയിൽ ഔൺസ് വി
-skip (N) today's price is already filed: സ്വർണവില 90000ത്തിനും താഴേക്ക്? 'രാജ്യാന്തര വിപണിയ
 try (N) manual=False: ‘കറുപ്പിന് ഭംഗിയില്ലെന്ന് കുഞ്ഞിലേ പഠിപ്പിച്ചത് നിങ്ങളാണ്, വ
-NOT filed (N) ‘കറുപ്പിന് ഭംഗിയില്ലെന്ന് കുഞ്ഞിലേ പഠിപ്പിച്ചത് നി: all free models failed: no usable answer from the models
 try (N) manual=False: ഫേസ്ക്രീം വിപണനം,  വ്യാജന്മാരെ പൂട്ടാൻ
 നിയമം മാറ്റും
-NOT filed (N) ഫേസ്ക്രീം വിപണനം,  വ്യാജന്മാരെ പൂട്ടാൻ
-നിയമം മാറ്: all free models failed: no usable answer from the models
-try (N) manual=False: 'അധികാരത്തിന്റെ ആനന്ദം നഷ്ടപ്പെട്ടതിന്റെ നൈരാശ്യം'; ഇവിഎം തി
-skip (N) similar to a filed story: 'അധികാരത്തിന്റെ ആനന്ദം നഷ്ടപ്പെട്ടതിന്റെ നൈരാശ്യം'
-skip (N) today's price is already filed: രണ്ടാം ദിവസവും കുതിച്ച് സ്വർണവില, നിർണായക പ്രവചനം 
-NOT filed (N) പൊലീസ് അധികാരികളേ, ആ സ്ഥലം വിട്ടുനൽകൂ, നഗരസഭ അത് ബ: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 20, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
-carousel for 0 of 0 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 3 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":5} 
-stories: 0
+skip (N) could not open: ഫേസ്ക്രീം വിപണനം,  വ്യാജന്മാരെ പൂട്ടാൻ
+നിയമം മാറ് [https://www.keralakaumudi.com/kerala/general/facecream-18294] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera
+NOT filed (N) ‘കറുപ്പിന് ഭംഗിയില്ലെന്ന് കുഞ്ഞിലേ പഠിപ്പിച്ചത് നി: all free models failed: no usable answer from the models
+auto images: 1 of 1 stories ({'pollinations': 5})
+posting job started at once
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 3, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 24 min
+carousel for 0 of 1 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)
+queue: 2 news waiting to be written
+write_stories.yml started
+All News sheet: {"ok":true,"added":0,"updated":3} 
+stories: 1
