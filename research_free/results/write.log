@@ -1,11 +1,168 @@
+writing [N]: ‘കർമ റോഡ്’ തിരികെ വരുമോ
+writing [N]: മഞ്ഞപ്പിത്തം, ഷിഗെല്ല പ്രതിരോധം: അമരമ്പലത്ത് ‘ഓപ്പറേഷൻ ക്ലീൻ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: തിരുമാന്ധാംകുന്ന് ക്ഷേത്രം കേന്ദ്രമായി തീർഥാടന ടൂറിസംപദ്ധതി 
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+switching away from gemini/gemini-3.7-flash for 10 min
+ok gemini/gemini-3.6-flash (17s)
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  reel_script has 54 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+ok gemini/gemini-3.6-flash (17s)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+ok gemini/gemini-3.6-flash (22s)
+attempt 1 gemini/gemini-3.6-flash: 2 problems
+  reel_script has 52 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+  not grounded: location 'അങ്ങാടിപ്പുറം' is not in the article
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+ok groq/openai/gpt-oss-120b (4s)
+factcheck by groq/openai/gpt-oss-120b: 2 problems
+  Reel script adds an invented detail urging shop owners and locals in Amarambalam to pay attention, which is not mentioned in the article
+  Reel script omits the important fact that the inspection was led by Panchayat President V.P. Afeef, Medical Officer Dr. Ashwathi, Health Inspector K.C. Gokuldas, Public Health Inspector Shilpa and other Panchayat officials, as stated in the article
+attempt 2 gemini/gemini-3.6-flash: 2 problems
+  fact-check: Reel script adds an invented detail urging shop owners and locals in Amarambalam to pay attention, which is not mentioned in the article
+  fact-check: Reel script omits the important fact that the inspection was led by Panchayat President V.P. Afeef, Medical Officer Dr. Ashwathi, Health Inspector K.C. Gokuldas, Public Health Inspector Shilpa and other Panchayat officials, as stated in the article
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+switching away from gemini/gemini-3.8-flash for 10 min
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLpqhif2LLeDPNbM9LxU"}
+proofread skipped: free models not efficient (12 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLpqpYvVhyueEdsvMuu8"}
+proofread skipped: free models not efficient (13 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLprfie9KEoDFjniCiJy"}
+image match: False The image shows a multi-tiered pagoda-style structure in a forest setting, which does not depict the traditional Kerala-
+image match check unavailable: gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+imagegen: pollinations 503: {"status":503,"success":false,"error":{"code":"SERVICE_UNAVAILABLE","message":"The Classic API is at its limit right now. Retry after 10s, or get full access to every model with a pollen key at https:
+imagegen: black-forest-labs/flux.1-schnell 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":923728}]}
+imagegen: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":923728}]}
+imagegen: pollinations 503: {"status":503,"success":false,"error":{"code":"SERVICE_UNAVAILABLE","message":"The Classic API is at its limit right now. Retry after 10s, or get full access to every model with a pollen key at https:
+images NOT made for 'Pilgrimage tourism project centered arou': all image models failed: all image models failed: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":923728}]}
+bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261124-0619","first":"MP-428"}
+posting job started at once
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261124-0619","first":"MP-429"}
+writing [N]: അധിനിവേശപൂർവകാലത്തെ മുളയെഴുത്തുകൾ കണ്ടെത്തി
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+writing [N]: വളവന്നൂരപ്പൻ മഹാദേവക്ഷേത്രത്തിൽ തിരു ആറാട്ട് മഹോത്സവത്തിന് ക
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+writing [N]: സ്വർണവില ഇനി 1 ലക്ഷത്തിന് മുകളിൽ പോകില്ല; കാരണം പറഞ്ഞ് സാമ്പ
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLqLjDFqxKRtej4PDcKC"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLqLjVPBktZShp1rQcSz"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLqLjXNNwCU6EymRC8fY"}
+write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 88 recent posts read from all pages
-write round: 6 news waiting in the queue (written in priority order)
-candidate filter: checked earlier=6
-to write: 0 Manjeri + 0 Kondotty + 0 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Kondotty, 0 Malappuram; time left 29 min
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 0, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
-carousel for 0 of 0 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 0 news waiting to be written 
-stories: 0
+write round: 14 news waiting in the queue (written in priority order)
+candidate filter: collected=14
+to write: 1 Manjeri + 0 Kondotty + 13 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 1 Manjeri, 0 Kondotty, 13 Malappuram; time left 29 min
+try (N) manual=False: ‘കർമ റോഡ്’ തിരികെ വരുമോ
+try (N) manual=False: വി.പി. വാസുദേവനെ  അനുസ്മരിച്ചു
+try (N) manual=False: മഞ്ഞപ്പിത്തം, ഷിഗെല്ല പ്രതിരോധം: അമരമ്പലത്ത് ‘ഓപ്പറേഷൻ ക്ലീൻ
+skip (N) could not open: വി.പി. വാസുദേവനെ  അനുസ്മരിച്ചു [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
+try (N) manual=False: രണ്ട് കാലവർഷവും കൈവിട്ടു; 
+മലപ്പുറം വരൾച്ചാ ഭീതിയിൽ
+skip (N) could not open: രണ്ട് കാലവർഷവും കൈവിട്ടു; 
+മലപ്പുറം വരൾച്ചാ ഭീതിയ [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
+try (N) manual=False: സ്വർണ വിലയിടിവ് : വാങ്ങാൻ തിരക്കേറെ,
+സ്വർണപ്പണയക്കാർക്ക് നോ
+skip (N) could not open: സ്വർണ വിലയിടിവ് : വാങ്ങാൻ തിരക്കേറെ,
+സ്വർണപ്പണയക് [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
+try (N) manual=False: Gold Rate Today: തിരിച്ചുകയറുന്നോ ? ; അറിയാം ഇന്നത്തെ സ്വർണവ
+skip (N) similar to a filed story: Gold Rate Today: തിരിച്ചുകയറുന്നോ ? ; അറിയാം ഇന്നത
+try (N) manual=False: ഇൻഡക്ഷൻ പ്രോഗ്രാം സംഘടിപ്പിച്ചു
+skip (N) could not open: ഇൻഡക്ഷൻ പ്രോഗ്രാം സംഘടിപ്പിച്ചു [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
+try (N) manual=False: തിരുമാന്ധാംകുന്ന് ക്ഷേത്രം കേന്ദ്രമായി തീർഥാടന ടൂറിസംപദ്ധതി 
+auto images failed for 'Pilgrimage tourism project centered arou': all image models failed: all image models failed: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden" -> images-needed email
+auto images: 0 of 1 stories ({'pollinations': 3})
+posting job started at once
+try (R) manual=False: പത്തുവയസ്സുകാരി പീഡനത്തിനിരയായ ദൃശ്യങ്ങൾ ഫോണിൽ സൂക്ഷിച്ചു; ത
+NOT filed (N) ‘കർമ റോഡ്’ തിരികെ വരുമോ: all free models failed: no usable answer from the models
+auto images: 0 of 1 stories ({'pollinations': 3})
+try (N) manual=False: സ്വർണവില ഇനി 1 ലക്ഷത്തിന് മുകളിൽ പോകില്ല; കാരണം പറഞ്ഞ് സാമ്പ
+try (N) manual=False: വളവന്നൂരപ്പൻ മഹാദേവക്ഷേത്രത്തിൽ തിരു ആറാട്ട് മഹോത്സവത്തിന് ക
+skip (R) similar to a filed story: പത്തുവയസ്സുകാരി പീഡനത്തിനിരയായ ദൃശ്യങ്ങൾ ഫോണിൽ സൂക
+try (N) manual=False: അധിനിവേശപൂർവകാലത്തെ മുളയെഴുത്തുകൾ കണ്ടെത്തി
+NOT filed (N) അധിനിവേശപൂർവകാലത്തെ മുളയെഴുത്തുകൾ കണ്ടെത്തി: all free models failed: no usable answer from the models
+try (N) manual=False: ഫേസ്ക്രീം വിപണനം,  വ്യാജന്മാരെ പൂട്ടാൻ
+നിയമം മാറ്റും
+NOT filed (N) വളവന്നൂരപ്പൻ മഹാദേവക്ഷേത്രത്തിൽ തിരു ആറാട്ട് മഹോത്: all free models failed: no usable answer from the models
+try (N) manual=False: ഇടിയാനെനിക്ക് മനസില്ല; തകർച്ചയ്ക്കിടയിൽ പൊന്നിന്റെ ട്വിസ്റ്റ
+skip (N) could not open: ഫേസ്ക്രീം വിപണനം,  വ്യാജന്മാരെ പൂട്ടാൻ
+നിയമം മാറ് [https://www.keralakaumudi.com/kerala/general/facecream-18294] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera
+NOT filed (N) സ്വർണവില ഇനി 1 ലക്ഷത്തിന് മുകളിൽ പോകില്ല; കാരണം പറ: all free models failed: no usable answer from the models
+skip (N) could not open: ഇടിയാനെനിക്ക് മനസില്ല; തകർച്ചയ്ക്കിടയിൽ പൊന്നിന്റെ [https://www.twentyfournews.com/2026/11/23/gold-rate-hike-ker] 403 Client Error: Forbidden for url: https://www.twentyfournews.com/2026/11/23/g
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 13, 'K': 0}, done={'R': 0, 'N': 2, 'K': 0}, time left 22 min
+carousel for 0 of 2 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 2 Malappuram (targets 200 + 200 + 200)
+queue: 10 news waiting to be written
+write_stories.yml started
+All News sheet: {"ok":true,"added":0,"updated":12} 
+stories: 2
