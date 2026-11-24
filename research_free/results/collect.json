@@ -2,37 +2,28 @@
  "log": [
   "earlier stories still waiting for images: []",
   "instagram check: 90 recent posts read from all pages",
-  "write round: 3 news waiting in the queue (written in priority order)",
-  "candidate filter: collected=3",
-  "to write: 0 Manjeri + 0 Kondotty + 3 other district candidates (max 200 + 200 + 200 stories)",
-  "candidates waiting: 0 Manjeri, 0 Kondotty, 3 Malappuram; time left 29 min",
-  "try (N) manual=False: പൊലീസ് അധികാരികളേ, ആ സ്ഥലം വിട്ടുനൽകൂ, നഗരസഭ അത് ബ്യൂട്ടി സ്",
+  "write round: 2 news waiting in the queue (written in priority order)",
+  "candidate filter: collected=2",
+  "to write: 0 Manjeri + 0 Kondotty + 2 other district candidates (max 200 + 200 + 200 stories)",
+  "candidates waiting: 0 Manjeri, 0 Kondotty, 2 Malappuram; time left 29 min",
   "try (N) manual=False: ‘കറുപ്പിന് ഭംഗിയില്ലെന്ന് കുഞ്ഞിലേ പഠിപ്പിച്ചത് നിങ്ങളാണ്, വ",
   "try (N) manual=False: ഫേസ്ക്രീം വിപണനം,  വ്യാജന്മാരെ പൂട്ടാൻ\r\nനിയമം മാറ്റും",
   "skip (N) could not open: ഫേസ്ക്രീം വിപണനം,  വ്യാജന്മാരെ പൂട്ടാൻ\r\nനിയമം മാറ് [https://www.keralakaumudi.com/kerala/general/facecream-18294] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/kerala/genera",
   "NOT filed (N) ‘കറുപ്പിന് ഭംഗിയില്ലെന്ന് കുഞ്ഞിലേ പഠിപ്പിച്ചത് നി: all free models failed: no usable answer from the models",
-  "auto images: 1 of 1 stories ({'pollinations': 5})",
-  "posting job started at once",
-  "candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 3, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 24 min",
-  "carousel for 0 of 1 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)",
+  "candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 2, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min",
+  "carousel for 0 of 0 stories, the rest reel only",
+  "filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)",
   "queue: 2 news waiting to be written",
-  "write_stories.yml started",
-  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":3}"
+  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":2}"
  ],
  "llm": [
   "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
   "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
   "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.8-flash",
+  "switching away from gemini/gemini-3.8-flash for 10 min",
   "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
   "dead for this round: gemini/gemini-3.7-flash",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
-  "switching away from gemini/gemini-3.8-flash for 10 min",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
   "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high d",
   "switching away from gemini/gemini-3.6-flash for 10 min",
@@ -44,75 +35,8 @@
   "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
   "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "ok gemini/gemini-3.6-flash (28s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
   "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"",
-  "switching away from mistral/mistral-small-latest for 10 min",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash"
+  "switching away from mistral/mistral-small-latest for 10 min"
  ],
- "stories": [
-  {
-   "malayalam_headline": "കോട്ടപ്പടിയിലെ തൊണ്ടിവാഹനങ്ങൾ മാറ്റണം; സ്ഥലം സൗന്ദര്യവൽക്കരിക്കാൻ മലപ്പുറം നഗരസഭ",
-   "english_headline": "Malappuram Municipality seeks land at Kottappadi police station junction for urban beautification",
-   "category": "Civic Issues",
-   "location": "Kottappadi Police Station junction, Malappuram town, Malappuram district",
-   "importance": "Medium",
-   "scope": "local",
-   "post_to": "Malappuram 360",
-   "slides_spec": {
-    "v": 3,
-    "cat": "സിവിക് വാർത്ത",
-    "loc": "കോട്ടപ്പടി, മലപ്പുറം",
-    "hl1": "കോട്ടപ്പടിയിലെ തൊണ്ടിവാഹനങ്ങൾ മാറ്റണം",
-    "hl2": "സൗന്ദര്യവൽക്കരിക്കാൻ നഗരസഭ",
-    "slides": [
-     {
-      "title": "എവിടെയാണ് സ്ഥലം?",
-      "lines": [
-       "മലപ്പുറം കോട്ടപ്പടി പോലീസ് സ്റ്റേഷൻ ജങ്ഷനിൽ",
-       "<b>5 സെന്റ്</b> ഓളം വരുന്ന സ്ഥലം"
-      ]
-     },
-     {
-      "title": "നിലവിലെ അവസ്ഥ",
-      "lines": [
-       "പോലീസ് പിടികൂടിയ <b>30 ഓളം</b> തൊണ്ടിവാഹനങ്ങൾ തള്ളി",
-       "മിനി ലോറി, ബസ്, ഓട്ടോറിക്ഷ വാഹനങ്ങൾ കാടുകയറി",
-       "സ്ഥലത്ത് മാലിന്യക്കൂമ്പാരം"
-      ]
-     },
-     {
-      "title": "നഗരസഭയുടെ ആവശ്യം",
-      "lines": [
-       "വാഹനങ്ങൾ മാറ്റി സ്ഥലം വിട്ടുനൽകണം",
-       "നഗര സൗന്ദര്യവൽക്കരണ പദ്ധതി നടപ്പാക്കും",
-       "ഭരണസമിതി വീണ്ടും ശ്രമം തുടങ്ങി"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "മലപ്പുറം കോട്ടപ്പടിയിൽ തൊണ്ടിവാഹനങ്ങൾ മാറ്റി സ്ഥലം നൽകാൻ നഗരസഭ. കോട്ടപ്പടി പോലീസ് സ്റ്റേഷൻ ജങ്ഷന് മുൻപിലെ 5 സെന്റ് സ്ഥലമാണ് നഗരസഭ ആവശ്യപ്പെടുന്നത്. പോലീസ് പിടിച്ചെടുത്ത മിനി ലോറി, ബസ്, ഓട്ടോറിക്ഷ അടക്കം 30ഓളം വാഹനങ്ങൾ ഇവിടെ കൂട്ടിയിട്ടിരിക്കുകയാണ്. കാടുപിടിച്ചുകിടക്കുന്ന ഈ സ്ഥലത്ത് ഇപ്പോൾ മാലിന്യക്കൂമ്പാരമാണ്. നഗര സൗന്ദര്യവൽക്കരണത്തിനായി ഈ സ്ഥലം വിട്ടുനൽകാൻ ഭരണസമിതി വീണ്ടും പോലീസ് അധികാരികളോട് ആവശ്യപ്പെട്ടു. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
-   "caption": "🏙️ മലപ്പുറം കോട്ടപ്പടി ജങ്ഷനിലെ തൊണ്ടിവാഹനങ്ങൾ മാറ്റണം; സ്ഥലം ബ്യൂട്ടി സ്പോട്ടാക്കാൻ നഗരസഭ\n\n📰 പൂർണ വിവരം:\nമലപ്പുറം കോട്ടപ്പടി പോലീസ് സ്റ്റേഷൻ ജങ്ഷനു മുൻപിൽ കൂട്ടിയിട്ടിരിക്കുന്ന തൊണ്ടിവാഹനങ്ങൾ നീക്കം ചെയ്ത് സ്ഥലം വിട്ടുനൽകണമെന്ന് നഗരസഭ ആവശ്യപ്പെട്ടു. വിവിധ കേസുകളിൽ പോലീസ് പിടികൂടിയ മിനി ലോറി, ബസ്, ഓട്ടോറിക്ഷ തുടങ്ങി മുപ്പതോളം വാഹനങ്ങളാണ് അഞ്ച് സെന്റോളം വരുന്ന സ്ഥലത്ത് തള്ളിയിട്ടിരിക്കുന്നത്. നിലവിൽ കാടുപിടിച്ച് മാലിന്യക്കൂമ്പാരമായി കിടക്കുന്ന ഈ സ്ഥലം നഗര സൗന്ദര്യവൽക്കരണ പദ്ധതിയുടെ ഭാഗമായി ബ്യൂട്ടി സ്പോട്ടാക്കാനാണ് നഗരസഭ ലക്ഷ്യമിടുന്നത്. മുൻ ഭരണസമിതികളും സ്ഥലം ആവശ്യപ്പെട്ടിരുന്നെങ്കിലും കൈമാറ്റം നടന്നിരുന്നില്ല. പുതിയ ഭരണസമിതി ജങ്ഷൻ വിട്ടുകിട്ടാനുള്ള ശ്രമങ്ങൾ വീണ്ടും ആരംഭിച്ചിട്ടുണ്ട്.\n\n📍 സ്ഥലം: കോട്ടപ്പടി പോലീസ് സ്റ്റേഷൻ ജങ്ഷൻ, മലപ്പുറം\nℹ️ വിഷയം: 5 സെന്റ് സ്ഥലത്തെ തൊണ്ടിവാഹനങ്ങൾ നീക്കി സൗന്ദര്യവൽക്കരിക്കാൻ നഗരസഭ\n\nആവശ്യമുള്ളവർക്ക് Share ചെയ്യൂ\n\nMalappuram Kottappadi police station junction beautification request by Municipality | Malappuram news\n📍 കോട്ടപ്പടി, മലപ്പുറം | 24 നവംബർ 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Kottappadi #MalappuramNews #CivicIssues",
-   "prompts": "A wide daytime shot of Kottappadi police station junction in Malappuram town, Kerala, showing several rusty seized vehicles including a mini lorry and autorickshaws parked on a small land plot by the roadside. Neutral bright daylight mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nClose-up view of rusted impounded buses and mini trucks overgrown with wild bushes and climbing plants on a five-cent plot in Malappuram town. Neutral bright daylight mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nStreet-level view of the busy junction near Kottappadi police station in Malappuram, with moving local traffic and a roadside area cluttered with old vehicles. Neutral bright daylight mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA clean Kerala town roadside junction with neat pavement and green landscaping elements, representing urban beautification. Neutral bright daylight mood across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.manoramaonline.com/district-news/malappuram/2026/11/24/malappuram-municipality-beautification-project.html",
-   "published": "2026-11-24T14:15:17+05:30",
-   "verification": "FREE-MODEL DRAFT (gemini/gemini-3.6-flash) - not checked by Claude yet; validator problems: reel_script has 51 words; need 52-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block); numbers not found in the article: 30",
-   "note": "free-model draft gemini/gemini-3.6-flash, 1 attempt(s), 2 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "N",
-   "_score": 10.0,
-   "images": [
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795524931/news360/km8gbpjyf2gxvkygqsoo.jpg",
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795524978/news360/aglg0hkmxhpkbqxxwexz.jpg",
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795525073/news360/wrcctxe0cfeeucrm66e0.jpg",
-    "https://res.cloudinary.com/v0qacyr7/image/upload/v1795525122/news360/xqthvuecx8bxtyaxnsmr.jpg"
-   ]
-  }
- ]
+ "stories": []
 }
