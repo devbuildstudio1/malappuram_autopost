@@ -2,37 +2,37 @@ writing [N]: അധിനിവേശപൂർവകാലത്തെ മുള
 writing [N]: വളവന്നൂരപ്പൻ മഹാദേവക്ഷേത്രത്തിൽ തിരു ആറാട്ട് മഹോത്സവത്തിന് ക
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 writing [N]: രണ്ട് കോടി ലഭിച്ചത് 
 നിക്ഷേപമായി: യു. ഷറഫലി
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
+dead for this round: gemini/gemini-3.7-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
+dead for this round: gemini/gemini-3.7-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
+dead for this round: gemini/gemini-3.6-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -45,11 +45,8 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 dead for this round: groq/openai/gpt-oss-120b
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
+dead for this round: groq/openai/gpt-oss-120b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
 dead for this round: groq/openai/gpt-oss-120b
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
@@ -73,39 +70,34 @@ fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMeK6kyMCUmZABYodNVC"}
-writing [N]: ഫൈസ, എഫ് ട്യൂൺ, ഗോറി..ഒരേ ക്രീം, പല പേര്; എല്ലാം ഒന്നുതന്നെയ
-free models unavailable: free models not efficient (23 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMgaUsei15xEcNn8t2y5"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMeKDQaBFUBMQ9oXby18"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMeKDkusfL8mjkTfn7L1"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMeKDqsQHYcpuyjDozdZ"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMgabjtuTkzmYt8jK2Dt"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMgabpNETkcTu8TpZEEa"}
 earlier stories still waiting for images: []
 instagram check: 90 recent posts read from all pages
 write round: 5 news waiting in the queue (written in priority order)
-candidate filter: collected=5
-to write: 0 Manjeri + 0 Kondotty + 5 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Kondotty, 5 Malappuram; time left 29 min
+candidate filter: collected=4, checked earlier=1
+to write: 0 Manjeri + 0 Kondotty + 4 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 0 Manjeri, 0 Kondotty, 4 Malappuram; time left 29 min
 try (N) manual=False: രണ്ട് കോടി ലഭിച്ചത് 
 നിക്ഷേപമായി: യു. ഷറഫലി
 try (N) manual=False: വളവന്നൂരപ്പൻ മഹാദേവക്ഷേത്രത്തിൽ തിരു ആറാട്ട് മഹോത്സവത്തിന് ക
 try (N) manual=False: അധിനിവേശപൂർവകാലത്തെ മുളയെഴുത്തുകൾ കണ്ടെത്തി
 NOT filed (N) അധിനിവേശപൂർവകാലത്തെ മുളയെഴുത്തുകൾ കണ്ടെത്തി: all free models failed: no usable answer from the models
-try (N) manual=False: ഫൈസ, എഫ് ട്യൂൺ, ഗോറി..ഒരേ ക്രീം, പല പേര്; എല്ലാം ഒന്നുതന്നെയ
-NOT filed (N) ഫൈസ, എഫ് ട്യൂൺ, ഗോറി..ഒരേ ക്രീം, പല പേര്; എല്ലാം ഒ: all free models failed: no usable answer from the models
 try (N) manual=False: സെമി ലക്ഷ്യമിട്ട് വാരിയേഴ്സ്
-NOT filed (N) വളവന്നൂരപ്പൻ മഹാദേവക്ഷേത്രത്തിൽ തിരു ആറാട്ട് മഹോത്: all free models failed: no usable answer from the models
+skip (N) could not open: സെമി ലക്ഷ്യമിട്ട് വാരിയേഴ്സ് [https://www.mangalam.com/news/detail/883213-sports-news-news] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/883213
 NOT filed (N) രണ്ട് കോടി ലഭിച്ചത് 
 നിക്ഷേപമായി: യു. ഷറഫലി: all free models failed: no usable answer from the models
-skip (N) could not open: സെമി ലക്ഷ്യമിട്ട് വാരിയേഴ്സ് [https://www.mangalam.com/news/detail/883213-sports-news-news] 403 Client Error: Forbidden for url: https://www.mangalam.com/news/detail/883213
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 5, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+NOT filed (N) വളവന്നൂരപ്പൻ മഹാദേവക്ഷേത്രത്തിൽ തിരു ആറാട്ട് മഹോത്: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 4, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 5 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":5} 
+queue: 4 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":4} 
 stories: 0
