@@ -1,59 +1,178 @@
-writing [N]: ‘കർമ റോഡ്’ തിരികെ വരുമോ
+writing [N]: ബാങ്ക് അക്കൗണ്ടുകൾ വാടകയ്ക്ക് നൽകി തട്ടിപ്പ്: 18കാരൻ പിടിയിൽ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3.8-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+writing [N]: ചീക്കോട് കടുക്കംകുഴി മലയിൽ വൻ തീപിടിത്തം
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [R]: വണ്ടൂർ ബൈപ്പാസ് പദ്ധതി: ടോപ്പോഗ്രാഫിക് സർവേയ്ക്ക് തുടക്കം | 
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-ok gemini/gemini-3.6-flash (27s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok gemini/gemini-3.6-flash (17s)
-factcheck by gemini/gemini-3.6-flash: 0 problems
-attempt 1 gemini/gemini-3.6-flash: 0 problems
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+switching away from gemini/gemini-3.7-flash for 10 min
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+switching away from gemini/gemini-3.8-flash for 10 min
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-dead for this round: groq/openai/gpt-oss-120b
-ok groq/qwen/qwen3.8-27b (4s)
-proofread rejected (3 problems)
-  reel_script must have no English letters (write English words and abbreviations in Malayalam script)
-  reel_script has 51 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  known issue english_in_voice: voice script has English words the voice skips (MLA) - rewrite so it does not happen again
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMQ1Gicu7dp612x2unes"}
+writing [N]: പൊലീസ് സ്റ്റേഷൻ മതിൽ ചാടി, പെട്രോൾ ഊറ്റി, ബൈക്കുകൾക്ക് തീയിട
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMQ1JjfV38pnmRie7153"}
+writing [N]: സാറ വധത്തിന് 23 വർഷം; ജാമ്യത്തിലിറങ്ങി മുങ്ങിയ പ്രതി ഒളിവിൽ 
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMQ1RftBYciS7yZi41vM"}
+writing [N]: വിനോദയാത്രാ സംഘത്തിലെ 63 പേർക്ക് ഭക്ഷ്യവിഷബാധ
+free models unavailable: free models not efficient (13 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMQ1VquNb5hy3TAPANgu"}
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMQ1XZ6YLNQE9vJ7rvpj"}
+writing [N]: വളവന്നൂരപ്പൻ മഹാദേവക്ഷേത്രത്തിൽ തിരു ആറാട്ട് മഹോത്സവത്തിന് ക
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMQ1rYbwb8ditG2hEoX1"}
+writing [N]: 'ഇവിഎം തിരിമറി വാഗ്ദാനവുമായി എത്തിയ ഏജൻസിയെ ലീഗിലായിരുന്നപ്പ
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+writing [N]: അധിനിവേശപൂർവകാലത്തെ മുളയെഴുത്തുകൾ കണ്ടെത്തി
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMQ1sKjcUwZ2jqqgFiDk"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMQ1shopd99DuigpiF93"}
+writing [N]: സെമി ലക്ഷ്യമിട്ട് വാരിയേഴ്സ്
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMQ1wjtZFVtrCpWqvExG"}
+ok gemini/gemini-3.6-flash (32s)
+attempt 1 gemini/gemini-3.6-flash: 2 problems
+  numbers not found in the article: 7
+  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 5,000 ('പമ്പ മലിനമാക്കുന്നവർക്ക് 5,000 രൂപ പിഴ; ഉത്തരവ് ശരിവച്ച് ഹൈക')
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-ok groq/qwen/qwen3.8-27b (4s)
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMQ2HRaHcquP63L8c7Jw"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok groq/openai/gpt-oss-120b (6s)
+proofread rejected (3 problems)
+  missing key: reel_script
+  missing key: caption
+  missing key: scenes
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+ok groq/openai/gpt-oss-120b (3s)
 imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-image match: False The photo depicts a group of people inside a vintage office or classroom setting with Japanese-style interior architectu
-imagegen: pollinations 402: {"status":402,"success":false,"error":{"code":"FREE_LIMIT","message":"Free limit reached: 1 image every 45 seconds per IP. Retry after 32s, or get unlimited images with a pollen key at https://enter.p
-imagegen: black-forest-labs/flux.1-schnell 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":415885}]}
-imagegen: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":415885}]}
-images NOT made for 'Demand to rename Nilayora Patha in Ponna': all image models failed: all image models failed: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":415885}]}
-bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261124-1135","first":"MP-436"}
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+imagegen: pollinations 402: {"status":402,"success":false,"error":{"code":"FREE_LIMIT","message":"Free limit reached: 1 image every 45 seconds per IP. Retry after 45s, or get unlimited images with a pollen key at https://enter.p
+imagegen: black-forest-labs/flux.1-schnell 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":50845}]}
+image match: False The image shows a dark, desolate hillside or muddy ground without any visible flames, active massive fire, or smoke from
+imagegen: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":50845}]}
+image match check unavailable: gemini-3.5-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout
+images NOT made for 'Massive fire breaks out on Kadukkamkuzhi': all image models failed: all image models failed: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":50845}]}
+bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261124-1333","first":"MP-437"}
 posting job started at once
+write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 89 recent posts read from all pages
-write round: 1 news waiting in the queue (written in priority order)
-candidate filter: collected=1
-to write: 0 Manjeri + 0 Kondotty + 1 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Kondotty, 1 Malappuram; time left 29 min
-try (N) manual=False: ‘കർമ റോഡ്’ തിരികെ വരുമോ
-auto images failed for 'Demand to rename Nilayora Patha in Ponna': all image models failed: all image models failed: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden" -> images-needed email
-auto images: 0 of 1 stories ({'pollinations': 1})
+write round: 29 news waiting in the queue (written in priority order)
+candidate filter: collected=27, not written=1, not written=1
+to write: 1 Manjeri + 0 Kondotty + 26 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 1 Manjeri, 0 Kondotty, 26 Malappuram; time left 29 min
+try (N) manual=False: ചീക്കോട് കടുക്കംകുഴി മലയിൽ വൻ തീപിടിത്തം
+try (N) manual=False: ബാങ്ക് അക്കൗണ്ടുകൾ വാടകയ്ക്ക് നൽകി തട്ടിപ്പ്: 18കാരൻ പിടിയിൽ
+try (N) manual=False: സ്വർണവില വീണ്ടും കുതിക്കുന്നു; പവന് ഒറ്റയടിക്ക് 920 രൂപ വർധി
+skip (N) today's price is already filed: സ്വർണവില വീണ്ടും കുതിക്കുന്നു; പവന് ഒറ്റയടിക്ക് 92
+try (R) manual=False: വണ്ടൂർ ബൈപ്പാസ് പദ്ധതി: ടോപ്പോഗ്രാഫിക് സർവേയ്ക്ക് തുടക്കം | 
+NOT filed (N) ബാങ്ക് അക്കൗണ്ടുകൾ വാടകയ്ക്ക് നൽകി തട്ടിപ്പ്: 18കാ: all free models failed: no usable answer from the models
+try (N) manual=False: പൊലീസ് സ്റ്റേഷൻ മതിൽ ചാടി, പെട്രോൾ ഊറ്റി, ബൈക്കുകൾക്ക് തീയിട
+NOT filed (N) പൊലീസ് സ്റ്റേഷൻ മതിൽ ചാടി, പെട്രോൾ ഊറ്റി, ബൈക്കുകൾ: all free models failed: no usable answer from the models
+try (N) manual=False: അന്താരാഷ്ട്ര എംഡിഎംഎ കടത്ത് കേസ്; നൈജീരിയൻ പൗരനു പിന്നാലെ പു
+skip (N) similar to a filed story: അന്താരാഷ്ട്ര എംഡിഎംഎ കടത്ത് കേസ്; നൈജീരിയൻ പൗരനു പ
+try (N) manual=False: സാറ വധത്തിന് 23 വർഷം; ജാമ്യത്തിലിറങ്ങി മുങ്ങിയ പ്രതി ഒളിവിൽ 
+NOT filed (N) സാറ വധത്തിന് 23 വർഷം; ജാമ്യത്തിലിറങ്ങി മുങ്ങിയ പ്ര: all free models failed: no usable answer from the models
+try (N) manual=False: വിനോദയാത്രാ സംഘത്തിലെ 63 പേർക്ക് ഭക്ഷ്യവിഷബാധ
+NOT filed (N) വിനോദയാത്രാ സംഘത്തിലെ 63 പേർക്ക് ഭക്ഷ്യവിഷബാധ: all free models failed: no usable answer from the models
+try (N) manual=False: Kerala Gold Rate: വീണ്ടും തീപിടിച്ച് സ്വർണവില; രണ്ടു ദിവസത്ത
+skip (N) today's price is already filed: Kerala Gold Rate: വീണ്ടും തീപിടിച്ച് സ്വർണവില; രണ്
+try (N) manual=False: സംസ്ഥാനത്ത് സ്വർണവിലയിൽ വൻ കുതിപ്പ്: പവന് ഇന്ന് ഒറ്റയടിക്ക് 
+NOT filed (R) വണ്ടൂർ ബൈപ്പാസ് പദ്ധതി: ടോപ്പോഗ്രാഫിക് സർവേയ്ക്ക് : all free models failed: no usable answer from the models
+try (N) manual=False: സ്വർണവില ഇന്ന് (24 നവംബർ 2026): പവന് ₹920 കൂടി; ഒരു പവന് ₹93
+skip (N) today's price is already filed: സംസ്ഥാനത്ത് സ്വർണവിലയിൽ വൻ കുതിപ്പ്: പവന് ഇന്ന് ഒറ
+try (N) manual=False: സ്വർണവില മുകളിലോട്ട് തന്നെ; അറിയാം ഇന്നത്തെ നിരക്ക്
+skip (N) today's price is already filed: സ്വർണവില ഇന്ന് (24 നവംബർ 2026): പവന് ₹920 കൂടി; ഒര
+try (N) manual=False: താഴ്ന്ന നിരക്കിൽ നിന്ന് കുതിച്ചുയർന്ന് സ്വർണവില; പവൻ വീണ്ടും
+skip (N) similar to a filed story: സ്വർണവില മുകളിലോട്ട് തന്നെ; അറിയാം ഇന്നത്തെ നിരക്ക
+try (N) manual=False: സ്വർണവില ഇന്നും കുതിച്ചു; സ്വർണം വീണ്ടും തിളങ്ങാൻ തുടങ്ങി, ഇ
+skip (N) today's price is already filed: സ്വർണവില ഇന്നും കുതിച്ചു; സ്വർണം വീണ്ടും തിളങ്ങാൻ 
+try (N) manual=False: സ്വർണമോഹങ്ങൾക്ക് തിരിച്ചടി, പൊന്ന് കുതിക്കുന്നു; നവംബർ 24-ലെ
+skip (N) today's price is already filed: സ്വർണമോഹങ്ങൾക്ക് തിരിച്ചടി, പൊന്ന് കുതിക്കുന്നു; ന
+try (N) manual=False: സ്വർണ വില തുടർച്ചയായ രണ്ടാം ദിവസവും ഉയർന്നു; കേരളത്തിൽ ഇന്ന്
+skip (N) today's price is already filed: സ്വർണ വില തുടർച്ചയായ രണ്ടാം ദിവസവും ഉയർന്നു; കേരളത
+try (N) manual=False: ഇന്നും കുതിച്ചുകയറി സ്വർണവില; അമേരിക്കയിലെ ആ റിപ്പോർട്ട് വന്
+skip (N) today's price is already filed: ഇന്നും കുതിച്ചുകയറി സ്വർണവില; അമേരിക്കയിലെ ആ റിപ്പ
+try (N) manual=False: സംസ്ഥാനത്ത് സ്വർണവില തുടർച്ചയായ രണ്ടാം ദിവസവും ഉയർന്നു; പവന്
+skip (N) today's price is already filed: താഴ്ന്ന നിരക്കിൽ നിന്ന് കുതിച്ചുയർന്ന് സ്വർണവില; പ
+try (N) manual=False: തുടർച്ചയായ ഇടിവിന് ശേഷം സ്വർണവിലയിൽ നേരിയ വർധന ; പവന് 92,800
+skip (N) today's price is already filed: സംസ്ഥാനത്ത് സ്വർണവില തുടർച്ചയായ രണ്ടാം ദിവസവും ഉയർ
+try (N) manual=False: സ്വർണവില 90000ത്തിനും താഴേക്ക്? 'രാജ്യാന്തര വിപണിയിൽ ഔൺസ് വി
+skip (N) today's price is already filed: സ്വർണവില 90000ത്തിനും താഴേക്ക്? 'രാജ്യാന്തര വിപണിയ
+try (N) manual=False: രണ്ടാം ദിവസവും കുതിച്ച് സ്വർണവില, നിർണായക പ്രവചനം പുറത്ത്; മ
+skip (N) today's price is already filed: തുടർച്ചയായ ഇടിവിന് ശേഷം സ്വർണവിലയിൽ നേരിയ വർധന ; പ
+try (N) manual=False: വെപ്രാളം കാണിക്കല്ലേ...സ്വർണവില വീണ്ടും മാറിമറിയും; ഈ മൂന്ന്
+skip (N) today's price is already filed: വെപ്രാളം കാണിക്കല്ലേ...സ്വർണവില വീണ്ടും മാറിമറിയും
+try (N) manual=False: വളവന്നൂരപ്പൻ മഹാദേവക്ഷേത്രത്തിൽ തിരു ആറാട്ട് മഹോത്സവത്തിന് ക
+skip (N) today's price is already filed: രണ്ടാം ദിവസവും കുതിച്ച് സ്വർണവില, നിർണായക പ്രവചനം 
+try (N) manual=False: പൊലീസ് കേസെടുത്തിട്ടും വിവാദ ഫെയർനെസ് ക്രീം എഫ്ട്യൂൺ ഓൺലൈനിൽ
+skip (N) similar to a filed story: പൊലീസ് കേസെടുത്തിട്ടും വിവാദ ഫെയർനെസ് ക്രീം എഫ്ട്യ
+try (N) manual=False: 'ഇവിഎം തിരിമറി വാഗ്ദാനവുമായി എത്തിയ ഏജൻസിയെ ലീഗിലായിരുന്നപ്പ
+NOT filed (N) വളവന്നൂരപ്പൻ മഹാദേവക്ഷേത്രത്തിൽ തിരു ആറാട്ട് മഹോത്: all free models failed: no usable answer from the models
+try (N) manual=False: അധിനിവേശപൂർവകാലത്തെ മുളയെഴുത്തുകൾ കണ്ടെത്തി
+NOT filed (N) 'ഇവിഎം തിരിമറി വാഗ്ദാനവുമായി എത്തിയ ഏജൻസിയെ ലീഗിലാ: all free models failed: no usable answer from the models
+try (N) manual=False: സെമി ലക്ഷ്യമിട്ട് വാരിയേഴ്സ്
+NOT filed (N) അധിനിവേശപൂർവകാലത്തെ മുളയെഴുത്തുകൾ കണ്ടെത്തി: all free models failed: no usable answer from the models
+NOT filed (N) സെമി ലക്ഷ്യമിട്ട് വാരിയേഴ്സ്: all free models failed: no usable answer from the models
+auto images failed for 'Massive fire breaks out on Kadukkamkuzhi': all image models failed: all image models failed: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden" -> images-needed email
+auto images: 0 of 1 stories ({'pollinations': 3})
 posting job started at once
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 1, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 25 min
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 26, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 23 min
 carousel for 0 of 1 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)
-queue: 0 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":1} 
+queue: 9 news waiting to be written
+write_stories.yml started
+All News sheet: {"ok":true,"added":0,"updated":12} 
 stories: 1
