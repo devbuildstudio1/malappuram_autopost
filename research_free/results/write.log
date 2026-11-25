@@ -1,14 +1,19 @@
 writing [N]: യൂത്ത്ലീഗിൽ സമവായ നീക്കം; മുഈനലി തങ്ങൾ സംസ്ഥാന പ്രസിഡന്റ് സ്
+writing [N]: പത്തുവയസ്സുകാരനെ തട്ടിക്കൊണ്ടുപോയി ലൈംഗികമായി പീഡിപ്പിച്ച കേ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-writing [N]: അതിർത്തി കടന്ന് ചൈനീസ് സൗന്ദര്യവർധക ഉൽപ്പന്നങ്ങൾ; ടി.വൈ.എ ഫാgroq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -29,36 +34,41 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 writing [N]: പള്ളി ഇമാമിന്റെ മുറിയിൽ നിന്ന് 1.70 ലക്ഷം രൂപ മോഷ്ടിച്ച കേസ്
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPEsKACrp12ygrew91p3"}
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPHvYCxHmY4oTtF97ubV"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+writing [N]: Malappuram Obituary | മലപ്പുറം ചരമ വാർത്ത | Kerala Kaumudi
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPHvhkBbFr9o4Gr7sADK"}
+writing [N]: അതിർത്തി കടന്ന് ചൈനീസ് സൗന്ദര്യവർധക ഉൽപ്പന്നങ്ങൾ; ടി.വൈ.എ ഫാ
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPHvirAKxjTDNkv9eCGg"}
 writing [N]: ക്രൈം ബ്രാഞ്ച് മലപ്പുറം യൂണിറ്റിന് ഇനി പുതിയ ഓഫീസ്
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPEsKss4vuFiVHUcFdVM"}
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-writing [N]: പത്തുവയസ്സുകാരനെ തട്ടിക്കൊണ്ടുപോയി ലൈംഗികമായി പീഡിപ്പിച്ച കേ
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPEsM1LHx1esBNoykEpQ"}
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPHvjcoK6nTEjq6iTRjf"}
 writing [N]: Out Of Focus
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPEsRZgHNdedeHADVdfV"}
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPEtToPZHFdPD8GEJdB6"}
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPHvpU1BnXuihw8X5Jun"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPEta8PWdiZL4qSbrvPM"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPHwd3StZEAw1Uvc8txT"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPHwjuSPb5TU3P1UgjmQ"}
 earlier stories still waiting for images: []
 instagram check: 90 recent posts read from all pages
 write round: 7 news waiting in the queue (written in priority order)
@@ -66,19 +76,19 @@ candidate filter: collected=7
 to write: 0 Manjeri + 0 Kondotty + 7 other district candidates (max 200 + 200 + 200 stories)
 candidates waiting: 0 Manjeri, 0 Kondotty, 7 Malappuram; time left 29 min
 try (N) manual=False: പള്ളി ഇമാമിന്റെ മുറിയിൽ നിന്ന് 1.70 ലക്ഷം രൂപ മോഷ്ടിച്ച കേസ്
+try (N) manual=False: പത്തുവയസ്സുകാരനെ തട്ടിക്കൊണ്ടുപോയി ലൈംഗികമായി പീഡിപ്പിച്ച കേ
 try (N) manual=False: യൂത്ത്ലീഗിൽ സമവായ നീക്കം; മുഈനലി തങ്ങൾ സംസ്ഥാന പ്രസിഡന്റ് സ്
-try (N) manual=False: Malappuram Obituary | മലപ്പുറം ചരമ വാർത്ത | Kerala Kaumudi
-skip (N) could not open: Malappuram Obituary | മലപ്പുറം ചരമ വാർത്ത | Kerala [https://www.keralakaumudi.com/news/sub-section.php?cid=10&si] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/news/sub-sect
-try (N) manual=False: അതിർത്തി കടന്ന് ചൈനീസ് സൗന്ദര്യവർധക ഉൽപ്പന്നങ്ങൾ; ടി.വൈ.എ ഫാ
 NOT filed (N) പള്ളി ഇമാമിന്റെ മുറിയിൽ നിന്ന് 1.70 ലക്ഷം രൂപ മോഷ്: all free models failed: no usable answer from the models
+try (N) manual=False: Malappuram Obituary | മലപ്പുറം ചരമ വാർത്ത | Kerala Kaumudi
+NOT filed (N) Malappuram Obituary | മലപ്പുറം ചരമ വാർത്ത | Kerala: all free models failed: no usable answer from the models
+try (N) manual=False: അതിർത്തി കടന്ന് ചൈനീസ് സൗന്ദര്യവർധക ഉൽപ്പന്നങ്ങൾ; ടി.വൈ.എ ഫാ
+NOT filed (N) അതിർത്തി കടന്ന് ചൈനീസ് സൗന്ദര്യവർധക ഉൽപ്പന്നങ്ങൾ; : all free models failed: no usable answer from the models
 try (N) manual=False: ക്രൈം ബ്രാഞ്ച് മലപ്പുറം യൂണിറ്റിന് ഇനി പുതിയ ഓഫീസ്
 NOT filed (N) ക്രൈം ബ്രാഞ്ച് മലപ്പുറം യൂണിറ്റിന് ഇനി പുതിയ ഓഫീസ്: all free models failed: no usable answer from the models
-try (N) manual=False: പത്തുവയസ്സുകാരനെ തട്ടിക്കൊണ്ടുപോയി ലൈംഗികമായി പീഡിപ്പിച്ച കേ
-NOT filed (N) പത്തുവയസ്സുകാരനെ തട്ടിക്കൊണ്ടുപോയി ലൈംഗികമായി പീഡി: all free models failed: no usable answer from the models
 try (N) manual=False: Out Of Focus
 NOT filed (N) Out Of Focus: all free models failed: no usable answer from the models
 NOT filed (N) യൂത്ത്ലീഗിൽ സമവായ നീക്കം; മുഈനലി തങ്ങൾ സംസ്ഥാന പ്ര: all free models failed: no usable answer from the models
-NOT filed (N) അതിർത്തി കടന്ന് ചൈനീസ് സൗന്ദര്യവർധക ഉൽപ്പന്നങ്ങൾ; : all free models failed: no usable answer from the models
+NOT filed (N) പത്തുവയസ്സുകാരനെ തട്ടിക്കൊണ്ടുപോയി ലൈംഗികമായി പീഡി: all free models failed: no usable answer from the models
 candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 7, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
