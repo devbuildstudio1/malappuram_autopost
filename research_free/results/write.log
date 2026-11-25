@@ -3,12 +3,17 @@ gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 writing [N]: സമരം അവസാനിപ്പിക്കാമെന്ന് വളർമതി പറഞ്ഞതിൽ ദുരൂഹതയെന്ന് അതേ റ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -37,31 +42,36 @@ fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/ll
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
 poor answer - skipped for 30 min: mistral/mistral-small-latest
 free models unavailable: no free model answered: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-free models unavailable: no free model answered: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiE
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPxoFduQPpz5uujEz5sL"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPxoG6gK4Ly7BGy1XYR9"}
-writing [N]: എഫ് ടൂണിന് പിന്നാലെ ഫൈസ, ഫെയ്സ് ക്രീം ഉപയോഗിച്ച് വൃക്കരോഗം ബ
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPxoJDSNnC8epBjpYq4H"}
-writing [N]: വീണു കിട്ടിയ തുക ഉടമക്ക് തിരിച്ചു നൽകി ശ്രീകുമാരൻ
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-writing [N]: രാജസ്ഥാനിൽ നിന്ന് കന്നുകാലി ലോറിയിൽ കടത്തി; ലക്ഷ്യം ക്രിസ്തു
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPxoKw7XQheURQnzLb73"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPxoLCzfYpf8hs56nvch"}
-writing [N]: ‘ഞാനും ഉപയോഗിച്ചിട്ടുണ്ട്; കാരണം നിങ്ങളാണ്! ഇനി കുരുമുളക് മാ
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPxoPtErRexWT63JAWvs"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ1stDnbY5U6ciDeKEMY"}
+writing [N]: ‘കണ്ണിലെ നീരും ഉറക്കമില്ലായ്മയും മൂത്രംവഴി പ്രോട്ടീൻ നഷ്ടവു
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ1svQWLdHJufzRAhiDV"}
 writing [N]: കൊണ്ടോട്ടിയിൽ മതിൽ നിർമാണത്തിനിടെ പുരാതന കളിമൺ രൂപങ്ങൾ കണ്ടെ
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPxouagZ4JCCuKTsPquk"}
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ1swB92kBxEBW6CUAB9"}
+writing [N]: എഫ് ടൂണിന് പിന്നാലെ ഫൈസ, ഫെയ്സ് ക്രീം ഉപയോഗിച്ച് വൃക്കരോഗം ബ
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ1sxHcX7aP4ji9hcTZH"}
+writing [N]: വീണു കിട്ടിയ തുക ഉടമക്ക് തിരിച്ചു നൽകി ശ്രീകുമാരൻ
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ1syG9jnWejbXchmNWo"}
+writing [N]: രാജസ്ഥാനിൽ നിന്ന് കന്നുകാലി ലോറിയിൽ കടത്തി; ലക്ഷ്യം ക്രിസ്തു
+free models unavailable: free models not efficient (15 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ1syuqjD9cNEvKhvDXH"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
+poor answer - skipped for 30 min: mistral/mistral-small-latest
+free models unavailable: no free model answered: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ1t1KAixSohNy3WR3uS"}
+writing [N]: ‘ഞാനും ഉപയോഗിച്ചിട്ടുണ്ട്; കാരണം നിങ്ങളാണ്! ഇനി കുരുമുളക് മാ
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ1t36qHrQTxuq5UhgxU"}
 earlier stories still waiting for images: []
 instagram check: 90 recent posts read from all pages
 write round: 8 news waiting in the queue (written in priority order)
@@ -73,17 +83,17 @@ try (N) manual=False: കാർത്തികദീപങ്ങൾ തെളി
 try (N) manual=False: കൊണ്ടോട്ടിയിൽ മതിൽ നിർമാണത്തിനിടെ പുരാതന കളിമൺ രൂപങ്ങൾ കണ്ടെ
 NOT filed (N) കാർത്തികദീപങ്ങൾ തെളിഞ്ഞു;കാടാമ്പുഴ ഭഗവതിക്ക് പിറന്: all free models failed: no usable answer from the models
 try (N) manual=False: ‘കണ്ണിലെ നീരും ഉറക്കമില്ലായ്മയും മൂത്രംവഴി പ്രോട്ടീൻ നഷ്ടവു
-NOT filed (N) സമരം അവസാനിപ്പിക്കാമെന്ന് വളർമതി പറഞ്ഞതിൽ ദുരൂഹതയെ: all free models failed: no usable answer from the models
-try (N) manual=False: രാജസ്ഥാനിൽ നിന്ന് കന്നുകാലി ലോറിയിൽ കടത്തി; ലക്ഷ്യം ക്രിസ്തു
-skip (N) could not open: ‘കണ്ണിലെ നീരും ഉറക്കമില്ലായ്മയും മൂത്രംവഴി പ്രോട് [https://www.twentyfournews.com/2026/11/25/salim-kodathoor-an] 403 Client Error: Forbidden for url: https://www.twentyfournews.com/2026/11/25/s
+NOT filed (N) ‘കണ്ണിലെ നീരും ഉറക്കമില്ലായ്മയും മൂത്രംവഴി പ്രോട്: all free models failed: no usable answer from the models
 try (N) manual=False: എഫ് ടൂണിന് പിന്നാലെ ഫൈസ, ഫെയ്സ് ക്രീം ഉപയോഗിച്ച് വൃക്കരോഗം ബ
+NOT filed (N) കൊണ്ടോട്ടിയിൽ മതിൽ നിർമാണത്തിനിടെ പുരാതന കളിമൺ രൂപ: all free models failed: no usable answer from the models
+try (N) manual=False: രാജസ്ഥാനിൽ നിന്ന് കന്നുകാലി ലോറിയിൽ കടത്തി; ലക്ഷ്യം ക്രിസ്തു
 NOT filed (N) എഫ് ടൂണിന് പിന്നാലെ ഫൈസ, ഫെയ്സ് ക്രീം ഉപയോഗിച്ച് വ: all free models failed: no usable answer from the models
 try (N) manual=False: വീണു കിട്ടിയ തുക ഉടമക്ക് തിരിച്ചു നൽകി ശ്രീകുമാരൻ
 NOT filed (N) വീണു കിട്ടിയ തുക ഉടമക്ക് തിരിച്ചു നൽകി ശ്രീകുമാരൻ: all free models failed: no usable answer from the models
 try (N) manual=False: ‘ഞാനും ഉപയോഗിച്ചിട്ടുണ്ട്; കാരണം നിങ്ങളാണ്! ഇനി കുരുമുളക് മാ
 NOT filed (N) രാജസ്ഥാനിൽ നിന്ന് കന്നുകാലി ലോറിയിൽ കടത്തി; ലക്ഷ്യ: all free models failed: no usable answer from the models
+NOT filed (N) സമരം അവസാനിപ്പിക്കാമെന്ന് വളർമതി പറഞ്ഞതിൽ ദുരൂഹതയെ: all free models failed: no usable answer from the models
 NOT filed (N) ‘ഞാനും ഉപയോഗിച്ചിട്ടുണ്ട്; കാരണം നിങ്ങളാണ്! ഇനി കു: all free models failed: no usable answer from the models
-NOT filed (N) കൊണ്ടോട്ടിയിൽ മതിൽ നിർമാണത്തിനിടെ പുരാതന കളിമൺ രൂപ: all free models failed: no usable answer from the models
 candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 8, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
