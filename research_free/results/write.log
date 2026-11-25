@@ -1,73 +1,109 @@
 writing [N]: സമരം അവസാനിപ്പിക്കാമെന്ന് വളർമതി പറഞ്ഞതിൽ ദുരൂഹതയെന്ന് അതേ റ
+writing [N]: കാർത്തികദീപങ്ങൾ തെളിഞ്ഞു;കാടാമ്പുഴ ഭഗവതിക്ക് പിറന്നാളൂട്ട് |
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7bwriting [N]: കാർത്തികദീപങ്ങൾ തെളിഞ്ഞു;കാടാമ്പുഴ ഭഗവതിക്ക് പിറന്നാളൂട്ട് |
-
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: കൊണ്ടോട്ടിയിൽ മതിൽ നിർമാണത്തിനിടെ പുരാതന കളിമൺ രൂപങ്ങൾ കണ്ടെ
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-writing [N]: കൊണ്ടോട്ടിയിൽ മതിൽ നിർമാണത്തിനിടെ പുരാതന കളിമൺ രൂപങ്ങൾ കണ്ടെ
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
-poor answer - skipped for 30 min: mistral/mistral-small-latest
-free models unavailable: no free model answered: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ4uUipjf9hSdR1nsyha"}
-writing [N]: ‘കണ്ണിലെ നീരും ഉറക്കമില്ലായ്മയും മൂത്രംവഴി പ്രോട്ടീൻ നഷ്ടവു
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ4uVo4jb6beR3H5eRW6"}
-writing [N]: എഫ് ടൂണിന് പിന്നാലെ ഫൈസ, ഫെയ്സ് ക്രീം ഉപയോഗിച്ച് വൃക്കരോഗം ബ
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ4uX2UVH8a2hYn4A7yG"}
-writing [N]: രാജസ്ഥാനിൽ നിന്ന് കന്നുകാലി ലോറിയിൽ കടത്തി; ലക്ഷ്യം ക്രിസ്തു
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ4uatuLBsSooM4DR6K6"}
-writing [N]: വീണു കിട്ടിയ തുക ഉടമക്ക് തിരിച്ചു നൽകി ശ്രീകുമാരൻ
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
-poor answer - skipped for 30 min: mistral/mistral-small-latest
-free models unavailable: no free model answered: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ4ubZpt55xhee7nPpeB"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ4ubimD9F8fM9gKiL1C"}
-writing [N]: ‘ഞാനും ഉപയോഗിച്ചിട്ടുണ്ട്; കാരണം നിങ്ങളാണ്! ഇനി കുരുമുളക് മാ
-free models unavailable: free models not efficient (13 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ4udbMsHoHDes2heF8j"}
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
+dead for this round: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
+poor answer - skipped for 30 min: mistral/mistral-small-latest
+free models unavailable: no free model answered: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ7xfvCvDnkxrAwwEYo7"}
+writing [N]: എഫ് ടൂണിന് പിന്നാലെ ഫൈസ, ഫെയ്സ് ക്രീം ഉപയോഗിച്ച് വൃക്കരോഗം ബ
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ7xj1VV1tAZuuRa2DtD"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
+poor answer - skipped for 30 min: mistral/mistral-small-latest
+free models unavailable: no free model answered: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ7xnmxK2ch4m1eFN36J"}
+writing [N]: വീണു കിട്ടിയ തുക ഉടമക്ക് തിരിച്ചു നൽകി ശ്രീകുമാരൻ
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ7xpMTBZeoWLZSuxAXZ"}
+writing [N]: രാജസ്ഥാനിൽ നിന്ന് കന്നുകാലി ലോറിയിൽ കടത്തി; ലക്ഷ്യം ക്രിസ്തു
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ7xq1PYjXKzFNDmyG93"}
+writing [N]: ‘ഞാനും ഉപയോഗിച്ചിട്ടുണ്ട്; കാരണം നിങ്ങളാണ്! ഇനി കുരുമുളക് മാ
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ7xsxzMBpaVYwvtczJy"}
+ok gemini/gemini-3.6-flash (18s)
+attempt 1 gemini/gemini-3.6-flash: 1 problems
+  reel_script has 46 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ4vYHudnkm3JumnLNXv"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQ7yxxuRXLjtFx9HkALy"}
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
+ok groq/qwen/qwen3.8-27b (3s)
+proofread by groq/qwen/qwen3.8-27b: 1 problems
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+ok groq/openai/gpt-oss-120b (3s)
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+imagegen: pollinations 402: {"status":402,"success":false,"error":{"code":"FREE_LIMIT","message":"Free limit reached: 1 image every 45 seconds per IP. Retry after 30s, or get unlimited images with a pollen key at https://enter.p
+imagegen: black-forest-labs/flux.1-schnell 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":112004}]}
+imagegen: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":112004}]}
+images NOT made for 'Kadampuzha Bhagavathy temple celebrates ': all image models failed: all image models failed: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":112004}]}
+bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261126-0004","first":"MP-457"}
+posting job started at once
+write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 90 recent posts read from all pages
 write round: 8 news waiting in the queue (written in priority order)
@@ -77,22 +113,25 @@ candidates waiting: 0 Manjeri, 0 Kondotty, 8 Malappuram; time left 29 min
 try (N) manual=False: സമരം അവസാനിപ്പിക്കാമെന്ന് വളർമതി പറഞ്ഞതിൽ ദുരൂഹതയെന്ന് അതേ റ
 try (N) manual=False: കാർത്തികദീപങ്ങൾ തെളിഞ്ഞു;കാടാമ്പുഴ ഭഗവതിക്ക് പിറന്നാളൂട്ട് |
 try (N) manual=False: കൊണ്ടോട്ടിയിൽ മതിൽ നിർമാണത്തിനിടെ പുരാതന കളിമൺ രൂപങ്ങൾ കണ്ടെ
-NOT filed (N) കാർത്തികദീപങ്ങൾ തെളിഞ്ഞു;കാടാമ്പുഴ ഭഗവതിക്ക് പിറന്: all free models failed: no usable answer from the models
+NOT filed (N) സമരം അവസാനിപ്പിക്കാമെന്ന് വളർമതി പറഞ്ഞതിൽ ദുരൂഹതയെ: all free models failed: no usable answer from the models
 try (N) manual=False: ‘കണ്ണിലെ നീരും ഉറക്കമില്ലായ്മയും മൂത്രംവഴി പ്രോട്ടീൻ നഷ്ടവു
-NOT filed (N) ‘കണ്ണിലെ നീരും ഉറക്കമില്ലായ്മയും മൂത്രംവഴി പ്രോട്: all free models failed: no usable answer from the models
+skip (N) could not open: ‘കണ്ണിലെ നീരും ഉറക്കമില്ലായ്മയും മൂത്രംവഴി പ്രോട് [https://www.twentyfournews.com/2026/11/25/salim-kodathoor-an] 403 Client Error: Forbidden for url: https://www.twentyfournews.com/2026/11/25/s
 try (N) manual=False: എഫ് ടൂണിന് പിന്നാലെ ഫൈസ, ഫെയ്സ് ക്രീം ഉപയോഗിച്ച് വൃക്കരോഗം ബ
 NOT filed (N) എഫ് ടൂണിന് പിന്നാലെ ഫൈസ, ഫെയ്സ് ക്രീം ഉപയോഗിച്ച് വ: all free models failed: no usable answer from the models
 try (N) manual=False: രാജസ്ഥാനിൽ നിന്ന് കന്നുകാലി ലോറിയിൽ കടത്തി; ലക്ഷ്യം ക്രിസ്തു
-NOT filed (N) രാജസ്ഥാനിൽ നിന്ന് കന്നുകാലി ലോറിയിൽ കടത്തി; ലക്ഷ്യ: all free models failed: no usable answer from the models
+NOT filed (N) കൊണ്ടോട്ടിയിൽ മതിൽ നിർമാണത്തിനിടെ പുരാതന കളിമൺ രൂപ: all free models failed: no usable answer from the models
 try (N) manual=False: വീണു കിട്ടിയ തുക ഉടമക്ക് തിരിച്ചു നൽകി ശ്രീകുമാരൻ
 NOT filed (N) വീണു കിട്ടിയ തുക ഉടമക്ക് തിരിച്ചു നൽകി ശ്രീകുമാരൻ: all free models failed: no usable answer from the models
 try (N) manual=False: ‘ഞാനും ഉപയോഗിച്ചിട്ടുണ്ട്; കാരണം നിങ്ങളാണ്! ഇനി കുരുമുളക് മാ
-NOT filed (N) കൊണ്ടോട്ടിയിൽ മതിൽ നിർമാണത്തിനിടെ പുരാതന കളിമൺ രൂപ: all free models failed: no usable answer from the models
+NOT filed (N) രാജസ്ഥാനിൽ നിന്ന് കന്നുകാലി ലോറിയിൽ കടത്തി; ലക്ഷ്യ: all free models failed: no usable answer from the models
 NOT filed (N) ‘ഞാനും ഉപയോഗിച്ചിട്ടുണ്ട്; കാരണം നിങ്ങളാണ്! ഇനി കു: all free models failed: no usable answer from the models
-NOT filed (N) സമരം അവസാനിപ്പിക്കാമെന്ന് വളർമതി പറഞ്ഞതിൽ ദുരൂഹതയെ: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 8, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
-carousel for 0 of 0 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 8 news waiting to be written
+auto images failed for 'Kadampuzha Bhagavathy temple celebrates ': all image models failed: all image models failed: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden" -> images-needed email
+auto images: 0 of 1 stories ({'pollinations': 2})
+posting job started at once
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 8, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 24 min
+carousel for 0 of 1 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)
+queue: 7 news waiting to be written
+write_stories.yml started
 All News sheet: {"ok":true,"added":0,"updated":8} 
-stories: 0
+stories: 1
