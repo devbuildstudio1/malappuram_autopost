@@ -418,7 +418,7 @@ def perf(row):
         import learned
         h = row.get("headline_ml") or ""
         t = learned.topic(h)
-        if t in (learned.load().get("skip_topics") or []) and t not in SAFETY_TOPICS:
+        if t in (learned.load().get("skip_topics") or []) and t not in SAFETY_TOPICS and not learned.viral_like(h):
             return None
         return learned.boost(h)
     except Exception:

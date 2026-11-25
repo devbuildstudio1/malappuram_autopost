@@ -94,6 +94,19 @@ class LearnedPriority(unittest.TestCase):
         self.assertEqual("gold_price", learned.topic("സംസ്ഥാനത്ത് സ്വർണവില പവന് 600 രൂപ കുറഞ്ഞു"))
         self.assertFalse(allnews.other_district("സംസ്ഥാനത്ത് സ്വർണവില പവന് 600 രൂപ കുറഞ്ഞു"))
         self.assertFalse(allnews.kerala_gold_rate("കരിപ്പൂരിൽ 2 കോടിയുടെ സ്വർണം പിടികൂടി"))
+        # 25 Nov: stories like our viral reels (learned.json viral_words) go first and are written even in a skipped topic
+        real_load = learned.load
+        learned.load = lambda: {"viral_words": ["പിടിയ", "കാരൻ", "കവർന്"], "skip_topics": ["education"], "topic_weight": {}}
+        try:
+            h = "ചങ്ങരംകുളത്ത് തട്ടിപ്പ്: 18കാരൻ പിടിയിൽ"
+            self.assertEqual(2, learned.viral_hits(h))
+            self.assertTrue(learned.viral_like(h))
+            self.assertGreater(learned.boost(h), learned.boost("ചങ്ങരംകുളത്ത് പുതിയ ബസ് സ്റ്റാൻഡ്"))
+        finally:
+            learned.load = real_load
+        rows = [{"caption": "🚨 %s 18കാരൻ പിടിയിൽ" % i, "rel": 9} for i in range(6)] + [{"caption": "📢 സെമിനാർ %s" % i, "rel": 1} for i in range(20)]
+        self.assertIn("പിടിയ", learned.viral_words(rows))
+        self.assertNotIn("സെമിന", learned.viral_words(rows))
         # 20 Nov: the same event in new words gets one second reel (4 h+ later), never a third in 48 h unless a new development
         import freshness
         df, n = {}, 200

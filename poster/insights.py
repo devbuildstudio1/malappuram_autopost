@@ -105,6 +105,7 @@ def main():
         out["weak_topics"] = sorted(tw, key=lambda k: tw[k])[:2]
         # owner 18 Nov: post only the kinds of news that perform; collect.low_interest() does not write these topics
         out["skip_topics"] = sorted(t for t, v in by.items() if t != "other" and len(v) >= SKIP_MIN and statistics.median(v) <= SKIP_REL)
+        out["viral_words"] = learned.viral_words(rows)      # owner 25 Nov: post reels like the ones that went viral
         out["topic_median_rel"] = {t: [round(statistics.median(v), 2), len(v)] for t, v in sorted(by.items())}
     json.dump(out, open(os.path.join(HERE, "..", "research_free", "learned.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(json.dumps(out, ensure_ascii=False)[:1500])

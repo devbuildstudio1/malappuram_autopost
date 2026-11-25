@@ -199,6 +199,8 @@ def _weak_topic(title):
     try:
         import learned
         t = learned.topic(title)
+        if learned.viral_like(title):      # owner 25 Nov: a story like our viral reels is written whatever its topic
+            return ""
         return t if t not in ALWAYS_TOPICS and t in (learned.load().get("skip_topics") or []) else ""
     except Exception:
         return ""
