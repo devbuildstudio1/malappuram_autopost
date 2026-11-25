@@ -1,11 +1,202 @@
+writing [N]: ധനിക് ലാലിന് വീണ്ടും എസിഎഫ് നിയമനം; ഇംതിയാസ് അലി നിലമ്പൂർ സൗ
+writing [N]: ഗുരുതരരോഗം ബാധിച്ച് ക്ലാസ് മുറിയിൽ കിടക്കയിട്ട് പഠിച്ചു; എംഎ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+writing [N]: ഉച്ചക്ക് വീണ്ടും ഇടിഞ്ഞു; പവന് 960 രൂപ കുറഞ്ഞു
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+switching away from gemini/gemini-3.8-flash for 10 min
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPSgnYa3xVHybHprQcqA"}
+writing [N]: ഡംപിങ് കേന്ദ്രമല്ല, ഇനി ബ്യൂട്ടിഫുൾ ജംക്ഷൻ;  5 സെന്റ് ഭൂമി വ
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPSgrYfsYwHNeboHSAym"}
+writing [N]: വൈകല്യം മറികടന്നു: ദേശീയ അംഗീകാര നിറവിൽ ആരോമൽ രാഷ്ട്രപതിയുടെ
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPSgtjPriQ5XCw8PHZG8"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPSgx1qWMYVsi7yPNeB4"}
+writing [N]: കാർത്തികദീപങ്ങൾ തെളിഞ്ഞു;കാടാമ്പുഴ ഭഗവതിക്ക് പിറന്നാളൂട്ട് |
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPShG1pT93DvtieoqyKH"}
+writing [N]: തോന്നുംപോലെ കയറേണ്ട, പാപ്പാന്മാർ മതി; എഴുന്നള്ളിപ്പിനിടെ അനധ
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPShJY7NmQr1TaH5yZnw"}
+writing [N]: നിയമപോരാട്ടത്തിൽ അനുകൂല വിധി വന്നിട്ടും വഴി തെളിയാതെ രാജനും 
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+writing [N]: പൊലീസിൽ വനിതപ്രാതിനിധ്യം 30 ശതമാനമാക്കും -മന്ത്രി രമേശ് ചെന്
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPShKf65HQ7Kuqn1v4nb"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPShKuDXL5jsq7bhJjEN"}
+writing [R]: മഞ്ചേരി മെഡി. കോളജിലെ നേത്രരോഗ വിഭാഗത്തിന് തിരിച്ചടിയായി സർക
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPShLh6MCAwD3Yfyr55i"}
+writing [N]: വിളക്ക് കത്തിക്കേണ്ടെന്ന് പറഞ്ഞിട്ടില്ല; വർഗീയ പ്രചാരണങ്ങൾക്
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPShQivtu7E9LXZDindF"}
+writing [N]: മാനദണ്ഡങ്ങൾ പാലിക്കാത്ത ചൈനീസ് സൗന്ദര്യവർധക ഉൽപ്പന്നങ്ങളുടെ 
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+writing [N]: അടുക്കളയുടെ ഗ്യാസ് പോയി, ജെൻസികൾക്ക് സിജെപി കൂട്ടായി, പുതുതല
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPShScoA3cGsPrLHvKJp"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPShSphC5BKsBzkDwsx5"}
+writing [N]: ക്ലാസ് മുറിയിലെ വെടിവെപ്പ് ;വെടിയുണ്ട ശരീരത്തിൽനിന്ന് പുറത്ത
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPShWgrcHFCosmxaYKU5"}
+writing [N]: കണ്ണിൽ നീര്, മൂത്രത്തിലൂടെ പ്രോട്ടീൻ നഷ്ടപ്പെടുന്നു; സലീം കോ
+free models unavailable: free models not efficient (23 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPShZ4zKaw75nm2tiTyK"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+switching away from mistral/mistral-small-latest for 10 min
+free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPShbjxoc4qLL5jdPw7H"}
 earlier stories still waiting for images: []
 instagram check: 90 recent posts read from all pages
-write round: 1 news waiting in the queue (written in priority order)
-candidate filter: checked earlier=1
-to write: 0 Manjeri + 0 Kondotty + 0 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Kondotty, 0 Malappuram; time left 29 min
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 0, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+write round: 45 news waiting in the queue (written in priority order)
+candidate filter: collected=41, already filed=3, not written=1
+to write: 1 Manjeri + 0 Kondotty + 40 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 1 Manjeri, 0 Kondotty, 40 Malappuram; time left 29 min
+try (N) manual=False: പെട്രോൾ പമ്പിൽ 22000 രൂപയുടെ തട്ടിപ്പ്, അന്വേഷിച്ചെത്തിയ പോല
+try (N) manual=False: ധനിക് ലാലിന് വീണ്ടും എസിഎഫ് നിയമനം; ഇംതിയാസ് അലി നിലമ്പൂർ സൗ
+try (N) manual=False: ഉച്ചക്ക് വീണ്ടും ഇടിഞ്ഞു; പവന് 960 രൂപ കുറഞ്ഞു
+skip (N) similar to a filed story: പെട്രോൾ പമ്പിൽ 22000 രൂപയുടെ തട്ടിപ്പ്, അന്വേഷിച്ച
+try (N) manual=False: ഗുരുതരരോഗം ബാധിച്ച് ക്ലാസ് മുറിയിൽ കിടക്കയിട്ട് പഠിച്ചു; എംഎ
+NOT filed (N) ഗുരുതരരോഗം ബാധിച്ച് ക്ലാസ് മുറിയിൽ കിടക്കയിട്ട് പഠ: all free models failed: no usable answer from the models
+try (N) manual=False: സ്വർണവില ഉച്ചക്കും കുത്തനെ ഇടിഞ്ഞു, ഇന്ന് മാത്രം പവന് 3,320 
+skip (N) today's price is already filed: സ്വർണവില ഉച്ചക്കും കുത്തനെ ഇടിഞ്ഞു, ഇന്ന് മാത്രം പ
+try (N) manual=False: സ്വർണവിലയിൽ വൻ ഇടിവ്; ഗ്രാമിന് ഇന്ന് കുറഞ്ഞത് 295 രൂപ, പുതിയ
+skip (N) today's price is already filed: സ്വർണവിലയിൽ വൻ ഇടിവ്; ഗ്രാമിന് ഇന്ന് കുറഞ്ഞത് 295 
+try (N) manual=False: ഡംപിങ് കേന്ദ്രമല്ല, ഇനി ബ്യൂട്ടിഫുൾ ജംക്ഷൻ;  5 സെന്റ് ഭൂമി വ
+NOT filed (N) ഡംപിങ് കേന്ദ്രമല്ല, ഇനി ബ്യൂട്ടിഫുൾ ജംക്ഷൻ;  5 സെന: all free models failed: no usable answer from the models
+try (N) manual=False: വൈകല്യം മറികടന്നു: ദേശീയ അംഗീകാര നിറവിൽ ആരോമൽ രാഷ്ട്രപതിയുടെ
+NOT filed (N) വൈകല്യം മറികടന്നു: ദേശീയ അംഗീകാര നിറവിൽ ആരോമൽ രാഷ്: all free models failed: no usable answer from the models
+try (N) manual=False: തുടർച്ചയായ വർദ്ധനവിന് ശേഷം സ്വർണവില വീണ്ടും കുറഞ്ഞു; ഇന്നത്ത
+skip (N) could not open: തുടർച്ചയായ വർദ്ധനവിന് ശേഷം സ്വർണവില വീണ്ടും കുറഞ്ഞ [https://www.keralakaumudi.com/news-360/business/kerala-gold-] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/news-360/busi
+try (N) manual=False: ആഭരണപ്രേമികൾക്ക് ആശ്വാസം; സ്വർണവില 91,360 രൂപയിലേക്ക് താഴ്ന്
+NOT filed (N) ഉച്ചക്ക് വീണ്ടും ഇടിഞ്ഞു; പവന് 960 രൂപ കുറഞ്ഞു: all free models failed: no usable answer from the models
+try (N) manual=False: TODAY'S GOLD RATE|സ്വർണവിലയിൽ ചാഞ്ചാട്ടം; പവന് ഒറ്റയടിയ്ക്ക്
+skip (N) similar to a filed story: TODAY'S GOLD RATE|സ്വർണവിലയിൽ ചാഞ്ചാട്ടം; പവന് ഒറ്
+try (N) manual=False: ഗുരുവായൂർ–തിരുനാവായ റെയിൽപാത; സ്വപ്നങ്ങൾക്ക് ചിറകുമുളക്കുന്ന
+skip (N) similar to a filed story: ഗുരുവായൂർ–തിരുനാവായ റെയിൽപാത; സ്വപ്നങ്ങൾക്ക് ചിറകു
+try (N) manual=False: Gold Rate Today: വീണ്ടും കുതിപ്പിന്റെ ട്രാക്കിലോ ? ; അറിയാം 
+skip (N) today's price is already filed: Gold Rate Today: വീണ്ടും കുതിപ്പിന്റെ ട്രാക്കിലോ ?
+try (N) manual=False: സ്വർണവില ഇന്ന് (25 നവംബർ 2026): പവന് ₹2,360 കുറഞ്ഞു; ഒരു പവന
+skip (N) today's price is already filed: ആഭരണപ്രേമികൾക്ക് ആശ്വാസം; സ്വർണവില 91,360 രൂപയിലേക
+try (N) manual=False: കേരളത്തിലേത് പോലെ യുഎഇയിലും ഇടിഞ്ഞ് സ്വർണവില; യുഎഇയിൽ 24 കാര
+skip (N) similar to a filed story: സ്വർണവില ഇന്ന് (25 നവംബർ 2026): പവന് ₹2,360 കുറഞ്ഞ
+try (N) manual=False: സ്വർണവില ഉച്ചയ്ക്കും ഇടിഞ്ഞു; പവൻ 90,000 രൂപ റേഞ്ചിലെത്തി, ഇ
+skip (N) today's price is already filed: സ്വർണവില ഉച്ചയ്ക്കും ഇടിഞ്ഞു; പവൻ 90,000 രൂപ റേഞ്ച
+try (N) manual=False: ആഗോള വിപണിയിലെ അനിശ്ചിതത്വം കേരളത്തിലും പ്രതിഫലിക്കുന്നു; സ്
+skip (N) today's price is already filed: ആഗോള വിപണിയിലെ അനിശ്ചിതത്വം കേരളത്തിലും പ്രതിഫലിക്
+try (N) manual=False: സ്വർണവില ഉച്ചയ്ക്ക് വീണ്ടും കുറഞ്ഞു; ആഭരണം വാങ്ങാൻ നല്ല സമയം
+skip (N) today's price is already filed: കേരളത്തിലേത് പോലെ യുഎഇയിലും ഇടിഞ്ഞ് സ്വർണവില; യുഎഇ
+try (N) manual=False: സംസ്ഥാനത്ത്&nbsp;വീണ്ടും സ്വർണവില കുറഞ്ഞു; പവന് 91360, ഗ്രാമ
+skip (N) today's price is already filed: സ്വർണവില ഉച്ചയ്ക്ക് വീണ്ടും കുറഞ്ഞു; ആഭരണം വാങ്ങാൻ
+try (N) manual=False: സ്വർണവില 50,000ത്തിലേക്കോ? സംഭവിക്കുമെന്ന് സാമ്പത്തിക വിദഗ്ധ
+skip (N) today's price is already filed: സംസ്ഥാനത്ത്&nbsp;വീണ്ടും സ്വർണവില കുറഞ്ഞു; പവന് 91
+try (N) manual=False: സ്വർണവിലയിൽ വീണ്ടും ഇടിവ്
+skip (N) today's price is already filed: സ്വർണവില 50,000ത്തിലേക്കോ? സംഭവിക്കുമെന്ന് സാമ്പത്
+try (N) manual=False: ഇന്ന് സ്വർണ്ണവില കൂടിയോ കുറഞ്ഞോ? നിരക്ക് അറിയാം | Kerala Gol
+skip (N) today's price is already filed: ഇന്ന് സ്വർണ്ണവില കൂടിയോ കുറഞ്ഞോ? നിരക്ക് അറിയാം | 
+try (N) manual=False: കാർത്തികദീപങ്ങൾ തെളിഞ്ഞു;കാടാമ്പുഴ ഭഗവതിക്ക് പിറന്നാളൂട്ട് |
+NOT filed (N) കാർത്തികദീപങ്ങൾ തെളിഞ്ഞു;കാടാമ്പുഴ ഭഗവതിക്ക് പിറന്: all free models failed: no usable answer from the models
+try (N) manual=False: സ്വർണവില ഫസ്റ്റ് ഗിയറിൽ തന്നെ, ഒറ്റയടിക്ക് 920 രൂപ വർധിച്ചു;
+skip (N) today's price is already filed: സ്വർണവിലയിൽ വീണ്ടും ഇടിവ്
+try (N) manual=False: യുഎഇയിൽ സ്വർണവിലയിൽ മാറ്റമില്ലാതെ തുടരുന്നു; ഇന്നത്തെ നിരക്ക
+skip (N) similar to a filed story: യുഎഇയിൽ സ്വർണവിലയിൽ മാറ്റമില്ലാതെ തുടരുന്നു; ഇന്നത
+try (N) manual=False: തോന്നുംപോലെ കയറേണ്ട, പാപ്പാന്മാർ മതി; എഴുന്നള്ളിപ്പിനിടെ അനധ
+skip (N) today's price is already filed: സ്വർണവില ഫസ്റ്റ് ഗിയറിൽ തന്നെ, ഒറ്റയടിക്ക് 920 രൂപ
+try (N) manual=False: മലപ്പുറത്ത് 10 വയസ്സുകാരനെ തട്ടിക്കൊണ്ടുപോയി ലൈംഗികാതിക്രമം;
+NOT filed (N) തോന്നുംപോലെ കയറേണ്ട, പാപ്പാന്മാർ മതി; എഴുന്നള്ളിപ്: all free models failed: no usable answer from the models
+try (N) manual=False: നിയമപോരാട്ടത്തിൽ അനുകൂല വിധി വന്നിട്ടും വഴി തെളിയാതെ രാജനും 
+skip (N) similar to a filed story: മലപ്പുറത്ത് 10 വയസ്സുകാരനെ തട്ടിക്കൊണ്ടുപോയി ലൈംഗി
+try (N) manual=False: പൊലീസിൽ വനിതപ്രാതിനിധ്യം 30 ശതമാനമാക്കും -മന്ത്രി രമേശ് ചെന്
+NOT filed (N) നിയമപോരാട്ടത്തിൽ അനുകൂല വിധി വന്നിട്ടും വഴി തെളിയാ: all free models failed: no usable answer from the models
+try (R) manual=False: മഞ്ചേരി മെഡി. കോളജിലെ നേത്രരോഗ വിഭാഗത്തിന് തിരിച്ചടിയായി സർക
+NOT filed (N) പൊലീസിൽ വനിതപ്രാതിനിധ്യം 30 ശതമാനമാക്കും -മന്ത്രി : all free models failed: no usable answer from the models
+try (N) manual=False: വിളക്ക് കത്തിക്കേണ്ടെന്ന് പറഞ്ഞിട്ടില്ല; വർഗീയ പ്രചാരണങ്ങൾക്
+NOT filed (R) മഞ്ചേരി മെഡി. കോളജിലെ നേത്രരോഗ വിഭാഗത്തിന് തിരിച്ച: all free models failed: no usable answer from the models
+try (N) manual=False: മാനദണ്ഡങ്ങൾ പാലിക്കാത്ത ചൈനീസ് സൗന്ദര്യവർധക ഉൽപ്പന്നങ്ങളുടെ 
+NOT filed (N) വിളക്ക് കത്തിക്കേണ്ടെന്ന് പറഞ്ഞിട്ടില്ല; വർഗീയ പ്ര: all free models failed: no usable answer from the models
+try (N) manual=False: അടുക്കളയുടെ ഗ്യാസ് പോയി, ജെൻസികൾക്ക് സിജെപി കൂട്ടായി, പുതുതല
+NOT filed (N) മാനദണ്ഡങ്ങൾ പാലിക്കാത്ത ചൈനീസ് സൗന്ദര്യവർധക ഉൽപ്പന: all free models failed: no usable answer from the models
+try (N) manual=False: കരുത്തു കാട്ടിയാൽ കണ്ണൂരിന് സെമി കാണാം; സൂപ്പർ ലീഗ് കേരളയിൽ 
+NOT filed (N) അടുക്കളയുടെ ഗ്യാസ് പോയി, ജെൻസികൾക്ക് സിജെപി കൂട്ടാ: all free models failed: no usable answer from the models
+try (N) manual=False: പൊലീസ് കേസെടുത്തിട്ടും വിവാദ ഫെയർനെസ് ക്രീം എഫ്ട്യൂൺ ഓൺലൈനിൽ
+skip (N) similar to a filed story: കരുത്തു കാട്ടിയാൽ കണ്ണൂരിന് സെമി കാണാം; സൂപ്പർ ലീഗ
+try (N) manual=False: ക്ലാസ് മുറിയിലെ വെടിവെപ്പ് ;വെടിയുണ്ട ശരീരത്തിൽനിന്ന് പുറത്ത
+NOT filed (N) ക്ലാസ് മുറിയിലെ വെടിവെപ്പ് ;വെടിയുണ്ട ശരീരത്തിൽനിന: all free models failed: no usable answer from the models
+try (N) manual=False: ഏഴിലംപാല പൂത്തപ്പോൾ ക്യാമ്പസിൽ ചിത്രശലഭങ്ങളുടെ വർണവിസ്മയം; വ
+skip (N) similar to a filed story: പൊലീസ് കേസെടുത്തിട്ടും വിവാദ ഫെയർനെസ് ക്രീം എഫ്ട്യ
+try (N) manual=False: കണ്ണിൽ നീര്, മൂത്രത്തിലൂടെ പ്രോട്ടീൻ നഷ്ടപ്പെടുന്നു; സലീം കോ
+skip (N) similar to a filed story: ഏഴിലംപാല പൂത്തപ്പോൾ ക്യാമ്പസിൽ ചിത്രശലഭങ്ങളുടെ വർണ
+try (N) manual=False: ‘കണ്ണിലെ നീരും ഉറക്കമില്ലായ്മയും മൂത്രംവഴി പ്രോട്ടീൻ നഷ്ടവു
+skip (N) could not open: ‘കണ്ണിലെ നീരും ഉറക്കമില്ലായ്മയും മൂത്രംവഴി പ്രോട് [https://www.twentyfournews.com/2026/11/25/salim-kodathoor-an] 403 Client Error: Forbidden for url: https://www.twentyfournews.com/2026/11/25/s
+try (N) manual=False: ക്രൈം ബ്രാഞ്ച് മലപ്പുറം യൂണിറ്റിന് ഇനി പുതിയ ഓഫീസ്
+skip (N) similar to a filed story: ക്രൈം ബ്രാഞ്ച് മലപ്പുറം യൂണിറ്റിന് ഇനി പുതിയ ഓഫീസ്
+try (N) manual=False: 'പരാതി നൽകില്ല'; ഇവിഎം തിരിമറിക്ക് സാധ്യതയുണ്ടെന്നാണ് സൂചിപ്
+NOT filed (N) കണ്ണിൽ നീര്, മൂത്രത്തിലൂടെ പ്രോട്ടീൻ നഷ്ടപ്പെടുന്ന: all free models failed: no usable answer from the models
+skip (N) similar to a filed story: 'പരാതി നൽകില്ല'; ഇവിഎം തിരിമറിക്ക് സാധ്യതയുണ്ടെന്ന
+NOT filed (N) ധനിക് ലാലിന് വീണ്ടും എസിഎഫ് നിയമനം; ഇംതിയാസ് അലി ന: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 40, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 28 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 0 news waiting to be written 
+queue: 17 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":18} 
 stories: 0
