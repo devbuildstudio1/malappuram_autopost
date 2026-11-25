@@ -1,8 +1,5 @@
-writing [N]: ഓട്ടോ പാർക്കിങ്: തർക്കം വീണ്ടും രൂക്ഷമാകുന്നു
 writing [N]: യൂത്ത്ലീഗിൽ സമവായ നീക്കം; മുഈനലി തങ്ങൾ സംസ്ഥാന പ്രസിഡന്റ് സ്
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
@@ -20,135 +17,57 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-writing [N]: പള്ളി ഇമാമിന്റെ മുറിയിൽ നിന്ന് 1.70 ലക്ഷം രൂപ മോഷ്ടിച്ച കേസ്
-free models unavailable: free models not efficient (4 failures in a row): using Claude
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPBZ8rV1YUN68e2HgkDo"}
-writing [N]: അതിർത്തി കടന്ന് ചൈനീസ് സൗന്ദര്യവർധക ഉൽപ്പന്നങ്ങൾ; ടി.വൈ.എ ഫാ
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPBZBuYHNMH1WyJD3dHz"}
-writing [N]: ക്രൈം ബ്രാഞ്ച് മലപ്പുറം യൂണിറ്റിന് ഇനി പുതിയ ഓഫീസ്
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPBZCbxxcyNPGs2RQbA8"}
-writing [N]: പത്തുവയസ്സുകാരനെ തട്ടിക്കൊണ്ടുപോയി ലൈംഗികമായി പീഡിപ്പിച്ച കേ
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPBZF53JAyoqtz8px3r1"}
-writing [N]: Out Of Focus
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPBZKnJZ8KZq1UjmGPzd"}
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-switching away from gemini/gemini-3.8-flash for 10 min
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
-poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (40s)
-attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 52 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  not grounded: location 'റോഡ്' is not in the article
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
-poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (35s)
-attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  numbers not found in the article: 6
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (38s)
-attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  not grounded: location 'റോഡ്' is not in the article
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (38s)
-attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 43 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 6
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (37s)
-attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 51 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 000, 1000
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (33s)
-attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  missing key: scenes
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+writing [N]: പള്ളി ഇമാമിന്റെ മുറിയിൽ നിന്ന് 1.70 ലക്ഷം രൂപ മോഷ്ടിച്ച കേസ്
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPCR4DpFBhLkEUThdvDG"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (34s)
-attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 54 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  not grounded: location 'റോഡ്' is not in the article
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
+writing [N]: അതിർത്തി കടന്ന് ചൈനീസ് സൗന്ദര്യവർധക ഉൽപ്പന്നങ്ങൾ; ടി.വൈ.എ ഫാ
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPCR5Uj9huSu1xUSgyng"}
+writing [N]: ക്രൈം ബ്രാഞ്ച് മലപ്പുറം യൂണിറ്റിന് ഇനി പുതിയ ഓഫീസ്
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPCR6QYDthk9Tt9pZbVt"}
+writing [N]: Malappuram Obituary | മലപ്പുറം ചരമ വാർത്ത | Kerala Kaumudi
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPCR71FPiS2WYPsL5eLB"}
+writing [N]: പത്തുവയസ്സുകാരനെ തട്ടിക്കൊണ്ടുപോയി ലൈംഗികമായി പീഡിപ്പിച്ച കേ
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPCR7odfrcZ1Pgpap6jp"}
+writing [N]: Out Of Focus
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPCRBvB8wZH5YYmCHBAC"}
 fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
 switching away from mistral/mistral-small-latest for 10 min
 free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPBsxL1PVHJQgBZrmM1D"}
-proofread skipped: free models not efficient (4 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-fail mistral/mistral-small-latest: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"
-switching away from mistral/mistral-small-latest for 10 min
-free models unavailable: no free model answered: mistral mistral-small-latest 429: {"object":"error","message":"Rate limit exceeded","type":"rate
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPBtFtRk71btkCEHXiQY"}
-proofread skipped: free models not efficient (5 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-image match: False The photo depicts a generic crowded market street with stalls and light traffic, showing no auto-rickshaws, parking stan
-image match: False The photo shows cycle rickshaws parked along a narrow street, which does not depict Edappal town in Kerala or an auto-ri
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.5-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-images made: 4 for 'Auto parking dispute in Edappal town hea'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261125-1216","first":"MP-451"}
-posting job started at once
-write_stories.yml started
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPCSD2vTuiZ77S435TKt"}
 earlier stories still waiting for images: []
 instagram check: 90 recent posts read from all pages
-write round: 8 news waiting in the queue (written in priority order)
-candidate filter: collected=8
-to write: 0 Manjeri + 0 Kondotty + 8 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Kondotty, 8 Malappuram; time left 29 min
+write round: 7 news waiting in the queue (written in priority order)
+candidate filter: collected=7
+to write: 0 Manjeri + 0 Kondotty + 7 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 0 Manjeri, 0 Kondotty, 7 Malappuram; time left 29 min
 try (N) manual=False: പള്ളി ഇമാമിന്റെ മുറിയിൽ നിന്ന് 1.70 ലക്ഷം രൂപ മോഷ്ടിച്ച കേസ്
-try (N) manual=False: ഓട്ടോ പാർക്കിങ്: തർക്കം വീണ്ടും രൂക്ഷമാകുന്നു
 try (N) manual=False: യൂത്ത്ലീഗിൽ സമവായ നീക്കം; മുഈനലി തങ്ങൾ സംസ്ഥാന പ്രസിഡന്റ് സ്
-NOT filed (N) പള്ളി ഇമാമിന്റെ മുറിയിൽ നിന്ന് 1.70 ലക്ഷം രൂപ മോഷ്: all free models failed: no usable answer from the models
 try (N) manual=False: Malappuram Obituary | മലപ്പുറം ചരമ വാർത്ത | Kerala Kaumudi
-skip (N) could not open: Malappuram Obituary | മലപ്പുറം ചരമ വാർത്ത | Kerala [https://www.keralakaumudi.com/news/sub-section.php?cid=10&si] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/news/sub-sect
+NOT filed (N) പള്ളി ഇമാമിന്റെ മുറിയിൽ നിന്ന് 1.70 ലക്ഷം രൂപ മോഷ്: all free models failed: no usable answer from the models
 try (N) manual=False: അതിർത്തി കടന്ന് ചൈനീസ് സൗന്ദര്യവർധക ഉൽപ്പന്നങ്ങൾ; ടി.വൈ.എ ഫാ
 NOT filed (N) അതിർത്തി കടന്ന് ചൈനീസ് സൗന്ദര്യവർധക ഉൽപ്പന്നങ്ങൾ; : all free models failed: no usable answer from the models
 try (N) manual=False: ക്രൈം ബ്രാഞ്ച് മലപ്പുറം യൂണിറ്റിന് ഇനി പുതിയ ഓഫീസ്
 NOT filed (N) ക്രൈം ബ്രാഞ്ച് മലപ്പുറം യൂണിറ്റിന് ഇനി പുതിയ ഓഫീസ്: all free models failed: no usable answer from the models
 try (N) manual=False: പത്തുവയസ്സുകാരനെ തട്ടിക്കൊണ്ടുപോയി ലൈംഗികമായി പീഡിപ്പിച്ച കേ
-NOT filed (N) പത്തുവയസ്സുകാരനെ തട്ടിക്കൊണ്ടുപോയി ലൈംഗികമായി പീഡി: all free models failed: no usable answer from the models
+NOT filed (N) Malappuram Obituary | മലപ്പുറം ചരമ വാർത്ത | Kerala: all free models failed: no usable answer from the models
 try (N) manual=False: Out Of Focus
+NOT filed (N) പത്തുവയസ്സുകാരനെ തട്ടിക്കൊണ്ടുപോയി ലൈംഗികമായി പീഡി: all free models failed: no usable answer from the models
 NOT filed (N) Out Of Focus: all free models failed: no usable answer from the models
-NOT filed (N) യൂത്ത്ലീഗിൽ സമവായ നീക്കം; മുഈനലി തങ്ങൾ സംസ്ഥാന പ്ര: bad draft: 'scenes'
-auto images: 1 of 1 stories ({'pollinations': 5})
-posting job started at once
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 8, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 19 min
-carousel for 0 of 1 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)
+NOT filed (N) യൂത്ത്ലീഗിൽ സമവായ നീക്കം; മുഈനലി തങ്ങൾ സംസ്ഥാന പ്ര: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 7, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
 queue: 7 news waiting to be written
-write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":8} 
-stories: 1
+All News sheet: {"ok":true,"added":0,"updated":7} 
+stories: 0
