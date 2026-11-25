@@ -82,12 +82,9 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
-| 2026-11-20 | `017f10e` | Stop same-event repeat reels; post one gold-rate reel a day |
-| 2026-11-20 | `fe3e54c` | Tag reels by headline, not caption body; hartal/closure news is its own topic |
-| 2026-11-20 | `1b5e46a` | ig probe output |
-| 2026-11-19 | `0f8b9d3` | Heartbeat |
-| 2026-11-19 | `1636eee` | Heartbeat |
-| 2026-11-19 | `a4cafeb` | Reel v5 phone-notification design live; add v6-v8 and photo themes |
-| 2026-11-18 | `f11f62c` | Heartbeat |
-| 2026-11-18 | `cba4db8` | Heartbeat |
+| 2026-11-25 | `81f005c` | Pick stories like our viral reels first (learned viral_words) |
+| 2026-11-24 | `8010b69` | Heartbeat |
+| 2026-11-24 | `d61459c` | Heartbeat |
+| 2026-11-23 | `234d273` | Heartbeat |
+| 2026-11-23 | `61e28bb` | Heartbeat |
 <!-- recent-changes:end -->
