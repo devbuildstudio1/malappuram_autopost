@@ -1089,3 +1089,28 @@ class DuplicateDoesNotBlock(unittest.TestCase):
         src = inspect.getsource(post.main)
         self.assertLess(src.index("dup_reason(r, p)"), src.index('"one reel per run'))
 
+
+
+class CompactPrompt(unittest.TestCase):
+    def test_too_large_retries_compact(self):
+        """26 Nov: when a free model refuses the prompt as too large, the writer tries once more with the compact prompt"""
+        import datetime
+        import run, llm
+        seen = []
+
+        def fake(system, user):
+            seen.append(len(user))
+            if len(seen) == 1:
+                llm.TOO_LARGE[0] = True
+                raise RuntimeError("no free model answered: groq 413 request too large")
+            raise RuntimeError("stop here")
+        real_ask, real_hand, real_claude = llm.ask_json, run.handwritten, llm.claude_available
+        llm.ask_json, run.handwritten, llm.claude_available = fake, (lambda a: (None, None)), (lambda: False)
+        try:
+            art = {"title": "t", "text": "അ" * 6000, "url": "x", "published": "", "source": "x"}
+            with self.assertRaises(RuntimeError):
+                run.write(art, datetime.date.today())
+        finally:
+            llm.ask_json, run.handwritten, llm.claude_available = real_ask, real_hand, real_claude
+        self.assertEqual(2, len(seen))
+        self.assertLess(seen[1], seen[0])

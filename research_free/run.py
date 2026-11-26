@@ -14,9 +14,11 @@ IST = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
 EXTRA = [""]      # extra instruction for one run (e.g. rewrite.py: the exact number of images that already exist)
 
 
-def prompt(art, today, errors=None):
-    shots = "\n\n".join(f"EXAMPLE ARTICLE:\n{e['article']}\nEXAMPLE OUTPUT:\n{json.dumps(e['output'], ensure_ascii=False)}" for e in EX)
-    u = f"{shots}\n\nTODAY (IST): {today}\n\nNOW WRITE THE OUTPUT FOR THIS ARTICLE (facts only from this text):\nHEADLINE: {art['title']}\nPUBLISHED: {art['published']}\nARTICLE:\n{art['text'][:6000]}"
+def prompt(art, today, errors=None, compact=False):
+    """compact (26 Nov): one example and the first 2500 characters of the article, for free models whose request limit is smaller
+    than the full prompt (Groq 413 'request too large' on most stories once Gemini and Cloudflare were out of quota)"""
+    shots = "\n\n".join(f"EXAMPLE ARTICLE:\n{e['article']}\nEXAMPLE OUTPUT:\n{json.dumps(e['output'], ensure_ascii=False)}" for e in (EX[:1] if compact else EX))
+    u = f"{shots}\n\nTODAY (IST): {today}\n\nNOW WRITE THE OUTPUT FOR THIS ARTICLE (facts only from this text):\nHEADLINE: {art['title']}\nPUBLISHED: {art['published']}\nARTICLE:\n{art['text'][:2500 if compact else 6000]}"
     if EXTRA[0]:
         u += "\n\n" + EXTRA[0]
     try:
@@ -86,9 +88,18 @@ def write(art, today):
         print(f"hand-written story {p.name}: {len(errs)} problems", *errs, sep="\n  ")
         return d, f"hand-written ({p.name})", errs, 1
     errors, best = None, None
+    compact = False
     for attempt in range(1, MAX_ATTEMPTS + 1):
         try:
-            d, model = llm.ask_json(SYSTEM, prompt(art, today, errors))
+            llm.TOO_LARGE[0] = False
+            try:
+                d, model = llm.ask_json(SYSTEM, prompt(art, today, errors, compact))
+            except Exception:
+                if compact or not llm.TOO_LARGE[0]:
+                    raise
+                compact = True      # some model only refused the size: try once more with the compact prompt
+                print("prompt too large for the free models left - trying the compact prompt")
+                d, model = llm.ask_json(SYSTEM, prompt(art, today, errors, compact))
         except Exception as e:      # every free model is busy / out of quota: do not give up, Claude (if the key is set) writes it below
             print("free models unavailable:", str(e)[:120])
             if not llm.claude_available():

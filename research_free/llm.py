@@ -115,8 +115,10 @@ def gemini_models(key):
             m = re.search(r"(\d+(?:\.\d+)?)", n)
             return float(m.group(1)) if m else 0
         fl.sort(key=lambda n: ("lite" in n, -ver(n)))
-        _log("gemini models: " + ", ".join(fl[:6]))
-        return fl[:3] or GEMINI_MODELS
+        _log("gemini models: " + ", ".join(fl[:8]))
+        # owner 26 Nov 'post consistently': each Gemini model has its OWN free daily quota; only the newest 3 were tried, so once those
+        # were used up (by mid-morning) nothing was written all evening while the older / lite models' quotas sat unused
+        return fl[:8] or GEMINI_MODELS
     except Exception as e:
         _log(f"gemini model list failed: {e}")
         return GEMINI_MODELS
@@ -126,16 +128,17 @@ def groq_models(key):
     try:
         r = requests.get("https://api.groq.com/openai/v1/models", headers={"Authorization": f"Bearer {key}"}, timeout=40)
         r.raise_for_status()
-        ids = [m["id"] for m in r.json().get("data", []) if not any(x in m["id"] for x in ("whisper", "guard", "tts", "orpheus", "playai", "embed", "distil"))]
+        ids = [m["id"] for m in r.json().get("data", []) if not any(x in m["id"] for x in ("whisper", "guard", "tts", "orpheus", "playai", "embed", "distil", "allam"))]
         ids.sort(key=lambda i: min([k for k, p in enumerate(("llama-3.3", "llama-4", "gpt-oss-120b", "qwen", "kimi", "llama")) if p in i] or [99]))
         _log("groq models: " + ", ".join(ids[:5]))
-        return ids[:2] or GROQ_MODELS
+        return ids[:4] or GROQ_MODELS      # every model has its own free limits (was 2)
     except Exception as e:
         _log(f"groq model list failed: {e}")
         return GROQ_MODELS
 
 
 PREFERRED = [None]
+TOO_LARGE = [False]      # a model refused the prompt as too large (Groq free tier): run.write() then tries a compact prompt
 SLOW_SECS = int(os.environ.get('LLM_SLOW_SECS', '90'))   # a free model slower than this is skipped for 30 min
 DEAD = {}   # (provider, model) -> time until which it is skipped
 DEADLINE = [None]   # unix time after which no more model calls are made
@@ -252,7 +255,7 @@ def ask_json(system, user, tries_per_model=1):
                 FREE_FAILS[0] += 1
                 _log(f"fail {provider}/{model}: {msg[:120]}")
                 low = msg.lower()
-                if any(c in msg for c in (" 401", " 403", " 404")):
+                if any(c in msg for c in (" 401", " 402", " 403", " 404")):      # 402: free tier ended (Mistral, 26 Nov)
                     DEAD[(provider, model)] = time.time() + 6 * 3600     # not allowed on this key/plan: never try it again this round
                     _log(f"not available on this plan: {provider}/{model}")
                     break
@@ -261,6 +264,7 @@ def ask_json(system, user, tries_per_model=1):
                     _log(f"dead for this round: {provider}/{model}")
                     break
                 if " 413" in msg or "request too large" in low:
+                    TOO_LARGE[0] = True
                     break
                 if not any(c in msg for c in (" 400", " 401", " 403", " 404", " 408", " 413", " 429", " 500", " 502", " 503", " 504")) and "time budget" not in low:
                     # a poor / unreadable answer (not valid JSON, or an empty reply): this model is skipped for 30 min, the next one is tried
