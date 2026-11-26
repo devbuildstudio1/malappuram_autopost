@@ -1,24 +1,11 @@
-writing [N]: പൊന്നാനിയിൽ കടലിൽവച്ച് ഇടിമിന്നലേറ്റ് യുവാവ് മരിച്ചു; രണ്ട് 
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 writing [N]: ഒരേ ഹോട്ടലിൽ തുടർച്ചയായി മൂന്ന് ദിവസം മോഷണം; തിരൂരങ്ങാടി സ്വ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -30,128 +17,53 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 writing [N]: ഒഡീഷയിൽ നിന്നും ട്രെയിൻ മാർഗ്ഗം കഞ്ചാവ് കൊണ്ടുവന്ന യുവാവിനെ 
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRo5aEsfQ356mr28T7NM"}
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRmGewif1G2QtMuF9c5Z"}
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-writing [R]: യാത്രയ്ക്ക് തൊട്ടുമുമ്പ് ടിക്കറ്റ് റദ്ദായി; റെയിൽവേക്ക് 25,0
+writing [N]: സ്ത്രീകൾക്കെതിരായ അതിക്രമങ്ങൾക്കെതിരേ കോട്ടക്കുന്നിൽ മാരത്തൺ
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRo5bT4U8ZFAMJtBNoYG"}
+writing [N]: വീടിന്റെ മതിൽ കെട്ടുന്നതിനായി മണ്ണിൽ ചാൽ കീറുന്നതിനിടെ നായയു
 fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
 poor answer - skipped for 30 min: mistral/mistral-small-latest
 free models unavailable: no free model answered: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRmGhXzbQAxNanYdJk6H"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRmGiAhMcoJPSQw916vH"}
-writing [N]: പ്രവാസി പ്രശ്നങ്ങളിൽ ഉടനടി പരിഹാരം വേണം -റിമാൽ സൊസൈറ്റി | Ma
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRmGkeXZoL2XzsLHj3ha"}
-writing [R]: പ്രായപൂർത്തിയാകാത്ത പെൺകുട്ടിയുടെ നഗ്ന വീഡിയോയും ചിത്രങ്ങളും
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRmGnjnNhDrgzWtWD4bR"}
-writing [R]: പെൺകുട്ടിയുടെ നഗ്ന വീഡിയോ പ്രചരിപ്പിച്ച കേസിൽ കാമുകനും സുഹൃ
-free models unavailable: free models not efficient (10 failures in a row): using Claude
+free models unavailable: free models not efficient (8 failures in a row): using Claude
 writing [R]: ചാലിയാറിൽ കാണാതായ യുവാവിൻ്റെ മൃതദേഹം കണ്ടെത്തി
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRmGpuziE6fAq9JcfUHh"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRmGqHpZ7EbpgFQKvGdb"}
-writing [N]: തളി മഹാദേവ ക്ഷേത്രത്തിൽ ആരാധനാസ്വാതന്ത്ര്യദിനാഘോഷം
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRmGrFNCH5maCSpfX7PH"}
-writing [N]: ഹരിതമിത്രം; ഒക്ടോബറിൽ മലപ്പുറം ജില്ലക്ക് 95.31ശതമാനം സേവനനേട
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRmGvj18WjNqLgHebetg"}
-writing [N]: സഡൻ ഡെത്തിൽ മലപ്പുറം വീണു; കണ്ണൂരിന് ജീവശ്വാസം, സെമിസാധ്യത ന
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRmGwg4JNtoSwKFeUqLi"}
-writing [N]: സ്ത്രീകൾക്കെതിരായ അതിക്രമങ്ങൾക്കെതിരേ കോട്ടക്കുന്നിൽ മാരത്തൺ
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-writing [N]: ചെമ്മാട് സ്വദേശി സി.പി. അബ്ദുൾ റസാഖ് നിര്യാതനായി | Madhyamam
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRmGxdMRgkj9LbHF6Gkc"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRmGy2f1Wv2EVjKGeJRM"}
-writing [N]: വീടിന്റെ മതിൽ കെട്ടുന്നതിനായി മണ്ണിൽ ചാൽ കീറുന്നതിനിടെ നായയു
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRmGzGKUwx7eHNUtRm7U"}
-writing [N]: ധ്യാൻ ശ്രീനിവാസൻറെ 'കിടുക്കാച്ചി അളിയൻ';ഫസ്റ്റ് ലുക്ക് പോസ്റ
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRmH13TMobvLgWwPMuAU"}
-writing [R]: അർജന്റീന വിവാദം: നോവസ് സോക്കർ അക്കാദമി; ആർബിസി ഓഹരിവാദം പൊളി
-free models unavailable: free models not efficient (10 failures in a row): using Claude
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRo5cfE9nSCf4GRkonRF"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRo5cfUai2ySTeJ5bWLx"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRo5cnfqWAqvw9zCyJgx"}
 writing [N]: മലപ്പുറത്തെ തകർത്ത് കണ്ണൂർ സെമി പ്രതീക്ഷയിൽ
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRmH36iz3h7d16uNRuj4"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRmH3J8o63VP54HPCmDH"}
-writing [N]: പണ്ഡിതർ മുസ്ലിംകളുടെ വഴികാട്ടികൾ: പൊന്മള ഉസ്താദ്  | Sirajliv
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRmH7QSuzoBags51R5oS"}
-ok gemini/gemini-3.6-flash (17s)
-attempt 1 gemini/gemini-3.6-flash: 1 problems
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 30 ('അതേസമയം, സംസ്ഥാനത്ത് മഴയോടൊപ്പം ശക്തമായ ഇടിമിന്നലിനും സാധ്യത'); 11 ('കേരള - ലക്ഷദ്വീപ് തീരങ്ങളിൽ ഇന്നും (26/11/2026) നാളെയും (27/'); 35 ('ഇന്നും നാളെയും കേരള - ലക്ഷദ്വീപ് തീരങ്ങളിൽ മണിക്കൂറിൽ 35 മുത'); 45 ('ഇന്നും നാളെയും കേരള - ലക്ഷദ്വീപ് തീരങ്ങളിൽ മണിക്കൂറിൽ 35 മുത'); 55 ('ഇന്നും നാളെയും കേരള - ലക്ഷദ്വീപ് തീരങ്ങളിൽ മണിക്കൂറിൽ 35 മുത'); 29, ('29, 30 തിയതികളിൽ ആൻഡമാൻ കടലിൽ മണിക്കൂറിൽ 40 മുതൽ 50 കിലോമീറ്')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRmHxjL7ZDCaT7U6GtTe"}
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_gener
-ok groq/qwen/qwen3.8-27b (4s)
-proofread by groq/qwen/qwen3.8-27b: 1 problems
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m
-ok groq/qwen/qwen3.8-27b (2s)
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRo5gZNzrUiepzhWXmT2"}
 earlier stories still waiting for images: []
 instagram check: 90 recent posts read from all pages
-write round: 20 news waiting in the queue (written in priority order)
-candidate filter: collected=19, checked earlier=1
-to write: 5 Manjeri + 0 Kondotty + 14 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 5 Manjeri, 0 Kondotty, 14 Malappuram; time left 29 min
+write round: 19 news waiting in the queue (written in priority order)
+candidate filter: checked earlier=12, collected=7
+to write: 1 Manjeri + 0 Kondotty + 6 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 1 Manjeri, 0 Kondotty, 6 Malappuram; time left 29 min
 try (N) manual=False: ഒഡീഷയിൽ നിന്നും ട്രെയിൻ മാർഗ്ഗം കഞ്ചാവ് കൊണ്ടുവന്ന യുവാവിനെ 
-try (N) manual=False: പൊന്നാനിയിൽ കടലിൽവച്ച് ഇടിമിന്നലേറ്റ് യുവാവ് മരിച്ചു; രണ്ട് 
 try (N) manual=False: ഒരേ ഹോട്ടലിൽ തുടർച്ചയായി മൂന്ന് ദിവസം മോഷണം; തിരൂരങ്ങാടി സ്വ
-NOT filed (N) ഒഡീഷയിൽ നിന്നും ട്രെയിൻ മാർഗ്ഗം കഞ്ചാവ് കൊണ്ടുവന്ന: all free models failed: no usable answer from the models
-try (R) manual=False: യാത്രയ്ക്ക് തൊട്ടുമുമ്പ് ടിക്കറ്റ് റദ്ദായി; റെയിൽവേക്ക് 25,0
-NOT filed (R) യാത്രയ്ക്ക് തൊട്ടുമുമ്പ് ടിക്കറ്റ് റദ്ദായി; റെയിൽവ: all free models failed: no usable answer from the models
 try (N) manual=False: വൻ വിലയിടിവിന് പിന്നാലെ കുതിച്ചുകയറി സ്വർണവില, പവന് ഇന്ന് കൂ
-NOT filed (N) ഒരേ ഹോട്ടലിൽ തുടർച്ചയായി മൂന്ന് ദിവസം മോഷണം; തിരൂര: all free models failed: no usable answer from the models
-try (R) manual=False: പ്രായപൂർത്തിയാകാത്ത പെൺകുട്ടിയുടെ നഗ്ന വീഡിയോയും ചിത്രങ്ങളും
-skip (N) could not open: വൻ വിലയിടിവിന് പിന്നാലെ കുതിച്ചുകയറി സ്വർണവില, പവന [https://www.keralakaumudi.com/news-360/business/gold-rate-in] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/news-360/busi
-try (N) manual=False: പ്രവാസി പ്രശ്നങ്ങളിൽ ഉടനടി പരിഹാരം വേണം -റിമാൽ സൊസൈറ്റി | Ma
-NOT filed (N) പ്രവാസി പ്രശ്നങ്ങളിൽ ഉടനടി പരിഹാരം വേണം -റിമാൽ സൊസ: all free models failed: no usable answer from the models
+skip (N) similar to a filed story: വൻ വിലയിടിവിന് പിന്നാലെ കുതിച്ചുകയറി സ്വർണവില, പവന
+NOT filed (N) ഒഡീഷയിൽ നിന്നും ട്രെയിൻ മാർഗ്ഗം കഞ്ചാവ് കൊണ്ടുവന്ന: all free models failed: no usable answer from the models
 try (R) manual=False: ചാലിയാറിൽ കാണാതായ യുവാവിൻ്റെ മൃതദേഹം കണ്ടെത്തി
-NOT filed (R) പ്രായപൂർത്തിയാകാത്ത പെൺകുട്ടിയുടെ നഗ്ന വീഡിയോയും ച: all free models failed: no usable answer from the models
-try (R) manual=False: പെൺകുട്ടിയുടെ നഗ്ന വീഡിയോ പ്രചരിപ്പിച്ച കേസിൽ കാമുകനും സുഹൃ
-NOT filed (R) പെൺകുട്ടിയുടെ നഗ്ന വീഡിയോ പ്രചരിപ്പിച്ച കേസിൽ കാമ: all free models failed: no usable answer from the models
-try (N) manual=False: തളി മഹാദേവ ക്ഷേത്രത്തിൽ ആരാധനാസ്വാതന്ത്ര്യദിനാഘോഷം
-NOT filed (R) ചാലിയാറിൽ കാണാതായ യുവാവിൻ്റെ മൃതദേഹം കണ്ടെത്തി: all free models failed: no usable answer from the models
-try (N) manual=False: സഡൻ ഡെത്തിൽ മലപ്പുറം വീണു; കണ്ണൂരിന് ജീവശ്വാസം, സെമിസാധ്യത ന
-NOT filed (N) തളി മഹാദേവ ക്ഷേത്രത്തിൽ ആരാധനാസ്വാതന്ത്ര്യദിനാഘോഷം: all free models failed: no usable answer from the models
-try (N) manual=False: ഹരിതമിത്രം; ഒക്ടോബറിൽ മലപ്പുറം ജില്ലക്ക് 95.31ശതമാനം സേവനനേട
-NOT filed (N) ഹരിതമിത്രം; ഒക്ടോബറിൽ മലപ്പുറം ജില്ലക്ക് 95.31ശതമാ: all free models failed: no usable answer from the models
-try (N) manual=False: ചെമ്മാട് സ്വദേശി സി.പി. അബ്ദുൾ റസാഖ് നിര്യാതനായി | Madhyamam
-NOT filed (N) സഡൻ ഡെത്തിൽ മലപ്പുറം വീണു; കണ്ണൂരിന് ജീവശ്വാസം, സെ: all free models failed: no usable answer from the models
 try (N) manual=False: സ്ത്രീകൾക്കെതിരായ അതിക്രമങ്ങൾക്കെതിരേ കോട്ടക്കുന്നിൽ മാരത്തൺ
 NOT filed (N) സ്ത്രീകൾക്കെതിരായ അതിക്രമങ്ങൾക്കെതിരേ കോട്ടക്കുന്ന: all free models failed: no usable answer from the models
-try (N) manual=False: ധ്യാൻ ശ്രീനിവാസൻറെ 'കിടുക്കാച്ചി അളിയൻ';ഫസ്റ്റ് ലുക്ക് പോസ്റ
-NOT filed (N) ചെമ്മാട് സ്വദേശി സി.പി. അബ്ദുൾ റസാഖ് നിര്യാതനായി |: all free models failed: no usable answer from the models
 try (N) manual=False: വീടിന്റെ മതിൽ കെട്ടുന്നതിനായി മണ്ണിൽ ചാൽ കീറുന്നതിനിടെ നായയു
-NOT filed (N) വീടിന്റെ മതിൽ കെട്ടുന്നതിനായി മണ്ണിൽ ചാൽ കീറുന്നതി: all free models failed: no usable answer from the models
-try (R) manual=False: അർജന്റീന വിവാദം: നോവസ് സോക്കർ അക്കാദമി; ആർബിസി ഓഹരിവാദം പൊളി
-NOT filed (N) ധ്യാൻ ശ്രീനിവാസൻറെ 'കിടുക്കാച്ചി അളിയൻ';ഫസ്റ്റ് ലു: all free models failed: no usable answer from the models
+NOT filed (N) ഒരേ ഹോട്ടലിൽ തുടർച്ചയായി മൂന്ന് ദിവസം മോഷണം; തിരൂര: all free models failed: no usable answer from the models
 try (N) manual=False: മലപ്പുറത്തെ തകർത്ത് കണ്ണൂർ സെമി പ്രതീക്ഷയിൽ
-NOT filed (R) അർജന്റീന വിവാദം: നോവസ് സോക്കർ അക്കാദമി; ആർബിസി ഓഹര: all free models failed: no usable answer from the models
-try (N) manual=False: പണ്ഡിതർ മുസ്ലിംകളുടെ വഴികാട്ടികൾ: പൊന്മള ഉസ്താദ്  | Sirajliv
+NOT filed (N) വീടിന്റെ മതിൽ കെട്ടുന്നതിനായി മണ്ണിൽ ചാൽ കീറുന്നതി: all free models failed: no usable answer from the models
+NOT filed (R) ചാലിയാറിൽ കാണാതായ യുവാവിൻ്റെ മൃതദേഹം കണ്ടെത്തി: all free models failed: no usable answer from the models
 NOT filed (N) മലപ്പുറത്തെ തകർത്ത് കണ്ണൂർ സെമി പ്രതീക്ഷയിൽ: all free models failed: no usable answer from the models
-NOT filed (N) പണ്ഡിതർ മുസ്ലിംകളുടെ വഴികാട്ടികൾ: പൊന്മള ഉസ്താദ്  : all free models failed: no usable answer from the models
-NOT filed (N) പൊന്നാനിയിൽ കടലിൽവച്ച് ഇടിമിന്നലേറ്റ് യുവാവ് മരിച്: duplicate after write
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 5, 'N': 14, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 6, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 19 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":19} 
+queue: 6 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":6} 
 stories: 0
