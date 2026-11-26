@@ -1,24 +1,11 @@
 writing [N]: രേഖകളില്ലാതെ ട്രെയിനിൽ കടത്തിയത് 19.5 ലക്ഷം രൂപ; രഹസ്യ അറയിൽ
-writing [N]: ഒരേ ഹോട്ടലിൽ മൂന്നുതവണ മോഷണം; പ്രതി പിടിയിൽ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
@@ -29,115 +16,78 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-writing [N]: പൊന്നാനിയിൽ മീൻപിടിത്തത്തിനിടെ ബോട്ടിൽ മിന്നലേറ്റ് മത്സ്യത്ത
-free models unavailable: free models not efficient (8 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxc8pLjsoZEVDsZ2jZ"}
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
-dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
-dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 writing [N]: സമരം അവസാനിപ്പിക്കാമെന്ന് വളർമതി പറഞ്ഞതിൽ ദുരൂഹതയെന്ന് അതേ റ
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
-poor answer - skipped for 30 min: mistral/mistral-small-latest
-free models unavailable: no free model answered: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxdon6CWxxjRVhG4qR"}
-writing [N]: സ്ത്രീകൾക്കെതിരായ അതിക്രമങ്ങൾക്കെതിരേ കോട്ടക്കുന്നിൽ മാരത്തൺ
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxe97Pf8BrzTNVE2HL"}
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxeVCGWuda2aEjHVkw"}
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQz1acMyMHfN5Bu7oZG6"}
+writing [N]: പൊന്നാനിയിൽ മീൻപിടിത്തത്തിനിടെ ബോട്ടിൽ മിന്നലേറ്റ് മത്സ്യത്ത
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: free models not efficient (5 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQz1b6dqBgBUZRkp5Dyu"}
 writing [N]: ദേ പിന്നെയും കൂടി, സ്വർണവിലയിൽ ചാഞ്ചാട്ടം; നവംബർ 26-ലെ നിരക്
-free models unavailable: free models not efficient (15 failures in a row): using Claude
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+free models unavailable: free models not efficient (6 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQz1bce1ZKtYodcBRMQZ"}
 writing [N]: ആർ.എ.സി. ടിക്കറ്റ് യാത്രയ്ക്ക് തൊട്ടുമുൻപ് റദ്ദായി; റെയിൽവേയ
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxewz4pPwS3XFKD4av"}
-writing [N]: വീഴ്വേൻ എൻട്ര് നിനൈത്തായോ? വീണ്ടും കത്തിക്കയറി സ്വർണവില
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxfRWPNCMx3rCbXC8G"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxfg8c26uyjMeiKVgq"}
-writing [N]: സ്വർണവില കുതിച്ചുകയറി; കേരളത്തിലും കുതിപ്പ്, സ്വർണത്തിന്റെ വ
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxhCuwDGCxa2mnBw2K"}
-writing [N]: ഇന്നലെ ഇടിഞ്ഞു, ഇന്ന് കുതിച്ചുയർന്നു;  സ്വർണവിലയിൽ വൻ ട്വിസ്
-free models unavailable: free models not efficient (15 failures in a row): using Claude
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQz1c6QrHcg9kc5hhfmy"}writing [N]: വീഴ്വേൻ എൻട്ര് നിനൈത്തായോ? വീണ്ടും കത്തിക്കയറി സ്വർണവില
+
+free models unavailable: free models not efficient (7 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQz1cRWFyMxaMGjqDLxX"}
 writing [N]: സ്വർണവിലയിൽ ഇന്ന് കുതിപ്പ്; പവന് കൂടിയത് 1920 രൂപ
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxhzHgkcxCWK3BTNR6"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxiPcFjZdiJtRVTwFU"}
-writing [N]: തിരിച്ചുകയറി സ്വർണവില; ഒറ്റയടിക്ക് വർധിച്ചത് 1920 രൂപ
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-writing [N]: പ്രതീക്ഷയുടെ പാളം കയറി ഗുരുവായൂർ-തിരുനാവായ റെയിൽപ്പാത പദ്ധതി
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxjAVNFBDj3Ms5LzRL"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxjBjCzm2PLhDfrPtk"}
-writing [N]: പ്രവാസി പ്രശ്നങ്ങളിൽ ഉടനടി പരിഹാരം വേണം -റിമാൽ സൊസൈറ്റി | Ma
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-writing [N]: Gold Rate Today: കൈയ്യെത്തും നിരക്കിലേക്കോ ? ; അറിയാം ഇന്നത്
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxjttNwd81UN2faZVj"}
-free models unavailable: free models not efficient (15 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxkKw2GeFtZUvbV5sS"}
-writing [N]: തളി മഹാദേവ ക്ഷേത്രത്തിൽ ആരാധനാസ്വാതന്ത്ര്യദിനാഘോഷം
-free models unavailable: free models not efficient (15 failures in a row): using Claude
+free models unavailable: free models not efficient (7 failures in a row): using Claude
 fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
 poor answer - skipped for 30 min: mistral/mistral-small-latest
 free models unavailable: no free model answered: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxkxPayuXx5WWKH24j"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxm5pdTWoTDtKhrTjt"}
-writing [N]: സംസ്ഥാനത്ത് സ്വർണവില വീണ്ടും കുറഞ്ഞു; പവൻ വില 90,400 രൂപയിൽ,
-free models unavailable: free models not efficient (16 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxnKVDVVpjDcNtJFqP"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQz1d5SyGF1Xcd2xVJKa"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQz1dENxyYTJPF5LAC25"}
+writing [N]: ഇന്നലെ ഇടിഞ്ഞു, ഇന്ന് കുതിച്ചുയർന്നു;  സ്വർണവിലയിൽ വൻ ട്വിസ്
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQz1dffd9W9Y2D8X6WgQ"}
+writing [N]: തിരിച്ചുകയറി സ്വർണവില; ഒറ്റയടിക്ക് വർധിച്ചത് 1920 രൂപ
+writing [N]: പ്രവാസി പ്രശ്നങ്ങളിൽ ഉടനടി പരിഹാരം വേണം -റിമാൽ സൊസൈറ്റി | Ma
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQz1eVXU9J9JzZcfe3nV"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQz1eVnW89Eg4WiWQvAi"}
+writing [N]: സ്വർണവില കുതിച്ചുകയറി; കേരളത്തിലും കുതിപ്പ്, സ്വർണത്തിന്റെ വ
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQz1f13Nokruyhqv1Gsr"}
 writing [N]: കേരള ചരിത്ര കോൺഫറൻസിന് നാളെ മലപ്പുറത്ത് തുടക്കമാകും | Madhya
-free models unavailable: free models not efficient (16 failures in a row): using Claude
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQz1fHegJAEjiPYK9g4h"}
 writing [N]: സഡൻ ഡെത്തിൽ മലപ്പുറത്തെ വീഴ്ത്തി; കണ്ണൂരിന്റെ സെമി ടിക്കറ്റ്
-free models unavailable: free models not efficient (16 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxo9MY7RwaYecV5UZi"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxoGY4Lrqib9PPWJKV"}
-writing [N]: അനുകൂല വിധി വന്നിട്ടും വഴി തെളിയാതെ രാജനും ഭാര്യയും
-free models unavailable: free models not efficient (16 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxotzSAk4YV1uZU1N2"}
-writing [R]: എടവണ്ണയിൽ ചാലിയാർ പുഴയിൽ ഒരാളെ കാണാതായി; തിരച്ചിൽ തുടരുന്നു 
-free models unavailable: free models not efficient (16 failures in a row): using Claude
+free models unavailable: free models not efficient (8 failures in a row): using Claude
 writing [N]: ഹരിതമിത്രം; ഒക്ടോബറിൽ മലപ്പുറം ജില്ലക്ക് 95.31ശതമാനം സേവനനേട
-free models unavailable: free models not efficient (16 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxpe9QmKg5Mt2ydhcs"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxpkqm6JZ6Q76FeQDY"}
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQz1ftsN2VZC3jAHG5BV"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQz1g1ZdtHUAysXfDkAm"}
 writing [N]: പൂവത്താണിയിൽ സൂപ്പർ മാർക്കറ്റ് കത്തിനശിച്ചു | Madhyamam
-free models unavailable: free models not efficient (16 failures in a row): using Claude
+free models unavailable: free models not efficient (8 failures in a row): using Claude
 writing [N]: 'കിടുക്കാച്ചി അളിയൻ 'ഫസ്റ്റ് ലുക്ക് പോസ്റ്റർ പുറത്തിറങ്ങി. ച
-free models unavailable: free models not efficient (16 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxrrqyyeMPh71VTJsb"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQyxrxHiMMLBrqEru5eJ"}
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQz1gkxPYAcDocCC2JDJ"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQz1guPKyDxRUSEU7KJv"}
+writing [R]: എടവണ്ണയിൽ ചാലിയാർ പുഴയിൽ ഒരാളെ കാണാതായി; തിരച്ചിൽ തുടരുന്നു 
+free models unavailable: free models not efficient (8 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChQz1i4qw9itmsfm32KBj"}
 earlier stories still waiting for images: []
 instagram check: 90 recent posts read from all pages
-write round: 32 news waiting in the queue (written in priority order)
-candidate filter: collected=29, already filed=2, not written=1
-to write: 1 Manjeri + 0 Kondotty + 28 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 1 Manjeri, 0 Kondotty, 28 Malappuram; time left 29 min
+write round: 28 news waiting in the queue (written in priority order)
+candidate filter: collected=21, checked earlier=7
+to write: 1 Manjeri + 0 Kondotty + 20 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 1 Manjeri, 0 Kondotty, 20 Malappuram; time left 29 min
 try (N) manual=False: പൊന്നാനിയിൽ മീൻപിടിത്തത്തിനിടെ ബോട്ടിൽ മിന്നലേറ്റ് മത്സ്യത്ത
 try (N) manual=False: രേഖയില്ലാതെ ട്രെയിനിൽ കടത്തിയ 19.5 ലക്ഷം പിടികൂടി
 try (N) manual=False: രേഖകളില്ലാതെ ട്രെയിനിൽ കടത്തിയത് 19.5 ലക്ഷം രൂപ; രഹസ്യ അറയിൽ
 skip (N) could not open: രേഖയില്ലാതെ ട്രെയിനിൽ കടത്തിയ 19.5 ലക്ഷം പിടികൂടി [https://www.deshabhimani.com/News/kerala/195-lakh-unaccounte] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/News/kerala/19
-try (N) manual=False: ഒരേ ഹോട്ടലിൽ മൂന്നുതവണ മോഷണം; പ്രതി പിടിയിൽ
-NOT filed (N) പൊന്നാനിയിൽ മീൻപിടിത്തത്തിനിടെ ബോട്ടിൽ മിന്നലേറ്റ്: all free models failed: no usable answer from the models
 try (N) manual=False: സമരം അവസാനിപ്പിക്കാമെന്ന് വളർമതി പറഞ്ഞതിൽ ദുരൂഹതയെന്ന് അതേ റ
 NOT filed (N) സമരം അവസാനിപ്പിക്കാമെന്ന് വളർമതി പറഞ്ഞതിൽ ദുരൂഹതയെ: all free models failed: no usable answer from the models
-try (N) manual=False: സ്ത്രീകൾക്കെതിരായ അതിക്രമങ്ങൾക്കെതിരേ കോട്ടക്കുന്നിൽ മാരത്തൺ
-NOT filed (N) രേഖകളില്ലാതെ ട്രെയിനിൽ കടത്തിയത് 19.5 ലക്ഷം രൂപ; ര: all free models failed: no usable answer from the models
 try (N) manual=False: ദേ പിന്നെയും കൂടി, സ്വർണവിലയിൽ ചാഞ്ചാട്ടം; നവംബർ 26-ലെ നിരക്
-NOT filed (N) സ്ത്രീകൾക്കെതിരായ അതിക്രമങ്ങൾക്കെതിരേ കോട്ടക്കുന്ന: all free models failed: no usable answer from the models
+NOT filed (N) പൊന്നാനിയിൽ മീൻപിടിത്തത്തിനിടെ ബോട്ടിൽ മിന്നലേറ്റ്: all free models failed: no usable answer from the models
 try (N) manual=False: ആർ.എ.സി. ടിക്കറ്റ് യാത്രയ്ക്ക് തൊട്ടുമുൻപ് റദ്ദായി; റെയിൽവേയ
 NOT filed (N) ദേ പിന്നെയും കൂടി, സ്വർണവിലയിൽ ചാഞ്ചാട്ടം; നവംബർ 2: all free models failed: no usable answer from the models
 try (N) manual=False: വീഴ്വേൻ എൻട്ര് നിനൈത്തായോ? വീണ്ടും കത്തിക്കയറി സ്വർണവില
@@ -149,44 +99,32 @@ NOT filed (N) വീഴ്വേൻ എൻട്ര് നിനൈത്താ�
 try (N) manual=False: സംസ്ഥാനത്ത് സ്വർണവിലയിൽ വർധന
 skip (N) could not open: സംസ്ഥാനത്ത് സ്വർണവിലയിൽ വർധന [https://www.deshabhimani.com/money-business/news-80965/gold-] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/money-business
 try (N) manual=False: സ്വർണവില കുതിച്ചുകയറി; കേരളത്തിലും കുതിപ്പ്, സ്വർണത്തിന്റെ വ
-NOT filed (N) സ്വർണവില കുതിച്ചുകയറി; കേരളത്തിലും കുതിപ്പ്, സ്വർണ: all free models failed: no usable answer from the models
-try (N) manual=False: ഇന്നലെ ഇടിഞ്ഞു, ഇന്ന് കുതിച്ചുയർന്നു;  സ്വർണവിലയിൽ വൻ ട്വിസ്
-NOT filed (N) ഇന്നലെ ഇടിഞ്ഞു, ഇന്ന് കുതിച്ചുയർന്നു;  സ്വർണവിലയിൽ: all free models failed: no usable answer from the models
-try (N) manual=False: തിരിച്ചുകയറി സ്വർണവില; ഒറ്റയടിക്ക് വർധിച്ചത് 1920 രൂപ
 NOT filed (N) സ്വർണവിലയിൽ ഇന്ന് കുതിപ്പ്; പവന് കൂടിയത് 1920 രൂപ: all free models failed: no usable answer from the models
-try (N) manual=False: പ്രതീക്ഷയുടെ പാളം കയറി ഗുരുവായൂർ-തിരുനാവായ റെയിൽപ്പാത പദ്ധതി
-NOT filed (N) തിരിച്ചുകയറി സ്വർണവില; ഒറ്റയടിക്ക് വർധിച്ചത് 1920 : all free models failed: no usable answer from the models
+try (N) manual=False: ഇന്നലെ ഇടിഞ്ഞു, ഇന്ന് കുതിച്ചുയർന്നു;  സ്വർണവിലയിൽ വൻ ട്വിസ്
+NOT filed (N) രേഖകളില്ലാതെ ട്രെയിനിൽ കടത്തിയത് 19.5 ലക്ഷം രൂപ; ര: all free models failed: no usable answer from the models
+try (N) manual=False: തിരിച്ചുകയറി സ്വർണവില; ഒറ്റയടിക്ക് വർധിച്ചത് 1920 രൂപ
+NOT filed (N) ഇന്നലെ ഇടിഞ്ഞു, ഇന്ന് കുതിച്ചുയർന്നു;  സ്വർണവിലയിൽ: all free models failed: no usable answer from the models
 try (N) manual=False: പ്രവാസി പ്രശ്നങ്ങളിൽ ഉടനടി പരിഹാരം വേണം -റിമാൽ സൊസൈറ്റി | Ma
-NOT filed (N) പ്രതീക്ഷയുടെ പാളം കയറി ഗുരുവായൂർ-തിരുനാവായ റെയിൽപ്: all free models failed: no usable answer from the models
-try (N) manual=False: Gold Rate Today: കൈയ്യെത്തും നിരക്കിലേക്കോ ? ; അറിയാം ഇന്നത്
+NOT filed (N) തിരിച്ചുകയറി സ്വർണവില; ഒറ്റയടിക്ക് വർധിച്ചത് 1920 : all free models failed: no usable answer from the models
 NOT filed (N) പ്രവാസി പ്രശ്നങ്ങളിൽ ഉടനടി പരിഹാരം വേണം -റിമാൽ സൊസ: all free models failed: no usable answer from the models
-try (N) manual=False: സംസ്ഥാനത്ത് സ്വർണവില വീണ്ടും കുറഞ്ഞു; പവൻ വില 90,400 രൂപയിൽ,
-NOT filed (N) Gold Rate Today: കൈയ്യെത്തും നിരക്കിലേക്കോ ? ; അറി: all free models failed: no usable answer from the models
-try (N) manual=False: തളി മഹാദേവ ക്ഷേത്രത്തിൽ ആരാധനാസ്വാതന്ത്ര്യദിനാഘോഷം
-NOT filed (N) തളി മഹാദേവ ക്ഷേത്രത്തിൽ ആരാധനാസ്വാതന്ത്ര്യദിനാഘോഷം: all free models failed: no usable answer from the models
 try (R) manual=False: എടവണ്ണയിൽ ചാലിയാർ പുഴയിൽ ഒരാളെ കാണാതായി; തിരച്ചിൽ തുടരുന്നു 
-NOT filed (N) ഒരേ ഹോട്ടലിൽ മൂന്നുതവണ മോഷണം; പ്രതി പിടിയിൽ: all free models failed: no usable answer from the models
 try (N) manual=False: കേരള ചരിത്ര കോൺഫറൻസിന് നാളെ മലപ്പുറത്ത് തുടക്കമാകും | Madhya
-NOT filed (N) സംസ്ഥാനത്ത് സ്വർണവില വീണ്ടും കുറഞ്ഞു; പവൻ വില 90,4: all free models failed: no usable answer from the models
+NOT filed (N) സ്വർണവില കുതിച്ചുകയറി; കേരളത്തിലും കുതിപ്പ്, സ്വർണ: all free models failed: no usable answer from the models
 try (N) manual=False: സഡൻ ഡെത്തിൽ മലപ്പുറത്തെ വീഴ്ത്തി; കണ്ണൂരിന്റെ സെമി ടിക്കറ്റ്
 NOT filed (N) കേരള ചരിത്ര കോൺഫറൻസിന് നാളെ മലപ്പുറത്ത് തുടക്കമാകു: all free models failed: no usable answer from the models
-try (N) manual=False: എഫ് ട്യൂണിന് പിന്നാലെ ഫൈസ; ഫെയ്സ് ക്രീം ഉപയോഗിച്ച് വൃക്കരോഗം
-NOT filed (N) സഡൻ ഡെത്തിൽ മലപ്പുറത്തെ വീഴ്ത്തി; കണ്ണൂരിന്റെ സെമി: all free models failed: no usable answer from the models
-try (N) manual=False: അനുകൂല വിധി വന്നിട്ടും വഴി തെളിയാതെ രാജനും ഭാര്യയും
-NOT filed (N) അനുകൂല വിധി വന്നിട്ടും വഴി തെളിയാതെ രാജനും ഭാര്യയു: all free models failed: no usable answer from the models
 try (N) manual=False: ഹരിതമിത്രം; ഒക്ടോബറിൽ മലപ്പുറം ജില്ലക്ക് 95.31ശതമാനം സേവനനേട
-NOT filed (R) എടവണ്ണയിൽ ചാലിയാർ പുഴയിൽ ഒരാളെ കാണാതായി; തിരച്ചിൽ : all free models failed: no usable answer from the models
+NOT filed (N) സഡൻ ഡെത്തിൽ മലപ്പുറത്തെ വീഴ്ത്തി; കണ്ണൂരിന്റെ സെമി: all free models failed: no usable answer from the models
 try (N) manual=False: ഇത്തവണയും ‘ഷിബൂസ് സിഗ്നേച്ചർ’
 NOT filed (N) ഹരിതമിത്രം; ഒക്ടോബറിൽ മലപ്പുറം ജില്ലക്ക് 95.31ശതമാ: all free models failed: no usable answer from the models
 try (N) manual=False: 'കിടുക്കാച്ചി അളിയൻ 'ഫസ്റ്റ് ലുക്ക് പോസ്റ്റർ പുറത്തിറങ്ങി. ച
 skip (N) could not open: ഇത്തവണയും ‘ഷിബൂസ് സിഗ്നേച്ചർ’ [https://www.deshabhimani.com/district-news/-73594/shibu-fy0] 403 Client Error: Forbidden for url: https://www.deshabhimani.com/district-news/
 try (N) manual=False: പൂവത്താണിയിൽ സൂപ്പർ മാർക്കറ്റ് കത്തിനശിച്ചു | Madhyamam
-skip (N) similar to a filed story: എഫ് ട്യൂണിന് പിന്നാലെ ഫൈസ; ഫെയ്സ് ക്രീം ഉപയോഗിച്ച്
 NOT filed (N) പൂവത്താണിയിൽ സൂപ്പർ മാർക്കറ്റ് കത്തിനശിച്ചു | Madh: all free models failed: no usable answer from the models
 NOT filed (N) 'കിടുക്കാച്ചി അളിയൻ 'ഫസ്റ്റ് ലുക്ക് പോസ്റ്റർ പുറത്: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 28, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+NOT filed (R) എടവണ്ണയിൽ ചാലിയാർ പുഴയിൽ ഒരാളെ കാണാതായി; തിരച്ചിൽ : all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 20, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 28 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":29} 
+queue: 21 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":21} 
 stories: 0
