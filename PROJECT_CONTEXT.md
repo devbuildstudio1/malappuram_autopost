@@ -82,9 +82,9 @@ python3 tools/repost.py MP-158                   # (Actions: repost) post a reel
 <!-- recent-changes:start (updated automatically by .github/workflows/context.yml - do not edit by hand) -->
 | Date | Commit | Change |
 |---|---|---|
+| 2026-11-26 | `0ffa12d` | Keep the writer going when the main free models run out |
+| 2026-11-26 | `676fc3e` | ig probe output |
+| 2026-11-26 | `34f38b2` | Heartbeat |
+| 2026-11-25 | `ed6f001` | Heartbeat |
 | 2026-11-25 | `81f005c` | Pick stories like our viral reels first (learned viral_words) |
-| 2026-11-24 | `8010b69` | Heartbeat |
-| 2026-11-24 | `d61459c` | Heartbeat |
-| 2026-11-23 | `234d273` | Heartbeat |
-| 2026-11-23 | `61e28bb` | Heartbeat |
 <!-- recent-changes:end -->
