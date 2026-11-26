@@ -1,119 +1,112 @@
 writing [N]: ആർ.എ.സി. ടിക്കറ്റ് യാത്രയ്ക്ക് തൊട്ടുമുൻപ് റദ്ദായി; റെയിൽവേയ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.8-flash
-fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.7-flash
-fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please che
-dead for this round: gemini/gemini-3.6-flash
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
 writing [N]: രേഖയില്ലാതെ ട്രെയിനിൽ കടത്തിയ 19.5 ലക്ഷം പിടികൂടി
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChR9cgqw7Gm92tHKTGUzT"}
 writing [N]: പഞ്ചായത്ത് അംഗങ്ങൾക്ക് പ്രഥമ ശുശ്രൂഷ പരിശീലന ക്യാമ്പ് | Deep
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChR9d3jntjzC9i6Z7Lm3B"}
-writing [N]: പ്രവാസി പ്രശ്നങ്ങളിൽ ഉടനടി പരിഹാരം വേണം -റിമാൽ സൊസൈറ്റി | Ma
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChR9d6fefyVRJ6RRsZq9Q"}
-writing [N]: കേരള ചരിത്ര കോൺഫറൻസിന് നാളെ മലപ്പുറത്ത് തുടക്കമാകും | Madhya
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChR9dpa4kmXmXZg97Mu9s"}
-writing [N]: ഹരിതമിത്രം; ഒക്ടോബറിൽ മലപ്പുറം ജില്ലക്ക് 95.31ശതമാനം സേവനനേട
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChR9druhTcg73Thy6AYCF"}
-writing [N]: ഇത്തവണയും ‘ഷിബൂസ് സിഗ്നേച്ചർ’
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChR9emUZ4JxydXCVqNfPx"}
-writing [N]: 'കിടുക്കാച്ചി അളിയൻ 'ഫസ്റ്റ് ലുക്ക് പോസ്റ്റർ പുറത്തിറങ്ങി. ച
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChR9epdZ2rTTL7kBL6UBV"}
-writing [N]: പൂവത്താണിയിൽ സൂപ്പർ മാർക്കറ്റ് കത്തിനശിച്ചു | Madhyamam
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChR9esuWLyYjBhk2EMcGw"}
-writing [R]: എടവണ്ണയിൽ ചാലിയാർ പുഴയിൽ ഒരാളെ കാണാതായി; തിരച്ചിൽ തുടരുന്നു 
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChR9f5BBA6YsGydSjucSW"}
-fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
-poor answer - skipped for 30 min: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (46s)
-attempt 1 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 36 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 19
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (51s)
-attempt 2 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 40 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 19
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (52s)
-attempt 3 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  numbers not found in the article: 19
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (55s)
-attempt 4 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 1 problems
-  numbers not found in the article: 19
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, allam-2-7b, openai/gpt-oss-20b
-ok cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct (58s)
-attempt 5 cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: 2 problems
-  reel_script has 52 words; need 55-75 (the key facts once each, in about 40 seconds; every other detail goes in the caption's 📰 പൂർണ വിവരം block)
-  numbers not found in the article: 19
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b, allam-2-7b
-fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=90)
-poor answer - skipped for 30 min: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.8-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.7-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
 poor answer - skipped for 30 min: mistral/mistral-small-latest
 free models unavailable: no free model answered: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRABcC4rA679NrnofdWm"}
-proofread skipped: free models not efficient (4 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRDTogBAzZ8NYj8ocW2c"}
+writing [N]: പ്രവാസി പ്രശ്നങ്ങളിൽ ഉടനടി പരിഹാരം വേണം -റിമാൽ സൊസൈറ്റി | Ma
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRDTrQP7up34fogmgFWJ"}
+writing [R]: എടവണ്ണയിൽ ചാലിയാർ പുഴയിൽ ഒരാളെ കാണാതായി; തിരച്ചിൽ തുടരുന്നു 
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRDUBkiZ44N8EDDus5Ti"}
+writing [N]: കേരള ചരിത്ര കോൺഫറൻസിന് നാളെ മലപ്പുറത്ത് തുടക്കമാകും | Madhya
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRDUCmixvA9yzSunQFca"}
+writing [N]: ഹരിതമിത്രം; ഒക്ടോബറിൽ മലപ്പുറം ജില്ലക്ക് 95.31ശതമാനം സേവനനേട
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRDUF8Mwen2oQQRiXxNB"}
+writing [N]: ഇത്തവണയും ‘ഷിബൂസ് സിഗ്നേച്ചർ’
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRDUHSmXwfvutkKVGTBo"}
+writing [N]: പൂവത്താണിയിൽ സൂപ്പർ മാർക്കറ്റ് കത്തിനശിച്ചു | Madhyamam
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRDUKjvU2w7sEdp7Ryoj"}
+writing [N]: 'കിടുക്കാച്ചി അളിയൻ 'ഫസ്റ്റ് ലുക്ക് പോസ്റ്റർ പുറത്തിറങ്ങി. ച
+free models unavailable: free models not efficient (16 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRDUNGyhXhLBsLYcWkRr"}
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRDV31PR2zcDPY3hHuVm"}
+fail gemini/gemini-3.6-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+poor answer - skipped for 30 min: gemini/gemini-3.6-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+free models unavailable: no free model answered: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` i
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRDXsnaosbsCpHi3FW1x"}
 earlier stories still waiting for images: []
 instagram check: 90 recent posts read from all pages
-write round: 11 news waiting in the queue (written in priority order)
-candidate filter: collected=11
-to write: 1 Manjeri + 0 Kondotty + 10 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 1 Manjeri, 0 Kondotty, 10 Malappuram; time left 29 min
+write round: 10 news waiting in the queue (written in priority order)
+candidate filter: collected=10
+to write: 1 Manjeri + 0 Kondotty + 9 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 1 Manjeri, 0 Kondotty, 9 Malappuram; time left 29 min
 try (N) manual=False: രേഖയില്ലാതെ ട്രെയിനിൽ കടത്തിയ 19.5 ലക്ഷം പിടികൂടി
 try (N) manual=False: ആർ.എ.സി. ടിക്കറ്റ് യാത്രയ്ക്ക് തൊട്ടുമുൻപ് റദ്ദായി; റെയിൽവേയ
 try (N) manual=False: പഞ്ചായത്ത് അംഗങ്ങൾക്ക് പ്രഥമ ശുശ്രൂഷ പരിശീലന ക്യാമ്പ് | Deep
-NOT filed (N) രേഖയില്ലാതെ ട്രെയിനിൽ കടത്തിയ 19.5 ലക്ഷം പിടികൂടി: all free models failed: no usable answer from the models
-try (N) manual=False: സംസ്ഥാനത്ത് സ്വർണവിലയിൽ വർധന
-NOT filed (N) പഞ്ചായത്ത് അംഗങ്ങൾക്ക് പ്രഥമ ശുശ്രൂഷ പരിശീലന ക്യാമ: all free models failed: no usable answer from the models
+NOT filed (N) ആർ.എ.സി. ടിക്കറ്റ് യാത്രയ്ക്ക് തൊട്ടുമുൻപ് റദ്ദായി: all free models failed: no usable answer from the models
 try (N) manual=False: പ്രവാസി പ്രശ്നങ്ങളിൽ ഉടനടി പരിഹാരം വേണം -റിമാൽ സൊസൈറ്റി | Ma
 NOT filed (N) പ്രവാസി പ്രശ്നങ്ങളിൽ ഉടനടി പരിഹാരം വേണം -റിമാൽ സൊസ: all free models failed: no usable answer from the models
 try (R) manual=False: എടവണ്ണയിൽ ചാലിയാർ പുഴയിൽ ഒരാളെ കാണാതായി; തിരച്ചിൽ തുടരുന്നു 
-skip (N) today's price is already filed: സംസ്ഥാനത്ത് സ്വർണവിലയിൽ വർധന
+NOT filed (R) എടവണ്ണയിൽ ചാലിയാർ പുഴയിൽ ഒരാളെ കാണാതായി; തിരച്ചിൽ : all free models failed: no usable answer from the models
 try (N) manual=False: കേരള ചരിത്ര കോൺഫറൻസിന് നാളെ മലപ്പുറത്ത് തുടക്കമാകും | Madhya
 NOT filed (N) കേരള ചരിത്ര കോൺഫറൻസിന് നാളെ മലപ്പുറത്ത് തുടക്കമാകു: all free models failed: no usable answer from the models
 try (N) manual=False: ഹരിതമിത്രം; ഒക്ടോബറിൽ മലപ്പുറം ജില്ലക്ക് 95.31ശതമാനം സേവനനേട
 NOT filed (N) ഹരിതമിത്രം; ഒക്ടോബറിൽ മലപ്പുറം ജില്ലക്ക് 95.31ശതമാ: all free models failed: no usable answer from the models
 try (N) manual=False: ഇത്തവണയും ‘ഷിബൂസ് സിഗ്നേച്ചർ’
 NOT filed (N) ഇത്തവണയും ‘ഷിബൂസ് സിഗ്നേച്ചർ’: all free models failed: no usable answer from the models
-try (N) manual=False: 'കിടുക്കാച്ചി അളിയൻ 'ഫസ്റ്റ് ലുക്ക് പോസ്റ്റർ പുറത്തിറങ്ങി. ച
-NOT filed (N) 'കിടുക്കാച്ചി അളിയൻ 'ഫസ്റ്റ് ലുക്ക് പോസ്റ്റർ പുറത്: all free models failed: no usable answer from the models
 try (N) manual=False: പൂവത്താണിയിൽ സൂപ്പർ മാർക്കറ്റ് കത്തിനശിച്ചു | Madhyamam
 NOT filed (N) പൂവത്താണിയിൽ സൂപ്പർ മാർക്കറ്റ് കത്തിനശിച്ചു | Madh: all free models failed: no usable answer from the models
-NOT filed (R) എടവണ്ണയിൽ ചാലിയാർ പുഴയിൽ ഒരാളെ കാണാതായി; തിരച്ചിൽ : all free models failed: no usable answer from the models
-NOT filed (N) ആർ.എ.സി. ടിക്കറ്റ് യാത്രയ്ക്ക് തൊട്ടുമുൻപ് റദ്ദായി: old event: the story is about 19 Sep 2024, nothing in it happened in the last days
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 10, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 22 min
+try (N) manual=False: 'കിടുക്കാച്ചി അളിയൻ 'ഫസ്റ്റ് ലുക്ക് പോസ്റ്റർ പുറത്തിറങ്ങി. ച
+NOT filed (N) 'കിടുക്കാച്ചി അളിയൻ 'ഫസ്റ്റ് ലുക്ക് പോസ്റ്റർ പുറത്: all free models failed: no usable answer from the models
+NOT filed (N) രേഖയില്ലാതെ ട്രെയിനിൽ കടത്തിയ 19.5 ലക്ഷം പിടികൂടി: all free models failed: no usable answer from the models
+NOT filed (N) പഞ്ചായത്ത് അംഗങ്ങൾക്ക് പ്രഥമ ശുശ്രൂഷ പരിശീലന ക്യാമ: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 9, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 25 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
 queue: 10 news waiting to be written
