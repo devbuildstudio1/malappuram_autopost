@@ -1,5 +1,16 @@
-writing [N]: ബിസിനസ് പങ്കാളിത്തവും കുറഞ്ഞ വിലക്ക് ഭൂമിയും വാഗ്ദാനം ചെയ്ത്
+writing [N]: തട്ടിക്കൊണ്ടുപോയി പണം കവർന്ന കേസിൽ തട്ടിക്കൊണ്ടുപോയി പണം കവർ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+writing [N]: ബിസിനസ് പങ്കാളിത്തവും കുറഞ്ഞ വിലക്ക് ഭൂമിയും വാഗ്ദാനം ചെയ്ത്
+writing [N]: കളറായി കുട്ടികളുടെ കളറിംഗ് മത്സരം; പെരിന്തൽമണ്ണ ബ്ലോക്ക് പഞ
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
@@ -11,6 +22,26 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -21,6 +52,26 @@ fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.5-flash
+fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.5-flash
+fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.5-flash
+fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, plea
+dead for this round: gemini/gemini-3-flash-preview
+fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, plea
+dead for this round: gemini/gemini-3-flash-preview
 fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
   "error": {
     "code": 429,
@@ -31,14 +82,41 @@ fail gemini/gemini-2.5-flash: gemini gemini-2.5-flash 404: {
     "code": 404,
     "message": "This model models/gemini-2.5-flash is no lo
 not available on this plan: gemini/gemini-2.5-flash
-writing [N]: തട്ടിക്കൊണ്ടുപോയി പണം കവർന്ന കേസിൽ തട്ടിക്കൊണ്ടുപോയി പണം കവർ
-free models unavailable:fail gemini/gemini-omni-1.2-flash: gemini gemini-omni-1.2-flash 429: {
+fail gemini/gemini-2.5-flash: gemini gemini-2.5-flash 404: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash is no lo
+not available on this plan: gemini/gemini-2.5-flash
+fail gemini/gemini-2.5-flash: gemini gemini-2.5-flash 404: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash is no lo
+not available on this plan: gemini/gemini-2.5-flash
+fail gemini/gemini-omni-1.2-flash: gemini gemini-omni-1.2-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, pleas
 dead for this round: gemini/gemini-omni-1.2-flash
- free models not efficient (6 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChSsuE3zduM8SRimriU4M"}
+fail gemini/gemini-omni-1.2-flash: gemini gemini-omni-1.2-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, pleas
+dead for this round: gemini/gemini-omni-1.2-flash
+fail gemini/gemini-omni-1.2-flash: gemini gemini-omni-1.2-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, pleas
+dead for this round: gemini/gemini-omni-1.2-flash
+fail gemini/gemini-omni-1.1-flash: gemini gemini-omni-1.1-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, pleas
+dead for this round: gemini/gemini-omni-1.1-flash
+fail gemini/gemini-omni-1.1-flash: gemini gemini-omni-1.1-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, pleas
+dead for this round: gemini/gemini-omni-1.1-flash
 fail gemini/gemini-omni-1.1-flash: gemini gemini-omni-1.1-flash 429: {
   "error": {
     "code": 429,
@@ -46,90 +124,74 @@ fail gemini/gemini-omni-1.1-flash: gemini gemini-omni-1.1-flash 429: {
 dead for this round: gemini/gemini-omni-1.1-flash
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/openai/gpt-oss-20b: groq openai/gpt-oss-20b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-20b` in organization `org_
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/openai/gpt-oss-20b: groq openai/gpt-oss-20b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-20b` in organization `org_fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
+
 not available on this plan: mistral/mistral-small-latest
 prompt too large for the free models left - trying the compact prompt
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChSsuK6camxyAAVjb8qcN"}
+free models unavailable: free models not efficient (34 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChStsfnsNyXmGf2Rw3N2g"}
+fail groq/openai/gpt-oss-20b: groq openai/gpt-oss-20b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-20b` in organization `org_
+prompt too large for the free models left - trying the compact prompt
+free models unavailable: free models not efficient (35 failures in a row): using Claude
 writing [N]: വൻതുക ലാഭവാഗ്ദാനം, ദമ്പതിമാരും മക്കളും ചേർന്ന് തട്ടിയെടുത്തത
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChSsuL4AGfrSJMt6qfmTt"}
-writing [N]: സഡൻ ഡെത്തിൽ മലപ്പുറം എഫ് സിയെ വീഴ്ത്തി: കണ്ണൂർ വാരിയേഴ്സിന് 
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChSsuPABRYUAEWx4kGdjd"}
+free models unavailable: free models not efficient (35 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChStsgz4No14Egnvro5KT"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChStsgzoEc7gfrn3Sy98e"}
 writing [N]: ചോലനായ്ക്കരുടെ ദുരിതജീവിതം നേരിട്ടറിഞ്ഞ് പട്ടികജാതി-വർഗ കമ്മ
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChSsuPtb4Lg8oJs7xXGpu"}
-writing [N]: കളറായി കുട്ടികളുടെ കളറിംഗ് മത്സരം; പെരിന്തൽമണ്ണ ബ്ലോക്ക് പഞ
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChSsuQoAK7KVNVrYYq25W"}
+free models unavailable: free models not efficient (35 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChStsix7z5GCv6QPoitd2"}
+writing [N]: സഡൻ ഡെത്തിൽ മലപ്പുറം എഫ് സിയെ വീഴ്ത്തി: കണ്ണൂർ വാരിയേഴ്സിന് 
+free models unavailable: free models not efficient (35 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChStskDmVYNs8Rk8M82nL"}
 writing [N]: സ്വാഗതസംഘം ഓഫീസ് തുറന്നു
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChSsuSXLrKzZoPkN6m2C9"}
+free models unavailable: free models not efficient (35 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChStsnSinEo1RgnznmbFD"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
+not available on this plan: mistral/mistral-small-latest
+free models unavailable: no free model answered: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChStsnzD7udgR92sXvYHA"}
+writing [N]: അങ്ങാടിപ്പുറത്ത് സംയുക്ത പരിശോധന; അഞ്ച് സ്ഥാപനങ്ങൾക്ക് നോട
+free models unavailable: free models not efficient (36 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChStsoQX3zXLppqQxDvtj"}
 writing [N]: കാമറ സ്വന്തം ലിറ്റിൽ കൈറ്റ്സ്
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChSsuTLwpmFpAUqZiJaMN"}writing [N]: അങ്ങാടിപ്പുറത്ത് സംയുക്ത പരിശോധന; അഞ്ച് സ്ഥാപനങ്ങൾക്ക് നോട
-
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChSsuTwAaYH1movaBcG1T"}
+free models unavailable: free models not efficient (36 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChStsqsb1YkMB4dQL7bRr"}
 earlier stories still waiting for images: []
 instagram check: 92 recent posts read from all pages
-write round: 27 news waiting in the queue (written in priority order)
-candidate filter: collected=22, already filed=2, not written=2, not written=1
-to write: 1 Manjeri + 0 Kondotty + 21 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 1 Manjeri, 0 Kondotty, 21 Malappuram; time left 29 min
-try (R) manual=False: സ്വർണ്ണം അരിച്ചെടുക്കാൻ ചാലിയാറിൽ ഇറങ്ങിയ യുവാവ് ഒഴുക്കിൽപ്പ
-try (N) manual=False: ചാലിയാറിൽ സ്വർണം അരിക്കാൻ ഇറങ്ങിയ യുവാവ് ഒഴുക്കിൽപ്പെട്ട് മര
+write round: 9 news waiting in the queue (written in priority order)
+candidate filter: collected=9
+to write: 0 Manjeri + 0 Kondotty + 9 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 0 Manjeri, 0 Kondotty, 9 Malappuram; time left 29 min
 try (N) manual=False: ബിസിനസ് പങ്കാളിത്തവും കുറഞ്ഞ വിലക്ക് ഭൂമിയും വാഗ്ദാനം ചെയ്ത്
-skip (R) similar to a filed story: സ്വർണ്ണം അരിച്ചെടുക്കാൻ ചാലിയാറിൽ ഇറങ്ങിയ യുവാവ് ഒ
-try (N) manual=False: വെളുപ്പിന്റ വിഷപ്പാട്; ഫെയർനസ് ക്രീം ഉപയോഗിച്ച 11 പെൺകുട്ടിക
-skip (N) similar to a filed story: വെളുപ്പിന്റ വിഷപ്പാട്; ഫെയർനസ് ക്രീം ഉപയോഗിച്ച 11 
 try (N) manual=False: തട്ടിക്കൊണ്ടുപോയി പണം കവർന്ന കേസിൽ തട്ടിക്കൊണ്ടുപോയി പണം കവർ
-skip (N) similar to a filed story: ചാലിയാറിൽ സ്വർണം അരിക്കാൻ ഇറങ്ങിയ യുവാവ് ഒഴുക്കിൽപ
-try (N) manual=False: ഒറ്റയടിക്ക് കൂടിയത് 1,280 രൂപ! ഇന്നത്തെ സ്വർണവില അറിയാം
-NOT filed (N) തട്ടിക്കൊണ്ടുപോയി പണം കവർന്ന കേസിൽ തട്ടിക്കൊണ്ടുപോ: all free models failed: no usable answer from the models
-try (N) manual=False: സ്വർണവില കൂടി; വെള്ളിക്കും വർധിച്ചു | Madhyamam
-skip (N) today's price is already filed: ഒറ്റയടിക്ക് കൂടിയത് 1,280 രൂപ! ഇന്നത്തെ സ്വർണവില അ
-try (N) manual=False: സ്വർണവിലയിൽ വർധന; പവന് ഒറ്റയടിക്ക് 1280 രൂപ കൂടി
-skip (N) today's price is already filed: സ്വർണവില കൂടി; വെള്ളിക്കും വർധിച്ചു | Madhyamam
-try (N) manual=False: പ്രതീക്ഷ തകർത്ത് സ്വർണം, വൻ കുതിപ്പ്; നവംബർ 27-ലെ വില | Kera
-skip (N) today's price is already filed: പ്രതീക്ഷ തകർത്ത് സ്വർണം, വൻ കുതിപ്പ്; നവംബർ 27-ലെ 
-try (N) manual=False: സ്വർണവില ഗിയർ മാറ്റി; ഇന്ന് വൻ മുന്നേറ്റം, വില കുറഞ്ഞിട്ട് വ
-skip (N) today's price is already filed: സ്വർണവില ഗിയർ മാറ്റി; ഇന്ന് വൻ മുന്നേറ്റം, വില കുറ
-try (N) manual=False: സ്വർണവില വീണ്ടും കുതിച്ചുയർന്നു; കേരളത്തിലും വൻ വർധന, തിരിച്
-skip (N) today's price is already filed: സ്വർണവിലയിൽ വർധന; പവന് ഒറ്റയടിക്ക് 1280 രൂപ കൂടി
-try (N) manual=False: കയറിക്കയറി പഴയ പടിയിലേക്കാണോ? സംസ്ഥാനത്ത് സ്വർണ വിലയിൽ വർധനവ
-skip (N) today's price is already filed: കയറിക്കയറി പഴയ പടിയിലേക്കാണോ? സംസ്ഥാനത്ത് സ്വർണ വി
-try (N) manual=False: ദുബായിൽ സ്വർണവിലയിൽ മാറ്റം; ഇന്ത്യയെക്കാൾ ലാഭത്തിൽ സ്വർണം വാ
-skip (N) today's price is already filed: സ്വർണവില വീണ്ടും കുതിച്ചുയർന്നു; കേരളത്തിലും വൻ വർ
-try (N) manual=False: കസ്റ്റംസ് ഓഫീസർ ചമഞ്ഞ് ഫോൺകോൾ; സ്വർണം നൽകുന്ന സ്കീം ഉണ്ടെന്ന
-skip (N) today's price is already filed: ദുബായിൽ സ്വർണവിലയിൽ മാറ്റം; ഇന്ത്യയെക്കാൾ ലാഭത്തിൽ
 try (N) manual=False: കളറായി കുട്ടികളുടെ കളറിംഗ് മത്സരം; പെരിന്തൽമണ്ണ ബ്ലോക്ക് പഞ
-skip (N) similar to a filed story: കസ്റ്റംസ് ഓഫീസർ ചമഞ്ഞ് ഫോൺകോൾ; സ്വർണം നൽകുന്ന സ്കീ
-try (N) manual=False: വൻതുക ലാഭവാഗ്ദാനം, ദമ്പതിമാരും മക്കളും ചേർന്ന് തട്ടിയെടുത്തത
 NOT filed (N) ബിസിനസ് പങ്കാളിത്തവും കുറഞ്ഞ വിലക്ക് ഭൂമിയും വാഗ്ദ: all free models failed: no usable answer from the models
-try (N) manual=False: ചോലനായ്ക്കരുടെ ദുരിതജീവിതം നേരിട്ടറിഞ്ഞ് പട്ടികജാതി-വർഗ കമ്മ
+try (N) manual=False: വൻതുക ലാഭവാഗ്ദാനം, ദമ്പതിമാരും മക്കളും ചേർന്ന് തട്ടിയെടുത്തത
 NOT filed (N) വൻതുക ലാഭവാഗ്ദാനം, ദമ്പതിമാരും മക്കളും ചേർന്ന് തട്: all free models failed: no usable answer from the models
-try (N) manual=False: സഡൻ ഡെത്തിൽ മലപ്പുറം എഫ് സിയെ വീഴ്ത്തി: കണ്ണൂർ വാരിയേഴ്സിന് 
-NOT filed (N) സഡൻ ഡെത്തിൽ മലപ്പുറം എഫ് സിയെ വീഴ്ത്തി: കണ്ണൂർ വാര: all free models failed: no usable answer from the models
-try (N) manual=False: അങ്ങാടിപ്പുറത്ത് സംയുക്ത പരിശോധന; അഞ്ച് സ്ഥാപനങ്ങൾക്ക് നോട
-NOT filed (N) ചോലനായ്ക്കരുടെ ദുരിതജീവിതം നേരിട്ടറിഞ്ഞ് പട്ടികജാത: all free models failed: no usable answer from the models
-try (N) manual=False: സ്വാഗതസംഘം ഓഫീസ് തുറന്നു
+try (N) manual=False: ചോലനായ്ക്കരുടെ ദുരിതജീവിതം നേരിട്ടറിഞ്ഞ് പട്ടികജാതി-വർഗ കമ്മ
 NOT filed (N) കളറായി കുട്ടികളുടെ കളറിംഗ് മത്സരം; പെരിന്തൽമണ്ണ ബ്: all free models failed: no usable answer from the models
-try (N) manual=False: റോഡിലെ കുഴികൾ നാട്ടുകാരടച്ചു; പക്ഷെ വീണ്ടും ചെളിക്കുളം
-skip (N) similar to a filed story: റോഡിലെ കുഴികൾ നാട്ടുകാരടച്ചു; പക്ഷെ വീണ്ടും ചെളിക്
-try (N) manual=False: കാമറ സ്വന്തം ലിറ്റിൽ കൈറ്റ്സ്
+try (N) manual=False: സഡൻ ഡെത്തിൽ മലപ്പുറം എഫ് സിയെ വീഴ്ത്തി: കണ്ണൂർ വാരിയേഴ്സിന് 
+NOT filed (N) ചോലനായ്ക്കരുടെ ദുരിതജീവിതം നേരിട്ടറിഞ്ഞ് പട്ടികജാത: all free models failed: no usable answer from the models
+try (N) manual=False: അങ്ങാടിപ്പുറത്ത് സംയുക്ത പരിശോധന; അഞ്ച് സ്ഥാപനങ്ങൾക്ക് നോട
+NOT filed (N) സഡൻ ഡെത്തിൽ മലപ്പുറം എഫ് സിയെ വീഴ്ത്തി: കണ്ണൂർ വാര: all free models failed: no usable answer from the models
+try (N) manual=False: സ്വാഗതസംഘം ഓഫീസ് തുറന്നു
 NOT filed (N) സ്വാഗതസംഘം ഓഫീസ് തുറന്നു: all free models failed: no usable answer from the models
-NOT filed (N) കാമറ സ്വന്തം ലിറ്റിൽ കൈറ്റ്സ്: all free models failed: no usable answer from the models
+try (N) manual=False: കാമറ സ്വന്തം ലിറ്റിൽ കൈറ്റ്സ്
+NOT filed (N) തട്ടിക്കൊണ്ടുപോയി പണം കവർന്ന കേസിൽ തട്ടിക്കൊണ്ടുപോ: all free models failed: no usable answer from the models
 NOT filed (N) അങ്ങാടിപ്പുറത്ത് സംയുക്ത പരിശോധന; അഞ്ച് സ്ഥാപനങ്ങ: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 21, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+NOT filed (N) കാമറ സ്വന്തം ലിറ്റിൽ കൈറ്റ്സ്: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 9, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
 queue: 9 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":12} 
+All News sheet: {"ok":true,"added":0,"updated":9} 
 stories: 0
