@@ -1,4 +1,4 @@
-writing [N]: സഡൻ ഡെത്തിൽ മലപ്പുറം വീണു; കണ്ണൂരിന് ജീവശ്വാസം, സെമിസാധ്യത ന
+writing [N]: ‘പ്രവർത്തകർക്ക് കവചമൊരുക്കിയതിന്റെ സമ്മാനമാണ് ഈ ചോര; നോവിച്ച
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
@@ -6,18 +6,18 @@ fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.8-flash
+writing [N]: ദാ പിന്നേം മുകളിലേക്ക്… പവന് 1280 രൂപയുടെ വർധനവ്
 fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
-writing [N]: 'പത്ത് വർഷമായി കുറിച്ചുനൽകുന്നു': എഫ് ട്യൂൺ ക്രീമിനെ ന്യായീക
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
 fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
   "error": {
@@ -29,14 +29,11 @@ fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.5-flash
-writing [N]: ‘പ്രവർത്തകർക്ക് കവചമൊരുക്കിയതിന്റെ സമ്മാനമാണ് ഈ ചോര; നോവിച്ച
-free models unavailable: free models not efficient (5 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChTTdmvvLhKprbsMim9kf"}
-ok gemini/gemini-3-flash-preview (10s)
-attempt 1 gemini/gemini-3-flash-preview: 1 problems
-  caption misses facts of the article (put every one in 📰 പൂർണ വിവരം): 23 ('നിലവിൽ കാലിക്കറ്റ് എഫ്സി (23 പോയിന്റ്), മലപ്പുറം എഫ്സി (18),'); 18 ('നിലവിൽ കാലിക്കറ്റ് എഫ്സി (23 പോയിന്റ്), മലപ്പുറം എഫ്സി (18),'); 13 ('നിലവിൽ കാലിക്കറ്റ് എഫ്സി (23 പോയിന്റ്), മലപ്പുറം എഫ്സി (18),')
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
+fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, plea
+dead for this round: gemini/gemini-3-flash-preview
 fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
   "error": {
     "code": 429,
@@ -47,6 +44,16 @@ fail gemini/gemini-2.5-flash: gemini gemini-2.5-flash 404: {
     "code": 404,
     "message": "This model models/gemini-2.5-flash is no lo
 not available on this plan: gemini/gemini-2.5-flash
+fail gemini/gemini-2.5-flash: gemini gemini-2.5-flash 404: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash is no lo
+not available on this plan: gemini/gemini-2.5-flash
+fail gemini/gemini-omni-1.2-flash: gemini gemini-omni-1.2-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, pleas
+dead for this round: gemini/gemini-omni-1.2-flash
 fail gemini/gemini-omni-1.2-flash: gemini gemini-omni-1.2-flash 429: {
   "error": {
     "code": 429,
@@ -57,84 +64,48 @@ fail gemini/gemini-omni-1.1-flash: gemini gemini-omni-1.1-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, pleas
 dead for this round: gemini/gemini-omni-1.1-flash
+fail gemini/gemini-omni-1.1-flash: gemini gemini-omni-1.1-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, pleas
+dead for this round: gemini/gemini-omni-1.1-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
 fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
 fail groq/openai/gpt-oss-20b: groq openai/gpt-oss-20b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-20b` in organization `org_
+fail groq/openai/gpt-oss-20b: groq openai/gpt-oss-20b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-20b` in organization `org_
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
 dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
 fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
 dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
-ok gemini/gemini-3-flash-preview (11s)
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
 not available on this plan: mistral/mistral-small-latest
 prompt too large for the free models left - trying the compact prompt
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `o
-ok groq/openai/gpt-oss-120b (4s)
-factcheck by groq/openai/gpt-oss-120b: 3 problems
-  Caption says health department banned (വിലക്കേർപ്പെടുത്തിയ) the cream, which is not mentioned in the article (only a warning and legal action)
-  Reel script omits the article’s detail that the doctor asked complainants to get medical tests before giving them money, an important fact
-  Reel script contains a grammatically unclear sentence "മലപ്പുറത്ത് വിവാദമായ എഫ് ട്യൂൺ ക്രീമിനെ ന്യായീകരിച്ച് ഡോക്ടർ രംഗത്ത്" which lacks clear meaning
-attempt 1 gemini/gemini-3-flash-preview: 3 problems
-  fact-check: Caption says health department banned (വിലക്കേർപ്പെടുത്തിയ) the cream, which is not mentioned in the article (only a warning and legal action)
-  fact-check: Reel script omits the article’s detail that the doctor asked complainants to get medical tests before giving them money, an important fact
-  fact-check: Reel script contains a grammatically unclear sentence "മലപ്പുറത്ത് വിവാദമായ എഫ് ട്യൂൺ ക്രീമിനെ ന്യായീകരിച്ച് ഡോക്ടർ രംഗത്ത്" which lacks clear meaning
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/openai/gpt-oss-20b: groq openai/gpt-oss-20b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-20b` in organization `org_
+free models unavailable: free models not efficient (24 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChTU5fDooW5Q7LKVTujD3"}
+fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
+not available on this plan: mistral/mistral-small-latest
 prompt too large for the free models left - trying the compact prompt
-free models unavailable: free models not efficient (3 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChTTf1WkfbtppMH9PzkTL"}
-proofread skipped: free models not efficient (3 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/openai/gpt-oss-20b: groq openai/gpt-oss-20b 400: {"error":{"message":"Failed to validate JSON. Please adjust your prompt. See 'failed_genera
-free models unavailable: no free model answered: groq openai/gpt-oss-20b 400: {"error":{"message":"Failed to validate JSON. Please adjust your pr
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChTTfyn71ze6NvKi4n89W"}
-proofread skipped: free models not efficient (6 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-image match check unavailable: gemini-3.7-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.7-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-imagegen: pollinations 402: {"status":402,"success":false,"error":{"code":"FREE_LIMIT","message":"Free limit reached: 1 image every 45 seconds per IP. Retry after 45s, or get unlimited images with a Pollinations API key at https
-imagegen: black-forest-labs/flux.1-schnell 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":430585}]}
-image match check unavailable: gemini-3.7-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.7-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=90) 504 timeout
-images NOT made for 'Doctor in Malappuram defends controversi': all image models failed: all image models failed: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=90)
-bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261127-1824","first":"MP-493"}
-posting job started at once
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261127-1824","first":"MP-494"}
-write_stories.yml started
+free models unavailable: free models not efficient (25 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChTU5n265GNAWrkDbfhKU"}
 earlier stories still waiting for images: []
 instagram check: 92 recent posts read from all pages
-write round: 4 news waiting in the queue (written in priority order)
-candidate filter: collected=4
-to write: 0 Manjeri + 0 Kondotty + 4 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Kondotty, 4 Malappuram; time left 29 min
+write round: 2 news waiting in the queue (written in priority order)
+candidate filter: collected=2
+to write: 0 Manjeri + 0 Kondotty + 2 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 0 Manjeri, 0 Kondotty, 2 Malappuram; time left 29 min
 try (N) manual=False: ദാ പിന്നേം മുകളിലേക്ക്… പവന് 1280 രൂപയുടെ വർധനവ്
-try (N) manual=False: 'പത്ത് വർഷമായി കുറിച്ചുനൽകുന്നു': എഫ് ട്യൂൺ ക്രീമിനെ ന്യായീക
-try (N) manual=False: സഡൻ ഡെത്തിൽ മലപ്പുറം വീണു; കണ്ണൂരിന് ജീവശ്വാസം, സെമിസാധ്യത ന
-skip (N) could not open: ദാ പിന്നേം മുകളിലേക്ക്… പവന് 1280 രൂപയുടെ വർധനവ് [https://www.kairalinewsonline.com/ml/business/kerala-gold-pr] 403 Client Error: Forbidden for url: https://www.kairalinewsonline.com/ml/busine
 try (N) manual=False: ‘പ്രവർത്തകർക്ക് കവചമൊരുക്കിയതിന്റെ സമ്മാനമാണ് ഈ ചോര; നോവിച്ച
+NOT filed (N) ദാ പിന്നേം മുകളിലേക്ക്… പവന് 1280 രൂപയുടെ വർധനവ്: all free models failed: no usable answer from the models
 NOT filed (N) ‘പ്രവർത്തകർക്ക് കവചമൊരുക്കിയതിന്റെ സമ്മാനമാണ് ഈ ചോ: all free models failed: no usable answer from the models
-auto images failed for 'Doctor in Malappuram defends controversi': all image models failed: all image models failed: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed ou -> images-needed email
-auto images: 0 of 1 stories ({'pollinations': 4})
-posting job started at once
-auto images: 0 of 1 stories ({'pollinations': 4})
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 4, 'K': 0}, done={'R': 0, 'N': 2, 'K': 0}, time left 24 min
-carousel for 0 of 2 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 2 Malappuram (targets 200 + 200 + 200)
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 2, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
 queue: 2 news waiting to be written
-write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":4} 
-stories: 2
+All News sheet: {"ok":true,"added":0,"updated":2} 
+stories: 0
