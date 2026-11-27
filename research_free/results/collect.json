@@ -2,118 +2,18 @@
  "log": [
   "earlier stories still waiting for images: []",
   "instagram check: 93 recent posts read from all pages",
-  "write round: 3 news waiting in the queue (written in priority order)",
-  "candidate filter: collected=2, checked earlier=1",
-  "to write: 1 Manjeri + 0 Kondotty + 1 other district candidates (max 200 + 200 + 200 stories)",
-  "candidates waiting: 1 Manjeri, 0 Kondotty, 1 Malappuram; time left 29 min",
-  "try (R) manual=False: ക്രിമിനൽ കേസ് പ്രതിക്കായി ലുക്ക് ഔട്ട് നോട്ടീസ് | Deepika | ",
+  "write round: 1 news waiting in the queue (written in priority order)",
+  "candidate filter: collected=1",
+  "to write: 0 Manjeri + 0 Kondotty + 1 other district candidates (max 200 + 200 + 200 stories)",
+  "candidates waiting: 0 Manjeri, 0 Kondotty, 1 Malappuram; time left 29 min",
   "try (N) manual=False: Topic : Inauguration of Nilambur Bypass | Deepika.com | Larg",
-  "NOT filed (N) Topic : Inauguration of Nilambur Bypass | Deepika.: all free models failed: no usable answer from the models",
-  "auto images failed for 'Nilambur police issue lookout notice for': all image models failed: all image models failed: black-forest-labs/flux.1-dev 422: {\"detail\":[{\"type\":\"extra_forbidden\" -> images-needed email",
-  "auto images: 0 of 1 stories ({'pollinations': 4})",
-  "posting job started at once",
-  "candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 1, 'K': 0}, done={'R': 1, 'N': 0, 'K': 0}, time left 24 min",
-  "carousel for 0 of 1 stories, the rest reel only",
-  "filed: 1 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)",
+  "skip (N) could not open: Topic : Inauguration of Nilambur Bypass | Deepika. [https://www.deepika.com/district-news/malappuram/inauguratio] 403 Client Error: Forbidden for url: https://www.deepika.com/district-news/malap",
+  "candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 1, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min",
+  "carousel for 0 of 0 stories, the rest reel only",
+  "filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)",
   "queue: 1 news waiting to be written",
-  "write_stories.yml started",
-  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":2}"
+  "All News sheet: {\"ok\":true,\"added\":0,\"updated\":1}"
  ],
- "llm": [
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.8-flash",
-  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.7-flash",
-  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.6-flash",
-  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
-  "dead for this round: gemini/gemini-3.5-flash",
-  "ok gemini/gemini-3-flash-preview (14s)",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
-  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b",
-  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
-  "dead for this round: gemini/gemini-3-flash-preview",
-  "fail gemini/gemini-2.5-flash: gemini gemini-2.5-flash 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no lo",
-  "not available on this plan: gemini/gemini-2.5-flash",
-  "fail gemini/gemini-omni-1.2-flash: gemini gemini-omni-1.2-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, pleas",
-  "dead for this round: gemini/gemini-omni-1.2-flash",
-  "fail gemini/gemini-omni-1.1-flash: gemini gemini-omni-1.1-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, pleas",
-  "dead for this round: gemini/gemini-omni-1.1-flash",
-  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
-  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
-  "fail groq/openai/gpt-oss-20b: groq openai/gpt-oss-20b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-20b` in organization `org_",
-  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
-  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
-  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
-  "fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {\"object\":\"error\",\"message\":\"You need a subscription to access this API.\",\"type\":\"bill",
-  "not available on this plan: mistral/mistral-small-latest",
-  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
- ],
- "stories": [
-  {
-   "malayalam_headline": "നിലമ്പൂരിൽ ക്രിമിനൽ കേസ് പ്രതിക്കായി പോലീസ് ലുക്ക് ഔട്ട് നോട്ടീസ് പുറപ്പെടുവിച്ചു",
-   "english_headline": "Nilambur police issue lookout notice for criminal case accused from Wandoor",
-   "category": "Crime & Safety",
-   "location": "Nilambur and Wandoor, Malappuram district",
-   "importance": "Medium",
-   "scope": "district",
-   "post_to": "Manjeri 360 (collab: Malappuram 360)",
-   "slides_spec": {
-    "v": 3,
-    "cat": "ലുക്ക് ഔട്ട്",
-    "loc": "നിലമ്പൂർ, മലപ്പുറം",
-    "hl1": "പ്രതിക്കായി പോലീസ് ലുക്ക് ഔട്ട് നോട്ടീസ്",
-    "hl2": "വണ്ടൂർ സ്വദേശിയെ തിരയുന്നു",
-    "slides": [
-     {
-      "title": "ആരെയാണ്",
-      "lines": [
-       "വണ്ടൂർ നായാടിക്കുന്ന് സ്വദേശി <b>റിഷാദ് മോൻ</b>",
-       "നിലമ്പൂർ പോലീസ് സ്റ്റേഷനിലെ ക്രൈം കേസ് പ്രതി",
-       "നിലവിൽ ഒളിവിൽ കഴിയുകയാണ്"
-      ]
-     },
-     {
-      "title": "അടയാളങ്ങൾ",
-      "lines": [
-       "ഉയരം <b>172</b> സെന്റീമീറ്റർ, മെലിഞ്ഞ ശരീരം",
-       "നീണ്ട മുഖവും നീണ്ട മൂക്കും, ഇരുനിറം",
-       "മലയാളം, ഹിന്ദി, അറബിക് ഭാഷകൾ സംസാരിക്കും"
-      ]
-     },
-     {
-      "title": "വാഹനം",
-      "lines": [
-       "<b>KL 46 Q 9252</b> നമ്പറിലുള്ള ബൈക്ക്",
-       "ഈ ബൈക്കിലാണ് പ്രതി ഒളിവിൽ പോയത്",
-       "കറുത്ത മുടിയും കറുത്ത കണ്ണുകളുമാണ്"
-      ]
-     },
-     {
-      "title": "വിവരമറിയിക്കാൻ",
-      "lines": [
-       "എസ്എച്ച്ഒ: <b>9497987173</b>",
-       "എസ്ഐ: <b>9846880411</b>",
-       "നിലമ്പൂർ സ്റ്റേഷൻ: <b>04931 220241</b>"
-      ]
-     }
-    ],
-    "carousel": false
-   },
-   "reel_script": "നിലമ്പൂരിൽ പ്രതിക്കായി പോലീസ് ലുക്ക് ഔട്ട് നോട്ടീസ്. വണ്ടൂർ നായാടിക്കുന്ന് സ്വദേശി റിഷാദ് മോനെ കണ്ടെത്താനാണ് പോലീസ് സഹായം തേടുന്നത്. നിലമ്പൂർ പോലീസ് സ്റ്റേഷനിലെ 103/2026 ക്രൈം കേസിലെ പ്രതിയാണ് റിഷാദ് മോൻ. കെഎൽ 46 ക്യു 9252 നമ്പറിലുള്ള ബൈക്കിലാണ് പ്രതി ഒളിവിൽ പോയത്. 172 സെന്റീമീറ്റർ ഉയരമുള്ള റിഷാദ് മോന് മെലിഞ്ഞ ശരീരവും നീണ്ട മുഖവുമാണ്. ഈ വ്യക്തി മലയാളം, ഹിന്ദി, അറബിക് ഭാഷകൾ സംസാരിക്കും. വിവരങ്ങൾ കിട്ടുന്നവർ 94 97 98 71 73 എന്ന നമ്പറിൽ അറിയിക്കണേ. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
-   "caption": "🚨 നിലമ്പൂരിൽ ക്രിമിനൽ കേസ് പ്രതിക്കായി പോലീസ് ലുക്ക് ഔട്ട് നോട്ടീസ് പുറപ്പെടുവിച്ചു\n\n📰 പൂർണ വിവരം:\nനിലമ്പൂർ പോലീസ് സ്റ്റേഷനിൽ രജിസ്റ്റർ ചെയ്ത ക്രൈം നമ്പർ 103/2026 കേസിലെ പ്രതിക്കായി പോലീസ് ലുക്ക് ഔട്ട് നോട്ടീസ് പുറപ്പെടുവിച്ചു. മലപ്പുറം വണ്ടൂർ നായാടിക്കുന്ന് സ്വദേശി നിരവിൽ വീട്ടിൽ അലിയുടെ മകൻ റിഷാദ് മോൻ എന്നയാൾക്കെതിരെയാണ് നോട്ടീസ്. നിലവിൽ ഒളിവിൽ കഴിയുന്ന പ്രതി തന്റെ ഉടമസ്ഥതയിലുള്ള KL 46 Q 9252 നമ്പറിലുള്ള ബൈക്കിലാണ് പോയത്. 172 സെന്റീമീറ്റർ ഉയരമുള്ള റിഷാദ് മോൻ മെലിഞ്ഞ ശരീരപ്രകൃതിയും ഇരുനിറവുമുള്ളയാളാണ്. നീണ്ട മുഖം, നീണ്ട മൂക്ക്, കറുത്ത മുടി, കറുത്ത കണ്ണുകൾ എന്നിവയാണ് മറ്റ് അടയാളങ്ങൾ. മലയാളത്തിന് പുറമെ ഹിന്ദി, അറബിക് ഭാഷകളും സംസാരിക്കും.\n\n📍 സ്ഥലം: നിലമ്പൂർ, മലപ്പുറം\n🗓️ തീയതി: 27 നവംബർ 2026\n👮 നടപടി: പോലീസ് ലുക്ക് ഔട്ട് നോട്ടീസ് പുറപ്പെടുവിച്ചു\n📞 ബന്ധപ്പെടാൻ: 9497987173 (SHO), 9846880411 (SI), 04931 220241 (നിലമ്പൂർ സ്റ്റേഷൻ)\n\nNilambur police lookout notice for Rishad Mon | Malappuram news\n📍 Nilambur, Malappuram | 27 Nov 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Nilambur #Wandoor #MalappuramNews",
-   "prompts": "A close-up of a printed lookout notice with a person's silhouette on a wooden notice board inside a Kerala police station, soft daylight coming from a window. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA black motorcycle with the number plate KL 46 Q 9252 parked on a quiet, narrow tar road in a rural area of Malappuram, surrounded by green trees. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide shot of the Nilambur Police Station building in Malappuram district during a clear afternoon, a police jeep parked in front. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA Kerala police officer in khaki uniform seen from behind, sitting at a desk and talking on a landline phone inside a station office. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA person's hand holding a smartphone, with the Nilambur police contact numbers displayed on the screen against a blurred outdoor background. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
-   "source": "https://www.deepika.com/district-news/malappuram/all/lookout-notice-issued-in-response-to-criminal-case-146850",
-   "published": "2026-11-27T14:36:05+05:30",
-   "verification": "FREE-MODEL DRAFT (gemini/gemini-3-flash-preview) - not checked by Claude yet; validator problems: numbers not found in the article: 71, 73, 97, 98",
-   "note": "free-model draft gemini/gemini-3-flash-preview, 1 attempt(s), 1 validator problem(s)",
-   "post_time": "right after your reply, same day",
-   "_area": "R",
-   "_score": 11.0,
-   "auto_images": true
-  }
- ]
+ "llm": [],
+ "stories": []
 }
