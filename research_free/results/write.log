@@ -1,3 +1,59 @@
+writing [N]: വലിയ ജനസംഖ്യ, രോഗങ്ങളുമേറേ, പക്ഷേ 
+ഫുഡ് സേഫ്റ്റി ഓഫീസർമാർ ക
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
+fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.5-flash
+fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, plea
+dead for this round: gemini/gemini-3-flash-preview
+fail gemini/gemini-2.5-flash: gemini gemini-2.5-flash 404: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash is no lo
+not available on this plan: gemini/gemini-2.5-flash
+fail gemini/gemini-omni-1.2-flash: gemini gemini-omni-1.2-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, pleas
+dead for this round: gemini/gemini-omni-1.2-flash
+fail gemini/gemini-omni-1.1-flash: gemini gemini-omni-1.1-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, pleas
+dead for this round: gemini/gemini-omni-1.1-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/openai/gpt-oss-20b: groq openai/gpt-oss-20b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-20b` in organization `org_
+fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {"errors":[{"message":"AiError: AiError: you have used up your 
+dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast
+fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {"errors":[{"message":"AiError: AiError: you have used up y
+dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
+fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
+not available on this plan: mistral/mistral-small-latest
+prompt too large for the free models left - trying the compact prompt
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChSfC2oXgPfJLmz8d6e32"}
 earlier stories still waiting for images: []
 instagram check: 92 recent posts read from all pages
 write round: 1 news waiting in the queue (written in priority order)
@@ -6,8 +62,8 @@ to write: 0 Manjeri + 0 Kondotty + 1 other district candidates (max 200 + 200 + 
 candidates waiting: 0 Manjeri, 0 Kondotty, 1 Malappuram; time left 29 min
 try (N) manual=False: വലിയ ജനസംഖ്യ, രോഗങ്ങളുമേറേ, പക്ഷേ 
 ഫുഡ് സേഫ്റ്റി ഓഫീസർമാർ ക
-skip (N) could not open: വലിയ ജനസംഖ്യ, രോഗങ്ങളുമേറേ, പക്ഷേ 
-ഫുഡ് സേഫ്റ്റി  [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu
+NOT filed (N) വലിയ ജനസംഖ്യ, രോഗങ്ങളുമേറേ, പക്ഷേ 
+ഫുഡ് സേഫ്റ്റി : all free models failed: no usable answer from the models
 candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 1, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
 carousel for 0 of 0 stories, the rest reel only
 filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
