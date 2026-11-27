@@ -21,6 +21,14 @@ fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.5-flash
+writing [N]: Topic : Inauguration of Nilambur Bypass | Deepika.com | Larg
+free models unavailable: free models not efficient (4 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChTc3214dDeEe6fm6gHVG"}
+ok gemini/gemini-3-flash-preview (14s)
+attempt 1 gemini/gemini-3-flash-preview: 1 problems
+  numbers not found in the article: 71, 73, 97, 98
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
 fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
   "error": {
     "code": 429,
@@ -51,69 +59,40 @@ dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
 not available on this plan: mistral/mistral-small-latest
 prompt too large for the free models left - trying the compact prompt
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChTZ34y54krc6wEkqS1p5"}
-writing [N]: ‘പ്രവർത്തകർക്ക് കവചമൊരുക്കിയതിന്റെ സമ്മാനമാണ് ഈ ചോര; നോവിച്ച
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChTZ3HvBWHjNQRKmJsKpT"}
-writing [N]: Topic : Inauguration of Nilambur Bypass | Deepika.com | Larg
-free models unavailable: free models not efficient (14 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChTZ3KEZ6RbcDzFivyhof"}
+free models unavailable: free models not efficient (10 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChTc485Ts9YZWWJsRtBew"}
+proofread skipped: free models not efficient (10 failures in a row): using Claude
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
+imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
+gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
+image match check unavailable: gemini-3.7-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+imagegen: pollinations 402: {"status":402,"success":false,"error":{"code":"FREE_LIMIT","message":"Free limit reached: 1 image every 45 seconds per IP. Retry after 45s, or get unlimited images with a Pollinations API key at https
+imagegen: black-forest-labs/flux.1-schnell 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":707302}]}
+image match check unavailable: gemini-3.7-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+image match check unavailable: gemini-3.7-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+imagegen: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":707302}]}
+image match check unavailable: gemini-3.7-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
+images NOT made for 'Nilambur police issue lookout notice for': all image models failed: all image models failed: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":707302}]}
+bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261127-2014","first":"MP-495"}
+posting job started at once
+write_stories.yml started
 earlier stories still waiting for images: []
 instagram check: 93 recent posts read from all pages
-write round: 28 news waiting in the queue (written in priority order)
-candidate filter: collected=23, already filed=3, not written=2
-to write: 2 Manjeri + 0 Kondotty + 21 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 2 Manjeri, 0 Kondotty, 21 Malappuram; time left 29 min
-try (R) manual=False: സ്വർണ്ണം അരിച്ചെടുക്കാൻ ചാലിയാറിൽ ഇറങ്ങിയ യുവാവ് ഒഴുക്കിൽപ്പ
-try (N) manual=False: സഹകരണ ബാങ്കുകളിൽ അക്കൗണ്ട്  തുറന്ന് തട്ടിപ്പ്; നാലുപേർ അറസ്റ
-try (N) manual=False: പോലീസ് കണ്ണുവെട്ടിക്കാൻ നോക്കി, പക്ഷെ പാളി...! ഒഡീഷയിൽ നിന്ന
-skip (R) similar to a filed story: സ്വർണ്ണം അരിച്ചെടുക്കാൻ ചാലിയാറിൽ ഇറങ്ങിയ യുവാവ് ഒ
-try (N) manual=False: വിദ്യാർത്ഥികളെ ലക്ഷ്യമിട്ട് ഒഡീഷയിൽ നിന്ന് കഞ്ചാവ് എത്തിച്ചു
-skip (N) similar to a filed story: സഹകരണ ബാങ്കുകളിൽ അക്കൗണ്ട്  തുറന്ന് തട്ടിപ്പ്; നാല
-try (N) manual=False: Kerala Gold Rate Today : സ്വർണവില ഉച്ചയ്ക്കും കൂടി, ഇന്ന് ഒറ
-skip (N) today's price is already filed: Kerala Gold Rate Today : സ്വർണവില ഉച്ചയ്ക്കും കൂടി
+write round: 3 news waiting in the queue (written in priority order)
+candidate filter: collected=2, checked earlier=1
+to write: 1 Manjeri + 0 Kondotty + 1 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 1 Manjeri, 0 Kondotty, 1 Malappuram; time left 29 min
 try (R) manual=False: ക്രിമിനൽ കേസ് പ്രതിക്കായി ലുക്ക് ഔട്ട് നോട്ടീസ് | Deepika | 
-skip (N) similar to a filed story: വിദ്യാർത്ഥികളെ ലക്ഷ്യമിട്ട് ഒഡീഷയിൽ നിന്ന് കഞ്ചാവ്
-try (N) manual=False: സംസ്ഥാനത്ത് സ്വർണവിലയിൽ വീണ്ടും വർധനവ്; പവന് 1280 രൂപ കൂടി
-skip (N) similar to a filed story: പോലീസ് കണ്ണുവെട്ടിക്കാൻ നോക്കി, പക്ഷെ പാളി...! ഒഡീ
-try (N) manual=False: ഉച്ചയ്ക്ക് ശേഷവും സ്വർണവില കൂടി; 2640 രൂപയുടെ വർധന; വീണ്ടും 
-skip (N) today's price is already filed: സംസ്ഥാനത്ത് സ്വർണവിലയിൽ വീണ്ടും വർധനവ്; പവന് 1280 
-try (N) manual=False: സ്വർണവില രണ്ടാമതും ഉയർന്നു; ഉച്ചക്ക് ശേഷമുണ്ടായത് വൻ വർധന
-skip (N) today's price is already filed: ഉച്ചയ്ക്ക് ശേഷവും സ്വർണവില കൂടി; 2640 രൂപയുടെ വർധന
-try (N) manual=False: 88,000ലേക്ക് വീഴുമോ, ഒരു ലക്ഷം കടക്കുമോ? സ്വർണവില ഇനി എങ്ങോട
-skip (N) today's price is already filed: സ്വർണവില രണ്ടാമതും ഉയർന്നു; ഉച്ചക്ക് ശേഷമുണ്ടായത് 
-try (N) manual=False: പൊന്നിന് തീവില? ആഭരണപ്രേമികളെ വട്ടംകറക്കി സ്വർണവില; ഇന്ന് പവ
-NOT filed (R) ക്രിമിനൽ കേസ് പ്രതിക്കായി ലുക്ക് ഔട്ട് നോട്ടീസ് | : all free models failed: no usable answer from the models
-try (N) manual=False: സ്വർണവില കൂടി; വെള്ളിക്കും വർധിച്ചു | Madhyamam
-skip (N) today's price is already filed: സ്വർണവില കൂടി; വെള്ളിക്കും വർധിച്ചു | Madhyamam
-try (N) manual=False: സ്വർണവില വീണ്ടും കൂടി; 2640 രൂപയുടെ മാറ്റം, ട്രെൻഡ് മാറി സ്വ
-skip (N) today's price is already filed: സ്വർണവില വീണ്ടും കൂടി; 2640 രൂപയുടെ മാറ്റം, ട്രെൻഡ
-try (N) manual=False: സ്വർണ വില കൂടി; ഡിസംബർ 9 നിർണായകമാകും
-skip (N) today's price is already filed: 88,000ലേക്ക് വീഴുമോ, ഒരു ലക്ഷം കടക്കുമോ? സ്വർണവില 
-try (N) manual=False: സ്വർണവില ഇന്ന് (27 നവംബർ 2026): പവന് ₹2,640 കൂടി; ഒരു പവന് ₹
-skip (N) today's price is already filed: സ്വർണ വില കൂടി; ഡിസംബർ 9 നിർണായകമാകും
-try (N) manual=False: പ്രതീക്ഷ തകർത്ത് സ്വർണം, വൻ കുതിപ്പ്; നവംബർ 27-ലെ വില | Kera
-skip (N) today's price is already filed: പ്രതീക്ഷ തകർത്ത് സ്വർണം, വൻ കുതിപ്പ്; നവംബർ 27-ലെ 
-try (N) manual=False: ഇല്ല, 90,000 രൂപയ്ക്ക് താഴേക്കില്ല; കുതിച്ചുയർന്ന് സ്വർണവില,
-skip (N) today's price is already filed: പൊന്നിന് തീവില? ആഭരണപ്രേമികളെ വട്ടംകറക്കി സ്വർണവില
-try (N) manual=False: സ്വർണവിലയിൽ ചാഞ്ചാട്ടം തുടരുന്നു; വാങ്ങാൻ കാത്തിരിക്കുന്നവർ 
-skip (N) today's price is already filed: സ്വർണവില ഇന്ന് (27 നവംബർ 2026): പവന് ₹2,640 കൂടി; 
-try (N) manual=False: TODAY'S GOLD RATE|സ്വർണവിലയിൽ മുന്നേറ്റം;പവന് 1280 രൂപ ഉയർന്
-skip (N) today's price is already filed: ഇല്ല, 90,000 രൂപയ്ക്ക് താഴേക്കില്ല; കുതിച്ചുയർന്ന്
-try (N) manual=False: ലാഭം വാഗ്ദാനം ചെയ്ത് പണവും സ്വർണവും കൈക്കലാക്കി; ദമ്പതികൾ തട
-skip (N) today's price is already filed: സ്വർണവിലയിൽ ചാഞ്ചാട്ടം തുടരുന്നു; വാങ്ങാൻ കാത്തിരി
 try (N) manual=False: Topic : Inauguration of Nilambur Bypass | Deepika.com | Larg
-skip (N) today's price is already filed: TODAY'S GOLD RATE|സ്വർണവിലയിൽ മുന്നേറ്റം;പവന് 1280
-try (N) manual=False: ‘പ്രവർത്തകർക്ക് കവചമൊരുക്കിയതിന്റെ സമ്മാനമാണ് ഈ ചോര; നോവിച്ച
-skip (N) similar to a filed story: ലാഭം വാഗ്ദാനം ചെയ്ത് പണവും സ്വർണവും കൈക്കലാക്കി; ദ
-try (N) manual=False: ചാഞ്ചാട്ടം തുടർന്ന് സ്വർണം; പവന് ഇന്ന് 1,280 രൂപ കൂടി – Kera
-skip (N) today's price is already filed: ചാഞ്ചാട്ടം തുടർന്ന് സ്വർണം; പവന് ഇന്ന് 1,280 രൂപ ക
-NOT filed (N) ‘പ്രവർത്തകർക്ക് കവചമൊരുക്കിയതിന്റെ സമ്മാനമാണ് ഈ ചോ: all free models failed: no usable answer from the models
 NOT filed (N) Topic : Inauguration of Nilambur Bypass | Deepika.: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 2, 'N': 21, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
-carousel for 0 of 0 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
-queue: 3 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":5} 
-stories: 0
+auto images failed for 'Nilambur police issue lookout notice for': all image models failed: all image models failed: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden" -> images-needed email
+auto images: 0 of 1 stories ({'pollinations': 4})
+posting job started at once
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 1, 'K': 0}, done={'R': 1, 'N': 0, 'K': 0}, time left 24 min
+carousel for 0 of 1 stories, the rest reel only
+filed: 1 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
+queue: 1 news waiting to be written
+write_stories.yml started
+All News sheet: {"ok":true,"added":0,"updated":2} 
+stories: 1
