@@ -7,13 +7,102 @@
   "to write: 0 Manjeri + 0 Kondotty + 1 other district candidates (max 200 + 200 + 200 stories)",
   "candidates waiting: 0 Manjeri, 0 Kondotty, 1 Malappuram; time left 29 min",
   "try (N) manual=False: വലിയ ജനസംഖ്യ, രോഗങ്ങളുമേറേ, പക്ഷേ \r\nഫുഡ് സേഫ്റ്റി ഓഫീസർമാർ ക",
-  "skip (N) could not open: വലിയ ജനസംഖ്യ, രോഗങ്ങളുമേറേ, പക്ഷേ \r\nഫുഡ് സേഫ്റ്റി  [https://www.keralakaumudi.com/local/malappuram/local-news--m] 403 Client Error: Forbidden for url: https://www.keralakaumudi.com/local/malappu",
-  "candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 1, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min",
-  "carousel for 0 of 0 stories, the rest reel only",
-  "filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)",
-  "queue: 1 news waiting to be written",
+  "auto images failed for 'Shortage of Food Safety Officers in Mala': all image models failed: all image models failed: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed ou -> images-needed email",
+  "auto images: 0 of 1 stories ({'pollinations': 3})",
+  "posting job started at once",
+  "candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 1, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 24 min",
+  "carousel for 0 of 1 stories, the rest reel only",
+  "filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)",
+  "queue: 0 news waiting to be written",
   "All News sheet: {\"ok\":true,\"added\":0,\"updated\":1}"
  ],
- "llm": [],
- "stories": []
+ "llm": [
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.8-flash",
+  "fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.7-flash",
+  "fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.6-flash",
+  "fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please che",
+  "dead for this round: gemini/gemini-3.5-flash",
+  "ok gemini/gemini-3-flash-preview (11s)",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash",
+  "groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b",
+  "fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, plea",
+  "dead for this round: gemini/gemini-3-flash-preview",
+  "fail gemini/gemini-2.5-flash: gemini gemini-2.5-flash 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no lo",
+  "not available on this plan: gemini/gemini-2.5-flash",
+  "fail gemini/gemini-omni-1.2-flash: gemini gemini-omni-1.2-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, pleas",
+  "dead for this round: gemini/gemini-omni-1.2-flash",
+  "fail gemini/gemini-omni-1.1-flash: gemini gemini-omni-1.1-flash 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, pleas",
+  "dead for this round: gemini/gemini-omni-1.1-flash",
+  "fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `or",
+  "fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6",
+  "fail groq/openai/gpt-oss-20b: groq openai/gpt-oss-20b 413: {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-20b` in organization `org_",
+  "fail cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast: cloudflare @cf/meta/llama-3.3-70b-instruct-fp8-fast 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your ",
+  "dead for this round: cloudflare/@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "fail cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct: cloudflare @cf/mistralai/mistral-small-3.1-24b-instruct 429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up y",
+  "dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {\"object\":\"error\",\"message\":\"You need a subscription to access this API.\",\"type\":\"bill",
+  "not available on this plan: mistral/mistral-small-latest",
+  "gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash"
+ ],
+ "stories": [
+  {
+   "malayalam_headline": "മലപ്പുറത്ത് ഭക്ഷ്യ സുരക്ഷാ ഉദ്യോഗസ്ഥരുടെ കുറവ്; പരിശോധനകൾ പ്രതിസന്ധിയിൽ",
+   "english_headline": "Shortage of Food Safety Officers in Malappuram district affects inspections and public health",
+   "category": "Health",
+   "location": "Malappuram district",
+   "importance": "High",
+   "scope": "district",
+   "post_to": "Malappuram 360 (collab: Manjeri 360)",
+   "slides_spec": {
+    "v": 3,
+    "cat": "ആരോഗ്യം",
+    "loc": "മലപ്പുറം ജില്ല",
+    "hl1": "മലപ്പുറത്ത് ഭക്ഷ്യ സുരക്ഷാ ഉദ്യോഗസ്ഥർ",
+    "hl2": "പരിശോധനകൾ മുടങ്ങുന്നു",
+    "slides": [
+     {
+      "title": "ഉദ്യോഗസ്ഥരുടെ",
+      "lines": [
+       "<b>42 ലക്ഷം</b> ജനങ്ങളുള്ള ജില്ലയിൽ ആകെ <b>16</b> ഉദ്യോഗസ്ഥർ",
+       "<b>1,000</b> കടകൾക്ക് ഒരാൾ വേണമെന്നാണ് കണക്ക്",
+       "ജില്ലയിൽ <b>40</b> പേരെങ്കിലും വേണം"
+      ]
+     },
+     {
+      "title": "രോഗങ്ങൾ പടരുന്നു",
+      "lines": [
+       "<b>6</b> മാസത്തിനിടെ <b>500</b> പേർക്ക് മഞ്ഞപ്പിത്തം",
+       "കാളികാവ്, വണ്ടൂർ ഭാഗത്ത് <b>200</b>ൽ അധികം പേർക്ക് രോഗം",
+       "പരിശോധനയില്ലാത്ത തട്ടുകടകൾ വർദ്ധിക്കുന്നു"
+      ]
+     },
+     {
+      "title": "നിലവിലെ അവസ്ഥ",
+      "lines": [
+       "ഒരാൾക്ക് ഒന്നിലധികം സർക്കിളുകളുടെ ചുമതല",
+       "മൊബൈൽ വിജിലൻസ് സ്ക്വാഡ് കാര്യക്ഷമമല്ല",
+       "രജിസ്റ്റർ ചെയ്യാത്ത കടകൾക്കും കണക്കില്ല"
+      ]
+     }
+    ],
+    "carousel": false
+   },
+   "reel_script": "മലപ്പുറത്ത് ഭക്ഷ്യ സുരക്ഷാ ഉദ്യോഗസ്ഥരുടെ കുറവ് കാരണം പരിശോധനകൾ പ്രതിസന്ധിയിൽ. 42 ലക്ഷം ജനങ്ങളുള്ള നമ്മുടെ ജില്ലയിൽ ആകെ 16 ഫുഡ് സേഫ്റ്റി ഓഫീസർമാർ മാത്രമാണുള്ളത്. 1,000 കടകൾക്ക് ഒരു ഉദ്യോഗസ്ഥൻ വേണമെന്നാണ് കണക്ക്. ഇതനുസരിച്ച് ജില്ലയിൽ 40 പേരെങ്കിലും വേണം. ഉദ്യോഗസ്ഥർ കുറവായതിനാൽ റോഡരികിലെ തട്ടുകടകളിലും മറ്റും കൃത്യമായ പരിശോധന നടക്കുന്നില്ല. കഴിഞ്ഞ 6 മാസത്തിനിടെ ജില്ലയിൽ 500ലധികം പേർക്ക് മഞ്ഞപ്പിത്തം ബാധിച്ചു. കാളികാവ്, വണ്ടൂർ ഭാഗങ്ങളിൽ മാത്രം 200ലധികം പേർക്ക് രോഗം റിപ്പോർട്ട് ചെയ്തിട്ടുണ്ട്. പല ഉദ്യോഗസ്ഥർക്കും ഒന്നിലധികം സ്ഥലങ്ങളുടെ ചുമതലയാണുള്ളത്. പുറത്തുനിന്ന് ഭക്ഷണം കഴിക്കുന്നവർ ജാഗ്രത പാലിക്കണേ. ഈ വിവരം എല്ലാവർക്കും ഷെയർ ചെയ്യണേ. കൂടുതൽ വാർത്തകൾക്ക് മലപ്പുറം ത്രീ സിക്സ്റ്റി പേജ് ഫോളോ ചെയ്യൂ.",
+   "caption": "🍔 മലപ്പുറത്ത് ഭക്ഷ്യ സുരക്ഷാ ഉദ്യോഗസ്ഥരുടെ കുറവ്; പരിശോധനകൾ പ്രതിസന്ധിയിൽ\n\n📰 പൂർണ വിവരം:\n42 ലക്ഷം ജനസംഖ്യയുള്ള മലപ്പുറം ജില്ലയിൽ ആകെ 16 ഫുഡ് സേഫ്റ്റി ഓഫീസർമാർ മാത്രമാണുള്ളത്. ഒരു നിയമസഭാ മണ്ഡലത്തിൽ ഒരാൾ എന്ന നിലയിലാണ് ഇപ്പോഴുള്ളത്. എന്നാൽ 1,000 ലൈസൻസുള്ള കടകൾക്ക് ഒരു ഉദ്യോഗസ്ഥൻ വേണമെന്നാണ് ഭക്ഷ്യസുരക്ഷാ വകുപ്പിന്റെ കണക്ക്. ഇതനുസരിച്ച് ജില്ലയിൽ 40ൽ അധികം ഉദ്യോഗസ്ഥർ ആവശ്യമാണ്. ഉദ്യോഗസ്ഥരുടെ കുറവ് കാരണം റോഡരികിലെ തട്ടുകടകളിലും മറ്റും കൃത്യമായ പരിശോധന നടക്കുന്നില്ല. കഴിഞ്ഞ 6 മാസത്തിനിടെ ജില്ലയിൽ 500ലധികം പേർക്ക് മഞ്ഞപ്പിത്തം ബാധിച്ചു. കാളികാവ്, വണ്ടൂർ ബ്ലോക്കുകളിൽ മാത്രം 200ലധികം പേർക്ക് രോഗം ബാധിക്കുകയും മരണങ്ങൾ റിപ്പോർട്ട് ചെയ്യുകയും ചെയ്തിട്ടുണ്ട്. പലപ്പോഴും ഒരു ഉദ്യോഗസ്ഥന് തന്നെ ഒന്നിലധികം സർക്കിളുകളുടെ അധിക ചുമതല നൽകിയാണ് പരിശോധനകൾ നടത്തുന്നത്.\n📍 സ്ഥലം: മലപ്പുറം ജില്ല\nℹ️ ശ്രദ്ധിക്കുക: പുറത്തുനിന്ന് ഭക്ഷണം കഴിക്കുന്നവർ ജാഗ്രത പാലിക്കുക\nആവശ്യമുള്ളവർക്ക് Share ചെയ്യൂ\n\nShortage of Food Safety Officers in Malappuram | Malappuram news\n📍 Malappuram | 27 November 2026\n\nപ്രാദേശിക വാർത്തകൾക്ക് Follow ചെയ്യൂ 🙏\n\n#Malappuram360 #Malappuram #Health #FoodSafety #MalappuramNews",
+   "prompts": "A busy street in Malappuram town with several roadside food stalls and tea shops in the evening, people seen from behind eating, warm street lights, coconut trees in the background. Same soft evening light and natural colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA close-up of a food safety inspection in progress at a small restaurant kitchen in Malappuram, an officer in a formal shirt seen from behind checking food containers, stainless steel counters. Same soft evening light and natural colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA wide view of a local health centre or hospital corridor in Malappuram district, blurred people waiting, clean white walls, a health awareness poster in Malayalam on the wall. Same soft evening light and natural colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).\n---\nA row of small wooden tea stalls and eateries along a rural road in Wandoor, Malappuram, during sunset, some stalls closed, overhead electric lines and green foliage. Same soft evening light and natural colour grade across this series. Photorealistic press photograph from Malappuram district, Kerala, India. One single continuous frame (no collage, no panels), tall vertical 9:16 composition, the main subject in the centre, shot on a full-frame camera, sharp focus across the frame, natural light, true-to-life colours, documentary photojournalism. No text, no letters, no numbers, no signboards, no logos, no watermarks, no brand names, no company logos, no product labels, no recognisable faces. Keep the lower third visually simple (road, wall, ground, sky).",
+   "source": "https://www.keralakaumudi.com/local/malappuram/local-news--malappuram-1830648",
+   "published": "2026-11-27T04:24:35+05:30",
+   "verification": "FREE-MODEL DRAFT (gemini/gemini-3-flash-preview) - not checked by Claude yet; validator problems: numbers not found in the article: 000, 500, 6",
+   "note": "free-model draft gemini/gemini-3-flash-preview, 1 attempt(s), 1 validator problem(s)",
+   "post_time": "right after your reply, same day",
+   "_area": "N",
+   "_score": 11.0,
+   "auto_images": true
+  }
+ ]
 }
