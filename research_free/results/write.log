@@ -1,20 +1,14 @@
-writing [N]: സംസ്ഥാനത്ത് സ്വർണവിലയിൽ നേരിയ ഇടിവ്; പവന് 400 രൂപ കുറഞ്ഞു
 writing [N]: അയ്യപ്പൻമാർക്ക് തുണയായി ശബരി: റവന്യൂ വകുപ്പിന് മാതൃകയാക്കാവു
+writing [N]: മേലാറ്റൂർ അങ്ങാടിയിൽനിന്ന് സകൂൾപ്പടിയിലേക്ക് റോഡരികിൽ വേണം ന
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
+fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-writing [N]: പിതൃസഹോദരനെ ആക്രമിച്ച കേസ്: പ്രതികൾക്ക് ഏഴുമാസം തടവുശിക്ഷ |
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.8-flash
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
   "error": {
     "code": 429,
@@ -25,6 +19,16 @@ fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.7-flash: gemini gemini-3.7-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.7-flash
+fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.6-flash
 fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
   "error": {
     "code": 429,
@@ -35,21 +39,6 @@ fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.5-flash
-ok gemini/gemini-3-flash-preview (12s)
-attempt 1 gemini/gemini-3-flash-preview: 1 problems
-  numbers not found in the article: 000, 7
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-switching away from gemini/gemini-3.8-flash for 10 min
-fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high d
-switching away from gemini/gemini-3.8-flash for 10 min
 fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
   "error": {
     "code": 429,
@@ -80,217 +69,130 @@ dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
 not available on this plan: mistral/mistral-small-latest
 prompt too large for the free models left - trying the compact prompt
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV2mh6Wu8qJj3bcXneeS"}
-writing [N]: സ്വർണവില വീണ്ടും ഇടിഞ്ഞു; ഡോളർ കുതിപ്പിൽ സ്വർണത്തിന് അടിതെറ്
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV2miCkj3G5t2PD3ZRAV"}
-writing [N]: നവംബർ 28-ലെ സ്വർണവില; പൊന്നിന്റെ കളികൾ തുടരും | Kerala Gold 
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV2mizd1D63HPcRDvAEg"}
-writing [N]: മേലാറ്റൂർ അങ്ങാടിയിൽനിന്ന് സകൂൾപ്പടിയിലേക്ക് റോഡരികിൽ വേണം ന
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV2mjeZhpyii25qZgfoV"}
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3KHrvGBXr1V2uBTxEX"}
 writing [N]: തദ്ദേശ പദ്ധതികളിൽ ഇടപെടാൻ വയോജനങ്ങളും; കാരണവന്മാരും ഇനി കാര്
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV2mkdbkLWStZX73BkrT"}
-writing [N]: സ്വർണവില ഇന്ന് (28 നവംബർ 2026): പവന് ₹400 കുറഞ്ഞു; ഒരു പവന് 
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV2moz1x7ci92UzofXhR"}
-writing [N]: സ്വർണവില ഇന്ന് കുറഞ്ഞു, നേരിയ ആശ്വാസം..ഇനിയും താഴേക്കോ? ഇന്ന
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV2mpupDgwuTNGDk3qYD"}
-writing [N]: സ്വർണവില 50,000ത്തിലേക്ക് അല്ല..പവൻ വില 1.75 ലക്ഷത്തിലേക്ക്.
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV2mqeiiSxZttk71LMsP"}
-writing [N]: കുതിപ്പിന് തടയിട്ട് സ്വർണ വിലയിൽ വീണ്ടും ഇടിവ് | Madhyamam
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV2mrkCFy35T23mYqQ78"}
-writing [N]: വിലയിരുത്തലുകൾ പാളി! സ്വർണ വില ഇന്നും താഴേക്ക്; 400 രൂപയുടെ 
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV2msWMANPP4cYLdwicB"}
-writing [N]: ഡോളർ കുതിച്ചു; സ്വർണവില ഇടിഞ്ഞു
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV2mtoyW87AJZo256fFt"}
-writing [N]: കയറിക്കയറി പഴയ പടിയിലേക്കാണോ? സംസ്ഥാനത്ത് സ്വർണ വിലയിൽ വർധനവ
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV2muoFxuf3AeGZADjho"}
-writing [N]: TODAY'S GOLD RATE|സ്വർണവിലയിൽ മുന്നേറ്റം;പവന് 1280 രൂപ ഉയർന്
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV2mzLME1PCMG2T8kynG"}
-writing [N]: ഒറ്റയടിക്ക് കൂടിയത് 1,280 രൂപ! ഇന്നത്തെ സ്വർണവില അറിയാം
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV2n4mW6Zu4cctHzmsxo"}
-writing [N]: പൊന്നിന് തീവില? ആഭരണപ്രേമികളെ വട്ടംകറക്കി സ്വർണവില; ഇന്ന് പവ
-free models unavailable: free models not efficient (12 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV2n95hyvbHbBzpDgNgq"}
-ok gemini/gemini-3-flash-preview (9s)
-attempt 1 gemini/gemini-3-flash-preview: 1 problems
-  not grounded: location 'കേരളം' is not in the article
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-writing [N]: Gold Rate Today: വീണ്ടും കത്തിക്കയറുന്നോ  ? ; അറിയാം ഇന്നത്ത
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
-fail groq/openai/gpt-oss-20b: groq openai/gpt-oss-20b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-20b` in organization `org_
-prompt too large for the free models left - trying the compact prompt
-free models unavailable: free models not efficient (3 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV2nFipK1w9X3A1S8MZz"}
-proofread skipped: free models not efficient (3 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-fail groq/openai/gpt-oss-20b: groq openai/gpt-oss-20b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-20b` in organization `org_
-prompt too large for the free models left - trying the compact prompt
-free models unavailable: free models not efficient (6 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV2nKPLMSDLPeiF14bsW"}
-fail gemini/gemini-3-flash-preview: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-poor answer - skipped for 30 min: gemini/gemini-3-flash-preview
-fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
-fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
-fail groq/openai/gpt-oss-20b: groq openai/gpt-oss-20b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-20b` in organization `org_
-prompt too large for the free models left - trying the compact prompt
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV2quupHmHKfsP2Pv43t"}
-proofread skipped: free models not efficient (10 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-image match check unavailable: gemini-3.7-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.7-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-imagegen: pollinations 402: {"status":402,"success":false,"error":{"code":"FREE_LIMIT","message":"Free limit reached: 1 image every 45 seconds per IP. Retry after 45s, or get unlimited images with a Pollinations API key at https
-image match check unavailable: gemini-3.7-flash: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout
-imagegen: HTTPSConnectionPool(host='ai.api.nvidia.com', port=443): Read timed out. (read timeout=90) 504 timeout
-imagegen: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":217076}]}
-images NOT made for 'Gold prices drop in Kerala; Sovereign pr': all image models failed: all image models failed: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden","loc":["body","seed"],"msg":"Extra inputs are not permitted","input":217076}]}
-bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261128-1420","first":"MP-502"}
-posting job started at once
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-writing [N]: സ്വർണവില വീണ്ടും കൂടി; 2640 രൂപയുടെ മാറ്റം, ട്രെൻഡ് മാറി സ്വ
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3FxR3uANWb44g6NW7s"}
-bridge: 200 {"ok":true,"added":1,"auto_queued":0,"emailed":0,"reoffered":0,"batch":"B20261128-1420","first":"MP-503"}
-writing [N]: സ്വർണവില രണ്ടാമതും ഉയർന്നു; ഉച്ചക്ക് ശേഷമുണ്ടായത് വൻ വർധന
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-writing [R]: സംസ്ഥാന ജൂനിയർ ബോൾ ബാഡ്മിന്റൻ മത്സരങ്ങൾ തിരുവാലിയിൽ
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3GFGZaqY6RkhvXC7Xh"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3GFLY8wdQE8bPbpAhv"}
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3KJkkekDf8TojLpbQF"}
 writing [N]: 14 ആരോഗ്യ കേന്ദ്രങ്ങൾക്ക് പുതിയ കെട്ടിടങ്ങൾ നിർമിക്കുന്നതിന്
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3GG3gvfW1ehp4dW4aX"}
-writing [N]: കടുങ്ങപുരം ജി.എച്ച്.എസ്.എസിന് വികസനത്തിൻ്റെ കരുത്ത്; ബെഞ്ചും
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-writing [N]: രക്ഷാകർതൃ പരിശീലന പരിപാടി | Madhyamam
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3GHSHBfS3FbcJDQXsG"}
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3GHaDZpkZwU26odDqc"}
-writing [N]: ചെറുകുളമ്പ് ഐ.കെ.ടി.എച്ച്.എസ്.എസിൽ എസ്.പി.സി. കേഡറ്റുകളുടെ ബ
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3GJ9hshBDk5RDC9WdN"}
-writing [N]: മലപ്പുറത്തെ ദമ്പതികളുടെ സ്വർണതട്ടിപ്പിൽ ഇരയായവരിൽ വീട്ടുജോലി
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3GKpewh6cyFr1eY3YX"}
-writing [N]: വമ്പൻ കേസുകളുടെ കുരുക്കഴിച്ച എസ്.പി. മോഹനചന്ദ്രൻ പടിയിറങ്ങുന
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3GLa4P34BWoNepeF72"}
-writing [N]: എസ്.കെ.എസ്.എസ്.എഫ് മനുഷ്യാവകാശ മഹാറാലിയിൽ ആയിരങ്ങൾ പങ്കാളികള
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3GM4pVY4Cq97HhSu4d"}
-writing [N]: ആംബുലൻസുകളുടെ ഫ്ലാഗ് ഓഫ്
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3GMcYzKhAGTWUKjKLM"}writing [N]: 'ഭാര്യക്ക് മുഖക്കുരുവിനാണ് ക്രീം കുറിച്ചുനൽകിയത്, പൊള്ളലടക്ക
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3KX7tdUoe3KMhgXd73"}
+writing [R]: സംസ്ഥാന ജൂനിയർ ബോൾ ബാഡ്മിന്റൻ മത്സരങ്ങൾ തിരുവാലിയിൽ
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3KZBAk6UCEYHUQWDgQ"}writing [N]: രക്ഷാകർതൃ പരിശീലന പരിപാടി | Madhyamam
 
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3GMwea2zykkAT6Gegq"}
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3KZaj3QdNwg3iHVsF2"}
+writing [N]: കടുങ്ങപുരം ജി.എച്ച്.എസ്.എസിന് വികസനത്തിൻ്റെ കരുത്ത്; ബെഞ്ചും
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3KZynb5vq6k3JXKWbh"}
+writing [N]: ചെറുകുളമ്പ് ഐ.കെ.ടി.എച്ച്.എസ്.എസിൽ എസ്.പി.സി. കേഡറ്റുകളുടെ ബ
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3KaLrkYAajL7PD6nLw"}
+writing [N]: 'ഭാര്യക്ക് മുഖക്കുരുവിനാണ് ക്രീം കുറിച്ചുനൽകിയത്, പൊള്ളലടക്ക
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+writing [N]: മലപ്പുറത്തെ ദമ്പതികളുടെ സ്വർണതട്ടിപ്പിൽ ഇരയായവരിൽ വീട്ടുജോലി
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3Kb2o1JKEEciTghpdz"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3KbFwDvxcvfYa9Tats"}
+writing [N]: എസ്.കെ.എസ്.എസ്.എഫ് മനുഷ്യാവകാശ മഹാറാലിയിൽ ആയിരങ്ങൾ പങ്കാളികള
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+writing [N]: വമ്പൻ കേസുകളുടെ കുരുക്കഴിച്ച എസ്.പി. മോഹനചന്ദ്രൻ പടിയിറങ്ങുന
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3KbpfHK8iC99b8i6ku"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3KbwrVYBBv5JWr8Dv4"}
+writing [N]: ആംബുലൻസുകളുടെ ഫ്ലാഗ് ഓഫ്
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3KcJBsg4W5d5ck3uXi"}
 writing [N]: ഭരണഘടനയെ സംരക്ഷിക്കാൻ ജനാധിപത്യ പോരാട്ടത്തിനിറങ്ങുക: സണ്ണി എ
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3GNXNz9u7W1Di3xPFD"}
-writing [N]: ചാഞ്ചാട്ടം തുടർന്ന് സ്വർണം; പവന് ഇന്ന് 1,280 രൂപ കൂടി – Kera
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3GNxfX51Zy1XxpCaBz"}
-write_stories.yml started
+free models unavailable: free models not efficient (17 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3KcjUQQ1v3PfRAsm1i"}
+fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high d
+fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please che
+dead for this round: gemini/gemini-3.5-flash
+fail groq/openai/gpt-oss-120b: groq openai/gpt-oss-120b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `or
+fail groq/qwen/qwen3.8-27b: groq qwen/qwen3.8-27b 413: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m6
+fail groq/openai/gpt-oss-20b: groq openai/gpt-oss-20b 413: {"error":{"message":"Request too large for model `openai/gpt-oss-20b` in organization `org_
+prompt too large for the free models left - trying the compact prompt
+free models unavailable: free models not efficient (22 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV3Q1zaByigu1L8eWWjG"}
 earlier stories still waiting for images: []
 instagram check: 95 recent posts read from all pages
-write round: 33 news waiting in the queue (written in priority order)
-candidate filter: collected=33
-to write: 1 Manjeri + 0 Kondotty + 32 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 1 Manjeri, 0 Kondotty, 32 Malappuram; time left 29 min
-try (N) manual=False: പിതൃസഹോദരനെ ആക്രമിച്ച കേസ്: പ്രതികൾക്ക് ഏഴുമാസം തടവുശിക്ഷ |
+write round: 31 news waiting in the queue (written in priority order)
+candidate filter: collected=31
+to write: 1 Manjeri + 0 Kondotty + 30 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 1 Manjeri, 0 Kondotty, 30 Malappuram; time left 29 min
 try (N) manual=False: അയ്യപ്പൻമാർക്ക് തുണയായി ശബരി: റവന്യൂ വകുപ്പിന് മാതൃകയാക്കാവു
-try (N) manual=False: സംസ്ഥാനത്ത് സ്വർണവിലയിൽ നേരിയ ഇടിവ്; പവന് 400 രൂപ കുറഞ്ഞു
-NOT filed (N) അയ്യപ്പൻമാർക്ക് തുണയായി ശബരി: റവന്യൂ വകുപ്പിന് മാത: all free models failed: no usable answer from the models
 try (N) manual=False: സ്വർണവില വീണ്ടും ഇടിഞ്ഞു; ഡോളർ കുതിപ്പിൽ സ്വർണത്തിന് അടിതെറ്
-NOT filed (N) സ്വർണവില വീണ്ടും ഇടിഞ്ഞു; ഡോളർ കുതിപ്പിൽ സ്വർണത്തി: all free models failed: no usable answer from the models
 try (N) manual=False: നവംബർ 28-ലെ സ്വർണവില; പൊന്നിന്റെ കളികൾ തുടരും | Kerala Gold 
-NOT filed (N) നവംബർ 28-ലെ സ്വർണവില; പൊന്നിന്റെ കളികൾ തുടരും | Ke: all free models failed: no usable answer from the models
+skip (N) today's price is already filed: നവംബർ 28-ലെ സ്വർണവില; പൊന്നിന്റെ കളികൾ തുടരും | Ke
 try (N) manual=False: മേലാറ്റൂർ അങ്ങാടിയിൽനിന്ന് സകൂൾപ്പടിയിലേക്ക് റോഡരികിൽ വേണം ന
-NOT filed (N) മേലാറ്റൂർ അങ്ങാടിയിൽനിന്ന് സകൂൾപ്പടിയിലേക്ക് റോഡരി: all free models failed: no usable answer from the models
+skip (N) today's price is already filed: സ്വർണവില വീണ്ടും ഇടിഞ്ഞു; ഡോളർ കുതിപ്പിൽ സ്വർണത്തി
 try (N) manual=False: തദ്ദേശ പദ്ധതികളിൽ ഇടപെടാൻ വയോജനങ്ങളും; കാരണവന്മാരും ഇനി കാര്
-NOT filed (N) തദ്ദേശ പദ്ധതികളിൽ ഇടപെടാൻ വയോജനങ്ങളും; കാരണവന്മാരു: all free models failed: no usable answer from the models
+NOT filed (N) മേലാറ്റൂർ അങ്ങാടിയിൽനിന്ന് സകൂൾപ്പടിയിലേക്ക് റോഡരി: all free models failed: no usable answer from the models
 try (N) manual=False: സ്വർണവില ഇന്ന് (28 നവംബർ 2026): പവന് ₹400 കുറഞ്ഞു; ഒരു പവന് 
-NOT filed (N) സ്വർണവില ഇന്ന് (28 നവംബർ 2026): പവന് ₹400 കുറഞ്ഞു;: all free models failed: no usable answer from the models
+NOT filed (N) തദ്ദേശ പദ്ധതികളിൽ ഇടപെടാൻ വയോജനങ്ങളും; കാരണവന്മാരു: all free models failed: no usable answer from the models
 try (N) manual=False: സ്വർണവില ഇന്ന് കുറഞ്ഞു, നേരിയ ആശ്വാസം..ഇനിയും താഴേക്കോ? ഇന്ന
-NOT filed (N) സ്വർണവില ഇന്ന് കുറഞ്ഞു, നേരിയ ആശ്വാസം..ഇനിയും താഴേ: all free models failed: no usable answer from the models
+skip (N) today's price is already filed: സ്വർണവില ഇന്ന് കുറഞ്ഞു, നേരിയ ആശ്വാസം..ഇനിയും താഴേ
 try (N) manual=False: സ്വർണവില 50,000ത്തിലേക്ക് അല്ല..പവൻ വില 1.75 ലക്ഷത്തിലേക്ക്.
-NOT filed (N) സ്വർണവില 50,000ത്തിലേക്ക് അല്ല..പവൻ വില 1.75 ലക്ഷത: all free models failed: no usable answer from the models
+skip (N) today's price is already filed: സ്വർണവില 50,000ത്തിലേക്ക് അല്ല..പവൻ വില 1.75 ലക്ഷത
 try (N) manual=False: കുതിപ്പിന് തടയിട്ട് സ്വർണ വിലയിൽ വീണ്ടും ഇടിവ് | Madhyamam
-NOT filed (N) കുതിപ്പിന് തടയിട്ട് സ്വർണ വിലയിൽ വീണ്ടും ഇടിവ് | M: all free models failed: no usable answer from the models
+skip (N) today's price is already filed: കുതിപ്പിന് തടയിട്ട് സ്വർണ വിലയിൽ വീണ്ടും ഇടിവ് | M
 try (N) manual=False: വിലയിരുത്തലുകൾ പാളി! സ്വർണ വില ഇന്നും താഴേക്ക്; 400 രൂപയുടെ 
-NOT filed (N) വിലയിരുത്തലുകൾ പാളി! സ്വർണ വില ഇന്നും താഴേക്ക്; 40: all free models failed: no usable answer from the models
+skip (N) today's price is already filed: വിലയിരുത്തലുകൾ പാളി! സ്വർണ വില ഇന്നും താഴേക്ക്; 40
 try (N) manual=False: ഡോളർ കുതിച്ചു; സ്വർണവില ഇടിഞ്ഞു
-NOT filed (N) ഡോളർ കുതിച്ചു; സ്വർണവില ഇടിഞ്ഞു: all free models failed: no usable answer from the models
+skip (N) similar to a filed story: സ്വർണവില ഇന്ന് (28 നവംബർ 2026): പവന് ₹400 കുറഞ്ഞു;
 try (N) manual=False: കയറിക്കയറി പഴയ പടിയിലേക്കാണോ? സംസ്ഥാനത്ത് സ്വർണ വിലയിൽ വർധനവ
-NOT filed (N) കയറിക്കയറി പഴയ പടിയിലേക്കാണോ? സംസ്ഥാനത്ത് സ്വർണ വി: all free models failed: no usable answer from the models
+skip (N) today's price is already filed: കയറിക്കയറി പഴയ പടിയിലേക്കാണോ? സംസ്ഥാനത്ത് സ്വർണ വി
 try (N) manual=False: TODAY'S GOLD RATE|സ്വർണവിലയിൽ മുന്നേറ്റം;പവന് 1280 രൂപ ഉയർന്
-NOT filed (N) TODAY'S GOLD RATE|സ്വർണവിലയിൽ മുന്നേറ്റം;പവന് 1280: all free models failed: no usable answer from the models
+skip (N) today's price is already filed: ഡോളർ കുതിച്ചു; സ്വർണവില ഇടിഞ്ഞു
 try (N) manual=False: ഒറ്റയടിക്ക് കൂടിയത് 1,280 രൂപ! ഇന്നത്തെ സ്വർണവില അറിയാം
-NOT filed (N) ഒറ്റയടിക്ക് കൂടിയത് 1,280 രൂപ! ഇന്നത്തെ സ്വർണവില അ: all free models failed: no usable answer from the models
+skip (N) today's price is already filed: TODAY'S GOLD RATE|സ്വർണവിലയിൽ മുന്നേറ്റം;പവന് 1280
 try (N) manual=False: പൊന്നിന് തീവില? ആഭരണപ്രേമികളെ വട്ടംകറക്കി സ്വർണവില; ഇന്ന് പവ
-NOT filed (N) പൊന്നിന് തീവില? ആഭരണപ്രേമികളെ വട്ടംകറക്കി സ്വർണവില: all free models failed: no usable answer from the models
+skip (N) today's price is already filed: ഒറ്റയടിക്ക് കൂടിയത് 1,280 രൂപ! ഇന്നത്തെ സ്വർണവില അ
 try (N) manual=False: Gold Rate Today: വീണ്ടും കത്തിക്കയറുന്നോ  ? ; അറിയാം ഇന്നത്ത
-auto images failed for 'Gold prices drop in Kerala; Sovereign pr': all image models failed: all image models failed: black-forest-labs/flux.1-dev 422: {"detail":[{"type":"extra_forbidden" -> images-needed email
-auto images: 0 of 1 stories ({'pollinations': 3})
-posting job started at once
+skip (N) today's price is already filed: Gold Rate Today: വീണ്ടും കത്തിക്കയറുന്നോ  ? ; അറിയ
 try (N) manual=False: സ്വർണവില വീണ്ടും കൂടി; 2640 രൂപയുടെ മാറ്റം, ട്രെൻഡ് മാറി സ്വ
-auto images: 0 of 1 stories ({'pollinations': 3})
-NOT filed (N) Gold Rate Today: വീണ്ടും കത്തിക്കയറുന്നോ  ? ; അറിയ: all free models failed: no usable answer from the models
+skip (N) today's price is already filed: സ്വർണവില വീണ്ടും കൂടി; 2640 രൂപയുടെ മാറ്റം, ട്രെൻഡ
 try (N) manual=False: സ്വർണവില രണ്ടാമതും ഉയർന്നു; ഉച്ചക്ക് ശേഷമുണ്ടായത് വൻ വർധന
+skip (N) today's price is already filed: പൊന്നിന് തീവില? ആഭരണപ്രേമികളെ വട്ടംകറക്കി സ്വർണവില
 try (R) manual=False: സംസ്ഥാന ജൂനിയർ ബോൾ ബാഡ്മിന്റൻ മത്സരങ്ങൾ തിരുവാലിയിൽ
-NOT filed (N) സ്വർണവില വീണ്ടും കൂടി; 2640 രൂപയുടെ മാറ്റം, ട്രെൻഡ: all free models failed: no usable answer from the models
+skip (N) today's price is already filed: സ്വർണവില രണ്ടാമതും ഉയർന്നു; ഉച്ചക്ക് ശേഷമുണ്ടായത് 
 try (N) manual=False: 14 ആരോഗ്യ കേന്ദ്രങ്ങൾക്ക് പുതിയ കെട്ടിടങ്ങൾ നിർമിക്കുന്നതിന്
-NOT filed (R) സംസ്ഥാന ജൂനിയർ ബോൾ ബാഡ്മിന്റൻ മത്സരങ്ങൾ തിരുവാലിയി: all free models failed: no usable answer from the models
-try (N) manual=False: News@Net - നിലമ്പൂർ ബൈപാസ്: മൂന്നു പതിറ്റാണ്ടിന്റെ കാത്തിരിപ
-NOT filed (N) സ്വർണവില രണ്ടാമതും ഉയർന്നു; ഉച്ചക്ക് ശേഷമുണ്ടായത് : all free models failed: no usable answer from the models
-try (N) manual=False: രക്ഷാകർതൃ പരിശീലന പരിപാടി | Madhyamam
 NOT filed (N) 14 ആരോഗ്യ കേന്ദ്രങ്ങൾക്ക് പുതിയ കെട്ടിടങ്ങൾ നിർമിക: all free models failed: no usable answer from the models
-try (N) manual=False: കടുങ്ങപുരം ജി.എച്ച്.എസ്.എസിന് വികസനത്തിൻ്റെ കരുത്ത്; ബെഞ്ചും
+try (N) manual=False: News@Net - നിലമ്പൂർ ബൈപാസ്: മൂന്നു പതിറ്റാണ്ടിന്റെ കാത്തിരിപ
 skip (N) could not open: News@Net - നിലമ്പൂർ ബൈപാസ്: മൂന്നു പതിറ്റാണ്ടിന്റെ [https://www.newsatnet.com/news/kerala/389756/] 429 Client Error: Too Many Requests for url: https://www.newsatnet.com/news/kera
+try (N) manual=False: രക്ഷാകർതൃ പരിശീലന പരിപാടി | Madhyamam
+NOT filed (R) സംസ്ഥാന ജൂനിയർ ബോൾ ബാഡ്മിന്റൻ മത്സരങ്ങൾ തിരുവാലിയി: all free models failed: no usable answer from the models
+try (N) manual=False: കടുങ്ങപുരം ജി.എച്ച്.എസ്.എസിന് വികസനത്തിൻ്റെ കരുത്ത്; ബെഞ്ചും
+NOT filed (N) രക്ഷാകർതൃ പരിശീലന പരിപാടി | Madhyamam: all free models failed: no usable answer from the models
 try (N) manual=False: ചെറുകുളമ്പ് ഐ.കെ.ടി.എച്ച്.എസ്.എസിൽ എസ്.പി.സി. കേഡറ്റുകളുടെ ബ
 NOT filed (N) കടുങ്ങപുരം ജി.എച്ച്.എസ്.എസിന് വികസനത്തിൻ്റെ കരുത്ത: all free models failed: no usable answer from the models
 try (N) manual=False: മലപ്പുറത്തെ ദമ്പതികളുടെ സ്വർണതട്ടിപ്പിൽ ഇരയായവരിൽ വീട്ടുജോലി
-NOT filed (N) രക്ഷാകർതൃ പരിശീലന പരിപാടി | Madhyamam: all free models failed: no usable answer from the models
-try (N) manual=False: 'ഭാര്യക്ക് മുഖക്കുരുവിനാണ് ക്രീം കുറിച്ചുനൽകിയത്, പൊള്ളലടക്ക
 NOT filed (N) ചെറുകുളമ്പ് ഐ.കെ.ടി.എച്ച്.എസ്.എസിൽ എസ്.പി.സി. കേഡറ: all free models failed: no usable answer from the models
+try (N) manual=False: 'ഭാര്യക്ക് മുഖക്കുരുവിനാണ് ക്രീം കുറിച്ചുനൽകിയത്, പൊള്ളലടക്ക
+NOT filed (N) 'ഭാര്യക്ക് മുഖക്കുരുവിനാണ് ക്രീം കുറിച്ചുനൽകിയത്, : all free models failed: no usable answer from the models
 try (N) manual=False: എസ്.കെ.എസ്.എസ്.എഫ് മനുഷ്യാവകാശ മഹാറാലിയിൽ ആയിരങ്ങൾ പങ്കാളികള
 NOT filed (N) മലപ്പുറത്തെ ദമ്പതികളുടെ സ്വർണതട്ടിപ്പിൽ ഇരയായവരിൽ : all free models failed: no usable answer from the models
 try (N) manual=False: വമ്പൻ കേസുകളുടെ കുരുക്കഴിച്ച എസ്.പി. മോഹനചന്ദ്രൻ പടിയിറങ്ങുന
-NOT filed (N) വമ്പൻ കേസുകളുടെ കുരുക്കഴിച്ച എസ്.പി. മോഹനചന്ദ്രൻ പ: all free models failed: no usable answer from the models
-try (N) manual=False: ആംബുലൻസുകളുടെ ഫ്ലാഗ് ഓഫ്
 NOT filed (N) എസ്.കെ.എസ്.എസ്.എഫ് മനുഷ്യാവകാശ മഹാറാലിയിൽ ആയിരങ്ങൾ: all free models failed: no usable answer from the models
+try (N) manual=False: ആംബുലൻസുകളുടെ ഫ്ലാഗ് ഓഫ്
+NOT filed (N) വമ്പൻ കേസുകളുടെ കുരുക്കഴിച്ച എസ്.പി. മോഹനചന്ദ്രൻ പ: all free models failed: no usable answer from the models
 try (N) manual=False: ഭരണഘടനയെ സംരക്ഷിക്കാൻ ജനാധിപത്യ പോരാട്ടത്തിനിറങ്ങുക: സണ്ണി എ
 NOT filed (N) ആംബുലൻസുകളുടെ ഫ്ലാഗ് ഓഫ്: all free models failed: no usable answer from the models
 try (N) manual=False: ചാഞ്ചാട്ടം തുടർന്ന് സ്വർണം; പവന് ഇന്ന് 1,280 രൂപ കൂടി – Kera
-NOT filed (N) 'ഭാര്യക്ക് മുഖക്കുരുവിനാണ് ക്രീം കുറിച്ചുനൽകിയത്, : all free models failed: no usable answer from the models
 NOT filed (N) ഭരണഘടനയെ സംരക്ഷിക്കാൻ ജനാധിപത്യ പോരാട്ടത്തിനിറങ്ങു: all free models failed: no usable answer from the models
-NOT filed (N) ചാഞ്ചാട്ടം തുടർന്ന് സ്വർണം; പവന് ഇന്ന് 1,280 രൂപ ക: all free models failed: no usable answer from the models
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 32, 'K': 0}, done={'R': 0, 'N': 2, 'K': 0}, time left 23 min
-carousel for 0 of 2 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 2 Malappuram (targets 200 + 200 + 200)
-queue: 31 news waiting to be written
-write_stories.yml started
-All News sheet: {"ok":true,"added":0,"updated":33} 
-stories: 2
+skip (N) today's price is already filed: ചാഞ്ചാട്ടം തുടർന്ന് സ്വർണം; പവന് ഇന്ന് 1,280 രൂപ ക
+NOT filed (N) അയ്യപ്പൻമാർക്ക് തുണയായി ശബരി: റവന്യൂ വകുപ്പിന് മാത: all free models failed: no usable answer from the models
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 1, 'N': 30, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 28 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
+queue: 15 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":15} 
+stories: 0
