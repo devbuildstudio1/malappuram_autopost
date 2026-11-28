@@ -1,4 +1,4 @@
-writing [N]: ചെറുകുളമ്പ് ഐ.കെ.ടി.എച്ച്.എസ്.എസിൽ എസ്.പി.സി. കേഡറ്റുകളുടെ ബ
+writing [N]: മതിൽ ഇടിഞ്ഞുവീണ് അപകടം; നാല് തൊഴിലാളികൾക്ക് പരിക്ക്; ഒരാളുടെ
 gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
 groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
 fail gemini/gemini-3.8-flash: gemini gemini-3.8-flash 429: {
@@ -16,26 +16,22 @@ fail gemini/gemini-3.6-flash: gemini gemini-3.6-flash 429: {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.6-flash
+writing [N]: നിലമ്പൂർ ഉപജില്ലാ കലോത്സവത്തിൽ കൽക്കുളം എൽപിക്ക്് ഒന്നാം സ്ഥ
+free models unavailable: free models not efficient (3 failures in a row): using Claude
 fail gemini/gemini-3.5-flash: gemini gemini-3.5-flash 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please che
 dead for this round: gemini/gemini-3.5-flash
-ok gemini/gemini-3-flash-preview (13s)
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
-ok gemini/gemini-3-flash-preview (5s)
-factcheck by gemini/gemini-3-flash-preview: 1 problems
-  The reel script incorrectly expands SPC as 'Police Superintendents cadets' (പോലീസ് സൂപ്രണ്ട്സി കേഡറ്റുകളുടെ) instead of Student Police Cadets
-attempt 1 gemini/gemini-3-flash-preview: 1 problems
-  fact-check: The reel script incorrectly expands SPC as 'Police Superintendents cadets' (പോലീസ് സൂപ്രണ്ട്സി കേഡറ്റുകളുടെ) instead of Student Police Cadets
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-groq models: openai/gpt-oss-120b, qwen/qwen3.8-27b, openai/gpt-oss-20b
+writing [N]: വൻ അപകടം ഒഴിവായത് തലനാരിഴയ്ക്ക്...!  ജോലിക്കിടെ കരിങ്കൽ മതിൽ
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChVLUi3gvp7n956HFF3M1"}
+free models unavailable: free models not efficient (4 failures in a row): using Claude
 fail gemini/gemini-3-flash-preview: gemini gemini-3-flash-preview 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, plea
 dead for this round: gemini/gemini-3-flash-preview
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChVLUiT1ASvK5XkVPwfJK"}
 fail gemini/gemini-2.5-flash: gemini gemini-2.5-flash 404: {
   "error": {
     "code": 404,
@@ -61,32 +57,65 @@ dead for this round: cloudflare/@cf/mistralai/mistral-small-3.1-24b-instruct
 fail mistral/mistral-small-latest: mistral mistral-small-latest 402: {"object":"error","message":"You need a subscription to access this API.","type":"bill
 not available on this plan: mistral/mistral-small-latest
 prompt too large for the free models left - trying the compact prompt
-free models unavailable: free models not efficient (10 failures in a row): using Claude
-claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChV7b2B1ngvNHftcBiFXL"}
-proofread skipped: free models not efficient (10 failures in a row): using Claude
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-image brief failed, using the writer's scenes: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_01
-imagegen: cloudflare black-forest-labs/flux-1-schnell 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like 
-gemini models: gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-omni-1.2-flash, gemini-omni-1.1-flash
-image match check unavailable: gemini-3.7-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.7-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.7-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/g
-image match check unavailable: gemini-3.7-flash: 503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models
-images made: 4 for 'SPC cadets take pledge against child mar'
-bridge: 200 {"ok":true,"added":1,"auto_queued":1,"emailed":0,"reoffered":0,"batch":"B20261128-1520","first":"MP-511"}
-posting job started at once
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChVLUp6qGsbzn7NuZkw1B"}
+writing [N]: എരണാകരനെല്ലൂർ സുബ്രഹ്മണ്യസ്വാമി ക്ഷേത്രത്തിൽ ശിവപുരാണ യജ്ഞം
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChVLUrE4wB4ZYSPkJMbmq"}
+writing [N]: വമ്പൻ കേസുകളുടെ കുരുക്കഴിച്ച എസ്.പി. മോഹനചന്ദ്രൻ പടിയിറങ്ങുന
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+writing [N]: മലപ്പുറത്തെ ദമ്പതികളുടെ സ്വർണതട്ടിപ്പിൽ ഇരയായവരിൽ വീട്ടുജോലി
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChVLUs4vaEWhm42nXgx5T"}
+writing [N]: ആംബുലൻസുകളുടെ ഫ്ലാഗ് ഓഫ്
+free models unavailable: free models not efficient (14 failures in a row): using Claude
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChVLUsSkBPypw9VhFhCQk"}
+claude rewrite failed: anthropic 401 {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChVLUsh8RQi8nrgbt8geg"}
 earlier stories still waiting for images: []
 instagram check: 96 recent posts read from all pages
-write round: 1 news waiting in the queue (written in priority order)
-candidate filter: collected=1
-to write: 0 Manjeri + 0 Kondotty + 1 other district candidates (max 200 + 200 + 200 stories)
-candidates waiting: 0 Manjeri, 0 Kondotty, 1 Malappuram; time left 29 min
-try (N) manual=False: ചെറുകുളമ്പ് ഐ.കെ.ടി.എച്ച്.എസ്.എസിൽ എസ്.പി.സി. കേഡറ്റുകളുടെ ബ
-auto images: 1 of 1 stories ({'pollinations': 4})
-posting job started at once
-candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 1, 'K': 0}, done={'R': 0, 'N': 1, 'K': 0}, time left 26 min
-carousel for 0 of 1 stories, the rest reel only
-filed: 0 Manjeri + 0 Kondotty + 1 Malappuram (targets 200 + 200 + 200)
-queue: 0 news waiting to be written
-All News sheet: {"ok":true,"added":0,"updated":1} 
-stories: 1
+write round: 26 news waiting in the queue (written in priority order)
+candidate filter: collected=18, already filed=3, not written=2, not written=1, not written=1, not written=1
+to write: 0 Manjeri + 0 Kondotty + 18 other district candidates (max 200 + 200 + 200 stories)
+candidates waiting: 0 Manjeri, 0 Kondotty, 18 Malappuram; time left 29 min
+try (N) manual=False: മതിൽ ഇടിഞ്ഞുവീണ് അപകടം; നാല് തൊഴിലാളികൾക്ക് പരിക്ക്; ഒരാളുടെ
+try (N) manual=False: വൻ അപകടം ഒഴിവായത് തലനാരിഴയ്ക്ക്...!  ജോലിക്കിടെ കരിങ്കൽ മതിൽ
+try (N) manual=False: നിലമ്പൂർ ഉപജില്ലാ കലോത്സവത്തിൽ കൽക്കുളം എൽപിക്ക്് ഒന്നാം സ്ഥ
+NOT filed (N) നിലമ്പൂർ ഉപജില്ലാ കലോത്സവത്തിൽ കൽക്കുളം എൽപിക്ക്് : all free models failed: no usable answer from the models
+try (N) manual=False: സ്വർണവില 80,000ത്തിലേക്ക് വീഴും..പിന്നെ 2 പവൻ 2 ലക്ഷത്തിന് പ
+NOT filed (N) വൻ അപകടം ഒഴിവായത് തലനാരിഴയ്ക്ക്...!  ജോലിക്കിടെ കര: all free models failed: no usable answer from the models
+try (N) manual=False: സ്വർണവില ഇന്ന് (28 നവംബർ 2026): പവന് ₹400 കുറഞ്ഞു; ഒരു പവന് 
+skip (N) today's price is already filed: സ്വർണവില 80,000ത്തിലേക്ക് വീഴും..പിന്നെ 2 പവൻ 2 ലക
+try (N) manual=False: കുതിപ്പിന് ബ്രേക്കിട്ട് സ്വർണവില; സംസ്ഥാനത്ത് ഇന്ന് പവന് കുറ
+skip (N) similar to a filed story: സ്വർണവില ഇന്ന് (28 നവംബർ 2026): പവന് ₹400 കുറഞ്ഞു;
+try (N) manual=False: സ്വർണവില വീണ്ടും ഇടിഞ്ഞു; ഡോളർ കുതിപ്പിൽ സ്വർണത്തിന് അടിതെറ്
+skip (N) similar to a filed story: കുതിപ്പിന് ബ്രേക്കിട്ട് സ്വർണവില; സംസ്ഥാനത്ത് ഇന്ന
+try (N) manual=False: സ്വർണവില പിന്നെയും ഇടിഞ്ഞു; ഇനിയും കുറയാൻ സാധ്യത
+skip (N) today's price is already filed: സ്വർണവില വീണ്ടും ഇടിഞ്ഞു; ഡോളർ കുതിപ്പിൽ സ്വർണത്തി
+try (N) manual=False: ഡോളർ കുതിച്ചു; സ്വർണവില ഇടിഞ്ഞു
+skip (N) today's price is already filed: സ്വർണവില പിന്നെയും ഇടിഞ്ഞു; ഇനിയും കുറയാൻ സാധ്യത
+try (N) manual=False: നവംബർ 28-ലെ സ്വർണവില; പൊന്നിന്റെ കളികൾ തുടരും | Kerala Gold 
+skip (N) today's price is already filed: ഡോളർ കുതിച്ചു; സ്വർണവില ഇടിഞ്ഞു
+try (N) manual=False: സ്വർണവില ഇന്ന് കുറഞ്ഞു, നേരിയ ആശ്വാസം..ഇനിയും താഴേക്കോ? ഇന്ന
+NOT filed (N) മതിൽ ഇടിഞ്ഞുവീണ് അപകടം; നാല് തൊഴിലാളികൾക്ക് പരിക്ക: all free models failed: no usable answer from the models
+try (N) manual=False: പ്രതീക്ഷ തകർത്ത് സ്വർണം, വൻ കുതിപ്പ്; നവംബർ 27-ലെ വില | Kera
+skip (N) today's price is already filed: നവംബർ 28-ലെ സ്വർണവില; പൊന്നിന്റെ കളികൾ തുടരും | Ke
+try (N) manual=False: വിലയിരുത്തലുകൾ പാളി! സ്വർണ വില ഇന്നും താഴേക്ക്; 400 രൂപയുടെ 
+skip (N) today's price is already filed: സ്വർണവില ഇന്ന് കുറഞ്ഞു, നേരിയ ആശ്വാസം..ഇനിയും താഴേ
+try (N) manual=False: എരണാകരനെല്ലൂർ സുബ്രഹ്മണ്യസ്വാമി ക്ഷേത്രത്തിൽ ശിവപുരാണ യജ്ഞം
+skip (N) today's price is already filed: പ്രതീക്ഷ തകർത്ത് സ്വർണം, വൻ കുതിപ്പ്; നവംബർ 27-ലെ 
+try (N) manual=False: മലപ്പുറത്തെ ദമ്പതികളുടെ സ്വർണതട്ടിപ്പിൽ ഇരയായവരിൽ വീട്ടുജോലി
+NOT filed (N) എരണാകരനെല്ലൂർ സുബ്രഹ്മണ്യസ്വാമി ക്ഷേത്രത്തിൽ ശിവപു: all free models failed: no usable answer from the models
+try (N) manual=False: വമ്പൻ കേസുകളുടെ കുരുക്കഴിച്ച എസ്.പി. മോഹനചന്ദ്രൻ പടിയിറങ്ങുന
+NOT filed (N) വമ്പൻ കേസുകളുടെ കുരുക്കഴിച്ച എസ്.പി. മോഹനചന്ദ്രൻ പ: all free models failed: no usable answer from the models
+try (N) manual=False: ആംബുലൻസുകളുടെ ഫ്ലാഗ് ഓഫ്
+NOT filed (N) മലപ്പുറത്തെ ദമ്പതികളുടെ സ്വർണതട്ടിപ്പിൽ ഇരയായവരിൽ : all free models failed: no usable answer from the models
+try (N) manual=False: ഹരിതകർമസേന കാർഡ് നിർബന്ധമാക്കാൻ തീരുമാനം.... ഹരിതകർമസേനയ്ക്ക
+skip (N) today's price is already filed: വിലയിരുത്തലുകൾ പാളി! സ്വർണ വില ഇന്നും താഴേക്ക്; 40
+NOT filed (N) ആംബുലൻസുകളുടെ ഫ്ലാഗ് ഓഫ്: all free models failed: no usable answer from the models
+skip (N) similar to a filed story: ഹരിതകർമസേന കാർഡ് നിർബന്ധമാക്കാൻ തീരുമാനം.... ഹരിതക
+candidate loop ended: left R=0 K=0 N=0, tried={'R': 0, 'N': 18, 'K': 0}, done={'R': 0, 'N': 0, 'K': 0}, time left 29 min
+carousel for 0 of 0 stories, the rest reel only
+filed: 0 Manjeri + 0 Kondotty + 0 Malappuram (targets 200 + 200 + 200)
+queue: 7 news waiting to be written
+All News sheet: {"ok":true,"added":0,"updated":12} 
+stories: 0
